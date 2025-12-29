@@ -66,8 +66,8 @@ teraToGiga(4);
 teraToMega(4);
 
 
-function printSum(a,b) {
-  console.log(a+b)
+function printSum(num1, num2) {
+  console.log(num1 + num2)
 };
 
 printSum(10,20);
@@ -80,3 +80,26 @@ function bmiCalculator(name, w, h) {
 bmiCalculator('홀쭉이', w=43.52, h=160);
 bmiCalculator('코린이', w=61.25, h=175);
 bmiCalculator('통통이', w=77.76, h=180);
+
+
+
+function returnSum(num1, num2) {
+  return num1+ num2
+}
+
+console.log(returnSum(10,20));
+
+
+console.log(typeof true);
+console.log(typeof 'Hello'+'World');
+console.log(typeof 8 - 3);
+// typeof 연산자는 사칙연산보다 우선 연산됨
+
+
+// String, Number, Boolean
+console.log(typeof String(10));
+console.log(typeof Number('10'));
+console.log(Boolean(10));
+
+
+print()
