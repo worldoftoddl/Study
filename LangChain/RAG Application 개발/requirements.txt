@@ -1,0 +1,5 @@
+python-dotenv
+langchain-upstage
+langchain-pinecone
+langchain-anthropic
+langchain-core
