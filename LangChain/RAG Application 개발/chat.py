@@ -119,6 +119,6 @@ if user_question := st.chat_input(placeholder='무엇이 궁금하신가요?'):
 
 # Generate 
 # 온도나 P와 관련한 성능 테스트해보기
-# Ollama 한국어 모델 적용해서 claude와 비슷한 성능 내보기
+# GPU 이용한 Ollama 한국어 모델 적용해서 claude와 비슷한 성능 내보기
 
 ## BM25 - RAG 재생목록 첫 영상 참고

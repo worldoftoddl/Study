@@ -3,9 +3,10 @@ from langchain_pinecone import PineconeVectorStore
 from langchain_anthropic import ChatAnthropic
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnablePassthrough, RunnableLambda
-from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
+from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder, FewShotChatMessagePromptTemplate
 from langchain_core.chat_history import InMemoryChatMessageHistory          # 추가
 from langchain_core.runnables.history import RunnableWithMessageHistory     # 추가
+from config import output_examples
 
 
 
@@ -84,6 +85,18 @@ def get_contextualize_chain(llm=None):
 
 # Few-shot 추가 필요
 def get_tax_prompt():
+
+    example_prompt = ChatPromptTemplate.from_messages(
+        [
+            ("human", "{input}"),
+            ("ai", "{output}"),
+        ]
+    )
+    few_shot_prompt = FewShotChatMessagePromptTemplate(
+        example_prompt=example_prompt,
+        examples=output_examples,
+    )
+    
     rag_prompt = ChatPromptTemplate.from_messages([
         ("system", """당신은 대한민국 세법 전문가입니다. 
         다음 Context를 바탕으로 사용자의 질문에 답변해주세요.
@@ -94,9 +107,13 @@ def get_tax_prompt():
         3. 각 단계 설명은 1~2문장으로 짧게 요약하세요.
         4. 문서를 꼼꼼히 확인하고 사실과 다른 내용은 지어내지 마세요.
         
+        [Few-Shot 예시]
+        
+        
         Let's think step by step
         ---
         Context: {context}"""),
+        few_shot_prompt,
         MessagesPlaceholder("chat_history"),
         ("human", "{input}"),
     ])
@@ -145,6 +162,7 @@ def get_rag_chain(llm=None, retriever=None, contextualize_chain=None, rag_prompt
         rag_chain,
         get_session_history,
         input_messages_key="input",
+        output_messages_key="output",
         history_messages_key="chat_history",
     )
     
