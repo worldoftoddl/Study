@@ -3,7 +3,7 @@
 from dotenv import load_dotenv
 load_dotenv()
 
-from llm import get_ai_message      # 다른 파일에 있는건 함수에 대고 ctr + . 하면 import 단축키 나옴
+from llm import get_ai_response      # 다른 파일에 있는건 함수에 대고 ctr + . 하면 import 단축키 나옴
 
 
 import streamlit as st
@@ -27,12 +27,12 @@ if user_question := st.chat_input(placeholder='무엇이 궁금하신가요?'): 
     with st.chat_message('user'):
       st.write(user_question)
     st.session_state.message_list.append({'role': 'user', 'content': user_question})
-
-    with st.spinner('챗봇이 고민하는 중입니다'):
-      ai_message = get_ai_message(user_question)
-      with st.chat_message('ai'):   # ai message를 받아 이 부분에 넣어주면 됨
-        st.write(ai_message)
-      st.session_state.message_list.append({'role': 'ai', 'content': ai_message})
+    
+    with st.chat_message('ai'):
+        # st.write_stream()이 스트리밍 출력 후 전체 텍스트를 반환함
+        ai_response = st.write_stream(get_ai_response(user_question))
+    
+    st.session_state.message_list.append({'role': 'ai', 'content': ai_response})
 
 # 앞으로 해야 할 것들 정리
 
@@ -43,5 +43,6 @@ if user_question := st.chat_input(placeholder='무엇이 궁금하신가요?'): 
 
 # Generate 
 # 온도나 P와 관련한 성능 테스트해보기
+# Ollama 한국어 모델 적용해서 claude와 비슷한 성능 내보기
 
 ## BM25 - RAG 재생목록 첫 영상 참고

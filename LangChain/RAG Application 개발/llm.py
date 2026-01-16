@@ -150,16 +150,16 @@ def get_rag_chain(llm=None, retriever=None, contextualize_chain=None, rag_prompt
     
     return conversational_rag_chain
 
-def get_ai_message(user_message, session_id="abc123"):
+def get_ai_response(user_message, session_id="abc123"):
     # 1. 용어 변환
     dictionary_chain = get_dictionary_chain()
     refined_question = dictionary_chain.invoke({"question": user_message})
     
-    # 2. RAG + 히스토리
+    # 2. RAG + 히스토리 + Streaming
     rag_chain = get_rag_chain()
-    ai_message = rag_chain.invoke(
+    ai_response = rag_chain.stream(
         {"input": refined_question},
         config={"configurable": {"session_id": session_id}}
     )
     
-    return ai_message
+    return ai_response
