@@ -1,16 +1,16 @@
 # Streamlit은 사용자 상호작용이 있을 때마다 스크립트 전체를 다시 실행함.
 # 메시지 전송할 때마다 터미널에 숫자가 뜨는 걸로 확인 할 수 있음
 from dotenv import load_dotenv
-from llm import get_ai_message      # 다른 파일에 있는건 함수에 대고 ctr + . 하면 import 단축키 나옴
-
 load_dotenv()
+
+from llm import get_ai_message      # 다른 파일에 있는건 함수에 대고 ctr + . 하면 import 단축키 나옴
 
 
 import streamlit as st
 st.set_page_config(page_title='소득세 챗봇', page_icon= '🤖')
 
 st.title('🤖소득세 챗봇')
-st.caption('    소득세와 관련한 궁금증이 있으신가요?')
+st.caption('소득세와 관련한 궁금증이 있으신가요?')
 
 # st.session_state는 스크립트가 재실행되어도 초기화되지 않는 변수를 저장하는 딕셔너리
 if 'message_list' not in st.session_state:    # 다음번 세션에는 초기화되지 않도록
@@ -34,3 +34,14 @@ if user_question := st.chat_input(placeholder='무엇이 궁금하신가요?'): 
         st.write(ai_message)
       st.session_state.message_list.append({'role': 'ai', 'content': ai_message})
 
+# 앞으로 해야 할 것들 정리
+
+## Retrieval: 
+# 조문 별 청킹 및 수식 설명 추가 
+# 한번 불러온 청크들 가운데 관련성 있는 것들을 추리는 Chain 추가
+# 조특법 및 국기법
+
+# Generate 
+# 온도나 P와 관련한 성능 테스트해보기
+
+## BM25 - RAG 재생목록 첫 영상 참고
