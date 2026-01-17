@@ -6,6 +6,8 @@ from langchain_core.runnables import RunnablePassthrough, RunnableLambda
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder, FewShotChatMessagePromptTemplate
 from langchain_core.chat_history import InMemoryChatMessageHistory          # 추가
 from langchain_core.runnables.history import RunnableWithMessageHistory     # 추가
+from langsmith import traceable
+
 from config import output_examples
 
 
@@ -13,12 +15,14 @@ from config import output_examples
 # 세션별 히스토리 저장소
 store = {}
 
+@traceable
 def get_session_history(session_id: str):
     if session_id not in store:
         store[session_id] = InMemoryChatMessageHistory()
     return store[session_id]
 
 
+@traceable
 def get_claude(model='claude-3-haiku-20240307', temperature=0.05, top_p=1, max_tokens=None):
     claude = ChatAnthropic(
         model= model,
@@ -30,7 +34,8 @@ def get_claude(model='claude-3-haiku-20240307', temperature=0.05, top_p=1, max_t
         )
     return claude
   
-
+  
+@traceable
 def get_dictionary_chain(llm=None, dictionary=None):
     if llm is None:
         llm = get_claude()
@@ -51,10 +56,12 @@ def get_dictionary_chain(llm=None, dictionary=None):
     return dict_chain
 
 
+@traceable
 def format_docs(docs):
     return "\n\n".join(doc.page_content for doc in docs)
 
 
+@traceable
 def get_retriever(index_name=None, embedding=None, k=20, fetch_k=100):
     if index_name is None:
         index_name = 'tax-index-upstage'
@@ -67,6 +74,7 @@ def get_retriever(index_name=None, embedding=None, k=20, fetch_k=100):
 
 
 # 히스토리 기반 질문 재작성 체인
+@traceable
 def get_contextualize_chain(llm=None):
     if llm is None:
         llm = get_claude()
@@ -83,7 +91,7 @@ def get_contextualize_chain(llm=None):
     return contextualize_chain
 
 
-# Few-shot 추가 필요
+@traceable
 def get_tax_prompt():
 
     example_prompt = ChatPromptTemplate.from_messages(
@@ -118,6 +126,7 @@ def get_tax_prompt():
     return rag_prompt
 
 
+@traceable
 def get_rag_chain(llm=None, retriever=None, contextualize_chain=None, rag_prompt=None):
     if llm is None:
         llm = get_claude()
@@ -166,6 +175,8 @@ def get_rag_chain(llm=None, retriever=None, contextualize_chain=None, rag_prompt
     
     return conversational_rag_chain
 
+
+@traceable
 def get_ai_response(user_message, session_id="abc123"):
     # 1. 용어 변환
     dictionary_chain = get_dictionary_chain()
