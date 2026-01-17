@@ -4,8 +4,8 @@ from langchain_anthropic import ChatAnthropic
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnablePassthrough, RunnableLambda
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder, FewShotChatMessagePromptTemplate
-from langchain_core.chat_history import InMemoryChatMessageHistory          # 추가
-from langchain_core.runnables.history import RunnableWithMessageHistory     # 추가
+from langchain_core.chat_history import InMemoryChatMessageHistory
+from langchain_core.runnables.history import RunnableWithMessageHistory
 from langsmith import traceable
 
 from config import output_examples

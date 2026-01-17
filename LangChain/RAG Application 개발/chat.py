@@ -1,7 +1,8 @@
 from dotenv import load_dotenv
 load_dotenv()
 
-from llm import get_ai_response
+# from llm import get_ai_response
+from llm_class import TaxChatbot
 
 import streamlit as st
 
@@ -94,6 +95,9 @@ st.caption('소득세와 관련한 궁금증을 물어보세요')
 if 'message_list' not in st.session_state:
     st.session_state.message_list = []
 
+if "chatbot" not in st.session_state:
+    st.session_state.chatbot = TaxChatbot()
+
 # 대화 기록 표시
 for message in st.session_state.message_list:
     role = 'assistant' if message['role'] == 'ai' else message['role']
@@ -107,7 +111,7 @@ if user_question := st.chat_input(placeholder='무엇이 궁금하신가요?'):
     st.session_state.message_list.append({'role': 'user', 'content': user_question})
     
     with st.chat_message('assistant'):
-        ai_response = st.write_stream(get_ai_response(user_question))
+        ai_response = st.write_stream(st.session_state.chatbot.chat(user_question, session_id= 'user123'))
     
     st.session_state.message_list.append({'role': 'ai', 'content': ai_response})
 # 앞으로 해야 할 것들 정리
