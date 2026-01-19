@@ -153,7 +153,7 @@ if user_question := st.chat_input(placeholder='무엇이 궁금하신가요?'):
 
 # 1. 법 체계를 무시한 Flat 벡터화   ->  다층 지식 베이스 구조; 계층적 온톨로지(조-항-호-목)를 메타데이터에 반영 후 +   메타데이터를 참조하는 node를 체인에 삽입한 agent build
 
-# Naive 청킹    ->  인식 분할(Structure-aware Segmentation)
+# 2. Naive 청킹    ->  인식 분할(Structure-aware Segmentation)
 
-# Few-shot 예제 부족    ->  공부
-# Golden Dataset 미비   ->  공부
+# 3. Few-shot 예제 부족    ->  공부
+# 4. Golden Dataset 미비   ->  공부
