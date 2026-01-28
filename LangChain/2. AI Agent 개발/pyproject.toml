@@ -3,7 +3,7 @@ name = "study-langgraph"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.12"
 dependencies = [
     "aiofiles==24.1.0",
     "aiohappyeyeballs==2.4.4",
@@ -99,7 +99,6 @@ dependencies = [
     "langchain-ollama>=0.3.2",
     "langchain-openai==0.2.14",
     "langchain-text-splitters==0.3.4",
-    "langchain-upstage",
     "langdetect==1.0.9",
     "langgraph==0.2.60",
     "langgraph-checkpoint==2.0.9",
