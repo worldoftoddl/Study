@@ -50,8 +50,8 @@ students[0].name
 
 # 학생을 한명씩 반복
 print(f"이름\t총점\t평균")
-for i in students:
-    print(i.to_string())
+for student in students:
+    print(student.to_string())
 
 # 인스턴스(붕어빵)이 특정 class(붕어빵 틀)에서 나온 건지(상속 관계) 확인하는 함수
 isinstance(students[0], Student)
