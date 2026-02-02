@@ -1,4 +1,3 @@
-from dotenv import load_dotenv
 from langchain_upstage import UpstageEmbeddings
 from langchain_chroma import Chroma
 from langgraph.graph import StateGraph, START, END
@@ -9,6 +8,7 @@ from langchain_core.documents import Document
 from langchain_core.prompts import PromptTemplate, ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from typing import Literal, TypedDict
+from dotenv import load_dotenv
 
 load_dotenv()
 
@@ -34,9 +34,19 @@ retriever = database.as_retriever(
 
 client = Client()
 
+smart_llm = ChatAnthropic(
+    model='claude-opus-4-5-20251101',
+    temperature= 0.1
+)
+
 llm = ChatAnthropic(
-    model= 'claude-sonnet-4-20250514',
-    temperature= '0.1'
+    model='claude-sonnet-4-5-20250929',
+    temperature= 0.1
+)
+
+small_llm = ChatAnthropic(
+    model='claude-haiku-4-5-20251001',
+    temperature= 0.1
 )
 
 
@@ -56,7 +66,7 @@ relevance_check_prompt = client.pull_prompt('langchain-ai/rag-document-relevance
 def doc_relevance_check_grader(state: AgentState) -> Literal['relevant', 'irrelevant']:
     context = state['context']
     query = state['query']
-    doc_relevance_chain = relevance_check_prompt | llm
+    doc_relevance_chain = relevance_check_prompt | small_llm
     response = doc_relevance_chain.invoke({'documents': context, 'question': query})
 
     if response['Score'] == 1:
@@ -111,7 +121,7 @@ def rewrite(state: AgentState) -> AgentState:
     query = state['query']  # state에서 사용자의 질문 추출
     
     # rewrite 체인을 구성 프롬프트, LLM, 출력 파서 연결
-    rewrite_chain = rewrite_prompt | llm | StrOutputParser()
+    rewrite_chain = rewrite_prompt | small_llm | StrOutputParser()
 
     # query 변경
     response = rewrite_chain.invoke({'query': query})
@@ -185,7 +195,6 @@ def hallucination_check(state: AgentState) -> Literal['hallucinated', 'not hallu
     
     return 'hallucinated'
 
-# %%
 def helpfulness_node(state: AgentState):
     return state
 
@@ -195,7 +204,7 @@ helpfulness_prompt = client.pull_prompt("langchain-ai/rag-answer-helpfulness")
 def check_helpfulness_grader(state: AgentState) -> Literal['helpful', 'not helpful']:
     query = state['query']
     answer = state['answer']
-    helpfulness_chain = helpfulness_prompt | llm
+    helpfulness_chain = helpfulness_prompt | small_llm
     response = helpfulness_chain.invoke({'question': query, 'student_answer': answer})
 
     if response['Score'] == 1:
