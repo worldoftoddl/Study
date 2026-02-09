@@ -19,7 +19,7 @@ embedding = UpstageEmbeddings(model="solar-embedding-1-large")
 database = Chroma(
   collection_name= 'chroma-tax',
   persist_directory= './preprocessed-upstage',
-  embedding_function= embedding     
+  embedding_function= embedding    
 )
 
 retriever = database.as_retriever(
@@ -156,16 +156,6 @@ hallucination_check_prompt = ChatPromptTemplate.from_messages([
 Score 기준:
 - 1: 답변이 context에 충실함 (hallucination 없음)
 - 0: 답변에 context에 없는 정보가 포함됨 (hallucination 있음)
-"""),
-    ("human", """
-Context:
-{context}
-
-생성된 답변:
-{answer}
-
-위 답변이 context에 충실한지 평가해주세요.
-
 """),
     ("human", """
 Context:
