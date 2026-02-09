@@ -157,7 +157,7 @@ def download_law_xml(law_info: LawInfo, output_path: str) -> bool:
         f"&MST={law_info.mst}&type=XML&efYd={law_info.ef_date}"
     )
     
-    print(f"  ⬇️  다운로드: {law_info.name} (MST={law_info.mst}, 시행일={law_info.ef_date})")
+    print(f"    다운로드: {law_info.name} (MST={law_info.mst}, 시행일={law_info.ef_date})")
     
     try:
         req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
@@ -168,11 +168,11 @@ def download_law_xml(law_info: LawInfo, output_path: str) -> bool:
             f.write(data)
         
         size_kb = len(data) / 1024
-        print(f"  ✅ 저장 완료: {output_path} ({size_kb:.1f} KB)")
+        print(f"   저장 완료: {output_path} ({size_kb:.1f} KB)")
         return True
         
     except Exception as e:
-        print(f"  ❌ 다운로드 실패: {e}")
+        print(f"   다운로드 실패: {e}")
         return False
 
 
@@ -219,7 +219,7 @@ def download(name: str, output_dir: str = "./law_xml", include_sub: bool = False
     for target_name in targets:
         found = search_law(target_name)
         if not found:
-            print(f"  ⚠️  '{target_name}' 현행 법령을 찾을 수 없습니다.")
+            print(f"    '{target_name}' 현행 법령을 찾을 수 없습니다.")
             continue
         
         output_path = os.path.join(output_dir, make_filename(target_name))
