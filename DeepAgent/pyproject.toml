@@ -1,0 +1,21 @@
+[project]
+name = "deep-agents-study"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "deepagents",
+    "langchain-anthropic",
+    "langchain-upstage",
+    "langchain-chroma",
+    "langchain-community",
+    "langchain-openai",
+    "langgraph",
+    "python-dotenv",
+    "duckduckgo-search",
+    "chromadb",
+    "opendartreader",
+    "streamlit",
+    "langsmith",
+    "pypdf",
+    "tokenizers>=0.21",
+]
