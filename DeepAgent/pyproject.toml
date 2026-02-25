@@ -1,15 +1,14 @@
 [project]
 name = "deep-agents-study"
 version = "0.1.0"
-requires-python = ">=3.12"
+requires-python = ">=3.12,<3.13"
 dependencies = [
     "deepagents",
-    "langchain-anthropic",
-    "langchain-upstage",
-    "langchain-chroma",
-    "langchain-community",
-    "langchain-openai",
-    "langgraph",
+    "langchain-anthropic>=0.2",
+    "langchain-chroma>=0.2",
+    "langchain-community>=0.3",
+    "langchain-openai>=0.2",
+    "langgraph>=0.4",
     "python-dotenv",
     "duckduckgo-search",
     "chromadb",
@@ -17,5 +16,4 @@ dependencies = [
     "streamlit",
     "langsmith",
     "pypdf",
-    "tokenizers>=0.21",
 ]
