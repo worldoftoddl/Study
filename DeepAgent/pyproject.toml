@@ -16,4 +16,5 @@ dependencies = [
     "streamlit",
     "langsmith",
     "pypdf",
+    "tavily-python>=0.7.21",
 ]
