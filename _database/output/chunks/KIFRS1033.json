@@ -1,0 +1,1950 @@
+{
+  "standard_id": "KIFRS1033",
+  "standard_name": "주당이익",
+  "source_file": "시행중_K-IFRS_제1033호_주당이익(2007_제정_2015_타기준서_제정_수정목록_23-1_2020_구성양식_변경_반영).pdf",
+  "processed_at": "2026-03-04T14:16:58.395926",
+  "stats": {
+    "total_paragraphs": 67,
+    "total_parents": 13,
+    "total_children": 99
+  },
+  "parents": [
+    {
+      "parent_id": "KIFRS1033_main_목적",
+      "standard_id": "KIFRS1033",
+      "section_type": "main",
+      "section_heading": "목적",
+      "children": [
+        "KIFRS1033_main_1"
+      ]
+    },
+    {
+      "parent_id": "KIFRS1033_main_용어의_정의",
+      "standard_id": "KIFRS1033",
+      "section_type": "main",
+      "section_heading": "용어의 정의",
+      "children": [
+        "KIFRS1033_main_6",
+        "KIFRS1033_main_7",
+        "KIFRS1033_main_8"
+      ]
+    },
+    {
+      "parent_id": "KIFRS1033_main_측정",
+      "standard_id": "KIFRS1033",
+      "section_type": "main",
+      "section_heading": "측정",
+      "children": [
+        "KIFRS1033_main_11",
+        "KIFRS1033_main_13",
+        "KIFRS1033_main_14",
+        "KIFRS1033_main_15",
+        "KIFRS1033_main_16",
+        "KIFRS1033_main_17",
+        "KIFRS1033_main_18",
+        "KIFRS1033_main_20",
+        "KIFRS1033_main_21_s1",
+        "KIFRS1033_main_21_s2",
+        "KIFRS1033_main_22",
+        "KIFRS1033_main_23",
+        "KIFRS1033_main_24",
+        "KIFRS1033_main_25",
+        "KIFRS1033_main_27",
+        "KIFRS1033_main_28",
+        "KIFRS1033_main_29",
+        "KIFRS1033_main_32_s1",
+        "KIFRS1033_main_32_s2",
+        "KIFRS1033_main_32_s3",
+        "KIFRS1033_main_32_s4",
+        "KIFRS1033_main_32_s5",
+        "KIFRS1033_main_34",
+        "KIFRS1033_main_35",
+        "KIFRS1033_main_37",
+        "KIFRS1033_main_38",
+        "KIFRS1033_main_39",
+        "KIFRS1033_main_40",
+        "KIFRS1033_main_42",
+        "KIFRS1033_main_43",
+        "KIFRS1033_main_44_s1",
+        "KIFRS1033_main_44_s2",
+        "KIFRS1033_main_44_s3",
+        "KIFRS1033_main_44_s4",
+        "KIFRS1033_main_44_s5",
+        "KIFRS1033_main_44_s6",
+        "KIFRS1033_main_44_s7",
+        "KIFRS1033_main_44_s8",
+        "KIFRS1033_main_46",
+        "KIFRS1033_main_47",
+        "KIFRS1033_main_48",
+        "KIFRS1033_main_49",
+        "KIFRS1033_main_50",
+        "KIFRS1033_main_51",
+        "KIFRS1033_main_52",
+        "KIFRS1033_main_53",
+        "KIFRS1033_main_54",
+        "KIFRS1033_main_55",
+        "KIFRS1033_main_56",
+        "KIFRS1033_main_57_s1",
+        "KIFRS1033_main_57_s2",
+        "KIFRS1033_main_57_s3",
+        "KIFRS1033_main_57_s4",
+        "KIFRS1033_main_57_s5",
+        "KIFRS1033_main_59",
+        "KIFRS1033_main_61",
+        "KIFRS1033_main_62_s1",
+        "KIFRS1033_main_62_s2",
+        "KIFRS1033_main_62_s3",
+        "KIFRS1033_main_62_s4"
+      ]
+    },
+    {
+      "parent_id": "KIFRS1033_main_소급수정",
+      "standard_id": "KIFRS1033",
+      "section_type": "main",
+      "section_heading": "소급수정",
+      "children": [
+        "KIFRS1033_main_65"
+      ]
+    },
+    {
+      "parent_id": "KIFRS1033_main_재무제표_표시",
+      "standard_id": "KIFRS1033",
+      "section_type": "main",
+      "section_heading": "재무제표 표시",
+      "children": [
+        "KIFRS1033_main_67_s1",
+        "KIFRS1033_main_67_s2",
+        "KIFRS1033_main_67_s3",
+        "KIFRS1033_main_67_s4"
+      ]
+    },
+    {
+      "parent_id": "KIFRS1033_main_공시",
+      "standard_id": "KIFRS1033",
+      "section_type": "main",
+      "section_heading": "공시",
+      "children": [
+        "KIFRS1033_main_71",
+        "KIFRS1033_main_72_s1",
+        "KIFRS1033_main_72_s2",
+        "KIFRS1033_main_72_s3",
+        "KIFRS1033_main_72_s4",
+        "KIFRS1033_main_72_s5",
+        "KIFRS1033_main_72_s6"
+      ]
+    },
+    {
+      "parent_id": "KIFRS1033_main_시행일",
+      "standard_id": "KIFRS1033",
+      "section_type": "main",
+      "section_heading": "시행일",
+      "children": [
+        "KIFRS1033_main_74_s1",
+        "KIFRS1033_main_74_s2",
+        "KIFRS1033_main_74_s3",
+        "KIFRS1033_main_74_s4",
+        "KIFRS1033_main_74_s5",
+        "KIFRS1033_main_74_s6"
+      ]
+    },
+    {
+      "parent_id": "KIFRS1033_main_기준서_등의_대체",
+      "standard_id": "KIFRS1033",
+      "section_type": "main",
+      "section_heading": "기준서 등의 대체",
+      "children": [
+        "KIFRS1033_main_75",
+        "KIFRS1033_main_76"
+      ]
+    },
+    {
+      "parent_id": "KIFRS1033_bc_도입",
+      "standard_id": "KIFRS1033",
+      "section_type": "bc",
+      "section_heading": "도입",
+      "children": [
+        "KIFRS1033_bc_BC1",
+        "KIFRS1033_bc_BC2",
+        "KIFRS1033_bc_BC3"
+      ]
+    },
+    {
+      "parent_id": "KIFRS1033_bc_지배기업의_별도_주당이익의_표시",
+      "standard_id": "KIFRS1033",
+      "section_type": "bc",
+      "section_heading": "지배기업의 별도 주당이익의 표시",
+      "children": [
+        "KIFRS1033_bc_BC4",
+        "KIFRS1033_bc_BC5",
+        "KIFRS1033_bc_BC6"
+      ]
+    },
+    {
+      "parent_id": "KIFRS1033_bc_보통주나_현금으로_결제할_수_있는_계약",
+      "standard_id": "KIFRS1033",
+      "section_type": "bc",
+      "section_heading": "보통주나 현금으로 결제할 수 있는 계약",
+      "children": [
+        "KIFRS1033_bc_BC7",
+        "KIFRS1033_bc_BC8",
+        "KIFRS1033_bc_BC9"
+      ]
+    },
+    {
+      "parent_id": "KIFRS1033_bc_누적중간기간의_희석주당이익_계산",
+      "standard_id": "KIFRS1033",
+      "section_type": "bc",
+      "section_heading": "누적중간기간의 희석주당이익 계산",
+      "children": [
+        "KIFRS1033_bc_BC10",
+        "KIFRS1033_bc_BC11",
+        "KIFRS1033_bc_BC12",
+        "KIFRS1033_bc_BC13",
+        "KIFRS1033_bc_BC14"
+      ]
+    },
+    {
+      "parent_id": "KIFRS1033_bc_그_밖의_변경사항",
+      "standard_id": "KIFRS1033",
+      "section_type": "bc",
+      "section_heading": "그 밖의 변경사항",
+      "children": [
+        "KIFRS1033_bc_BC15"
+      ]
+    }
+  ],
+  "children": [
+    {
+      "chunk_id": "KIFRS1033_main_1",
+      "parent_id": "KIFRS1033_main_목적",
+      "content": "이 기준서의 목적은 주당이익의 산정방법 및 공시에 필요한 사항\n을 정하는 데 있다 . 주당이익은 정보이용자가 기업의 경영성과를\n기간별로 비교하고, 동일기간의 경영성과를 다른 기업과 비교하는\n데 유용한 정보를 제공한다 . 주당이익 정보는 이익을 결정하는 데\n적용하는 회계정책이 다를 수 있다는 한계가 있지만 주당이익 계\n산상의 분모를 일관성 있게 결정한다면 재무보고의 유용성은 높\n아진다 . 이 기준서는 주당이익의 계산에서 분모에 중점을 두고 있\n다 .",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "1",
+        "heading_context": "목적",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_6",
+      "parent_id": "KIFRS1033_main_용어의_정의",
+      "content": "보통주는 우선주 등에 이익을 분배한 후의 잔여이익에 대한 분배\n에 참가한다 . 한 종류 이상의 보통주가 발행되는 경우 같은 종류\n의 보통주는 동등한 배당권리를 가진다 .\n- 10",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "6",
+        "heading_context": "용어의 정의",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_7",
+      "parent_id": "KIFRS1033_main_용어의_정의",
+      "content": "잠재적보통주의 예는 다음과 같다 .\n⑴ 보통주로 전환할 수 있는 금융부채나 지분상품 ( 전환우선주 포\n함 )\n⑵ 옵션과 주식매입권\n⑶ 사업인수나 자산취득과 같이 계약상 합의에 따라 조건이 충족\n되면 발행하는 보통주",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "7",
+        "heading_context": "용어의 정의",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_8",
+      "parent_id": "KIFRS1033_main_용어의_정의",
+      "content": "기업회계기준서 제 1032 호 ‘ 금융상품 : 표시 ’ 에서 정의하고 있는 용\n어는 다른 언급이 없으면 동 기준서 문단 11 에서 정하고 있는 의\n미로 이 기준서에서 사용된다 . 기업회계기준서 제 1032 호는 금융상\n품, 금융자산, 금융부채, 지분상품의 정의 및 이를 적용하기 위한\n지침을 제공하고 있다 . 기업회계기준서 제 1113 호 ‘ 공정가치 측정 ’\n은 공정가치를 정의하고 그 정의를 적용하기 위한 요구사항을 정\n하고 있다 .",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "8",
+        "heading_context": "용어의 정의",
+        "cross_refs": [
+          "기준서 제 1032 호",
+          "기준서 제 1113 호",
+          "문단 11"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_11",
+      "parent_id": "KIFRS1033_main_측정",
+      "content": "기본주당이익 정보의 목적은 회계기간의 경영성과에 대한 지배기\n업의 보통주 1 주당 지분의 측정치를 제공하는 것이다 .\n- 11\n이익\n기본주당이익을 계산할 때 지배기업의 보통주에 귀속되는 금액은\n다음의 과 각각의 금액에서 자본으로 분류된 우선주에 대한\n세후 우선주 배당금 우선주 상환 시 발생한 차액 및 유사한 효과\n를 조정한 금액이다\n지배기업에 귀속되는 계속영업손익\n지배기업에 귀속되는 당기순손익",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "11",
+        "heading_context": "측정",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_13",
+      "parent_id": "KIFRS1033_main_측정",
+      "content": "법인세비용과 부채로 분류되는 우선주에 대한 배당금을 포함하여\n지배기업의 보통주에 귀속되는 특정 회계기간에 인식된 모든 수\n익과 비용 항목은 지배기업의 보통주에 귀속되는 특정 회계기간\n의 당기순손익 결정에 포함한다 ( 기업회계기준서 제 1001 호 참조 ).",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "13",
+        "heading_context": "측정",
+        "cross_refs": [
+          "기준서 제 1001 호"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_14",
+      "parent_id": "KIFRS1033_main_측정",
+      "content": "당기순손익에서 차감할 세후 우선주 배당금은 다음과 같다 .\n⑴ 당해 회계기간과 관련하여 배당결의된 비누적적 우선주에 대\n한 세후 배당금\n⑵ 배당결의 여부와 관계없이 당해 회계기간과 관련한 누적적 우\n선주에 대한 세후배당금 . 따라서 전기 이전의 기간과 관련하여\n당기에 지급되거나 결의된 누적적 우선주 배당금은 제외한다 .",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "14",
+        "heading_context": "측정",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_15",
+      "parent_id": "KIFRS1033_main_측정",
+      "content": "할증배당우선주는 우선주를 시가보다 할인 발행한 기업에 대한\n보상으로 초기에 낮은 배당을 지급하는 우선주 또는 우선주를 시\n가보다 할증금액으로 매수한 투자자에 대한 보상으로 이후 기간\n에 시장보다 높은 배당을 지급하는 우선주를 말한다 . 할증배당우\n선주의 당초 할인발행차금이나 할증발행차금은 유효이자율법을\n사용하여 상각하여 이익잉여금에 가감하고 주당이익을 계산할 때\n우선주 배당금으로 처리한다 .",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "15",
+        "heading_context": "측정",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_16",
+      "parent_id": "KIFRS1033_main_측정",
+      "content": "기업이 공개매수 방식으로 우선주를 재매입할 때 우선주 주주에\n게 지급한 대가의 공정가치가 우선주의 장부금액을 초과하는 부\n- 12\n분은 우선주 주주에 대한 이익배분으로서 이익잉여금에서 차감한\n다 . 이 금액은 지배기업의 보통주에 귀속되는 당기순손익을 계산\n할 때 차감한다 .",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "16",
+        "heading_context": "측정",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_17",
+      "parent_id": "KIFRS1033_main_측정",
+      "content": "전환우선주 발행기업이 처음의 전환조건보다 유리한 조건을 제시\n하거나 추가적인 대가를 지급하여 조기 전환을 유도하는 경우가\n있다 . 이 경우 처음의 전환조건에 따라 발행될 보통주의 공정가치\n를 초과하여 지급하는 보통주나 그 밖의 대가의 공정가치는 전환\n우선주에 대한 이익배분으로 보아 기본주당이익을 계산할 때 지\n배기업의 보통주에 귀속되는 당기순손익에서 차감한다 .",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "17",
+        "heading_context": "측정",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_18",
+      "parent_id": "KIFRS1033_main_측정",
+      "content": "우선주의 장부금액이 우선주의 매입을 위하여 지급하는 대가의\n공정가치를 초과하는 경우 그 차액을 지배기업의 보통주에 귀속\n되는 당기순손익을 계산할 때 가산한다 .\n보통주식수\n기본주당이익을 계산하기 위한 보통주식수는 그 기간에 유통된\n보통주식수를 가중평균한 주식수 이하 가중평균유통보통주식수 라\n한다 로 한다",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "18",
+        "heading_context": "측정",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_20",
+      "parent_id": "KIFRS1033_main_측정",
+      "content": "특정회계기간의 가중평균유통보통주식수는 그 기간 중 각 시점의\n유통주식수의 변동에 따라 자본금액이 변동할 가능성을 반영한다 .\n가중평균유통보통주식수는 기초의 유통보통주식수에 회계기간 중\n취득된 자기주식수 또는 신규 발행된 보통주식수를 각각의 유통\n기간에 따른 가중치를 고려하여 조정한 보통주식수이다 . 이 경우\n유통기간에 따른 가중치는 그 회계기간의 총일수에 대한 특정 보\n통주의 유통일수의 비율로 산정하며, 가중평균에 대한 합리적 근\n사치도 사용될 수 있다 .\n- 13",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "20",
+        "heading_context": "측정",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_21_s1",
+      "parent_id": "KIFRS1033_main_측정",
+      "content": "가중평균유통보통주식수를 산정하기 위한 보통주유통일수 계산의\n기산일은 통상 주식발행의 대가를 받을 권리가 발생하는 시점 ( 일\n반적으로 주식발행일 ) 이다 . 보통주유통일수를 계산하는 기산일의\n예를 들면 다음과 같다 .\n⑴",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "21",
+        "heading_context": "측정",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": true,
+        "is_sentence_split": true,
+        "split_index": 1,
+        "total_splits": 2
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_21_s2",
+      "parent_id": "KIFRS1033_main_측정",
+      "content": "현금납입의 경우 현금을 받을 권리가 발생하는 날\n⑵ 보통주나 우선주 배당금을 자발적으로 재투자하여 보통주가\n발행되는 경우 배당금의 재투자일\n⑶ 채무상품의 전환으로 인하여 보통주를 발행하는 경우 최종이\n자발생일의 다음날\n⑷ 그 밖의 금융상품에 대하여 이자를 지급하거나 원금을 상환하\n는 대신 보통주를 발행하는 경우 최종이자발생일의 다음날\n⑸ 채무를 변제하기 위하여 보통주를 발행하는 경우 채무변제일\n⑹ 현금 이외의 자산을 취득하기 위하여 보통주를 발행하는 경우\n그 자산의 취득을 인식한 날\n⑺ 용역의 대가로 보통주를 발행하는 경우 용역제공일\n보통주유통일수를 계산하는 기산일은 주식발행과 관련된 특정 조\n건에 따라 결정하며, 이때 주식발행에 관한 계약의 실질을 적절하\n게 고려한다 .",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "21",
+        "heading_context": "측정",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": true,
+        "is_sentence_split": true,
+        "split_index": 2,
+        "total_splits": 2
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_22",
+      "parent_id": "KIFRS1033_main_측정",
+      "content": "사업결합 이전대가의 일부로 발행된 보통주의 경우 취득일을 가\n중평균유통보통주식수를 산정하는 기산일로 한다 . 왜냐하면 사업\n취득일부터 피취득자 손익을 취득자의 포괄손익계산서에 반영하\n기 때문이다 .",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "22",
+        "heading_context": "측정",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_23",
+      "parent_id": "KIFRS1033_main_측정",
+      "content": "보통주로 반드시 전환하여야 하는 전환금융상품은 계약체결시점\n부터 기본주당이익을 계산하기 위한 보통주식수에 포함한다 .",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "23",
+        "heading_context": "측정",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_24",
+      "parent_id": "KIFRS1033_main_측정",
+      "content": "조건부발행보통주는 모든 필요조건이 충족 ( 즉, 사건의 발생 ) 된 날\n에 발행된 것으로 보아 기본주당이익을 계산하기 위한 보통주식\n수에 포함한다 . 단순히 일정기간이 경과한 후 보통주를 발행하기\n로 하는 계약 등의 경우 기간의 경과에는 불확실성이 없으므로\n- 14\n조건부발행보통주로 보지 아니한다 . 조건부로 재매입할 수 있는\n보통주를 발행한 경우 이에 대한 재매입가능성이 없어질 때까지\n는 보통주로 간주하지 아니하고, 기본주당이익을 계산하기 위한\n보통주식수에 포함하지 아니한다 .",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "24",
+        "heading_context": "측정",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_25",
+      "parent_id": "KIFRS1033_main_측정",
+      "content": "[ 국제회계기준위원회에 의하여 삭제됨 ]\n당해 기간 및 비교표시되는 모든 기간의 가중평균유통보통주식수\n는 상응하는 자원의 변동 없이 유통보통주식수를 변동시키는 사\n건을 반영하여 조정한다 다만 잠재적보통주의 전환은 제외한다",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "25",
+        "heading_context": "측정",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_27",
+      "parent_id": "KIFRS1033_main_측정",
+      "content": "자원의 실질적인 변동을 유발하지 않으면서 보통주가 새로 발행\n될 수도 있고 유통보통주식수가 감소할 수도 있다 . 다음과 같은\n예가 이에 해당한다 .\n⑴ 자본금전입이나 무상증자 (‘ 주식배당 ’ 이라고도 한다 )\n⑵ 그 밖의 증자에서의 무상증자 요소 ( 예 : 기존 주주에 대한 주주\n우선배정 신주발행의 무상증자 요소 )\n⑶ 주식분할\n⑷ 주식병합",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "27",
+        "heading_context": "측정",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_28",
+      "parent_id": "KIFRS1033_main_측정",
+      "content": "자본금전입, 무상증자, 주식분할의 경우에는 추가로 대가를 받지\n않고 기존 주주에게 보통주를 발행하므로 자원은 증가하지 않고\n유통보통주식수만 증가한다 . 이 경우 당해 사건이 있기 전의 유통\n보통주식수를 비교표시되는 최초기간의 개시일에 그 사건이 일어\n난 것처럼 비례적으로 조정한다 . 예를 들어, 1 주당 2 주의 신주를\n발행하는 무상증자의 경우 무상증자 전의 유통보통주식수에 3 을\n곱하여 새로운 총보통주식수를 구하거나 2 를 곱하여 추가로 발행\n한 보통주식수를 구한다 .",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "28",
+        "heading_context": "측정",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": true
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_29",
+      "parent_id": "KIFRS1033_main_측정",
+      "content": "주식병합은 일반적으로 자원의 실질적인 유출 없이 유통보통주식\n수를 감소시킨다 . 그러나 전반적으로 주식을 공정가치로 매입한\n- 15\n효과가 있는 경우에는 실질적으로 자원이 유출되면서 유통보통주\n식수가 감소한다 . 특별배당과 결합된 주식병합이 그 예가 된다 .\n이러한 결합거래가 발생한 기간의 가중평균유통보통주식수는 특\n별배당이 인식된 날부터 보통주식수의 감소를 반영하여 조정한다 .\n희석주당이익\n지배기업의 보통주에 귀속되는 당기순손익에 대하여 희석주당이\n익을 계산하고 지배기업의 보통주에 귀속되는 계속영업손익을 표\n시할 경우 이에 대하여 희석주당이익을 계산한다\n희석주당이익을 계산하기 위해서는 모든 희석효과가 있는 잠재적\n보통주 이하 희석성 잠재적보통주 라 한다 의 영향을 고려하여 지\n배기업의 보통주에 귀속되는 당기순손익 및 가중평균유통보통주\n식수를 조정한다",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "29",
+        "heading_context": "측정",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_32_s1",
+      "parent_id": "KIFRS1033_main_측정",
+      "content": "희석주당이익의 목적은 기본주당이익의 목적 ( 경영성과에 대한 보\n통주 1 주당 지분의 측정치를 제공하는 것 ) 과 같다 .",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "32",
+        "heading_context": "측정",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 1,
+        "total_splits": 5
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_32_s2",
+      "parent_id": "KIFRS1033_main_측정",
+      "content": "희석주당이익\n은 특정 회계기간에 유통된 모든 희석성 잠재적보통주의 영향을\n고려하여 다음과 같이 계산한다 .\n⑴",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "32",
+        "heading_context": "측정",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 2,
+        "total_splits": 5
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_32_s3",
+      "parent_id": "KIFRS1033_main_측정",
+      "content": "지배기업의 보통주에 귀속되는 당기순손익에 희석성 잠재적보\n통주와 관련하여 그 회계기간에 인식된 배당과 이자비용에서\n법인세효과를 차감한 금액을 가산하고, 그 밖의 희석성 잠재적\n보통주가 보통주로 전환되었다면 변동되었을 수익 또는 비용\n을 조정한다 .\n⑵",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "32",
+        "heading_context": "측정",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 3,
+        "total_splits": 5
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_32_s4",
+      "parent_id": "KIFRS1033_main_측정",
+      "content": "가중평균유통보통주식수에 모든 희석성 잠재적보통주가 보통\n주로 전환되었다고 가정할 경우 추가적으로 유통되었을 가중\n평균유통보통주식수를 가산한다 .",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "32",
+        "heading_context": "측정",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 4,
+        "total_splits": 5
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_32_s5",
+      "parent_id": "KIFRS1033_main_측정",
+      "content": "이익\n- 16\n희석주당이익을 계산하기 위해서는 지배기업의 보통주에 귀속되\n는 당기순손익을 문단 에 따라 계산한 것과 같이 다음의 사항\n에서 법인세효과를 차감한 금액만큼 조정한다\n문단 에 따라 지배기업의 보통주에 귀속되는 당기순손익을\n계산할 때 차감한 희석성 잠재적보통주에 대한 배당금이나 기\n타항목\n희석성 잠재적보통주와 관련하여 그 회계기간에 인식한 이자\n비용\n희석성 잠재적보통주를 보통주로 전환하였다면 발생하였을 그\n밖의 수익 또는 비용의 변동사항",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "32",
+        "heading_context": "측정",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 5,
+        "total_splits": 5
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_34",
+      "parent_id": "KIFRS1033_main_측정",
+      "content": "잠재적보통주를 보통주로 전환한 후에는 문단 33⑴~⑶ 의 항목은\n더 이상 발생하지 않을 것이다 . 그 대신, 새로운 보통주와 관련하\n여 지배기업의 보통주에 귀속되는 당기순손익의 분배에 참가할\n수 있는 권리가 부여된다 . 따라서 문단 12 에 따라 계산된 지배기\n업의 보통주에 귀속되는 당기순손익을 문단 33⑴~⑶ 의 항목에서\n법인세효과를 차감한 후의 금액만큼 조정한다 . 잠재적보통주와 관\n련된 비용에는 유효이자율법의 적용에 따른 거래원가와 할인액이\n포함된다 ( 기업회계기준서 제 1109 호 참조 ).",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "34",
+        "heading_context": "측정",
+        "cross_refs": [
+          "문단 33",
+          "기준서 제 1109 호",
+          "문단 12"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_35",
+      "parent_id": "KIFRS1033_main_측정",
+      "content": "잠재적보통주의 전환이 결과적으로 다른 수익 또는 비용의 변동\n을 가져오는 경우가 있다 . 예를 들어, 잠재적보통주와 관련된 이\n자비용의 감소와 그에 따른 순이익의 증가나 순손실의 감소는 비\n재량적 종업원 이익분배제도와 관련된 비용의 증가를 가져올 수\n있다 . 이 경우 희석주당이익을 계산하기 위해서는 지배기업의 보\n통주에 귀속되는 당기순손익을 이와 같은 수익 또는 비용의 변동\n에 따른 효과만큼 추가적으로 조정한다 .\n보통주식수\n- 17\n라 계산한 가중평균유통보통주식수에 희석성 잠재적보통주가 모\n두 전환될 경우에 발행되는 보통주의 가중평균유통보통주식수를\n가산하여 산출한다 희석성 잠재적보통주는 회계기간의 기초에 전\n환된 것으로 보되 당기에 발행된 것은 그 발행일에 전환된 것으\n로 본다",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "35",
+        "heading_context": "측정",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": true
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_37",
+      "parent_id": "KIFRS1033_main_측정",
+      "content": "희석성 잠재적보통주식수는 표시되는 각 회계기간마다 독립적으\n로 결정한다 . 누적중간기간의 희석주당이익 계산에 포함된 희석성\n잠재적보통주식수는 각 중간기간의 희석주당이익 계산에 포함된\n희석성 잠재적보통주식수를 가중평균하여 산출되는 것이 아니다 .",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "37",
+        "heading_context": "측정",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_38",
+      "parent_id": "KIFRS1033_main_측정",
+      "content": "잠재적보통주는 유통기간을 가중치로 하여 가중평균한다 . 해당 기\n간에 효력을 잃었거나 유효기간이 지난 잠재적보통주는 해당 기\n간 중 유통된 기간에 대해서만 희석주당이익의 계산에 포함하며,\n당기에 보통주로 전환된 잠재적보통주는 기초부터 전환일의 전일\n까지 희석주당이익의 계산에 포함한다 . 전환으로 발행되는 보통주\n는 전환일부터 기본 및 희석주당이익의 계산에 포함한다 .",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "38",
+        "heading_context": "측정",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_39",
+      "parent_id": "KIFRS1033_main_측정",
+      "content": "희석성 잠재적보통주의 전환으로 인하여 발행되는 보통주식수는\n잠재적보통주의 계약조건에 따라 결정된다 . 이때 두 가지 이상의\n전환기준이 존재하는 경우에는 잠재적보통주의 보유자에게 가장\n유리한 전환비율이나 행사가격을 적용하여 계산한다 .",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "39",
+        "heading_context": "측정",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_40",
+      "parent_id": "KIFRS1033_main_측정",
+      "content": "종속기업, 공동기업, 관계기업 ( 이하 ‘ 종속기업 등 ’ 이라 한다 ) 은 자\n기 기업의 보통주 또는 지배기업 또는 피투자자에 대한 공동지배\n력이나 유의적인 영향력이 있는 투자자 ( 이하 ‘ 보고기업 ’ 이라 한다 )\n의 보통주로 전환할 수 있는 잠재적보통주를 보고기업이 아닌 자\n에게 발행할 수 있다 . 이 경우 종속기업 등이 발행한 잠재적보통\n- 18\n주가 보고기업의 기본주당이익을 희석하는 효과가 있다면 그 잠\n재적보통주는 희석주당이익의 계산에 포함한다 .\n희석성 잠재적보통주\n잠재적보통주는 보통주로 전환된다고 가정할 경우 주당계속영업\n이익을 감소시키거나 주당계속영업손실을 증가시킬 수 있는 경우\n에만 희석성 잠재적보통주로 취급한다",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "40",
+        "heading_context": "측정",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_42",
+      "parent_id": "KIFRS1033_main_측정",
+      "content": "잠재적보통주가 희석효과를 가지는지 반희석효과를 가지는지는\n기준이익인 지배기업에 귀속되는 계속영업손익에 대한 희석효과\n유무로 판단한다 . 다만, 이 경우에 지배기업에 귀속되는 계속영업\n손익은 문단 12 에 따라 조정하며 중단영업에 관련된 항목은 포함\n하지 아니한다 .",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "42",
+        "heading_context": "측정",
+        "cross_refs": [
+          "문단 12"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_43",
+      "parent_id": "KIFRS1033_main_측정",
+      "content": "잠재적보통주가 보통주로 전환된다고 가정할 경우 주당계속영업\n이익을 증가시키거나 주당계속영업손실을 감소시킬 수 있는 경우\n에는 반희석성 잠재적보통주가 된다 . 희석주당이익을 계산할 때\n반희석성 잠재적보통주는 전환, 행사 또는 기타의 발행이 이루어\n지지 않는다고 가정한다 .",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "43",
+        "heading_context": "측정",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_44_s1",
+      "parent_id": "KIFRS1033_main_측정",
+      "content": "여러 종류의 잠재적보통주를 발행한 경우에는 잠재적보통주가 희\n석효과를 가지는지 반희석효과를 가지는지에 대하여 판단할 때\n여러 종류의 잠재적보통주를 모두 통합해서 고려하는 것이 아니\n라 개별적으로 고려한다 .",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "44",
+        "heading_context": "측정",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 1,
+        "total_splits": 8
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_44_s2",
+      "parent_id": "KIFRS1033_main_측정",
+      "content": "이때 잠재적보통주를 고려하는 순서가\n각각의 잠재적보통주가 희석효과를 가지는지 반희석효과를 가지\n는지에 대하여 판단하는 데 영향을 미칠 수 있다 .",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "44",
+        "heading_context": "측정",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 2,
+        "total_splits": 8
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_44_s3",
+      "parent_id": "KIFRS1033_main_측정",
+      "content": "따라서 기본주\n당이익을 최대한 희석할 수 있도록 희석효과가 가장 큰 잠재적보\n통주부터 순차적으로 고려한다 .",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "44",
+        "heading_context": "측정",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 3,
+        "total_splits": 8
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_44_s4",
+      "parent_id": "KIFRS1033_main_측정",
+      "content": "즉, ‘ 증분주식 1 주당 이익 ’ 이 가장\n작은 희석성 잠재적보통주를 증분주식 1 주당 이익이 상대적으로\n큰 희석성 잠재적보통주보다 먼저 희석주당이익의 계산에 포함시\n- 19\n킨다 .",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "44",
+        "heading_context": "측정",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 4,
+        "total_splits": 8
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_44_s5",
+      "parent_id": "KIFRS1033_main_측정",
+      "content": "옵션과 주식매입권은 계산식에서 분자에 영향을 미치지 않\n으므로 일반적으로 가장 먼저 고려될 것이다 .",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "44",
+        "heading_context": "측정",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 5,
+        "total_splits": 8
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_44_s6",
+      "parent_id": "KIFRS1033_main_측정",
+      "content": "옵션과 주식매입권 등\n희석주당이익을 계산할 때 희석효과가 있는 옵션이나 주식매입권\n은 행사된 것으로 가정한다",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "44",
+        "heading_context": "측정",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 6,
+        "total_splits": 8
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_44_s7",
+      "parent_id": "KIFRS1033_main_측정",
+      "content": "이 경우 권리행사에서 예상되는 현금\n유입액은 보통주를 회계기간의 평균시장가격으로 발행하여 유입\n된 것으로 가정한다",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "44",
+        "heading_context": "측정",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 7,
+        "total_splits": 8
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_44_s8",
+      "parent_id": "KIFRS1033_main_측정",
+      "content": "그 결과 권리를 행사할 때 발행하여야 할 보\n통주식수와 회계기간의 평균시장가격으로 발행한 것으로 가정하\n여 환산한 보통주식수의 차이는 무상으로 발행한 것으로 본다",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "44",
+        "heading_context": "측정",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 8,
+        "total_splits": 8
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_46",
+      "parent_id": "KIFRS1033_main_측정",
+      "content": "옵션과 주식매입권은 그 회계기간의 보통주 평균시장가격보다 낮\n은 금액으로 보통주를 발행하는 결과를 가져올 수 있는 경우에\n희석효과가 있으며, 이때 그 회계기간의 보통주 평균시장가격에서\n발행금액을 차감한 금액이 희석효과 금액이 된다 . 그러므로 희석\n주당이익을 계산할 때 잠재적보통주를 다음 두 가지로 구성되어\n있는 것으로 처리한다 .\n⑴ 일정한 수의 보통주에 대해서는 그 회계기간의 평균시장가격\n으로 발행하기로 하는 계약 . 이러한 보통주는 공정한 가치로\n평가된 것으로 보며, 희석효과도 반희석효과도 없다고 가정하\n므로 이는 희석주당이익을 계산할 때 고려하지 아니한다 .\n⑵ 잔여 보통주에 대해서는 무상으로 발행하기로 하는 계약 . 이러\n한 보통주는 자금의 유입을 수반하지 않으며, 유통보통주에 귀\n속되는 당기순손익에도 아무런 영향을 미치지 아니한다 . 따라\n서 이와 같은 보통주는 희석효과가 있으며, 희석주당이익을 계\n산할 때 유통보통주식수에 가산한다 .",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "46",
+        "heading_context": "측정",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_47",
+      "parent_id": "KIFRS1033_main_측정",
+      "content": "옵션과 주식매입권은 그 회계기간의 보통주의 평균시장가격이 옵\n션과 주식매입권의 행사가격을 초과하는 경우에만 희석효과가 있\n- 20\n다 ( 즉, ‘ 내가격 ’ 에 있다 ). 과거에 이미 보고된 주당이익은 보통주의\n가격 변동을 반영하기 위한 소급수정을 하지 않는다 .\n47A 기업회계기준서 제 1102 호 ‘ 주식기준보상 ’ 이 적용되는 주식선택권\n이나 그 밖의 주식기준보상약정의 경우, 문단 46 의 발행금액과 문\n단 47 의 행사가격에는 주식선택권이나 그 밖의 주식기준보상약정\n에 따라 미래에 유입될 재화나 용역의 공정가치 ( 기업회계기준서\n제 1102 호에 따라 측정 ) 가 포함된다 .",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "47",
+        "heading_context": "측정",
+        "cross_refs": [
+          "문단 46",
+          "기준서\n제 1102 호",
+          "기준서 제 1102 호"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_48",
+      "parent_id": "KIFRS1033_main_측정",
+      "content": "조건은 확정되었거나 결정할 수 있지만 아직 가득되지 않은 종업\n원 주식선택권은 미래 가득여부에 대한 불확실성에도 불구하고\n희석주당이익을 계산할 때 옵션으로 보며 부여일부터 유통되는\n것으로 취급한다 . 성과조건이 부과된 종업원 주식선택권은 시간의\n경과 외에 특정 조건이 충족되는 경우에 발행되므로 조건부발행\n보통주로 취급한다 .\n전환금융상품",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "48",
+        "heading_context": "측정",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_49",
+      "parent_id": "KIFRS1033_main_측정",
+      "content": "전환금융상품의 희석효과는 문단 33 과 36 에 따라 희석주당이익에\n반영한다 .",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "49",
+        "heading_context": "측정",
+        "cross_refs": [
+          "문단 33"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_50",
+      "parent_id": "KIFRS1033_main_측정",
+      "content": "전환우선주의 전환으로 발행하게 되는 보통주 1 주당 그 회계기간\n과 관련하여 결의되거나 누적된 전환우선주 배당금이 기본주당이\n익을 초과하면 전환우선주는 반희석효과가 있는 것이다 . 그리고\n전환사채의 전환으로 발행하게 되는 보통주 1 주당 전환사채의 이\n자비용 ( 법인세효과 및 관련 수익 또는 비용의 변동분 차감 후 ) 가\n기본주당이익을 초과하면 전환사채는 반희석효과가 있는 것이다 .",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "50",
+        "heading_context": "측정",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_51",
+      "parent_id": "KIFRS1033_main_측정",
+      "content": "전환우선주 가운데 일부만 전환되거나 상환될 수 있다 . 이 경우에\n는 문단 17 에서 언급한 초과지급액은 전환되거나 상환된 전환우\n선주와 관련된 것으로서 나머지 유통 전환우선주가 희석효과가\n- 21\n있는지를 결정하는 데 영향을 미치므로 전환되거나 상환된 전환\n우선주는 그렇지 않은 나머지 전환우선주와는 구분하여 고려한다 .\n조건부발행보통주",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "51",
+        "heading_context": "측정",
+        "cross_refs": [
+          "문단 17"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_52",
+      "parent_id": "KIFRS1033_main_측정",
+      "content": "기본주당이익을 계산할 때와 마찬가지로 희석주당이익을 계산할\n때에도 조건부발행보통주는 그 조건이 충족된 상태 ( 즉, 사건의 발\n생 ) 라면 이미 발행되어 유통되고 있는 것으로 보아 희석주당이익\n을 계산하기 위한 보통주식수에 포함한다 . 조건부발행보통주는 그\n회계기간 초부터 ( 그 회계기간에 조건부발행보통주에 대한 약정이\n이루어졌다면 약정일부터 ) 포함한다 . 만약 조건이 충족되지 않은\n상태일 경우 조건부발행보통주는 그 회계기간 말이 조건기간의\n만료일이라면 발행할 보통주식수만큼 희석주당이익을 계산하기\n위한 보통주식수의 계산에 포함한다 . 그러나 실제로 조건기간이\n만료될 때까지 조건이 충족되지 않은 경우에도 그 계산결과를 수\n정하지 아니한다 .",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "52",
+        "heading_context": "측정",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_53",
+      "parent_id": "KIFRS1033_main_측정",
+      "content": "일정기간 동안 특정한 목표이익을 달성하거나 유지한다면 보통주\n를 발행하기로 하는 경우, 보고기간말에 그 목표이익이 달성되었\n지만 그 보고기간말 이후의 추가적인 기간 동안 그 목표이익이\n유지되어야 한다면 추가로 발행해야 하는 보통주가 희석효과를\n가지고 있는 경우 희석주당이익을 계산할 때 추가로 발행해야 하\n는 그 보통주가 유통되고 있는 것으로 본다 . 이 때 희석주당이익\n은 보고기간말의 이익수준이 조건기간말의 이익수준과 같다면 발\n행될 보통주식수에 기초하여 계산한다 . 이익수준이 미래의 기간에\n변동할 수 있기 때문에 모든 필요조건이 아직 충족된 것은 아니\n므로 이러한 조건부발행보통주를 조건기간말까지 기본주당이익의\n계산에는 포함하지 아니한다 .\n- 22",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "53",
+        "heading_context": "측정",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_54",
+      "parent_id": "KIFRS1033_main_측정",
+      "content": "조건부발행보통주식수는 보통주의 미래 시장가격에 따라 결정될\n수도 있다 . 이러한 경우에는 보고기간말의 시장가격이 조건기간말\n의 시장가격과 같다면 발행될 보통주식수가 희석효과를 가진다면\n희석주당이익의 계산에 반영한다 . 만약 조건이 보고기간말 후의\n일정 기간의 평균시장가격에 기초하고 있는 때에는 이미 경과된\n기간의 평균시장가격을 사용한다 . 시장가격은 미래 기간에 변동할\n수 있기 때문에 모든 필요조건이 아직 충족된 것은 아니므로 이\n러한 조건부발행보통주를 조건기간 말까지 기본주당이익의 계산\n에는 포함하지 아니한다 .",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "54",
+        "heading_context": "측정",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_55",
+      "parent_id": "KIFRS1033_main_측정",
+      "content": "조건부발행보통주식수는 미래의 이익과 보통주의 미래 시장가격\n모두에 의해 결정될 수도 있다 . 이 경우 희석주당이익의 계산에\n포함되는 보통주식수는 두 가지 조건 ( 즉, 회계기간의 이익과 보고\n기간 말 현재의 시장가격 ) 모두에 기초하게 된다 . 따라서 두 가지\n조건이 충족되지 않은 경우라면, 희석주당이익의 계산에 조건부발\n행보통주를 포함하지 아니한다 .",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "55",
+        "heading_context": "측정",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_56",
+      "parent_id": "KIFRS1033_main_측정",
+      "content": "또 조건부발행보통주식수는 이익이나 보통주의 시장가격 외에 다\n른 조건 ( 예 : 특정한 수의 영업점 개설 ) 에 따라 결정될 수도 있다 .\n이 경우에는 현재의 조건 상태가 조건기간이 만료할 때까지 변동\n하지 않을 것으로 가정하고 조건부발행보통주를 보고기간말의 상\n태에 기초하여 희석주당이익의 계산에 고려한다 .",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "56",
+        "heading_context": "측정",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_57_s1",
+      "parent_id": "KIFRS1033_main_측정",
+      "content": "조건부발행 전환금융상품과 같이 조건부주식약정에 해당하지 않\n는 조건부발행 잠재적보통주는 다음과 같은 방법으로 희석주당이\n익의 계산에 포함한다 .\n⑴",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "57",
+        "heading_context": "측정",
+        "cross_refs": [
+          "문단 52",
+          "문단\n49",
+          "문단 58",
+          "문단 45"
+        ],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 1,
+        "total_splits": 5
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_57_s2",
+      "parent_id": "KIFRS1033_main_측정",
+      "content": "잠재적보통주의 발행조건에 기초해 볼 때, 문단 52~56 의 조건\n부발행보통주에 관한 규정에 따라 잠재적보통주를 발행할 것\n으로 가정할 수 있는지 결정한다 .\n-",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "57",
+        "heading_context": "측정",
+        "cross_refs": [
+          "문단 52",
+          "문단\n49",
+          "문단 58",
+          "문단 45"
+        ],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 2,
+        "total_splits": 5
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_57_s3",
+      "parent_id": "KIFRS1033_main_측정",
+      "content": "23\n⑵ 그러한 잠재적보통주를 희석주당이익의 계산에 반영하여야 하\n는 경우, 문단 45~48 의 옵션과 주식매입권에 관한 규정, 문단\n49~51 의 전환금융상품에 관한 규정, 문단 58~61 의 보통주나\n현금으로 결제할 수 있는 계약에 관한 규정 등을 적용하여 희\n석주당이익의 계산에 대한 잠재적보통주의 영향을 적절히 결\n정한다 .",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "57",
+        "heading_context": "측정",
+        "cross_refs": [
+          "문단 52",
+          "문단\n49",
+          "문단 58",
+          "문단 45"
+        ],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 3,
+        "total_splits": 5
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_57_s4",
+      "parent_id": "KIFRS1033_main_측정",
+      "content": "그러나 조건부발행이 아닌 유사한 유통 잠재적보통주가 행사되거\n나 전환된다고 가정하지 않는 한 희석주당이익을 계산하기 위하\n여 조건부발행 잠재적보통주가 행사되거나 전환된다고는 가정하\n지 아니한다 .",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "57",
+        "heading_context": "측정",
+        "cross_refs": [
+          "문단 52",
+          "문단\n49",
+          "문단 58",
+          "문단 45"
+        ],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 4,
+        "total_splits": 5
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_57_s5",
+      "parent_id": "KIFRS1033_main_측정",
+      "content": "보통주나 현금으로 결제할 수 있는 계약\n기업의 선택에 따라 보통주나 현금으로 결제할 수 있는 계약을\n한 경우에 기업은 그 계약이 보통주로 결제될 것으로 가정하고\n그로 인한 잠재적보통주가 희석효과를 가진다면 희석주당이익의\n계산에 포함한다",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "57",
+        "heading_context": "측정",
+        "cross_refs": [
+          "문단 52",
+          "문단\n49",
+          "문단 58",
+          "문단 45"
+        ],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 5,
+        "total_splits": 5
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_59",
+      "parent_id": "KIFRS1033_main_측정",
+      "content": "그러한 계약이 회계목적상 자산이나 부채로 표시되거나 자본요소\n와 부채요소를 모두 가지는 경우, 그 계약 전체가 지분상품으로\n분류되어 왔다면 그 기간 동안 발생하였을 손익의 변동액을 분자\n에 반영하여 희석주당이익을 계산한다 . 그러한 조정은 문단 33 의\n조정과 유사하다 .\n보유자의 선택에 따라 보통주나 현금으로 결제하게 되는 계약의\n경우에는 주식결제와 현금결제 중 희석효과가 더 큰 방법으로 결\n제된다고 가정하여 희석주당이익을 계산한다",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "59",
+        "heading_context": "측정",
+        "cross_refs": [
+          "문단 33"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_61",
+      "parent_id": "KIFRS1033_main_측정",
+      "content": "보통주나 현금으로 결제할 수 있는 계약의 예로는 만기에 원금을\n현금이나 자기주식으로 결제할 수 있는 제한 없는 권리를 기업에\n- 24\n부여하는 채무상품이 있다 . 또 다른 예로는 보통주나 현금으로 결\n제할 수 있는 선택권을 보유자에게 부여하는 풋옵션을 매도하는\n경우가 있다 .\n매입옵션",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "61",
+        "heading_context": "측정",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_62_s1",
+      "parent_id": "KIFRS1033_main_측정",
+      "content": "기업이 자신의 보통주에 기초한 옵션 ( 풋옵션이나 콜옵션 ) 을 매입\n하여 보유하는 경우에는 반희석효과가 있으므로 희석주당이익의\n계산에 포함하지 아니한다 .",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "62",
+        "heading_context": "측정",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 1,
+        "total_splits": 4
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_62_s2",
+      "parent_id": "KIFRS1033_main_측정",
+      "content": "일반적으로 풋옵션은 행사가격이 시장\n가격보다 높을 경우에만 행사되고, 콜옵션은 행사가격이 시장가격\n보다 낮을 경우에만 행사된다 .",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "62",
+        "heading_context": "측정",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 2,
+        "total_splits": 4
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_62_s3",
+      "parent_id": "KIFRS1033_main_측정",
+      "content": "매도풋옵션\n매도풋옵션과 선도매입계약과 같이 기업이 자기주식을 매입하도\n록 하는 계약이 희석효과가 있다면 희석주당이익의 계산에 반영\n한다",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "62",
+        "heading_context": "측정",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 3,
+        "total_splits": 4
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_62_s4",
+      "parent_id": "KIFRS1033_main_측정",
+      "content": "이러한 계약이 그 회계기간 동안에 내가격 에 있다면 즉 행\n사가격이나 결제가격이 그 회계기간의 평균시장가격보다 높으면\n주당이익에 대한 잠재적 희석효과는 다음과 같이 계산한다\n계약 이행에 필요한 자금 조달을 위해 충분한 수의 보통주를\n그 회계기간의 평균시장가격으로 기초에 발행한다고 가정한다\n주식발행으로 유입된 현금은 그 계약을 이행하는 용도 즉 자\n기주식의 매입 로 사용한다고 가정한다\n증가될 보통주식수 즉 발행할 것으로 가정하는 보통주식수와\n계약을 이행할 경우 받게 되는 보통주식수의 차이 는 희석주\n당이익의 계산에 포함한다",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "62",
+        "heading_context": "측정",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 4,
+        "total_splits": 4
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_65",
+      "parent_id": "KIFRS1033_main_소급수정",
+      "content": "주당이익의 계산과정에 사용한 가정이 달라지거나 잠재적보통주\n가 보통주로 전환되더라도 표시되는 과거기간의 희석주당이익은\n재작성하지 아니한다 .",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "65",
+        "heading_context": "소급수정",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_67_s1",
+      "parent_id": "KIFRS1033_main_재무제표_표시",
+      "content": "주당이익은 포괄손익계산서가 제시되는 모든 기간에 대하여 제시\n된다 .",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "67",
+        "heading_context": "재무제표 표시",
+        "cross_refs": [
+          "문단 66",
+          "기준서 제 1001 호",
+          "문단 10",
+          "문단 68"
+        ],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 1,
+        "total_splits": 4
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_67_s2",
+      "parent_id": "KIFRS1033_main_재무제표_표시",
+      "content": "희석주당이익이 최소한 한 회계기간에 대하여 보고된다면\n그것이 기본주당이익과 같다고 하더라도 제시되는 모든 기간에\n대하여 보고한다 . 기본주당이익과 희석주당이익이 같은 경우에는\n포괄손익계산서에 한 줄로 표시할 수 있다 .",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "67",
+        "heading_context": "재무제표 표시",
+        "cross_refs": [
+          "문단 66",
+          "기준서 제 1001 호",
+          "문단 10",
+          "문단 68"
+        ],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 2,
+        "total_splits": 4
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_67_s3",
+      "parent_id": "KIFRS1033_main_재무제표_표시",
+      "content": "67A 기업회계기준서 제 1001 호 (2012 년 개정 ) 문단 10A 에 따라 별개의\n보고서에 당기순손익 항목을 표시하는 경우에는 그 별개의 보고\n서에 문단 66 과 67 에서 요구하는 것과 같이 기본 및 희석주당이\n익을 표시한다 .\n-",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "67",
+        "heading_context": "재무제표 표시",
+        "cross_refs": [
+          "문단 66",
+          "기준서 제 1001 호",
+          "문단 10",
+          "문단 68"
+        ],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 3,
+        "total_splits": 4
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_67_s4",
+      "parent_id": "KIFRS1033_main_재무제표_표시",
+      "content": "26\n중단영업에 대해 보고하는 기업은 중단영업에 대한 기본주당이익\n과 희석주당이익을 포괄손익계산서에 표시하거나 주석으로 공시\n한다\n68A 기업회계기준서 제 1001 호 (2012 년 개정 ) 문단 10A 에 따라 별개의\n보고서에 당기순손익 항목을 표시하는 경우에는 그 별개의 보고\n서 또는 주석에 문단 68 에서 요구하는 것과 같이 중단영업에 대\n한 기본 및 희석주당이익을 표시한다 . 기본주당이익과 희석주당이익이 부의 금액 즉 주당손실 인 경우에\n도 표시한다",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "67",
+        "heading_context": "재무제표 표시",
+        "cross_refs": [
+          "문단 66",
+          "기준서 제 1001 호",
+          "문단 10",
+          "문단 68"
+        ],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 4,
+        "total_splits": 4
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_71",
+      "parent_id": "KIFRS1033_main_공시",
+      "content": "문단 70⑷ 의 거래에 대한 예는 다음을 포함한다 .\n⑴ 현금납입에 의한 유상증자\n⑵ 납입액으로 보고기간말의 부채나 우선주를 상환하기 위한 주\n식발행\n⑶ 유통중인 보통주의 매입소각\n⑷ 보고기간말의 잠재적보통주의 보통주로의 전환이나 행사\n⑸ 옵션, 주식매입권 또는 전환금융상품의 발행\n⑹ 조건부발행보통주의 발행조건 충족\n보고기간 후에 위와 같은 거래가 발생한 경우에도 당기의 주당이\n익의 계산에 영향을 미치지 아니한다 . 그 이유는 그러한 거래가\n주당이익 산정 대상이 되는 회계기간의 당기순손익의 창출에 사\n용된 자본에 영향을 미치지 않기 때문이다 .",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "71",
+        "heading_context": "공시",
+        "cross_refs": [
+          "문단 70"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_72_s1",
+      "parent_id": "KIFRS1033_main_공시",
+      "content": "잠재적보통주를 발생시키는 금융상품과 계약 등이 기본주당이익\n과 희석주당이익의 계산에 영향을 미치는 조건을 포함하는 경우\n가 있다 .",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "72",
+        "heading_context": "공시",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 1,
+        "total_splits": 6
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_72_s2",
+      "parent_id": "KIFRS1033_main_공시",
+      "content": "이러한 조건에 따라 잠재적보통주의 희석효과 유무가 결\n정될 수도 있는 데, 희석효과가 있는 경우에는 가중평균유통보통\n주식수와 보통주에 귀속되는 당기순손익의 조정에 영향을 미치게\n된다 .",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "72",
+        "heading_context": "공시",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 2,
+        "total_splits": 6
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_72_s3",
+      "parent_id": "KIFRS1033_main_공시",
+      "content": "따라서 그러한 금융상품과 계약 등에 관련된 조건은 의무적\n으로 공시가 요구되지 않더라도 공시하도록 권장한다 ( 기업회계기\n준서 제 1107 호 ‘ 금융상품 : 공시 ’ 참조 ).",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "72",
+        "heading_context": "공시",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 3,
+        "total_splits": 6
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_72_s4",
+      "parent_id": "KIFRS1033_main_공시",
+      "content": "기본 및 희석주당이익 외에 이 기준서에서 요구하지 않지만 포괄\n손익계산서의 다른 구성요소에 대하여 계산한 주당금액을 주석으\n로 공시하는 경우에도 이 기준서에 따라 계산한 가중평균유통보\n통주식수를 사용한다 그러한 포괄손익계산서의 구성요소에 대한\n기본주당금액과 희석주당금액은 동등한 비중으로 공시하며 재무\n제표의 주석에 기재한다",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "72",
+        "heading_context": "공시",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 4,
+        "total_splits": 6
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_72_s5",
+      "parent_id": "KIFRS1033_main_공시",
+      "content": "또 이 경우 분자가 세전금액 또는 세후\n금액을 기준으로 산출되었는지 등의 산출근거를 주석에 나타낸다\n만약 그러한 포괄손익계산서의 구성요소가 포괄손익계산서의 별\n- 28\n도 구분항목이 아닌 경우에는 이 구성요소와 포괄손익계산서에\n보고된 별도 구분항목 사이의 조정내용을 공시한다",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "72",
+        "heading_context": "공시",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 5,
+        "total_splits": 6
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_72_s6",
+      "parent_id": "KIFRS1033_main_공시",
+      "content": "기본 및 희석주당이익에 더하여 이 기준서에서 요구하지 않지만\n보고된 당기순손익 항목을 이용하여 계산한 주당금액을 공시하는",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "72",
+        "heading_context": "공시",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 6,
+        "total_splits": 6
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_74_s1",
+      "parent_id": "KIFRS1033_main_시행일",
+      "content": "[ 한국회계기준원 회계기준위원회가 삭제함 ]\n74A [ 한국회계기준원 회계기준위원회가 삭제함 ]\n용할 수 있다",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "74",
+        "heading_context": "시행일",
+        "cross_refs": [
+          "문단 8",
+          "기준서 제 1110 호",
+          "기준서 제 1001 호",
+          "기준서 제\n1113 호",
+          "기준서 제 1109 호",
+          "문단 34",
+          "기준서 제 1113 호",
+          "문단 4"
+        ],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 1,
+        "total_splits": 6
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_74_s2",
+      "parent_id": "KIFRS1033_main_시행일",
+      "content": "74B 2012 년 11 월에 발표된 기업회계기준서 제 1110 호 및 제 1111 호 ‘ 공\n동약정 ’ 은 문단 4, 40 및 A11 을 수정하였다 .",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "74",
+        "heading_context": "시행일",
+        "cross_refs": [
+          "문단 8",
+          "기준서 제 1110 호",
+          "기준서 제 1001 호",
+          "기준서 제\n1113 호",
+          "기준서 제 1109 호",
+          "문단 34",
+          "기준서 제 1113 호",
+          "문단 4"
+        ],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 2,
+        "total_splits": 6
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_74_s3",
+      "parent_id": "KIFRS1033_main_시행일",
+      "content": "동 개정내용은 기업\n회계기준서 제 1110 호와 제 1111 호를 적용하는 경우 적용한다 .",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "74",
+        "heading_context": "시행일",
+        "cross_refs": [
+          "문단 8",
+          "기준서 제 1110 호",
+          "기준서 제 1001 호",
+          "기준서 제\n1113 호",
+          "기준서 제 1109 호",
+          "문단 34",
+          "기준서 제 1113 호",
+          "문단 4"
+        ],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 3,
+        "total_splits": 6
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_74_s4",
+      "parent_id": "KIFRS1033_main_시행일",
+      "content": "74C 2011 년 12 월 발표된 기업회계기준서 제 1113 호에 따라 문단 8,\n47A 및 A2 가 개정되었다 . 이러한 개정내용은 기업회계기준서 제\n1113 호를 적용할 때 적용한다 .",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "74",
+        "heading_context": "시행일",
+        "cross_refs": [
+          "문단 8",
+          "기준서 제 1110 호",
+          "기준서 제 1001 호",
+          "기준서 제\n1113 호",
+          "기준서 제 1109 호",
+          "문단 34",
+          "기준서 제 1113 호",
+          "문단 4"
+        ],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 4,
+        "total_splits": 6
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_74_s5",
+      "parent_id": "KIFRS1033_main_시행일",
+      "content": "74D 2012 년 6 월에 발표된 기업회계기준서 제 1001 호의 개정에 따라 문\n단 4A, 67A, 68A 및 73A 가 개정되었다 . 이 개정 내용은 개정된\n기업회계기준서 제 1001 호를 적용할 때 적용한다 .\n-",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "74",
+        "heading_context": "시행일",
+        "cross_refs": [
+          "문단 8",
+          "기준서 제 1110 호",
+          "기준서 제 1001 호",
+          "기준서 제\n1113 호",
+          "기준서 제 1109 호",
+          "문단 34",
+          "기준서 제 1113 호",
+          "문단 4"
+        ],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 5,
+        "total_splits": 6
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_74_s6",
+      "parent_id": "KIFRS1033_main_시행일",
+      "content": "29\n74E 2015 년 12 월에 발표된 기업회계기준서 제 1109 호에 따라 문단 34\n를 개정하였다 . 이러한 개정내용은 기업회계기준서 제 1109 호를 적\n용할 때 적용한다 .",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "74",
+        "heading_context": "시행일",
+        "cross_refs": [
+          "문단 8",
+          "기준서 제 1110 호",
+          "기준서 제 1001 호",
+          "기준서 제\n1113 호",
+          "기준서 제 1109 호",
+          "문단 34",
+          "기준서 제 1113 호",
+          "문단 4"
+        ],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 6,
+        "total_splits": 6
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_75",
+      "parent_id": "KIFRS1033_main_기준서_등의_대체",
+      "content": "[ 한국회계기준원 회계기준위원회가 삭제함 ]",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "75",
+        "heading_context": "기준서 등의 대체",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_main_76",
+      "parent_id": "KIFRS1033_main_기준서_등의_대체",
+      "content": "[ 한국회계기준원 회계기준위원회가 삭제함 ]\n- 30",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "main",
+        "para_number": "76",
+        "heading_context": "기준서 등의 대체",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_bc_BC1",
+      "parent_id": "KIFRS1033_bc_도입",
+      "content": "IASB 가 2003 년에 IAS 33 을 개정하기 위해 결론을 도출하는\n과정에서 고려한 사항을 이 결론도출근거에서 요약한다 . IASB\n위원들은 개인에 따라 일부 사항을 다른 사항들보다 더 비중\n있게 고려하였다 .",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "bc",
+        "para_number": "BC1",
+        "heading_context": "도입",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_bc_BC2",
+      "parent_id": "KIFRS1033_bc_도입",
+      "content": "2001 년 7 월에 IASB 의 최초 의제의 하나로서 IAS 33 을 포함한\n일부 기준서의 개선 과제를 수행할 것이라고 발표하였다 . 이\n과제는 증권감독기구, 전문직 회계사 및 기타 이해관계자들이\n기준서와 관련하여 제기한 질문과 비판을 고려하여 수행되었\n다 . 이러한 개선 과제의 목적은 대체적 회계처리, 중복되는 사\n항 및 기준서 간에 상충되는 내용을 감소시키거나 제거하고,\n정합화 문제를 다루며, 그 밖의 사항을 개선하는 데 있었다 .\n2002 년 5 월에 IASB 는 2002 년 9 월 16 일을 외부검토의견제출 마\n감일로 하여 IAS 연차개선 (Improvements to International\nAccountingStandards) 공개초안을 발표하였고 공개초안과 관련\n하여 160 여개의 외부검토의견서를 받았다 .",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "bc",
+        "para_number": "BC2",
+        "heading_context": "도입",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_bc_BC3",
+      "parent_id": "KIFRS1033_bc_도입",
+      "content": "IASB 의 의도는 IAS 33 이 정한 주당이익의 결정과 표시에 대\n한 근본적인 접근방법을 재고하는 것이 아니었으므로, 이 결론\n도출근거에서는 IAS 33 과 관련하여 IASB 가 재고하지 않은 규\n정에 대해서는 논의하지 않는다 .\n- 73",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "bc",
+        "para_number": "BC3",
+        "heading_context": "도입",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_bc_BC4",
+      "parent_id": "KIFRS1033_bc_지배기업의_별도_주당이익의_표시",
+      "content": "2002 년 5 월에 발표한 공개초안은 지배기업의 별도재무제표와\n연결재무제표를 제시할 때, 주당이익은 연결 정보에 기초하여\n서만 표시할 필요가 있다고 명시한 개정 전 IAS 33 의 문단 2\n와 3 을 삭제할 것을 제안하였다 .",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "bc",
+        "para_number": "BC4",
+        "heading_context": "지배기업의 별도 주당이익의 표시",
+        "cross_refs": [
+          "문단 2"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_bc_BC5",
+      "parent_id": "KIFRS1033_bc_지배기업의_별도_주당이익의_표시",
+      "content": "일부 의견제출자들은 두 가지 주당이익 수치 ( 지배기업 별도재\n무제표의 주당이익과 연결재무제표의 주당이익 ) 의 표시가 오\n해를 유발할 수 있다는 우려를 표명했다 .",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "bc",
+        "para_number": "BC5",
+        "heading_context": "지배기업의 별도 주당이익의 표시",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_bc_BC6",
+      "parent_id": "KIFRS1033_bc_지배기업의_별도_주당이익의_표시",
+      "content": "IASB 는 지배기업의 별도 주당이익을 공시하는 것이 제한적인\n상황에서는 유용하므로 이러한 선택권을 유지하기로 결정하였\n다 . 그러나 이 기준서에서는 지배기업의 별도 주당이익을 연결\n재무제표 ( 재무제표나 주석 ) 에 표시하는 것은 금지해야 한다고\n결정하였다 .",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "bc",
+        "para_number": "BC6",
+        "heading_context": "지배기업의 별도 주당이익의 표시",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_bc_BC7",
+      "parent_id": "KIFRS1033_bc_보통주나_현금으로_결제할_수_있는_계약",
+      "content": "공개초안에서는 발행자의 선택에 따라 보통주나 현금으로 결\n제할 수 있는 계약은 희석주당이익을 계산하는 경우에 그 계\n약이 주식으로 결제될 것이라는 반증가능한 가정에 근거하여\n잠재적 보통주식수의 계산에 포함되어야 한다고 제안하였다 .\n만일 발행자가 확립된 형태의 실무관행이나 공표된 정책에 따\n라 행동하였거나, 발행자가 결제할 것이라고 예상하는 방식을\n다른 당사자에게 암시하는 의사표시로서 충분히 구체적이고\n통용되는 그 의사표시에 따라 행동함으로써, 결과적으로 다른\n당사자로 하여금 발행자가 주식발행 이외의 방식으로 결제할\n것이라는 정당한 기대를 하게 하였다면, 이는 위에서 제시된\n가정에 대한 명백한 반증이 될 수 있다 .\n- 74",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "bc",
+        "para_number": "BC7",
+        "heading_context": "보통주나 현금으로 결제할 수 있는 계약",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_bc_BC8",
+      "parent_id": "KIFRS1033_bc_보통주나_현금으로_결제할_수_있는_계약",
+      "content": "공개초안에 대한 의견제출자의 대다수는 발행자의 선택에 따\n라 보통주나 현금으로 결제할 수 있도록 하는 계약에 대해 제\n안된 회계처리에 동의하였다 . 그러나 IASB 는 반증가능한 가정\n의 개념을 철회하고 이 기준서에 국제회계기준해석 제 24 호\n(SIC 24) ‘ 주당이익 : 주식으로 결제할 수 있는 금융상품과 기타\n계약 (Earnings per Share—Financial Instruments and Other\nContracts that May Be Settled in Shares)’ 의 요구사항을 반영\n하기로 결정하였다 . SIC 24 는 보통주 발행을 유발할 수 있는\n금융상품이나 기타 계약을 잠재적보통주로 보도록 하고 있다 .",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "bc",
+        "para_number": "BC8",
+        "heading_context": "보통주나 현금으로 결제할 수 있는 계약",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_bc_BC9",
+      "parent_id": "KIFRS1033_bc_보통주나_현금으로_결제할_수_있는_계약",
+      "content": "비록 제안된 회계처리가 몇몇 유관 회계기준제정기구가 요구\n하는 내용, 예를 들면 미국 SFAS 128 ‘ 주당이익 (Earnings per\nShare)’ 에 정합할 수 있지만, IASB 는 반증가능한 가정의 개념\n은 명시된 희석주당이익의 목적에 부합하지 않는다고 결론내\n렸다 . 미국 FASB 는 이러한 차이점을 IASB 와의 공동 단기 정\n합화 과제의 일부로 고려하는 데 동의하였다 .",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "bc",
+        "para_number": "BC9",
+        "heading_context": "보통주나 현금으로 결제할 수 있는 계약",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": true
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_bc_BC10",
+      "parent_id": "KIFRS1033_bc_누적중간기간의_희석주당이익_계산",
+      "content": "공개초안은 누적중간기간의 희석주당이익 계산에 대하여 다음\n의 접근법을 제안하였다 .\n(1) 잠재적보통주식수는 잠재적보통주가 유통된 기간으로 가중\n한 잠재적보통주식수의 누적중간기간 가중평균이 아니고\n( 즉 중간기간에 보고된 희석주당이익 정보와는 상관없이 )\n각 중간기간의 희석주당이익 계산에 포함된 잠재적보통주\n식수의 누적중간기간 가중평균이다 .\n(2) 잠재적보통주식수는 누적중간기간의 평균시장가격을 사용\n하는 것이 아니고 해당 중간기간의 평균시장가격을 사용하\n여 계산한다 .\n(3) 조건부발행보통주는 누적보고기간 초부터 ( 해당 회계기간에\n조건부발행보통주에 대한 계약이 이루어졌다면 계약일부\n- 75\n터 ) 희석주당이익 계산에 포함 ( 조건이 충족된다면 ) 되는 것\n이 아니고 희석주당이익을 계산할 때 조건부발행보통주가\n포함된 중간기간으로 가중평균한다 .",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "bc",
+        "para_number": "BC10",
+        "heading_context": "누적중간기간의 희석주당이익 계산",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_bc_BC11",
+      "parent_id": "KIFRS1033_bc_누적중간기간의_희석주당이익_계산",
+      "content": "공개초안에 대한 의견제출자의 대다수는 제안된 희석주당이익\n의 누적중간기간 계산 접근법에 동의하지 않았다 . 제안된 접근\n법에 반대하는 가장 유의적인 논거는 제안된 희석주당이익 계\n산법은 분기나 반기 기준으로 보고하는 경우와 같이 보고를\n자주하는 기업과 연차기준으로만 보고하는 기업이 서로 다른\n누적중간기간 희석주당이익을 산출할 수 있다는 것이다 . 계절\n성 사업을 영위하는 기업의 경우 이러한 문제점은 더 심각하\n다는 점도 지적되었다 .",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "bc",
+        "para_number": "BC11",
+        "heading_context": "누적중간기간의 희석주당이익 계산",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_bc_BC12",
+      "parent_id": "KIFRS1033_bc_누적중간기간의_희석주당이익_계산",
+      "content": "IASB 는 중간재무보고 빈도에 따라 보고되는 주당이익이 다를\n수 있다는 것을 수용할지 여부를 고려하였다 . 그러나 IAS 34\n는 ‘ 연차재무제표의 결과가 보고빈도 ( 연차보고, 반기보고, 분기\n보고 ) 에 따라 달라지지 않아야 한다 . 이러한 목적을 달성하기\n위하여 중간재무보고를 위한 측정은 당해 회계연도 누적기간\n을 기준으로 하여야 한다 .’ 고 명시하고 있다 .",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "bc",
+        "para_number": "BC12",
+        "heading_context": "누적중간기간의 희석주당이익 계산",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_bc_BC13",
+      "parent_id": "KIFRS1033_bc_누적중간기간의_희석주당이익_계산",
+      "content": "IASB 는 IFRS 에 따라 재무제표를 작성하는 모든 기업, 즉 공개\n시장에서 거래되는 금융상품을 발행하였거나 주당이익을 표시\n하기로 결정하였기 때문에 IAS 33 의 적용을 받는 기업 간의\n일관성을 유지하기 위하여 중간재무보고의 빈도를 규정할 수\n있는지 고려하였다 . 그러나 IAS 34 는 ‘ 이 기준서는 중간보고의\n대상기업, 보고주기 및 보고기한을 규정하지 않는다 .’ 고 명시\n하고 있다 . 중간재무보고의 빈도는 증권감독기구, 증권거래소,\n정부 및 회계관련기구가 규정하는 것이고 국가별로 다르다 .\n- 76",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "bc",
+        "para_number": "BC13",
+        "heading_context": "누적중간기간의 희석주당이익 계산",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_bc_BC14",
+      "parent_id": "KIFRS1033_bc_누적중간기간의_희석주당이익_계산",
+      "content": "비록 누적중간기간의 희석주당이익 계산을 위하여 제안된 접\n근법이 미국 SFAS 128 과 정합하지만, 이러한 접근법은 IAS 34\n와 일관되지 않으며 중간재무보고의 빈도를 규정할 수 없다고\nIASB 는 결론지었다 . 미국 FASB 는 문단 BC9 에 명시된 회계논\n제뿐만 아니라, 이러한 차이점도 IASB 와의 공동 단기 정합화\n과제의 일부로 고려하는 데 동의하였다 .",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "bc",
+        "para_number": "BC14",
+        "heading_context": "누적중간기간의 희석주당이익 계산",
+        "cross_refs": [
+          "BC9"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1033_bc_BC15",
+      "parent_id": "KIFRS1033_bc_그_밖의_변경사항",
+      "content": "개정 전 IAS 33 이 발표된 이후 특히 이 기준서를 복잡한 자본\n구조와 약정에 적용하는 경우 그 실무적용에 대한 의문이 제\n기되었다 . 이에 대하여 IASB 는 개정 전 IAS 33 에서는 다루지\n않았던 좀 더 복잡한 문제의 사례뿐만 아니라, 부록으로 추가\n적인 적용지침을 제공하기로 결정하였다 . 이러한 문제에는 조\n건부발행보통주, 종속기업ㆍ공동기업 또는 관계기업의 잠재적\n보통주, 참가적 지분상품, 매도풋옵션 및 매입 풋옵션과 콜옵\n션의 영향이 포함된다 .\n- 77",
+      "metadata": {
+        "standard_id": "KIFRS1033",
+        "standard_name": "주당이익",
+        "section_type": "bc",
+        "para_number": "BC15",
+        "heading_context": "그 밖의 변경사항",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    }
+  ]
+}

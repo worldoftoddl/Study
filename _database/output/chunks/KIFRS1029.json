@@ -1,0 +1,1015 @@
+{
+  "standard_id": "KIFRS1029",
+  "standard_name": "초인플레이션 경제에서의 재무보고",
+  "source_file": "시행중_K-IFRS_제1029호_초인플레이션_경제에서의_재무보고(2008_개정_수정목록_23-1_2020_구성양식_변경_반영).pdf",
+  "processed_at": "2026-03-04T14:16:40.559685",
+  "stats": {
+    "total_paragraphs": 43,
+    "total_parents": 6,
+    "total_children": 55
+  },
+  "parents": [
+    {
+      "parent_id": "KIFRS1029_main_한국회계기준원_회계기준위원회_의결_2008._11._28.",
+      "standard_id": "KIFRS1029",
+      "section_type": "main",
+      "section_heading": "한국회계기준원 회계기준위원회 의결 2008. 11. 28.",
+      "children": [
+        "KIFRS1029_main_7_s1",
+        "KIFRS1029_main_7_s2",
+        "KIFRS1029_main_7_s1",
+        "KIFRS1029_main_7_s2",
+        "KIFRS1029_main_7_s3",
+        "KIFRS1029_main_7_s4",
+        "KIFRS1029_main_7_s5",
+        "KIFRS1029_main_7_s6",
+        "KIFRS1029_main_7_s7",
+        "KIFRS1029_main_7_s8",
+        "KIFRS1029_main_7",
+        "KIFRS1029_main_7"
+      ]
+    },
+    {
+      "parent_id": "KIFRS1029_main_적용범위",
+      "standard_id": "KIFRS1029",
+      "section_type": "main",
+      "section_heading": "적용범위",
+      "children": [
+        "KIFRS1029_main_2",
+        "KIFRS1029_main_3_s1",
+        "KIFRS1029_main_3_s2",
+        "KIFRS1029_main_3_s3",
+        "KIFRS1029_main_3_s4",
+        "KIFRS1029_main_3_s5",
+        "KIFRS1029_main_4"
+      ]
+    },
+    {
+      "parent_id": "KIFRS1029_main_재무제표의_재작성",
+      "standard_id": "KIFRS1029",
+      "section_type": "main",
+      "section_heading": "재무제표의 재작성",
+      "children": [
+        "KIFRS1029_main_5",
+        "KIFRS1029_main_6",
+        "KIFRS1029_main_7",
+        "KIFRS1029_main_10",
+        "KIFRS1029_main_11",
+        "KIFRS1029_main_12",
+        "KIFRS1029_main_13",
+        "KIFRS1029_main_14",
+        "KIFRS1029_main_15",
+        "KIFRS1029_main_16",
+        "KIFRS1029_main_17",
+        "KIFRS1029_main_18",
+        "KIFRS1029_main_19",
+        "KIFRS1029_main_20",
+        "KIFRS1029_main_21",
+        "KIFRS1029_main_22",
+        "KIFRS1029_main_23",
+        "KIFRS1029_main_24",
+        "KIFRS1029_main_25",
+        "KIFRS1029_main_26",
+        "KIFRS1029_main_27",
+        "KIFRS1029_main_28",
+        "KIFRS1029_main_13",
+        "KIFRS1029_main_29",
+        "KIFRS1029_main_30",
+        "KIFRS1029_main_31",
+        "KIFRS1029_main_32",
+        "KIFRS1029_main_33",
+        "KIFRS1029_main_34",
+        "KIFRS1029_main_35",
+        "KIFRS1029_main_36",
+        "KIFRS1029_main_37"
+      ]
+    },
+    {
+      "parent_id": "KIFRS1029_main_공시",
+      "standard_id": "KIFRS1029",
+      "section_type": "main",
+      "section_heading": "공시",
+      "children": [
+        "KIFRS1029_main_40"
+      ]
+    },
+    {
+      "parent_id": "KIFRS1029_main_시행일",
+      "standard_id": "KIFRS1029",
+      "section_type": "main",
+      "section_heading": "시행일",
+      "children": [
+        "KIFRS1029_main_41"
+      ]
+    },
+    {
+      "parent_id": "KIFRS1029_bc_초인플레이션_경제에서의_재무보고_의_결론도출근거",
+      "standard_id": "KIFRS1029",
+      "section_type": "bc",
+      "section_heading": "초인플레이션 경제에서의 재무보고 의 결론도출근거",
+      "children": [
+        "KIFRS1029_bc_BC1",
+        "KIFRS1029_bc_BC2"
+      ]
+    }
+  ],
+  "children": [
+    {
+      "chunk_id": "KIFRS1029_main_7_s1",
+      "parent_id": "KIFRS1029_main_한국회계기준원_회계기준위원회_의결_2008._11._28.",
+      "content": "Westferry Circus, Canary Wharf, London E14 4HD, United Kingdom.\nTel: +44 (0)20 7246 6410 Fax: +44 (0)20 7246 6411\nEmail: info@ifrs.org Web: www.ifrs.org\nCopyright © 2025 IFRS Foundation\n국제회계기준위원회, 국제회계기준재단(International Financial Reporting Standards\nFoundation: IFRS Foundation) 및 이 출판물의 저작자와 출판자는, 이 출판물에 의거하여 행\n위를 하거나 행위를 하지 않은 자의 부주의 등 여하한 원인으로 발생한 손해에 대하여 책임\n을 지지 않습니다.",
+      "metadata": {
+        "standard_id": "KIFRS1029",
+        "standard_name": "초인플레이션 경제에서의 재무보고",
+        "section_type": "main",
+        "para_number": "7",
+        "heading_context": "한국회계기준원 회계기준위원회 의결 2008. 11. 28.",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 1,
+        "total_splits": 2
+      }
+    },
+    {
+      "chunk_id": "KIFRS1029_main_7_s2",
+      "parent_id": "KIFRS1029_main_한국회계기준원_회계기준위원회_의결_2008._11._28.",
+      "content": "국제회계기준(IAS) 및 해석서(Interpretations)를 포함하는 국제회계기준(IFRSs)은 국제회계기\n준재단에 저작권이 있습니다. 국제회계기준(IFRSs)의 정본은 IASB가 발표한 영문판입니다. 사본은 국제회계기준재단에서 얻을 수 있습니다. 출판 및 저작권에 대해서는 아래 연락처로\n질의하시기 바랍니다. IFRS Foundation Publications Department",
+      "metadata": {
+        "standard_id": "KIFRS1029",
+        "standard_name": "초인플레이션 경제에서의 재무보고",
+        "section_type": "main",
+        "para_number": "7",
+        "heading_context": "한국회계기준원 회계기준위원회 의결 2008. 11. 28.",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 2,
+        "total_splits": 2
+      }
+    },
+    {
+      "chunk_id": "KIFRS1029_main_7_s1",
+      "parent_id": "KIFRS1029_main_한국회계기준원_회계기준위원회_의결_2008._11._28.",
+      "content": "Westferry Circus, Canary Wharf, London E14 4HD, United Kingdom.\nTel: +44 (0)20 7332 2730 Fax: +44 (0)20 7332 2749\nEmail: publications@ifrs.org Web: www.ifrs.org\n모든 저작권은 보호됩니다.",
+      "metadata": {
+        "standard_id": "KIFRS1029",
+        "standard_name": "초인플레이션 경제에서의 재무보고",
+        "section_type": "main",
+        "para_number": "7",
+        "heading_context": "한국회계기준원 회계기준위원회 의결 2008. 11. 28.",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 1,
+        "total_splits": 8
+      }
+    },
+    {
+      "chunk_id": "KIFRS1029_main_7_s2",
+      "parent_id": "KIFRS1029_main_한국회계기준원_회계기준위원회_의결_2008._11._28.",
+      "content": "국제회계기준재단의 서면에 의한 사전승인이 없이, 이 출판물의\n일부 또는 전부의 번역, 재인쇄, 재출간 또는 전자, 기계 또는 기타의 방법(복사와 리코딩을\n포함한 정보저장과 검색의 방법으로서 알려진 것과 이후 개발될 것을 포함)에 의한 형태의\n사용이 금지됩니다.",
+      "metadata": {
+        "standard_id": "KIFRS1029",
+        "standard_name": "초인플레이션 경제에서의 재무보고",
+        "section_type": "main",
+        "para_number": "7",
+        "heading_context": "한국회계기준원 회계기준위원회 의결 2008. 11. 28.",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 2,
+        "total_splits": 8
+      }
+    },
+    {
+      "chunk_id": "KIFRS1029_main_7_s3",
+      "parent_id": "KIFRS1029_main_한국회계기준원_회계기준위원회_의결_2008._11._28.",
+      "content": "한국회계기준원 회계기준위원회는 국제회계기준재단의 동의 하에 국제회계기준과 이 출판물\n에 포함된 관련 문서들의 한국어 번역을 승인했습니다. 한국어 번역판에 대한 저작권은 국\n제회계기준재단에게 있습니다. 한국어 번역판은 국제회계기준재단이나 한국회계기준원에서\n얻을 수 있습니다. 한국회계기준원의 연락처는 다음과 같습니다.",
+      "metadata": {
+        "standard_id": "KIFRS1029",
+        "standard_name": "초인플레이션 경제에서의 재무보고",
+        "section_type": "main",
+        "para_number": "7",
+        "heading_context": "한국회계기준원 회계기준위원회 의결 2008. 11. 28.",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 3,
+        "total_splits": 8
+      }
+    },
+    {
+      "chunk_id": "KIFRS1029_main_7_s4",
+      "parent_id": "KIFRS1029_main_한국회계기준원_회계기준위원회_의결_2008._11._28.",
+      "content": "서울특별시 중구 세종대로 39, 대한상공회의소빌딩 3 층, 04513, 전화: +82 (0)2 6050-0150, 팩스:\n+82 (0)2 6050-0170, 이메일: webmaster@kasb.or.kr, 홈페이지: www.kasb.or.kr\n국제회계기준재단은 정부의 동의를 얻어 한국 내에서 사용하는 경우와 한국 내에 소재하는\n기업의 해외 종속기업, 공동기업, 관계기업 또는 지점의 한국 이외 지역에서의 사용과 관련\n하여, 한국어로 구성된 일부 저작물에 대한 저작권을 주장할 권리를 포기했습니다.",
+      "metadata": {
+        "standard_id": "KIFRS1029",
+        "standard_name": "초인플레이션 경제에서의 재무보고",
+        "section_type": "main",
+        "para_number": "7",
+        "heading_context": "한국회계기준원 회계기준위원회 의결 2008. 11. 28.",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 4,
+        "total_splits": 8
+      }
+    },
+    {
+      "chunk_id": "KIFRS1029_main_7_s5",
+      "parent_id": "KIFRS1029_main_한국회계기준원_회계기준위원회_의결_2008._11._28.",
+      "content": "이러한\n저작물은 국제회계기준위원회가 제정 또는 채택한 번호가 매겨진 모든 국제회계기준(IAS)\n및 국제재무보고기준(IFRS)의 본문, 또는 국제회계기준해석위원회(IFRS IC)나 상설해석위원회\n(SIC)가 발표한 해석서의 본문(이하 ‘기준서 본문’)으로 구성됩니다.",
+      "metadata": {
+        "standard_id": "KIFRS1029",
+        "standard_name": "초인플레이션 경제에서의 재무보고",
+        "section_type": "main",
+        "para_number": "7",
+        "heading_context": "한국회계기준원 회계기준위원회 의결 2008. 11. 28.",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 5,
+        "total_splits": 8
+      }
+    },
+    {
+      "chunk_id": "KIFRS1029_main_7_s6",
+      "parent_id": "KIFRS1029_main_한국회계기준원_회계기준위원회_의결_2008._11._28.",
+      "content": "한국 내에서 사용하는 경우와 한국 내에 소재하는 기업의 해외 종속기업, 공동기업, 관계기\n업 또는 지점이 한국 이외의 지역에서 사용하는 경우에는 기준서 본문을 한국어로 재출간할\n수 있습니다.",
+      "metadata": {
+        "standard_id": "KIFRS1029",
+        "standard_name": "초인플레이션 경제에서의 재무보고",
+        "section_type": "main",
+        "para_number": "7",
+        "heading_context": "한국회계기준원 회계기준위원회 의결 2008. 11. 28.",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 6,
+        "total_splits": 8
+      }
+    },
+    {
+      "chunk_id": "KIFRS1029_main_7_s7",
+      "parent_id": "KIFRS1029_main_한국회계기준원_회계기준위원회_의결_2008._11._28.",
+      "content": "국제회계기준재단은 한국 이외 지역에서의 모든 권리와 한국 내에 소재하는 기업의 해외 종\n속기업, 공동기업, 관계기업 또는 지점이 한국 이외의 지역에서 한국어로 구성된 기준서 본\n문을 사용하는 경우를 제외한 모든 권리를 보유합니다.",
+      "metadata": {
+        "standard_id": "KIFRS1029",
+        "standard_name": "초인플레이션 경제에서의 재무보고",
+        "section_type": "main",
+        "para_number": "7",
+        "heading_context": "한국회계기준원 회계기준위원회 의결 2008. 11. 28.",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 7,
+        "total_splits": 8
+      }
+    },
+    {
+      "chunk_id": "KIFRS1029_main_7_s8",
+      "parent_id": "KIFRS1029_main_한국회계기준원_회계기준위원회_의결_2008._11._28.",
+      "content": "International Financial Reporting Standards (IFRSs) together with their accompanying documents\nare issued by the International Accounting Standards Board (IASB):",
+      "metadata": {
+        "standard_id": "KIFRS1029",
+        "standard_name": "초인플레이션 경제에서의 재무보고",
+        "section_type": "main",
+        "para_number": "7",
+        "heading_context": "한국회계기준원 회계기준위원회 의결 2008. 11. 28.",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 8,
+        "total_splits": 8
+      }
+    },
+    {
+      "chunk_id": "KIFRS1029_main_7",
+      "parent_id": "KIFRS1029_main_한국회계기준원_회계기준위원회_의결_2008._11._28.",
+      "content": "Westferry Circus, Canary Wharf, London E14 4HD, United Kingdom.\nTel: +44 (0)20 7246 6410 Fax: +44 (0)20 7246 6411\nEmail: info@ifrs.org Web: www.ifrs.org\nCopyright © 2025 IFRS Foundation\nThe IASB, the IFRS Foundation, the authors and the publishers do not accept responsibility for\nloss caused to any person who acts or refrains from acting in reliance on the material in this\npublication, whether such loss is caused by negligence or otherwise.\nIFRSs (which include International Accounting Standards and Interpretations) are copyright of the\nInternational Financial Reporting Standards (IFRS) Foundation. The authoritative text of IFRSs is\nthat issued by the IASB in the English language. Copies may be obtained from the IFRS\nFoundation Publications Department. Please address publication and copyright matters to:\nIFRS Foundation Publications Department",
+      "metadata": {
+        "standard_id": "KIFRS1029",
+        "standard_name": "초인플레이션 경제에서의 재무보고",
+        "section_type": "main",
+        "para_number": "7",
+        "heading_context": "한국회계기준원 회계기준위원회 의결 2008. 11. 28.",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1029_main_7",
+      "parent_id": "KIFRS1029_main_한국회계기준원_회계기준위원회_의결_2008._11._28.",
+      "content": "Westferry Circus, Canary Wharf, London E14 4HD, United Kingdom.\nTel: +44 (0)20 7332 2730 Fax: +44 (0)20 7332 2749\nEmail: publications@ifrs.org Web: www.ifrs.org\nAll rights reserved. No part of this publication may be translated, reprinted or reproduced or\nutilised in any form either in whole or in part or by any electronic, mechanical or other means,\nnow known or hereafter invented, including photocopying and recording, or in any information\nstorage and retrieval system, without prior permission in writing from the IFRS Foundation.\nThe Korean translation of the International Financial Reporting Standards and related material\ncontained in this publication has been approved by the Korea Accounting Standards Board in\nKorea with the permission of the IFRS Foundation. The Korean translation is the copyright of the\nIFRS Foundation. Copies of the Korean translation may be obtained from the IFRS Foundation or\nthe KASB, KCCI Building 3rd Flr., 39 Sejong-daero, Jung-gu, Seoul, 04513, Korea.\nTel: +82 (0)2 6050 0150\nFax: +82 (0)2 6050 0170\nEmail: webmaster@kasb.or.kr\nWeb: www.kasb.or.kr\nThe IFRS Foundation has waived the right to assert its copyright in certain materials in the\nKorean language, such materials consist of all numbered, bare International Accounting Standards\n(IASs) and International Financial Reporting Standards (IFRSs) in the form that they are issued or\nadopted by the IASB, or Interpretations issued by the IFRS Interpretations Committee (IFRS IC) or\nStanding Interpretations Committee (SIC) (hereinafter referred to as 'integral part of the standards'),\nin the territory of the Republic of Korea with sovereign consent and in connection with any use\nof the integral part of the standards outside of the Republic of Korea by any foreign subsidiary,\njoint venture, associate or branch of a corporation, which resides in the Republic of Korea.\nReproduction of the integral part of the standards in the Korean language is permitted for any use\nwithin the Republic of Korea and by any foreign subsidiary, joint venture, associate or branch of a\ncorporation, which resides in the Republic of Korea.\nThe IFRS Foundation reserves all rights outside of the Republic of Korea and in any use other\nthan use of the integral part of the standards in the Korean language by any foreign subsidiary,\njoint venture, associate or branch of a corporation, which resides in the Republic of Korea.\n- 3",
+      "metadata": {
+        "standard_id": "KIFRS1029",
+        "standard_name": "초인플레이션 경제에서의 재무보고",
+        "section_type": "main",
+        "para_number": "7",
+        "heading_context": "한국회계기준원 회계기준위원회 의결 2008. 11. 28.",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1029_main_2",
+      "parent_id": "KIFRS1029_main_적용범위",
+      "content": "초인플레이션 경제에서 재무제표를 재작성하지 아니하고 영업성\n과와 재무상태를 현지통화로 보고하는 것은 유용하지 아니하다 .\n인플레이션율만큼 화폐의 구매력이 저하되므로, 상이한 시점에 발\n생한 거래와 사건의 금액을 비교하는 것은 그러한 거래와 사건이\n동일한 회계기간에 발생하였더라도 재무제표이용자에게 오해를\n유발한다 .",
+      "metadata": {
+        "standard_id": "KIFRS1029",
+        "standard_name": "초인플레이션 경제에서의 재무보고",
+        "section_type": "main",
+        "para_number": "2",
+        "heading_context": "적용범위",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1029_main_3_s1",
+      "parent_id": "KIFRS1029_main_적용범위",
+      "content": "이 기준서는 초인플레이션의 판단기준이 되는 인플레이션율의 절\n대비율을 정하고 있지 않으므로 이 기준서에 따라 재무제표를 재\n작성할 필요가 있는지 결정하는 것은 판단의 문제이다 .",
+      "metadata": {
+        "standard_id": "KIFRS1029",
+        "standard_name": "초인플레이션 경제에서의 재무보고",
+        "section_type": "main",
+        "para_number": "3",
+        "heading_context": "적용범위",
+        "cross_refs": [
+          "기준서 제 1029 호"
+        ],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 1,
+        "total_splits": 5
+      }
+    },
+    {
+      "chunk_id": "KIFRS1029_main_3_s2",
+      "parent_id": "KIFRS1029_main_적용범위",
+      "content": "초인플레\n1) 2008 년 11 월에 발표된 ‘ 한국채택국제회계기준 연차개선 ’ 의 일부로 기업회계기준서 제 1029 호의 용어를 그\n밖의 한국채택국제회계기준과 일치시키기 위해 ⑴ ‘ 시장가치 ’ 를 ‘ 공정가치 ’ 로, ⑵ ‘ 영업성과 (results of\noperations)’ 및 ‘ 당기손익 (net income)’ 을 ‘ 당기순손익 (profit or loss)’ 으로 개정하였다 .\n-",
+      "metadata": {
+        "standard_id": "KIFRS1029",
+        "standard_name": "초인플레이션 경제에서의 재무보고",
+        "section_type": "main",
+        "para_number": "3",
+        "heading_context": "적용범위",
+        "cross_refs": [
+          "기준서 제 1029 호"
+        ],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 2,
+        "total_splits": 5
+      }
+    },
+    {
+      "chunk_id": "KIFRS1029_main_3_s3",
+      "parent_id": "KIFRS1029_main_적용범위",
+      "content": "8\n이션 여부는 특정 국가의 경제환경의 특성으로 판단할 수 있는데\n그 예는 다음과 같다 .\n⑴",
+      "metadata": {
+        "standard_id": "KIFRS1029",
+        "standard_name": "초인플레이션 경제에서의 재무보고",
+        "section_type": "main",
+        "para_number": "3",
+        "heading_context": "적용범위",
+        "cross_refs": [
+          "기준서 제 1029 호"
+        ],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 3,
+        "total_splits": 5
+      }
+    },
+    {
+      "chunk_id": "KIFRS1029_main_3_s4",
+      "parent_id": "KIFRS1029_main_적용범위",
+      "content": "일반인은 재산을 비화폐성 자산이나 상대적으로 안정된 외화\n로 보유하는 것을 선호하며 보유중인 현지통화는 구매력을 유\n지하기 위하여 즉시 투자된다 .\n⑵ 일반인은 화폐금액을 현지통화가 아닌 상대적으로 안정된 외\n화의 관점에서 고려한다 . 그러한 외화로 가격이 공표되기도 한\n다 .\n⑶",
+      "metadata": {
+        "standard_id": "KIFRS1029",
+        "standard_name": "초인플레이션 경제에서의 재무보고",
+        "section_type": "main",
+        "para_number": "3",
+        "heading_context": "적용범위",
+        "cross_refs": [
+          "기준서 제 1029 호"
+        ],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 4,
+        "total_splits": 5
+      }
+    },
+    {
+      "chunk_id": "KIFRS1029_main_3_s5",
+      "parent_id": "KIFRS1029_main_적용범위",
+      "content": "신용기간이 단기인 경우에도, 그 신용기간에 예상되는 구매력\n의 손실을 보상하는 가격으로 매매가 이루어진다 .\n⑷ 이자율, 임금 및 가격이 물가지수와 연계되어 있다 .\n⑸ 3 년 동안의 누적인플레이션율이 100% 에 근접하거나 초과한다 .",
+      "metadata": {
+        "standard_id": "KIFRS1029",
+        "standard_name": "초인플레이션 경제에서의 재무보고",
+        "section_type": "main",
+        "para_number": "3",
+        "heading_context": "적용범위",
+        "cross_refs": [
+          "기준서 제 1029 호"
+        ],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 5,
+        "total_splits": 5
+      }
+    },
+    {
+      "chunk_id": "KIFRS1029_main_4",
+      "parent_id": "KIFRS1029_main_적용범위",
+      "content": "동일한 초인플레이션 경제의 통화로 보고하는 모든 기업은 이 기\n준서를 동일한 날부터 적용하는 것이 바람직하다 . 그렇지만 이 기\n준서는 표시통화가 사용되는 국가에서 초인플레이션의 발생이 확\n인되는 보고기간의 개시일부터 재무제표에 적용한다 .",
+      "metadata": {
+        "standard_id": "KIFRS1029",
+        "standard_name": "초인플레이션 경제에서의 재무보고",
+        "section_type": "main",
+        "para_number": "4",
+        "heading_context": "적용범위",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1029_main_5",
+      "parent_id": "KIFRS1029_main_재무제표의_재작성",
+      "content": "가격은 개별적이거나 일반적인 정치, 경제, 사회의 여러 가지 영\n향을 받아 변동한다 . 공급과 수요의 변동, 기술변화와 같은 개별\n적인 영향으로 개별가격이 독립적으로 크게 상승하거나 하락할\n수 있다 . 또한 일반적인 영향으로 일반물가수준에 변동이 있을 수\n있으며 이에 따라 화폐의 일반구매력에도 변동이 있을 수 있다 .",
+      "metadata": {
+        "standard_id": "KIFRS1029",
+        "standard_name": "초인플레이션 경제에서의 재무보고",
+        "section_type": "main",
+        "para_number": "5",
+        "heading_context": "재무제표의 재작성",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1029_main_6",
+      "parent_id": "KIFRS1029_main_재무제표의_재작성",
+      "content": "역사적원가회계에 기초하여 재무제표를 작성하는 기업들은 일반\n물가수준의 변동이나 인식한 자산 또는 부채의 개별가격 상승을\n고려하지 않고 재무제표를 작성한다 . 이에 대한 예외는 기업이 공\n정가치로 측정해야 하거나 또는 공정가치로 측정하는 것을 선택\n하는 자산 및 부채이다 . 예를 들어, 유형자산은 공정가치로 재평\n- 9\n가될 수 있으며 생물자산은 일반적으로 공정가치로 측정되어야\n한다 . 그러나 보유자산의 개별가격 변동의 영향을 반영하는 현행\n원가에 기초하여 재무제표를 작성하는 기업도 있다 .",
+      "metadata": {
+        "standard_id": "KIFRS1029",
+        "standard_name": "초인플레이션 경제에서의 재무보고",
+        "section_type": "main",
+        "para_number": "6",
+        "heading_context": "재무제표의 재작성",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": true
+      }
+    },
+    {
+      "chunk_id": "KIFRS1029_main_7",
+      "parent_id": "KIFRS1029_main_재무제표의_재작성",
+      "content": "초인플레이션 경제에서는 재무제표를 역사적원가에 기초하여 작\n성하든지 현행원가에 기초하여 작성하든지 보고기간말 현재의 측\n정단위로 표시하는 경우에만 유용하다 . 따라서 이 기준서는 초인\n플레이션 경제의 통화로 보고하는 재무제표에 적용한다 . 이 기준\n서에서 요구하는 정보를 재무제표의 재작성이 아닌 보충정보의\n형태로 제시하는 것은 허용되지 않는다 . 또 재작성하기 전의 재무\n제표를 별도로 제시하는 것도 바람직하지 않다 .\n기능통화가 초인플레이션 경제의 통화인 기업의 재무제표는 역사\n적원가에 기초하여 작성하든지 현행원가에 기초하여 작성하든지\n보고기간말 현재의 측정단위로 표시한다 또 기업회계기준서 제\n호 재무제표 표시 에서 요구하는 전기의 대응수치 그리고 그\n이전기간의 정보도 보고기간말 현재의 측정단위로 표시한다 비교\n금액을 다른 표시통화로 환산하여 표시하는 경우에는 기업회계기\n순화폐성자산에서 발생하는 손익은 당기손익에 반영하며 별도로\n공시한다",
+      "metadata": {
+        "standard_id": "KIFRS1029",
+        "standard_name": "초인플레이션 경제에서의 재무보고",
+        "section_type": "main",
+        "para_number": "7",
+        "heading_context": "재무제표의 재작성",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1029_main_10",
+      "parent_id": "KIFRS1029_main_재무제표의_재작성",
+      "content": "이 기준서에 따라 재무제표를 재작성할 때에는 일정한 절차와 판\n단에 따라야 한다 . 이러한 절차와 판단을 매기간 일관성 있게 적\n용하는 것이 재작성된 재무제표에 결과적으로 나타나는 금액의\n정확성보다 더 중요하다 .\n- 10\n역사적원가 재무제표\n재무상태표",
+      "metadata": {
+        "standard_id": "KIFRS1029",
+        "standard_name": "초인플레이션 경제에서의 재무보고",
+        "section_type": "main",
+        "para_number": "10",
+        "heading_context": "재무제표의 재작성",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1029_main_11",
+      "parent_id": "KIFRS1029_main_재무제표의_재작성",
+      "content": "보고기간말현재의 측정단위로 표시되지 아니한 재무상태표 금액\n은 일반물가지수를 적용하여 재작성한다 .",
+      "metadata": {
+        "standard_id": "KIFRS1029",
+        "standard_name": "초인플레이션 경제에서의 재무보고",
+        "section_type": "main",
+        "para_number": "11",
+        "heading_context": "재무제표의 재작성",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1029_main_12",
+      "parent_id": "KIFRS1029_main_재무제표의_재작성",
+      "content": "화폐성항목은 보고기간말현재의 측정단위로 이미 표시되어 있으\n므로 재작성하지 아니한다 . 화폐성항목은 보유하고 있는 현금 또\n는 현금으로 수취하거나 지급할 항목이다 .",
+      "metadata": {
+        "standard_id": "KIFRS1029",
+        "standard_name": "초인플레이션 경제에서의 재무보고",
+        "section_type": "main",
+        "para_number": "12",
+        "heading_context": "재무제표의 재작성",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1029_main_13",
+      "parent_id": "KIFRS1029_main_재무제표의_재작성",
+      "content": "물가지수연동사채나 물가지수연동대여금과 같이 약정에 의하여\n물가변동에 연동되어 있는 자산과 부채는 보고기간말현재 유효\n한 금액을 표시할 수 있도록 약정에 따라 금액을 조정한다 . 이러\n한 항목은 재작성하는 재무상태표에 조정된 금액으로 표시한다 .",
+      "metadata": {
+        "standard_id": "KIFRS1029",
+        "standard_name": "초인플레이션 경제에서의 재무보고",
+        "section_type": "main",
+        "para_number": "13",
+        "heading_context": "재무제표의 재작성",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1029_main_14",
+      "parent_id": "KIFRS1029_main_재무제표의_재작성",
+      "content": "화폐성항목 외의 모든 자산과 부채는 비화폐성항목이다 . 일부 비\n화폐성항목은 순실현가능가치나 공정가치와 같은 보고기간말현\n재의 금액으로 표시되므로 재작성하지 아니한다 . 그 밖의 모든 비\n화폐성자산과 비화폐성부채는 재작성한다 .",
+      "metadata": {
+        "standard_id": "KIFRS1029",
+        "standard_name": "초인플레이션 경제에서의 재무보고",
+        "section_type": "main",
+        "para_number": "14",
+        "heading_context": "재무제표의 재작성",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1029_main_15",
+      "parent_id": "KIFRS1029_main_재무제표의_재작성",
+      "content": "대부분의 비화폐성항목은 원가나 상각후원가로 표시된다 . 따라서\n그러한 비화폐성항목은 취득일 현재의 금액으로 표시된다 . 원가나\n상각후원가는 취득일과 보고기간말 사이의 일반물가지수의 변동\n을 역사적원가와 감가상각누계액에 적용하여 재작성한다 . 예를 들\n어, 유형자산, 원재료나 상품과 같은 재고자산, 영업권, 특허권, 상\n표권 등의 자산은 취득일 이후부터 재작성한다 . 재공품이나 완성\n품과 같은 재고자산도 매입원가나 가공원가의 발생일 이후부터\n재작성한다 .\n- 11",
+      "metadata": {
+        "standard_id": "KIFRS1029",
+        "standard_name": "초인플레이션 경제에서의 재무보고",
+        "section_type": "main",
+        "para_number": "15",
+        "heading_context": "재무제표의 재작성",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": true
+      }
+    },
+    {
+      "chunk_id": "KIFRS1029_main_16",
+      "parent_id": "KIFRS1029_main_재무제표의_재작성",
+      "content": "유형자산 취득당시의 세부기록을 이용할 수 없거나 추정하지 못\n할 수 있다 . 드물지만 이러한 경우에는 이 기준서를 처음으로 적\n용하는 회계기간에 재작성하기 위한 기초로서 해당 항목의 가치\n에 대한 독립적 전문가의 평가액을 사용할 필요가 있다 .",
+      "metadata": {
+        "standard_id": "KIFRS1029",
+        "standard_name": "초인플레이션 경제에서의 재무보고",
+        "section_type": "main",
+        "para_number": "16",
+        "heading_context": "재무제표의 재작성",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1029_main_17",
+      "parent_id": "KIFRS1029_main_재무제표의_재작성",
+      "content": "이 기준서에 따라 유형자산의 재작성이 필요한 기간의 일반물가\n지수를 입수하는 것이 불가능할 수 있다 . 이 경우 기능통화와 비\n교적 안정적인 외화 사이의 환율변동 등에 기초한 추정치의 사용\n이 필요할 수 있다 .",
+      "metadata": {
+        "standard_id": "KIFRS1029",
+        "standard_name": "초인플레이션 경제에서의 재무보고",
+        "section_type": "main",
+        "para_number": "17",
+        "heading_context": "재무제표의 재작성",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1029_main_18",
+      "parent_id": "KIFRS1029_main_재무제표의_재작성",
+      "content": "이미 재평가된 유형자산과 같은 일부 비화폐성항목은 취득일이나\n보고기간말이 아닌 다른 시점의 금액으로 표시된다 . 이 경우 장부\n금액은 재평가일 이후부터 재작성한다 .",
+      "metadata": {
+        "standard_id": "KIFRS1029",
+        "standard_name": "초인플레이션 경제에서의 재무보고",
+        "section_type": "main",
+        "para_number": "18",
+        "heading_context": "재무제표의 재작성",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1029_main_19",
+      "parent_id": "KIFRS1029_main_재무제표의_재작성",
+      "content": "비화폐성항목의 재작성 금액이 그 회수가능액을 초과하는 경우에\n는 관련 한국채택국제회계기준서에 따라 감액시켜야 한다 . 예를\n들어, 유형자산, 영업권, 특허권, 상표권의 재작성 금액은 회수가\n능액으로 감액하고, 재고자산의 재작성 금액은 순실현가능가치로\n감액한다 .",
+      "metadata": {
+        "standard_id": "KIFRS1029",
+        "standard_name": "초인플레이션 경제에서의 재무보고",
+        "section_type": "main",
+        "para_number": "19",
+        "heading_context": "재무제표의 재작성",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1029_main_20",
+      "parent_id": "KIFRS1029_main_재무제표의_재작성",
+      "content": "지분법이 적용되는 피투자기업의 재무제표가 초인플레이션 경제\n의 통화로 보고될 수 있다 . 이 경우, 피투자기업의 순자산과 당기\n순손익에 대한 투자기업의 지분을 산출하기 위하여 피투자기업의\n재무상태표와 포괄손익계산서는 이 기준서에 따라 재작성한다 . 피\n투자기업의 재작성된 재무제표가 외화로 표시된 경우에는 마감환\n율을 적용하여 환산한다 .",
+      "metadata": {
+        "standard_id": "KIFRS1029",
+        "standard_name": "초인플레이션 경제에서의 재무보고",
+        "section_type": "main",
+        "para_number": "20",
+        "heading_context": "재무제표의 재작성",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1029_main_21",
+      "parent_id": "KIFRS1029_main_재무제표의_재작성",
+      "content": "일반적으로 인플레이션의 영향은 차입원가에 인식된다 . 차입으로\n조달한 자본적지출 금액을 재작성하면서 동시에 차입원가 중 동\n일 기간의 인플레이션을 보상하기 위한 부분을 자본화하는 것은\n- 12\n적절하지 않다 . 차입원가 중 이러한 부분은 원가가 발생한 기간에\n비용으로 인식한다 .",
+      "metadata": {
+        "standard_id": "KIFRS1029",
+        "standard_name": "초인플레이션 경제에서의 재무보고",
+        "section_type": "main",
+        "para_number": "21",
+        "heading_context": "재무제표의 재작성",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1029_main_22",
+      "parent_id": "KIFRS1029_main_재무제표의_재작성",
+      "content": "명시적 이자를 부담하지 않고 대금 지급을 지연할 수 있도록 약\n정하고 자산을 취득할 수 있다 . 내재적 이자금액을 계산하는 것이\n실무적으로 가능하지 않은 경우, 그러한 자산은 매수일이 아니라\n대금지급일부터 재작성한다 .",
+      "metadata": {
+        "standard_id": "KIFRS1029",
+        "standard_name": "초인플레이션 경제에서의 재무보고",
+        "section_type": "main",
+        "para_number": "22",
+        "heading_context": "재무제표의 재작성",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1029_main_23",
+      "parent_id": "KIFRS1029_main_재무제표의_재작성",
+      "content": "[ 국제회계기준위원회에 의하여 삭제됨 ]",
+      "metadata": {
+        "standard_id": "KIFRS1029",
+        "standard_name": "초인플레이션 경제에서의 재무보고",
+        "section_type": "main",
+        "para_number": "23",
+        "heading_context": "재무제표의 재작성",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1029_main_24",
+      "parent_id": "KIFRS1029_main_재무제표의_재작성",
+      "content": "이 기준서를 처음으로 적용하는 회계기간의 개시일에 이익잉여금\n과 재평가잉여금을 제외한 자본의 구성요소는 불입되거나 발생한\n날부터 일반물가지수를 적용하여 재작성한다 . 이 기준서를 처음\n적용한 회계기간 전에 발생한 재평가잉여금은 제거한다 . 이익잉여\n금을 제외한 모든 재무상태표 항목을 재작성하여 이익잉여금의\n재작성 금액을 산출한다 .",
+      "metadata": {
+        "standard_id": "KIFRS1029",
+        "standard_name": "초인플레이션 경제에서의 재무보고",
+        "section_type": "main",
+        "para_number": "24",
+        "heading_context": "재무제표의 재작성",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1029_main_25",
+      "parent_id": "KIFRS1029_main_재무제표의_재작성",
+      "content": "이 기준서를 처음으로 적용하는 회계기간의 말과 후속 회계기간\n에 모든 자본의 구성요소는 회계기간의 기초 또는, 불입일이 더\n늦을 경우, 불입일부터 일반물가지수를 적용하여 재작성한다 . 회\n계기간 중 자본을 구성하는 요소의 변동은 기업회계기준서 제\n1001 호에 따라 공시한다 .\n포괄손익계산서",
+      "metadata": {
+        "standard_id": "KIFRS1029",
+        "standard_name": "초인플레이션 경제에서의 재무보고",
+        "section_type": "main",
+        "para_number": "25",
+        "heading_context": "재무제표의 재작성",
+        "cross_refs": [
+          "기준서 제\n1001 호"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1029_main_26",
+      "parent_id": "KIFRS1029_main_재무제표의_재작성",
+      "content": "포괄손익계산서의 모든 항목은 보고기간말현재의 측정단위로 표\n시한다 . 따라서 수익과 비용이 최초로 재무제표에 기록된 날부터\n일반물가지수의 변동을 적용하여 모든 금액을 재작성할 필요가\n있다 .\n- 13\n순화폐성자산에서 발생하는 손익",
+      "metadata": {
+        "standard_id": "KIFRS1029",
+        "standard_name": "초인플레이션 경제에서의 재무보고",
+        "section_type": "main",
+        "para_number": "26",
+        "heading_context": "재무제표의 재작성",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1029_main_27",
+      "parent_id": "KIFRS1029_main_재무제표의_재작성",
+      "content": "인플레이션 기간에, 화폐성부채보다 화폐성자산을 더 많이 보유하\n고 있는 기업은 자산과 부채가 물가수준과 연동되지 않는 만큼\n구매력이 감소하며, 화폐성자산보다 화폐성부채를 더 많이 보유하\n고 있는 기업은 자산과 부채가 물가수준과 연동되지 않는 만큼\n구매력이 증가한다 . 순화폐성자산에서 발생하는 이러한 손익은 비\n화폐성자산, 자본, 포괄손익계산서 항목의 재작성 및 물가지수와\n연동되어 있는 자산 ․ 부채의 조정으로부터 발생하는 차이에 기인\n한다 . 순화폐성자산에서 발생하는 손익은 그 기간의 화폐성자산과\n화폐성부채의 차이금액의 가중평균에 일반물가지수의 변동을 적\n용하여 추정할 수 있다 .",
+      "metadata": {
+        "standard_id": "KIFRS1029",
+        "standard_name": "초인플레이션 경제에서의 재무보고",
+        "section_type": "main",
+        "para_number": "27",
+        "heading_context": "재무제표의 재작성",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1029_main_28",
+      "parent_id": "KIFRS1029_main_재무제표의_재작성",
+      "content": "순화폐성자산에서 발생하는 손익은 당기순손익에 포함된다 . 약정\n에 의하여 물가변동과 연동되어 있는 자산과 부채에 대하여 문단",
+      "metadata": {
+        "standard_id": "KIFRS1029",
+        "standard_name": "초인플레이션 경제에서의 재무보고",
+        "section_type": "main",
+        "para_number": "28",
+        "heading_context": "재무제표의 재작성",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1029_main_13",
+      "parent_id": "KIFRS1029_main_재무제표의_재작성",
+      "content": "에 따라 이루어진 조정금액은 순화폐성자산에서 발생하는 손익\n과 상계한다 . 투자하거나 차입한 자금과 관련된 이자수익, 이자비\n용, 외환차이와 같은 포괄손익계산서의 다른 항목도 순화폐성자산\n과 연관되어 있다 . 이러한 항목은 별도로 공시되기는 하지만 포괄\n손익계산서에 순화폐성자산에서 발생하는 손익과 함께 표시하는\n것이 유용할 수 있다 .\n현행원가 재무제표\n재무상태표",
+      "metadata": {
+        "standard_id": "KIFRS1029",
+        "standard_name": "초인플레이션 경제에서의 재무보고",
+        "section_type": "main",
+        "para_number": "13",
+        "heading_context": "재무제표의 재작성",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1029_main_29",
+      "parent_id": "KIFRS1029_main_재무제표의_재작성",
+      "content": "현행원가로 표시된 항목은 이미 보고기간말 현재의 측정단위로\n표시되어 있기 때문에 재작성하지 않는다 . 재무상태표의 다른 항\n목은 문단 11～25 에 따라 재작성한다 .\n- 14\n포괄손익계산서",
+      "metadata": {
+        "standard_id": "KIFRS1029",
+        "standard_name": "초인플레이션 경제에서의 재무보고",
+        "section_type": "main",
+        "para_number": "29",
+        "heading_context": "재무제표의 재작성",
+        "cross_refs": [
+          "문단 11"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1029_main_30",
+      "parent_id": "KIFRS1029_main_재무제표의_재작성",
+      "content": "재작성하기 전의 현행원가 포괄손익계산서는 일반적으로 실제의\n거래나 사건이 발생한 시점의 원가를 보고한다 . 매출원가와 감가\n상각비는 소비시점의 현행원가로 기록되며, 판매비와 기타의 비용\n은 발생시점의 화폐금액으로 기록된다 . 그러므로 모든 금액은 일\n반물가지수를 적용하여 보고기간말 현재의 측정단위로 재작성할\n필요가 있다 .\n순화폐성자산에서 발생하는 손익",
+      "metadata": {
+        "standard_id": "KIFRS1029",
+        "standard_name": "초인플레이션 경제에서의 재무보고",
+        "section_type": "main",
+        "para_number": "30",
+        "heading_context": "재무제표의 재작성",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1029_main_31",
+      "parent_id": "KIFRS1029_main_재무제표의_재작성",
+      "content": "순화폐성자산에서 발생하는 손익은 문단 27 과 문단 28 에 따라 회\n계처리한다 .\n법인세",
+      "metadata": {
+        "standard_id": "KIFRS1029",
+        "standard_name": "초인플레이션 경제에서의 재무보고",
+        "section_type": "main",
+        "para_number": "31",
+        "heading_context": "재무제표의 재작성",
+        "cross_refs": [
+          "문단 28",
+          "문단 27"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1029_main_32",
+      "parent_id": "KIFRS1029_main_재무제표의_재작성",
+      "content": "이 기준서에 따라 재무제표를 재작성하는 경우 재무상태표의 개\n별 자산 ․ 부채의 장부금액과 세무기준액의 차이가 발생할 수 있\n다 . 이러한 차이는 기업회계기준서 제 1012 호 ‘ 법인세 ’ 에 따라 회계\n처리한다 .\n현금흐름표",
+      "metadata": {
+        "standard_id": "KIFRS1029",
+        "standard_name": "초인플레이션 경제에서의 재무보고",
+        "section_type": "main",
+        "para_number": "32",
+        "heading_context": "재무제표의 재작성",
+        "cross_refs": [
+          "기준서 제 1012 호"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1029_main_33",
+      "parent_id": "KIFRS1029_main_재무제표의_재작성",
+      "content": "이 기준서는 현금흐름표의 모든 항목을 보고기간말 현재의 측정\n단위로 표시하도록 하고 있다 .\n대응수치",
+      "metadata": {
+        "standard_id": "KIFRS1029",
+        "standard_name": "초인플레이션 경제에서의 재무보고",
+        "section_type": "main",
+        "para_number": "33",
+        "heading_context": "재무제표의 재작성",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1029_main_34",
+      "parent_id": "KIFRS1029_main_재무제표의_재작성",
+      "content": "역사적원가에 기초하든지 현행원가에 기초하든지 전기의 대응수\n치는 비교재무제표를 보고기간말 현재의 측정단위로 표시할 수\n- 15\n있도록 일반물가지수를 적용하여 재작성한다 . 전기 이전의 회계기\n간에 관하여 공시된 정보도 보고기간말 현재의 측정단위로 표시\n한다 . 비교표시되는 금액을 다른 표시통화로 표시하는 경우에는\n기업회계기준서 제 1021 호의 문단 42⑵ 와 문단 43 을 적용한다 .\n연결재무제표",
+      "metadata": {
+        "standard_id": "KIFRS1029",
+        "standard_name": "초인플레이션 경제에서의 재무보고",
+        "section_type": "main",
+        "para_number": "34",
+        "heading_context": "재무제표의 재작성",
+        "cross_refs": [
+          "기준서 제 1021 호",
+          "문단 43",
+          "문단 42"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1029_main_35",
+      "parent_id": "KIFRS1029_main_재무제표의_재작성",
+      "content": "초인플레이션 경제의 통화로 재무제표를 보고하는 지배기업이초\n인플레이션 경제의 통화로 재무제표를 보고하는 종속기업을가지\n는 경우가 있다 . 이러한 종속기업의 재무제표는 연결재무제표에\n포함하기 전에 종속기업의 표시통화가 통용되는 국가의 일반물가\n지수를 적용하여 재작성할 필요가 있다 . 이 때 해외종속기업의 경\n우에는 재작성한 재무제표에 마감환율을 적용하여 환산한다 . 초인\n플레이션 경제의 통화로 재무제표를 보고하지 않는 종속기업의\n재무제표는 기업회계기준서 제 1021 호에 따라 처리한다 .",
+      "metadata": {
+        "standard_id": "KIFRS1029",
+        "standard_name": "초인플레이션 경제에서의 재무보고",
+        "section_type": "main",
+        "para_number": "35",
+        "heading_context": "재무제표의 재작성",
+        "cross_refs": [
+          "기준서 제 1021 호"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1029_main_36",
+      "parent_id": "KIFRS1029_main_재무제표의_재작성",
+      "content": "보고기간말이 서로 다른 재무제표들을 연결하는 경우에는 화폐성\n이든 비화폐성이든 모든 항목을 연결보고기간말 현재의 측정단위\n로 재작성할 필요가 있다 .\n일반물가지수의 선택과 사용",
+      "metadata": {
+        "standard_id": "KIFRS1029",
+        "standard_name": "초인플레이션 경제에서의 재무보고",
+        "section_type": "main",
+        "para_number": "36",
+        "heading_context": "재무제표의 재작성",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1029_main_37",
+      "parent_id": "KIFRS1029_main_재무제표의_재작성",
+      "content": "이 기준서에 따라 재무제표를 재작성하는 경우에는 일반구매력의\n변동을 반영하는 일반물가지수를 사용하여야 한다 . 동일한 경제의\n통화로 재무제표를 보고하는 모든 기업은 동일한 종류의 물가지\n수를 사용하는 것이 바람직하다 .",
+      "metadata": {
+        "standard_id": "KIFRS1029",
+        "standard_name": "초인플레이션 경제에서의 재무보고",
+        "section_type": "main",
+        "para_number": "37",
+        "heading_context": "재무제표의 재작성",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1029_main_40",
+      "parent_id": "KIFRS1029_main_공시",
+      "content": "이 기준서에서 요구하는 공시사항은 인플레이션이 재무제표에 미\n치는 영향에 대한 처리기준을 명확히 하기 위하여 필요한 것이다 .\n또 이러한 사항은 처리기준과 처리결과 금액을 이해하는 데 필요\n한 기타의 정보를 제공하기 위한 것이다 .",
+      "metadata": {
+        "standard_id": "KIFRS1029",
+        "standard_name": "초인플레이션 경제에서의 재무보고",
+        "section_type": "main",
+        "para_number": "40",
+        "heading_context": "공시",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1029_main_41",
+      "parent_id": "KIFRS1029_main_시행일",
+      "content": "[ 한국회계기준원 회계기준위원회가 삭제함 ]\n용할 수 있다\n- 17",
+      "metadata": {
+        "standard_id": "KIFRS1029",
+        "standard_name": "초인플레이션 경제에서의 재무보고",
+        "section_type": "main",
+        "para_number": "41",
+        "heading_context": "시행일",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1029_bc_BC1",
+      "parent_id": "KIFRS1029_bc_초인플레이션_경제에서의_재무보고_의_결론도출근거",
+      "content": "IASB 가 2008 년에 IAS 29 를 개정하기 위해 결론을 도출하는 과정\n에서 고려한 사항을 이 ‘ 결론도출근거 ’ 에서 요약한다 . IASB 위원\n들은 개인에 따라 일부 사항을 다른 사항들보다 더 비중 있게 고\n려하였다 .",
+      "metadata": {
+        "standard_id": "KIFRS1029",
+        "standard_name": "초인플레이션 경제에서의 재무보고",
+        "section_type": "bc",
+        "para_number": "BC1",
+        "heading_context": "초인플레이션 경제에서의 재무보고 의 결론도출근거",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1029_bc_BC2",
+      "parent_id": "KIFRS1029_bc_초인플레이션_경제에서의_재무보고_의_결론도출근거",
+      "content": "개정전 기준서의 문단 6 에는 많은 자산과 부채가 역사적가치보다\n는 현행가치에 근거하여 측정될 수 있거나 측정되어야 한다는 사\n실이 반영되지 않았다 . 따라서 IASB 는 2008 년 5 월에 발표된 IFRS\n연차개선 (Improvements to IFRSs) 에 그러한 항목을 완전한 목록으\n로 열거하지 않고 예로 포함하였다 .\n- 22",
+      "metadata": {
+        "standard_id": "KIFRS1029",
+        "standard_name": "초인플레이션 경제에서의 재무보고",
+        "section_type": "bc",
+        "para_number": "BC2",
+        "heading_context": "초인플레이션 경제에서의 재무보고 의 결론도출근거",
+        "cross_refs": [
+          "문단 6"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    }
+  ]
+}

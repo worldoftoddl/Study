@@ -1,0 +1,2476 @@
+{
+  "standard_id": "KIFRS1106",
+  "standard_name": "광물자원의 탐사와 평가",
+  "source_file": "시행중_K-IFRS_제1106호_광물자원의_탐사와_평가(2009_개정_2018_타기준서_개정_수정목록_24-1_2020_구성양식_변경_반영).pdf",
+  "processed_at": "2026-03-04T14:19:08.613941",
+  "stats": {
+    "total_paragraphs": 91,
+    "total_parents": 22,
+    "total_children": 123
+  },
+  "parents": [
+    {
+      "parent_id": "KIFRS1106_main_목적",
+      "standard_id": "KIFRS1106",
+      "section_type": "main",
+      "section_heading": "목적",
+      "children": [
+        "KIFRS1106_main_1",
+        "KIFRS1106_main_2"
+      ]
+    },
+    {
+      "parent_id": "KIFRS1106_main_적용범위",
+      "standard_id": "KIFRS1106",
+      "section_type": "main",
+      "section_heading": "적용범위",
+      "children": [
+        "KIFRS1106_main_3",
+        "KIFRS1106_main_4",
+        "KIFRS1106_main_5"
+      ]
+    },
+    {
+      "parent_id": "KIFRS1106_main_탐사평가자산의_인식",
+      "standard_id": "KIFRS1106",
+      "section_type": "main",
+      "section_heading": "탐사평가자산의 인식",
+      "children": [
+        "KIFRS1106_main_6",
+        "KIFRS1106_main_7"
+      ]
+    },
+    {
+      "parent_id": "KIFRS1106_main_탐사평가자산의_측정",
+      "standard_id": "KIFRS1106",
+      "section_type": "main",
+      "section_heading": "탐사평가자산의 측정",
+      "children": [
+        "KIFRS1106_main_9",
+        "KIFRS1106_main_10",
+        "KIFRS1106_main_11",
+        "KIFRS1106_main_12",
+        "KIFRS1106_main_14"
+      ]
+    },
+    {
+      "parent_id": "KIFRS1106_main_표시",
+      "standard_id": "KIFRS1106",
+      "section_type": "main",
+      "section_heading": "표시",
+      "children": [
+        "KIFRS1106_main_15",
+        "KIFRS1106_main_16",
+        "KIFRS1106_main_17"
+      ]
+    },
+    {
+      "parent_id": "KIFRS1106_main_손상",
+      "standard_id": "KIFRS1106",
+      "section_type": "main",
+      "section_heading": "손상",
+      "children": [
+        "KIFRS1106_main_19",
+        "KIFRS1106_main_20_s1",
+        "KIFRS1106_main_20_s2",
+        "KIFRS1106_main_20_s3",
+        "KIFRS1106_main_22"
+      ]
+    },
+    {
+      "parent_id": "KIFRS1106_main_공시",
+      "standard_id": "KIFRS1106",
+      "section_type": "main",
+      "section_heading": "공시",
+      "children": [
+        "KIFRS1106_main_24",
+        "KIFRS1106_main_25"
+      ]
+    },
+    {
+      "parent_id": "KIFRS1106_main_시행일",
+      "standard_id": "KIFRS1106",
+      "section_type": "main",
+      "section_heading": "시행일",
+      "children": [
+        "KIFRS1106_main_1"
+      ]
+    },
+    {
+      "parent_id": "KIFRS1106_main_경과규정",
+      "standard_id": "KIFRS1106",
+      "section_type": "main",
+      "section_heading": "경과규정",
+      "children": [
+        "KIFRS1106_main_27"
+      ]
+    },
+    {
+      "parent_id": "KIFRS1106_bc_도입",
+      "standard_id": "KIFRS1106",
+      "section_type": "bc",
+      "section_heading": "도입",
+      "children": [
+        "KIFRS1106_bc_BC1"
+      ]
+    },
+    {
+      "parent_id": "KIFRS1106_bc_이_기준서의_발행_이유",
+      "standard_id": "KIFRS1106",
+      "section_type": "bc",
+      "section_heading": "이 기준서의 발행 이유",
+      "children": [
+        "KIFRS1106_bc_BC2",
+        "KIFRS1106_bc_BC3",
+        "KIFRS1106_bc_BC4",
+        "KIFRS1106_bc_BC5"
+      ]
+    },
+    {
+      "parent_id": "KIFRS1106_bc_적용범위",
+      "standard_id": "KIFRS1106",
+      "section_type": "bc",
+      "section_heading": "적용범위",
+      "children": [
+        "KIFRS1106_bc_BC6",
+        "KIFRS1106_bc_BC7",
+        "KIFRS1106_bc_BC8"
+      ]
+    },
+    {
+      "parent_id": "KIFRS1106_bc_탐사평가자산의_정의",
+      "standard_id": "KIFRS1106",
+      "section_type": "bc",
+      "section_heading": "탐사평가자산의 정의",
+      "children": [
+        "KIFRS1106_bc_BC9",
+        "KIFRS1106_bc_BC10",
+        "KIFRS1106_bc_BC11",
+        "KIFRS1106_bc_BC12",
+        "KIFRS1106_bc_BC13",
+        "KIFRS1106_bc_BC14",
+        "KIFRS1106_bc_BC15",
+        "KIFRS1106_bc_BC16"
+      ]
+    },
+    {
+      "parent_id": "KIFRS1106_bc_탐사평가자산의_인식",
+      "standard_id": "KIFRS1106",
+      "section_type": "bc",
+      "section_heading": "탐사평가자산의 인식",
+      "children": [
+        "KIFRS1106_bc_BC17_s1",
+        "KIFRS1106_bc_BC17_s2",
+        "KIFRS1106_bc_BC17_s3",
+        "KIFRS1106_bc_BC17_s4",
+        "KIFRS1106_bc_BC17_s5",
+        "KIFRS1106_bc_BC18",
+        "KIFRS1106_bc_BC19",
+        "KIFRS1106_bc_BC20",
+        "KIFRS1106_bc_BC21",
+        "KIFRS1106_bc_BC22",
+        "KIFRS1106_bc_BC23",
+        "KIFRS1106_bc_BC23A",
+        "KIFRS1106_bc_BC23B",
+        "KIFRS1106_bc_BC24",
+        "KIFRS1106_bc_BC25",
+        "KIFRS1106_bc_BC26",
+        "KIFRS1106_bc_BC27",
+        "KIFRS1106_bc_BC28",
+        "KIFRS1106_bc_BC29",
+        "KIFRS1106_bc_BC30",
+        "KIFRS1106_bc_BC31"
+      ]
+    },
+    {
+      "parent_id": "KIFRS1106_bc_탐사평가자산의_표시",
+      "standard_id": "KIFRS1106",
+      "section_type": "bc",
+      "section_heading": "탐사평가자산의 표시",
+      "children": [
+        "KIFRS1106_bc_BC32",
+        "KIFRS1106_bc_BC33",
+        "KIFRS1106_bc_BC34"
+      ]
+    },
+    {
+      "parent_id": "KIFRS1106_bc_탐사평가자산의_손상",
+      "standard_id": "KIFRS1106",
+      "section_type": "bc",
+      "section_heading": "탐사평가자산의 손상",
+      "children": [
+        "KIFRS1106_bc_BC35",
+        "KIFRS1106_bc_BC36",
+        "KIFRS1106_bc_BC37",
+        "KIFRS1106_bc_BC38",
+        "KIFRS1106_bc_BC39",
+        "KIFRS1106_bc_BC40",
+        "KIFRS1106_bc_BC41_s1",
+        "KIFRS1106_bc_BC41_s2",
+        "KIFRS1106_bc_BC41_s3",
+        "KIFRS1106_bc_BC41_s4",
+        "KIFRS1106_bc_BC41_s5",
+        "KIFRS1106_bc_BC41_s6",
+        "KIFRS1106_bc_BC42",
+        "KIFRS1106_bc_BC43",
+        "KIFRS1106_bc_BC44",
+        "KIFRS1106_bc_BC45",
+        "KIFRS1106_bc_BC46_s1",
+        "KIFRS1106_bc_BC46_s2",
+        "KIFRS1106_bc_BC46_s3",
+        "KIFRS1106_bc_BC46_s4",
+        "KIFRS1106_bc_BC46_s5",
+        "KIFRS1106_bc_BC47",
+        "KIFRS1106_bc_BC48"
+      ]
+    },
+    {
+      "parent_id": "KIFRS1106_bc_회계정책의_변경",
+      "standard_id": "KIFRS1106",
+      "section_type": "bc",
+      "section_heading": "회계정책의 변경",
+      "children": [
+        "KIFRS1106_bc_BC49"
+      ]
+    },
+    {
+      "parent_id": "KIFRS1106_bc_공시",
+      "standard_id": "KIFRS1106",
+      "section_type": "bc",
+      "section_heading": "공시",
+      "children": [
+        "KIFRS1106_bc_BC50",
+        "KIFRS1106_bc_BC51",
+        "KIFRS1106_bc_BC52",
+        "KIFRS1106_bc_BC53",
+        "KIFRS1106_bc_BC54",
+        "KIFRS1106_bc_BC55",
+        "KIFRS1106_bc_BC56",
+        "KIFRS1106_bc_BC57"
+      ]
+    },
+    {
+      "parent_id": "KIFRS1106_bc_시행일",
+      "standard_id": "KIFRS1106",
+      "section_type": "bc",
+      "section_heading": "시행일",
+      "children": [
+        "KIFRS1106_bc_BC58"
+      ]
+    },
+    {
+      "parent_id": "KIFRS1106_bc_경과규정",
+      "standard_id": "KIFRS1106",
+      "section_type": "bc",
+      "section_heading": "경과규정",
+      "children": [
+        "KIFRS1106_bc_BC59",
+        "KIFRS1106_bc_BC60",
+        "KIFRS1106_bc_BC61_s1",
+        "KIFRS1106_bc_BC61_s2",
+        "KIFRS1106_bc_BC61_s3",
+        "KIFRS1106_bc_BC61_s4",
+        "KIFRS1106_bc_BC61_s5",
+        "KIFRS1106_bc_BC61_s6",
+        "KIFRS1106_bc_BC62",
+        "KIFRS1106_bc_BC63",
+        "KIFRS1106_bc_BC64",
+        "KIFRS1106_bc_BC65"
+      ]
+    },
+    {
+      "parent_id": "KIFRS1106_bc_에_대한_변경_요약",
+      "standard_id": "KIFRS1106",
+      "section_type": "bc",
+      "section_heading": "에 대한 변경 요약",
+      "children": [
+        "KIFRS1106_bc_BC66_s1",
+        "KIFRS1106_bc_BC66_s2",
+        "KIFRS1106_bc_BC66_s3",
+        "KIFRS1106_bc_BC66_s4",
+        "KIFRS1106_bc_BC66_s5",
+        "KIFRS1106_bc_BC66_s6",
+        "KIFRS1106_bc_BC66_s7",
+        "KIFRS1106_bc_BC66_s8"
+      ]
+    },
+    {
+      "parent_id": "KIFRS1106_bc_개념체계에_대한_참조의_개정",
+      "standard_id": "KIFRS1106",
+      "section_type": "bc",
+      "section_heading": "개념체계에 대한 참조의 개정",
+      "children": [
+        "KIFRS1106_bc_BC67_s1",
+        "KIFRS1106_bc_BC67_s2",
+        "KIFRS1106_bc_BC67_s3",
+        "KIFRS1106_bc_BC67_s4",
+        "KIFRS1106_bc_BC67_s5",
+        "KIFRS1106_bc_BC67_s6"
+      ]
+    }
+  ],
+  "children": [
+    {
+      "chunk_id": "KIFRS1106_main_1",
+      "parent_id": "KIFRS1106_main_목적",
+      "content": "이 기준서의 목적은 광물자원의 탐사와 평가 에 대한 재무보고를\n규정하는 데 있다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "main",
+        "para_number": "1",
+        "heading_context": "목적",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_main_2",
+      "parent_id": "KIFRS1106_main_목적",
+      "content": "특히 이 기준서는 다음과 같은 사항을 규정한다 .\n⑴ 탐사와 평가 관련 지출 에 대한 기존 회계관행의 제한된 개선\n⑵ 탐사평가자산 을 인식한 기업은 그 자산에 대한 손상을 이 기\n준서에 따라 검토하고 기업회계기준서 제 1036 호 ‘ 자산손상 ’ 에\n따라 모든 손상을 측정\n⑶ 광물자원의 탐사와 평가에서 발생하는 재무제표 금액을 식별\n하고 설명하며, 인식한 모든 탐사평가자산으로부터 발생하는\n미래현금흐름의 금액, 시기와 확실성을 해당 재무제표의 이용\n자가 이해하는 데 유용한 사항의 공시",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "main",
+        "para_number": "2",
+        "heading_context": "목적",
+        "cross_refs": [
+          "기준서 제 1036 호"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_main_3",
+      "parent_id": "KIFRS1106_main_적용범위",
+      "content": "이 기준서는 탐사와 평가 관련 지출에 적용한다 .\n- 8",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "main",
+        "para_number": "3",
+        "heading_context": "적용범위",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_main_4",
+      "parent_id": "KIFRS1106_main_적용범위",
+      "content": "이 기준서는 광물자원의 탐사와 평가 활동 이외의 다른 회계에\n관한 사항은 다루지 아니한다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "main",
+        "para_number": "4",
+        "heading_context": "적용범위",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_main_5",
+      "parent_id": "KIFRS1106_main_적용범위",
+      "content": "다음의 지출에는 이 기준서를 적용하지 아니한다 .\n⑴ 광물자원의 탐사와 평가 활동 전에 발생한 지출 . 예를 들어 특\n정지역의 탐사에 대한 법적 권리를 취득하기 전에 발생한 지\n출\n⑵ 광물자원 추출의 기술적 실현가능성과 상업화가능성을 제시할\n수 있게 된 후에 발생한 지출",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "main",
+        "para_number": "5",
+        "heading_context": "적용범위",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": true
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_main_6",
+      "parent_id": "KIFRS1106_main_탐사평가자산의_인식",
+      "content": "탐사평가자산을 인식하는 기업은 기업회계기준서 제 1008 호 ‘ 회계\n정책, 회계추정치 변경과 오류 ’ 의 문단 10 을 적용하여 해당 자산\n에 대한 회계정책을 개발한다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "main",
+        "para_number": "6",
+        "heading_context": "탐사평가자산의 인식",
+        "cross_refs": [
+          "기준서 제 1008 호",
+          "문단 10"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_main_7",
+      "parent_id": "KIFRS1106_main_탐사평가자산의_인식",
+      "content": "기업회계기준서 제 1008 호의 문단 11 과 12 는 해당 기업회계기준의\n부재로 새로운 회계정책을 개발하는 경우에 경영진이 고려하여야\n할 요건과 지침의 근거를 규정한다 . 그러나 탐사평가자산의 인식\n과 측정에 대한 회계정책으로 이 기준서의 문단 9 와 10 을 적용한\n경우에는 기업회계기준서 제 1008 호의 문단 11 과 12 의 적용을 면\n제한다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "main",
+        "para_number": "7",
+        "heading_context": "탐사평가자산의 인식",
+        "cross_refs": [
+          "기준서 제 1008 호",
+          "문단 9",
+          "문단 11"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_main_9",
+      "parent_id": "KIFRS1106_main_탐사평가자산의_측정",
+      "content": "탐사평가자산으로 인식되는 지출에 대한 회계정책을 결정하여 계\n속 적용한다 . 이러한 결정을 할 때 해당 지출이 특정 광물자원의\n발견과 어느 정도 관련되는지를 고려한다 . 탐사평가자산을 최초로\n측정할 때 포함할 수 있는 지출의 예는 다음과 같다 ( 모든 예를 망\n라한 것은 아님 )\n⑴ 탐사 권리의 취득\n⑵ 지형학적, 지질학적, 지구화학적 및 지구물리학적 연구\n⑶ 탐사를 위한 시추\n⑷ 굴착\n⑸ 표본추출\n⑹ 광물자원 추출의 기술적 실현가능성과 상업화가능성에 대한\n평가와 관련된 활동",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "main",
+        "para_number": "9",
+        "heading_context": "탐사평가자산의 측정",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_main_10",
+      "parent_id": "KIFRS1106_main_탐사평가자산의_측정",
+      "content": "광물자원의 개발과 관련된 지출은 탐사평가자산으로 인식하지 아\n니한다 . ‘ 재무보고를 위한 개념체계 ’ 와 기업회계기준서 제 1038 호\n‘ 무형자산 ’ 은 개발하면서 발생한 자산의 인식에 대하여 지침을 제\n시하고 있다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "main",
+        "para_number": "10",
+        "heading_context": "탐사평가자산의 측정",
+        "cross_refs": [
+          "기준서 제 1038 호"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_main_11",
+      "parent_id": "KIFRS1106_main_탐사평가자산의_측정",
+      "content": "광물자원의 탐사와 평가를 수행한 결과로 특정기간에 제거와 복\n구 의무가 발생한 때에는 기업회계기준서 제 1037 호 ‘ 충당부채, 우\n발부채, 우발자산 ’ 에 따라 의무를 인식한다 .\n인식 후 측정",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "main",
+        "para_number": "11",
+        "heading_context": "탐사평가자산의 측정",
+        "cross_refs": [
+          "기준서 제 1037 호"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_main_12",
+      "parent_id": "KIFRS1106_main_탐사평가자산의_측정",
+      "content": "탐사평가자산을 인식한 후에는 원가모형이나 재평가모형을 적용\n한다 . 재평가모형을 적용하는 경우에는 자산의 분류 ( 문단 15 참조 )\n와 일관되게 기업회계기준서 제 1016 호 ‘ 유형자산 ’ 또는 기업회계\n기준서 제 1038 호 ‘ 무형자산 ’ 의 재평가모형을 적용한다 .\n- 10\n회계정책의 변경\n탐사와 평가 관련 지출에 대한 회계정책의 변경이 이용자의 경제\n적 의사결정 필요와 관련하여 목적적합성을 증가시키면서 신뢰성\n은 감소시키지 아니하거나 신뢰성을 증가시키면서 목적적합성은\n감소시키지 아니한다면 회계정책을 변경할 수 있다 목적적합성과",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "main",
+        "para_number": "12",
+        "heading_context": "탐사평가자산의 측정",
+        "cross_refs": [
+          "기준서 제 1016 호",
+          "기준서 제 1038 호",
+          "문단 15"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_main_14",
+      "parent_id": "KIFRS1106_main_탐사평가자산의_측정",
+      "content": "탐사와 평가 관련 지출에 대한 회계정책의 변경이 정당화되기 위\n해서는 이러한 변경으로 재무제표가 기업회계기준서 제 1008 호의\n기준을 더 충족하게 된다는 것을 제시하여야 한다 . 다만, 이러한\n변경이 기업회계기준서 제 1008 호의 기준을 모두 충족할 필요는\n없다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "main",
+        "para_number": "14",
+        "heading_context": "탐사평가자산의 측정",
+        "cross_refs": [
+          "기준서 제 1008 호"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_main_15",
+      "parent_id": "KIFRS1106_main_표시",
+      "content": "탐사평가자산은 그 성격에 따라 유형자산이나 무형자산으로 분류\n하고 이 분류를 일관되게 적용한다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "main",
+        "para_number": "15",
+        "heading_context": "표시",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_main_16",
+      "parent_id": "KIFRS1106_main_표시",
+      "content": "탐사평가자산은 무형자산 ( 예 : 시추권 ) 이나 유형자산 ( 예 : 차량운반\n구, 시추장비 ) 으로 처리된다 . 무형자산을 개발하기 위하여 소모된\n유형자산 금액은 무형자산의 원가를 구성한다 . 그러나 무형자산을\n개발하기 위하여 유형자산을 사용하더라도 유형자산에서 무형자\n산으로 변경되는 것은 아니다 .\n탐사평가자산의 재분류",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "main",
+        "para_number": "16",
+        "heading_context": "표시",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_main_17",
+      "parent_id": "KIFRS1106_main_표시",
+      "content": "광물자원 추출에 대한 기술적 실현가능성과 상업화가능성을 제시\n- 11\n할 수 있는 시점에는 더 이상 탐사평가자산으로 분류하지 아니한\n다 . 탐사평가자산을 재분류하기 전에 손상을 검토하여 손상차손을\n인식한다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "main",
+        "para_number": "17",
+        "heading_context": "표시",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_main_19",
+      "parent_id": "KIFRS1106_main_손상",
+      "content": "손상가능성이 있는 탐사평가자산을 식별하는 경우에는 기업회계\n기준서 제 1036 호의 문단 8~17 을 적용하지 아니하고 이 기준서의\n문단 20 을 적용한다 . 문단 20 에서는 ‘ 자산 ’ 이라는 용어를 사용하고\n있지만 탐사평가자산뿐만 아니라 현금창출단위에도 동일하게 적\n용한다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "main",
+        "para_number": "19",
+        "heading_context": "손상",
+        "cross_refs": [
+          "문단 8",
+          "문단 20",
+          "기준서 제 1036 호"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_main_20_s1",
+      "parent_id": "KIFRS1106_main_손상",
+      "content": "탐사평가자산의 손상을 검토하여야 하는 사실이나 상황의 예는\n다음과 같다 ( 모든 예를 망라한 것은 아님 ).\n⑴",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "main",
+        "para_number": "20",
+        "heading_context": "손상",
+        "cross_refs": [
+          "기준서 제 1036\n호"
+        ],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 1,
+        "total_splits": 3
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_main_20_s2",
+      "parent_id": "KIFRS1106_main_손상",
+      "content": "특정지역 탐사에 대한 권리의 보유기간이 당기 중 만료되었거\n나 가까운 미래에 만료될 예정이고 갱신될 가능성이 없는 경\n우\n⑵ 특정지역 광물자원의 추가 탐사와 평가를 위한 중요한 지출에\n대한 예산이 편성되지 아니하거나 계획되지 아니한 경우\n⑶ 특정지역 광물자원의 탐사와 평가를 통하여 상업적으로 실행\n가능한 수량의 광물자원을 발견하지 못하였고 그 지역에 대한\n탐사와 평가 활동을 중단하기로 결정한 경우\n⑷ 특정지역을 개발할 가능성이 있더라도 탐사평가자산의 장부금\n- 12\n액이 개발의 성공이나 판매로 전액 회수되지 아니할 수 있다\n는 충분한 자료가 있는 경우\n위 ⑴~⑷ 의 경우나 이와 유사한 경우에는 기업회계기준서 제 1036\n호에 따라 손상검사를 수행하여야 한다 . 손상차손은 기업회계기준\n서 제 1036 호에 따라 비용으로 인식한다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "main",
+        "para_number": "20",
+        "heading_context": "손상",
+        "cross_refs": [
+          "기준서 제 1036\n호"
+        ],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 2,
+        "total_splits": 3
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_main_20_s3",
+      "parent_id": "KIFRS1106_main_손상",
+      "content": "탐사평가자산의 손상을 검토하는 수준의 결정\n탐사평가자산의 손상을 검토하기 위하여 해당 자산을 현금창출단\n위나 현금창출단위집단으로 배분하기 위한 회계정책을 결정하여\n야 한다 탐사평가자산이 배분된 각 현금창출단위나 현금창출단위\n부문보다 클 수 없다",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "main",
+        "para_number": "20",
+        "heading_context": "손상",
+        "cross_refs": [
+          "기준서 제 1036\n호"
+        ],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 3,
+        "total_splits": 3
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_main_22",
+      "parent_id": "KIFRS1106_main_손상",
+      "content": "탐사평가자산의 손상을 검사하기 위한 목적으로 식별된 수준은\n하나 이상의 현금창출단위로 구성될 수 있다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "main",
+        "para_number": "22",
+        "heading_context": "손상",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_main_24",
+      "parent_id": "KIFRS1106_main_공시",
+      "content": "문단 23 에 따라 다음과 같은 사항을 공시한다 .\n⑴ 탐사와 평가 관련 지출에 대한 회계정책 ( 탐사평가자산의 인식\n포함 )\n⑵ 광물자원의 탐사와 평가에서 발생한 자산, 부채, 수익, 비용의\n금액과 영업현금흐름 및 투자현금흐름",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "main",
+        "para_number": "24",
+        "heading_context": "공시",
+        "cross_refs": [
+          "문단 23"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_main_25",
+      "parent_id": "KIFRS1106_main_공시",
+      "content": "탐사평가자산을 별도의 자산으로 처리하고 그 자산이 분류된 방\n법과 일관되게 기업회계기준서 제 1016 호 또는 기업회계기준서 제\n1038 호에서 규정한 사항을 공시한다 .\n- 13",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "main",
+        "para_number": "25",
+        "heading_context": "공시",
+        "cross_refs": [
+          "기준서 제 1016 호",
+          "기준서 제\n1038 호"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_main_1",
+      "parent_id": "KIFRS1106_main_시행일",
+      "content": "월 1 일 이후 최초로 시작되는 회계연도부터 적용한다 . ‘ 한국채택\n국제회계기준에서 개념체계의 참조에 대한 개정 ’ 의 다른 모든 개\n정내용들도 동시에 적용한다면 조기 적용할 수 있다 . 이 개정내용\n은 기업회계기준서 제 1008 호 ‘ 회계정책, 회계추정치 변경과 오류 ’\n에 따라 소급하여 적용한다 . 그러나 소급하여 적용하는 것이 실무\n적으로 가능하지 않거나 과도한 원가나 노력을 수반한다면, 기업\n회계기준서 제 1008 호 문단 23~28, 50~53 및 54F 를 참조하여 적용\n한다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "main",
+        "para_number": "1",
+        "heading_context": "시행일",
+        "cross_refs": [
+          "기준서 제 1008 호",
+          "문단 23"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_main_27",
+      "parent_id": "KIFRS1106_main_경과규정",
+      "content": "[ 한국회계기준원 회계기준위원회가 삭제함 ]\n- 14",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "main",
+        "para_number": "27",
+        "heading_context": "경과규정",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC1",
+      "parent_id": "KIFRS1106_bc_도입",
+      "content": "IASB 가 IFRS 6 의 결론을 도출하는 과정에서 고려한 사항을 이 결\n론도출근거에서 요약한다 . IASB 위원들은 개인에 따라 일부 사항\n을 다른 사항들보다 더 비중 있게 고려하였다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC1",
+        "heading_context": "도입",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC2",
+      "parent_id": "KIFRS1106_bc_이_기준서의_발행_이유",
+      "content": "IAS 8 문단 10~12 에서는 어떠한 항목에 구체적으로 적용할 수 있\n는 IFRS 가 없는 경우 회계정책을 개발하는 데 사용해야 하는 기\n준의 우선순위를 명시하고 있다 . IFRS 6 에 이에 대한 면제규정이\n없다면, 2005 년에 IFRS 를 채택하는 기업은 광물자원의 탐사와 평\n가에 대한 회계정책이 IAS 8 의 요구사항을 준수하고 있는지 검토\n할 필요가 있었을 것이다 . 지침이 없으면 허용될 수 있는 것이 무\n엇인지 명확하지 않았을 수 있다 . 허용될 만한 것이 무엇인가를\n확정하는 것은 비용이 많이 들었을 수 있고, IASB 가 추출활동 회\n계처리에 대해 포괄적인 검토를 완료하게 되면, 일부기업은 2005\n년에 주요한 변경에 이어 더 한층 유의적인 변경을 하게 될 수도\n있다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC2",
+        "heading_context": "이 기준서의 발행 이유",
+        "cross_refs": [
+          "문단 10"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC3",
+      "parent_id": "KIFRS1106_bc_이_기준서의_발행_이유",
+      "content": "현재의 이용자와 작성자 모두의 불필요한 혼란을 피하기 위해,\nIASB 는 기업의 탐사평가자산에 대한 현행 회계정책의 변경필요성\n이 제한되도록 다음을 제안하였다 .\n⑴ 만일 구체적으로 적용할 수 있는 IFRS 가 없는 경우, 회계정책\n을 개발하면서 기업이 사용할 기준을 명시하고 있는 IAS 8 의\n서열체계 일부를 일시적으로 면제하는 규정을 두었다 .\n- 22\n⑵ 탐사평가자산에 포함되는 지출과 제외되는 지출을 식별하고\n모든 탐사평가자산을 손상검토하도록 요구함으로써 그 우선순\n위의 면제로 인한 영향을 제한하였다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC3",
+        "heading_context": "이 기준서의 발행 이유",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC4",
+      "parent_id": "KIFRS1106_bc_이_기준서의_발행_이유",
+      "content": "IASB 는 2004 년 1 월에 공개초안을 발표하였다 . 공개초안 제 6 호 (ED\n6) 광물자원의 탐사와 평가 (Exploration for and Evaluation of\nMineral Resources) 는 외부검토의견제출 마감일을 2004 년 4 월 16 일\n로 하였다 . IASB 는 55 개의 외부검토의견서를 받았다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC4",
+        "heading_context": "이 기준서의 발행 이유",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC5",
+      "parent_id": "KIFRS1106_bc_이_기준서의_발행_이유",
+      "content": "2004 년 4 월에 IASB 는 호주, 캐나다, 노르웨이 및 남아프리카공화\n국의 국가회계기준제정기구의 스태프들이 추출활동 회계를 전반\n적으로 다룰 연구과제를 수행하도록 승인하였다 . 이 연구과제팀은\n전 세계의 산업 ( 석유ㆍ가스부문과 광업부문 ), 회계법인, 이용자 그\n리고 증권 감독기구의 인원으로 구성되는 자문단으로부터 도움을\n받는다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC5",
+        "heading_context": "이 기준서의 발행 이유",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC6",
+      "parent_id": "KIFRS1106_bc_적용범위",
+      "content": "IASB 는 추출활동을 직접적으로 다루는 특정 IFRS 가 없더라도,\nIFRS 전체를 광물자원의 탐사와 평가에 종사하는 기업들에게 적\n용할 수 있으며, IAS 1 에 따라 IFRS 준수 사실을 제한 없이 기술\n할 수 있다고 보았다 . 따라서 그러한 모든 기업들은 반드시 각\nIFRS 를 적용하여야 한다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC6",
+        "heading_context": "적용범위",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC7",
+      "parent_id": "KIFRS1106_bc_적용범위",
+      "content": "ED 6 에 대한 일부 의견제출자들은 탐사 전 활동 ( 즉 광물자원의\n탐사와 평가 이전의 활동 ) 과 개발활동 ( 즉 광물자원 추출의 기술적\n실현가능성과 상업화가능성이 명백하게 된 후의 활동 ) 을 포함한\n광물자원의 탐사와 평가 과정의 그 밖의 단계에 대한 기준서를\n개발하도록 IASB 에 권고하였다 . IASB 는 두 가지 이유를 들어 이\n러한 기준서를 개발하지 않기로 결정하였다 . 첫째는 그러한 활동\n에 대한 회계의 포괄적 검토를 미리 판단하는 것을 원하지 않았\n- 23\n다 . 둘째는 기존 IFRS 을 적용하고 Framework [1)] 의 자산과 비용에\n대한 정의 그리고 IAS 16 과 IAS 38 의 자산인식에 대한 일반원칙\n을 적용하여 탐사 전 활동에 대해 적절한 회계정책을 개발할 수\n있다고 결론지었다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC7",
+        "heading_context": "적용범위",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC8",
+      "parent_id": "KIFRS1106_bc_적용범위",
+      "content": "또한 IASB 는 ED 6 에서 제안된 범위를 넘어 IFRS 6 의 적용범위를\n확대하면, 공개초안을 추가로 발표하는 등의 제정절차가 필요할\n수 있기 때문에 적용범위를 확대하지 않기로 결정하였다 . IASB 는\n2005 년 1 월 1 일부터 IFRS 를 적용해야 하는 추출활동에 종사하는\n많은 기업을 고려하여, 광물자원의 탐사와 평가를 넘어 이 기준서\n의 적용범위를 확대하는 것으로 인해, 지침의 발행을 지연시켜서\n는 안 된다고 결정하였다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC8",
+        "heading_context": "적용범위",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC9",
+      "parent_id": "KIFRS1106_bc_탐사평가자산의_정의",
+      "content": "ED 6 에 대한 대부분의 의견제출자들은 IASB 가 제안한 탐사평가\n자산의 정의에 동의하였으나, IASB 의 의도를 보다 명확히 하기\n위한 변경이나 설명을 다음과 같이 요청하였다 .\n⑴ 일부 의견제출자들은 IASB 에게 탐사지출과 탐사 전 지출을 구\n분해 줄 것을 요청하였다 .\n⑵ 일부 다른 의견제출자들은 IASB 에게 탐사와 평가 활동의 서로\n다른 위험 측면 또는 그 밖의 국가들의 요구사항을 반영하여,\n탐사활동과 평가활동을 별도로 정의해 줄 것을 요청하였다 .\n⑶ 일부 다른 의견제출자들은 무엇이 광물자원을 구성하는지에\n대해 추가 지침을 요청하였는데, 주로 광물매장량을 구성하는\n예를 요청하였다 .\n1) 이 결론도출근거에서 언급하는 ‘Framework‘ 는 IASB 가 2001 년에 채택하여 이 기준서가 제정되었을 당시\n시행 중이었던 IASC 의 ‘ 재무제표의 작성과 표시를 위한 개념체계 ’ 를 말한다 .\n- 24\n광물자원의 탐사와 평가 전에 발생한 지출",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC9",
+        "heading_context": "탐사평가자산의 정의",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC10",
+      "parent_id": "KIFRS1106_bc_탐사평가자산의_정의",
+      "content": "의견제출자들은 IASB 가 탐사와 평가 관련 지출의 정의에 특정지\n역을 탐사할 수 있는 법적 권리를 취득하기 전에 발생한 지출을\n포함하여 제안서의 적용범위를 확대하는 것에 대해 우려하는 것\n으로 보였다 . 일부 의견제출자들은 이러한 확대는 그러한 지출을\n자산으로 인식하는 길을 터줄 수 있다고 우려하였는데 다른 의견\n제출자들은 그러한 결과를 선호하기도 하였다 . IFRS 6 의 초안을\n완성하면서 IASB 는 그러한 지출에 Framework 를 적용할 수 없는\n어떠한 이유도 식별할 수 없었다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC10",
+        "heading_context": "탐사평가자산의 정의",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC11",
+      "parent_id": "KIFRS1106_bc_탐사평가자산의_정의",
+      "content": "IASB 는 취득 전 또는 탐사 전 지출에 대해 정의하지 않기로 결정\n하였다 . 그러나 이 기준서는 특정 지역을 탐사할 수 있는 법적권\n리를 취득하기 전에 발생한 지출은 탐사와 평가 관련 지출이 아\n니며, 따라서 이 기준서의 적용범위가 아니라는 것을 명확히 하고\n있다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC11",
+        "heading_context": "탐사평가자산의 정의",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC12",
+      "parent_id": "KIFRS1106_bc_탐사평가자산의_정의",
+      "content": "IASB 는 IFRS 를 적절하게 적용하게 되면, 무형자산 ( 예 : 탐사면허의\n취득에 직접적으로 귀속될 수 있는 지출 ) 의 취득과 관련하여 취득\n전에 발생한 지출을 IAS 38 에 따라 무형자산의 일부로 인식하는\n것이 필요할 수도 있다는 사실에 주목하였다 . IAS 38 문단 27⑴ 은\n개별 취득하는 무형자산의 원가는 수입관세와 환급받을 수 없는\n제세금을 포함한 구입가격 그리고 직접 귀속되는 원가로 구성된\n다고 규정하고 있다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC12",
+        "heading_context": "탐사평가자산의 정의",
+        "cross_refs": [
+          "문단 27"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC13",
+      "parent_id": "KIFRS1106_bc_탐사평가자산의_정의",
+      "content": "이와 유사하게, IASB 는 광물자원의 탐사와 평가 전에 발생한 지\n출은 보통 어떠한 특정 광물자산과 관련될 수 없으므로 발생한\n때에 비용으로 인식해야 할 것으로 이해하고 있다 . 그러나 그러한\n지출은 탐사작업을 진행하기 위해 필요한 기반시설 ( 예 : 진입로 ) 에\n대한 지출과 구별되어야 한다 . 기반시설에 대한 지출은 IAS 16 문\n단 3 에 따라 유형자산으로 인식하여야 한다 .\n- 25\n탐사 와 평가 에 대한 구분된 정의",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC13",
+        "heading_context": "탐사평가자산의 정의",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC14",
+      "parent_id": "KIFRS1106_bc_탐사평가자산의_정의",
+      "content": "일부 의견제출자들은 IASB 에게 탐사와 평가를 구분하여 정의해\n줄 것을 요청하였다 . IASB 는 2000 년 11 월에 IASC 가 발행한 논점\n서 추출산업 (ExtractiveIndustries) 에서 제시한 정의를 사용할 것을\n고려하였는데, 그러한 정의는 특히 광업과 석유ㆍ가스 두 부문에\n서 수년간 사용하여 왔던 정의에 기초하고 있기 때문에 많은 의\n견제출자들이 수용할 것이기 때문이었다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC14",
+        "heading_context": "탐사평가자산의 정의",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC15",
+      "parent_id": "KIFRS1106_bc_탐사평가자산의_정의",
+      "content": "IASB 는 평가와 탐사를 구분하는 것은 이 기준서를 개선하는 것이\n아니라고 결론지었다 . 탐사와 평가는 같은 방법으로 회계처리한\n다 .\n광물자원",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC15",
+        "heading_context": "탐사평가자산의 정의",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC16",
+      "parent_id": "KIFRS1106_bc_탐사평가자산의_정의",
+      "content": "일부 의견제출자들은 IASB 에게 광물자원을 더 정밀하게 정의해\n줄 것을 요청하였다 . IASB 는 이 기준서의 목적을 위해 더 상세한\n설명은 불필요하다고 결론지었다 . 광물자원의 탐사와 평가에 대한\n정의에서 열거된 항목으로도 IASB 의 의도를 전달하는 데 충분하\n였다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC16",
+        "heading_context": "탐사평가자산의 정의",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC17_s1",
+      "parent_id": "KIFRS1106_bc_탐사평가자산의_인식",
+      "content": "광물자원의 탐사와 평가에 종사하는 기업들은 다양한 회계관행을\n따르고 있다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC17",
+        "heading_context": "탐사평가자산의 인식",
+        "cross_refs": [
+          "문단 11"
+        ],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 1,
+        "total_splits": 5
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC17_s2",
+      "parent_id": "KIFRS1106_bc_탐사평가자산의_인식",
+      "content": "이러한 관행은 탐사와 평가에 관련된 거의 모든 지\n출을 대차대조표에 이연하는 것부터 그러한 모든 지출을 발생한\n때에 당기 손익으로 인식하는 것까지 다양하다 . 이 기준서는 이러\n한 다양한 회계관행이 유지되도록 허용한다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC17",
+        "heading_context": "탐사평가자산의 인식",
+        "cross_refs": [
+          "문단 11"
+        ],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 2,
+        "total_splits": 5
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC17_s3",
+      "parent_id": "KIFRS1106_bc_탐사평가자산의_인식",
+      "content": "이러한 다양성이 있\n는 상황에서, ED 6 에 대한 일부 의견제출자들은 IAS 8 문단 11 과\n12 에 대하여 어떠한 경우에도 적용면제를 반대하였다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC17",
+        "heading_context": "탐사평가자산의 인식",
+        "cross_refs": [
+          "문단 11"
+        ],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 3,
+        "total_splits": 5
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC17_s4",
+      "parent_id": "KIFRS1106_bc_탐사평가자산의_인식",
+      "content": "이러한 의\n- 26\n견제출자들은 IASB 의 규정된 목적 즉, 재무제표이용자들에게 양\n질의 투명하고 비교가능한 재무정보를 제공하는 것과 일관되지\n않는데도, IFRS 를 준수한다는 외관을 줄 수 있다는 점을 우려하였\n다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC17",
+        "heading_context": "탐사평가자산의 인식",
+        "cross_refs": [
+          "문단 11"
+        ],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 4,
+        "total_splits": 5
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC17_s5",
+      "parent_id": "KIFRS1106_bc_탐사평가자산의_인식",
+      "content": "IASB 는 IAS 8 의 일부규정에 대한 적용면제를 쉽게 허용하지\n는 않았으나, 이용자 ( 예 : 추세자료의 연속성 부족 ) 와 작성자 ( 예 : 시\n스템 변경 ) 의 혼란을 최소화하고자 특히 2006 년 ( 또는 IFRS 를 조기\n채택한 기업은 2005 년 ) 에 이러한 단계를 거쳤다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC17",
+        "heading_context": "탐사평가자산의 인식",
+        "cross_refs": [
+          "문단 11"
+        ],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 5,
+        "total_splits": 5
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC18",
+      "parent_id": "KIFRS1106_bc_탐사평가자산의_인식",
+      "content": "IFRS 4 에서 IAS 8 문단 10~12 에 대한 일시적 적용면제를 제시하\n고 있다 . 이러한 적용면제는 IFRS 6 에서 보다 범위가 더 넓은데,\n이는 IASB 의 제 2 단계 작업에서 그러한 주제를 다룰 때까지 IFRS\n4 는 보험계약에 대한 회계처리의 많은 유의적인 부분이 남아 있\n기 때문이다 . 보험계약에 IAS 8 문단 10 을 적용하도록 요구하는\n것은 더 큰 파급효과가 있을 것이고 보험자는 완전성, 형식보다\n실질의 우선 그리고 중립성 등의 문제를 다뤄야 할 필요성을 갖\n게 될 것이다 . 반면에 IFRS 6 은 언급되지 않은 논제의 범위가 상\n대적으로 좁고, IASB 는 IAS 8 문단 10 의 적용면제가 필요하다고\n생각하지 않았다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC18",
+        "heading_context": "탐사평가자산의 인식",
+        "cross_refs": [
+          "문단 10"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC19",
+      "parent_id": "KIFRS1106_bc_탐사평가자산의_인식",
+      "content": "IASB 는 ED 6 에서 IAS 8 문단 11 과 12 의 적용을 중지할 것이라는\n의도를 명확히 하였는데, 이것은 탐사평가자산에 대한 회계정책을\n결정할 때 문단 10 을 준수하여야 한다는 것을 의미한다 . 그러나\n접수된 외부검토의견에 의하면 이러한 IASB 의 의도가 명확하게\n전달되지 않았다는 것이 명백하였다 . 따라서 이 기준서는 IAS 8\n문단 10 을 준수하는 것은 강제라는 구체적인 문구를 포함한다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC19",
+        "heading_context": "탐사평가자산의 인식",
+        "cross_refs": [
+          "문단 10",
+          "문단 11"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC20",
+      "parent_id": "KIFRS1106_bc_탐사평가자산의_인식",
+      "content": "IASB 가 ED 6 에서 제안한 일부 회계관행을 계속 허용하는 제안을\n반대하는 의견제출자들은, 광물자원의 탐사평가와 과학적 연구 사\n이에 의미 있는 구분을 두는 것이 어렵다고 보았다 . 두 활동 모두\n비용이 많이 들 수 있고 유의적인 실패위험을 갖고 있다 . 이러한\n의견제출자들은 광물자원의 탐사와 평가를 IAS 16 과 IAS 38 의 적\n- 27\n용범위에 포함하는 것을 지지할 것이다 . IASB 도 이와 유사하게\n기존 회계관행이 탐사평가자산을 부적절하게 인식하는 결과를 초\n래할 수 있다고 우려하였다 . 그러나 탐사평가 관련 지출을 IAS 38\n에 따라 회계처리하면 비용을 과대계상하는 결과를 가져 올 수\n있다는 우려도 있다 . 이러한 지출에 대해 국제적으로 인정된 기준\n이 없기 때문에, IASB 는 추출활동의 회계에 대한 포괄적 검토가\n없는 상태에서 정보에 근거한 판단을 할 수 없다고 결론지었다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC20",
+        "heading_context": "탐사평가자산의 인식",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC21",
+      "parent_id": "KIFRS1106_bc_탐사평가자산의_인식",
+      "content": "일부 의견제출자는, 포괄적인 회계기준을 구성하지 않는 회계정책\n들의 선택을 방지하기 위해, IASB 가 추출활동의 회계처리에 대한\n포괄적인 검토를 완료할 때 까지 광물자원의 탐사와 평가에 대해\n기업은 각국의 회계규정 ( 즉, 각국의 GAAP) 에 따라 회계처리하도\n록 요구하여야 한다고 제시하였다 . IFRS 4 에서의 결론과 일관되\n게, IASB 는 각국의 GAAP 을 정의하는 것은 문제들을 야기할 것이\n라고 결론지었다 . 일부 기업들은 자신이 속한 국가의 회계기준을\n적용하지 않기 때문에 정의상 문제가 더욱 부각되었을 수 있다 .\n예를 들어, 석유ㆍ가스 부문에서 추출활동을 하는 비미국계 기업\n중 일부는 US GAAP 을 적용한다 . 또한 다른 주체가 정한 요구사\n항을 의무화하는 것은 이례적이고 IASB 가 위임받는 권한을 넘어\n선다는 논란의 여지가 있을 수 있다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC21",
+        "heading_context": "탐사평가자산의 인식",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": true
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC22",
+      "parent_id": "KIFRS1106_bc_탐사평가자산의_인식",
+      "content": "따라서 IASB 는 기업이 이 기준서의 요구사항을 최초로 적용할 때\n사용하고 있던 회계정책이 IAS 8 의 문단 10 의 규정을 충족하고\n아래에 언급된 일부 예외사항을 충족한다면, 그 회계정책을 따르\n는 것을 계속 유지 할 수 있다고 결정하였다 . 기업은 특정 기준\n( 이 기준서의 문단 13 과 14 참조 ) 이 충족될 경우 그러한 회계정책\n을 개선할 수도 있다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC22",
+        "heading_context": "탐사평가자산의 인식",
+        "cross_refs": [
+          "문단 13",
+          "문단 10"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC23",
+      "parent_id": "KIFRS1106_bc_탐사평가자산의_인식",
+      "content": "추출활동 회계처리의 많은 부분이 IASB 가 추출활동에 대한 포괄\n적인 검토를 완료하기 전까지는 고려되지 않을 부분과 밀접하게\n관련되기 때문에, IASB 는 현시점에 인식과 측정에 대한 관행을\n- 28\n단편적으로 변경하는 것은 어렵다는 것을 인정하였다 . 그러나 이\n기준서에 있는 요구사항을 강제하지 않는다면 용인할 수 없을 정\n도로 재무제표의 목적적합성과 신뢰성이 손상될 것이다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC23",
+        "heading_context": "탐사평가자산의 인식",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC23A",
+      "parent_id": "KIFRS1106_bc_탐사평가자산의_인식",
+      "content": "IASB 는 2008 년에 연차개선과제의 일환으로 IAS 7 에서 미래현금흐\n름을 창출할 목적으로 발생되었으나 IFRS 에 따라 자산으로 인식\n되지 않는 지출의 분류에 대한 지침을 고려하였다 . 일부 기업은\n그러한 지출을 영업활동 현금흐름으로 분류하고 다른 기업은 투\n자활동 현금흐름으로 분류한다 . 이러한 사례로서 IFRS 6 에 따라\n자산이나 비용으로 인식될 수 있는 탐사와 평가활동의 지출을 들\n수 있다 . [2)]",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC23A",
+        "heading_context": "탐사평가자산의 인식",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC23B",
+      "parent_id": "KIFRS1106_bc_탐사평가자산의_인식",
+      "content": "IASB 는 IFRS 6 의 면제조항이 단지 탐사평가자산의 인식과 측정에\n적용되며 현금흐름표상 관련된 지출의 분류에 적용되지 아니한다\n는 데 주목하였다 . 따라서 IASB 는 자산으로 인식되는 지출만이\n투자활동으로 분류되도록 IAS 7 의 문단 16 을 개정하였다 .\n탐사평가자산의 원가 구성요소",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC23B",
+        "heading_context": "탐사평가자산의 인식",
+        "cross_refs": [
+          "문단 16"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC24",
+      "parent_id": "KIFRS1106_bc_탐사평가자산의_인식",
+      "content": "ED 6 문단 7 에서 탐사평가자산의 원가에 포함될 수 있는 광물자\n원의 탐사와 평가에 관련된 지출의 예시를 열거하였다 . ED 6 문\n단 8 에서 탐사평가자산으로 인식할 수 없는 지출을 열거하였다 .\n의견제출자들은 이러한 문단들이 보다 더 명확하고, 포함되거나\n제외되는 지출유형의 예가 좀 더 많이 제시되기를 원한다고 표명\n하였다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC24",
+        "heading_context": "탐사평가자산의 인식",
+        "cross_refs": [
+          "문단 7"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC25",
+      "parent_id": "KIFRS1106_bc_탐사평가자산의_인식",
+      "content": "이러한 외부의견을 고려하여, IASB 는 그 목록에서 모든 예를 망\n라한 것이 아니지만 언급된 항목이 탐사와 평가 관련 지출의 정\n의를 충족할 ( 그러나 항상 충족할 필요는 없다 ) 수 있는 지출의 예\n2) 2009 년 4 월에 발표된 ‘IFRS 연차개선 ’ 에 포함된 IAS 7 의 개정의 결과로 문단 BC23A 와 BC23B 가 추가\n되었다 .\n- 29\n라는 점을 기술하기 위하여 지침을 재작성하기로 결정하였다 . 또\n한 IASB 는 IFRS 에서 그러한 지출은 유사한 활동에 대하여 그리고\n보고기간 간에 일관된 회계처리 되도록 요구한다는 점을 주목하\n였다 . 탐사평가자산으로 인식하기 위한 조건을 충족하는 지출로\n간주된 것에 대한 모든 변경은 IAS 8 에 따른 회계정책 변경으로\n처리되어야 한다 . 추출활동의 회계처리에 대해 포괄적인 검토를\n하는 동안에, IASB 는 어떠한 지출이 포함되어야 하고 제외되어야\n하는지를 정의하는 것이 가능하다고 생각하지 않는다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC25",
+        "heading_context": "탐사평가자산의 인식",
+        "cross_refs": [
+          "BC23B",
+          "BC23A"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC26",
+      "parent_id": "KIFRS1106_bc_탐사평가자산의_인식",
+      "content": "ED 6 의 문단 8 에서 광물자원의 개발과 관련된 지출을 탐사평가자\n산으로 인식하는 것을 금지하도록 제안하였다 . 의견제출자들은\n‘ 개발 ‘ 에 대한 지출을 식별하는 것은 어렵다고 표명하였다 . IASB\n는 이 기준서의 적용범위를 벗어나기 때문에 ’ 광물자원의 개발 ’ 을\n정의하지 않았다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC26",
+        "heading_context": "탐사평가자산의 인식",
+        "cross_refs": [
+          "문단 8"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC27",
+      "parent_id": "KIFRS1106_bc_탐사평가자산의_인식",
+      "content": "그러나 일단 IASB 는 광물자원 추출의 기술적 실현가능성과 상업\n화 가능성이 결정되면 광물자원의 개발은 내부프로젝트의 개발단\n계의 한 예가 된다고 보았다 . IAS 38 의 문단 57 은 이러한 활동에\n대한 회계정책을 개발하면서 따라야 할 지침을 제시한다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC27",
+        "heading_context": "탐사평가자산의 인식",
+        "cross_refs": [
+          "문단 57"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC28",
+      "parent_id": "KIFRS1106_bc_탐사평가자산의_인식",
+      "content": "ED 6 은 관리원가 및 기타 일반간접원가는 탐사평가자산의 최초\n측정에서 제외되어야 한다고 제안하였다 . 몇몇 의견제출자는 탐사\n평가활동에 직접 귀속되는 일반원가, 관리원가 및 간접원가는 자\n산의 장부금액에 포함되는 조건을 충족한다고 하였다 . 이러한 의\n견제출자들은 이러한 회계처리가 재고자산 (IAS 2 문단 11) 및 무\n형자산 (IAS 38 문단 67⑴) 과 관련된, 그러한 원가의 회계처리와\n일관된다고 보았다 . 그러나 IASB 는 이러한 회계처리가 IAS 16 의\n문단 19⑷ 와는 일관되지 않는 것처럼 보여 질 수 있다고 보았다 .\n이 기준서가 이러한 불일치를 해결할 적절한 기준서로 여겨지지\n않았으며, IASB 는 이 기준서에서 관리원가 및 기타 일반간접원가\n에 대한 언급을 삭제하기로 결정하였다 . 이러한 지출의 회계처리\n- 30\n는 회계정책의 선택이 될 것이며, 선택된 정책은 IFRS 에 따라 사\n용가능한 회계처리 중 하나와 일관되어야 한다 .\n인식 후 측정",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC28",
+        "heading_context": "탐사평가자산의 인식",
+        "cross_refs": [
+          "문단 19",
+          "문단 67",
+          "문단 11"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC29",
+      "parent_id": "KIFRS1106_bc_탐사평가자산의_인식",
+      "content": "이 기준서는 탐사평가자산을 인식한 기업이 인식 후 이러한 자산\n을 IAS 16 과 IAS 38 의 원가모형이나 재평가모형을 사용하여 측정\n하는 것을 허용한다 . 선택된 모형은 기업의 탐사평가자산의 분류\n방법과 일관되어야 한다 . 그러한 재평가모형은 특정 요구사항을\n충족할 때 자산의 재평가를 허용한다 (IAS 16 의 문단 31~42 및\nIAS 38 의 문단 72~84 참조 ). IAS 38 의 재평가모형은 자산의 공정\n가치가 활성시장에서 결정될 수 있는 경우에만 사용될 수 있으며,\nIAS 16 의 재평가모형은 ‘ 시장에 근거한 증거 ’ 에 의해서만 재평가\n한다 . IASB 는 이러한 불일치에 어려움을 겪었으며 기업이 탐사평\n가자산에 대한 더 유리한 측정치를 얻기 위해 회계정책을 선택할\n수 있다는 점을 우려하였다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC29",
+        "heading_context": "탐사평가자산의 인식",
+        "cross_refs": [
+          "문단 72",
+          "문단 31"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC30",
+      "parent_id": "KIFRS1106_bc_탐사평가자산의_인식",
+      "content": "몇몇 의견제출자들은 ED 6 에서 제안한 선택권에 대해서도 우려하\n였다 . 일부 의견제출자들은 탐사평가자산을 재평가하여야 한다는\n것에 동의하지 않았으며 재측정의 임의적인 금지를 선호하였다 .\n기타 의견제출자들은 측정의 신뢰성을 염려하였다 . IASB 는 ED 6\n과 다른 결론을 이끌어내는 실질적인 근거가 제시되지 않았다고\n결론지었다 . IAS 16 이나 IAS 38 에 따른 탐사자산의 재평가가 보\n편화된 것은 아닐 수 있지만, IAS 16 이나 IAS 38 의 특정 형태의\n자산에 대한 재측정을 선택적으로 금지하는 것은 적절하지 않았\n다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC30",
+        "heading_context": "탐사평가자산의 인식",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC31",
+      "parent_id": "KIFRS1106_bc_탐사평가자산의_인식",
+      "content": "탐사평가자산은 사업결합의 결과로 생길 수도 있다 . IASB 는 IFRS\n3 은 IFRS 를 준수한다고 주장하는 모든 기업들에게 적용되고, 사업\n결합에서 취득한 탐사평가자산은 IFRS 3 에 따라 회계처리하여야\n한다는 점에 주목하였다 .\n- 31",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC31",
+        "heading_context": "탐사평가자산의 인식",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC32",
+      "parent_id": "KIFRS1106_bc_탐사평가자산의_표시",
+      "content": "ED 6 에서 탐사평가자산이 유형자산인지 무형자산인지에 대해\nIASB 가 아직 고려하지 않았다고 언급하였다 . 몇몇의 의견제출자\n들은 IASB 가 이 논제에 대해 어떤 방침을 제시하여야 한다고 제\n안하였다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC32",
+        "heading_context": "탐사평가자산의 표시",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC33",
+      "parent_id": "KIFRS1106_bc_탐사평가자산의_표시",
+      "content": "일부 탐사평가자산은 무형자산 ( 예 : 시추권 ) 으로 처리되고, 반면에\n그 밖의 자산은 명확히 유형자산 ( 예 : 차량운반구, 시추장비 ) 이다 .\n유형자산은 무형자산의 개발에 사용될 수 있다 . 예를 들어, 이동\n식 시추장비는 시험유정을 시추하거나 표본을 추출하는 데 사용\n되며, 이는 명확히 탐사활동의 일부이다 . 무형자산을 개발하는 데\n사용되는 유형자산의 소모금액은 무형자산 원가의 일부가 된다 .\n그러나 무형자산을 개발하기 위하여 사용한 시추장비가 유형자산\n에서 무형자산으로 변경되는 것은 아니다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC33",
+        "heading_context": "탐사평가자산의 표시",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": true
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC34",
+      "parent_id": "KIFRS1106_bc_탐사평가자산의_표시",
+      "content": "추출활동의 회계관행에 대한 포괄적인 검토를 완료할 때까지\nIASB 는 탐사평가자산을 유형자산 또는 무형자산으로 분류해야 하\n는지, 그리고 어떠한 탐사평가자산을 유형자산 또는 무형자산으로\n분류하여야 하는지에 대한 결정을 바라지 않았다 . 그러나 IASB 는\n기업이 탐사평가자산의 각 항목을 그 성격에 따라 유형자산 또는\n무형자산으로 분류하여야 하고, 이러한 분류를 일관되게 적용하여\n야 한다고 결론지었다 . 이러한 분류는 문단 BC29~BC31 에 기술된\n기타 회계정책의 선택과 이 기준서에서 요구하는 공시를 위한 근\n거가 된다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC34",
+        "heading_context": "탐사평가자산의 표시",
+        "cross_refs": [
+          "BC29",
+          "BC31"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC35",
+      "parent_id": "KIFRS1106_bc_탐사평가자산의_손상",
+      "content": "IASB 는 ED 6 을 개발하면서, 탐사평가자산을 인식한 기업은 그러\n한 자산을 손상검사하여야 하고, 이에 적용할 손상검사는 IAS 36\n- 32\n의 손상검사이어야 한다고 결정하였다 . 의견제출자들은 탐사평가\n자산을 손상검사하여야 한다는 일반적인 제안을 수용하였다 . 그러\n나 ‘ 탐사평가자산을 위한 특수현금창출단위 ’( 특수현금창출단위 ) 에\n대한 IASB 의 제안은 적절하거나 유용하다고 생각하지 않았다 .\n손상검토",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC35",
+        "heading_context": "탐사평가자산의 손상",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC36",
+      "parent_id": "KIFRS1106_bc_탐사평가자산의_손상",
+      "content": "어떤 경우에는, 특히 탐사만을 영위하는 기업의 경우 탐사평가자\n산이 현금흐름을 창출하지 않는 경우도 있고, 기업이 탐사평가자\n산의 회수가능액을 합리적으로 추정하기 위한 특정 지역의 광물\n자원 정보가 불충분한 경우도 있다 . 이는 광물자원의 탐사와 평가\n가, 미래 현금흐름을 추정하기에 충분한 정보가 기업에게 이용가\n능하다는 어떤 단계에 도달하지 못하였기 때문이다 . 이러한 정보\n없이는 IAS 36 의 회수가능액을 측정하는 두 가지 방법인 공정가\n치에서 처분부대원가를 뺀 금액이나 사용가치로 추정하는 것이\n가능하지 않다 . 의견제출자들은 이로 인해 많은 경우 탐사자산을\n즉시 상각하게 될 것이라고 보았다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC36",
+        "heading_context": "탐사평가자산의 손상",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC37",
+      "parent_id": "KIFRS1106_bc_탐사평가자산의_손상",
+      "content": "IASB 는 이러한 기준에 따라 손상차손을 인식하는 것은 탐사평가\n자산에 대한 현행 회계처리방법을 계속 사용할 수 있도록 허용하\n는 것과 일관되지 않을 수 있다는 의견제출자들의 주장을 받아들\n였다 . 그러므로 추출활동을 위한 회계처리의 포괄적인 검토를 진\n행하는 동안에, IASB 는 손상인식에 대한 접근법을 변경하기로 하\n였으며 손상검토는 사실과 상황의 변화로 인해 이루어져야 한다\n고 결정하였다 . 그러나 IASB 는 또한 기업이 탐사평가자산이 손상\n되었다고 일단 결정하면 손상을 검토하는 수준에 관한 특정 규정\n을 조건으로 하여, 그 손상을 IAS 36 에 따라 측정하고 재무제표에\n표시 및 공시하여야 한다는 것을 확인하였다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC37",
+        "heading_context": "탐사평가자산의 손상",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC38",
+      "parent_id": "KIFRS1106_bc_탐사평가자산의_손상",
+      "content": "ED 6 의 문단 12 에서 탐사평가자산을 인식한 기업은 IAS 36 에 따\n라 매년 자산손상을 검토하여야 하고 그 결과 손상차손이 있다면\n- 33\n인식하여야 한다고 제안하였다 . IAS 36 의 문단 13 은 기업이 손상\n지표에 추가하여 고려할 징후들을 제안하였다 . 의견제출자들은 이\n러한 징후들은, 특히 광물매장량을 검토하는데 필요한 정보를 사\n용하지 못하는 상황에서는 IASB 가 의도한 결과를 얻지 못할 것이\n라고 언급하였다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC38",
+        "heading_context": "탐사평가자산의 손상",
+        "cross_refs": [
+          "문단 13",
+          "문단 12"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC39",
+      "parent_id": "KIFRS1106_bc_탐사평가자산의_손상",
+      "content": "IASB 는 ED 6 의 문단 12 와 13 의 제안을 IAS 36 의 인식요구사항에\n대한 예외로 대체하였다 . IASB 는 기업이 기술적 실현가능성과 상\n업화가능성 결정을 위해 충분한 정보를 가질 때까지 탐사평가자\n산을 손상검토할 필요가 없다고 결정하였다 . 그러나 이러한 정보\n가 이용가능하게 되거나 그 밖의 사실과 상황이 자산이 손상될\n수 있다는 것을 시사하게 되면, 반드시 탐사평가자산을 손상검토\n하여야 한다 . 이 기준서는 손상을 시사하는 징후들을 제안하고 있\n다 .\n손상검토 수준",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC39",
+        "heading_context": "탐사평가자산의 손상",
+        "cross_refs": [
+          "문단 12"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC40",
+      "parent_id": "KIFRS1106_bc_탐사평가자산의_손상",
+      "content": "IASB 는 ED 6 을 마련할 때, 원가가 누적되는 수준과 손상을 검토\n하는 수준이 일관될 필요가 있다고 결정하였다 . 이러한 일관성이\n없으면, 광물자원의 탐사와 평가를 위한 일반적인 회계방법 중 하\n나에 따라 탐사평가자산의 원가의 일부를 구성하게 될 지출을\nIAS 36 에 따라 당기손익으로 인식하게 될 위험이 있다 . 결과적으\n로 ED 6 은 탐사평가자산을 인식하는 기업은 자산의 손상여부를\nIAS 36 의 현금창출단위 (CGU) 의 수준에서 검사할지 특수현금창출\n단위의 수준에서 검사할지를 단 한번 선택하여야 한다고 제안하\n였다 . ED 6 은 특수현금창출단위에 포함된 탐사평가자산 이외의\n자산은 IAS 36 에 따라 별도의 손상검사를 계속하여야 하고, 그러\n한 손상검사는 특수현금창출단위에 대한 손상검사를 하기 전에\n이루어져야 한다고 설명하였다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC40",
+        "heading_context": "탐사평가자산의 손상",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC41_s1",
+      "parent_id": "KIFRS1106_bc_탐사평가자산의_손상",
+      "content": "의견제출자들은 IASB 의 제안에 동의하지 않았다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC41",
+        "heading_context": "탐사평가자산의 손상",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 1,
+        "total_splits": 6
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC41_s2",
+      "parent_id": "KIFRS1106_bc_탐사평가자산의_손상",
+      "content": "특히 다음과 같\n- 34\n은 여러 가지 이유를 들어 특수현금창출단위가 의도한 바와 같이\n부담을 덜어줄 것이라고 인정하지 않았다 .\n⑴",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC41",
+        "heading_context": "탐사평가자산의 손상",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 2,
+        "total_splits": 6
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC41_s3",
+      "parent_id": "KIFRS1106_bc_탐사평가자산의_손상",
+      "content": "규모가 작거나 사업초기에 있거나 탐사만을 영위하는 기업은\n현금을 창출하지 못하는 탐사평가자산을 뒷받침할 적절한 현\n금흐름을 보유하지 못할 수 있다 .\n⑵ 성공원가법 회계를 사용하는 기업은 일반적으로 자산별로 손\n상검사를 수행한다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC41",
+        "heading_context": "탐사평가자산의 손상",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 3,
+        "total_splits": 6
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC41_s4",
+      "parent_id": "KIFRS1106_bc_탐사평가자산의_손상",
+      "content": "그러나 ED 6 에서 정의된 특수현금창출단\n위에 따르면 그러한 기업은 현금창출단위 수준에서 손상검사\n를 수행하여야만 한다 .\n⑶ 특수현금창출단위는 경영진에게 폭넓은 재량을 허용한다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC41",
+        "heading_context": "탐사평가자산의 손상",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 4,
+        "total_splits": 6
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC41_s5",
+      "parent_id": "KIFRS1106_bc_탐사평가자산의_손상",
+      "content": "또한 탐사평가자산은 특수현금창출단위 내에서 기타자산들과 합\n쳐질 수 있기 때문에, 적용하기 위한 적절한 측정모형 ( 공정가치에\n서 처분부대원가를 뺀 금액 또는 사용가치 ) 에 대해 혼란이 있을\n수 있다는 우려가 있었다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC41",
+        "heading_context": "탐사평가자산의 손상",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 5,
+        "total_splits": 6
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC41_s6",
+      "parent_id": "KIFRS1106_bc_탐사평가자산의_손상",
+      "content": "결과적으로 ED 6 에 대한 많은 의견제\n출자들은 이러한 면에서 IASB 가 의도한 바를 성취하였다고 생각\n하지 않았으며, 특수현금창출단위 없이 IAS 36 을 적용하는 것을\n선호한다고 말하였다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC41",
+        "heading_context": "탐사평가자산의 손상",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 6,
+        "total_splits": 6
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC42",
+      "parent_id": "KIFRS1106_bc_탐사평가자산의_손상",
+      "content": "IASB 는 의견제출자들이 제시한 일부 주장에 동의하지 않았지만,\n특수현금창출단위가 도움이 되기보다는 더욱 혼란을 줄 수 있는\n것처럼 보인다는 사실을 인정하였다 . 이는 특수현금창출단위가 불\n필요하다는 것을 의미하였다 . ED 6 의 결론도출근거 문단 BC 20 에\n서 IASB 는 특수현금창출단위 도입을 망설였다고 언급하였다 . 특\n수현금창출단위를 삭제하게 되면 제시된 기준서에서 많은 복잡성\n을 제거할 수 있고 관계자들의 혼란을 제거할 수 있다 . 또한 추출\n활동을 하는 기업이 기타 기업들과 동일한 수준에서 자산손상 검\n토를 할 수 있게 되어 더 높은 비교가능성을 제공하게 됨을 의미\n한다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC42",
+        "heading_context": "탐사평가자산의 손상",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC43",
+      "parent_id": "KIFRS1106_bc_탐사평가자산의_손상",
+      "content": "IASB 위원들은 IAS 36 의 문단 22 에서 ‘ 개별 자산의 현금유입이\n다른 자산이나 자산집단에서의 현금유입과 거의 독립적으로 창출\n- 35\n된다면 ’ 개별자산 수준에서 손상을 검토하도록 요구한다는 점에\n주목하였다 . 또한 IAS 36 의 문단 70 은 ‘ 자산이나 자산집단이 생산\n하는 산출물을 거래하는 활성거래시장이 존재하는 경우에는 그\n자산이나 자산집단을 하나의 현금창출단위로 식별 ’ 하도록 요구하\n고 있다 . 탐사평가자산을 인식하는 어떠한 경우 ( 예 : 원유부문 ) 에는\n원유의 거래활성시장이 존재하기 때문에 각 유정이 잠재적으로\n관측가능하고 신뢰성 있는 측정이 가능한 현금유입을 창출하게\n될 가능성이 있다 . IASB 는 특수현금창출단위의 삭제로 기업이 탐\n사평가자산의 손상검사를 매우 낮은 수준에서 하게 될 수 있다고\n우려하였다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC43",
+        "heading_context": "탐사평가자산의 손상",
+        "cross_refs": [
+          "문단 70",
+          "문단 22"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC44",
+      "parent_id": "KIFRS1106_bc_탐사평가자산의_손상",
+      "content": "이 논제는 IASB 의 웹사이트에서 이용가능한 2004 년 7 월분 IASB\n업데이트, 프로젝트 요약, 그리고 ‘ 재심의 효과 (Effect of\nRedeliberations)’ 의 문서에 중요하게 다루어졌다 . 또한 이러한 문\n서들을 IASB 연구과제팀과 그 밖의 기관에 보내면서 그들의 관계\n자들이 제기된 논제에 의견을 제출하도록 요청하였다 . IASB 는 16\n개의 외부검토의견서를 받았다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC44",
+        "heading_context": "탐사평가자산의 손상",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC45",
+      "parent_id": "KIFRS1106_bc_탐사평가자산의_손상",
+      "content": "과반수의 의견제출자들은 특수현금창출단위를 삭제하는 것을 계\n속 지지하였다 . 또한 기업이 원가중심점 수준에서 손상검사를 하\n여야 한다고 지지하였으며, IASB 가 ‘ 자산 ’ 을 탐사평가자산으로 정\n의할 것을 고려하여야 한다고 제시하였다 . 의견제출자들은 이러한\n접근법은 그 산업이 영업을 영위하는 방식을 더 정확하게 반영할\n수 있다고 주장하였다 . IASB 는 이러한 주장을 받아들여 기업이\n탐사평가자산을 현금창출단위나 현금창출단위집단에 배분할 때\n일부 융통성을 허용하기로 하고 현금창출단위나 현금창출단위집\n단의 규모에 대해 상한을 두기로 결정하였다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC45",
+        "heading_context": "탐사평가자산의 손상",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC46_s1",
+      "parent_id": "KIFRS1106_bc_탐사평가자산의_손상",
+      "content": "IASB 는 2004 년에 개정한 IAS 36 문단 80~82 의 영업권 손상에 대\n한 접근법이 이러한 목적을 달성하기 위해 IFRS 내에서 사용가능\n한 최적의 모형이 될 수 있다고 결정하였다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC46",
+        "heading_context": "탐사평가자산의 손상",
+        "cross_refs": [
+          "문단 80"
+        ],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 1,
+        "total_splits": 5
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC46_s2",
+      "parent_id": "KIFRS1106_bc_탐사평가자산의_손상",
+      "content": "기업은 내부관리목적\n- 36\n상 하나의 유전이나 광산의 수준에서 탐사평가자산을 관리할 수\n있다고 보았다 . IASB 는 이와 같은 낮은 수준에서의 손상검토를\n요구할 의도는 없었다 . 결과적으로 이 기준서는 현금창출단위들의\n통합을 허용하였다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC46",
+        "heading_context": "탐사평가자산의 손상",
+        "cross_refs": [
+          "문단 80"
+        ],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 2,
+        "total_splits": 5
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC46_s3",
+      "parent_id": "KIFRS1106_bc_탐사평가자산의_손상",
+      "content": "그러나 IASB 는 국제회계기준 제 14 호 (IAS 14)\n‘ 부문보고 (Segment Reporting)' 에 따라 손상을 검토하는 수준이\n기업의 일차적 또는 이차적 보고형식의 부분에 기초한 부문보다\n크지 않도록 요구하기로 결정하였다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC46",
+        "heading_context": "탐사평가자산의 손상",
+        "cross_refs": [
+          "문단 80"
+        ],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 3,
+        "total_splits": 5
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC46_s4",
+      "parent_id": "KIFRS1106_bc_탐사평가자산의_손상",
+      "content": "IASB 는 IAS 36 의 영업권에\n대한 접근법과 일관되게, 행렬기준으로 관리하는 기업이 자신의\n영업을 영위하는 방식을 반영하는 보고 수준에서 탐사평가자산의\n손상검사를 할 수 있도록 하기 위하여 이러한 접근법이 필요하다\n고 결론지었다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC46",
+        "heading_context": "탐사평가자산의 손상",
+        "cross_refs": [
+          "문단 80"
+        ],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 4,
+        "total_splits": 5
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC46_s5",
+      "parent_id": "KIFRS1106_bc_탐사평가자산의_손상",
+      "content": "이러한 요구사항은 특수현금창출단위는 ‘ 부문보다\n커서는 안 된다 ’ 는 ED 6 의 요구사항 못지않게 엄격하다 [3)] .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC46",
+        "heading_context": "탐사평가자산의 손상",
+        "cross_refs": [
+          "문단 80"
+        ],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 5,
+        "total_splits": 5
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC47",
+      "parent_id": "KIFRS1106_bc_탐사평가자산의_손상",
+      "content": "결과적으로 IASB 는 제안된 특수현금창출단위를 삭제하기로 결정\n하였다 . 그렇게 하면서 IASB 는 이러한 삭제는 다음과 같은 효익\n이 있을 것이라고 보았다 .\n⑴ 일단 손상이 식별되면, 손상의 측정, 표시 및 공시는 탐사평가\n자산을 인식하는 기업간에 더욱 일관성이 있게 될 것이다 .\n⑵ 탐사평가자산을 최초로 인식하는 기업이 준수하여야 하는 관\n행에 대한 혼란이 없어지게 될 것이다 .\n⑶ 일부 외부검토의견서에서 언급된 위험 즉, 특수현금창출단위가\n‘ 산업표준 ’ 이 될 수 있어, 추출활동회계에 대한 포괄적인 검토\n가 완료될 때 IASB 의 선택을 제한할 수 있다는 위험을 제거할\n수 있다 .\n손상차손 환입",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC47",
+        "heading_context": "탐사평가자산의 손상",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC48",
+      "parent_id": "KIFRS1106_bc_탐사평가자산의_손상",
+      "content": "특정한 요구사항 ( 즉, IAS 36 의 문단 109~123) 을 충족하는 손상차\n손의 환입은 모든 기업의 모든 자산 ( 영업권과 매도가능증권으로\n3) 2006 년에 IAS 14 는 국제재무보고기준 IFRS 8 로 대체되었다 . IFRS 8 에서는 일차적인 부문과 이 차적인\n부문의 식별을 요구하지 않는다 . IAS 36 의 결론도출근거 BC150A 참조 .\n- 37\n분류된 지분투자자산은 제외 ) 에 요구된다 . 이 논제에 대하여 외부\n검토의견을 제시하면서 손상차손을 환입할 수 있다는 데에 동의\n하지 않은 의견제출자들은 IASB 가 왜 탐사평가자산의 경우에 손\n상차손환입을 금지하여야 하는지에 대해 새로운 주장을 제기하지\n않았다 . 결과적으로 IASB 는 탐사평가자산에 대해 손상차손환입의\n규정에서 예외를 제안하는 것은 적절하지 않을 것이라는 결론을\n재확인하였다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC48",
+        "heading_context": "탐사평가자산의 손상",
+        "cross_refs": [
+          "BC150A",
+          "문단 109"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC49",
+      "parent_id": "KIFRS1106_bc_회계정책의_변경",
+      "content": "회계정책의 변경이 결과적으로 신뢰성 있고 좀 더 목적적합한 정\n보를 제공하지 않는다면, IAS 8 은 IFRS 에서 요구하지 않는 회계\n정책 변경을 금지하고 있다 . IASB 는 이 기준서에서 불필요한 변\n경을 회피하려 하였지만, 회계정책의 변경을 정당화하기 위하여\n요구사항을 면제하여야 한다고 생각하지는 않았다 . IASB 는 IFRS\n4 의 결론과 일관되게 탐사평가자산에 대한 회계정책의 변경이\nIAS 8 의 기준에 따라 판단할 때 재무제표의 목적적합성을 더욱\n증가시키면서 신뢰성을 감소시키지 아니하거나, 신뢰성을 더욱 증\n가시키면서 목적적합성을 감소시키지 않는 경우, 그러한 회계정책\n의 변경을 허용하기로 결정하였다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC49",
+        "heading_context": "회계정책의 변경",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC50",
+      "parent_id": "KIFRS1106_bc_공시",
+      "content": "이 기준서의 공시요구사항은 기업이 광물자원의 탐사와 평가에서\n발생하여 재무제표에 인식된 금액을 식별하고 설명하는 정보를\n공시하여야 한다는 원칙에 근거하고 있으며, 이러한 목적을 충족\n하기 위해서 특정한 공시가 보충되어야 한다고 본다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC50",
+        "heading_context": "공시",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC51",
+      "parent_id": "KIFRS1106_bc_공시",
+      "content": "의견제출자들은 기업이 통합의 수준과 공시금액을 결정하는데 융\n통성이 허용되어야 한다는 데 동의하면서도, IASB 가 좀 더 구체\n적이고 표준화된 공시요구사항을 제시하여야 한다고 제안하였다 .\n- 38\n일부 의견제출자들은 광물자원의 탐사와 평가에 대한 회계처리의\n다양성으로 비교가능성이 감소될 수 있다고 우려하였다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC51",
+        "heading_context": "공시",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC52",
+      "parent_id": "KIFRS1106_bc_공시",
+      "content": "IASB 는 ED 6 의 접근법이 상세하고 지시적인 많은 공시 목록을\n요구하는 것보다 우월하다고 결론지었다 . 기본원칙에 중심을 두게\n되면 다음의 효과가 있기 때문이다 .\n⑴ 기업이 요구사항의 합리성을 보다 쉽게 이해하도록 함으로써,\n그러한 공시요구사항을 준수하도록 돕는다 .\n⑵ 각 기업의 환경 속에서 기본적인 목적을 충족하기 위해 필요\n하지 않을 수 있고, 세부적인 많은 정보로 중요한 정보가 모호\n해지는 정보 과다를 유발할 수 있는 특정한 공시 요구를 피한\n다 .\n⑶ 적절히 통합하는 수준을 결정하는데 융통성을 줌으로써 이용\n자가 다른 성격을 갖고 있는 정보를 결합시키지 않으면서 전\n체적인 그림을 볼 수 있도록 한다 .\n⑷ 연차기준이나 누적기준으로 부문별 탐사와 평가 관련 지출을\n보고하는 것을 허용한다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC52",
+        "heading_context": "공시",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC53",
+      "parent_id": "KIFRS1106_bc_공시",
+      "content": "일부 의견제출자들은 IASB 가 IAS 16 문단 73 과 74 또는 IAS 38\n의 문단 118~125 와 유사한 공시를 요구하여야 한다고 제안하였다 .\nIAS 16 과 IAS 38 은 적용범위에서 탐사평가자산을 제외하고 있다 .\n그러므로 이러한 자산을 인식하는 기업은 해당 요구사항이 적용\n가능하지 않다고 주장할 수 있다 . IASB 는 그러한 기준서의 적용\n범위에서 탐사평가자산을 제외하였더라도, 그 기준서에서 요구하\n는 공시는 이용자가 재무제표를 이해하는데 목적적합하고 유용한\n정보를 제공한다고 결정하였다 . 결과적으로 IASB 는 탐사평가자산\n을 분류하는 방법 ( 유형자산 (IAS 16) 이나 무형자산 (IAS 38)) 과 일관\n되게 IAS 16 과 IAS 38 의 공시사항이 요구된다는 것을 이 기준서\n에서 확인하여야 한다고 결론지었다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC53",
+        "heading_context": "공시",
+        "cross_refs": [
+          "문단 118",
+          "문단 73"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC54",
+      "parent_id": "KIFRS1106_bc_공시",
+      "content": "또한, 일부 의견제출자들은 IASB 가 다음을 포함하는 비재무정보\n- 39\n를 공시하도록 요구하여야 한다고 제안하였다 .\n⑴ 상업적 매장량\n⑵ 소모성 자원의 탐사개발 및 생산을 위한 권리\n⑶ 탐사와 평가 후의 단계에 관한 공시\n⑷ 탐사 개시 후 경과연수 및 광물자원 추출의 기술적 실현가능\n성과 상업화가능성을 결정할 수 있을 때까지의 추정 잔여기간\n상업적 매장량",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC54",
+        "heading_context": "공시",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC55",
+      "parent_id": "KIFRS1106_bc_공시",
+      "content": "IASB 는 상업적 매장량에 대한 정보는 추출활동을 하는 기업에게\n아마도 가장 중요한 공시라는 것을 인정하였다 . 그러나 IASB 는\n상업적 매장량은 보통 탐사와 평가 단계를 마친 뒤에 결정된다는\n점에 주목하였고, 그러한 공시는 이 기준서에 언급된 적용범위를\n넘어서는 것이라고 결론지었다 .\n탐사와 평가 후 단계",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC55",
+        "heading_context": "공시",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC56",
+      "parent_id": "KIFRS1106_bc_공시",
+      "content": "상업적 매장량에 대한 공시와 같이, 탐사와 평가 후 단계에 대한\n정보는 재무제표이용자들에게 유용한 정보를 제공할 수 있지만,\nIASB 는 이러한 공시는 이 기준서의 적용범위를 넘어선다고 결론\n지었다 .\n프로젝트 시기",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC56",
+        "heading_context": "공시",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC57",
+      "parent_id": "KIFRS1106_bc_공시",
+      "content": "또한 IASB 는 탐사 개시 후 경과연수 및 개발에 관한 결정을 할\n수 있을 때까지의 추정 잔여기간을 공시하는 것은 규모가 큰 탐\n사활동에만 적용될 것이라고 결론지었다 . 만일 프로젝트가 유의적\n이라면, IAS 1 문단 112⑶ 에서 이미 그에 대한 공시 즉, 재무제표\n를 이해하는 데 필요한 추가적인 정보로써 요구하고 있다는 점에\n주목하였다 .\n- 40",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC57",
+        "heading_context": "공시",
+        "cross_refs": [
+          "문단 112"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC58",
+      "parent_id": "KIFRS1106_bc_시행일",
+      "content": "ED 6 에서 이 기준서가 2005 년 1 월 1 일 이후 개시하는 회계연도부\n터 시행되어야 한다고 제안하였다 . IASB 는 시행일을 2006 년 1 월\n1 일로 변경하기로 결정하였다 . 이러한 결정으로 기업은 이 기준서\n로 전환하기 위한 시간을 더 많이 갖게 되었다 . 또한 2006 년 1 월\n1 일 이전에 IFRS 를 채택하는 것을 원하거나 요구받는 기업에게\nIFRS 6 조기 적용을 허용하기로 결정하였다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC58",
+        "heading_context": "시행일",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC59",
+      "parent_id": "KIFRS1106_bc_경과규정",
+      "content": "IASB 는 ED 6 에서 특별한 경과규정을 제안하지 않았다 . 결과적으\n로 이 기준서로 인한 회계변경은 IAS 8 의 문단 14~17 을 적용하게\n될 것이다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC59",
+        "heading_context": "경과규정",
+        "cross_refs": [
+          "문단 14"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC60",
+      "parent_id": "KIFRS1106_bc_경과규정",
+      "content": "일부 의견제출자들은 이 제안을 과거보고기간에 적용하는 것 특\n히 손상과 일부 지출을 탐사평가자산에 포함하거나 제외하는 것\n에 대해 우려를 표명하였다 . 특히, 의견제출자들은 IASB 가 재작성\n을 요구한다면, 현행 탐사평가자산의 정의에 해당하지 않지만 이\n전에 탐사평가자산으로 인식한 구성요소들을 식별하는 방법에 대\n하여 경과적 지침을 제공하여야 한다고 요구하였다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC60",
+        "heading_context": "경과규정",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC61_s1",
+      "parent_id": "KIFRS1106_bc_경과규정",
+      "content": "IAS 8 은 탐사평가자산을 인식하는 기업들에게 과거 보고기간에\n손상을 나타내는 사실과 상황이 있었는지 결정하기를 요구할 것\n이다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC61",
+        "heading_context": "경과규정",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 1,
+        "total_splits": 6
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC61_s2",
+      "parent_id": "KIFRS1106_bc_경과규정",
+      "content": "IASB 는 이 기준서에서 식별된 사실과 상황은 일반적으로\n객관적인 징후이고 이러한 징후가 특정일에 존재하였는지 여부는\n사실 판단의 문제이기 때문에, 소급적용이 사후적인 조정을 수반\n할 것 같지 않다고 결론지었다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC61",
+        "heading_context": "경과규정",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 2,
+        "total_splits": 6
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC61_s3",
+      "parent_id": "KIFRS1106_bc_경과규정",
+      "content": "그러나 IASB 는 IFRS 4 에서 비교\n기간에 대한 부채의 적정성평가가 실행불가능한 경우 이를 완화\n하는 경과규정을 두고 있다는 점에 주목하였다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC61",
+        "heading_context": "경과규정",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 3,
+        "total_splits": 6
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC61_s4",
+      "parent_id": "KIFRS1106_bc_경과규정",
+      "content": "보통 부채의 적정\n성평가는 보험계약으로부터의 미래현금흐름의 현행 추정치 사용\n- 41\n을 필요로 하기 때문이다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC61",
+        "heading_context": "경과규정",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 4,
+        "total_splits": 6
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC61_s5",
+      "parent_id": "KIFRS1106_bc_경과규정",
+      "content": "IASB 는 손상에 대한 IFRS 6 의 접근법\n이 미래현금흐름의 현행추정치와 기타 변수를 IFRS 4 와 동일한\n정도로 필요로 할 것이라고 예상하지 않는다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC61",
+        "heading_context": "경과규정",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 5,
+        "total_splits": 6
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC61_s6",
+      "parent_id": "KIFRS1106_bc_경과규정",
+      "content": "그러나 IASB 는 회\n수가능성 검토에 대한 다양한 접근법이 있다는 것은 일부 기업이\n미래현금흐름의 현행추정치와 기타 변수들을 사용할 수 있음을\n의미하는 것이라는 점을 인지하고 있다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC61",
+        "heading_context": "경과규정",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 6,
+        "total_splits": 6
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC62",
+      "parent_id": "KIFRS1106_bc_경과규정",
+      "content": "그러므로 IFRS 4 와 일관되게 IASB 는 2006 년 1 월 1 일 전에 개시하\n는 회계연도와 관련된 비교정보에 대해 실무적으로 손상검사를\n할 수 없는 경우, 기업은 그 사실을 공시하여야 한다고 결론지었\n다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC62",
+        "heading_context": "경과규정",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC63",
+      "parent_id": "KIFRS1106_bc_경과규정",
+      "content": "일부 의견제출자들은 기업이 2004 년 비교수치에 필요한 정보를\n수집하기 어렵다는 점을 우려하였고, 이 기준서가 2005 년 1 월 1 일\n에 거의 근접하여 도입되고 그에 따라 상당한 변화를 가져올 수\n있을 것임을 고려할 때, 경과규정을 두어 기업에게 비교정보 재작\n성을 면제하여야 한다고 제시하였다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC63",
+        "heading_context": "경과규정",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC64",
+      "parent_id": "KIFRS1106_bc_경과규정",
+      "content": "IASB 는 공개초안 제 7 호 (ED 7) ‘ 금융상품 (Financial Instruments:\nDisclosures)’ 를 마련할 때 유사한 논의사항을 고려하였는데, IASB\n는 의무적용 시점에 ED 7 에서 제안된 요구사항을 적용하는 기업\n의 경우에만 비교공시를 제공하도록 요구되어야 한다고 결론지었\n다 . 왜냐하면 해당 기업들이 이러한 정보를 준비할 충분한 시간을\n갖게 될 것이기 때문이었다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC64",
+        "heading_context": "경과규정",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC65",
+      "parent_id": "KIFRS1106_bc_경과규정",
+      "content": "ED 7 에서 IASB 는 ⑴ 2006 년 1 월 1 일 전에 최초로 IFRS 를 채택하\n는 기업과 ⑵ 2006 년 1 월 1 일 전에 이 기준서를 적용하는 기업\n모두에게 적용하는 최초 연도의 비교정보 작성 요구사항을 면제\n하여야 한다고 제안하기로 결정하였다 . IASB 는 ED 6 에 대해 제출\n된 의견에서 제기된 우려사항과 ED 7 을 마련하면서 고려된 문제\n- 42\n를 비교하였으며, ED 7 의 결론이 이 기준서에도 적절하다고 결정\n하였다 [4)] .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC65",
+        "heading_context": "경과규정",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC66_s1",
+      "parent_id": "KIFRS1106_bc_에_대한_변경_요약",
+      "content": "ED 6 와 이 기준서의 주요 차이의 요약은 다음과 같다 .\n⑴",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC66",
+        "heading_context": "에 대한 변경 요약",
+        "cross_refs": [
+          "BC36",
+          "BC47",
+          "BC39",
+          "BC58",
+          "BC59",
+          "BC40",
+          "BC34",
+          "BC28",
+          "BC32"
+        ],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 1,
+        "total_splits": 8
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC66_s2",
+      "parent_id": "KIFRS1106_bc_에_대한_변경_요약",
+      "content": "관리원가 및 기타 일반간접원가를 탐사평가자산의 최초측정에\n포함하는 것을 금지하는 특정규정을 삭제하였다 ( 문단 BC28).\n⑵",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC66",
+        "heading_context": "에 대한 변경 요약",
+        "cross_refs": [
+          "BC36",
+          "BC47",
+          "BC39",
+          "BC58",
+          "BC59",
+          "BC40",
+          "BC34",
+          "BC28",
+          "BC32"
+        ],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 2,
+        "total_splits": 8
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC66_s3",
+      "parent_id": "KIFRS1106_bc_에_대한_변경_요약",
+      "content": "취득한 탐사평가자산을 그 자산의 특성에 따라 유형자산 또는\n무형자산으로 분류하도록 하고 그러한 분류를 일관되게 적용\n하도록 요구사항을 도입하였다 ( 문단 BC32~BC34).\n⑶",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC66",
+        "heading_context": "에 대한 변경 요약",
+        "cross_refs": [
+          "BC36",
+          "BC47",
+          "BC39",
+          "BC58",
+          "BC59",
+          "BC40",
+          "BC34",
+          "BC28",
+          "BC32"
+        ],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 3,
+        "total_splits": 8
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC66_s4",
+      "parent_id": "KIFRS1106_bc_에_대한_변경_요약",
+      "content": "손상을 검토하는 수준에 대한 변경을 조건으로 하여 손상은\n사실과 상황의 검토에 근거하여 인식하고, IAS 36 에 따라 측\n정, 표시 및 공시하기 위하여 손상원칙을 개정하였다 ( 문단 BC\n36~BC 39).\n⑷",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC66",
+        "heading_context": "에 대한 변경 요약",
+        "cross_refs": [
+          "BC36",
+          "BC47",
+          "BC39",
+          "BC58",
+          "BC59",
+          "BC40",
+          "BC34",
+          "BC28",
+          "BC32"
+        ],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 4,
+        "total_splits": 8
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC66_s5",
+      "parent_id": "KIFRS1106_bc_에_대한_변경_요약",
+      "content": "ED 6 에서 제안된 손상의 징후를 삭제하고 탐사평가자산이 손\n상되었다는 것을 시사하는 사실과 상황의 예시로 대체하였다\n( 문단 BC36~BC39).",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC66",
+        "heading_context": "에 대한 변경 요약",
+        "cross_refs": [
+          "BC36",
+          "BC47",
+          "BC39",
+          "BC58",
+          "BC59",
+          "BC40",
+          "BC34",
+          "BC28",
+          "BC32"
+        ],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 5,
+        "total_splits": 8
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC66_s6",
+      "parent_id": "KIFRS1106_bc_에_대한_변경_요약",
+      "content": "⑸ 탐사평가자산에 대한 특수현금창출단위를 삭제하고, 그 대신\n기업에게 손상검사의 목적을 위하여 탐사평가자산을 현금창출\n단위나 현금창출단위들에 배분하는 회계정책을 결정하도록 요\n구하였다 ( 문단 BC40~BC47).",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC66",
+        "heading_context": "에 대한 변경 요약",
+        "cross_refs": [
+          "BC36",
+          "BC47",
+          "BC39",
+          "BC58",
+          "BC59",
+          "BC40",
+          "BC34",
+          "BC28",
+          "BC32"
+        ],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 6,
+        "total_splits": 8
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC66_s7",
+      "parent_id": "KIFRS1106_bc_에_대한_변경_요약",
+      "content": "⑹ 이 기준서를 2006 년 1 월 1 일 이후에 개시하는 회계연도부터\n시행하기 위하여 시행일을 개정하였다 ( 문단 BC58).",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC66",
+        "heading_context": "에 대한 변경 요약",
+        "cross_refs": [
+          "BC36",
+          "BC47",
+          "BC39",
+          "BC58",
+          "BC59",
+          "BC40",
+          "BC34",
+          "BC28",
+          "BC32"
+        ],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 7,
+        "total_splits": 8
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC66_s8",
+      "parent_id": "KIFRS1106_bc_에_대한_변경_요약",
+      "content": "⑺ 2006 년 1 월 1 일 전에 IFRS 를 최초채택하며 이 기준서를 적용\n하는 기업에게 경과적인 완화를 제공하였다 ( 문단 BC59~65).",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC66",
+        "heading_context": "에 대한 변경 요약",
+        "cross_refs": [
+          "BC36",
+          "BC47",
+          "BC39",
+          "BC58",
+          "BC59",
+          "BC40",
+          "BC34",
+          "BC28",
+          "BC32"
+        ],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 8,
+        "total_splits": 8
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC67_s1",
+      "parent_id": "KIFRS1106_bc_개념체계에_대한_참조의_개정",
+      "content": "IASB 는 전면개정된 ’ 개념체계 ‘(2018) 의 공표에 따라 ’IFRS 에서 개\n4) 문단 BC65A 는 더 이상 적절하지 않아 2008 년 11 월 IFRS 1 의 개정으로 삭제되었다 .\n- 43\n념체계의 참조에 대한 개정 ‘ 을 공표하였다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC67",
+        "heading_context": "개념체계에 대한 참조의 개정",
+        "cross_refs": [
+          "BC65A"
+        ],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 1,
+        "total_splits": 6
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC67_s2",
+      "parent_id": "KIFRS1106_bc_개념체계에_대한_참조의_개정",
+      "content": "이에 따라, IFRS 6 문\n단 10 의 참조를 ’ 개념체계 ‘(2018) 에 대한 참조로 대체하였다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC67",
+        "heading_context": "개념체계에 대한 참조의 개정",
+        "cross_refs": [
+          "BC65A"
+        ],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 2,
+        "total_splits": 6
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC67_s3",
+      "parent_id": "KIFRS1106_bc_개념체계에_대한_참조의_개정",
+      "content": "IASB\n는 이 대체가 IFRS 6 의 적용에 유의한 영향을 미치지 않을 것으\n로 기대하는데, 그 이유는 다음과 같다 .\n⑴",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC67",
+        "heading_context": "개념체계에 대한 참조의 개정",
+        "cross_refs": [
+          "BC65A"
+        ],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 3,
+        "total_splits": 6
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC67_s4",
+      "parent_id": "KIFRS1106_bc_개념체계에_대한_참조의_개정",
+      "content": "IASB 는 광물자원의 개발로 생기는 자산의 인식을 위한 회계정\n책을 개발할 때 ’ 개념체계 ‘(2001) 를 적용했던 기업들이 개정된\n자산의 정의 및 인식 기준을 적용하더라도 실무적으로는 유의\n한 변화가 없을 것으로 기대한다 .",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC67",
+        "heading_context": "개념체계에 대한 참조의 개정",
+        "cross_refs": [
+          "BC65A"
+        ],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 4,
+        "total_splits": 6
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC67_s5",
+      "parent_id": "KIFRS1106_bc_개념체계에_대한_참조의_개정",
+      "content": "비록 ’ 개념체계 ‘(2018) 에서\n발생가능성 및 신뢰성 인식 기준을 유용한 재무정보의 질적\n특성에 기반한 인식 기준으로 대체하였으나, 인식 기준 충족\n여부를 결정할 때 고려할 요소로서 여전히 경제적 효익의 낮\n은 유출입 가능성 및 측정불확실성을 특정하고 있다 .\n⑵",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC67",
+        "heading_context": "개념체계에 대한 참조의 개정",
+        "cross_refs": [
+          "BC65A"
+        ],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 5,
+        "total_splits": 6
+      }
+    },
+    {
+      "chunk_id": "KIFRS1106_bc_BC67_s6",
+      "parent_id": "KIFRS1106_bc_개념체계에_대한_참조의_개정",
+      "content": "광물자원의 개발로 생기는 자산의 인식을 위한 회계정책을 개\n발할 때 IAS 38 을 적용하는 기업들은 IFRS 6 에 있는 개념체계\n에 대한 참조가 개정되어도 영향을 받지 않을 것이다 .\n- 44",
+      "metadata": {
+        "standard_id": "KIFRS1106",
+        "standard_name": "광물자원의 탐사와 평가",
+        "section_type": "bc",
+        "para_number": "BC67",
+        "heading_context": "개념체계에 대한 참조의 개정",
+        "cross_refs": [
+          "BC65A"
+        ],
+        "has_table": false,
+        "has_example": false,
+        "is_sentence_split": true,
+        "split_index": 6,
+        "total_splits": 6
+      }
+    }
+  ]
+}
