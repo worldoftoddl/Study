@@ -48,7 +48,11 @@ def get_parent_heading(client: QdrantClient, parent_id: str) -> str:
 
 def main():
     print(f"[Model] Upstage {MODEL_NAME} 초기화 중...")
-    embeddings = UpstageEmbeddings(model=MODEL_NAME)
+    import os
+    embeddings = UpstageEmbeddings(
+        model=MODEL_NAME,
+        upstage_api_key=os.getenv("UPSTAGE_API_KEY"),
+    )
     client = QdrantClient(path=QDRANT_PATH)
 
     child_count = client.count(CHILD_COLLECTION).count

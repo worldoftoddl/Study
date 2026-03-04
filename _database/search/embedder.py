@@ -29,6 +29,7 @@ PARENT_COLLECTION = "kifrs_parents"
 VECTOR_SIZE = 4096
 BATCH_SIZE = 8  # API rate limit 고려
 MODEL_NAME = "solar-embedding-1-large"
+MAX_CHARS = 4000  # solar-embedding-1-large 최대 4000 토큰, 한글+테이블 고려 보수적 설정
 
 
 def chunk_id_to_int(chunk_id: str) -> int:
@@ -104,7 +105,10 @@ def upsert_parents(client: QdrantClient, parents: list):
 
 def embed_and_upsert_children(client: QdrantClient, embeddings: UpstageEmbeddings, children: list):
     """Child 청크를 임베딩하고 Qdrant에 적재"""
-    contents = [c["content"] for c in children]
+    contents = [c["content"][:MAX_CHARS] for c in children]
+    truncated = sum(1 for c in children if len(c["content"]) > MAX_CHARS)
+    if truncated:
+        print(f"[WARN] {truncated}개 청크가 {MAX_CHARS}자로 잘림")
 
     # 배치 임베딩
     print(f"[Embedding] {len(contents)}개 child 청크 임베딩 중...")
@@ -155,7 +159,10 @@ def main():
 
     # 2. Upstage Embeddings 초기화
     print(f"[Model] Upstage {MODEL_NAME} 초기화 중...")
-    embeddings = UpstageEmbeddings(model=MODEL_NAME)
+    embeddings = UpstageEmbeddings(
+        model=MODEL_NAME,
+        upstage_api_key=os.getenv("UPSTAGE_API_KEY"),
+    )
     print(f"[Model] 초기화 완료 (vector dim: {VECTOR_SIZE})")
 
     # 3. Qdrant 초기화
