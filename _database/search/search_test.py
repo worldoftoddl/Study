@@ -3,13 +3,16 @@ Qdrant 적재 후 검색 테스트
 - Child 검색 → Parent 조회 흐름 검증
 """
 
-from sentence_transformers import SentenceTransformer
+from dotenv import load_dotenv
+from langchain_upstage import UpstageEmbeddings
 from qdrant_client import QdrantClient
+
+load_dotenv()
 
 QDRANT_PATH = "./qdrant_storage"
 CHILD_COLLECTION = "kifrs_chunks"
 PARENT_COLLECTION = "kifrs_parents"
-MODEL_NAME = "nlpai-lab/KURE-v1"
+MODEL_NAME = "solar-embedding-1-large"
 TOP_K = 5
 
 QUERIES = [
@@ -44,8 +47,8 @@ def get_parent_heading(client: QdrantClient, parent_id: str) -> str:
 
 
 def main():
-    print(f"[Model] {MODEL_NAME} 로딩 중...")
-    model = SentenceTransformer(MODEL_NAME)
+    print(f"[Model] Upstage {MODEL_NAME} 초기화 중...")
+    embeddings = UpstageEmbeddings(model=MODEL_NAME)
     client = QdrantClient(path=QDRANT_PATH)
 
     child_count = client.count(CHILD_COLLECTION).count
@@ -57,7 +60,7 @@ def main():
         print(f"쿼리: {q}")
         print(f"{'='*60}")
 
-        q_vec = model.encode(q, normalize_embeddings=True).tolist()
+        q_vec = embeddings.embed_query(q)
         results = client.query_points(
             collection_name=CHILD_COLLECTION,
             query=q_vec,

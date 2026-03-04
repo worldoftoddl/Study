@@ -1,14 +1,15 @@
-K-IFRS JSON 청크 파일을 KURE-v1으로 임베딩해서 Qdrant 로컬 파일 모드에 적재해줘.
+K-IFRS JSON 청크 파일을 Upstage Solar Embedding으로 임베딩해서 Qdrant 로컬 파일 모드에 적재해줘.
 
 ## 환경
-- 임베딩 모델: nlpai-lab/KURE-v1 (sentence-transformers)
+- 임베딩 모델: Upstage solar-embedding-1-large (langchain_upstage)
+- API 키: .env 파일의 UPSTAGE_API_KEY 사용
 - 벡터 DB: Qdrant 로컬 파일 모드 (qdrant-client 설치 완료)
 - 입력: output/chunks/ 폴더 내 JSON 파일들
 
 ## Qdrant 설정
 - 저장 경로: ./qdrant_storage
 - 컬렉션명: kifrs_chunks
-- vector_size: 1024
+- vector_size: 4096
 - distance: COSINE
 
 ## 적재 대상
@@ -36,8 +37,8 @@ Parent는 별도 컬렉션 kifrs_parents 에 payload only로 저장
 - search_test.py: 적재 완료 후 검색 테스트용
 
 ## 주의사항
-- 모델 최초 로딩 시 HuggingFace에서 다운로드 발생 (수GB)
-- 배치 임베딩 사용할 것 (batch_size=32) — 메모리 효율
+- API 호출이므로 batch_size=8로 설정 (rate limit 고려)
+- 배치 간 time.sleep(0.1)으로 rate limit 방지
 - 진행상황 tqdm으로 표시
 - 적재 완료 후 총 포인트 수 출력해서 확인
 

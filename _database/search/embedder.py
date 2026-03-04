@@ -1,6 +1,6 @@
 """
 K-IFRS 청크 임베딩 + Qdrant 적재 스크립트
-- 모델: nlpai-lab/KURE-v1 (sentence-transformers)
+- 모델: Upstage Solar Embedding (solar-embedding-1-large, 4096차원)
 - 벡터 DB: Qdrant 로컬 파일 모드
 """
 
@@ -8,23 +8,27 @@ import json
 import hashlib
 import glob
 import os
+import time
 from pathlib import Path
 
-from sentence_transformers import SentenceTransformer
+from dotenv import load_dotenv
+from langchain_upstage import UpstageEmbeddings
 from qdrant_client import QdrantClient
 from qdrant_client.models import (
     VectorParams, Distance, PointStruct, PayloadSchemaType
 )
 from tqdm import tqdm
 
+load_dotenv()
+
 # ── 설정 ──────────────────────────────────────────────
 CHUNKS_DIR = "output/chunks"
 QDRANT_PATH = "./qdrant_storage"
 CHILD_COLLECTION = "kifrs_chunks"
 PARENT_COLLECTION = "kifrs_parents"
-VECTOR_SIZE = 1024
-BATCH_SIZE = 32
-MODEL_NAME = "nlpai-lab/KURE-v1"
+VECTOR_SIZE = 4096
+BATCH_SIZE = 8  # API rate limit 고려
+MODEL_NAME = "solar-embedding-1-large"
 
 
 def chunk_id_to_int(chunk_id: str) -> int:
@@ -98,7 +102,7 @@ def upsert_parents(client: QdrantClient, parents: list):
     print(f"[Parents] {len(points)}개 적재 완료")
 
 
-def embed_and_upsert_children(client: QdrantClient, model: SentenceTransformer, children: list):
+def embed_and_upsert_children(client: QdrantClient, embeddings: UpstageEmbeddings, children: list):
     """Child 청크를 임베딩하고 Qdrant에 적재"""
     contents = [c["content"] for c in children]
 
@@ -107,8 +111,9 @@ def embed_and_upsert_children(client: QdrantClient, model: SentenceTransformer, 
     all_vectors = []
     for i in tqdm(range(0, len(contents), BATCH_SIZE), desc="Embedding"):
         batch_texts = contents[i : i + BATCH_SIZE]
-        vecs = model.encode(batch_texts, show_progress_bar=False, normalize_embeddings=True)
-        all_vectors.extend(vecs.tolist())
+        vecs = embeddings.embed_documents(batch_texts)
+        all_vectors.extend(vecs)
+        time.sleep(0.1)  # API rate limit 방지
 
     # Qdrant 포인트 구성
     points = []
@@ -148,10 +153,10 @@ def main():
         print("적재할 child 청크가 없습니다. 종료합니다.")
         return
 
-    # 2. 모델 로딩
-    print(f"[Model] {MODEL_NAME} 로딩 중...")
-    model = SentenceTransformer(MODEL_NAME, model_kwargs={"torch_dtype": "float16"})
-    print(f"[Model] 로딩 완료 (vector dim: {model.get_sentence_embedding_dimension()})")
+    # 2. Upstage Embeddings 초기화
+    print(f"[Model] Upstage {MODEL_NAME} 초기화 중...")
+    embeddings = UpstageEmbeddings(model=MODEL_NAME)
+    print(f"[Model] 초기화 완료 (vector dim: {VECTOR_SIZE})")
 
     # 3. Qdrant 초기화
     client = QdrantClient(path=QDRANT_PATH)
@@ -161,7 +166,7 @@ def main():
     upsert_parents(client, parents)
 
     # 5. Child 임베딩 + 적재
-    embed_and_upsert_children(client, model, children)
+    embed_and_upsert_children(client, embeddings, children)
 
     # 6. 결과 확인
     child_count = client.count(CHILD_COLLECTION).count
