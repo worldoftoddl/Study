@@ -1,7 +1,7 @@
 K-IFRS 기준서 PDF를 파싱해서 Parent-Child 청크 구조의 JSON으로 변환하는 파이프라인을 구현해줘.
 
 ## 목표
-`IFRS + 개념체계/` 안의 PDF 파일들을 읽어서 `output/chunks/{파일명}.json`으로 저장
+`data/raw/IFRS/` 안의 PDF 파일들을 읽어서 `output/chunks/{파일명}.json`으로 저장
 
 ## 기술 스택
 - pymupdf4llm 0.3.4 (PDF → Markdown 변환)

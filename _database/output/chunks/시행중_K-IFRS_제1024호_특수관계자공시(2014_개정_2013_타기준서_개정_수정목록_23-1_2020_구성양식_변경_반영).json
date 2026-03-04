@@ -1,0 +1,2305 @@
+{
+  "standard_id": "K-IFRS 1024",
+  "processed_at": "2026-03-04T10:57:13.709068+00:00",
+  "parents": [
+    {
+      "chunk_id": "KIFRS1024_main_h_root",
+      "heading_text": "root",
+      "section_type": "main",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "main"
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_main_h_기업회계기준서_제_호",
+      "heading_text": "기업회계기준서 제 호",
+      "section_type": "main",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "main"
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_main_h_특수관계자_공시",
+      "heading_text": "특수관계자 공시",
+      "section_type": "main",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "main"
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_main_h_한국회계기준원_회계기준위원회_의결_2014328",
+      "heading_text": "한국회계기준원 회계기준위원회 의결 2014.3.28.",
+      "section_type": "main",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "main"
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_main_h_본_문",
+      "heading_text": "본 문",
+      "section_type": "main",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "main"
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_main_h_기업회계기준서_제_호_특수관계자_공시",
+      "heading_text": "기업회계기준서 제 호 특수관계자 공시",
+      "section_type": "main",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "main"
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_main_h_목적",
+      "heading_text": "목적",
+      "section_type": "main",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "main"
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_main_h_적용",
+      "heading_text": "적용",
+      "section_type": "main",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "main"
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_main_h_적용범위",
+      "heading_text": "적용범위",
+      "section_type": "main",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "main"
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_main_h_특수관계자_공시의_목적",
+      "heading_text": "특수관계자 공시의 목적",
+      "section_type": "main",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "main"
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_main_h_용어의_정의",
+      "heading_text": "용어의 정의",
+      "section_type": "main",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "main"
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_main_h_공시",
+      "heading_text": "공시",
+      "section_type": "main",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "main"
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_main_h_시행일",
+      "heading_text": "시행일",
+      "section_type": "main",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "main"
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_main_h_기준서_등의_대체",
+      "heading_text": "기준서 등의 대체",
+      "section_type": "main",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "main"
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_main_h_기업회계기준서_제_호의_제_개정_등에_대한_회계기준위원회의_의결",
+      "heading_text": "기업회계기준서 제 호의 제 개정 등에 대한 회계기준위원회의 의결",
+      "section_type": "main",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "main"
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_ag_h_적용사례_실무적용지침",
+      "heading_text": "적용사례 실무적용지침",
+      "section_type": "ag",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "ag"
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_ie_h_적용사례",
+      "heading_text": "적용사례",
+      "section_type": "ie",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "ie"
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_ie_h_정부특수관계기업을_위한_일부_면제규정",
+      "heading_text": "정부특수관계기업을 위한 일부 면제규정",
+      "section_type": "ie",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "ie"
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_ie_h_문단비교표",
+      "heading_text": "문단비교표",
+      "section_type": "ie",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "ie"
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_bc_h_결론도출근거",
+      "heading_text": "결론도출근거",
+      "section_type": "bc",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "bc"
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_bc_h_결론도출근거_2",
+      "heading_text": "결론도출근거",
+      "section_type": "bc",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "bc"
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_bc_h_도입",
+      "heading_text": "도입",
+      "section_type": "bc",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "bc"
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_bc_h_경영진_보상",
+      "heading_text": "경영진 보상",
+      "section_type": "bc",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "bc"
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_bc_h_별도재무제표에서의_특수관계자_공시",
+      "heading_text": "별도재무제표에서의 특수관계자 공시",
+      "section_type": "bc",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "bc"
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_bc_h_특수관계자의_정의",
+      "heading_text": "특수관계자의 정의",
+      "section_type": "bc",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "bc"
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_bc_h_정부특수관계기업",
+      "heading_text": "정부특수관계기업",
+      "section_type": "bc",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "bc"
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_bc_h_주요경영진",
+      "heading_text": "주요경영진",
+      "section_type": "bc",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "bc"
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_bc_h_에_대한_소수의견",
+      "heading_text": "에 대한 소수의견",
+      "section_type": "bc",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "bc"
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_bc_h_기타_참고사항",
+      "heading_text": "기타 참고사항",
+      "section_type": "bc",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "bc"
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_bc_h_국제회계기준과의_관계",
+      "heading_text": "국제회계기준과의 관계",
+      "section_type": "bc",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "bc"
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_bc_h_이_기준서의_주요_특징",
+      "heading_text": "이 기준서의 주요 특징",
+      "section_type": "bc",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "bc"
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_bc_h_제_개정_경과",
+      "heading_text": "제 개정 경과",
+      "section_type": "bc",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "bc"
+      }
+    }
+  ],
+  "children": [
+    {
+      "chunk_id": "KIFRS1024_main_unk_1",
+      "parent_id": "KIFRS1024_main_h_본_문",
+      "content": "- 4\n\n적용사례 실무적용지침 결론도출근거 기타 참고사항은 기업회계기준서 제\n\n호를 구성하지는 않으나 기준서를 적용하는 데 편의를 제공하기 위해 제시\n\n된다\n\n                  - 5\n\n기업회계기준서 제 1024 호 ‘ 특수관계자 공시 ’ 는 문단 1~29 로 구성되어 있다 .\n\n모든 문단에는 동등한 권위가 부여되어 있다 . 이 기준서는 이 기준서의 목적,\n\n결론도출근거, 기업회계기준 ‘ 전문 ’ 및 ‘ 재무보고를 위한 개념체계 ’ 를 배경으\n\n로 이해하여야 한다 . 회계정책의 선택 및 적용에 대하여 명시적으로 규정하지\n\n않은 경우에는 기업회계기준서 제 1008 호 ‘ 회계정책, 회계추정치 변경과 오류 ’\n\n에 따른다 .\n\n                 - 6",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "main",
+        "para_number": null,
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_main_1",
+      "parent_id": "KIFRS1024_main_h_목적",
+      "content": "1 이 기준서의 목적은 특수관계자의 존재, 특수관계자와의 거래 및\n\n약정을 포함한 채권 ･ 채무 잔액이 기업의 재무상태와 당기순손익\n\n에 영향을 미쳤을 가능성에 주의를 기울이도록 필요한 공시사항\n\n을 재무제표에 포함하게 하는 데 있다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "main",
+        "para_number": "1",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_main_한2.1",
+      "parent_id": "KIFRS1024_main_h_적용",
+      "content": "한 2.1 이 기준서는 ‘ 주식회사 등의 외부감사에 관한 법률 ’ 에서 정하는\n\n한국채택국제회계기준 의무적용대상 주식회사의 회계처리에 적용\n\n한다 . 또한 이 기준서는 재무제표의 작성과 표시를 위해 한국채택\n\n국제회계기준의 적용을 선택하거나 다른 법령 등에서 적용을 요\n\n구하는 기업의 회계처리에도 적용한다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "main",
+        "para_number": "한2.1",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_main_unk_2",
+      "parent_id": "KIFRS1024_main_h_적용범위",
+      "content": "이 기준서는 다음의 경우에 적용한다\n\n특수관계와 특수관계자거래의 식별\n\n특수관계자와의 약정을 포함한 채권 채무 잔액의 식별\n\n위 과 의 항목과 관련하여 공시가 요구되는 상황의 식별\n\n위 과 의 항목에 대하여 필요한 공시사항의 결정\n\n호 별도재무제표 에 따라 작성된 지배기업 또는 피투자자에\n\n대한 공동 지배력이나 유의적인 영향력이 있는 투자자의 연결재\n\n무제표와 별도재무제표에 특수관계 특수관계자와의 거래 및 약정\n\n                  - 7\n\n을 포함한 채권 채무 잔액을 공시하도록 규정한다 이 기준서는\n\n개별재무제표에도 적용한다\n\n연결실체 내 다른 기업들과의 특수관계자거래와 채권 채무 잔액\n\n은 기업의 재무제표에 공시한다 투자기업과 공정가치로 측정하\n\n여 당기손익에 반영하는 그 종속기업 간을 제외하고 연결실체 내\n\n기업 간 특수관계자거래와 채권 채무 잔액은 그 연결실체의 연\n\n결재무제표를 작성할 때 제거된다",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "main",
+        "para_number": null,
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_main_5",
+      "parent_id": "KIFRS1024_main_h_특수관계자_공시의_목적",
+      "content": "5 특수관계는 상거래에서 흔히 나타난다 . 예를 들어, 기업은 영업활\n\n동의 일부를 종속기업, 공동기업 및 관계기업을 통하여 수행하기\n\n도 한다 . 이 경우 기업은 지배력, 공동지배력 또는 유의적인 영향\n\n력을 통하여 피투자자의 재무정책과 영업정책에 영향을 미친다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "main",
+        "para_number": "5",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_main_6",
+      "parent_id": "KIFRS1024_main_h_특수관계자_공시의_목적",
+      "content": "6 특수관계는 기업의 당기순손익과 재무상태에 영향을 미칠 수 있\n\n다 . 특수관계자는 특수관계가 아니라면 이루어지지 않을 거래를\n\n성사시킬 수 있다 . 예를 들어, 기업이 지배기업에 원가로 판매하\n\n는 재화를 다른 고객에게는 동일한 조건으로 판매하지 않을 수\n\n있다 . 또한 특수관계자거래의 거래 금액은 특수관계에 있지 않은\n\n자와의 거래의 거래 금액과는 다르게 이루어질 수 있다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "main",
+        "para_number": "6",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_main_7",
+      "parent_id": "KIFRS1024_main_h_특수관계자_공시의_목적",
+      "content": "7 특수관계자거래가 없더라도 특수관계 자체가 기업의 당기순손익\n\n과 재무상태에 영향을 줄 수 있다 . 특수관계가 존재한다는 사실만\n\n으로도 기업과 다른 당사자와의 거래에 충분히 영향을 줄 수 있\n\n다 . 예를 들어, 지배기업이 종속기업의 거래처와 동일한 활동을\n\n하는 기업을 인수하여 그 기업의 지배기업이 되는 경우에 종속기\n\n업은 이전 거래처와 거래를 중단할 수 있다 . 또 다른 경우 기업은\n\n특수관계자의 유의적인 영향력 때문에 활동에 제약을 받을 수 있\n\n다 . 예를 들어, 지배기업은 종속기업이 연구개발 활동을 하지 않\n\n                  - 8\n\n도록 지시할 수 있다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "main",
+        "para_number": "7",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_main_8",
+      "parent_id": "KIFRS1024_main_h_특수관계자_공시의_목적",
+      "content": "8 이러한 이유로 특수관계자와의 거래, 약정을 포함한 채권 ․ 채무\n\n잔액 및 특수관계에 대한 이해는 재무제표이용자가 기업이 직면\n\n하고 있는 위험과 기회에 대한 평가를 포함하여 기업의 영업을\n\n평가하는 데 영향을 줄 수 있다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "main",
+        "para_number": "8",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_main_unk_3",
+      "parent_id": "KIFRS1024_main_h_용어의_정의",
+      "content": "이 기준서에서 사용하는 용어의 정의는 다음과 같다\n\n특수관계자 재무제표를 작성하는 기업 이 기준서에서는 보고기\n\n업 이라 한다 과 특수관계에 있는 개인이나 기업\n\n개인이 다음 중 어느 하나에 해당하는 경우 그 개인이나 그\n\n개인의 가까운 가족은 보고기업과 특수관계에 있다\n\n보고기업에 지배력 또는 공동지배력이 있는 경우\n\n보고기업에 유의적인 영향력이 있는 경우\n\n보고기업 또는 그 지배기업의 주요 경영진의 일원인 경우\n\n기업이 다음의 조건 중 어느 하나에 적용될 경우 보고기업과\n\n특수관계에 있다\n\n기업과 보고기업이 동일한 연결실체 내의 일원인 경우 지\n\n배기업과 종속기업 및 연결실체 내의 다른 종속기업은 서\n\n로 특수관계에 있음을 의미\n\n한 기업이 다른 기업의 관계기업이거나 공동기업인 경우\n\n또는 그 다른 기업이 속한 연결실체 내의 일원의 관계기\n\n업이거나 공동기업인 경우\n\n두 기업이 동일한 제 자의 공동기업인 경우\n\n제 의 기업에 대해 한 기업이 공동기업이고 다른 기업이\n\n관계기업인 경우\n\n기업이 보고기업이나 그 보고기업과 특수관계에 있는 기업\n\n의 종업원급여를 위한 퇴직급여제도인 경우 보고기업 자\n\n                  - 9\n\n신이 퇴직급여제도인 경우 그 제도의 책임사용자도 보고\n\n기업과 특수관계에 있다\n\n기업이 에서 식별된 개인에 의하여 지배 또는 공동지배\n\n되는 경우\n\n의 에서 식별된 개인이 기업에 유의적인 영향력이 있\n\n거나 그 기업 또는 그 기업의 지배기업 의 주요 경영진의\n\n일원인 경우\n\n보고기업이나 보고기업의 지배기업에게 주요 경영인력용역\n\n을 제공하는 기업이나 그 기업이 속한 연결실체의 모든 일\n\n원\n\n특수관계자거래 대가의 부담 여부에 관계없이 보고기업과 특수관\n\n계자 사이의 자원 용역 또는 의무의 이전\n\n개인의 가까운 가족 당해 기업과의 거래 관계에서 당해 개인의\n\n영향을 받거나 당해 개인에게 영향력을 행사할 것으로 예상되는\n\n가족으로서 다음의 경우를 포함한다\n\n자녀 및 배우자 사실상 배우자 포함 이하 같다\n\n배우자의 자녀\n\n당해 개인이나 배우자의 피부양자\n\n종업원급여 의 정의 참조 종업원급여는 종업원이 당해 기업에\n\n제공한 근무용역에 대한 대가로 당해 기업이 또는 당해 기업을\n\n대신하여 지급하였거나 지급해야 하거나 혹은 제공하는 모든 종\n\n류의 대가를 말한다 종업원급여에는 당해 기업과 관련하여 당해\n\n기업의 지배기업을 대신하여 지급하는 대가도 포함한다 보상은\n\n다음을 포함한다\n\n            - 10\n\n휴가 유급병가 이익분배금 상여금 회계기간의 말부터 개\n\n급여 예 의료 주택 자동차 무상 또는 일부 보조로 제공되는\n\n재화나 용역 등\n\n퇴직급여 퇴직연금 그 밖의 퇴직급여 퇴직후생명보험 퇴직\n\n후의료급여 등\n\n기타장기종업원급여 장기근속휴가 안식년휴가 그 밖의 장기\n\n근속급여 장기장애급여 회계기간의 말부터 개월 이내에 전\n\n부나 일부가 지급되지 않는 이익분배금 상여금 및 이연보상\n\n등\n\n해고급여\n\n주식기준보상\n\n주요 경영진 직 간접적으로 당해 기업 활동의 계획 지휘 통제에\n\n대한 권한과 책임을 가진 자로서 모든 이사 업무집행이사 여부를\n\n불문함 를 포함함\n\n정부 지방자치단체 중앙정부 또는 국제기구인 정부 정부기관 및\n\n이와 유사한 단체\n\n정부특수관계기업 정부에 의해 지배 또는 공동지배되거나 유의적\n\n인 영향을 받는 기업\n\n지배력 투자기업 공동지배 와 유의적인 영향력 의 용어는 각\n\n당 기준서에서 명시한 의미를 이 기준서에서 사용한다",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "main",
+        "para_number": null,
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "sentences": [
+          "이 기준서에서 사용하는 용어의 정의는 다음과 같다",
+          "특수관계자 재무제표를 작성하는 기업 이 기준서에서는 보고기",
+          "업 이라 한다 과 특수관계에 있는 개인이나 기업",
+          "개인이 다음 중 어느 하나에 해당하는 경우 그 개인이나 그",
+          "개인의 가까운 가족은 보고기업과 특수관계에 있다",
+          "보고기업에 지배력 또는 공동지배력이 있는 경우",
+          "보고기업에 유의적인 영향력이 있는 경우",
+          "보고기업 또는 그 지배기업의 주요 경영진의 일원인 경우",
+          "기업이 다음의 조건 중 어느 하나에 적용될 경우 보고기업과",
+          "특수관계에 있다",
+          "기업과 보고기업이 동일한 연결실체 내의 일원인 경우 지",
+          "배기업과 종속기업 및 연결실체 내의 다른 종속기업은 서",
+          "로 특수관계에 있음을 의미",
+          "한 기업이 다른 기업의 관계기업이거나 공동기업인 경우",
+          "또는 그 다른 기업이 속한 연결실체 내의 일원의 관계기",
+          "업이거나 공동기업인 경우",
+          "두 기업이 동일한 제 자의 공동기업인 경우",
+          "제 의 기업에 대해 한 기업이 공동기업이고 다른 기업이",
+          "관계기업인 경우",
+          "기업이 보고기업이나 그 보고기업과 특수관계에 있는 기업",
+          "의 종업원급여를 위한 퇴직급여제도인 경우 보고기업 자",
+          "- 9",
+          "신이 퇴직급여제도인 경우 그 제도의 책임사용자도 보고",
+          "기업과 특수관계에 있다",
+          "기업이 에서 식별된 개인에 의하여 지배 또는 공동지배",
+          "되는 경우",
+          "의 에서 식별된 개인이 기업에 유의적인 영향력이 있",
+          "거나 그 기업 또는 그 기업의 지배기업 의 주요 경영진의",
+          "일원인 경우",
+          "보고기업이나 보고기업의 지배기업에게 주요 경영인력용역",
+          "을 제공하는 기업이나 그 기업이 속한 연결실체의 모든 일",
+          "원",
+          "특수관계자거래 대가의 부담 여부에 관계없이 보고기업과 특수관",
+          "계자 사이의 자원 용역 또는 의무의 이전",
+          "개인의 가까운 가족 당해 기업과의 거래 관계에서 당해 개인의",
+          "영향을 받거나 당해 개인에게 영향력을 행사할 것으로 예상되는",
+          "가족으로서 다음의 경우를 포함한다",
+          "자녀 및 배우자 사실상 배우자 포함 이하 같다",
+          "배우자의 자녀",
+          "당해 개인이나 배우자의 피부양자",
+          "종업원급여 의 정의 참조 종업원급여는 종업원이 당해 기업에",
+          "제공한 근무용역에 대한 대가로 당해 기업이 또는 당해 기업을",
+          "대신하여 지급하였거나 지급해야 하거나 혹은 제공하는 모든 종",
+          "류의 대가를 말한다",
+          "종업원급여에는 당해 기업과 관련하여 당해",
+          "기업의 지배기업을 대신하여 지급하는 대가도 포함한다",
+          "보상은",
+          "다음을 포함한다",
+          "-",
+          "10",
+          "휴가 유급병가 이익분배금 상여금 회계기간의 말부터 개",
+          "급여 예 의료 주택 자동차 무상 또는 일부 보조로 제공되는",
+          "재화나 용역 등",
+          "퇴직급여 퇴직연금 그 밖의 퇴직급여 퇴직후생명보험 퇴직",
+          "후의료급여 등",
+          "기타장기종업원급여 장기근속휴가 안식년휴가 그 밖의 장기",
+          "근속급여 장기장애급여 회계기간의 말부터 개월 이내에 전",
+          "부나 일부가 지급되지 않는 이익분배금 상여금 및 이연보상",
+          "등",
+          "해고급여",
+          "주식기준보상",
+          "주요 경영진 직 간접적으로 당해 기업 활동의 계획 지휘 통제에",
+          "대한 권한과 책임을 가진 자로서 모든 이사 업무집행이사 여부를",
+          "불문함 를 포함함",
+          "정부 지방자치단체 중앙정부 또는 국제기구인 정부 정부기관 및",
+          "이와 유사한 단체",
+          "정부특수관계기업 정부에 의해 지배 또는 공동지배되거나 유의적",
+          "인 영향을 받는 기업",
+          "지배력 투자기업 공동지배 와 유의적인 영향력 의 용어는 각",
+          "당 기준서에서 명시한 의미를 이 기준서에서 사용한다"
+        ]
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_main_10",
+      "parent_id": "KIFRS1024_main_h_용어의_정의",
+      "content": "10 특수관계 유무를 고려할 때에는 단지 법적 형식뿐만 아니라 실질\n\n관계에도 주의를 기울여야 한다 .\n\n                 - 11",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "main",
+        "para_number": "10",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_main_11",
+      "parent_id": "KIFRS1024_main_h_용어의_정의",
+      "content": "11 다음의 경우는 특수관계자가 아니다 .\n\n⑴ 단순히 두 기업의 이사가 동일인이거나 그 밖의 주요 경영진\n\n의 일원이 동일인인 경우의 두 기업 또는 한 기업의 주요 경\n\n영진의 일원이 다른 기업에 유의적인 영향력이 있는 경우의\n\n두 기업\n\n⑵ 하나의 공동기업을 공동지배하는 두 참여자\n\n⑶ 기업과 단순히 통상적인 업무 관계를 맺고 있는 ㈎ 자금제공\n\n자, ㈏ 노동조합, ㈐ 공익기업 그리고 ㈑ 보고기업에 지배력,\n\n공동지배력 또는 유의적인 영향력이 없는 정부부처와 정부기\n\n관 ( 기업 활동의 자율성에 영향을 미치거나 기업의 의사결정과\n\n정에 참여할 수 있다 하더라도 상관없음 )\n\n⑷ 유의적인 규모의 거래를 통해 단지 경제적 의존 관계만 있는\n\n고객, 공급자, 프랜차이저, 유통업자 또는 총대리인",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "main",
+        "para_number": "11",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_main_12",
+      "parent_id": "KIFRS1024_main_h_용어의_정의",
+      "content": "12 특수관계자의 정의에서 관계기업에는 그 관계기업의 종속기업을\n\n포함하고, 공동기업에는 그 공동기업의 종속기업을 포함한다 . 예\n\n를 들면 관계기업에 유의적인 영향력이 있는 투자자는 관계기업\n\n의 종속기업과 서로 특수관계에 있다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "main",
+        "para_number": "12",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_main_13",
+      "parent_id": "KIFRS1024_main_h_공시",
+      "content": "13 지배기업과 그 종속기업 사이의 관계는 거래의 유무에 관계없이\n\n공시한다 . 기업은 지배기업의 명칭을 공시한다 . 다만, 최상위 지배\n\n자와 지배기업이 다른 경우에는 최상위 지배자의 명칭도 공시한\n\n다 . 지배기업과 최상위 지배자가 일반이용자가 이용할 수 있는 연\n\n결재무제표를 작성하지 않는 경우에는 일반이용자가 이용할 수\n\n있는 연결재무제표를 작성하는 가장 가까운 상위의 지배기업의\n\n                 - 12\n\n명칭도 공시한다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "main",
+        "para_number": "13",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_main_14",
+      "parent_id": "KIFRS1024_main_h_공시",
+      "content": "14 지배력이 있는 경우, 특수관계자거래의 유무에 관계없이 특수관계\n\n가 기업에 미치는 영향을 재무제표이용자가 파악하도록 이러한\n\n특수관계를 공시하는 것이 적절하다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "main",
+        "para_number": "14",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_main_15",
+      "parent_id": "KIFRS1024_main_h_공시",
+      "content": "15 기업회계기준서 제 1027 호와 제 1112 호 ‘ 타 기업에 대한 지분의 공\n\n시 ’ 에서 요구하는 공시 요구사항에 추가하여 지배기업과 종속기업\n\n사이의 특수관계 사실을 공시한다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "main",
+        "para_number": "15",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_main_16",
+      "parent_id": "KIFRS1024_main_h_공시",
+      "content": "16 문단 13 에서는 가장 가까운 상위의 지배기업을 언급하고 있는데\n\n이는 지배기업보다는 상위에 있고 일반이용자가 이용할 수 있는\n\n연결재무제표를 작성하는 지배기업 가운데 연결실체에서 가장 하\n\n위에 있는 지배기업을 말한다 .\n\n주요 경영진에 대한 보상의 총액과 다음 분류별 금액을 공시한다\n\n단기종업원급여\n\n퇴직급여\n\n기타 장기급여\n\n해고급여\n\n주식기준보상\n\n17A 다른 기업 (‘ 경영인력용역기업 ’) 으로부터 주요 경영인력용역을 제공\n\n받는 기업은 경영인력용역기업이 경영인력용역기업의 종업원이나\n\n이사에게 지급하였거나 지급하여야 하는 보상에 대하여 문단 17\n\n의 요구사항을 적용하지 않는다 .\n\n회계기간 내에 특수관계자거래가 있는 경우 기업은 이용자가 재\n\n무제표에 미치는 특수관계의 잠재적 영향을 파악하는 데 필요한\n\n거래 약정을 포함한 채권 채무 잔액에 대한 정보뿐만 아니라 특\n\n                 - 13\n\n수관계의 성격도 공시한다 이러한 공시 요구사항은 문단 의 요\n\n구사항에 추가된다 공시는 최소한 다음 내용을 포함한다\n\n거래 금액\n\n약정을 포함한 채권 채무 잔액과 다음 사항\n\n그 채권 채무의 조건 담보 제공 여부 포함 과 결제할 때\n\n제공될 대가의 성격\n\n그 채권 채무에 대하여 제공하거나 제공받은 보증의 상세\n\n내역\n\n채권 잔액에 대하여 설정된 대손충당금\n\n특수관계자 채권에 대하여 당해 기간 중 인식된 대손상각비\n\n18A 별개의 경영인력용역기업이 제공하는 주요 경영인력용역으로 인\n\n해 보고기업에 의해 발생된 금액을 주석으로 공시한다 .\n\n한다\n\n지배기업\n\n당해 기업을 공동지배하거나 당해 기업에 유의적인 영향력을\n\n행사하는 기업\n\n종속기업\n\n관계기업\n\n당해 기업이 참여자인 공동기업\n\n당해 기업이나 당해 기업의 지배기업의 주요 경영진\n\n그 밖의 특수관계자",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "main",
+        "para_number": "16",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "sentences": [
+          "16 문단 13 에서는 가장 가까운 상위의 지배기업을 언급하고 있는데",
+          "이는 지배기업보다는 상위에 있고 일반이용자가 이용할 수 있는",
+          "연결재무제표를 작성하는 지배기업 가운데 연결실체에서 가장 하",
+          "위에 있는 지배기업을 말한다 .",
+          "주요 경영진에 대한 보상의 총액과 다음 분류별 금액을 공시한다",
+          "단기종업원급여",
+          "퇴직급여",
+          "기타 장기급여",
+          "해고급여",
+          "주식기준보상",
+          "17A 다른 기업 (‘ 경영인력용역기업 ’) 으로부터 주요 경영인력용역을 제공",
+          "받는 기업은 경영인력용역기업이 경영인력용역기업의 종업원이나",
+          "이사에게 지급하였거나 지급하여야 하는 보상에 대하여 문단 17",
+          "의 요구사항을 적용하지 않는다 .",
+          "회계기간 내에 특수관계자거래가 있는 경우 기업은 이용자가 재",
+          "무제표에 미치는 특수관계의 잠재적 영향을 파악하는 데 필요한",
+          "거래 약정을 포함한 채권 채무 잔액에 대한 정보뿐만 아니라 특",
+          "- 13",
+          "수관계의 성격도 공시한다",
+          "이러한 공시 요구사항은 문단 의 요",
+          "구사항에 추가된다",
+          "공시는 최소한 다음 내용을 포함한다",
+          "거래 금액",
+          "약정을 포함한 채권 채무 잔액과 다음 사항",
+          "그 채권 채무의 조건 담보 제공 여부 포함 과 결제할 때",
+          "제공될 대가의 성격",
+          "그 채권 채무에 대하여 제공하거나 제공받은 보증의 상세",
+          "내역",
+          "채권 잔액에 대하여 설정된 대손충당금",
+          "특수관계자 채권에 대하여 당해 기간 중 인식된 대손상각비",
+          "18A 별개의 경영인력용역기업이 제공하는 주요 경영인력용역으로 인",
+          "해 보고기업에 의해 발생된 금액을 주석으로 공시한다 .",
+          "한다",
+          "지배기업",
+          "당해 기업을 공동지배하거나 당해 기업에 유의적인 영향력을",
+          "행사하는 기업",
+          "종속기업",
+          "관계기업",
+          "당해 기업이 참여자인 공동기업",
+          "당해 기업이나 당해 기업의 지배기업의 주요 경영진",
+          "그 밖의 특수관계자"
+        ]
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_main_20",
+      "parent_id": "KIFRS1024_main_h_공시",
+      "content": "20 문단 19 에서 규정하는 특수관계자와의 채권 ․ 채무 금액의 범주별\n\n분류는 기업회계기준서 제 1001 호 ‘ 재무제표 표시 ’ 에서 재무상태표\n\n나 주석에 표시하도록 요구하는 공시사항이다 . 이러한 범주는 특\n\n수관계자와의 채권 ․ 채무 잔액에 대한 보다 포괄적인 분석을 제\n\n공하고 특수관계자거래에 적용하기 위하여 추가된 것이다 .\n\n                 - 14",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "main",
+        "para_number": "20",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_main_21",
+      "parent_id": "KIFRS1024_main_h_공시",
+      "content": "21 특수관계자와의 거래가 있는 경우, 공시하는 거래의 예는 다음과\n\n같다 .\n\n⑴ 재화 ( 완성품이나 재공품 ) 의 매입이나 매출\n\n⑵ 부동산과 그 밖의 자산의 구입이나 매각\n\n⑶ 용역의 제공이나 수령\n\n⑷ 리스\n\n⑸ 연구개발의 이전\n\n⑹ 라이선스계약에 따른 이전\n\n⑺ 금융약정에 따른 이전 ( 대여와 현금출자나 현물출자 포함 )\n\n⑻ 보증이나 담보의 제공\n\n⑼ 미래에 특정사건이 발생하거나 발생하지 않을 경우 어떠한 일\n\n을 수행하는 약정 ( 인식되었거나 인식되지 않은 미이행계약 [1)] 을\n\n포함 )\n\n⑽ 당해 기업이 특수관계자를 대신하거나 특수관계자가 당해 기\n\n업을 대신한 부채의 결제",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "main",
+        "para_number": "21",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_main_22",
+      "parent_id": "KIFRS1024_main_h_공시",
+      "content": "22 연결실체에 속하는 기업 사이에 위험을 공유하는 확정급여제도에\n\n지배기업이나 종속기업이 참여하는 것은 특수관계자거래에 해당\n\n한다 ( 기업회계기준서 제 1019 호 (2011 년 개정 ) 문단 42 참조 ).",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "main",
+        "para_number": "22",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_main_23",
+      "parent_id": "KIFRS1024_main_h_공시",
+      "content": "23 독립된 당사자 사이의 거래 조건에 따라 거래가 이루어졌음을 입\n\n증할 수 있는 경우에 한하여 특수관계자거래가 그러한 조건으로\n\n이루어졌다는 사실을 공시한다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "main",
+        "para_number": "23",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_main_24",
+      "parent_id": "KIFRS1024_main_h_공시",
+      "content": "24 기업의 재무제표에 미치는 특수관계자거래의 영향을 파악하기 위\n\n하여 분리하여 공시할 필요가 있는 경우를 제외하고는 성격이 유\n\n사한 항목은 통합하여 공시할 수 있다 .\n\n1) 기업회계기준 제 1037 호 ‘ 충당부채, 우발부채 및 우발자산 ’ 에서는 미이행계약을 계약당사자 모두가 계약상의 의\n\n무를 전혀 이행하지 아니하였거나 양 당사자가 동일한 정도로 자신들의 의무를 부분적으로 이행한 계약으로\n정의한다 .\n\n                 - 15\n\n정부특수관계기업\n\n다음의 정부와 기업에 대하여 특수관계자거래 및 약정을 포함한\n\n보고기업에 대해 지배력 공동지배력 또는 유의적인 영향력이\n\n있는 정부\n\n보고기업과 다른 기업 둘 모두에 대해 동일한 정부가 지배력\n\n공동지배력 또는 유의적인 영향력이 있기 때문에 둘 간에 특수관\n\n계자가 된 경우 그 다른 기업\n\n급된 거래와 관련 채권 채무잔액에 대한 다음의 사항을 공시한\n\n다\n\n정부명 및 보고기업과의 관계의 성격 즉 지배력 공동지배력\n\n또는 유의적인 영향력\n\n재무제표 이용자가 재무제표 상의 특수관계자거래의 영향을\n\n이해할 수 있도록 충분히 자세하게 기술된 다음의 정보\n\n개별적으로 유의적인 각각의 거래의 성격과 금액\n\n개별적으로 유의적이진 않지만 집합적으로 유의적인 그 밖\n\n의 거래에 대하여 그 정도를 나타내는 질적 또는 양적 표\n\n시 거래의 형태에는 문단 에 나열된 것을 포함한다",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "main",
+        "para_number": "24",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "sentences": [
+          "24 기업의 재무제표에 미치는 특수관계자거래의 영향을 파악하기 위",
+          "하여 분리하여 공시할 필요가 있는 경우를 제외하고는 성격이 유",
+          "사한 항목은 통합하여 공시할 수 있다 .",
+          "1) 기업회계기준 제 1037 호 ‘ 충당부채, 우발부채 및 우발자산 ’ 에서는 미이행계약을 계약당사자 모두가 계약상의 의",
+          "무를 전혀 이행하지 아니하였거나 양 당사자가 동일한 정도로 자신들의 의무를 부분적으로 이행한 계약으로\n정의한다 .",
+          "-",
+          "15",
+          "정부특수관계기업",
+          "다음의 정부와 기업에 대하여 특수관계자거래 및 약정을 포함한",
+          "보고기업에 대해 지배력 공동지배력 또는 유의적인 영향력이",
+          "있는 정부",
+          "보고기업과 다른 기업 둘 모두에 대해 동일한 정부가 지배력",
+          "공동지배력 또는 유의적인 영향력이 있기 때문에 둘 간에 특수관",
+          "계자가 된 경우 그 다른 기업",
+          "급된 거래와 관련 채권 채무잔액에 대한 다음의 사항을 공시한",
+          "다",
+          "정부명 및 보고기업과의 관계의 성격 즉 지배력 공동지배력",
+          "또는 유의적인 영향력",
+          "재무제표 이용자가 재무제표 상의 특수관계자거래의 영향을",
+          "이해할 수 있도록 충분히 자세하게 기술된 다음의 정보",
+          "개별적으로 유의적인 각각의 거래의 성격과 금액",
+          "개별적으로 유의적이진 않지만 집합적으로 유의적인 그 밖",
+          "의 거래에 대하여 그 정도를 나타내는 질적 또는 양적 표",
+          "시 거래의 형태에는 문단 에 나열된 것을 포함한다"
+        ]
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_main_27",
+      "parent_id": "KIFRS1024_main_h_공시",
+      "content": "27 문단 26⑵ 의 요구사항에 따라 공시되는 세부사항의 수준을 결정\n\n하기 위하여 판단할 때, 보고기업은 특수관계의 친밀성과 거래의\n\n유의적인 수준을 형성하는 관련 요소를 고려하여야 한다 . 이러한\n\n요소는 다음과 같다 .\n\n⑴ 규모면에서 유의적인가\n\n⑵ 비시장조건에 의하여 수행되는가\n\n⑶ 사업의 취득 또는 매각과 같이, 정상적인 일상거래 이외의 것인가\n\n                 - 16\n\n⑷ 감독당국이나 감독기구에 공시되는가\n\n⑸ 상위 경영진에게 보고되는가\n\n⑹ 주주의 승인이 필요한가",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "main",
+        "para_number": "27",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_main_unk_4",
+      "parent_id": "KIFRS1024_main_h_시행일",
+      "content": "28 [ 한국회계기준원 회계기준위원회가 삭제함 ]\n\n28A 2012 년 11 월에 발표된 기업회계기준서 제 1110 호, 기업회계기준서\n\n제 1111 호 ‘ 공동약정 ’ 과 기업회계기준서 제 1112 호는 문단 3, 9, 11\n\n⑵, 15, 19⑵ 및 ⑸ 와 25 를 개정한다 . 동 개정내용은 기업회계기준\n\n서 제 1110 호와 제 1111 호를 적용하는 경우 적용한다 .\n\n제규정을 조기 적용할 수 있다 조기적용할 경우 그 사실을 공시\n\n한다\n\n28B 2013 년 6 월에 발표된 ‘ 투자기업 ’( 기업회계기준서 제 1110 호 ‘ 연결재\n\n무제표 ’, 제 1112 호 ‘ 타 기업에 대한 지분의 공시 ’ 및 제 1027 호 ‘ 별도\n\n재무제표 ’ 의 개정 ) 에서 문단 4 와 9 를 개정하였다 . 동 개정내용은",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "main",
+        "para_number": null,
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_main_2014",
+      "parent_id": "KIFRS1024_main_h_시행일",
+      "content": "2014 년 1 월 1 일 이후 최초로 시작하는 회계연도부터 적용한다 . 조기\n\n적용이 허용된다 . 조기적용할 경우 그러한 사실을 공시하고 ‘ 투자기\n\n업 ’ 에 포함된 모든 개정내용을 동시에 적용한다 .\n\n28C 2014 년 7 월에 발표된 한국채택국제회계기준 2010-2012 연차개선에\n\n따라 문단 9 가 개정되었고 문단 17A 와 18A 가 추가되었다 . 이러한\n\n개정내용은 2014 년 7 월 1 일 이후 최초로 시작되는 회계연도부터\n\n적용하되 조기적용이 허용된다 . 조기적용하는 경우 그러한 사실을\n\n공시한다 .\n\n                 - 17",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "main",
+        "para_number": "2014",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_main_29",
+      "parent_id": "KIFRS1024_main_h_기준서_등의_대체",
+      "content": "29 이 기준서는 기업회계기준서 제 1024 호 ‘ 특수관계자 공시 ’(2007 년\n\n제정 ) 을 대체한다 .\n\n                 - 18",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "main",
+        "para_number": "29",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_main_unk_5",
+      "parent_id": "KIFRS1024_main_h_기업회계기준서_제_호의_제_개정_등에_대한_회계기준위원회의_의결",
+      "content": "기업회계기준서 제 1024 호 ‘ 특수관계자 공시 ’ 의 제정 (2007.11.23.) 은 회계기준위\n\n원회 위원 7 명의 찬성으로 의결하였다 .\n\n회계기준위원회 위원 :\n\n이효익 ( 위원장 ), 서정우 ( 상임위원 ), 김성남, 윤순석, 최상태, 황성식, 황인태\n\n기업회계기준서 제 1024 호 ‘ 특수관계자 공시 ’ 의 개정 (2010.5.14.) 은 회계기준위\n\n원회 위원 6 명의 찬성으로 의결하였다 .\n\n회계기준위원회 위원 :\n\n서정우 ( 위원장 ), 김찬홍 ( 상임위원 ), 박영진, 변용희, 최 관, 전 괄\n\n                 - 19",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "main",
+        "para_number": null,
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_ie_unk_6",
+      "parent_id": "KIFRS1024_ie_h_적용사례",
+      "content": "이적용사례는기업회계기준서제1024호에첨부되지만, 이기준서의일부를구성\n\n하는것은아니다.\n\n이 사례에서는 다음을 예시한다 .\n\n- 정부특수관계기업을 위한 일부 면제규정\n\n- 특정한 상황에서 특수관계자 정의를 적용하는 방법\n\n이 사례에서 ‘ 재무제표 ’ 는 개별재무제표, 별도재무제표 또는 연결재무제표와\n\n관련된다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "ie",
+        "para_number": null,
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_ie_IE1",
+      "parent_id": "KIFRS1024_ie_h_정부특수관계기업을_위한_일부_면제규정",
+      "content": "IE1 정부 G 는 직접적으로 또는 간접적으로 기업 1 과 2 를 그리고 기업\n\nA, B, C 와 D 를 지배한다 . 개인 X 는 기업 1 의 주요 경영진의 일원\n\n이다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "ie",
+        "para_number": "IE1",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_ie_IE2",
+      "parent_id": "KIFRS1024_ie_h_정부특수관계기업을_위한_일부_면제규정",
+      "content": "IE2 기업 A 의 재무제표에서 문단 25 의 면제규정은 다음에 적용된다 .\n\n                 - 21\n\n⑴ 정부 G 와의 거래\n\n⑵ 기업 1 과 2 그리고 기업 B, C, D 와의 거래\n\n그러나 이 면제규정은 개인 X 와의 거래에는 적용되지 않는다 .\n\n면제규정을 적용할 경우 공시요구사항 문단",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "ie",
+        "para_number": "IE2",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_ie_IE3",
+      "parent_id": "KIFRS1024_ie_h_정부특수관계기업을_위한_일부_면제규정",
+      "content": "IE3 기업 A 의 재무제표에 문단 26⑵㈎ 에 따라 개별적으로 유의적인\n\n거래에 대한 공시의 예는 다음의 사항이 될 수 있다 .\n\n비시장조건으로 수행된 개별적으로 유의적인 거래에 대한 공시의\n\n예\n\n정부 G 는 간접적으로 공익기업 A 의 유통주식의 75% 를 보유하고\n\n있으며 20X1 년 1 월 15 일에 공익기업 A 는 또 다른 정부관계 공익\n\n기업에게 토지 10 헥타르를 5 백만원에 매각하였다 . 20X0 년 12 월 31\n\n일에 유사한 위치에 있는 유사한 크기와 유사한 특성의 토지는 3\n\n백만원에 매각하였다 . 그 사이에는 토지에 대한 어떠한 평가나 상\n\n각이 이루어지지 않았다 . 기업회계기준서 제 1020 호 ‘ 정부보조금의\n\n회계처리와 정부지원의 공시 ’ 에서 요구하고 있는 정부지원의 공시\n\n는 ( 재무제표의 ) 주석 X 를, 기타 적절한 한국채택국제회계기준에\n\n따른 사항은 ( 재무제표의 ) 주석 Y 와 Z 를 참조 .\n\n거래의 규모로 인하여 개별적으로 유의적인 거래에 대한 공시의 예\n\n정부 G 는 간접적으로 공익기업 A 의 유통주식의 75% 를 보유하고\n\n있으며 20X1 년 12 월 말에 공익기업 A 에게 융자 요구의 50% 에 해\n\n당하는 자금을 향후 5 년 간 분기별로 분할 상환가능한 조건으로\n\n대여하였다 . 이 자금대여에는 3% 의 이자가 부과되며 이는 기업 A\n\n의 은행 차입시에 부과되는 이자와 유사하다 [2)] . 기타 적절한 한국\n\n2) 보고기업이 이 거래가 정부지원에 해당한다고 결론지을 경우 기업회계기준서 제 1020 호의 공시요구\n\n사항을 고려할 필요가 있다 .\n\n                 - 22\n\n채택국제회계기준에 따른 사항은 ( 재무제표의 ) 주석 Y 와 Z 를 참조 .\n\n집합적으로 유의적인 거래에 대한 공시 예\n\n기업 A 의 재무제표에 문단 26⑵㈏ 에 따라 집합적으로 유의적인\n\n거래에 대한 공시의 예는 다음의 사항이 될 수 있다 .\n\n정부 G 는 간접적으로 기업 A 의 유통주식의 75% 를 소유하고 있\n\n다 . 정부 G 와 정부 G 가 지배력, 공동지배 또는 유의적인 영향력\n\n이 있는 기업과의 거래는 [ 제품의 매출과 원재료 매입에 비중이\n\n크다 ] 또는 [ 제품 매출의 50% 와 원재료 매입의 약 35% 를 차지한다 ].\n\n이 기업은 은행 차입에 대한 정부 보증의 혜택도 받고 있다 . 기업\n\n회계기준서 제 1020 호 ‘ 정부보조금의 회계처리와 정부지원의 공시 ’\n\n에 따른 정부지원에 대한 공시 사항은 ( 재무제표의 ) 주석 X 를, 기\n\n타 적절한 한국채택국제회계기준에 따른 사항은 ( 재무제표의 ) 주\n\n석 Y 와 Z 를 참조 .\n\n특수관계자의 정의\n\n기업회계기준서 제 1024 호 문단 9 의 특수관계자 정의의 세부항목을 참조한다 .\n\n사례 관계기업과 종속기업",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "ie",
+        "para_number": "IE3",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "sentences": [
+          "IE3 기업 A 의 재무제표에 문단 26⑵㈎ 에 따라 개별적으로 유의적인",
+          "거래에 대한 공시의 예는 다음의 사항이 될 수 있다 .",
+          "비시장조건으로 수행된 개별적으로 유의적인 거래에 대한 공시의",
+          "예",
+          "정부 G 는 간접적으로 공익기업 A 의 유통주식의 75% 를 보유하고",
+          "있으며 20X1 년 1 월 15 일에 공익기업 A 는 또 다른 정부관계 공익",
+          "기업에게 토지 10 헥타르를 5 백만원에 매각하였다 .",
+          "20X0 년 12 월 31",
+          "일에 유사한 위치에 있는 유사한 크기와 유사한 특성의 토지는 3",
+          "백만원에 매각하였다 .",
+          "그 사이에는 토지에 대한 어떠한 평가나 상",
+          "각이 이루어지지 않았다 .",
+          "기업회계기준서 제 1020 호 ‘ 정부보조금의",
+          "회계처리와 정부지원의 공시 ’ 에서 요구하고 있는 정부지원의 공시",
+          "는 ( 재무제표의 ) 주석 X 를, 기타 적절한 한국채택국제회계기준에",
+          "따른 사항은 ( 재무제표의 ) 주석 Y 와 Z 를 참조 .",
+          "거래의 규모로 인하여 개별적으로 유의적인 거래에 대한 공시의 예",
+          "정부 G 는 간접적으로 공익기업 A 의 유통주식의 75% 를 보유하고",
+          "있으며 20X1 년 12 월 말에 공익기업 A 에게 융자 요구의 50% 에 해",
+          "당하는 자금을 향후 5 년 간 분기별로 분할 상환가능한 조건으로",
+          "대여하였다 .",
+          "이 자금대여에는 3% 의 이자가 부과되며 이는 기업 A",
+          "의 은행 차입시에 부과되는 이자와 유사하다 [2)] .",
+          "기타 적절한 한국",
+          "2) 보고기업이 이 거래가 정부지원에 해당한다고 결론지을 경우 기업회계기준서 제 1020 호의 공시요구",
+          "사항을 고려할 필요가 있다 .",
+          "-",
+          "22",
+          "채택국제회계기준에 따른 사항은 ( 재무제표의 ) 주석 Y 와 Z 를 참조 .",
+          "집합적으로 유의적인 거래에 대한 공시 예",
+          "기업 A 의 재무제표에 문단 26⑵㈏ 에 따라 집합적으로 유의적인",
+          "거래에 대한 공시의 예는 다음의 사항이 될 수 있다 .",
+          "정부 G 는 간접적으로 기업 A 의 유통주식의 75% 를 소유하고 있",
+          "다 .",
+          "정부 G 와 정부 G 가 지배력, 공동지배 또는 유의적인 영향력",
+          "이 있는 기업과의 거래는 [ 제품의 매출과 원재료 매입에 비중이\n\n크다 ] 또는 [ 제품 매출의 50% 와 원재료 매입의 약 35% 를 차지한다 ].",
+          "이 기업은 은행 차입에 대한 정부 보증의 혜택도 받고 있다 .",
+          "기업",
+          "회계기준서 제 1020 호 ‘ 정부보조금의 회계처리와 정부지원의 공시 ’",
+          "에 따른 정부지원에 대한 공시 사항은 ( 재무제표의 ) 주석 X 를, 기",
+          "타 적절한 한국채택국제회계기준에 따른 사항은 ( 재무제표의 ) 주",
+          "석 Y 와 Z 를 참조 .",
+          "특수관계자의 정의",
+          "기업회계기준서 제 1024 호 문단 9 의 특수관계자 정의의 세부항목을 참조한다 .",
+          "사례 관계기업과 종속기업"
+        ]
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_ie_IE4",
+      "parent_id": "KIFRS1024_ie_h_정부특수관계기업을_위한_일부_면제규정",
+      "content": "IE4 지배기업은 종속기업 A, B 와 C 에 지배 지분을 보유하며 관계기업\n\n1 과 2 에 유의적인 영향력이 있다 . 종속기업 C 는 관계기업 3 에 유\n\n의적인 영향력이 있다 .\n\n                 - 23",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "ie",
+        "para_number": "IE4",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_ie_IE5",
+      "parent_id": "KIFRS1024_ie_h_정부특수관계기업을_위한_일부_면제규정",
+      "content": "IE5 지배기업의 별도재무제표에서 종속기업 A, B 와 C, 그리고 관계기\n\n업 1, 2 와 3 은 특수관계자이다 . ( 문단 9⑵㈎ 와 ㈏)",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "ie",
+        "para_number": "IE5",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_ie_IE6",
+      "parent_id": "KIFRS1024_ie_h_정부특수관계기업을_위한_일부_면제규정",
+      "content": "IE6 종속기업 A 의 재무제표에서 지배기업, 종속기업 B 와 C, 그리고\n\n관계기업 1, 2 와 3 은 특수관계자이다 . 종속기업 B 의 별도재무제표\n\n에서 지배기업, 종속기업 A 와 C, 그리고 관계기업 1, 2 와 3 은 특\n\n수관계자이다 . 종속기업 C 의 재무제표에서 지배기업, 종속기업 A\n\n와 B, 그리고 관계기업 1, 2 와 3 은 특수관계자이다 . ( 문단 9⑵㈎ 와 ㈏)",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "ie",
+        "para_number": "IE6",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_ie_IE7",
+      "parent_id": "KIFRS1024_ie_h_정부특수관계기업을_위한_일부_면제규정",
+      "content": "IE7 관계기업 1, 2 와 3 의 각 재무제표에서 지배기업과 종속기업 A, B\n\n와 C 는 특수관계자이다 . 관계기업 1, 2 와 3 은 서로 특수관계에 있\n\n지 아니하다 . ( 문단 9⑵㈏)",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "ie",
+        "para_number": "IE7",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_ie_IE8",
+      "parent_id": "KIFRS1024_ie_h_정부특수관계기업을_위한_일부_면제규정",
+      "content": "IE8 지배기업의 연결재무제표에서 관계기업 1, 2 와 3 은 연결실체와 특\n\n수관계에 있다 . ( 문단 9⑵㈏)\n\n사례 주요경영진",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "ie",
+        "para_number": "IE8",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_ie_IE9",
+      "parent_id": "KIFRS1024_ie_h_정부특수관계기업을_위한_일부_면제규정",
+      "content": "IE9 개인 X 는 기업 A 에 100% 투자하고 기업 C 의 주요 경영진의 일\n\n원이다 . 기업 B 는 기업 C 에 100% 투자하고 있다 .\n\n                 - 24",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "ie",
+        "para_number": "IE9",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_ie_IE10",
+      "parent_id": "KIFRS1024_ie_h_정부특수관계기업을_위한_일부_면제규정",
+      "content": "IE10 기업 C 의 재무제표에서, 기업 A 는 기업 C 와 특수관계에 있는데\n\nX 가 기업 A 에 지배력이 있고 기업 C 의 주요 경영진의 일원이기\n\n때문이다 . ( 문단 9⑵㈓~⑴㈐)",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "ie",
+        "para_number": "IE10",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_ie_IE11",
+      "parent_id": "KIFRS1024_ie_h_정부특수관계기업을_위한_일부_면제규정",
+      "content": "IE11 기업 C 의 재무제표에서, X 가 기업 C 가 아닌 기업 B 의 주요 경영\n\n진의 일원인 경우에도 기업 A 는 기업 C 와 특수관계에 있다 . ( 문\n\n단 9⑵㈓~⑴㈐)",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "ie",
+        "para_number": "IE11",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_ie_IE12",
+      "parent_id": "KIFRS1024_ie_h_정부특수관계기업을_위한_일부_면제규정",
+      "content": "IE12 더 나아가 X 가 기업 A 에 공동지배력이 있는 경우에도 문단 IE10\n\n와 IE11 에 기술된 결과는 동일할 것이다 . ( 문단 9⑵㈓~⑴㈐) (X 가\n\n기업 A 에 지배력이나 공동지배력이 아닌 단지 유의적인 영향력만\n\n있다면 기업 A 와 C 는 서로 특수관계에 있지 아니하다 .)",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "ie",
+        "para_number": "IE12",
+        "cross_refs": [
+          "IE10",
+          "IE11"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_ie_IE13",
+      "parent_id": "KIFRS1024_ie_h_정부특수관계기업을_위한_일부_면제규정",
+      "content": "IE13 기업 A 의 재무제표에서, 기업 C 는 기업 A 와 특수관계에 있는데\n\nX 가 A 에 지배력이 있고 기업 C 의 주요 경영진의 일원이기 때문\n\n이다 . ( 문단 9⑵㈔~⑴㈎)",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "ie",
+        "para_number": "IE13",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_ie_IE14",
+      "parent_id": "KIFRS1024_ie_h_정부특수관계기업을_위한_일부_면제규정",
+      "content": "IE14 더 나아가 X 가 기업 A 에 공동지배력이 있는 경우에도 문단 IE13\n\n에 기술된 결과는 동일할 것이다 . 또한 X 가 기업 C 가 아닌 기업\n\nB 의 주요 경영진의 일원일 경우에도 결과는 동일할 것이다 . ( 문단\n\n9⑵㈔~⑴㈎)\n\n                 - 25",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "ie",
+        "para_number": "IE14",
+        "cross_refs": [
+          "IE13"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_ie_IE15",
+      "parent_id": "KIFRS1024_ie_h_정부특수관계기업을_위한_일부_면제규정",
+      "content": "IE15 기업 B 의 연결재무제표에서, X 가 연결실체의 주요 경영진의 일원\n\n일 경우 기업 A 는 연결실체의 특수관계자이다 . ( 문단 9⑵㈓~⑴㈐)\n\n사례 투자자로서의 개인",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "ie",
+        "para_number": "IE15",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_ie_IE17",
+      "parent_id": "KIFRS1024_ie_h_정부특수관계기업을_위한_일부_면제규정",
+      "content": "IE17 기업 A 의 재무제표에서, X 가 기업 A 에 지배력 또는 공동지배력\n\n이 있는 경우에 X 가 기업 B 에 지배력, 공동지배력 또는 유의적인\n\n영향력이 있다면 기업 B 는 기업 A 와 특수관계에 있다 . ( 문단 9⑵\n\n㈓~⑴㈎ 그리고 문단 9⑵㈔~⑴㈎)",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "ie",
+        "para_number": "IE17",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_ie_IE18",
+      "parent_id": "KIFRS1024_ie_h_정부특수관계기업을_위한_일부_면제규정",
+      "content": "IE18 기업 B 의 재무제표에서, X 가 기업 A 에 지배력 또는 공동지배력이\n\n있는 경우에 X 가 기업 B 에 지배력, 공동지배력 또는 유의적인 영\n\n향력이 있다면 기업 A 는 기업 B 와 특수관계에 있다 . ( 문단 9⑵\n\n㈓~⑴㈎ 그리고 문단 9⑵㈓~⑴㈏)",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "ie",
+        "para_number": "IE18",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_ie_IE19",
+      "parent_id": "KIFRS1024_ie_h_정부특수관계기업을_위한_일부_면제규정",
+      "content": "IE19 X 가 기업 A 와 B 둘 모두에 유의적인 영향력이 있다면 기업 A 와\n\nB 는 서로 특수관계에 있지 아니하다 .\n\n                 - 26\n\n사례 투자를 하고 있는 가까운 가족",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "ie",
+        "para_number": "IE19",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_ie_IE20",
+      "parent_id": "KIFRS1024_ie_h_정부특수관계기업을_위한_일부_면제규정",
+      "content": "IE20 개인 X 는 Y 의 사실상 배우자이다 . X 는 기업 A 에 투자하고 있으\n\n며 Y 는 기업 B 에 투자하고 있다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "ie",
+        "para_number": "IE20",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_ie_IE21",
+      "parent_id": "KIFRS1024_ie_h_정부특수관계기업을_위한_일부_면제규정",
+      "content": "IE21 기업 A 의 재무제표에서, X 가 기업 A 에 지배력 또는 공동지배력\n\n이 있는 경우에 Y 가 기업 B 에 지배력, 공동지배력 또는 유의적인\n\n영향력이 있다면 기업 B 는 기업 A 와 특수관계에 있다 . ( 문단 9⑵\n\n㈓~⑴㈎ 그리고 문단 9⑵㈔~⑴㈎)",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "ie",
+        "para_number": "IE21",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_ie_IE22",
+      "parent_id": "KIFRS1024_ie_h_정부특수관계기업을_위한_일부_면제규정",
+      "content": "IE22 기업 B 의 재무제표에서, X 가 기업 A 에 지배력 또는 공동지배력이\n\n있는 경우에 Y 가 기업 B 에 지배력, 공동지배력 또는 유의적인 영\n\n향력이 있다면 기업 A 는 기업 B 와 특수관계에 있다 . ( 문단 9⑵\n\n㈓~⑴㈎ 그리고 문단 9⑵㈓~⑴㈏)",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "ie",
+        "para_number": "IE22",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_ie_IE23",
+      "parent_id": "KIFRS1024_ie_h_정부특수관계기업을_위한_일부_면제규정",
+      "content": "IE23 X 가 기업 A 에 유의적인 영향력이 있고 Y 가 기업 B 에 유의적인\n\n영향력이 있다면 기업 A 와 B 는 서로 특수관계에 있지 아니하다 .\n\n사례 공동지배의 기업",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "ie",
+        "para_number": "IE23",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_ie_IE24",
+      "parent_id": "KIFRS1024_ie_h_정부특수관계기업을_위한_일부_면제규정",
+      "content": "IE24 기업 A 는 기업 B 에 공동지배력이 있고 동시에 기업 C 에 공동지\n\n                 - 27\n\n배력 또는 유의적인 영향력이 있다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "ie",
+        "para_number": "IE24",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_ie_IE25",
+      "parent_id": "KIFRS1024_ie_h_정부특수관계기업을_위한_일부_면제규정",
+      "content": "IE25 기업 B 의 재무제표에서, 기업 C 는 기업 B 와 특수관계에 있다 . ( 문\n\n단 9⑵㈐ 와 ㈑)",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "ie",
+        "para_number": "IE25",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_ie_IE26",
+      "parent_id": "KIFRS1024_ie_h_정부특수관계기업을_위한_일부_면제규정",
+      "content": "IE26 이와 유사하게 기업 C 의 재무제표에서, 기업 B 는 기업 C 와 특수\n\n관계에 있다 . ( 문단 9⑵㈐ 와 ㈑)\n\n                 - 28",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "ie",
+        "para_number": "IE26",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_ie_unk_7",
+      "parent_id": "KIFRS1024_ie_h_문단비교표",
+      "content": "이 표는 대체된 기업회계기준서 제 1024 호와 개정된 기업회계기준서 제 1024\n\n호 (2010 년 개정 ) 의 내용이 어떻게 대응되는지를 보여준다 . 문단들이 동일한\n\n사항에 대해서 폭넓게 언급하는 경우에는 지침이 다른 경우일지라도 대응되\n\n는 문단으로 간주한다 .\n\n|IAS 24|IAS 24|\n|---|---|\n|IAS 24<br>(개정전)<br>|IAS 24<br>(개정)<br>|\n|11|11<br>|\n|없음<br>|12<br>|\n|12<br>|13<br>|\n|13<br>|14<br>|\n|14<br>|15<br>|\n|15<br>|16<br>|\n|16<br>|17<br>|\n|17<br>|18<br>|\n|18<br>|19<br>|\n|19|20|\n\n   - 29\n\n|IAS 24|IAS 24|\n|---|---|\n|IAS 24<br>(개정전)<br>|IAS 24<br>(개정)<br>|\n|1|1|\n|2|2|\n|3|3|\n|4|4|\n|5|5|\n|6|6|\n|7|7|\n|8|8|\n|9|9|\n|10|10|\n\n|IAS 24|IAS 24|\n|---|---|\n|IAS 24<br>(개정전)<br>|IAS 24<br>(개정)<br>|\n|20<br>|21<br>|\n|20<br>|22<br>|\n|21<br>|23<br>|\n|22|24<br>|\n|없음|25<br>|\n|없음|26<br>|\n|없음<br>|27<br>|\n|23<br>|28|\n|23A<br>|없음<br>|\n|24|29|",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "ie",
+        "para_number": null,
+        "cross_refs": [],
+        "has_table": true,
+        "has_example": false,
+        "sentences": [
+          "이 표는 대체된 기업회계기준서 제 1024 호와 개정된 기업회계기준서 제 1024",
+          "호 (2010 년 개정 ) 의 내용이 어떻게 대응되는지를 보여준다 .",
+          "문단들이 동일한",
+          "사항에 대해서 폭넓게 언급하는 경우에는 지침이 다른 경우일지라도 대응되",
+          "는 문단으로 간주한다 .",
+          "|IAS 24|IAS 24|\n|---|---|\n|IAS 24<br>(개정전)<br>|IAS 24<br>(개정)<br>|\n|11|11<br>|\n|없음<br>|12<br>|\n|12<br>|13<br>|\n|13<br>|14<br>|\n|14<br>|15<br>|\n|15<br>|16<br>|\n|16<br>|17<br>|\n|17<br>|18<br>|\n|18<br>|19<br>|\n|19|20|",
+          "- 29",
+          "|IAS 24|IAS 24|\n|---|---|\n|IAS 24<br>(개정전)<br>|IAS 24<br>(개정)<br>|\n|1|1|\n|2|2|\n|3|3|\n|4|4|\n|5|5|\n|6|6|\n|7|7|\n|8|8|\n|9|9|\n|10|10|",
+          "|IAS 24|IAS 24|\n|---|---|\n|IAS 24<br>(개정전)<br>|IAS 24<br>(개정)<br>|\n|20<br>|21<br>|\n|20<br>|22<br>|\n|21<br>|23<br>|\n|22|24<br>|\n|없음|25<br>|\n|없음|26<br>|\n|없음<br>|27<br>|\n|23<br>|28|\n|23A<br>|없음<br>|\n|24|29|"
+        ]
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_bc_unk_8",
+      "parent_id": "KIFRS1024_bc_h_결론도출근거",
+      "content": "- 30\n\n한국회계기준원은 한국채택국제회계기준 제정시 기준서를 제정한 과정 등을\n\n기술하여 결론도출근거로 제공하고자 하였다 그러나 한국채택국제회계기준\n\n준 제정시 제시한 결론도출근거를 반영하여 제공함으로써 이에 갈음하고자\n\n한다\n\n다만 한국회계기준원이 한국채택국제회계기준이나 국제회계기준의 제 개정\n\n절차에 참여한 경우 이와 관련된 내용을 국제회계기준의 결론도출근거와 구\n\n분하여 한국채택국제회계기준의 결론도출근거로 별도 제시한다\n\n                 - 31\n\n                 - 32",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "bc",
+        "para_number": null,
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_bc_unk_9",
+      "parent_id": "KIFRS1024_bc_h_결론도출근거_2",
+      "content": "이 결론도출근거는 IAS 24 에 첨부되지만, 이 기준서의 일부를 구성하는 것\n\n은 아니다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "bc",
+        "para_number": null,
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_bc_BC1",
+      "parent_id": "KIFRS1024_bc_h_도입",
+      "content": "BC1 IASB 가 2003 년과 2009 년에 IAS 24 를 전면개정하기 위해 결론을\n\n도출하는 과정에서 고려한 사항을 이 ‘ 결론도출근거 ’ 에서 요약한\n\n다 . IASB 위원들은 개인에 따라 일부 사항을 다른 사항들보다 더\n\n비중 있게 고려하였다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "bc",
+        "para_number": "BC1",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_bc_BC2",
+      "parent_id": "KIFRS1024_bc_h_도입",
+      "content": "BC2 2001 년 7 월에 IASB 의 최초 의제의 하나로서 IAS 24 를 포함한 일\n\n부 기준서의 개선 과제를 수행할 것이라고 발표하였다 . 이 과제는\n\n증권감독기구, 전문 회계사 및 기타 이해관계자들이 기준서와 관\n\n련하여 제기한 질문과 비판을 고려하여 수행되었다 . 이러한 ‘ 개선\n\n과제 ’ 의 목적은 대체적 회계처리, 중복되는 사항 및 기준서 간에\n\n상충되는 내용을 감소시키거나 제거하고, 정합화 문제를 다루며,\n\n그 밖의 사항을 개선하는 데 있었다 . 2002 년 5 월에 IASB 는 2002\n\n년 9 월 16 일을 외부검토의견제출 마감일로 하여 IAS 연차개선\n\n(ImprovementstoInternationalAccountingStandards) 공개초안을 발\n\n표하였고 공개초안과 관련하여 160 여개의 외부검토의견서를 받았\n\n다 . 의견을 검토한 후 IASB 는 2003 년 12 월에 IAS 24 의 개정안을\n\n공표하였다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "bc",
+        "para_number": "BC2",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_bc_BC3",
+      "parent_id": "KIFRS1024_bc_h_도입",
+      "content": "BC3 2007 년 2 월에 IASB 는 다음 사항을 제안하는 공개초안 ‘ 국가지배\n\n대상기업과 특수관계자의 정의 (State-controlled Entities and the\n\nDefinitionofaRelatedParty)’ 를 발행하였다 .\n\n⑴ 국가에 의해 지배되거나, 공동지배되거나, 유의적인 영향을 받\n\n                 - 33\n\n는 기업 (‘ 국가지배대상기업들 [1)] ’) 간의 거래에 대한 IAS 24 의\n\n공시 요구사항의 면제\n\n⑵ 특수관계자 정의의 개정",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "bc",
+        "para_number": "BC3",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_bc_BC4",
+      "parent_id": "KIFRS1024_bc_h_도입",
+      "content": "BC4 IASB 는 2007 년 공개초안에 대하여 72 개의 외부검토의견서를 수령\n\n하였다 . IASB 는 외부의견을 고려한 후 2008 년 12 월에 개정 제안\n\n을 담은 공개초안 ‘ 국가와의 관계 (Relationships with the State)’ 를\n\n발행하였다 . 2008 년 공개초안에서는\n\n⑴ 국가지배대상기업에 대해 개정된 제안을 제시하였고\n\n⑵ 특수관계자의 정의에 대해 추가적인 개정을 제안하였다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "bc",
+        "para_number": "BC4",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_bc_BC5",
+      "parent_id": "KIFRS1024_bc_h_도입",
+      "content": "BC5 IASB 는 2008 년 공개초안에 대하여 75 개의 외부검토의견서를 수령\n\n하였다 . 외부의견을 검토한 후 IASB 는 2009 년 11 월에 IAS 24 를\n\n개정 ⋅ 공표하였다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "bc",
+        "para_number": "BC5",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_bc_BC6",
+      "parent_id": "KIFRS1024_bc_h_도입",
+      "content": "BC6 IASB 의 의도는 IAS 24 가 정한 특수관계자 공시에 대한 근본적인\n\n접근방법을 재고하는 것이 아니었으므로, 이 ‘ 결론도출근거 ’ 에서는\n\nIAS 24 와 관련하여 다음의 요구사항에 대해서만 논의한다 .\n\n⑴ 경영진 보상 ( 문단 BC7~BC10)\n\n⑵ 별도재무제표에서의 특수관계자 공시 ( 문단 BC11~BC17)\n\n⑶ 특수관계자의 정의 ( 문단 BC18~BC32)\n\n⑷ 정부특수관계기업 ( 문단 BC33~BC48)\n\n⑸ 2009 년에 이루어진 기타 변경사항 ( 문단 BC49)",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "bc",
+        "para_number": "BC6",
+        "cross_refs": [
+          "BC10",
+          "BC11",
+          "BC17",
+          "BC18",
+          "BC32",
+          "BC33",
+          "BC48",
+          "BC49",
+          "BC7"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_bc_BC7",
+      "parent_id": "KIFRS1024_bc_h_경영진_보상",
+      "content": "BC7 1984 년 IASB 의 전신에 의하여 공표된 IAS 24 에서는 주요 경영진\n\n보상의 공시에 관하여 면제규정을 두지 않았다 . 2002 년 공개초안\n\n을 작성하면서 IASB 는 다음과 같은 이유로 정상영업활동의 일환\n\n으로 지급되는 경영진 보상, 업무수당 및 이와 유사한 항목의 공\n\n1) 2009 년 IASB 는 IAS 24 의 개정을 마무리하면서 ‘ 국가 (state)' 를 ’ 정부 (government)' 로 대체하였다 .\n\n                 - 34\n\n시를 요구하지 않는 것이 적절하다고 제안하였다 .\n\n⑴ 일부 국가에서는 주요 경영진 보상을 승인하는 절차가 있기\n\n때문에 특수관계자 공시를 할 이유가 없어진다 .\n\n⑵ 재무제표 공시 외에 책임을 묻는 다른 방법이 존재하는 일부\n\n국가의 경우 개인비밀침해 문제가 제기된다 .\n\n⑶ ‘ 주요경영진 ’ 과 ‘ 보상 ’ 의 결정에 비중을 둔 이러한 공시요구는\n\n논란의 여지가 있었다 . 더욱이 모든 형태의 보상에 대한 측정\n\n규정이 제시될 때까지는 이러한 공시는 비교가능하지 않을 수\n\n도 있다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "bc",
+        "para_number": "BC7",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "sentences": [
+          "BC7 1984 년 IASB 의 전신에 의하여 공표된 IAS 24 에서는 주요 경영진",
+          "보상의 공시에 관하여 면제규정을 두지 않았다 .",
+          "2002 년 공개초안",
+          "을 작성하면서 IASB 는 다음과 같은 이유로 정상영업활동의 일환",
+          "으로 지급되는 경영진 보상, 업무수당 및 이와 유사한 항목의 공",
+          "1) 2009 년 IASB 는 IAS 24 의 개정을 마무리하면서 ‘ 국가 (state)' 를 ’ 정부 (government)' 로 대체하였다 .",
+          "-",
+          "34",
+          "시를 요구하지 않는 것이 적절하다고 제안하였다 .",
+          "⑴",
+          "일부 국가에서는 주요 경영진 보상을 승인하는 절차가 있기",
+          "때문에 특수관계자 공시를 할 이유가 없어진다 .",
+          "⑵",
+          "재무제표 공시 외에 책임을 묻는 다른 방법이 존재하는 일부",
+          "국가의 경우 개인비밀침해 문제가 제기된다 .",
+          "⑶",
+          "‘ 주요경영진 ’ 과 ‘ 보상 ’ 의 결정에 비중을 둔 이러한 공시요구는",
+          "논란의 여지가 있었다 .",
+          "더욱이 모든 형태의 보상에 대한 측정",
+          "규정이 제시될 때까지는 이러한 공시는 비교가능하지 않을 수",
+          "도 있다 ."
+        ]
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_bc_BC8",
+      "parent_id": "KIFRS1024_bc_h_경영진_보상",
+      "content": "BC8 하지만, 일부 의견제출자들은 경영진 보상 관련 정보는 이용자의\n\n정보요구와 관련성이 있으며 ‘ 정상영업활동에서 지급된 항목 ’ 이라\n\n는 이유로 인한 면제규정은 남용될 수 있으므로 2002 년 공개초안\n\n의 면제규정에 반대하였다 . 용어에 대한 정의 없이 이러한 기준에\n\n기초하여 공시 면제규정을 정하는 것은 모든 거래가 ‘ 기업의 정상\n\n영업활동에서 지급되는 보상 ’ 으로 설계될 수 있기 때문에 경영진\n\n과 관련하여 공시되어야 하는 다른 거래도 공시가 면제될 수 있\n\n다 . 의견제출자들은 이러한 면제규정은 경영진과 관련된 어떤 거\n\n래에도 잠재적으로 적용될 수 있기 때문에 남용될 수 있다고 주\n\n장하였다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "bc",
+        "para_number": "BC8",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_bc_BC9",
+      "parent_id": "KIFRS1024_bc_h_경영진_보상",
+      "content": "BC9 IASB 는 2002 년 공개초안에 대한 의견제출자들의 관점을 받아들\n\n여, 다음과 같은 이유로 주요 경영진 보상에 관한 공시를 요구하\n\n기로 결정하였다 .\n\n⑴ IAS 24 요구사항의 기본 원칙은, 특수관계자거래는 공시되어\n\n야 하며 주요 경영진은 기업의 특수관계자라는 점에 있다 .\n\n⑵ 주요 경영진 보상은 그 금액이 중요할 경우 재무제표이용자의\n\n의사결정과 관련된다 . 보상의 구조와 금액은 사업전략을 실행\n\n하기 위한 주요 동인이다 .\n\n⑶ 모든 형태의 보상에 대하여 인식과 측정 요구사항이 존재하지\n\n                 - 35\n\n않아 야기될 수 있는 비교가능성의 저하보다는 재무제표이용\n\n자에게 제공되는 이러한 정보의 효익이 훨씬 더 크다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "bc",
+        "para_number": "BC9",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_bc_BC10",
+      "parent_id": "KIFRS1024_bc_h_경영진_보상",
+      "content": "BC10 IASB 는 일부 국가에서는 주요경영진에 대한 보상이 독립된 당사\n\n자간 거래라는 것을 확인하기 위한 승인 과정을 가지고 있지만,\n\n다른 국가에서는 그러한 승인과정이 없다고 생각한다 . 더구나 주\n\n주 또는 투자자와 같은 다른 당사자가 경영진 보상의 승인 과정\n\n에 참여한다 하더라도, 여전히 주요 경영진은 중대한 영향력이 있\n\n을 수 있다 . 나아가 주요 경영진 보상의 공시는 투명성과 비교가\n\n능성을 향상시키고, 이에 따라 재무제표이용자는 그러한 보상이\n\n기업의 재무상태와 당기순손익에 미치는 영향을 보다 잘 평가할\n\n수 있다고 보았다 . 또한 IASB 는 주요 경영진에 대한 정의와 IAS\n\n19 에서 제시된 보상에 대한 지침은 기업이 관련 정보를 공시하도\n\n록 하는 데 충분한 내용을 제공한다고 보았다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "bc",
+        "para_number": "BC10",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_bc_BC11",
+      "parent_id": "KIFRS1024_bc_h_별도재무제표에서의_특수관계자_공시",
+      "content": "BC11 1984 년 IASB 의 전신에 의하여 공표된 IAS 24 는 다음의 재무제표\n\n에서 특수관계자거래에 관한 공시를 면제했었다 .\n\n⑴ 연결재무제표와 함께 이용가능하거나 공표되는 지배기업의 재\n\n무제표\n\n⑵ 지배기업이 종속기업과 같은 국가에서 설립되고 그 국가에서\n\n연결재무제표를 제공하는 경우, 전부소유종속기업의 재무제표",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "bc",
+        "para_number": "BC11",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_bc_BC12",
+      "parent_id": "KIFRS1024_bc_h_별도재무제표에서의_특수관계자_공시",
+      "content": "BC12 2002 년 공개초안에서 IASB 는 지배기업의 별도재무제표와 전부소\n\n유종속기업의 재무제표에 대해서는 특정한 상황에서 특수관계자\n\n에 관한 공시를 계속하여 면제할 것을 제안하였다 . 공개초안은 지\n\n배기업의 별도재무제표 또는 전부소유종속기업의 재무제표가 연\n\n결실체의 연결재무제표와 함께 이용가능하거나 공표된다면, 특수\n\n관계자 거래와 채권    - 채무 잔액의 공시는 요구하지 않을 것을 제안\n\n하였다 .\n\n                 - 36",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "bc",
+        "para_number": "BC12",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_bc_BC13",
+      "parent_id": "KIFRS1024_bc_h_별도재무제표에서의_특수관계자_공시",
+      "content": "BC13 IASB 가 이러한 면제규정을 유지하기로 제안함으로써 연결실체의\n\n연결재무제표에 추가하여 IFRS 에 따른 일반목적의 재무제표를 법\n\n에 의하여 작성해야 하는 기업은 과도한 부담을 갖지 않게 되었\n\n다 . IASB 는 어떤 상황에서는 이용자가 종속기업에 관해 그 기업\n\n의 재무제표 또는 연결실체의 연결재무제표로부터 자신의 목적에\n\n충분한 정보를 입수할 수 있다고 보았다 . 더욱이 종속기업의 재무\n\n제표이용자는 종종 더 많은 정보를 갖고 있거나 그러한 정보에\n\n접근할 수 있다 . 또한 IASB 는 전부소유종속기업의 재무제표에 인\n\n식된 금액은 지배기업과의 관계에 의해서 유의적으로 영향을 받\n\n을 수 있다는 것을 이용자가 알고 있어야 한다고 보았다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "bc",
+        "para_number": "BC13",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_bc_BC14",
+      "parent_id": "KIFRS1024_bc_h_별도재무제표에서의_특수관계자_공시",
+      "content": "BC14 그러나 2002 년 공개초안의 이러한 면제규정에 반대하는 의견제출\n\n자들은, 특수관계자에 의해 제공되는 지원의 수준을 알 필요가 있\n\n는 외부 이용자에게 있어서 특수관계자 거래와 채권    - 채무 잔액의\n\n공시는 필수적인 정보라는 것을 근거로 들고 있다 . 또한 이들은\n\nIFRS 에 따라 작성된 재무제표는 기업마다 독립적인 기준에 따라\n\n제시될 수 있다고 주장하였다 . 따라서 여기서 제시된 면제규정에\n\n근거하여 작성된 재무제표는 특수관계자 공시 없이는 공정한 표\n\n시가 될 수 없을 것이다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "bc",
+        "para_number": "BC14",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_bc_BC15",
+      "parent_id": "KIFRS1024_bc_h_별도재무제표에서의_특수관계자_공시",
+      "content": "BC15 IASB 는 이와 같은 주장을 받아들여 지배기업, 관계기업 투자자\n\n또는 공동기업 참여자의 별도재무제표에 IAS 27, IAS 28 [2)] 그리고\n\nIAS 31 [3)] 에서 요구하는 공시 요구사항에 추가하여, 특수관계자 거\n\n래와 채권ㆍ채무 잔액의 공시를 요구하기로 결정하였다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "bc",
+        "para_number": "BC15",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_bc_BC16",
+      "parent_id": "KIFRS1024_bc_h_별도재무제표에서의_특수관계자_공시",
+      "content": "BC16 IASB 는 연결실체의 일부인 기업의 재무제표에는 광범위한 연결실\n\n체 내부거래의 영향이 포함될 수 있다고 보았다 . 그러한 기업의\n\n2) 2011 년 5 월에 IASB 는 IAS 28 을 개정하였고 그 제목을 ‘ 관계기업과 공동기업에 대한 투자 ’ 로 변경\n\n하였다 .\n\n3) 2011 년 5 월에 발표된 제 1111 호 ‘ 공동약정 ’ 은 IAS 31 을 대체하였다 .\n\n                 - 37\n\n모든 수익과 비용은 잠재적으로 특수관계자거래로부터 나올 수도\n\n있다 . IASB 는 IAS 24 에서 요구하는 공시는 이러한 기업의 재무상\n\n태와 재무성과를 이해하는 데 필수적이므로 IAS 27 에 따라 작성\n\n되는 별도재무제표에 요구되어야 한다고 결정하였다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "bc",
+        "para_number": "BC16",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_bc_BC17",
+      "parent_id": "KIFRS1024_bc_h_별도재무제표에서의_특수관계자_공시",
+      "content": "BC17 또한 IASB 는 특수관계자가 제공한 지원의 수준을 포함하여 특수\n\n관계자간의 상호관계에 대해 알 필요가 있는 외부이용자가 경제\n\n적 결정을 함에 있어 도움을 주기 때문에 그러한 거래의 공시는\n\n필수적이라고 생각하였다",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "bc",
+        "para_number": "BC17",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_bc_BC18",
+      "parent_id": "KIFRS1024_bc_h_특수관계자의_정의",
+      "content": "BC18 IAS 24 의 특수관계자 정의는 지나치게 복잡하고 어려워서 실무에\n\n서 적용하기 어렵다고 일반적으로 생각되었다 . IASB 는 현재 특수\n\n관계자 정의에 약점이 있다는 것을 인식하였다 . 즉, 현재의 정의\n\n는 산만하고 여러 개의 상호참조를 포함하여 읽거나 번역하기 어\n\n렵게 되어 있다 . 따라서 2007 년과 2008 년 공개초안에서는 개정된\n\n정의를 제안하였다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "bc",
+        "para_number": "BC18",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_bc_BC19",
+      "parent_id": "KIFRS1024_bc_h_특수관계자의_정의",
+      "content": "BC19 정의를 개정하면서 IASB 는 다음의 접근방식을 취하였다 .\n\n⑴ 두 당사자가 특수관계에 있는지를 판단할 때, 기업은 유의적인\n\n영향력을 기업과 주요 경영진의 일원 간의 관계와 동등한 것\n\n으로 여긴다 . 하지만 이러한 관계는 지배나 공동지배 관계만큼\n\n가깝지는 않다 .\n\n⑵ 두 기업 모두 동일한 기업 또는 개인에 의하여 지배 ( 또는 공\n\n동지배 ) 되고 있다면, 그 두 기업은 서로 특수관계에 있다 .\n\n⑶ 한 기업 ( 또는 개인 ) 이 두 번째 기업을 지배 ( 또는 공동지배 ) 하\n\n고 있고 첫 번째 기업 ( 또는 개인 ) 이 세 번째 기업에 유의적인\n\n영향력이 있다면, 두 번째 기업과 세 번째 기업은 특수관계에\n\n있다 .\n\n⑷ 하지만 두 기업 모두 동일한 기업 ( 또는 개인 ) 에 의하여 유의적\n\n                 - 38\n\n인 영향을 받고 있다면, 두 기업은 서로 특수관계에 있지 않다 .\n\n⑸ 개정된 정의에 의하여 한 당사자를 두 번째 당사자와 특수관\n\n계로 본다면, 그 정의에 의하여 대칭적으로 두 번째 당사자도\n\n첫 번째 당사자와 특수관계인 것으로 보아야 한다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "bc",
+        "para_number": "BC19",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "sentences": [
+          "BC19 정의를 개정하면서 IASB 는 다음의 접근방식을 취하였다 .",
+          "⑴",
+          "두 당사자가 특수관계에 있는지를 판단할 때, 기업은 유의적인",
+          "영향력을 기업과 주요 경영진의 일원 간의 관계와 동등한 것",
+          "으로 여긴다 .",
+          "하지만 이러한 관계는 지배나 공동지배 관계만큼",
+          "가깝지는 않다 .",
+          "⑵",
+          "두 기업 모두 동일한 기업 또는 개인에 의하여 지배 ( 또는 공",
+          "동지배 ) 되고 있다면, 그 두 기업은 서로 특수관계에 있다 .",
+          "⑶",
+          "한 기업 ( 또는 개인 ) 이 두 번째 기업을 지배 ( 또는 공동지배 ) 하",
+          "고 있고 첫 번째 기업 ( 또는 개인 ) 이 세 번째 기업에 유의적인",
+          "영향력이 있다면, 두 번째 기업과 세 번째 기업은 특수관계에",
+          "있다 .",
+          "⑷",
+          "하지만 두 기업 모두 동일한 기업 ( 또는 개인 ) 에 의하여 유의적",
+          "- 38",
+          "인 영향을 받고 있다면, 두 기업은 서로 특수관계에 있지 않다 .",
+          "⑸",
+          "개정된 정의에 의하여 한 당사자를 두 번째 당사자와 특수관",
+          "계로 본다면, 그 정의에 의하여 대칭적으로 두 번째 당사자도",
+          "첫 번째 당사자와 특수관계인 것으로 보아야 한다 ."
+        ]
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_bc_BC20",
+      "parent_id": "KIFRS1024_bc_h_특수관계자의_정의",
+      "content": "BC20 새로운 정의는 문단 BC21~BC26 에서 상세하게 설명하고 있는 세\n\n가지 관점을 제외하고 특수관계자의 의미를 변경하려는 의도는\n\n아니다 . 2008 년 공개초안에서는 2007 년 공개초안의 용어정의에서\n\n의도하지 않게 누락된 사실을 추가하고 더 나아가 불일치를 제거\n\n( 문단 BC27~BC29) 하기 위하여 몇 가지 수정사항을 제안하였다 .\n\n2009 년에 개정을 마무리하면서 IASB 는 특수관계자의 정의에서\n\n‘ 유의적인 의결권 ’ 용어를 제거하였다 ( 문단 BC30 과 BC31).\n\n종속기업을 지배하는 투자자의 관계기업",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "bc",
+        "para_number": "BC20",
+        "cross_refs": [
+          "BC21",
+          "BC26",
+          "BC27",
+          "BC29",
+          "BC30",
+          "BC31"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_bc_BC21",
+      "parent_id": "KIFRS1024_bc_h_특수관계자의_정의",
+      "content": "BC21 IASB 는 먼저 관계기업과 이 관계기업에 유의적인 영향력이 있는\n\n투자자의 종속기업 사이의 관계에 대하여 고려하였다 . IASB 는 관\n\n계기업이 개별재무제표 또는 별도재무제표를 작성하는 경우, 그\n\n관계기업의 투자자를 특수관계자라고 보았다 . 그 관계기업의 투자\n\n자에게 종속기업이 있다면 그 종속기업은 관계기업에 유의적인\n\n영향력이 있는 연결실체의 부분이므로 그 종속기업 또한 관계기\n\n업과 특수관계에 있다 . IAS 24 의 2003 년 개정안의 정의에서 이러\n\n한 관계를 포함하고 있지만, IASB 는 개정된 정의에서 이러한 사\n\n항을 더욱 명확히 언급하여야 한다고 결론지었다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "bc",
+        "para_number": "BC21",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_bc_BC22",
+      "parent_id": "KIFRS1024_bc_h_특수관계자의_정의",
+      "content": "BC22 반대로 종속기업이 개별재무제표나 별도재무제표를 작성하는 경\n\n우, 종속기업을 지배하는 투자자의 관계기업은 IAS 24 의 2003 년\n\n개정안에 정의된 바에 따르면 특수관계자가 아니다 . 종속기업은\n\n관계기업에 대해 유의적인 영향력이 없을 뿐만 아니라 그 관계기\n\n업에 의하여 유의적인 영향도 받지 않는다 .\n\n                 - 39",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "bc",
+        "para_number": "BC22",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_bc_BC23",
+      "parent_id": "KIFRS1024_bc_h_특수관계자의_정의",
+      "content": "BC23 그러나 IASB 는 문단 BC21 에서 언급된 당사자들이 특수관계에 있\n\n는 것과 동일한 이유로 문단 BC22 에서 언급된 당사자들도 특수관\n\n계에 있다고 결정하였다 . 따라서 IASB 는 문단 BC22 에서 논의된\n\n관계를 포함하도록 특수관계자의 정의를 개정하였다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "bc",
+        "para_number": "BC23",
+        "cross_refs": [
+          "BC21",
+          "BC22"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_bc_BC24",
+      "parent_id": "KIFRS1024_bc_h_특수관계자의_정의",
+      "content": "BC24 나아가 IASB 는 문단 BC21 과 BC22 에 기술된 상황에서 투자자가\n\n한 기업에 유의적인 영향력이 있고 다른 기업에 지배력 또는 공\n\n동지배력이 있는 개인일 경우, 두 기업이 특수관계임을 결론짓는\n\n것을 정당화하기 위한 충분한 영향력이 있다고 결정하였다 .\n\n한 개인의 두 관계기업",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "bc",
+        "para_number": "BC24",
+        "cross_refs": [
+          "BC21",
+          "BC22"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_bc_BC25",
+      "parent_id": "KIFRS1024_bc_h_특수관계자의_정의",
+      "content": "BC25 두 번째로 IASB 는 투자자의 관계기업들 사이의 관계에 대하여 고\n\n려하였다 . IAS 24 에서는 투자자가 기업인 경우 관계기업들이 서로\n\n특수관계에 있다고 정의하지 않는다 . 이는 두 관계기업에 평범한\n\n투자를 통해서는 충분한 영향력이 없기 때문이다 . 그러나 IASB 는\n\n한 개인이 어떤 기업에 유의적인 영향력이 있고 그 개인의 가까\n\n운 가족이 다른 기업에 유의적인 영향력이 있는 경우 그 기업들\n\n을 서로 특수관계자로 다루고 있는 것은 모순이라고 보았다 .\n\nIASB 는 후자의 경우에서 기술된 기업들을 특수관계자 정의에서\n\n제외하도록 개정함으로써 관계기업들의 처리에 일관성을 기하도\n\n록 하였다 .\n\n주요 경영진의 일원의 투자",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "bc",
+        "para_number": "BC25",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_bc_BC26",
+      "parent_id": "KIFRS1024_bc_h_특수관계자의_정의",
+      "content": "BC26 세 번째로 IAS 24 에서 보고기업의 주요 경영진이 투자하고 있는\n\n일부 피투자기업은 그 보고기업과 특수관계에 있는 것으로 간주\n\n한다 . 그러나 IAS 24 의 2003 년 개정안의 정의에서는 이것과 상호\n\n대응하는 경우를 포함하지 않았다 . 예를 들어, 피투자기업의 재무\n\n                 - 40\n\n제표에, 주요 경영진에 의해 관리되는 다른 기업을 특수관계자로\n\n보지 않았다 . 이러한 불일치를 해소하기 위하여 IASB 는 정의를\n\n개정하여 두 기업의 모든 재무제표에서 두 기업은 특수관계자로\n\n보았다 .\n\n공동지배",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "bc",
+        "para_number": "BC26",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_bc_BC27",
+      "parent_id": "KIFRS1024_bc_h_특수관계자의_정의",
+      "content": "BC27 2007 공개초안의 의견제출자들은 IAS 24 의 변경사항으로서 재구\n\n성된 정의에서 명시적인 언급 없이 한 가지 경우가 제외되었다고\n\n지적하였다 . 개인이 보고기업에 공동지배력이 있고 그 개인의 가\n\n까운 가족이 다른 기업에 공동지배력이나 유의적인 영향력이 있\n\n는 경우, IAS 24 의 2003 년 개정안에서는 그 다른 기업과 보고기업\n\n사이를 특수관계가 있는 것으로 정의하였다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "bc",
+        "para_number": "BC27",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_bc_BC28",
+      "parent_id": "KIFRS1024_bc_h_특수관계자의_정의",
+      "content": "BC28 IASB 는 일반적으로 공동지배력이 유의적인 영향력보다 더 강한\n\n영향으로 보았다 . 따라서 IASB 는 문단 BC27 에 기술된 관계를 특\n\n수관계자로 계속 다루어져야 한다고 결론지었다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "bc",
+        "para_number": "BC28",
+        "cross_refs": [
+          "BC27"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_bc_BC29",
+      "parent_id": "KIFRS1024_bc_h_특수관계자의_정의",
+      "content": "BC29 IAS 24 의 2003 개정안의 정의에서는 문단 BC27 에 기술된 경우와\n\n상호 대응되는 경우를 포함하지 않았고, 개인이나 제 3 의 기업이\n\n두 기업에 대해 공동지배력이나 유의적인 영향력이 있는 경우를\n\n다루지 않았다 . 2007 년 공개초안에 제안된 정의에는 이러한 누락\n\n이 수정되지 않았다 . IASB 는 이러한 경우를 정의에 포함하여 유\n\n사한 관계를 일관된 방식으로 다루기로 결정하였다 . 요약하면, 개\n\n인이나 기업들 모두 두 번째 기업에 공동지배력이 있고 세 번째\n\n기업에 공동지배력 또는 유의적인 영향력이 있는 경우 이 문단과\n\n문단 BC27 에 기술된 개정사항에 따라 두 번째 기업과 세 번째 기\n\n업은 서로 특수관계자로 본다 .\n\n유의적인 의결권 의 제거\n\n                 - 41",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "bc",
+        "para_number": "BC29",
+        "cross_refs": [
+          "BC27"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_bc_BC30",
+      "parent_id": "KIFRS1024_bc_h_특수관계자의_정의",
+      "content": "BC30 2007 년과 2008 년 공개초안에 대한 의견제출자들은 특수관계자의\n\n정의에서 ‘ 유의적인 의결권 ’ 이란 용어에 대한 우려를 나타내었다 .\n\n그들은 용어의 사용에서 가령 유의적인 의결권을 기업이 아닌 개\n\n인이 보유하는 경우에만 그 의결권으로 특수관계가 형성된다는\n\n것과 같은 변칙적인 사항을 식별하였다 . 더 나아가, 제 3 자가 한\n\n기업의 주요 경영진의 일원이고 다른 기업에 유의적인 의결권을\n\n보유하고 있을 때 두 기업이 서로 특수관계자로 분류하면서, 제 3\n\n자가 두 기업에 대하여 유의적인 의결권을 보유하고 있는 경우\n\n특수관계로 보지 않기 때문에 또한 변칙적인 사항이 발생한다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "bc",
+        "para_number": "BC30",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_bc_BC31",
+      "parent_id": "KIFRS1024_bc_h_특수관계자의_정의",
+      "content": "BC31 이러한 외부의견에 대하여 IASB 는 ‘ 유의적인 의결권 ’ 이 정의되지\n\n않았고 일관되지 않게 사용되었으며 불필요한 복잡성을 야기하였\n\n으므로 이에 대한 언급을 삭제하였다 . IASB 는 ‘ 유의적인 의결권 ’\n\n의 효과가 ‘ 유의적인 영향력 ’ 과 동일하다는 것을 고려할 경우, 정\n\n의에 ‘ 유의적인 영향력 ’ 이 있으므로 ‘ 유의적인 의결권 ’ 을 삭제하여\n\n도 영향이 없을 것으로 결론지었다 . 한편 ‘ 유의적인 의결권 ’ 의 효\n\n과가 ‘ 유의적인 영향력 ’ 과 다르다고 고려될 경우에 대하여 IAS 24\n\n에서는 그 차이에 대해 설명하지 않았다 .\n\n특수관계자 정의에 대한 기타 변경사항",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "bc",
+        "para_number": "BC31",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_bc_BC32",
+      "parent_id": "KIFRS1024_bc_h_특수관계자의_정의",
+      "content": "BC32 2009 년에 이루어진 IAS 24 개정사항에는 다음의 기타 변경사항을\n\n포함한다 .\n\n⑴ 특수관계자 정의를 다음과 같이 개정하였다 .\n\n㈎ ‘individual’ 을 ‘person’ 으로 대체하였다 .\n\n㈏ 관계기업은 그 관계기업의 종속기업을 포함하며 공동기업\n\n은 그 공동기업의 종속기업을 포함한다는 것을 명확히 규\n\n정하였다 .\n\n㈐ 단순히 한 기업의 주요 경영진의 일원이 다른 기업에 유의\n\n                 - 42\n\n적인 영향력이 있다는 것만으로 두 기업이 특수관계자인\n\n것은 아님을 명확하게 규정하였다 .\n\n⑵ 가까운 가족의 정의를 다음과 같이 개정하였다 .\n\n㈎ ‘individual’ 을 ‘person’ 으로 대체하였다 .\n\n㈏ 개인의 가까운 가족에는 그 개인의 배우자, 사실상의 배우\n\n자 그리고 자녀가 포함된다는 것을 명시하기 위하여 ‘~ 될\n\n수 있다 ' 라는 문구를 삭제하였다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "bc",
+        "para_number": "BC32",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_bc_BC33",
+      "parent_id": "KIFRS1024_bc_h_정부특수관계기업",
+      "content": "BC33 2003 년 개정 전의 IAS 24 에서는 국가지배대상기업이 다른 국가지\n\n배대상기업과의 거래를 공시하도록 요구하지 않았다 . IASB 는 이\n\n러한 공시요구사항이 국가지배대상기업들에게 부담이 되지 않는\n\n다고 결론지었고 이에 따라 이러한 면제규정이 생략되어 IAS 24\n\n가 2003 년에 개정 ⋅ 공표되었다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "bc",
+        "para_number": "BC33",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_bc_BC34",
+      "parent_id": "KIFRS1024_bc_h_정부특수관계기업",
+      "content": "BC34 이후 정부의 지배가 광범위한 상황에서 IAS 24 를 준수하는 것이\n\n문제가 될 수 있다는 우려가 제기되었다 . 이러한 우려를 다루기\n\n위하여 2007 년 공개초안에서는 정부특수관계기업을 위하여 현재\n\nIAS 24 문단 18 의 공시요구사항에 대한 면제규정을 제안하였다 .\n\n이 제안을 개발하면서 IASB 는 다음의 사항에 주목하였다 .\n\n⑴ 정부특수관계기업과 다른 정부특수관계기업을 식별하는 것이\n\n어려울 수 있는데, 특히 이러한 기업의 수가 많은 국가의 경우\n\n에는 더욱 그러하다 . 이러한 기업들은 그들이 거래하는 기업이\n\n자신과 특수관계자인지도 모를 수 있다 .\n\n⑵ 이러한 거래에 대해 IAS 24 의 요구사항을 이행하기 위한 원가\n\n가 재무제표이용자들을 위한 증가된 정보의 효익과 항상 상쇄\n\n되지는 않는다 . 더 구체적으로,\n\n㈎ 특수관계의 영향을 받지 않은 거래에 대해 광범위한 공시\n\n                 - 43\n\n가 요구된다 .\n\n㈏ 일부 기업이 다른 정부특수관계기업과 거래한 사실을 인지\n\n하지 못하는 경우 제공되는 공시는 불완전하다 .\n\n㈐ 특수관계의 영향을 받은 거래의 공시가 영향을 받지 않은\n\n거래에 대한 광범위한 공시로 인하여 가려질 수 있다 .\n\n⑶ 일부 정부기관은 기업간에 서로 경쟁시키기 위하여 종속기업,\n\n공동기업 및 관계기업을 설립한다 . 이러한 경우, 이러한 기업\n\n들 간의 거래는 마치 특수관계가 없는 것처럼 수행될 것이다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "bc",
+        "para_number": "BC34",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "sentences": [
+          "BC34 이후 정부의 지배가 광범위한 상황에서 IAS 24 를 준수하는 것이",
+          "문제가 될 수 있다는 우려가 제기되었다 .",
+          "이러한 우려를 다루기",
+          "위하여 2007 년 공개초안에서는 정부특수관계기업을 위하여 현재",
+          "IAS 24 문단 18 의 공시요구사항에 대한 면제규정을 제안하였다 .",
+          "이 제안을 개발하면서 IASB 는 다음의 사항에 주목하였다 .",
+          "⑴",
+          "정부특수관계기업과 다른 정부특수관계기업을 식별하는 것이",
+          "어려울 수 있는데, 특히 이러한 기업의 수가 많은 국가의 경우",
+          "에는 더욱 그러하다 .",
+          "이러한 기업들은 그들이 거래하는 기업이",
+          "자신과 특수관계자인지도 모를 수 있다 .",
+          "⑵",
+          "이러한 거래에 대해 IAS 24 의 요구사항을 이행하기 위한 원가",
+          "가 재무제표이용자들을 위한 증가된 정보의 효익과 항상 상쇄",
+          "되지는 않는다 .",
+          "더 구체적으로,",
+          "㈎ 특수관계의 영향을 받지 않은 거래에 대해 광범위한 공시",
+          "- 43",
+          "가 요구된다 .",
+          "㈏",
+          "일부 기업이 다른 정부특수관계기업과 거래한 사실을 인지",
+          "하지 못하는 경우 제공되는 공시는 불완전하다 .",
+          "㈐",
+          "특수관계의 영향을 받은 거래의 공시가 영향을 받지 않은",
+          "거래에 대한 광범위한 공시로 인하여 가려질 수 있다 .",
+          "⑶",
+          "일부 정부기관은 기업간에 서로 경쟁시키기 위하여 종속기업,",
+          "공동기업 및 관계기업을 설립한다 .",
+          "이러한 경우, 이러한 기업",
+          "들 간의 거래는 마치 특수관계가 없는 것처럼 수행될 것이다 ."
+        ]
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_bc_BC35",
+      "parent_id": "KIFRS1024_bc_h_정부특수관계기업",
+      "content": "BC35 2007 년 공개초안에 대한 의견제출자들은 대체적으로 정부특수관\n\n계기업에 대한 면제규정을 지지하였다 . 그러나 그들은 특정 제안\n\n의 복잡성에 대한 우려를 나타냈으며 IASB 가 이에 대한 다양한\n\n관점을 명확히 해줄 것을 요구하였다 . 수령된 모든 검토의견을 고\n\n려하여 IASB 는 2008 년 공개초안에 이러한 기업을 위한 개정된 면\n\n제규정을 제안하였다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "bc",
+        "para_number": "BC35",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_bc_BC36",
+      "parent_id": "KIFRS1024_bc_h_정부특수관계기업",
+      "content": "BC36 2008 년 공개초안에 대한 의견제출자들은 대체적으로 개정된 제안\n\n을 지지하였다 . 그러나 일부 의견제출자들은 면제규정이 다음 거\n\n래에 적용되어서는 안된다고 주장하였다 .\n\n⑴ 정부의 지배를 받는 연결실체 내의 구성원간의 거래 ( 문단\n\nBC37)\n\n⑵ 동일한 정부와의 관계로 인한 특수관계 이외의 다른 이유로\n\n인하여 특수관계에 있는 정부특수관계기업간의 거래 ( 문단\n\nBC38)",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "bc",
+        "para_number": "BC36",
+        "cross_refs": [
+          "BC37",
+          "BC38"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_bc_BC37",
+      "parent_id": "KIFRS1024_bc_h_정부특수관계기업",
+      "content": "BC37 일부 의견제출자들은 정부의 지배를 받는 연결실체 내의 구성원\n\n과의 거래, 예를 들어 정부특수관계기업과 그 지배기업 또는 그\n\n지배기업의 다른 종속기업간의 거래에 면제규정이 적용되어서는\n\n안된다고 생각하였다 . 이 의견제출자들은 그러한 연결실체 내의\n\n특수관계는 때때로 정부 지배가 광범위한 상황에서의 정부특수관\n\n                 - 44\n\n계기업들간의 관계보다 더 영향이 있을 수 있다는 점에 주목하였\n\n다 . 그러나 다음의 이유로 IASB 는 그러한 연결실체 내에도 면제\n\n규정이 적용되어야 한다고 결론을 내렸다 .\n\n⑴ 때에 따라 그러한 경우에 공시를 요구하는 것은 면제규정의\n\n목적을 훼손하며 특수관계 및 거래의 실질이 매우 유사할 수\n\n있는 경우에 공시 수준에 유의적인 차이를 야기할 수 있다 . 예\n\n를 들어, 어떤 정부는 모든 기업을 직접 지배하고 다른 정부는\n\n유사한 기업들 모두를 하나의 지주회사를 통해 지배한다고 가\n\n정했을 때, 전자의 정부의 지배를 받는 기업 모두는 면제규정\n\n을 적용받을 수 있지만 후자의 정부의 지배를 받는 기업들은\n\n그러하지 못하다 .\n\n⑵ 그러한 경우에 공시를 요구하는 것은 정부와 정부의 지배를\n\n받는 기업사이의 경계에 대한 정의를 어렵게 만든다 . 예를 들\n\n어, 어떤 정부가 매개 기관을 통하여 기업을 지배한다고 가정\n\n하면, 이 기관이 정부의 지배를 받는 기업인지 ( 그러하다면 면\n\n제규정이 적용되지 않는다 ) 아니면 정부의 한 부분인지 ( 그러하\n\n다면 면제규정이 적용된다 ) 를 결정할 필요가 있다 . 만일 그 기\n\n관이 일반적인 회사법에 의해 설립되어 단순히 정부가 지배주\n\n주가 된 기업이라면 쉽게 답할 수 있다 . 그러나 만약 그 기관\n\n이, 예를 들어, 정부기관이거나 정부부처일 경우 명확하지 않\n\n을 수 있다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "bc",
+        "para_number": "BC37",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "sentences": [
+          "BC37 일부 의견제출자들은 정부의 지배를 받는 연결실체 내의 구성원",
+          "과의 거래, 예를 들어 정부특수관계기업과 그 지배기업 또는 그",
+          "지배기업의 다른 종속기업간의 거래에 면제규정이 적용되어서는",
+          "안된다고 생각하였다 .",
+          "이 의견제출자들은 그러한 연결실체 내의",
+          "특수관계는 때때로 정부 지배가 광범위한 상황에서의 정부특수관",
+          "- 44",
+          "계기업들간의 관계보다 더 영향이 있을 수 있다는 점에 주목하였",
+          "다 .",
+          "그러나 다음의 이유로 IASB 는 그러한 연결실체 내에도 면제",
+          "규정이 적용되어야 한다고 결론을 내렸다 .",
+          "⑴",
+          "때에 따라 그러한 경우에 공시를 요구하는 것은 면제규정의",
+          "목적을 훼손하며 특수관계 및 거래의 실질이 매우 유사할 수",
+          "있는 경우에 공시 수준에 유의적인 차이를 야기할 수 있다 .",
+          "예",
+          "를 들어, 어떤 정부는 모든 기업을 직접 지배하고 다른 정부는",
+          "유사한 기업들 모두를 하나의 지주회사를 통해 지배한다고 가",
+          "정했을 때, 전자의 정부의 지배를 받는 기업 모두는 면제규정",
+          "을 적용받을 수 있지만 후자의 정부의 지배를 받는 기업들은",
+          "그러하지 못하다 .",
+          "⑵",
+          "그러한 경우에 공시를 요구하는 것은 정부와 정부의 지배를",
+          "받는 기업사이의 경계에 대한 정의를 어렵게 만든다 .",
+          "예를 들",
+          "어, 어떤 정부가 매개 기관을 통하여 기업을 지배한다고 가정",
+          "하면, 이 기관이 정부의 지배를 받는 기업인지 ( 그러하다면 면\n\n제규정이 적용되지 않는다 ) 아니면 정부의 한 부분인지 ( 그러하\n\n다면 면제규정이 적용된다 ) 를 결정할 필요가 있다 .",
+          "만일 그 기",
+          "관이 일반적인 회사법에 의해 설립되어 단순히 정부가 지배주",
+          "주가 된 기업이라면 쉽게 답할 수 있다 .",
+          "그러나 만약 그 기관",
+          "이, 예를 들어, 정부기관이거나 정부부처일 경우 명확하지 않",
+          "을 수 있다 ."
+        ]
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_bc_BC38",
+      "parent_id": "KIFRS1024_bc_h_정부특수관계기업",
+      "content": "BC38 IASB 는 정부특수관계기업들이 동일한 정부와 특수관계에 있다는\n\n것 이외의 이유로 서로 특수관계가 될 수 있는 유일한 경우를 발\n\n견하였다 . 그것은 정부가 퇴직급여제도와 그 제도의 책임사용자\n\n모두를 지배할 수 있는 경우이다 . 그러나 그러한 제도와 그 제도\n\n의 책임사용자 간의 주요 거래는 ⑴ 사용자의 기여금과 ⑵ 제도\n\n의 사용자에 대한 투자 또는 사용자가 사용하는 자산에 대한 투\n\n자이다 . IAS 19 는 이미 책임사용자에게 IAS 24 의 면제규정을 적\n\n용하지 않는다면 IAS 24 의 정보를 전부는 아닐지라도 대부분 공\n\n                 - 45\n\n시하도록 요구하고 있다 . 따라서 IASB 는 이러한 경우에 면제규정\n\n을 적용함으로써 공시의 유의적인 누락은 발생하지 않을 것이라\n\n고 결론지었다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "bc",
+        "para_number": "BC38",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_bc_BC39",
+      "parent_id": "KIFRS1024_bc_h_정부특수관계기업",
+      "content": "BC39 문단 BC34 에는 IASB 가 정부특수관계기업에 대하여 IAS 24 문단\n\n18 의 공시요구사항에 대한 면제규정을 둔 이유가 설명되었다 . 유\n\n사한 면제규정이 다른 상황에서 적절한지에 대한 고려는 이 프로\n\n젝트의 범위를 벗어난다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "bc",
+        "para_number": "BC39",
+        "cross_refs": [
+          "BC34"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_bc_BC40",
+      "parent_id": "KIFRS1024_bc_h_정부특수관계기업",
+      "content": "BC40 2008 년 공개초안에 대한 일부 의견제출자들은 국제적인 금융위기\n\n를 겪으면서 정부가 금융기관의 지분을 유의적이고 때로는 지배\n\n하는 정도로 취득하면서 많은 금융기관이 최근에 정부특수관계기\n\n업이 되었다는 점에 주목하였다 . 그들은 면제규정이 이러한 경우\n\n에도 적절한지에 대하여 문의하였다 . 2009 년 개정을 마무리하며\n\nIASB 는 그러한 기업들을 다른 정부지배기업과 다르게 회계처리할\n\n근거를 발견하지 못하였다 . IASB 는 IAS 24 의 공시요구사항에 추\n\n가하여 보고기업에게 IAS 20 ‘ 정부보조금의 회계처리와 정부지원\n\n의 공시 ’ 에 따라 정부보조금 또는 정부지원을 받았다는 정보에 대\n\n한 공시를 요구하고 있는 점에 주목하였다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "bc",
+        "para_number": "BC40",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_bc_BC41",
+      "parent_id": "KIFRS1024_bc_h_정부특수관계기업",
+      "content": "BC41 2008 년 공개초안에 대한 의견제출자들은 제안된 국가 (‘state') 의 정\n\n의가 IAS 20 의 정부 (’government') 의 정의와 유사하다고 보았다 .\n\n혼란을 피하고 일관성을 유지하기 위하여 IASB 는 2009 년 IAS 24\n\n의 개정사항을 마무리할 때 후자의 정의를 채택하였다 . IASB 는\n\n‘ 정부 ’ 가 의미하는 것이 무엇인지를 결정하는 방법에 대한 더욱\n\n포괄적인 정의 또는 추가적인 지침을 제공할 필요는 없다고 결정\n\n하였다 . IASB 의 관점에서 더욱 자세한 정의는 모든 국가\n\n(jurisdiction) 에 걸쳐, 생각할 수 있는 모든 정부형태를 포함할 수\n\n없다고 보았다 . 또한 모든 국가 (jurisdiction) 가 정부관련 활동을\n\n규정하는 그들만의 방식이 있으므로 이 정의를 적용할 때 보고기\n\n                 - 46\n\n업의 판단이 요구된다 .\n\n면제규정이 적용되는 경우 공시요구사항 문단",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "bc",
+        "para_number": "BC41",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_bc_BC42",
+      "parent_id": "KIFRS1024_bc_h_정부특수관계기업",
+      "content": "BC42 IASB 는 문단 26 의 공시요구사항이 다음의 모든 사항에 해당하는\n\n지를 고려하였다 .\n\n⑴ IAS 24 의 목적에 부합 ( 문단 BC43~BC46)\n\n⑵ 실행가능성 ( 문단 BC47 과 BC48)",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "bc",
+        "para_number": "BC42",
+        "cross_refs": [
+          "BC43",
+          "BC46",
+          "BC47",
+          "BC48"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_bc_BC43",
+      "parent_id": "KIFRS1024_bc_h_정부특수관계기업",
+      "content": "BC43 IAS 24 의 목적은 ‘ 특수관계자의 존재, 특수관계자와의 거래 및 약\n\n정을 포함한 채권 ･ 채무 잔액이 기업의 재무상태와 당기순손익에\n\n영향을 미쳤을 가능성에 주의를 기울이도록 필요한 공시사항 ’ 을\n\n제공하는 데 있다 . 이러한 목적을 충족시키기 위하여 문단 26 에서\n\n는 면제규정을 적용할 때 일부 공시사항을 요구하고 있다 . 이러한\n\n공시사항은 특수관계자 거래가 발생하였다는 것과 그 정도를 알\n\n리기 위한 의도이다 . IASB 는 보고기업이 모든 정부특수관계기업\n\n을 식별하거나 그러한 기업과의 모든 거래를 자세히 정량화할 것\n\n을 의도한 것은 아니다 . 왜냐하면 그러한 요구사항은 면제규정을\n\n무효화하기 때문이다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "bc",
+        "para_number": "BC43",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_bc_BC44",
+      "parent_id": "KIFRS1024_bc_h_정부특수관계기업",
+      "content": "BC44 2008 년 공개초안에 대한 일부 의견제출자들은 개별적으로 유의적\n\n인 특수관계자거래에 대한 정성적인 공시만으로는 IAS 24 의 목적\n\n을 달성할 수 없고 개별적으로 유의적인 거래와 집합적으로 유의\n\n적인 거래의 통합은 충분한 투명성을 제공하지 못한다는 우려를\n\n제기하였다 . IASB 는 기업이 다음의 사항을 공시하여야 한다고 결\n\n론지었다 .\n\n⑴ 개별적으로 유의적인 각 거래의 성격과 금액\n\n⑵ 개별적으로 유의적이진 않지만 집합적으로 유의적인 그 밖의\n\n거래형태에 대한 정성적이고 정량적인 정보\n\n                 - 47",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "bc",
+        "para_number": "BC44",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_bc_BC45",
+      "parent_id": "KIFRS1024_bc_h_정부특수관계기업",
+      "content": "BC45 IASB 는 보고기업에 대한 이런 요구사항이 다음과 같은 이유로 지\n\n나치게 부담되지는 않아야 한다고 보았다 .\n\n⑴ 개별적으로 유의적인 거래는, 수적으로, 전체 특수관계자 거래\n\n의 작은 일부이다 .\n\n⑵ 보고기업은 그러한 거래가 무엇인지 알아야 한다 .\n\n⑶ 그러한 항목을 예외적으로 보고할 때 원가   - 효익의 문제를 고려\n\n한다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "bc",
+        "para_number": "BC45",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_bc_BC46",
+      "parent_id": "KIFRS1024_bc_h_정부특수관계기업",
+      "content": "BC46 IASB 는 또한 개별적으로 유의적인 거래에 대한 더 많은 공시가\n\nIAS 24 의 목적에 더 부합한다고 보았다 . 왜냐하면 이러한 접근방\n\n식은 그러한 거래의 성격과 규모를 통해 이용자에게 더욱 관심있\n\n고 특수관계로 인하여 더욱 영향받기 쉬운 거래에 초점을 맞추기\n\n때문이다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "bc",
+        "para_number": "BC46",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_bc_BC47",
+      "parent_id": "KIFRS1024_bc_h_정부특수관계기업",
+      "content": "BC47 일부 의견제출자들은 거래 상대방이 동일 정부에 의해 지배, 공동\n\n지배 또는 유의적인 영향을 받는다는 것 때문에, 보고기업이 개별\n\n적으로나 집합적으로 유의적인 거래의 상대방이 특수관계자라고\n\n식별할 수 있는지에 대한 의문을 제기하였다 . 이러한 모든 상대방\n\n을 식별하는 문제는 면제규정의 주요 근거 중 하나이다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "bc",
+        "para_number": "BC47",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_bc_BC48",
+      "parent_id": "KIFRS1024_bc_h_정부특수관계기업",
+      "content": "BC48 그러나 문단 BC43 에서 논의한 바와 같이, 보고기업이 모든 정부\n\n특수관계기업을 식별하거나 이들과의 모든 거래를 정량화하도록\n\n요구하는 것은 IASB 의 의도가 아니다 . 더욱이 개별적으로 유의적\n\n인 거래는 경영진의 정밀 조사를 이끌 가능성이 크다 . IASB 는 경\n\n영진이 개별적으로 유의적인 거래의 상대방이 누구인지를 알거나\n\n알기 위하여 더 많은 노력을 기울일 것이고 상대방에 대한 배경\n\n정보를 수집하거나 수집할 수 있을 것이라고 결론지었다 .\n\n년에 이루어진 기타 변경사항",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "bc",
+        "para_number": "BC48",
+        "cross_refs": [
+          "BC43"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_bc_BC49",
+      "parent_id": "KIFRS1024_bc_h_정부특수관계기업",
+      "content": "BC49 2009 년에 이루어진 IAS 24 의 개정에는 다음의 기타 변경사항을\n\n                 - 48\n\n포함한다 .\n\n⑴ 특수관계자 거래의 예시로서 미래에 특정사건이 발생하거나\n\n발생하지 않을 경우 어떠한 일을 수행하는 약정 ( 미이행계약\n\n포함 ) 을 문단 21(9) 에 포함하도록 개정하였다 . IASB 는 그러한\n\n약정이 거래의 한 형태이지만 불확실성을 해소하기 위하여 명\n\n시적으로 이를 언급하기로 결정하였다 .\n\n⑵ 이 기준이 별도재무제표와 연결재무제표 뿐만 아니라 개별재\n\n무제표에도 적용됨을 명확히 하기 위하여 IAS 24 의 적용범위\n\n와 관련된 문단 3 을 개정하였다 . 왜냐하면 개별재무제표는\n\nIAS 27 에 정의된 용어와는 다르기 때문이다 [4)] .\n\n⑶ IFRS 8 의 문단 34 를 개정하였다 . IASB 는 IFRS 8 의 요구사항을\n\n적용함에 있어, 특히 정부의 지배가 광범위한 상황에서 모든\n\n정부특수관계기업을 단일 고객으로 간주하는 것은 실용적이지\n\n않거나 의미가 없을 수 있다고 인식하였다 .\n\n⑷ IAS 19 결론도출근거를 수정하여 특수관계자의 새로운 정의에\n\n주의하도록 하였다 . IAS 19 의 적격보험계약의 정의는 이 정의\n\n를 참조하고 있다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "bc",
+        "para_number": "BC49",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "sentences": [
+          "BC49 2009 년에 이루어진 IAS 24 의 개정에는 다음의 기타 변경사항을",
+          "- 48",
+          "포함한다 .",
+          "⑴",
+          "특수관계자 거래의 예시로서 미래에 특정사건이 발생하거나",
+          "발생하지 않을 경우 어떠한 일을 수행하는 약정 ( 미이행계약",
+          "포함 ) 을 문단 21(9) 에 포함하도록 개정하였다 .",
+          "IASB 는 그러한",
+          "약정이 거래의 한 형태이지만 불확실성을 해소하기 위하여 명",
+          "시적으로 이를 언급하기로 결정하였다 .",
+          "⑵",
+          "이 기준이 별도재무제표와 연결재무제표 뿐만 아니라 개별재",
+          "무제표에도 적용됨을 명확히 하기 위하여 IAS 24 의 적용범위",
+          "와 관련된 문단 3 을 개정하였다 .",
+          "왜냐하면 개별재무제표는",
+          "IAS 27 에 정의된 용어와는 다르기 때문이다 [4)] .",
+          "⑶",
+          "IFRS 8 의 문단 34 를 개정하였다 .",
+          "IASB 는 IFRS 8 의 요구사항을",
+          "적용함에 있어, 특히 정부의 지배가 광범위한 상황에서 모든",
+          "정부특수관계기업을 단일 고객으로 간주하는 것은 실용적이지",
+          "않거나 의미가 없을 수 있다고 인식하였다 .",
+          "⑷",
+          "IAS 19 결론도출근거를 수정하여 특수관계자의 새로운 정의에",
+          "주의하도록 하였다 .",
+          "IAS 19 의 적격보험계약의 정의는 이 정의",
+          "를 참조하고 있다 ."
+        ]
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_bc_BC50",
+      "parent_id": "KIFRS1024_bc_h_주요경영진",
+      "content": "BC50 IASB 는 경영인력용역기업이 보고기업에게 주요 경영인력용역을\n\n제공하는 경우 발생하는 특수관계자거래에 대한 식별과 공시를\n\n다루어 줄 것을 요청받았다 . IASB 는 일부 보고기업이 이를 특수\n\n관계자거래로 식별하고 있지 않기 때문에 다양성이 존재한다는\n\n것을 이해하였다 . 이를 특수관계자거래로 식별한 기업 중 일부 보\n\n고기업은 보고기업의 주요 경영진으로 활동하는 경영인력용역기\n\n업의 종업원이나 이사에게 경영인력용역기업이 지급한 보상을 공\n\n시할 것이다 . 다른 보고기업은 보고기업에 의해 발생한 경영인력\n\n4) 2011 년 5 월에 발표된 IFRS 10 에 의하여 연결 지침이 IAS 27 에서 삭제되었으며 그 기준서는 ‘ 별도\n\n재무제표 (SeparateFinancial Statements)’ 로 재명명되었다 . 별도재무제표에 대한 정의는 변경되지 않\n았다 .\n\n                 - 49\n\n용역기업에게 지급했거나 지급해야 하는 용역수수료를 공시할 것\n\n이다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "bc",
+        "para_number": "BC50",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "sentences": [
+          "BC50 IASB 는 경영인력용역기업이 보고기업에게 주요 경영인력용역을",
+          "제공하는 경우 발생하는 특수관계자거래에 대한 식별과 공시를",
+          "다루어 줄 것을 요청받았다 .",
+          "IASB 는 일부 보고기업이 이를 특수",
+          "관계자거래로 식별하고 있지 않기 때문에 다양성이 존재한다는",
+          "것을 이해하였다 .",
+          "이를 특수관계자거래로 식별한 기업 중 일부 보",
+          "고기업은 보고기업의 주요 경영진으로 활동하는 경영인력용역기",
+          "업의 종업원이나 이사에게 경영인력용역기업이 지급한 보상을 공",
+          "시할 것이다 .",
+          "다른 보고기업은 보고기업에 의해 발생한 경영인력",
+          "4) 2011 년 5 월에 발표된 IFRS 10 에 의하여 연결 지침이 IAS 27 에서 삭제되었으며 그 기준서는 ‘ 별도",
+          "재무제표 (SeparateFinancial Statements)’ 로 재명명되었다 .",
+          "별도재무제표에 대한 정의는 변경되지 않\n았다 .",
+          "-",
+          "49",
+          "용역기업에게 지급했거나 지급해야 하는 용역수수료를 공시할 것",
+          "이다 ."
+        ]
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_bc_BC51",
+      "parent_id": "KIFRS1024_bc_h_주요경영진",
+      "content": "BC51 IASB 는 주요 경영진이 보고기업의 종업원이 아닌 경우 어떤 정보\n\n를 공시하여야 하는지에 관해 IAS 24 가 명확하지 않다는 점에 주\n\n목하였다 . IAS 24 가 명확하지 않아서 야기된 공시의 다양성을 해\n\n소하기 위해 IASB 는 ‘ 특수관계자 ’ 의 정의를 개정하기로 결정하였\n\n다 . 이 개정은 보고기업에 주요 경영인력용역을 제공하는 경영인\n\n력용역기업이 보고기업의 특수관계자가 된다는 것을 명확히 하였\n\n다 . 이러한 제안들을 논의하면서 IASB 는 경영인력용역기업과 보\n\n고기업의 관계가 대칭적이지 않다는 것을 인정하였다 . 보고기업이\n\n단순히 경영인력용역기업의 고객이라는 것만으로 경영인력용역기\n\n업의 특수관계자가 되는 것은 아니다 . 보고기업은 일부 다른 관계\n\n를 통한 경우를 제외하고는 경영인력용역기업의 활동, 재무 상태\n\n또는 이익에 영향을 미칠 수 없다 . 따라서 보고기업은 주요 경영\n\n인력용역을 제공하는 개인이 고용되거나 이사로 있는 경영인력용\n\n역기업에게 지급하였거나 지급하여야 하는 용역수수료 발생 금액\n\n을 공시하여야 한다 . 경영인력용역기업을 보고기업의 특수관계자\n\n로 식별함에 따라, IASB 는 특수관계자와 관련된 IAS 24 의 현행\n\n공시규정 하에서, 보고기업이 경영인력용역기업과의 다른 거래 ( 예\n\n를 들어, 대여 ) 도 공시하여야 한다는 점에 주목하였다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "bc",
+        "para_number": "BC51",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "sentences": [
+          "BC51 IASB 는 주요 경영진이 보고기업의 종업원이 아닌 경우 어떤 정보",
+          "를 공시하여야 하는지에 관해 IAS 24 가 명확하지 않다는 점에 주",
+          "목하였다 .",
+          "IAS 24 가 명확하지 않아서 야기된 공시의 다양성을 해",
+          "소하기 위해 IASB 는 ‘ 특수관계자 ’ 의 정의를 개정하기로 결정하였",
+          "다 .",
+          "이 개정은 보고기업에 주요 경영인력용역을 제공하는 경영인",
+          "력용역기업이 보고기업의 특수관계자가 된다는 것을 명확히 하였",
+          "다 .",
+          "이러한 제안들을 논의하면서 IASB 는 경영인력용역기업과 보",
+          "고기업의 관계가 대칭적이지 않다는 것을 인정하였다 .",
+          "보고기업이",
+          "단순히 경영인력용역기업의 고객이라는 것만으로 경영인력용역기",
+          "업의 특수관계자가 되는 것은 아니다 .",
+          "보고기업은 일부 다른 관계",
+          "를 통한 경우를 제외하고는 경영인력용역기업의 활동, 재무 상태",
+          "또는 이익에 영향을 미칠 수 없다 .",
+          "따라서 보고기업은 주요 경영",
+          "인력용역을 제공하는 개인이 고용되거나 이사로 있는 경영인력용",
+          "역기업에게 지급하였거나 지급하여야 하는 용역수수료 발생 금액",
+          "을 공시하여야 한다 .",
+          "경영인력용역기업을 보고기업의 특수관계자",
+          "로 식별함에 따라, IASB 는 특수관계자와 관련된 IAS 24 의 현행",
+          "공시규정 하에서, 보고기업이 경영인력용역기업과의 다른 거래 ( 예",
+          "를 들어, 대여 ) 도 공시하여야 한다는 점에 주목하였다 ."
+        ]
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_bc_BC52",
+      "parent_id": "KIFRS1024_bc_h_주요경영진",
+      "content": "BC52 IASB 는 보상이 별개의 경영인력용역기업에게 수수료로 지급된 경\n\n우 문단 17 에서 요구하는 상세한 정보에 접근하는 것이 실무적으\n\n로 가능하지 않다는 우려가 있다는 것을 알게 되었다 . 그러므로\n\nIASB 는 면제를 제공하여 다른 기업을 통해 지급되는 주요 경영진\n\n보상의 구성 내용에 대한 공시를 보고기업에게 요구하지 않기로\n\n결정하였다 . 그 대신에 다른 기업에게 지급했거나 지급해야 하는\n\n주요 경영진 보상이나 주요 경영인력용역과 관련하여 발생한 금\n\n액을 문단 18A 에 따라 공시하도록 하였다 .\n\n                 - 50",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "bc",
+        "para_number": "BC52",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_bc_unk_10",
+      "parent_id": "KIFRS1024_bc_h_에_대한_소수의견",
+      "content": "DO1 Garnett 위원은 특수관계자와의 모든 거래에 대한 정보를 공시하\n\n는 문단 18 의 요구사항으로부터 정부특수관계기업만을 면제하는\n\nIASB 의 결정에 반대하였다 . 그는 또한 문단 26⑵㈎ 에서 언급된\n\n것처럼 개별적으로 유의적인 각각의 특수관계자 거래에 대하여\n\n정보를 제공하도록 모든 기업에게 요구하지는 않은 IASB 의 결정\n\n에 반대하였다 .\n\nDO2 결론도출근거에는 거래 상대방이 특수관계자이기 때문에, 일반적\n\n인 거래조건에 따라 체결되고 가격을 책정한 모든 거래에 대하여\n\n데이터를 수집하는 불필요한 부담을 덜 필요에 대하여 명확히 설\n\n명하고 있다 . 또한 개별적으로 유의적인 특수관계자 거래에 대하\n\n여 투자자에게 알릴 필요도 설명하고 있다 . Garnett 위원은 문단\n\nBC33~BC48 의 설명에 동의한다 .\n\nDO3 그러나 문단 25 에서는 이러한 변경을 동일 정부에 의해 지배, 공\n\n동지배 또는 유의적인 영향을 받는 기업으로 제한한다 . Garnett\n\n위원은 특정한 기업을 제한적으로 구제하는 것 이외에, 그러한 구\n\n분을 할 근거가 없다고 보았다 .\n\n                 - 51",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "bc",
+        "para_number": null,
+        "cross_refs": [
+          "BC33",
+          "BC48"
+        ],
+        "has_table": false,
+        "has_example": false,
+        "sentences": [
+          "DO1 Garnett 위원은 특수관계자와의 모든 거래에 대한 정보를 공시하",
+          "는 문단 18 의 요구사항으로부터 정부특수관계기업만을 면제하는",
+          "IASB 의 결정에 반대하였다 .",
+          "그는 또한 문단 26⑵㈎ 에서 언급된",
+          "것처럼 개별적으로 유의적인 각각의 특수관계자 거래에 대하여",
+          "정보를 제공하도록 모든 기업에게 요구하지는 않은 IASB 의 결정",
+          "에 반대하였다 .",
+          "DO2 결론도출근거에는 거래 상대방이 특수관계자이기 때문에, 일반적",
+          "인 거래조건에 따라 체결되고 가격을 책정한 모든 거래에 대하여",
+          "데이터를 수집하는 불필요한 부담을 덜 필요에 대하여 명확히 설",
+          "명하고 있다 .",
+          "또한 개별적으로 유의적인 특수관계자 거래에 대하",
+          "여 투자자에게 알릴 필요도 설명하고 있다 .",
+          "Garnett 위원은 문단",
+          "BC33~BC48 의 설명에 동의한다 .",
+          "DO3 그러나 문단 25 에서는 이러한 변경을 동일 정부에 의해 지배, 공",
+          "동지배 또는 유의적인 영향을 받는 기업으로 제한한다 .",
+          "Garnett",
+          "위원은 특정한 기업을 제한적으로 구제하는 것 이외에, 그러한 구",
+          "분을 할 근거가 없다고 보았다 .",
+          "-",
+          "51"
+        ]
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_bc_unk_11",
+      "parent_id": "KIFRS1024_bc_h_국제회계기준과의_관계",
+      "content": "기업회계기준서 제 1024 호 (2010 년 개정 ) 는 국제회계기준위원회가 제정한 국제\n\n회계기준 제 24 호 (IAS 24) ‘ 특수관계자 공시 (Related Party Disclosures)’ 에 대\n\n응하는 기준이다 .\n\n한국의 법률체계와 일관성을 유지하기 위하여 형식적인 부분이 제한적으로\n\n수정되었다 . 즉, 한국채택국제회계기준의 의무적용대상기업과 적용시기를 명\n\n시하기 위하여 문단 한 2.1 과 한 28.1 이 추가되었으며, 적용시기 이후 최초채택\n\n기업으로서 이 기준서를 적용하게 됨에 따라 시행일과 관련된 문단 28 이 삭\n\n제되었다 . 이러한 수정을 명시적으로 표시하기 위하여 동 국제회계기준에 추\n\n가한 문단은 관련된 국제회계기준 문단번호에 ‘ 한 ’ 이라는 접두어를 붙여 구\n\n분 표시하였다 . 그리고 동 국제회계기준의 문단을 삭제한 경우는 관련된 국\n\n제회계기준 문단번호 옆에 ‘[ 한국회계기준원 회계기준위원회가 삭제함 ]’ 이라\n\n고 표시하였다 .\n\n형식과 관련하여 수정된 위의 문단들을 제외하고는 기업회계기준서 제 1024\n\n호가 IAS 24 의 내용에 근거하여 제정되었기 때문에 기업회계기준서 제 1024\n\n호를 준수하면 동시에 IAS 24 를 준수하는 것이 된다 .\n\n                 - 53",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "bc",
+        "para_number": null,
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "sentences": [
+          "기업회계기준서 제 1024 호 (2010 년 개정 ) 는 국제회계기준위원회가 제정한 국제",
+          "회계기준 제 24 호 (IAS 24) ‘ 특수관계자 공시 (Related Party Disclosures)’ 에 대",
+          "응하는 기준이다 .",
+          "한국의 법률체계와 일관성을 유지하기 위하여 형식적인 부분이 제한적으로",
+          "수정되었다 .",
+          "즉, 한국채택국제회계기준의 의무적용대상기업과 적용시기를 명",
+          "시하기 위하여 문단 한 2.1 과 한 28.1 이 추가되었으며, 적용시기 이후 최초채택",
+          "기업으로서 이 기준서를 적용하게 됨에 따라 시행일과 관련된 문단 28 이 삭",
+          "제되었다 .",
+          "이러한 수정을 명시적으로 표시하기 위하여 동 국제회계기준에 추",
+          "가한 문단은 관련된 국제회계기준 문단번호에 ‘ 한 ’ 이라는 접두어를 붙여 구",
+          "분 표시하였다 .",
+          "그리고 동 국제회계기준의 문단을 삭제한 경우는 관련된 국",
+          "제회계기준 문단번호 옆에 ‘[ 한국회계기준원 회계기준위원회가 삭제함 ]’ 이라",
+          "고 표시하였다 .",
+          "형식과 관련하여 수정된 위의 문단들을 제외하고는 기업회계기준서 제 1024",
+          "호가 IAS 24 의 내용에 근거하여 제정되었기 때문에 기업회계기준서 제 1024",
+          "호를 준수하면 동시에 IAS 24 를 준수하는 것이 된다 .",
+          "-",
+          "53"
+        ]
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_bc_unk_12",
+      "parent_id": "KIFRS1024_bc_h_이_기준서의_주요_특징",
+      "content": "이 기준서는 특수관계자의 범위, 특수관계자거래 및 특수관계자와의 채권 ･ 채\n\n무 잔액의 공시에 필요한 사항을 정하고 있다 .\n\n특수관계자의 범위\n\n다음의 경우는 당해 기업의 특수관계자에 해당한다 .\n\n⑴ 개인이 다음 중 어느 하나에 해당하는 경우 그 개인이나 그 개인\n\n의 가까운 가족은 보고기업과 특수관계에 있다 .\n\n㈎ 보고기업에 지배력 또는 공동지배력이 있는 경우\n\n㈏ 보고기업에 유의적인 영향력이 있는 경우\n\n㈐ 보고기업 또는 그 지배기업의 주요 경영진의 일원인 경우\n\n⑵ 기업이 다음의 조건 중 어느 하나에 적용될 경우 보고기업과 특수\n\n관계에 있다 .\n\n㈎ 기업과 보고기업이 동일한 연결실체 내의 일원인 경우 ( 지배기\n\n업과 종속기업 및 연결실체 내의 다른 종속기업은 서로 특수\n\n관계에 있음을 의미 )\n\n㈏ 한 기업이 다른 기업의 관계기업이거나 공동기업인 경우 ( 또는\n\n그 다른 기업이 속한 연결실체 내의 일원의 관계기업이거나\n\n공동기업인 경우 )\n\n㈐ 두 기업이 동일한 제 3 자의 공동기업인 경우\n\n㈑ 제 3 의 기업에 대해 한 기업이 공동기업이고 다른 기업이 관계\n\n기업인 경우\n\n㈒ 기업이 보고기업이나 그 보고기업과 특수관계에 있는 기업의\n\n종업원급여를 위한 퇴직급여제도인 경우 . 보고기업 자신이 퇴\n\n직급여제도인 경우, 그 제도의 책임사용자도 보고기업과 특수\n\n                 - 54\n\n관계에 있다 .\n\n㈓ 기업이 ⑴ 에서 식별된 개인에 의하여 지배 또는 공동지배되는\n\n경우\n\n㈔⑴ 의 ㈎ 에서 식별된 개인이 기업에 유의적인 영향력이 있거나\n\n그 기업 ( 또는 그 기업의 지배기업 ) 의 주요 경영진의 일원인 경우\n\n공시사항\n\n모든 기업\n\n⑴ 지배기업과 종속기업 사이의 관계는 거래의 유무에 관계없이 공시한\n\n다 . 기업은 지배기업의 명칭을 공시한다 . 다만, 최상위 지배자와 지배\n\n기업이 다른 경우에는 최상위 지배자의 명칭도 공시한다 . 지배기업과\n\n최상위 지배자가 일반이용자가 이용할 수 있는 연결재무제표를 작성\n\n하지 않는 경우에는 일반이용자가 이용할 수 있는 연결재무제표를 작\n\n성하는 가장 가까운 상위의 지배기업의 명칭도 공시한다 .\n\n⑵ 주요 경영진에 대한 보상의 총액과 분류별 금액을 공시한다 .\n\n⑶ 특수관계자거래가 있는 경우, 재무제표에 미치는 특수관계의 잠재적\n\n영향을 파악하는 데 필요한 거래, 채권 ･ 채무 잔액에 대한 정보뿐만\n\n아니라 특수관계의 성격도 공시한다 .\n\n⑷ 기업의 재무제표에 미치는 특수관계자거래의 영향을 파악하기 위하여\n\n분리하여 공시할 필요가 있는 경우를 제외하고는 성격이 유사한 항목\n\n은 통합하여 공시할 수 있다 .\n\n정부특수관계기업\n\n⑴ 정부특수관계기업에 대하여, 특수관계자거래 및 약정을 포함한 채\n\n                 - 55\n\n권 ․ 채무 잔액과 관련된 공시 요구사항을 면제한다 .\n\n⑵ 보고기업이 면제규정을 적용하는 경우, 정부 또는 다른 정부지배기업\n\n간 거래와 관련 채권 ⋅ 채무잔액에 대한 다음의 사항을 공시한다 .\n\n㈎ 정부명 및 보고기업과의 관계의 성격 ( 즉, 지배력, 공동지배력 또는\n\n유의적인 영향력 )\n\n㈏ 재무제표 이용자가 재무제표 상의 특수관계자거래의 영향을 이해\n\n할 수 있도록 충분히 자세하게 기술된 다음의 정보\n\n① 개별적으로 유의적인 각각의 거래의 성격과 금액\n\n② 개별적으로 유의적이진 않지만 집합적으로 유의적인 그 밖의\n\n거래에 대하여 그 정도를 나타내는 질적 또는 양적 표시\n\n                - 56",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "bc",
+        "para_number": null,
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "sentences": [
+          "이 기준서는 특수관계자의 범위, 특수관계자거래 및 특수관계자와의 채권 ･ 채",
+          "무 잔액의 공시에 필요한 사항을 정하고 있다 .",
+          "특수관계자의 범위",
+          "다음의 경우는 당해 기업의 특수관계자에 해당한다 .",
+          "⑴",
+          "개인이 다음 중 어느 하나에 해당하는 경우 그 개인이나 그 개인",
+          "의 가까운 가족은 보고기업과 특수관계에 있다 .",
+          "㈎",
+          "보고기업에 지배력 또는 공동지배력이 있는 경우",
+          "㈏ 보고기업에 유의적인 영향력이 있는 경우",
+          "㈐ 보고기업 또는 그 지배기업의 주요 경영진의 일원인 경우",
+          "⑵ 기업이 다음의 조건 중 어느 하나에 적용될 경우 보고기업과 특수",
+          "관계에 있다 .",
+          "㈎",
+          "기업과 보고기업이 동일한 연결실체 내의 일원인 경우 ( 지배기",
+          "업과 종속기업 및 연결실체 내의 다른 종속기업은 서로 특수",
+          "관계에 있음을 의미 )",
+          "㈏ 한 기업이 다른 기업의 관계기업이거나 공동기업인 경우 ( 또는",
+          "그 다른 기업이 속한 연결실체 내의 일원의 관계기업이거나",
+          "공동기업인 경우 )",
+          "㈐ 두 기업이 동일한 제 3 자의 공동기업인 경우",
+          "㈑ 제 3 의 기업에 대해 한 기업이 공동기업이고 다른 기업이 관계",
+          "기업인 경우",
+          "㈒ 기업이 보고기업이나 그 보고기업과 특수관계에 있는 기업의",
+          "종업원급여를 위한 퇴직급여제도인 경우 .",
+          "보고기업 자신이 퇴",
+          "직급여제도인 경우, 그 제도의 책임사용자도 보고기업과 특수",
+          "- 54",
+          "관계에 있다 .",
+          "㈓",
+          "기업이 ⑴ 에서 식별된 개인에 의하여 지배 또는 공동지배되는",
+          "경우",
+          "㈔⑴ 의 ㈎ 에서 식별된 개인이 기업에 유의적인 영향력이 있거나",
+          "그 기업 ( 또는 그 기업의 지배기업 ) 의 주요 경영진의 일원인 경우",
+          "공시사항",
+          "모든 기업",
+          "⑴ 지배기업과 종속기업 사이의 관계는 거래의 유무에 관계없이 공시한",
+          "다 .",
+          "기업은 지배기업의 명칭을 공시한다 .",
+          "다만, 최상위 지배자와 지배",
+          "기업이 다른 경우에는 최상위 지배자의 명칭도 공시한다 .",
+          "지배기업과",
+          "최상위 지배자가 일반이용자가 이용할 수 있는 연결재무제표를 작성",
+          "하지 않는 경우에는 일반이용자가 이용할 수 있는 연결재무제표를 작",
+          "성하는 가장 가까운 상위의 지배기업의 명칭도 공시한다 .",
+          "⑵",
+          "주요 경영진에 대한 보상의 총액과 분류별 금액을 공시한다 .",
+          "⑶",
+          "특수관계자거래가 있는 경우, 재무제표에 미치는 특수관계의 잠재적",
+          "영향을 파악하는 데 필요한 거래, 채권 ･ 채무 잔액에 대한 정보뿐만",
+          "아니라 특수관계의 성격도 공시한다 .",
+          "⑷",
+          "기업의 재무제표에 미치는 특수관계자거래의 영향을 파악하기 위하여",
+          "분리하여 공시할 필요가 있는 경우를 제외하고는 성격이 유사한 항목",
+          "은 통합하여 공시할 수 있다 .",
+          "정부특수관계기업",
+          "⑴ 정부특수관계기업에 대하여, 특수관계자거래 및 약정을 포함한 채",
+          "- 55",
+          "권 ․ 채무 잔액과 관련된 공시 요구사항을 면제한다 .",
+          "⑵",
+          "보고기업이 면제규정을 적용하는 경우, 정부 또는 다른 정부지배기업",
+          "간 거래와 관련 채권 ⋅ 채무잔액에 대한 다음의 사항을 공시한다 .",
+          "㈎",
+          "정부명 및 보고기업과의 관계의 성격 ( 즉, 지배력, 공동지배력 또는",
+          "유의적인 영향력 )",
+          "㈏ 재무제표 이용자가 재무제표 상의 특수관계자거래의 영향을 이해",
+          "할 수 있도록 충분히 자세하게 기술된 다음의 정보",
+          "① 개별적으로 유의적인 각각의 거래의 성격과 금액",
+          "② 개별적으로 유의적이진 않지만 집합적으로 유의적인 그 밖의",
+          "거래에 대하여 그 정도를 나타내는 질적 또는 양적 표시",
+          "- 56"
+        ]
+      }
+    },
+    {
+      "chunk_id": "KIFRS1024_bc_unk_13",
+      "parent_id": "KIFRS1024_bc_h_제_개정_경과",
+      "content": "한국회계기준원 회계기준위원회는 국제회계기준위원회가 제정한 국제회계기\n\n준을 채택하여 기업회계기준의 일부로 구성하기로 한 정책에 따라 이 기준\n\n서를 다음과 같이 제 ⋅ 개정하였다 .\n\n|제․개정일자|한국채택국제회계기준|관련되는 국제회계기준|\n|---|---|---|\n|2014.03.28. 개정<br>|한국채택국제회계기준<br>2010-2012 연차개선<br>|<br>Annual Improvements to IFRSs<br>2010—2012 Cycle<br>|\n|2010.05.14. 개정<br>|특수관계자 공시<br>|IAS 24 Related Party Disclosures<br>|\n|2007.11.23. 제정|특수관계자 공시|IAS 24 Related Party Disclosures|\n\n이 기준서는 타 기준서의 제 ⋅ 개정에 따라 다음과 같이 개정되었다 .\n\n|제․개정일자|타 기준서|관련되는 국제회계기준|\n|---|---|---|\n|2013.02.22. 개정|‘투자기업’<br>(기업회계기준서<br>제1110호, 제1112호 및<br>제1027호의 개정)|Investment Entities (Amendments<br>to IFRS 10, IFRS 12 and IAS 27)|\n|2011.11.18. 제정|기업회계기준서<br>제1112호 타 기업에 대한<br>지분의 공시|<br>IFRS 12 Disclosure of Interests in<br>Other Entities|\n|2011.11.18. 제정|기업회계기준서<br>제1111호 공동약정|IFRS 11 Joint Arrangements|\n|2011.11.18. 제정|기업회계기준서<br>제1110호 연결재무제표|IFRS 10 Consolidated Financial<br>Statements|\n|2011.11.11. 개정|기업회계기준서<br>제1019호 종업원급여|IAS 19 Employment Benefits|\n\n         - 57",
+      "metadata": {
+        "standard_id": "K-IFRS 1024",
+        "section_type": "bc",
+        "para_number": null,
+        "cross_refs": [],
+        "has_table": true,
+        "has_example": false,
+        "sentences": [
+          "한국회계기준원 회계기준위원회는 국제회계기준위원회가 제정한 국제회계기",
+          "준을 채택하여 기업회계기준의 일부로 구성하기로 한 정책에 따라 이 기준",
+          "서를 다음과 같이 제 ⋅ 개정하였다 .",
+          "|제․개정일자|한국채택국제회계기준|관련되는 국제회계기준|\n|---|---|---|\n|2014.03.28. 개정<br>|한국채택국제회계기준<br>2010-2012 연차개선<br>|<br>Annual Improvements to IFRSs<br>2010—2012 Cycle<br>|\n|2010.05.14. 개정<br>|특수관계자 공시<br>|IAS 24 Related Party Disclosures<br>|\n|2007.11.23. 제정|특수관계자 공시|IAS 24 Related Party Disclosures|",
+          "이 기준서는 타 기준서의 제 ⋅ 개정에 따라 다음과 같이 개정되었다 .",
+          "|제․개정일자|타 기준서|관련되는 국제회계기준|\n|---|---|---|\n|2013.02.22. 개정|‘투자기업’<br>(기업회계기준서<br>제1110호, 제1112호 및<br>제1027호의 개정)|Investment Entities (Amendments<br>to IFRS 10, IFRS 12 and IAS 27)|\n|2011.11.18. 제정|기업회계기준서<br>제1112호 타 기업에 대한<br>지분의 공시|<br>IFRS 12 Disclosure of Interests in<br>Other Entities|\n|2011.11.18. 제정|기업회계기준서<br>제1111호 공동약정|IFRS 11 Joint Arrangements|\n|2011.11.18. 제정|기업회계기준서<br>제1110호 연결재무제표|IFRS 10 Consolidated Financial<br>Statements|\n|2011.11.11. 개정|기업회계기준서<br>제1019호 종업원급여|IAS 19 Employment Benefits|",
+          "- 57"
+        ]
+      }
+    }
+  ]
+}

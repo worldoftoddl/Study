@@ -150,7 +150,7 @@ def main():
 
     # 2. 모델 로딩
     print(f"[Model] {MODEL_NAME} 로딩 중...")
-    model = SentenceTransformer(MODEL_NAME)
+    model = SentenceTransformer(MODEL_NAME, model_kwargs={"torch_dtype": "float16"})
     print(f"[Model] 로딩 완료 (vector dim: {model.get_sentence_embedding_dimension()})")
 
     # 3. Qdrant 초기화

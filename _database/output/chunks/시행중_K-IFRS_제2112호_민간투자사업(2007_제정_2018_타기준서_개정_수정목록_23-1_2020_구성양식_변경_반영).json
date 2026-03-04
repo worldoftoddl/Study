@@ -1,0 +1,2956 @@
+{
+  "standard_id": "K-IFRS 2112",
+  "processed_at": "2026-03-04T11:02:33.931990+00:00",
+  "parents": [
+    {
+      "chunk_id": "KIFRS2112_main_h_root",
+      "heading_text": "root",
+      "section_type": "main",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "main"
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_main_h_기업회계기준해석서_제_호",
+      "heading_text": "기업회계기준해석서 제 호",
+      "section_type": "main",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "main"
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_main_h_민간투자사업",
+      "heading_text": "민간투자사업",
+      "section_type": "main",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "main"
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_main_h_한국회계기준원_회계기준위원회_의결_2018_11_14",
+      "heading_text": "한국회계기준원 회계기준위원회 의결 2018. 11. 14.",
+      "section_type": "main",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "main"
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_main_h_본_문",
+      "heading_text": "본 문",
+      "section_type": "main",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "main"
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_main_h_참조",
+      "heading_text": "참조",
+      "section_type": "main",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "main"
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_main_h_배경",
+      "heading_text": "배경",
+      "section_type": "main",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "main"
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_main_h_적용",
+      "heading_text": "적용",
+      "section_type": "main",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "main"
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_main_h_적용범위",
+      "heading_text": "적용범위",
+      "section_type": "main",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "main"
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_main_h_회계논제",
+      "heading_text": "회계논제",
+      "section_type": "main",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "main"
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_main_h_결론",
+      "heading_text": "결론",
+      "section_type": "main",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "main"
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_main_h_시행일",
+      "heading_text": "시행일",
+      "section_type": "main",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "main"
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_main_h_경과규정",
+      "heading_text": "경과규정",
+      "section_type": "main",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "main"
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_ag_h_부록_적용지침",
+      "heading_text": "부록 적용지침",
+      "section_type": "ag",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "ag"
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_ag_h_적용범위_문단",
+      "heading_text": "적용범위 문단",
+      "section_type": "ag",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "ag"
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_ag_h_기업회계기준해석서_제_호의_제_개정_등에_대한_회계기준위원회의_의결",
+      "heading_text": "기업회계기준해석서 제 호의 제 개정 등에 대한 회계기준위원회의 의결",
+      "section_type": "ag",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "ag"
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_ag_h_적용사례_실무적용지침",
+      "heading_text": "적용사례 실무적용지침",
+      "section_type": "ag",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "ag"
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_ag_h_첨부자료",
+      "heading_text": "첨부자료",
+      "section_type": "ag",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "ag"
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_ag_h_첨부자료_2",
+      "heading_text": "첨부자료",
+      "section_type": "ag",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "ag"
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_ag_h_기업회계기준해석서_제_호_민간투자사업_의_적용사례",
+      "heading_text": "기업회계기준해석서 제 호 민간투자사업 의 적용사례",
+      "section_type": "ag",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "ag"
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_ag_h_사례_사업허가자가_사업시행자에게_금융자산을_주는_경우",
+      "heading_text": "사례 사업허가자가 사업시행자에게 금융자산을 주는 경우",
+      "section_type": "ag",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "ag"
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_ag_h_사례_사업허가자가_사업시행자에게_무형자산_이용자에게_사용료_를_부과할_수_있는_사업면허_을_제공하는_경우",
+      "heading_text": "사례 사업허가자가 사업시행자에게 무형자산 이용자에게 사용료 를 부과할 수 있는 사업면허 을 제공하는 경우",
+      "section_type": "ag",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "ag"
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_ag_h_사례_사업허가자가_사업시행자에게_금융자산과_무형자산을_주는_경우",
+      "heading_text": "사례 사업허가자가 사업시행자에게 금융자산과 무형자산을 주는 경우",
+      "section_type": "ag",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "ag"
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_h_결론도출근거",
+      "heading_text": "결론도출근거",
+      "section_type": "bc",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc"
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "heading_text": "결론도출근거",
+      "section_type": "bc",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc"
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_h_기타_참고사항",
+      "heading_text": "기타 참고사항",
+      "section_type": "bc",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc"
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_h_국제회계기준과의_관계",
+      "heading_text": "국제회계기준과의 관계",
+      "section_type": "bc",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc"
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_h_이_해석서의_주요_특징",
+      "heading_text": "이 해석서의 주요 특징",
+      "section_type": "bc",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc"
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_h_제_개정_경과",
+      "heading_text": "제 개정 경과",
+      "section_type": "bc",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc"
+      }
+    }
+  ],
+  "children": [
+    {
+      "chunk_id": "KIFRS2112_main_unk_1",
+      "parent_id": "KIFRS2112_main_h_본_문",
+      "content": "- 4\n\n적용사례 실무적용지침 결론도출근거 기타 참고사항은 기업회계기준해석서\n\n제 호를 구성하지는 않으나 해석서를 적용하는 데 편의를 제공하기 위해 제\n\n시된다\n\n- 6\n\n기업회계기준해석서 제 2112 호 ‘ 민간투자사업 ’ 은 문단 1~30 과 부록 A 로 구성\n\n되어 있으며, 첨부자료, 적용사례 및 결론도출근거가 첨부되어 있다 . 해석서\n\n의 적용범위와 효력은 ‘ 기업회계기준 전문 ’ 의 문단 24 와 25 에서 규정한다 .\n\n                 - 7",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "main",
+        "para_number": null,
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_main_unk_2",
+      "parent_id": "KIFRS2112_main_h_참조",
+      "content": "Ÿ ‘ 재무제표의 작성과 표시를 위한 개념체계 [1)] ’\n\nŸ 기업회계기준서 제 1101 호 ‘ 한국채택국제회계기준의 최초채택 ’\n\nŸ 기업회계기준서 제 1107 호 ‘ 금융상품 : 공시 ’\n\nŸ 기업회계기준서 제 1109 호 ‘ 금융상품 ’\n\nŸ 기업회계기준서 제 1115 호 ‘ 고객과의 계약에서 생기는 수익 ’\n\nŸ 기업회계기준서 제 1116 호 ‘ 리스 ’\n\nŸ 기업회계기준서 제 1008 호 ‘ 회계정책, 회계추정치 변경과 오류 ’\n\nŸ 기업회계기준서 제 1016 호 ‘ 유형자산 ’\n\nŸ 기업회계기준서 제 1020 호 ‘ 정부보조금의 회계처리와 정부지원의 공시 ’\n\nŸ 기업회계기준서 제 1023 호 ‘ 차입원가 ’\n\nŸ 기업회계기준서 제 1032 호 ‘ 금융상품 : 표시 ’\n\nŸ 기업회계기준서 제 1036 호 ‘ 자산손상 ’\n\nŸ 기업회계기준서 제 1037 호 ‘ 충당부채, 우발부채, 우발자산 ’\n\nŸ 기업회계기준서 제 1038 호 ‘ 무형자산 ’\n\nŸ 기업회계기준해석서 제 2029 호 ‘ 민간투자사업의 공시 ’",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "main",
+        "para_number": null,
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "sentences": [
+          "Ÿ ‘ 재무제표의 작성과 표시를 위한 개념체계 [1)] ’",
+          "Ÿ 기업회계기준서 제 1101 호 ‘ 한국채택국제회계기준의 최초채택 ’",
+          "Ÿ 기업회계기준서 제 1107 호 ‘ 금융상품 : 공시 ’",
+          "Ÿ 기업회계기준서 제 1109 호 ‘ 금융상품 ’",
+          "Ÿ 기업회계기준서 제 1115 호 ‘ 고객과의 계약에서 생기는 수익 ’",
+          "Ÿ 기업회계기준서 제 1116 호 ‘ 리스 ’",
+          "Ÿ 기업회계기준서 제 1008 호 ‘ 회계정책, 회계추정치 변경과 오류 ’",
+          "Ÿ 기업회계기준서 제 1016 호 ‘ 유형자산 ’",
+          "Ÿ 기업회계기준서 제 1020 호 ‘ 정부보조금의 회계처리와 정부지원의 공시 ’",
+          "Ÿ 기업회계기준서 제 1023 호 ‘ 차입원가 ’",
+          "Ÿ 기업회계기준서 제 1032 호 ‘ 금융상품 : 표시 ’",
+          "Ÿ 기업회계기준서 제 1036 호 ‘ 자산손상 ’",
+          "Ÿ 기업회계기준서 제 1037 호 ‘ 충당부채, 우발부채, 우발자산 ’",
+          "Ÿ 기업회계기준서 제 1038 호 ‘ 무형자산 ’",
+          "Ÿ 기업회계기준해석서 제 2029 호 ‘ 민간투자사업의 공시 ’"
+        ]
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_main_1",
+      "parent_id": "KIFRS2112_main_h_배경",
+      "content": "1 많은 국가에서 도로, 교량, 터널, 교도소, 병원, 공항, 상하수도 시\n\n설, 에너지공급시설 및 통신망 등 공공서비스를 위한 사회기반시\n\n설의 건설, 운영 및 유지보수를 전통적으로 공공부문이 담당하여\n\n왔으며, 공공예산으로 소요자금을 조달하여 왔다 .\n\n1) 이 해석서가 제정되었을 당시 시행 중이었던 ‘ 재무제표의 작성과 표시를 위한 개념체계 ’(2007 년 11 월 공\n\n표 ) 를 말한다 .\n\n                  - 8",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "main",
+        "para_number": "1",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_main_2",
+      "parent_id": "KIFRS2112_main_h_배경",
+      "content": "2 일부 국가에서는 그러한 사회기반시설의 개발, 자금조달, 운영 및\n\n유지보수에 민간부문의 참여를 유도하기 위하여 정부가 민간투자\n\n사업 제도를 도입하였다 . 이 경우 사회기반시설은 이미 존재할 수\n\n도 있고, 사업의 시행기간 ( 이하 ‘ 사업기간 ’ 이라 한다 ) 중에 건설될\n\n수도 있다 . 이 해석서의 적용대상이 되는 민간투자사업에는 공공\n\n서비스의 제공에 사용될 사회기반시설을 건설하거나 개량 ( 예 : 수\n\n용 능력의 증가 ) 하며 일정기간 해당 사회기반시설을 운영 및 유지\n\n보수하는 민간부문기업 ( 사업시행자 ) 이 일반적으로 관련된다 . 사업\n\n시행자는 사업기간에 서비스제공에 대한 대가를 받는다 . 민간투자\n\n사업은 성과기준, 사용료의 조정방식 및 분쟁의 중재방식을 규정\n\n한 계약 ( 이하 ‘ 실시협약 ’ 이라 한다 ) 의 내용에 따라 관리된다 . 민\n\n간투자사업의 수행방식에는 ‘ 건설   - 운영   - 이전 ’ 방식, ‘ 복구   - 운영   - 이\n\n전 ’ 방식 등이 있다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "main",
+        "para_number": "2",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "sentences": [
+          "2 일부 국가에서는 그러한 사회기반시설의 개발, 자금조달, 운영 및",
+          "유지보수에 민간부문의 참여를 유도하기 위하여 정부가 민간투자",
+          "사업 제도를 도입하였다 .",
+          "이 경우 사회기반시설은 이미 존재할 수",
+          "도 있고, 사업의 시행기간 ( 이하 ‘ 사업기간 ’ 이라 한다 )",
+          "중에 건설될",
+          "수도 있다 .",
+          "이 해석서의 적용대상이 되는 민간투자사업에는 공공",
+          "서비스의 제공에 사용될 사회기반시설을 건설하거나 개량 ( 예 : 수",
+          "용 능력의 증가 ) 하며 일정기간 해당 사회기반시설을 운영 및 유지",
+          "보수하는 민간부문기업 ( 사업시행자 ) 이 일반적으로 관련된다 .",
+          "사업",
+          "시행자는 사업기간에 서비스제공에 대한 대가를 받는다 .",
+          "민간투자",
+          "사업은 성과기준, 사용료의 조정방식 및 분쟁의 중재방식을 규정",
+          "한 계약 ( 이하 ‘ 실시협약 ’ 이라 한다 ) 의 내용에 따라 관리된다 .",
+          "민",
+          "간투자사업의 수행방식에는 ‘ 건설   - 운영   - 이전 ’ 방식, ‘ 복구   - 운영   - 이",
+          "전 ’ 방식 등이 있다 ."
+        ]
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_main_3",
+      "parent_id": "KIFRS2112_main_h_배경",
+      "content": "3 민간투자사업의 특성 중 하나는 사업시행자가 가지는 의무가 공\n\n공서비스 성격이라는 것이다 . 누가 공공서비스를 수행하느냐에 관\n\n계없이, 공공정책의 목적은 사회기반시설과 관련된 서비스가 일반\n\n대중에게 제공되도록 하는 것이다 . 민간투자사업에서 사업시행자\n\n는 국가 및 지방자치단체 등을 대신하여 일반대중에게 서비스를\n\n제공하는 계약상 의무를 부담한다 . 민간투자사업의 다른 일반적인\n\n특성은 다음과 같다 .\n\n⑴ 민간투자사업을 허가하는 당사자 ( 사업허가자 ) 는 정부기관을 포\n\n함한 공공부문이나, 공공서비스에 대한 의무를 부여받은 민간\n\n부문일 수 있다 .\n\n⑵ 사업시행자는 최소한 사회기반시설의 경영의 일부 및 관련 서\n\n비스에 대한 책임을 가지며 단순히 사업허가자를 대신하는 대\n\n리인의 역할을 하는 것이 아니다 .\n\n⑶ 실시협약에서 사업시행자가 부과하게 될 최초사용료를 결정하\n\n며 사업기간동안 이루어질 사용료의 조정방식을 규정한다 .\n\n⑷ 사업시행자는 사업기간 말에 특정한 조건에 따라 아주 작은\n\n                  - 9\n\n대가로 또는 대가없이 사업허가자에게 사회기반시설을 이전하\n\n여야 하는데, 이는 누가 사회기반시설을 위한 자금을 부담하였\n\n느냐에 무관하다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "main",
+        "para_number": "3",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "sentences": [
+          "3 민간투자사업의 특성 중 하나는 사업시행자가 가지는 의무가 공",
+          "공서비스 성격이라는 것이다 .",
+          "누가 공공서비스를 수행하느냐에 관",
+          "계없이, 공공정책의 목적은 사회기반시설과 관련된 서비스가 일반",
+          "대중에게 제공되도록 하는 것이다 .",
+          "민간투자사업에서 사업시행자",
+          "는 국가 및 지방자치단체 등을 대신하여 일반대중에게 서비스를",
+          "제공하는 계약상 의무를 부담한다 .",
+          "민간투자사업의 다른 일반적인",
+          "특성은 다음과 같다 .",
+          "⑴",
+          "민간투자사업을 허가하는 당사자 ( 사업허가자 ) 는 정부기관을 포",
+          "함한 공공부문이나, 공공서비스에 대한 의무를 부여받은 민간",
+          "부문일 수 있다 .",
+          "⑵",
+          "사업시행자는 최소한 사회기반시설의 경영의 일부 및 관련 서",
+          "비스에 대한 책임을 가지며 단순히 사업허가자를 대신하는 대",
+          "리인의 역할을 하는 것이 아니다 .",
+          "⑶",
+          "실시협약에서 사업시행자가 부과하게 될 최초사용료를 결정하",
+          "며 사업기간동안 이루어질 사용료의 조정방식을 규정한다 .",
+          "⑷",
+          "사업시행자는 사업기간 말에 특정한 조건에 따라 아주 작은",
+          "- 9",
+          "대가로 또는 대가없이 사업허가자에게 사회기반시설을 이전하",
+          "여야 하는데, 이는 누가 사회기반시설을 위한 자금을 부담하였",
+          "느냐에 무관하다 ."
+        ]
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_main_unk_3",
+      "parent_id": "KIFRS2112_main_h_적용",
+      "content": "한 이 해석서는 주식회사 등의 외부감사에 관한 법률 에서 정하는\n\n한국채택국제회계기준 의무적용대상 주식회사의 회계처리에 적용\n\n한다 또한 이 해석서는 재무제표의 작성과 표시를 위해 한국채택\n\n국제회계기준의 적용을 선택하거나 다른 법령 등에서 적용을 요\n\n구하는 기업의 회계처리에도 적용한다",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "main",
+        "para_number": null,
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_main_5",
+      "parent_id": "KIFRS2112_main_h_적용범위",
+      "content": "5 이 해석서는 다음을 모두 충족하는 민간투자사업에 적용한다 .\n\n⑴ 사업시행자가 사회기반시설을 이용하여 제공하는 서비스의 내\n\n용, 이용자 및 가격 ( 사용료 ) 을 사업허가자가 통제하거나 감독\n\n한다 .\n\n⑵ 사업허가자가 소유권이나 수익권 등을 통하여 사업기간 말에\n\n사회기반시설의 잔여지분의 유의적인 부분을 통제한다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "main",
+        "para_number": "5",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_main_6",
+      "parent_id": "KIFRS2112_main_h_적용범위",
+      "content": "6 전체 내용연수 동안 민간투자사업에 사용되는 사회기반시설은 문\n\n단 5⑴ 의 조건만 충족되면 이 해석서의 적용범위에 포함된다 . 부\n\n록의 AG1~AG8 에서 민간투자사업이 이 해석서의 적용범위에 포\n\n함되는지 여부와 그 포함되는 정도를 결정하기 위한 지침을 제시\n\n하고 있다 .\n\n                  - 10",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "main",
+        "para_number": "6",
+        "cross_refs": [
+          "AG1~AG8"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_main_7",
+      "parent_id": "KIFRS2112_main_h_적용범위",
+      "content": "7 이 해석서는 다음에 적용된다 .\n\n⑴ 사업시행자가 민간투자사업을 위하여 사회기반시설을 건설하\n\n거나 제 3 자로부터 취득하는 경우\n\n⑵ 사업허가자가 사업시행자에게 기존의 사회기반시설을 민간투\n\n자사업을 위하여 운영할 수 있도록 허용하는 경우",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "main",
+        "para_number": "7",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_main_8",
+      "parent_id": "KIFRS2112_main_h_적용범위",
+      "content": "8 이 해석서는 민간투자사업 시행 전에 사업시행자가 유형자산으로\n\n보유하고 인식한 사회기반시설의 회계처리는 규정하지 아니한다 .\n\n그러한 사회기반시설의 제거에는 기업회계기준서 제 1016 호의 관\n\n련 규정이 적용된다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "main",
+        "para_number": "8",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_main_10",
+      "parent_id": "KIFRS2112_main_h_회계논제",
+      "content": "10 이 해석서는 민간투자사업과 관련된 의무 및 권리의 인식과 측정\n\n에 관한 일반원칙을 제공한다 . 민간투자사업과 관련된 정보의 공\n\n시는 기업회계기준해석서 제 2029 호에서 다룬다 . 이 해석서는 다음\n\n의 회계논제를 다룬다 .\n\n⑴ 사회기반시설에 대한 사업시행자 권리의 회계처리\n\n⑵ 민간투자사업 시행대가의 인식과 측정\n\n⑶ 건설서비스 또는 개량서비스\n\n⑷ 운영서비스\n\n⑸ 차입원가\n\n⑹ 대가로 받은 금융자산과 무형자산의 후속 회계처리\n\n⑺ 사업허가자가 사업시행자에게 제공하는 재화",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "main",
+        "para_number": "10",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_main_11",
+      "parent_id": "KIFRS2112_main_h_결론",
+      "content": "11 이 해석서의 적용대상이 되는 사회기반시설은 사업시행자의 유형\n\n자산으로 인식하지 아니한다 . 왜냐하면 민간투자사업에서 공공서\n\n비스에 사용될 사회기반시설의 통제권이 사업시행자에게 양도되\n\n지 아니하기 때문이다 . 실시협약의 내용에 따라 사업시행자는 사\n\n업허가자 대신 공공서비스를 제공하기 위하여 사회기반시설을 운\n\n영할 권리를 가진다 .\n\n민간투자사업 시행대가의 인식과 측정",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "main",
+        "para_number": "11",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_main_12",
+      "parent_id": "KIFRS2112_main_h_결론",
+      "content": "12 이 해석서의 적용범위에 해당하는 민간투자사업에서 사업시행자\n\n는 서비스제공자의 역할을 담당한다 . 사업시행자는 공공서비스 제\n\n공에 사용될 사회기반시설을 건설하거나 개량하고 ( 건설서비스 또\n\n는 개량서비스 ) 일정기간 그 사회기반시설을 운영하고 유지 보수\n\n한다 ( 운영서비스 ).",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "main",
+        "para_number": "12",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_main_1115",
+      "parent_id": "KIFRS2112_main_h_결론",
+      "content": "1115 호에 따라 수익을 인식하고 측정한다 . 그리고 대가의 성격에\n\n따라 후속 회계처리가 결정된다 . 금융자산이나 무형자산으로 받은\n\n대가의 후속 회계처리는 문단 23~26 에서 상세하게 규정한다 .\n\n건설서비스나 개량서비스",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "main",
+        "para_number": "1115",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_main_14",
+      "parent_id": "KIFRS2112_main_h_결론",
+      "content": "14 사업시행자는 건설서비스나 개량서비스를 기업회계기준서 제 1115\n\n호에 따라 회계처리한다 .\n\n사업허가자가 사업시행자에게 지급하는 대가",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "main",
+        "para_number": "14",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_main_15",
+      "parent_id": "KIFRS2112_main_h_결론",
+      "content": "15 사업시행자가 건설서비스나 개량서비스를 제공하는 경우에 사업\n\n시행자가 받거나 받을 대가는 기업회계기준서 제 1115 호에 따라\n\n                  - 12\n\n인식한다 . 이 경우에 대가는 다음 중 어느 하나에 대한 권리일 수\n\n있다 .\n\n⑴ 금융자산\n\n⑵ 무형자산",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "main",
+        "para_number": "15",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_main_16",
+      "parent_id": "KIFRS2112_main_h_결론",
+      "content": "16 사업시행자는 건설서비스에 대한 대가로 사업허가자로부터 또는\n\n사업허가자의 지시에 따라 현금 또는 다른 금융자산을 받을 무조\n\n건부의 계약상 권리를 한도로 금융자산을 인식한다 . 그런데 일반\n\n적으로 실시협약이 법에 의해 강제되기 때문에 사업허가자는 대\n\n가를 지급하지 않을 재량이 거의 없다 . 사회기반시설이 특정한 품\n\n질과 효율성 요구조항을 충족한다는 것을 사업시행자가 보장하는\n\n경우에만 지급이 이루어지는 조건이더라도, ⑴ 사업허가자가 사업\n\n시행자에게 특정한 금액 또는 결정가능한 금액을 지급할 것을 계\n\n약으로 보증하거나 ⑵ 사업시행자가 공공서비스의 이용자로부터\n\n받게 되는 금액이 특정한 금액 또는 결정가능한 금액에 미달하더\n\n라도 그 부족액을 사업허가자가 사업시행자에게 지급할 것을 계\n\n약으로 보증하는 경우라면 사업시행자는 현금을 지급받을 무조건\n\n부의 권리를 가지는 것이다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "main",
+        "para_number": "16",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_main_17",
+      "parent_id": "KIFRS2112_main_h_결론",
+      "content": "17 사업시행자는 공공서비스의 이용자에게 사용료를 부과할 수 있는\n\n권리 ( 사업면허 ) 를 한도로 무형자산을 인식한다 . 이용자에 대한 사\n\n용료 부과권리는 그 금액이 이용자들의 사용정도에 따라 달라지\n\n기 때문에 현금을 받을 무조건부의 권리와 다르다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "main",
+        "para_number": "17",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_main_18",
+      "parent_id": "KIFRS2112_main_h_결론",
+      "content": "18 만약 사업시행자가 건설서비스의 대가를 일부는 금융자산으로 받\n\n고 일부는 무형자산으로 받는다면 각각을 분리하여 회계처리한다 .\n\n이때, 각 요소별로 최초에 기업회계기준 제 1115 호에 따라 인식한\n\n다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "main",
+        "para_number": "18",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_main_19",
+      "parent_id": "KIFRS2112_main_h_결론",
+      "content": "19 사업시행자가 사업허가자에게서 지급받는 대가의 성격은 실시협\n\n약과 관련 법규에 기초하여 결정해야 한다 . 문단 23~26 에서 기술\n\n                  - 13\n\n하는 바와 같이 대가의 성격에 따라 후속 회계처리를 결정한다 .\n\n그러나 기업회계기준서 제 1115 호에 따라 두 가지 유형의 대가를\n\n모두 건설기간이나 갱신기간에 계약자산으로 분류한다 .\n\n운영서비스",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "main",
+        "para_number": "19",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_main_20",
+      "parent_id": "KIFRS2112_main_h_결론",
+      "content": "20 사업시행자는 운영서비스를 기업회계기준서 제 1115 호에 따라 회\n\n계처리한다 .\n\n사회기반시설을 특정 수준의 사용가능 상태로 복구하여야 할 계\n\n약상 의무",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "main",
+        "para_number": "20",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_main_21",
+      "parent_id": "KIFRS2112_main_h_결론",
+      "content": "21 사업시행자는 자신이 가지는 사업면허의 조건으로 다음 중 하나\n\n의 계약상 의무를 부담할 수 있다 .\n\n⑴ 사회기반시설을 특정 수준의 사용가능 상태로 유지하여야 한\n\n다 .\n\n⑵ 사업기간 말에 사회기반시설을 사업허가자에게 반환하기 전에\n\n특정 상태로 복구하여야 한다 .\n\n사업시행자는 문단 14 에서 규정하는 개량서비스를 제외한 상기의\n\n계약상 의무를 기업회계기준서 제 1037 호에 따라 인식하고 측정한\n\n다 . 즉, 현재의무의 이행에 소요되는 지출에 대하여 보고기간 말\n\n현재 최선의 추정치로 인식하고 측정한다 .\n\n사업시행자의 차입원가",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "main",
+        "para_number": "21",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_main_22",
+      "parent_id": "KIFRS2112_main_h_결론",
+      "content": "22 기업회계기준서 제 1023 호에 따라 민간투자사업과 관련된 차입원\n\n가는 발생한 기간의 비용으로 인식한다 . 그러나 사업시행자가 무\n\n형자산 ( 공공서비스의 이용자에게 사용료를 부과할 수 있는 권리 )\n\n을 받을 계약상 권리를 가지는 경우에는, 민간투자사업과 관련된\n\n차입원가는 그 기준서에 따라 건설기간 동안 자본화한다\n\n                  - 14\n\n금융자산",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "main",
+        "para_number": "22",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_main_23",
+      "parent_id": "KIFRS2112_main_h_결론",
+      "content": "23 문단 16 과 18 에 따라 인식하는 금융자산에 대하여는 기업회계기\n\n준서 제 1032 호, 제 1107 호, 제 1109 호를 적용한다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "main",
+        "para_number": "23",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_main_24",
+      "parent_id": "KIFRS2112_main_h_결론",
+      "content": "24 사업허가자에게서 또는 사업허가자의 지시에 따라 받게 되는 금\n\n액은 기업회계기준서 제 1109 호에 따라 다음 중 하나로 측정한다 .\n\n⑴ 상각후원가\n\n⑵ 기타포괄손익   - 공정가치\n\n⑶ 당기손익   - 공정가치",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "main",
+        "para_number": "24",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_main_25",
+      "parent_id": "KIFRS2112_main_h_결론",
+      "content": "25 만약 사업허가자에게서 받을 금액을 상각후원가나 기타포괄손익\n\n공정가치로 측정한다면, 기업회계기준서 제 1109 호에 따라 유효이\n\n자율법으로 계산된 이자를 당기손익으로 인식한다 .\n\n무형자산",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "main",
+        "para_number": "25",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_main_26",
+      "parent_id": "KIFRS2112_main_h_결론",
+      "content": "26 문단 17 과 18 에 따라 인식한 무형자산에 대하여 기업회계기준서\n\n제 1038 호를 적용한다 . 동 기준서 문단 45~47 에서는 비화폐성자산\n\n또는 화폐성자산과 비화폐성자산이 결합된 대가와 교환으로 취득\n\n한 무형자산의 측정에 대한 지침을 제공하고 있다 .\n\n사업허가자가 사업시행자에게 제공하는 재화",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "main",
+        "para_number": "26",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_main_27",
+      "parent_id": "KIFRS2112_main_h_결론",
+      "content": "27 문단 11 에 따라, 사업허가자가 민간투자사업을 목적으로 사업시행\n\n자에게 운영을 허용하는 사회기반시설은 사업시행자의 유형자산\n\n으로 회계처리하지 아니한다 . 또한 사업허가자는 사업시행자의 의\n\n도대로 보관하거나 처리할 수 있는 다른 재화를 제공할 수도 있\n\n다 . 그러한 자산이 서비스와 관련하여 사업허가자가 지급할 대가\n\n                  - 15\n\n의 일부에 해당한다면, 기업회계기준서 제 1020 호에서 정의하고 있\n\n는 정부보조금이 아니다 . 그 대신에 기업회계기준서 제 1115 호에서\n\n정의한 대로 거래가격의 일부로 회계처리한다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "main",
+        "para_number": "27",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_main_한28.1",
+      "parent_id": "KIFRS2112_main_h_시행일",
+      "content": "한 28.1 이 해석서는 2011 년 1 월 1 일 이후 최초로 개시하는 회계연도부터\n\n적용한다 . 다만, 2009 년 1 월 1 일 이후 개시하는 회계연도부터 적\n\n용할 수 있다 .\n\n28A-28C [ 국제회계기준위원회에서 삭제함 ]\n\n28D 2015 년 12 월에 공표한 기업회계기준서 제 1115 호 ‘ 고객과의 계약에\n\n서 생기는 수익 ’ 에 따라, ‘ 참조 ’ 문단, 첨부자료 2 의 표, 문단\n\n13~15, 18~20, 27 을 개정하였다 . 이 개정 내용은 기업회계기준서\n\n제 1115 호를 적용할 때 적용한다 .\n\n28E 2015 년 12 월에 공표한 기업회계기준서 제 1109 호에 따라 문단\n\n23~25 를 개정하였고 문단 28A~28C 를 삭제하였다 . 기업회계기준서\n\n제 1109 호를 적용할 때 이 개정 내용을 적용한다 .\n\n28F 2017 년 12 월에 공표한 기업회계기준서 제 1116 호에 따라 문단\n\nAG8 를 개정하였다 . 이 개정 내용은 기업회계기준서 제 1116 호를\n\n적용할 때 적용한다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "main",
+        "para_number": "한28.1",
+        "cross_refs": [
+          "AG8"
+        ],
+        "has_table": false,
+        "has_example": false,
+        "sentences": [
+          "한 28.1 이 해석서는 2011 년 1 월 1 일 이후 최초로 개시하는 회계연도부터",
+          "적용한다 .",
+          "다만, 2009 년 1 월 1 일 이후 개시하는 회계연도부터 적",
+          "용할 수 있다 .",
+          "28A-28C [ 국제회계기준위원회에서 삭제함 ]",
+          "28D 2015 년 12 월에 공표한 기업회계기준서 제 1115 호 ‘ 고객과의 계약에",
+          "서 생기는 수익 ’ 에 따라, ‘ 참조 ’ 문단, 첨부자료 2 의 표, 문단",
+          "13~15, 18~20, 27 을 개정하였다 .",
+          "이 개정 내용은 기업회계기준서",
+          "제 1115 호를 적용할 때 적용한다 .",
+          "28E 2015 년 12 월에 공표한 기업회계기준서 제 1109 호에 따라 문단",
+          "23~25 를 개정하였고 문단 28A~28C 를 삭제하였다 .",
+          "기업회계기준서",
+          "제 1109 호를 적용할 때 이 개정 내용을 적용한다 .",
+          "28F 2017 년 12 월에 공표한 기업회계기준서 제 1116 호에 따라 문단",
+          "AG8 를 개정하였다 .",
+          "이 개정 내용은 기업회계기준서 제 1116 호를",
+          "적용할 때 적용한다 ."
+        ]
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_main_29",
+      "parent_id": "KIFRS2112_main_h_경과규정",
+      "content": "29 문단 30 에 해당하는 경우를 제외하고, 이 해석서를 적용함에 따른\n\n회계정책의 변경은 기업회계기준서 제 1008 호에 따라 소급적용한\n\n                  - 16\n\n다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "main",
+        "para_number": "29",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_main_30",
+      "parent_id": "KIFRS2112_main_h_경과규정",
+      "content": "30 특정 민간투자사업에 대해 사업시행자가 실무적으로 이 해석서를\n\n소급적용할 수 없는 경우에는 비교 표시되는 가장 이른 회계기간\n\n초에 다음과 같이 처리한다 .\n\n⑴ 비교 표시되는 가장 이른 회계기간 초에 존재하던 금융자산과\n\n무형자산을 인식한다 .\n\n⑵ 금융자산과 무형자산의 종전 장부금액 ( 어떻게 분류되었는지\n\n관계없이 ) 을 그 시점의 장부금액으로 한다 .\n\n⑶ 그 시점에 인식된 금융자산과 무형자산의 손상검사를 한다 . 다\n\n만, 실무적으로 그 시점에서의 손상검사를 할 수 없다면, 당기\n\n초를 기준으로 검사한다\n\n                  - 17",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "main",
+        "para_number": "30",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_ag_AG1",
+      "parent_id": "KIFRS2112_ag_h_적용범위_문단",
+      "content": "AG1 이 해석서의 문단 5 에서 다음을 모두 충족하는 민간투자사업은\n\n이 해석서의 적용대상이 된다고 규정하고 있다 .\n\n⑴ 사업시행자가 사회기반시설을 이용하여 제공하는 서비스의 내\n\n용, 이용자 및 가격 ( 사용료 ) 을 사업허가자가 통제하거나 감독\n\n한다 .\n\n⑵ 사업허가자가 소유권이나 수익권 등을 통하여 사업기간 말에\n\n사회기반시설의 잔여지분의 유의적인 부분을 통제한다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "ag",
+        "para_number": "AG1",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_ag_AG2",
+      "parent_id": "KIFRS2112_ag_h_적용범위_문단",
+      "content": "AG2 조건 ⑴ 에서의 통제 또는 감독은 실시협약이나 다른 방법 ( 감독기\n\n구를 통한 방법 등 ) 으로 이루어질 수 있으며, 산출물의 일부 또는\n\n전부를 사업허가자가 아닌 다른 이용자가 매입하는 경우뿐만 아\n\n니라, 사업허가자가 산출물 전부를 매입하는 경우도 포함한다 . 이\n\n조건을 적용할 때, 사업허가자와 그의 특수관계자는 동일한 당사\n\n자로 간주한다 . 만약, 사업허가자가 공공부문 내 하나의 조직이라\n\n면, 이 해석서의 목적상 공공목적을 수행하는 모든 감독기구를 포\n\n함한 공공부문 전체가 당해 사업허가자와 특수관계를 가지는 것\n\n으로 간주한다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "ag",
+        "para_number": "AG2",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_ag_AG3",
+      "parent_id": "KIFRS2112_ag_h_적용범위_문단",
+      "content": "AG3 조건 ⑴ 을 충족하기 위하여 사업허가자가 사용료의 가격에 대한\n\n완전한 통제권을 가지고 있을 필요는 없다 . 즉, 예를 들어, 가격상\n\n한제의 도입과 같이 사업허가자나 실시협약 또는 감독기구에 의\n\n한 가격 규제로도 충분하다 . 그러나 해당 조건은 민간투자사업의\n\n실질에 따라 적용되어야 한다 . 적용될 가능성이 희박한 가격상한\n\n제와 같이 실질적이지 못한 사항들은 무시되어야 한다 . 역으로,\n\n                  - 18\n\n만약 실시협약에서 사업시행자가 자유롭게 가격을 결정할 수 있\n\n도록 하면서, 동시에 모든 초과이익을 사업허가자에게 반납하도록\n\n하였다면, 사업시행자의 수익은 상한이 주어진 것이며 가격요소는\n\n통제요건을 충족한 것이다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "ag",
+        "para_number": "AG3",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_ag_AG4",
+      "parent_id": "KIFRS2112_ag_h_적용범위_문단",
+      "content": "AG4 조건 ⑵ 에서 잔여지분의 유의적인 부분에 대하여 사업허가자가\n\n통제한다는 것은, 사업시행자가 사회기반시설을 실질적으로 매각\n\n하거나 담보로 제공할 수 없고 동시에 사업허가자가 사업기간 동\n\n안 지속적 사용권을 가진다는 것이다 . 여기에서 사회기반시설의\n\n잔여지분이란 해당 시설이 이미 오래되어 사업기간 말에 예상되\n\n는 상태에 있다는 가정 하에 추정되는 현행가치를 말한다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "ag",
+        "para_number": "AG4",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_ag_AG5",
+      "parent_id": "KIFRS2112_ag_h_적용범위_문단",
+      "content": "AG5 통제는 관리와 구별되어야 한다 . 만약 사업허가자가 문단 5⑴ 에서\n\n규정하고 있는 수준의 통제와 잔여지분의 유의적인 부분을 보유\n\n한다면, 비록 사업시행자가 많은 경우에 관리상의 폭넓은 재량을\n\n가지고 있더라도, 사업허가자를 대신하여 사회기반시설을 단지 관\n\n리할 뿐이다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "ag",
+        "para_number": "AG5",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_ag_AG6",
+      "parent_id": "KIFRS2112_ag_h_적용범위_문단",
+      "content": "AG6 조건 ⑴ 과 ⑵ 는 어떤 경우에 사업허가자가 사회기반시설 ( 필요한\n\n모든 교체를 포함 ( 문단 21 참조 )) 을 경제적 내용연수 전체 기간\n\n동안 통제하는가를 결정한다 . 예를 들어, 만약 사업시행자가 사업\n\n기간에 사회기반시설의 일부분 ( 예 : 도로표면층 또는 건물의 지붕 )\n\n을 교체해야 한다면, 사회기반시설은 전체로서 통제 여부가 고려\n\n되어야 한다 . 따라서 만약 사업허가자가 사회기반시설 중 당해 일\n\n부분의 최종 교체분에 대한 잔여지분의 유의적인 부분을 통제한\n\n다면, 교체된 일부분을 포함한 사회기반시설 전체에 대하여 조건\n\n⑵ 가 충족되는 것이다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "ag",
+        "para_number": "AG6",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_ag_AG7",
+      "parent_id": "KIFRS2112_ag_h_적용범위_문단",
+      "content": "AG7 때때로 사회기반시설의 사용이 부분적으로는 문단 5⑴ 의 방식으\n\n로 감독되고 부분적으로는 감독되지 않을 수 있다 . 그러한 민간투\n\n                  - 19\n\n자사업은 다양한 형태가 있다 .\n\n⑴ 사회기반시설이 물리적으로 분리가능하고 독립적으로 운영될\n\n수 있으며 기업회계기준서 제 1036 호의 현금창출단위의 정의를\n\n충족하는 경우, 해당 시설이 감독되지 않는 목적에만 전적으로\n\n사용된다면 분리하여 분석한다 . 예를 들어, 사업허가자가 공공\n\n환자의 치료에 사용하는 병원 내에 공공목적 이외의 용도로\n\n사용되는 공간은 분리하여 분석한다 .\n\n⑵ 병원의 구내매점과 같은 순전히 보조적인 사업이 감독받지 않\n\n는 경우에는, 해당 사업이 없다는 가정 하에 통제 여부를 판단\n\n한다 . 왜냐하면 사업허가자가 문단 5 의 방식으로 통제하는 경\n\n우에는 보조적인 활동이 존재하더라도 사회기반시설에 대한\n\n사업허가자의 통제를 약화시키지 않기 때문이다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "ag",
+        "para_number": "AG7",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_ag_AG8",
+      "parent_id": "KIFRS2112_ag_h_적용범위_문단",
+      "content": "AG8 사업시행자는 문단 AG7⑴ 에서 설명하는 분리 가능한 사회기반시\n\n설의 사용권을 가질 수도 있고, 문단 AG7⑵ 에서 설명하는 감독받\n\n지 않는 보조적 서비스를 제공하기 위해 사용되는 시설의 사용권\n\n을 가질 수도 있다 . 어느 경우든 사업허가자의 사업시행자에 대한\n\n실질적 리스가 존재할 수 있으며, 이러한 실질적 리스는 기업회계\n\n기준서 제 1116 호에 따라 회계처리한다 .\n\n                  - 20",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "ag",
+        "para_number": "AG8",
+        "cross_refs": [
+          "AG7"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_ag_unk_4",
+      "parent_id": "KIFRS2112_ag_h_기업회계기준해석서_제_호의_제_개정_등에_대한_회계기준위원회의_의결",
+      "content": "기업회계기준해석서 제 2112 호 ‘ 민간투자사업 ’ 의 제정 (2007.11.23.) 은 회계기준\n\n위원회 위원 7 인 전원의 찬성으로 의결하였다 .\n\n회계기준위원회 위원 :\n\n이효익 ( 위원장 ), 서정우 ( 상임위원 ), 김성남, 윤순석, 최상태, 황성식, 황인태\n\n                  - 21",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "ag",
+        "para_number": null,
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_ag_unk_5",
+      "parent_id": "KIFRS2112_ag_h_첨부자료",
+      "content": "민간투자사업의 회계처리 구조\n\n이 첨부자료는 기업회계기준해석서 제 2112 호에 첨부되지만, 이 해석서의 일\n\n부를 구성하는 것은 아니다 .\n\n다음 표에서는 기업회계기준해석서 제 2112 호의 민간투자사업에 대한 회계처\n\n|리를 요약한다.|Col2|Col3|\n|---|---|---|\n|사업시행자가 사회기반시설을<br>이용하여 제공하는 서비스의 내용,<br>이용자 및 가격(사용료)을 <br>사업허가자가 통제하거나 감독하는가?|사업시행자가 사회기반시설을<br>이용하여 제공하는 서비스의 내용,<br>이용자 및 가격(사용료)을 <br>사업허가자가 통제하거나 감독하는가?|사업시행자가 사회기반시설을<br>이용하여 제공하는 서비스의 내용,<br>이용자 및 가격(사용료)을 <br>사업허가자가 통제하거나 감독하는가?|\n|||예|\n|사업허가자가 소유권이나 수익권 등을<br>통하여 사업기간 말에 사회기반시설의<br>잔여지분의 유의적인 부분을 통제하는가?<br>또는 사회기반시설이 그 전체의 내용연수<br>동안 민간투자사업에 이용되는가?|사업허가자가 소유권이나 수익권 등을<br>통하여 사업기간 말에 사회기반시설의<br>잔여지분의 유의적인 부분을 통제하는가?<br>또는 사회기반시설이 그 전체의 내용연수<br>동안 민간투자사업에 이용되는가?|사업허가자가 소유권이나 수익권 등을<br>통하여 사업기간 말에 사회기반시설의<br>잔여지분의 유의적인 부분을 통제하는가?<br>또는 사회기반시설이 그 전체의 내용연수<br>동안 민간투자사업에 이용되는가?|\n|||예|\n||||\n|민간투자사업 목적으로 사<br>업시행자가 사회기반시설을<br>건설하거나 제3자로부터 취<br>득하였는가?|민간투자사업 목적으로 사<br>업시행자가 사회기반시설을<br>건설하거나 제3자로부터 취<br>득하였는가?|민간투자사업 목적으로 사<br>업시행자가 사회기반시설을<br>건설하거나 제3자로부터 취<br>득하였는가?|\n||||\n|해석서의 적용범위에 속함<br>사업시행자는 사회기반시설을 유형자산이나 사용권자산으로 인식하지 않는다.|해석서의 적용범위에 속함<br>사업시행자는 사회기반시설을 유형자산이나 사용권자산으로 인식하지 않는다.|해석서의 적용범위에 속함<br>사업시행자는 사회기반시설을 유형자산이나 사용권자산으로 인식하지 않는다.|\n\n- 23",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "ag",
+        "para_number": null,
+        "cross_refs": [],
+        "has_table": true,
+        "has_example": false,
+        "sentences": [
+          "민간투자사업의 회계처리 구조",
+          "이 첨부자료는 기업회계기준해석서 제 2112 호에 첨부되지만, 이 해석서의 일",
+          "부를 구성하는 것은 아니다 .",
+          "다음 표에서는 기업회계기준해석서 제 2112 호의 민간투자사업에 대한 회계처",
+          "|리를 요약한다.|Col2|Col3|\n|---|---|---|\n|사업시행자가 사회기반시설을<br>이용하여 제공하는 서비스의 내용,<br>이용자 및 가격(사용료)을 <br>사업허가자가 통제하거나 감독하는가?|",
+          "사업시행자가 사회기반시설을<br>이용하여 제공하는 서비스의 내용,<br>이용자 및 가격(사용료)을 <br>사업허가자가 통제하거나 감독하는가?|",
+          "사업시행자가 사회기반시설을<br>이용하여 제공하는 서비스의 내용,<br>이용자 및 가격(사용료)을 <br>사업허가자가 통제하거나 감독하는가?|",
+          "|||예|\n|사업허가자가 소유권이나 수익권 등을<br>통하여 사업기간 말에 사회기반시설의<br>잔여지분의 유의적인 부분을 통제하는가?<br>",
+          "또는 사회기반시설이 그 전체의 내용연수<br>동안 민간투자사업에 이용되는가?|",
+          "사업허가자가 소유권이나 수익권 등을<br>통하여 사업기간 말에 사회기반시설의<br>잔여지분의 유의적인 부분을 통제하는가?<br>",
+          "또는 사회기반시설이 그 전체의 내용연수<br>동안 민간투자사업에 이용되는가?|",
+          "사업허가자가 소유권이나 수익권 등을<br>통하여 사업기간 말에 사회기반시설의<br>잔여지분의 유의적인 부분을 통제하는가?<br>",
+          "또는 사회기반시설이 그 전체의 내용연수<br>동안 민간투자사업에 이용되는가?|",
+          "|||예|\n||||\n|민간투자사업 목적으로 사<br>업시행자가 사회기반시설을<br>건설하거나 제3자로부터 취<br>득하였는가?|",
+          "민간투자사업 목적으로 사<br>업시행자가 사회기반시설을<br>건설하거나 제3자로부터 취<br>득하였는가?|",
+          "민간투자사업 목적으로 사<br>업시행자가 사회기반시설을<br>건설하거나 제3자로부터 취<br>득하였는가?|\n||||",
+          "|해석서의 적용범위에 속함<br>사업시행자는 사회기반시설을 유형자산이나 사용권자산으로 인식하지 않는다.|",
+          "해석서의 적용범위에 속함<br>사업시행자는 사회기반시설을 유형자산이나 사용권자산으로 인식하지 않는다.|",
+          "해석서의 적용범위에 속함<br>사업시행자는 사회기반시설을 유형자산이나 사용권자산으로 인식하지 않는다.|",
+          "-",
+          "23"
+        ]
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_ag_unk_6",
+      "parent_id": "KIFRS2112_ag_h_첨부자료_2",
+      "content": "민간투자사업의 전형적인 형태에 적용되는 한국채택국제회계기준 참조\n\n이 첨부자료는 기업회계기준해석서 제 2112 호에 첨부되지만, 이 해석서의 일\n\n부를 구성하는 것은 아니다 .\n\n다음의 표는 공공부문의 서비스의 제공에 민간부문이 참여하는 전형적인 사\n\n업 형태를 제시하고 이러한 사업에 적용되는 IFRS 의 참조를 제공한다 . 대응\n\n목록은 모든 사업 형태를 포함하지는 않는다 . 이 표의 목적은 사업의 연속성\n\n을 강조하는 것이다 . 민간투자사업의 회계처리 사이에 명확한 구분이 있다는\n\n인상을 주는 것은 IFRIC 의 의도가 아니다 .\n\n|범주|리스이용자|서비스제공자|Col4|Col5|소유자|Col7|\n|---|---|---|---|---|---|---|\n|전형적인<br>사업형태|리스(예:<br>사업시행자가<br>사업허가자로<br>부터 자산을<br>리스한 경우)|서비스<br>그리고/또는<br>유지보수<br>계약(특정<br>업무 예:<br>부채의 회수)|복구-<br>운영-<br>이전|건설-<br>운영-<br>이전|건설-<br>소유-<br>운영|100% 매각/<br>민영화/<br>기업화|\n|자산<br>소유권|사업허가자|사업허가자|사업허가자|사업허가자|사업시행자|사업시행자|\n|자본<br>투자|사업허가자|사업허가자|사업시행자|사업시행자|사업시행자|사업시행자|\n|수요<br>위험|공유|사업허가자|사업시행자<br>그리고/또는<br>사업허가자|사업시행자<br>그리고/또는<br>사업허가자|사업시행자|사업시행자|\n|전형적인<br>기간|8~20년|1~5년|25~30년|25~30년|25~30년|비한정<br>(또는<br>라이선스로<br>제한될 수<br>있다)|\n|잔여지분|사업허가자|사업허가자|사업허가자|사업허가자|사업시행자|사업시행자|\n|관련<br>한국채택<br>국제회계<br>기준|기업회계기준<br>서 제1116호|기업회계기준<br>서 제1115호|기업회계기준해석서<br>제2112호|기업회계기준해석서<br>제2112호|기업회계기준서<br>제1016호|기업회계기준서<br>제1016호|\n\n- 24",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "ag",
+        "para_number": null,
+        "cross_refs": [],
+        "has_table": true,
+        "has_example": false,
+        "sentences": [
+          "민간투자사업의 전형적인 형태에 적용되는 한국채택국제회계기준 참조",
+          "이 첨부자료는 기업회계기준해석서 제 2112 호에 첨부되지만, 이 해석서의 일",
+          "부를 구성하는 것은 아니다 .",
+          "다음의 표는 공공부문의 서비스의 제공에 민간부문이 참여하는 전형적인 사",
+          "업 형태를 제시하고 이러한 사업에 적용되는 IFRS 의 참조를 제공한다 .",
+          "대응",
+          "목록은 모든 사업 형태를 포함하지는 않는다 .",
+          "이 표의 목적은 사업의 연속성",
+          "을 강조하는 것이다 .",
+          "민간투자사업의 회계처리 사이에 명확한 구분이 있다는",
+          "인상을 주는 것은 IFRIC 의 의도가 아니다 .",
+          "|범주|리스이용자|서비스제공자|Col4|Col5|소유자|Col7|\n|---|---|---|---|---|---|---|\n|전형적인<br>사업형태|리스(예:<br>사업시행자가<br>사업허가자로<br>부터 자산을<br>리스한 경우)|서비스<br>그리고/또는<br>유지보수<br>계약(특정<br>업무 예:<br>부채의 회수)|복구-<br>운영-<br>이전|건설-<br>운영-<br>이전|건설-<br>소유-<br>운영|100% 매각/<br>민영화/<br>기업화|\n|자산<br>소유권|사업허가자|사업허가자|사업허가자|사업허가자|사업시행자|사업시행자|\n|자본<br>투자|사업허가자|사업허가자|사업시행자|사업시행자|사업시행자|사업시행자|\n|수요<br>위험|공유|사업허가자|사업시행자<br>그리고/또는<br>사업허가자|사업시행자<br>그리고/또는<br>사업허가자|사업시행자|사업시행자|\n|전형적인<br>기간|8~20년|1~5년|25~30년|25~30년|25~30년|비한정<br>(또는<br>라이선스로<br>제한될 수<br>있다)|",
+          "|잔여지분|사업허가자|사업허가자|사업허가자|사업허가자|사업시행자|사업시행자|\n|관련<br>한국채택<br>국제회계<br>기준|기업회계기준<br>서 제1116호|기업회계기준<br>서 제1115호|기업회계기준해석서<br>제2112호|기업회계기준해석서<br>제2112호|기업회계기준서<br>제1016호|기업회계기준서<br>제1016호|",
+          "- 24"
+        ]
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_ag_unk_7",
+      "parent_id": "KIFRS2112_ag_h_기업회계기준해석서_제_호_민간투자사업_의_적용사례",
+      "content": "이 사례는 기업회계기준해석서 제 2112 호에 첨부되지만, 이 해석서의 일부를\n\n구성하는 것은 아니다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "ag",
+        "para_number": null,
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_ag_unk_8",
+      "parent_id": "KIFRS2112_ag_h_사례_사업허가자가_사업시행자에게_금융자산을_주는_경우",
+      "content": "실시협약의 내용\n\nIE1 실시협약의 내용에 따라 사업시행자는 도로 건설을 2 년 내에 완\n\n공하고 8 년 동안 ( 즉, 3 차 연도부터 10 차 연도까지 ) 특정기준에 따\n\n라 도로를 관리하고 운영하여야 한다 . 또한 실시협약은 사업시행\n\n자가 8 차 연도 말에 도로를 재포장해야 한다고 규정하고 있다 . 10\n\n차 연도 말에는 실시협약이 종료된다 . 사업시행자는 건설서비스,\n\n운영서비스, 도로 재포장의 세 가지 수행의무를 식별하였다고 가\n\n정한다 . 사업시행자는 이 의무를 수행하는 데에 소요될 원가를 다\n\n음과 같이 추정한다 .\n\n표 계약원가                         단위 원\n\n연도 금액\n\n건설서비스 1 500\n\n2 500\n\n운영서비스 ( 매년 ) 3~10 10\n\n도로 재포장 8 100\n\nIE2 실시협약의 내용에 따라, 도로를 대중이 사용하도록 하는 대가로\n\n사업허가자는 사업시행자에게 3 차 연도부터 10 차 연도까지 매년\n\n200 원을 지급해야 한다 .\n\nIE3 이 사례의 목적상, 모든 현금흐름은 연말에 발생한다고 가정한다 .\n\n                  - 25\n\n수익\n\nIE4 사업시행자는 수익을 기업회계기준서 제 1115 호 ‘ 고객과의 계약에\n\n서 생기는 수익 ’ 에 따라 인식한다 . 제공한 용역에 대해 사업허가\n\n자에게서 받을 권리가 있을 것으로 예상하는 대가인 수익은 수행\n\n의무를 이행할 때에 ( 또는 이행하는 대로 ) 인식한다 . 실시협약의 조\n\n건에 따라 사업시행자는 8 차 연도 말에 도로를 재포장할 의무를\n\n진다 . 8 차 연도에 사업시행자는 도로 재포장에 대해 사업허가자에\n\n게서 보상 받을 것이다 .\n\nIE5 총 예상대가 (3 차 연도부터 10 차 연도까지 매년 200 원 ) 는 유의적인\n\n금융요소를 고려하여, 아래와 같이 건설서비스, 운영서비스, 도로\n\n재포장의 상대적 개별 판매가격을 기준으로 배분한다 .\n\n표 각 수행의무에 배분하는 거래가격\n\n거래가격 배분 ( 유의적인 금융요소의 효과 포함 )\n\n( 단위 : 원 )\n\n건설서비스 (2 년간 ) [(1)]\n\n운영서비스 (8 년간 ) [(2)]\n\n도로 재포장 (8 차 연도 ) [(3)]\n\n1,050\n\n96\n\n110\n\n합계 1,256\n\n내재이자율 [(4)] 매년 6.18%\n\n(1) 사업시행자는 상대적 개별 판매가격을 예상원가에 5% 를 더한 금액을 참조하여\n\n추정한다 .\n\n(2) 사업시행자는 상대적 개별 판매가격을 예상원가에 20% 를 더한 금액을 참조하여\n\n추정한다 .\n\n(3) 사업시행자는 상대적 개별 판매가격을 예상원가에 10% 를 더한 금액을 참조하여\n\n추정한다 .\n\n(4) 내재이자율은 사업시행자와 사업허가자 사이의 별도 금융거래에 반영될\n\n이자율이라고 가정한다 .\n\n             - 26\n\nIE6 예를 들면, 1 차 연도에 500 원의 건설원가, 525 원의 건설수익과 그\n\n결과로 25 원의 건설이익이 당기손익으로 인식된다 .\n\n금융자산\n\nIE7 처음 2 년 동안은 계약자산을 인식하고 약정에 존재하는 유의적인\n\n금융요소를 기업회계기준서 제 1115 호에 따라 회계처리한다 . 건설\n\n이 완료되면, 사업허가자에게서 받을 권리가 있는 금액은 기업회\n\n계기준서 제 1109 호에 따라 수취채권으로 회계처리한다 .\n\nIE8 현금흐름과 공정가치가 예측과 동일하게 유지된다면 유효이자율\n\n은 매년 6.18% 이고 1 차 연도부터 3 차 연도까지의 각 연도 말에\n\n인식되는 수취채권은 다음과 같다 .\n\n표 계약자산수취채권의 측정                단위 원\n\n(1) 현금흐름은 연말에 발생한다고 가정하였으므로 1 차 연도에는 유효이자가\n\n발생하지 않는다 .\n\n현금흐름 포괄손익계산서 및 재무상태표의 개관\n\nIE9 사례의 목적상, 사업시행자는 부채와 이익잉여금으로만 민간투자\n\n사업의 재원을 조달한다고 가정한다 . 사업시행자는 상환되지 않은\n\n부채에 대해 매년 6.7% 의 이자를 지급한다 . 현금흐름과 공정가치\n\n가 예측과 동일하게 유지된다면, 사업기간에 걸쳐 사업시행자의\n\n                  - 27\n\n현금흐름, 포괄손익계산서 및 재무상태표는 아래와 같을 것이다 .\n\n표 현금흐름 단위 원\n\n(1) 표 1.1\n\n(2) 연초 부채 ( 표 1.6) - 6.7%\n\n표 포괄손익계산서                     단위 원\n\n(1) 연초 사업허가자로부터 받게 되는 금액 ( 표 1.6) - 6.18%\n\n(2) 현금 /( 부채 )( 표 1.6) - 6.7%\n\n표 재무상태표                       단위 원\n\n(1) 연초 사업허가자로부터 받게 되는 금액에 당 연도 수익과 금융수익 ( 표 1.5)\n\n을 더한 후 당 연도 현금수령액 ( 표 1.4) 을 차감한 금액\n\n(2) 연초 부채에 당 연도 순현금흐름을 더한 금액 ( 표 1.4)\n\n            - 28\n\nIE10 이 사례는 민간투자사업에 있을 수 있는 다양한 형태 중 하나만\n\n을 다루고 있다 . 이 사례의 목적은 실무에서 공통적으로 나타나는\n\n일부 특성에 대한 회계처리를 예시하는 데 있다 . 사례를 가능한\n\n한 명확히 하기 위해, 사업기간을 10 년으로 하고 사업시행자의 수\n\n령액은 그 기간에 걸쳐 매년 일정하다고 가정하였다 . 실무에서는\n\n사업기간이 더 길 수도 있고 연도별 수익이 기간의 경과에 따라\n\n증가할 수도 있다 . 이러한 상황에서는 연도별 순이익의 변동이 더\n\n커질 수 있다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "ag",
+        "para_number": null,
+        "cross_refs": [
+          "IE1",
+          "IE10",
+          "IE2",
+          "IE3",
+          "IE4",
+          "IE5",
+          "IE6",
+          "IE7",
+          "IE8",
+          "IE9"
+        ],
+        "has_table": false,
+        "has_example": false,
+        "sentences": [
+          "실시협약의 내용",
+          "IE1 실시협약의 내용에 따라 사업시행자는 도로 건설을 2 년 내에 완",
+          "공하고 8 년 동안 ( 즉, 3 차 연도부터 10 차 연도까지 ) 특정기준에 따",
+          "라 도로를 관리하고 운영하여야 한다 .",
+          "또한 실시협약은 사업시행",
+          "자가 8 차 연도 말에 도로를 재포장해야 한다고 규정하고 있다 .",
+          "10",
+          "차 연도 말에는 실시협약이 종료된다 .",
+          "사업시행자는 건설서비스,",
+          "운영서비스, 도로 재포장의 세 가지 수행의무를 식별하였다고 가",
+          "정한다 .",
+          "사업시행자는 이 의무를 수행하는 데에 소요될 원가를 다",
+          "음과 같이 추정한다 .",
+          "표 계약원가                         단위 원",
+          "연도 금액",
+          "건설서비스 1 500",
+          "2 500",
+          "운영서비스 ( 매년 ) 3~10 10",
+          "도로 재포장 8 100",
+          "IE2 실시협약의 내용에 따라, 도로를 대중이 사용하도록 하는 대가로",
+          "사업허가자는 사업시행자에게 3 차 연도부터 10 차 연도까지 매년",
+          "200 원을 지급해야 한다 .",
+          "IE3 이 사례의 목적상, 모든 현금흐름은 연말에 발생한다고 가정한다 .",
+          "-",
+          "25",
+          "수익",
+          "IE4 사업시행자는 수익을 기업회계기준서 제 1115 호 ‘ 고객과의 계약에",
+          "서 생기는 수익 ’ 에 따라 인식한다 .",
+          "제공한 용역에 대해 사업허가",
+          "자에게서 받을 권리가 있을 것으로 예상하는 대가인 수익은 수행",
+          "의무를 이행할 때에 ( 또는 이행하는 대로 ) 인식한다 .",
+          "실시협약의 조",
+          "건에 따라 사업시행자는 8 차 연도 말에 도로를 재포장할 의무를",
+          "진다 .",
+          "8 차 연도에 사업시행자는 도로 재포장에 대해 사업허가자에",
+          "게서 보상 받을 것이다 .",
+          "IE5 총 예상대가 (3 차 연도부터 10 차 연도까지 매년 200 원 ) 는 유의적인",
+          "금융요소를 고려하여, 아래와 같이 건설서비스, 운영서비스, 도로",
+          "재포장의 상대적 개별 판매가격을 기준으로 배분한다 .",
+          "표 각 수행의무에 배분하는 거래가격",
+          "거래가격 배분 ( 유의적인 금융요소의 효과 포함 )",
+          "( 단위 : 원 )",
+          "건설서비스 (2 년간 ) [(1)]",
+          "운영서비스 (8 년간 ) [(2)]",
+          "도로 재포장 (8 차 연도 ) [(3)]",
+          "1,050",
+          "96",
+          "110",
+          "합계 1,256",
+          "내재이자율 [(4)] 매년 6.18%",
+          "(1) 사업시행자는 상대적 개별 판매가격을 예상원가에 5% 를 더한 금액을 참조하여",
+          "추정한다 .",
+          "(2)",
+          "사업시행자는 상대적 개별 판매가격을 예상원가에 20% 를 더한 금액을 참조하여",
+          "추정한다 .",
+          "(3)",
+          "사업시행자는 상대적 개별 판매가격을 예상원가에 10% 를 더한 금액을 참조하여",
+          "추정한다 .",
+          "(4)",
+          "내재이자율은 사업시행자와 사업허가자 사이의 별도 금융거래에 반영될",
+          "이자율이라고 가정한다 .",
+          "-",
+          "26",
+          "IE6 예를 들면, 1 차 연도에 500 원의 건설원가, 525 원의 건설수익과 그",
+          "결과로 25 원의 건설이익이 당기손익으로 인식된다 .",
+          "금융자산",
+          "IE7 처음 2 년 동안은 계약자산을 인식하고 약정에 존재하는 유의적인",
+          "금융요소를 기업회계기준서 제 1115 호에 따라 회계처리한다 .",
+          "건설",
+          "이 완료되면, 사업허가자에게서 받을 권리가 있는 금액은 기업회",
+          "계기준서 제 1109 호에 따라 수취채권으로 회계처리한다 .",
+          "IE8 현금흐름과 공정가치가 예측과 동일하게 유지된다면 유효이자율",
+          "은 매년 6.18% 이고 1 차 연도부터 3 차 연도까지의 각 연도 말에",
+          "인식되는 수취채권은 다음과 같다 .",
+          "표 계약자산수취채권의 측정                단위 원",
+          "(1) 현금흐름은 연말에 발생한다고 가정하였으므로 1 차 연도에는 유효이자가",
+          "발생하지 않는다 .",
+          "현금흐름 포괄손익계산서 및 재무상태표의 개관",
+          "IE9 사례의 목적상, 사업시행자는 부채와 이익잉여금으로만 민간투자",
+          "사업의 재원을 조달한다고 가정한다 .",
+          "사업시행자는 상환되지 않은",
+          "부채에 대해 매년 6.7% 의 이자를 지급한다 .",
+          "현금흐름과 공정가치",
+          "가 예측과 동일하게 유지된다면, 사업기간에 걸쳐 사업시행자의",
+          "- 27",
+          "현금흐름, 포괄손익계산서 및 재무상태표는 아래와 같을 것이다 .",
+          "표 현금흐름 단위 원",
+          "(1) 표 1.1",
+          "(2) 연초 부채 ( 표 1.6) - 6.7%",
+          "표 포괄손익계산서                     단위 원",
+          "(1) 연초 사업허가자로부터 받게 되는 금액 ( 표 1.6) - 6.18%",
+          "(2) 현금 /( 부채 )( 표 1.6) - 6.7%",
+          "표 재무상태표                       단위 원",
+          "(1) 연초 사업허가자로부터 받게 되는 금액에 당 연도 수익과 금융수익 ( 표 1.5)",
+          "을 더한 후 당 연도 현금수령액 ( 표 1.4) 을 차감한 금액",
+          "(2) 연초 부채에 당 연도 순현금흐름을 더한 금액 ( 표 1.4)",
+          "- 28",
+          "IE10 이 사례는 민간투자사업에 있을 수 있는 다양한 형태 중 하나만",
+          "을 다루고 있다 .",
+          "이 사례의 목적은 실무에서 공통적으로 나타나는",
+          "일부 특성에 대한 회계처리를 예시하는 데 있다 .",
+          "사례를 가능한",
+          "한 명확히 하기 위해, 사업기간을 10 년으로 하고 사업시행자의 수",
+          "령액은 그 기간에 걸쳐 매년 일정하다고 가정하였다 .",
+          "실무에서는",
+          "사업기간이 더 길 수도 있고 연도별 수익이 기간의 경과에 따라",
+          "증가할 수도 있다 .",
+          "이러한 상황에서는 연도별 순이익의 변동이 더",
+          "커질 수 있다 ."
+        ]
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_ag_unk_9",
+      "parent_id": "KIFRS2112_ag_h_사례_사업허가자가_사업시행자에게_무형자산_이용자에게_사용료_를_부과할_수_있는_사업면허_을_제공하는_경우",
+      "content": "실시협약의 내용\n\nIE11 실시협약의 내용에 따라 사업시행자는 도로의 건설을 2 년 내에\n\n완료하고 3 차 연도부터 10 차 연도까지 8 년 동안 특정기준에 따라\n\n도로를 관리하고 운영하여야 한다 . 또한 실시협약 내용에는 도로\n\n의 본래 표면이 특정한 상태이하로 파손되면 사업시행자가 재포\n\n장해야 한다고 규정하고 있다 . 사업시행자는 8 차 연도 말에 재포\n\n장해야 할 것으로 추정한다 . 10 차 연도 말에는 실시협약이 종료된\n\n다 . 사업시행자가 건설서비스에 대하여 하나의 수행의무를 식별하\n\n였다고 가정한다 . 사업시행자는 이 의무를 이행하는 데 소요될 원\n\n가를 다음과 같이 추정한다 .\n\n표 계약원가                        단위 원\n\n연도 금액\n\n건설서비스 1 500\n\n2 500\n\n도로 운영 ( 매년 ) 3–10 10\n\n도로 재포장 8 100\n\nIE12 실시협약의 내용에 따라, 사업시행자는 도로를 사용하는 운전자로\n\n                  - 29\n\n부터 통행료를 징수할 수 있다 . 사업시행자는 계약기간에 걸쳐 통\n\n행 차량의 수가 일정하며 3 차 연도부터 10 차 연도까지 매년 200\n\n원의 통행료를 징수할 것으로 예상한다 .\n\nIE13 이 사례의 목적상, 모든 현금흐름은 연말에 발생한다고 가정한다 .\n\n무형자산\n\nIE14 사업시행자는 무형자산, 즉 3 차 연도부터 10 차 연도 사이에 도로\n\n이용자로부터 통행료를 징수할 수 있는 권리를 받는 대가로 사업\n\n허가자에게 건설서비스를 제공한다 . 기업회계기준서 제 1115 호에\n\n따라 사업시행자는 이 비현금 대가를 공정가치로 측정한다 . 이 경\n\n우에 사업시행자는 이전한 건설서비스의 개별 판매가격을 참조하\n\n여 간접적으로 공정가치를 측정한다 .\n\nIE15 사업의 건설단계에서 건설서비스 제공에 대해 지급받을 수 있는\n\n누적적인 권리를 나타내는 사업시행자의 계약자산은 무형자산 ( 사\n\n회기반시설의 이용자에게 사용료를 부과할 수 있는 권리 ) 으로 표\n\n시한다 . 사업시행자는 건설서비스의 개별 판매가격이 예측 건설원\n\n가에 5% 의 이익을 더한 금액과 같을 것이라고 추정한다 . 이는 건\n\n설서비스를 제공하고 건설원가와 관련된 위험을 부담하는 것에\n\n대한 보상으로 시장참여자들이 요구하는 비율과 일관성이 있다고\n\n사업시행자가 결론을 내린 것이다 . 또 사업시행자는 기업회계기준\n\n제 1023 호 ‘ 차입원가 ’ 에 따라 사업의 건설단계에서 6.7% 로 추정되\n\n는 차입원가를 자본화 한다고 가정한다 .\n\n표 무형자산의 최초측정                   단위 원\n\n금액\n\n1 차 연도의 건설서비스 525\n\n자본화된 차입원가 ( 표 2.4) 34\n\n2 차 연도의 건설서비스 525\n\n                  - 30\n\n차 연도 말의 무형자산 1,084\n\nIE16 기업회계기준서 제 1038 호에 따라, 무형자산은 사업시행자가 사용\n\n가능할 것으로 기대하는 기간, 즉 3 차 연도부터 10 차 연도에 걸쳐\n\n상각한다 . 무형자산의 상각대상금액 (1,084 원 ) 은 정액법으로 배분된\n\n다 . 따라서 연간 상각액은 1,084 원을 8 년으로 나눈 금액, 즉 매년\n\n135 원이다 .\n\n건설원가와 건설수익\n\nIE17 사업시행자는 건설서비스를 기업회계기준서 제 1115 호에 따라 회\n\n계처리한다 . 사업시행자는 받았거나 받게 될 비현금 대가의 공정\n\n가치로 계약수익을 측정한다 . 따라서 1 차 연도와 2 차 연도의 당기\n\n손익에 각각 500 원의 건설원가와 525 원의 건설수익을 인식한다 .\n\n따라서 건설이익은 25 원이 된다 .\n\n통행료 수익\n\nIE18 도로 이용자들은 도로 사용과 같이 공공서비스를 제공받으며 동\n\n시에 이에 대한 대가를 지급한다 . 따라서 사업시행자는 통행료를\n\n징수할 때 통행료 수익을 인식한다 .\n\n재포장 의무\n\nIE19 사업시행자의 재포장 의무는 운영단계에서 도로를 사용한 결과로\n\n발생한다 . 이는 기업회계기준 제 1037 호 ‘ 충당부채, 우발부채, 우발\n\n자산 ’ 에 따라, 즉 보고기간 말에 현재의무를 이행하는 데에 필요\n\n한 지출의 최선의 추정치로 측정하여 인식된다 .\n\nIE20 이 사례의 목적상, 사업시행자의 계약상 의무의 내용은 어느 때나\n\n그 의무 이행에 필요한 지출의 최선의 추정치가 그 시점까지 도\n\n로를 사용한 차량의 수에 비례하며 매년 17 원 ( 현재가치로 할인함 )\n\n                  - 31\n\n씩 증가한다고 가정한다 . 사업시행자는 기업회계기준서 제 1037 호\n\n에 따라 그 충당부채를 현재가치로 할인한다 . 각 회계기간에 당기\n\n손익으로 인식되는 비용은 다음과 같다 .\n\n현금흐름 포괄손익계산서 및 재무상태표의 개관\n\nIE21 사례의 목적상, 사업시행자는 부채와 이익잉여금으로만 민간투자\n\n사업의 재원을 조달한다고 가정한다 . 사업시행자는 상환되지 않은\n\n부채에 대해 매년 6.7% 의 이자를 지급한다 . 현금흐름과 공정가치\n\n가 예측과 동일하게 유지된다면, 사업기간에 걸쳐 사업시행자의\n\n현금흐름, 포괄손익계산서 및 재무상태표는 아래와 같을 것이다 .\n\n표 현금흐름 단위 원\n\n(1) 표 2.1\n\n(2) 연초 부채 ( 표 2.6)         - 6.7%\n\n표 포괄손익계산서                     단위 원\n\n                  - 32\n\n상각\n\n                    -                     - (135) (135) (136) (136) (136) (136) (135) (135) (1,084)\n\n재포장\n\n                    -                     - (12) (14) (15) (17) (20) (22)                     -                     - (100)\n비용\n\n기타 계약\n(500) (500) (10) (10) (10) (10) (10) (10) (10) (10) (1,080)\n원가\n\n차입원가\n(1)(2)              -              - (69) (61) (53) (43) (33) (23) (19) (7) (308)\n\n순이익 25 25 (26) (20) (14) (6) 1 9 36 48 78\n\n(1) 건설 단계 동안 자본화한 차입원가\n\n(2) 표 2.4\n\n표 재무상태표 단위 원\n\n(1) 연초 부채에 당 연도 순현금흐름 ( 표 2.4) 을 더한 금액\n\nIE22 이 사례는 민간투자사업에 있을 수 있는 다양한 형태 중 하나만\n\n을 다루고 있다 . 이 사례의 목적은 실무에서 공통적으로 나타나는\n\n일부 특성에 대한 회계처리를 예시하는 데 있다 . 사례를 가능한\n\n한 명확히 하기 위해, 사업기간은 10 년으로 하고 사업시행자의 수\n\n령액은 그 기간에 걸쳐 매년 일정하다고 가정하였다 . 실무에서는\n\n사업기간이 더 길 수도 있고 연도별 수익이 기간의 경과에 따라\n\n증가할 수도 있다 . 이러한 상황에서는 연도별 순이익의 변동이 더\n\n커질 수 있다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "ag",
+        "para_number": null,
+        "cross_refs": [
+          "IE11",
+          "IE12",
+          "IE13",
+          "IE14",
+          "IE15",
+          "IE16",
+          "IE17",
+          "IE18",
+          "IE19",
+          "IE20",
+          "IE21",
+          "IE22"
+        ],
+        "has_table": false,
+        "has_example": false,
+        "sentences": [
+          "실시협약의 내용",
+          "IE11 실시협약의 내용에 따라 사업시행자는 도로의 건설을 2 년 내에",
+          "완료하고 3 차 연도부터 10 차 연도까지 8 년 동안 특정기준에 따라",
+          "도로를 관리하고 운영하여야 한다 .",
+          "또한 실시협약 내용에는 도로",
+          "의 본래 표면이 특정한 상태이하로 파손되면 사업시행자가 재포",
+          "장해야 한다고 규정하고 있다 .",
+          "사업시행자는 8 차 연도 말에 재포",
+          "장해야 할 것으로 추정한다 .",
+          "10 차 연도 말에는 실시협약이 종료된",
+          "다 .",
+          "사업시행자가 건설서비스에 대하여 하나의 수행의무를 식별하",
+          "였다고 가정한다 .",
+          "사업시행자는 이 의무를 이행하는 데 소요될 원",
+          "가를 다음과 같이 추정한다 .",
+          "표 계약원가                        단위 원",
+          "연도 금액",
+          "건설서비스 1 500",
+          "2 500",
+          "도로 운영 ( 매년 ) 3–10 10",
+          "도로 재포장 8 100",
+          "IE12 실시협약의 내용에 따라, 사업시행자는 도로를 사용하는 운전자로",
+          "- 29",
+          "부터 통행료를 징수할 수 있다 .",
+          "사업시행자는 계약기간에 걸쳐 통",
+          "행 차량의 수가 일정하며 3 차 연도부터 10 차 연도까지 매년 200",
+          "원의 통행료를 징수할 것으로 예상한다 .",
+          "IE13 이 사례의 목적상, 모든 현금흐름은 연말에 발생한다고 가정한다 .",
+          "무형자산",
+          "IE14 사업시행자는 무형자산, 즉 3 차 연도부터 10 차 연도 사이에 도로",
+          "이용자로부터 통행료를 징수할 수 있는 권리를 받는 대가로 사업",
+          "허가자에게 건설서비스를 제공한다 .",
+          "기업회계기준서 제 1115 호에",
+          "따라 사업시행자는 이 비현금 대가를 공정가치로 측정한다 .",
+          "이 경",
+          "우에 사업시행자는 이전한 건설서비스의 개별 판매가격을 참조하",
+          "여 간접적으로 공정가치를 측정한다 .",
+          "IE15 사업의 건설단계에서 건설서비스 제공에 대해 지급받을 수 있는",
+          "누적적인 권리를 나타내는 사업시행자의 계약자산은 무형자산 ( 사",
+          "회기반시설의 이용자에게 사용료를 부과할 수 있는 권리 ) 으로 표",
+          "시한다 .",
+          "사업시행자는 건설서비스의 개별 판매가격이 예측 건설원",
+          "가에 5% 의 이익을 더한 금액과 같을 것이라고 추정한다 .",
+          "이는 건",
+          "설서비스를 제공하고 건설원가와 관련된 위험을 부담하는 것에",
+          "대한 보상으로 시장참여자들이 요구하는 비율과 일관성이 있다고",
+          "사업시행자가 결론을 내린 것이다 .",
+          "또 사업시행자는 기업회계기준",
+          "제 1023 호 ‘ 차입원가 ’ 에 따라 사업의 건설단계에서 6.7% 로 추정되",
+          "는 차입원가를 자본화 한다고 가정한다 .",
+          "표 무형자산의 최초측정                   단위 원",
+          "금액",
+          "1 차 연도의 건설서비스 525",
+          "자본화된 차입원가 ( 표 2.4) 34",
+          "2 차 연도의 건설서비스 525",
+          "- 30",
+          "차 연도 말의 무형자산 1,084",
+          "IE16 기업회계기준서 제 1038 호에 따라, 무형자산은 사업시행자가 사용",
+          "가능할 것으로 기대하는 기간, 즉 3 차 연도부터 10 차 연도에 걸쳐",
+          "상각한다 .",
+          "무형자산의 상각대상금액 (1,084 원 ) 은 정액법으로 배분된",
+          "다 .",
+          "따라서 연간 상각액은 1,084 원을 8 년으로 나눈 금액, 즉 매년",
+          "135 원이다 .",
+          "건설원가와 건설수익",
+          "IE17 사업시행자는 건설서비스를 기업회계기준서 제 1115 호에 따라 회",
+          "계처리한다 .",
+          "사업시행자는 받았거나 받게 될 비현금 대가의 공정",
+          "가치로 계약수익을 측정한다 .",
+          "따라서 1 차 연도와 2 차 연도의 당기",
+          "손익에 각각 500 원의 건설원가와 525 원의 건설수익을 인식한다 .",
+          "따라서 건설이익은 25 원이 된다 .",
+          "통행료 수익",
+          "IE18 도로 이용자들은 도로 사용과 같이 공공서비스를 제공받으며 동",
+          "시에 이에 대한 대가를 지급한다 .",
+          "따라서 사업시행자는 통행료를",
+          "징수할 때 통행료 수익을 인식한다 .",
+          "재포장 의무",
+          "IE19 사업시행자의 재포장 의무는 운영단계에서 도로를 사용한 결과로",
+          "발생한다 .",
+          "이는 기업회계기준 제 1037 호 ‘ 충당부채, 우발부채, 우발",
+          "자산 ’ 에 따라, 즉 보고기간 말에 현재의무를 이행하는 데에 필요",
+          "한 지출의 최선의 추정치로 측정하여 인식된다 .",
+          "IE20 이 사례의 목적상, 사업시행자의 계약상 의무의 내용은 어느 때나",
+          "그 의무 이행에 필요한 지출의 최선의 추정치가 그 시점까지 도",
+          "로를 사용한 차량의 수에 비례하며 매년 17 원 ( 현재가치로 할인함 )",
+          "- 31",
+          "씩 증가한다고 가정한다 .",
+          "사업시행자는 기업회계기준서 제 1037 호",
+          "에 따라 그 충당부채를 현재가치로 할인한다 .",
+          "각 회계기간에 당기",
+          "손익으로 인식되는 비용은 다음과 같다 .",
+          "현금흐름 포괄손익계산서 및 재무상태표의 개관",
+          "IE21 사례의 목적상, 사업시행자는 부채와 이익잉여금으로만 민간투자",
+          "사업의 재원을 조달한다고 가정한다 .",
+          "사업시행자는 상환되지 않은",
+          "부채에 대해 매년 6.7% 의 이자를 지급한다 .",
+          "현금흐름과 공정가치",
+          "가 예측과 동일하게 유지된다면, 사업기간에 걸쳐 사업시행자의",
+          "현금흐름, 포괄손익계산서 및 재무상태표는 아래와 같을 것이다 .",
+          "표 현금흐름 단위 원",
+          "(1) 표 2.1",
+          "(2) 연초 부채 ( 표 2.6)         - 6.7%",
+          "표 포괄손익계산서                     단위 원",
+          "- 32",
+          "상각",
+          "-                     - (135) (135) (136) (136) (136) (136) (135) (135) (1,084)",
+          "재포장",
+          "-                     - (12) (14) (15) (17) (20) (22)                     -                     - (100)\n비용",
+          "기타 계약\n(500) (500) (10) (10) (10) (10) (10) (10) (10) (10) (1,080)\n원가",
+          "차입원가\n(1)(2)              -              - (69) (61) (53) (43) (33) (23) (19) (7) (308)",
+          "순이익 25 25 (26) (20) (14) (6) 1 9 36 48 78",
+          "(1) 건설 단계 동안 자본화한 차입원가",
+          "(2) 표 2.4",
+          "표 재무상태표 단위 원",
+          "(1) 연초 부채에 당 연도 순현금흐름 ( 표 2.4) 을 더한 금액",
+          "IE22 이 사례는 민간투자사업에 있을 수 있는 다양한 형태 중 하나만",
+          "을 다루고 있다 .",
+          "이 사례의 목적은 실무에서 공통적으로 나타나는",
+          "일부 특성에 대한 회계처리를 예시하는 데 있다 .",
+          "사례를 가능한",
+          "한 명확히 하기 위해, 사업기간은 10 년으로 하고 사업시행자의 수",
+          "령액은 그 기간에 걸쳐 매년 일정하다고 가정하였다 .",
+          "실무에서는",
+          "사업기간이 더 길 수도 있고 연도별 수익이 기간의 경과에 따라",
+          "증가할 수도 있다 .",
+          "이러한 상황에서는 연도별 순이익의 변동이 더",
+          "커질 수 있다 ."
+        ]
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_ag_unk_10",
+      "parent_id": "KIFRS2112_ag_h_사례_사업허가자가_사업시행자에게_금융자산과_무형자산을_주는_경우",
+      "content": "- 33\n\n실시협약의 내용\n\nIE23 실시협약의 내용에 따라 사업시행자는 도로의 건설을 2 년 내에\n\n완료하고 3 차 연도부터 10 차 연도까지 8 년 동안 특정기준에 따라\n\n도로를 관리하고 운영하여야 한다 . 또한 실시협약 내용에는 도로\n\n의 본래 표면이 특정한 상태 이하로 파손되면 사업시행자가 재포\n\n장해야 한다고 규정하고 있다 . 사업시행자는 8 차 연도 말에 재포\n\n장해야 할 것으로 추정한다 . 10 차 연도 말에는 실시협약이 종료된\n\n다 . 사업시행자가 건설서비스에 대하여 하나의 수행의무를 식별하\n\n였다고 가정한다 . 사업시행자는 이 의무를 수행하는 데 소요될 원\n\n가를 다음과 같이 추정한다 .\n\n표 계약원가                        단위 원\n\n연도 금액\n\n건설서비스 1 500\n\n2 500\n\n도로 운영 ( 매년 ) 3~10 10\n\n도로 재포장 8 100\n\nIE24 사업시행자는 건설서비스에 대한 대가를 건설서비스의 개별 판매\n\n가격 ( 예상원가에 5% 의 수익을 더한 금액으로 추정 ) 을 참조하여\n\n1,050 원으로 추정한다 .\n\nIE25 실시협약의 내용에 따라, 사업시행자는 도로를 사용하는 운전자에\n\n게 통행료를 징수할 수 있다 . 추가적으로 사업허가자는 사업시행\n\n자에게 최소한 700 원과 현금수령 시기를 반영하여 특정 이자율인\n\n6.18% 의 이자를 보장한다 . 사업시행자는 계약 기간에 걸쳐 통행차\n\n량의 수가 일정하며 3 차 연도부터 10 차 연도까지 매년 200 원의\n\n통행료를 징수할 것으로 예상한다 .\n\nIE26 이 사례의 목적상, 모든 현금흐름은 연말에 발생한다고 가정한다 .\n\n                  - 34\n\n계약의 분할\n\nIE27 사업허가자에게서 서비스 대가로 현금을 수령할 계약상의 권리와\n\n이용자에게 공공서비스 제공 대가로 사용료를 부과할 수 있는 권\n\n리는, 한국채택국제회계기준에 따라, 두 개의 별도 자산으로 인식\n\n해야 한다 . 따라서 이 실시협약에서 사업시행자의 건설단계 동안\n\n의 계약자산은 두 가지 요소 ( 보장된 금액에 근거한 금융자산과 나\n\n머지 부분에 대한 무형자산 ) 로 분할하는 것이 필요하다 . 건설서비\n\n스가 완료되면 계약자산의 두 요소를 각각 금융자산과 무형자산\n\n으로 분류하고 측정한다 .\n\n표 사업시행자 대가의 분할                 단위 원\n\n연도 합계금융자산 무형자산\n\n1 차 연도의 건설서비스 525 350 175\n2 차 연도의 건설서비스 525 350 175\n총 건설서비스 1,050 700 350\n100% 67% [(1)] 33%\n금융수익 ( 수취채권에 대해 6.18% 의 특정 이자\n22 22                                율 적용 ) ( 표 3.3 참조 )\n\n자본화된 차입원가 (1 차 연도와 2 차 연도에\n\n11                                - 11\n지급한 이자 × 33%) ( 표 3.7 참조 )\n\n사업시행자 대가의 총 공정가치 1,083 722 361\n\n(1) 건설서비스 중 사업허가자로부터 보장된 금액의 비율\n\n금융자산\n\nIE28 처음 2 년 동안에는 계약자산을 인식하고 약정에 존재하는 유의적\n\n인 금융요소를 기업회계기준서 제 1115 호에 따라 회계쳐리한다 . 건\n\n설이 완료되면, 사업허가자에게서 또는 사업허가자의 지시에 따라\n\n받을 권리가 있는 금액은 기업회계기준서 제 1109 호에 따라 수취\n\n채권으로 회계처리한다 .\n\nIE29 이러한 기준으로 2 차 연도와 3 차 연도 말에 인식되는 수취채권은\n\n                  - 35\n\n다음과 같다 .\n\n표 수취채권의 측정                     단위 원\n\n금액\n1 차 연도에 계약자산으로 배분된 건설서비스 350\n차 연도말의 계약자산 350\n2 차 연도에 금융자산으로 배분된 건설서비스 350\n1 차 연도 말 계약자산에 대한 2 차 연도의 이자\n\n22\n(6.18% × 350 원 )\n\n차 연도말의 수취채권 722\n\n2 차 연도 말 수취채권에 대한 3 차 연도의 이자\n\n45\n(6.18% × 722 원 )\n\n3 차 연도의 현금 수령액 ( 표 3.5 참조 ) (117)\n\n차 연도말의 수취채권 650\n\n무형자산\n\nIE30 기업회계기준서 제 1038 호에 따라 사업시행자는 무형자산을 원가,\n\n즉 받았거나 받게 될 대가의 공정가치로 인식한다 .\n\nIE31 사업의 건설단계에서 건설서비스의 제공에 대해 보장된 금액을\n\n초과하여 지급받을 수 있는 누적적인 권리를 나타내는 사업시행\n\n자의 계약자산 부분은 사회기반시설의 이용자에게 사용료를 부과\n\n할 수 있는 사업면허를 받을 권리로 표시한다 . 사업시행자는 건설\n\n서비스의 개별 판매가격이예측 건설원가에 5% 를 더한 금액과 같\n\n을 것이라고 추정한다 . 이는 건설서비스를 제공하고 건설원가와\n\n관련된 위험을 부담하는 것에 대한 보상으로 시장참여자들이 요\n\n구하는 비율과 일관성이 있다고 사업시행자가 결론을 내린 것이\n\n다 . 또 사업시행자는 기업회계기준서 제 1023 호에 따라 사업의 건\n\n설단계에서 6.7% 로 추정되는 차입원가를 자본화 한다고 가정한다 .\n\n금액\n1 차 연도의 건설서비스 175\n차입원가 (1 차 연도와 2 차 연도에 지급된 이자 × 33%)\n\n11\n( 표 3.7 참조 )\n\n                  - 36\n\n2 차 연도의 건설서비스 175\n차 연도말의 무형자산 361\n\nIE32 기업회계기준서 제 1038 호에 따르면 무형자산은 사업시행자가 사\n\n용 가능할 것으로 기대하는 기간, 즉 3 차 연도부터 10 차 연도에\n\n걸쳐 상각한다 . 무형자산의 상각대상금액 ( 차입원가를 포함하여\n\n361 원 ) 은 정액법으로 배분된다 . 따라서 연간 상각액은 361 원을 8\n\n년으로 나눈 금액, 즉 매년 45 원이다 .\n\n수익과 원가\n\nIE33 사업시행자는 금융자산과 무형자산을 받는 대가로 사업허가자에\n\n게 건설서비스를 제공한다 . 금융자산모형과 무형자산모형 모두에\n\n서 사업시행자는 건설서비스를 기업회계기준서 제 1115 호에 따라\n\n회계처리한다 . 따라서 1 차 연도와 2 차 연도의 당기손익에 각각\n\n500 원의 건설원가와 525 원 ( 원가에 5% 가산 ) 의 건설수익을 인식한\n\n다 .\n\n통행료 수익\n\nIE34 도로 이용자들은 도로 사용과 같이 공공서비스를 제공받으며 동\n\n시에 이에 대한 대가를 지급한다 . 실시협약의 내용에 따라 현금흐\n\n름은 금융자산과 무형자산으로 비례적으로 배분된다 . 따라서 사업\n\n시행자는 통행료 수령액을 금융자산의 회수와 무형자산으로부터\n\n얻은 수익으로 배분한다 .\n\n                  - 37\n\n재포장 의무\n\nIE35 사업시행자의 재포장 의무는 운영단계에서 도로를 사용한 결과로\n\n발생한다 . 이는 기업회계기준서 제 1037 호에 따라, 즉 보고기간 말\n\n에 현재의무를 이행하는 데 필요한 지출의 최선의 추정치로 측정\n\n하여 인식된다 .\n\nIE36 이 사례의 목적상, 사업시행자의 계약상 의무의 내용은 어느 때나\n\n그 의무에 필요한 지출의 최선의 추정치가 그 시점까지 도로를\n\n사용한 차량의 수에 비례하며 매년 17 원씩 증가한다고 가정한다 .\n\n사업시행자는 기업회계기준서 제 1037 호에 따라 그 충당부채를 현\n\n재가치로 할인한다 . 각 연도에 당기손익으로 인식되는 비용은 다\n\n음과 같다 .\n\n표 재포장 의무                       단위 원\n\n현금흐름 포괄손익계산서 및 재무상태표의 개관\n\nIE37 사례의 목적상, 사업시행자는 부채와 이익잉여금으로만 민간투자\n\n사업의 재원을 조달한다고 가정한다 . 사업시행자는 매년 상환되지\n\n않은 부채에 대해 6.7% 의 이자를 지급한다 . 현금흐름과 공정가치\n\n가 예측과 동일하게 유지된다면, 사업기간에 걸쳐 사업시행자의\n\n현금흐름, 포괄손익계산서 및 재무상태표는 아래와 같을 것이다 .\n\n표 현금흐름 단위 원\n\n                  - 38\n\n수령액 - - 200 200 200 200 200 200 200 200 1,600\n\n계약원가 [(1)] (500) (500) (10) (10) (10) (10) (10) (110) (10) (10) (1,180)\n\n차입원가 [(2)] - (34) (69) (61) (53) (43) (33) (23) (19) (7) (342)\n\n순현금유입\n(500) (534) 121 129 137 147 157 67 171 183 78\n( 유출 )\n\n(1) 표 3.1\n\n(2) 연초 부채 ( 표 3.9) - 6.7%\n\n표 포괄손익계산서 단위 원\n\n(1) 수취채권에 대한 이자\n\n(2) 표 3.1\n\n(3) 2 차 연도의 차입원가는 무형자산으로 자본화된 금액을 차감 후 표시됨 ( 표\n\n3.4 참조 )\n\n표 재무상태표 단위 원\n\n            - 39\n\n재포장 의무    -    - (12) (26) (41) (58) (78)    -    -    순자산 25 49 41 34 29 27 27 29 51 78\n\n(1) 연초 부채에 당 연도 순현금흐름 ( 표 3.7) 을 더한 금액\n\nIE38 이 사례는 실시협약에 있을 수 있는 다양한 형태 중 하나만을 다\n\n루고 있다 . 이 사례의 목적은 실무에서 공통적으로 나타나는 일부\n\n특성에 대한 회계처리를 예시하는 데 있다 . 사례를 가능한 한 명\n\n확히 하기 위해, 사업기간은 10 년으로 하고 사업시행자의 수령액\n\n은 그 기간에 걸쳐 매년 일정하다고 가정하였다 . 실무에서는 사업\n\n기간이 더 길 수도 있고 연도별 수익이 기간의 경과에 따라 증가\n\n할 수도 있다 . 이러한 상황에서는 연도별 순이익의 변동이 더 커\n\n질 수 있다 .\n\n                  - 40",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "ag",
+        "para_number": null,
+        "cross_refs": [
+          "IE23",
+          "IE24",
+          "IE25",
+          "IE26",
+          "IE27",
+          "IE28",
+          "IE29",
+          "IE30",
+          "IE31",
+          "IE32",
+          "IE33",
+          "IE34",
+          "IE35",
+          "IE36",
+          "IE37",
+          "IE38"
+        ],
+        "has_table": false,
+        "has_example": false,
+        "sentences": [
+          "- 33",
+          "실시협약의 내용",
+          "IE23 실시협약의 내용에 따라 사업시행자는 도로의 건설을 2 년 내에",
+          "완료하고 3 차 연도부터 10 차 연도까지 8 년 동안 특정기준에 따라",
+          "도로를 관리하고 운영하여야 한다 .",
+          "또한 실시협약 내용에는 도로",
+          "의 본래 표면이 특정한 상태 이하로 파손되면 사업시행자가 재포",
+          "장해야 한다고 규정하고 있다 .",
+          "사업시행자는 8 차 연도 말에 재포",
+          "장해야 할 것으로 추정한다 .",
+          "10 차 연도 말에는 실시협약이 종료된",
+          "다 .",
+          "사업시행자가 건설서비스에 대하여 하나의 수행의무를 식별하",
+          "였다고 가정한다 .",
+          "사업시행자는 이 의무를 수행하는 데 소요될 원",
+          "가를 다음과 같이 추정한다 .",
+          "표 계약원가                        단위 원",
+          "연도 금액",
+          "건설서비스 1 500",
+          "2 500",
+          "도로 운영 ( 매년 ) 3~10 10",
+          "도로 재포장 8 100",
+          "IE24 사업시행자는 건설서비스에 대한 대가를 건설서비스의 개별 판매",
+          "가격 ( 예상원가에 5% 의 수익을 더한 금액으로 추정 ) 을 참조하여",
+          "1,050 원으로 추정한다 .",
+          "IE25 실시협약의 내용에 따라, 사업시행자는 도로를 사용하는 운전자에",
+          "게 통행료를 징수할 수 있다 .",
+          "추가적으로 사업허가자는 사업시행",
+          "자에게 최소한 700 원과 현금수령 시기를 반영하여 특정 이자율인",
+          "6.18% 의 이자를 보장한다 .",
+          "사업시행자는 계약 기간에 걸쳐 통행차",
+          "량의 수가 일정하며 3 차 연도부터 10 차 연도까지 매년 200 원의",
+          "통행료를 징수할 것으로 예상한다 .",
+          "IE26 이 사례의 목적상, 모든 현금흐름은 연말에 발생한다고 가정한다 .",
+          "-",
+          "34",
+          "계약의 분할",
+          "IE27 사업허가자에게서 서비스 대가로 현금을 수령할 계약상의 권리와",
+          "이용자에게 공공서비스 제공 대가로 사용료를 부과할 수 있는 권",
+          "리는, 한국채택국제회계기준에 따라, 두 개의 별도 자산으로 인식",
+          "해야 한다 .",
+          "따라서 이 실시협약에서 사업시행자의 건설단계 동안",
+          "의 계약자산은 두 가지 요소 ( 보장된 금액에 근거한 금융자산과 나",
+          "머지 부분에 대한 무형자산 ) 로 분할하는 것이 필요하다 .",
+          "건설서비",
+          "스가 완료되면 계약자산의 두 요소를 각각 금융자산과 무형자산",
+          "으로 분류하고 측정한다 .",
+          "표 사업시행자 대가의 분할                 단위 원",
+          "연도 합계금융자산 무형자산",
+          "1 차 연도의 건설서비스 525 350 175\n2 차 연도의 건설서비스 525 350 175\n총 건설서비스 1,050 700 350\n100% 67% [(1)] 33%\n금융수익 ( 수취채권에 대해 6.18% 의 특정 이자\n22 22                                율 적용 ) ( 표 3.3 참조 )",
+          "자본화된 차입원가 (1 차 연도와 2 차 연도에",
+          "11                                - 11\n지급한 이자 × 33%) ( 표 3.7 참조 )",
+          "사업시행자 대가의 총 공정가치 1,083 722 361",
+          "(1) 건설서비스 중 사업허가자로부터 보장된 금액의 비율",
+          "금융자산",
+          "IE28 처음 2 년 동안에는 계약자산을 인식하고 약정에 존재하는 유의적",
+          "인 금융요소를 기업회계기준서 제 1115 호에 따라 회계쳐리한다 .",
+          "건",
+          "설이 완료되면, 사업허가자에게서 또는 사업허가자의 지시에 따라",
+          "받을 권리가 있는 금액은 기업회계기준서 제 1109 호에 따라 수취",
+          "채권으로 회계처리한다 .",
+          "IE29 이러한 기준으로 2 차 연도와 3 차 연도 말에 인식되는 수취채권은",
+          "- 35",
+          "다음과 같다 .",
+          "표 수취채권의 측정                     단위 원",
+          "금액\n1 차 연도에 계약자산으로 배분된 건설서비스 350\n차 연도말의 계약자산 350\n2 차 연도에 금융자산으로 배분된 건설서비스 350\n1 차 연도 말 계약자산에 대한 2 차 연도의 이자",
+          "22\n(6.18% × 350 원 )",
+          "차 연도말의 수취채권 722",
+          "2 차 연도 말 수취채권에 대한 3 차 연도의 이자",
+          "45\n(6.18% × 722 원 )",
+          "3 차 연도의 현금 수령액 ( 표 3.5 참조 ) (117)",
+          "차 연도말의 수취채권 650",
+          "무형자산",
+          "IE30 기업회계기준서 제 1038 호에 따라 사업시행자는 무형자산을 원가,",
+          "즉 받았거나 받게 될 대가의 공정가치로 인식한다 .",
+          "IE31 사업의 건설단계에서 건설서비스의 제공에 대해 보장된 금액을",
+          "초과하여 지급받을 수 있는 누적적인 권리를 나타내는 사업시행",
+          "자의 계약자산 부분은 사회기반시설의 이용자에게 사용료를 부과",
+          "할 수 있는 사업면허를 받을 권리로 표시한다 .",
+          "사업시행자는 건설",
+          "서비스의 개별 판매가격이예측 건설원가에 5% 를 더한 금액과 같",
+          "을 것이라고 추정한다 .",
+          "이는 건설서비스를 제공하고 건설원가와",
+          "관련된 위험을 부담하는 것에 대한 보상으로 시장참여자들이 요",
+          "구하는 비율과 일관성이 있다고 사업시행자가 결론을 내린 것이",
+          "다 .",
+          "또 사업시행자는 기업회계기준서 제 1023 호에 따라 사업의 건",
+          "설단계에서 6.7% 로 추정되는 차입원가를 자본화 한다고 가정한다 .",
+          "금액\n1 차 연도의 건설서비스 175\n차입원가 (1 차 연도와 2 차 연도에 지급된 이자 × 33%)",
+          "11\n( 표 3.7 참조 )",
+          "- 36",
+          "2 차 연도의 건설서비스 175\n차 연도말의 무형자산 361",
+          "IE32 기업회계기준서 제 1038 호에 따르면 무형자산은 사업시행자가 사",
+          "용 가능할 것으로 기대하는 기간, 즉 3 차 연도부터 10 차 연도에",
+          "걸쳐 상각한다 .",
+          "무형자산의 상각대상금액 ( 차입원가를 포함하여",
+          "361 원 ) 은 정액법으로 배분된다 .",
+          "따라서 연간 상각액은 361 원을 8",
+          "년으로 나눈 금액, 즉 매년 45 원이다 .",
+          "수익과 원가",
+          "IE33 사업시행자는 금융자산과 무형자산을 받는 대가로 사업허가자에",
+          "게 건설서비스를 제공한다 .",
+          "금융자산모형과 무형자산모형 모두에",
+          "서 사업시행자는 건설서비스를 기업회계기준서 제 1115 호에 따라",
+          "회계처리한다 .",
+          "따라서 1 차 연도와 2 차 연도의 당기손익에 각각",
+          "500 원의 건설원가와 525 원 ( 원가에 5% 가산 ) 의 건설수익을 인식한",
+          "다 .",
+          "통행료 수익",
+          "IE34 도로 이용자들은 도로 사용과 같이 공공서비스를 제공받으며 동",
+          "시에 이에 대한 대가를 지급한다 .",
+          "실시협약의 내용에 따라 현금흐",
+          "름은 금융자산과 무형자산으로 비례적으로 배분된다 .",
+          "따라서 사업",
+          "시행자는 통행료 수령액을 금융자산의 회수와 무형자산으로부터",
+          "얻은 수익으로 배분한다 .",
+          "-",
+          "37",
+          "재포장 의무",
+          "IE35 사업시행자의 재포장 의무는 운영단계에서 도로를 사용한 결과로",
+          "발생한다 .",
+          "이는 기업회계기준서 제 1037 호에 따라, 즉 보고기간 말",
+          "에 현재의무를 이행하는 데 필요한 지출의 최선의 추정치로 측정",
+          "하여 인식된다 .",
+          "IE36 이 사례의 목적상, 사업시행자의 계약상 의무의 내용은 어느 때나",
+          "그 의무에 필요한 지출의 최선의 추정치가 그 시점까지 도로를",
+          "사용한 차량의 수에 비례하며 매년 17 원씩 증가한다고 가정한다 .",
+          "사업시행자는 기업회계기준서 제 1037 호에 따라 그 충당부채를 현",
+          "재가치로 할인한다 .",
+          "각 연도에 당기손익으로 인식되는 비용은 다",
+          "음과 같다 .",
+          "표 재포장 의무                       단위 원",
+          "현금흐름 포괄손익계산서 및 재무상태표의 개관",
+          "IE37 사례의 목적상, 사업시행자는 부채와 이익잉여금으로만 민간투자",
+          "사업의 재원을 조달한다고 가정한다 .",
+          "사업시행자는 매년 상환되지",
+          "않은 부채에 대해 6.7% 의 이자를 지급한다 .",
+          "현금흐름과 공정가치",
+          "가 예측과 동일하게 유지된다면, 사업기간에 걸쳐 사업시행자의",
+          "현금흐름, 포괄손익계산서 및 재무상태표는 아래와 같을 것이다 .",
+          "표 현금흐름 단위 원",
+          "- 38",
+          "수령액 - - 200 200 200 200 200 200 200 200 1,600",
+          "계약원가 [(1)] (500) (500) (10) (10) (10) (10) (10) (110) (10) (10) (1,180)",
+          "차입원가 [(2)] - (34) (69) (61) (53) (43) (33) (23) (19) (7) (342)",
+          "순현금유입\n(500) (534) 121 129 137 147 157 67 171 183 78\n( 유출 )",
+          "(1) 표 3.1",
+          "(2) 연초 부채 ( 표 3.9) - 6.7%",
+          "표 포괄손익계산서 단위 원",
+          "(1) 수취채권에 대한 이자",
+          "(2) 표 3.1",
+          "(3) 2 차 연도의 차입원가는 무형자산으로 자본화된 금액을 차감 후 표시됨 ( 표",
+          "3.4 참조 )",
+          "표 재무상태표 단위 원",
+          "- 39",
+          "재포장 의무    -    - (12) (26) (41) (58) (78)    -    -    순자산 25 49 41 34 29 27 27 29 51 78",
+          "(1) 연초 부채에 당 연도 순현금흐름 ( 표 3.7) 을 더한 금액",
+          "IE38 이 사례는 실시협약에 있을 수 있는 다양한 형태 중 하나만을 다",
+          "루고 있다 .",
+          "이 사례의 목적은 실무에서 공통적으로 나타나는 일부",
+          "특성에 대한 회계처리를 예시하는 데 있다 .",
+          "사례를 가능한 한 명",
+          "확히 하기 위해, 사업기간은 10 년으로 하고 사업시행자의 수령액",
+          "은 그 기간에 걸쳐 매년 일정하다고 가정하였다 .",
+          "실무에서는 사업",
+          "기간이 더 길 수도 있고 연도별 수익이 기간의 경과에 따라 증가",
+          "할 수도 있다 .",
+          "이러한 상황에서는 연도별 순이익의 변동이 더 커",
+          "질 수 있다 .",
+          "-",
+          "40"
+        ]
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_unk_11",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거",
+      "content": "- 41\n\n한국회계기준원은 한국채택국제회계기준 제정시 기준서를 제정한 과정 등을\n\n기술하여 결론도출근거로 제공하고자 하였다 그러나 한국채택국제회계기준\n\n준 제정시 제시한 결론도출근거를 반영하여 제공함으로써 이를 갈음하고자\n\n한다\n\n다만 한국회계기준원이 한국채택국제회계기준이나 국제회계기준의 제 개정\n\n절차에 참여한 경우 이와 관련된 내용을 국제회계기준의 결론도출근거와 구\n\n분하여 한국채택국제회계기준의 결론도출근거로 별도 제시한다\n\n                  - 42\n\n- 43\n\n- 44",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": null,
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_unk_12",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "이 결론도출근거는 IFRIC12 에 첨부되지만, 이 해석서의 일부를 구성하는 것\n\n은 아니다 .\n\n도입",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": null,
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC1",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC1 IFRIC 이 결론을 도출하는 과정에서 고려한 사항을 이 결론도출근\n\n거에서 요약한다 . IFRIC 위원들은 개인에 따라 일부 사항을 다른\n\n사항들보다 더 비중있게 고려하였다 .\n\n배경 문단",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC1",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC2",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC2 SIC 29 는 민간투자사업과 관련한 공시요건을 포함하지만 어떻게\n\n회계처리 되어야 하는지는 규정하고 있지 않다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC2",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC3",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC3 이러한 지침의 결여에 대하여 광범위한 우려가 있었다 . 특히 사업\n\n시행자는 민간투자사업을 위하여 건설하거나 취득하는 사회기반\n\n시설, 또는 공공서비스를 제공하기 위하여 운영할 수 있도록 허용\n\n된 사회기반시설을 어떻게 회계처리 하는지 알기를 원했다 . 또한\n\n사업시행자는 이러한 유형의 사업에서 발생하는 그 밖의 권리와\n\n의무를 어떻게 회계처리 하는지 알기를 원했다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC3",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC4",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC4 이러한 우려에 대해 IASB 는 호주, 프랑스, 스페인 및 영국 ( 우려를\n\n표명한 나라 중 4 개국 ) 의 회계기준제정기구 대표로 구성된 작업반\n\n에 이 주제에 대한 기초 연구를 요청하였다 . 작업반은 IFRIC 이 현\n\n행 회계기준들의 특정 측면들을 어떻게 적용하여야 하는지를 명\n\n확히 하기위한 노력이 있어야 한다고 권고하였다 .\n\n                  - 45",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC4",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC5",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC5 2005 년 3 월에 IFRIC 은 의견조회를 위해 세 가지 해석서 공개초안\n\n[D12 ‘ 민간투자사업 : 회계 모형의 결정 (Service Concession\n\nArrangements—Determining the Accounting Model)’, D13 ‘ 민간\n\n투자사업 : 금융자산모형 (Service Concession Arrangements—The\n\nFinancial Asset Model)’, D14 ‘ 민간투자사업 : 무형자산모형\n\n(Service Concession Arrangements—The Intangible Asset\n\nModel)’] 을 공표하였다 . 이러한 제안에 대해 77 건의 외부검토의견\n\n서를 받았다 . 또한 제안된 해석서를 이행하면서 발생할 수 있는\n\n실무적인 문제에 대한 이해를 도모하기 위해, IASB 의 스태프는\n\n작성자, 감사인 및 감독자를 포함한 다양한 이해관계자를 만났다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC5",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC6",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC6 D12~D14 에 대한 대부분의 의견제출자들은 해석서를 개발하겠다\n\n는 IFRIC 의 제안을 지지하였다 . 그러나 거의 대부분의 의견제출자\n\n들이 제안의 근본적인 측면에 대해서는 우려를 표명하였고, 일부\n\n는 포괄적인 기준서로 제정되도록 이 과제를 IASB 로 회부하여야\n\n한다고 주장하였다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC6",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC7",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC7 제안을 재고하는 과정에서 IFRIC 은 이 과제가 대규모 작업이라는\n\n점은 인정했지만 이 작업을 계속해야 한다고 결론지었다 . 왜냐하\n\n면 과제의 제한된 적용범위를 고려할 때 적시에 이 회계논제를\n\n다루기 위해서는 IASB 보다 IFRIC 이 더 낫기 때문이었다 .\n\n용어",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC7",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC8",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC8 SIC 29 에서는 민간투자사업의 ‘Grantor'( 사업허가자 ) 와 ‘Operator'\n\n( 사업시행자 ) 를 설명하기 위해 ‘Concession Provider’ 와\n\n‘Concession Operator’ 라는 용어를 사용하였다 . 일부 의견제출자와\n\nIFRIC 위원은 이 같은 용어들이 혼동스러울 정도로 유사하다고\n\n생각하였다 . IFRIC 은 ‘ 사업허가자 (grantor)’ 와 ‘ 사업시행자\n\n(operator)’ 라는 용어를 채택하기로 결정하였고 이에 따라 SIC 29\n\n                  - 46\n\n를 개정하였다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC8",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC9",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC9 IFRIC 은 민간투자사업이 다양한 형태를 취하고 있음을 인지하였\n\n다 . 막대한 선행 투자가 수반되고 사업허가자와 사업시행자 모두\n\n사업기간에 지속적으로 참여함에 따라, 사업시행자가 어떤 자산과\n\n부채를 인식하여야 하는가에 대한 의문이 제기된다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC9",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC10",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC10 작업반은 IFRIC 과제의 적용범위가 민간투자사업에 한정되어야\n\n한다고 권고하였다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC10",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC11",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC11 제안을 마련하면서 IFRIC 은 사업허가자가 ⑴ 사업시행자에 의해\n\n제공되는 서비스를 통제하거나 감독하고 ⑵ 사업기간 말에 사회\n\n기반시설의 잔여지분의 유의적인 부분을 통제하는 사업만을 다루\n\n기로 결정하였다 . 또한 사업을 위하여 사업시행자가 건설하거나,\n\n제 3 자로부터 취득한, 또는 사업허가자로부터 운영할 수 있도록 허\n\n용된 사회기반시설에 대한 회계처리만을 규정하기로 결정하였다 .\n\nIFRIC 은 이러한 조건들이, 지금까지 지침을 필요로 했던 대부분의\n\n민간투자사업에서 충족될 것이라고 결론지었다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC11",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC12",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC12 해석서 공개초안에 대한 의견제출자들은 실무에서 이루어지는 많\n\n은 사업, 특히 사회기반시설이 사업시행자에게 리스된 경우 또는\n\n반대로, 민간투자사업의 시행 이전에 사업시행자가 유형자산으로\n\n보유하고 있는 경우를 무시하였다고 주장하였다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC12",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC13",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC13 이 같은 의견을 고려하면서 IFRIC 은 해석 지침이 가장 필요한 사\n\n업을 이미 포함하였고 적용범위를 확장하게 되면 이 해석서가 유\n\n의적으로 지연될 수 있으므로 이 과제의 적용범위가 확장되어서\n\n는 안 된다고 결정하였다 . 과제의 적용범위는 앞에서 설명한 바와\n\n                  - 47\n\n같이 초기단계에서 충분히 고려되었다 . IFRIC 은 제안된 해석서는\n\n문단 10 에서 기술된 회계논제를 다루어야 한다는 견해를 확인하\n\n였다 . 그럼에도 불구하고 IFRIC 은 재심의 과정에서, 제안된 해석\n\n서의 적용범위가 아닌 사업을 포함하여, 공공서비스의 제공에 민\n\n간부문이 참여하는 전형적인 사업의 범위에 대해 고려하였다 .\n\nIFRIC 은 이 해석서가 다른 기준의 적용지침을 제공하지는 않지만\n\n이 해석서의 적용범위가 아닌 사업에 적용되는 관련 기준에 참고\n\n가 될 수 있다고 결정하였다 . 만약 경험적으로 그러한 지침이 필\n\n요하다고 판단되면, 별도의 과제가 추후에 수행될 수 있을 것이\n\n다 . 첨부자료 2 는 IFRIC 이 고려한 사업 형태의 관련 기준에 대한\n\n참조표를 포함하고 있다 .\n\n민간부문간의 계약",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC13",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "sentences": [
+          "BC13 이 같은 의견을 고려하면서 IFRIC 은 해석 지침이 가장 필요한 사",
+          "업을 이미 포함하였고 적용범위를 확장하게 되면 이 해석서가 유",
+          "의적으로 지연될 수 있으므로 이 과제의 적용범위가 확장되어서",
+          "는 안 된다고 결정하였다 .",
+          "과제의 적용범위는 앞에서 설명한 바와",
+          "- 47",
+          "같이 초기단계에서 충분히 고려되었다 .",
+          "IFRIC 은 제안된 해석서는",
+          "문단 10 에서 기술된 회계논제를 다루어야 한다는 견해를 확인하",
+          "였다 .",
+          "그럼에도 불구하고 IFRIC 은 재심의 과정에서, 제안된 해석",
+          "서의 적용범위가 아닌 사업을 포함하여, 공공서비스의 제공에 민",
+          "간부문이 참여하는 전형적인 사업의 범위에 대해 고려하였다 .",
+          "IFRIC 은 이 해석서가 다른 기준의 적용지침을 제공하지는 않지만",
+          "이 해석서의 적용범위가 아닌 사업에 적용되는 관련 기준에 참고",
+          "가 될 수 있다고 결정하였다 .",
+          "만약 경험적으로 그러한 지침이 필",
+          "요하다고 판단되면, 별도의 과제가 추후에 수행될 수 있을 것이",
+          "다 .",
+          "첨부자료 2 는 IFRIC 이 고려한 사업 형태의 관련 기준에 대한",
+          "참조표를 포함하고 있다 .",
+          "민간부문간의 계약"
+        ]
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC14",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC14 해석서 공개초안에 대한 일부 의견제출자는 제안된 해석서가 민\n\n간부문간의 실시협약을 포함하도록 적용범위가 확장되어야 한다\n\n고 주장하였다 . IFRIC 은 문단 5 에서 규정한 요건을 충족하고 문단\n\n3 에서 기술한 특성을 갖는 민간투자사업에 대한 지침을 제공하도\n\n록 요청 받았기 때문에, 민간부문간의 계약을 다루는 것은 이 과\n\n제의 주요 목적이 아니라고 보았다 . IFRIC 은 IAS 8 의 문단 7~12\n\n에서 규정한 서열체계에 따라 유추하여 적용하는 것이 적절할 것\n\n으로 보았다 .\n\n사업허가자의 회계처리",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC14",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC15",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC15 이 해석서는 사업허가자의 회계처리에 대해 규정하지 않는다 . 왜\n\n냐하면 IFRIC 의 목적과 우선순위가 사업시행자를 위한 지침의 제\n\n정이었기 때문이다 . 일부 의견제출자들은 IFRIC 이 사업허가자의\n\n회계처리에 대한 지침을 제정해 줄 것을 요청하였다 . IFRIC 은 이\n\n러한 의견을 검토하였으나 기존 입장을 재확인하였다 . IFRIC 은 많\n\n                  - 48\n\n은 경우에 사업허가자는 정부기관이고 비록 비영리 활동을 수행\n\n하는 기업이 IFRS 의 적용이 적절하다고 생각하더라도 IFRS 는 민\n\n간부문, 공공부문 또는 정부의 비영리 활동에 적용하기 위해 고안\n\n된 것이 아님을 주목하였다 [‘IFRS 에 대한 전문 (Preface to IFRSs)’\n\n문단 9 참조 ].\n\n사업시행자의 기존 자산",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC15",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC16",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC16 IFRIC 이 현행 회계기준의 제거 요건을 다루는 것은 불필요하다고\n\n결정하였기 때문에 이 해석서에서는 사업시행자의 기존 자산에\n\n대한 회계처리를 규정하지 않는다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC16",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC17",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC17 일부 의견제출자들은 적용범위에서 제외하면, 이러한 자산의 회계\n\n처리에 대해 불확실성을 야기할 수 있다고 언급하면서 IFRIC 이\n\n사업시행자의 기존 자산에 대한 회계처리 지침을 제공할 것을 요\n\n청하였다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC17",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC18",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC18 IFRIC 은 그에 대해 재고하는 과정에서 이 해석서의 목적 중 하나\n\n는 사업시행자가 자신이 건설하거나 운영할 수 있도록 허용된 사\n\n회기반시설을 유형자산으로 인식해야 하는지에 대해 다루는 것임\n\n을 주목하였다 . 사업시행자의 기존 자산에 대해 다루는 회계논제\n\n는 제거의 문제이고, 이는 이미 IFRS(IAS 16) 에서 언급되고 있다 .\n\n의견제출자로부터 받은 의견의 관점에서, IFRIC 은 특정 민간투자\n\n사업에서는 사업시행자의 기존 자산의 사용권을 사업허가자에게\n\n이전할 수도 있음을 명확히 하기로 결정하였다 . 그러한 경우 사업\n\n시행자는 기존 자산의 제거여부를 판단하기 위해 IFRS 의 제거 요\n\n건을 적용할 것이다 .\n\n유의적인 잔여지분 기준\n\n                  - 49",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC18",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC19",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC19 D12 의 문단 5⑵ 에서 민간투자사업이 적용범위에 포함되려면 사업\n\n기간 말에 사업허가자에게 이전되는 사회기반시설의 잔여지분이\n\n유의적이어야 한다고 제안하였다 . 의견제출자들은 유의적인 잔여\n\n지분 기준에 의하면 사회기반시설의 물리적 내용연수의 전체 기\n\n간을 대상으로 수행되는 민간투자사업의 경우 이 지침의 적용범\n\n위에서 제외되기 때문에 지침의 유용성이 제한된다고 주장하였고,\n\nIFRIC 은 이에 동의하였다 . 그러한 결과를 가져오는 것은 IFRIC 의\n\n의도가 아니었다 . 제안서를 재고하는 과정에서 IFRIC 은 사업기간\n\n말에 사업허가자에게 이전되는 사회기반시설의 잔여지분이 유의\n\n적이어야 한다는 제안서의 내용을 유지하지 않기로 결정하였다 .\n\n결과적으로 ‘ 전체내용연수 ’ 사회기반시설 ( 즉, 사회기반시설이 그\n\n내용연수의 전체기간 동안 민간투자사업에서 사용되는 경우 ) 도 이\n\n해석서 적용범위에 포함된다 .\n\n사회기반시설에 대한 사업시행자 권리의 회계처리 문단",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC19",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC20",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC20 IFRIC 은 민간투자사업에서 사업시행자에게 이전되는 권리의 성격\n\n을 고려하였다 . 우선 공공서비스를 제공하는 데에 사용되는 사회\n\n기반시설이 IAS 16 에서 사업시행자의 유형자산으로 분류될 수 있\n\n는지 조사하였다 . 공공서비스를 제공하는 데에 사용되는 사회기반\n\n시설은 그 사용을 통제하는 당사자의 유형자산으로 인식되어야\n\n한다는 원칙에서 출발하였다 . 이러한 원칙은 어느 당사자가 유형\n\n자산을 자신의 소유로 인식해야 하는지를 결정한다 . 통제는 다음\n\n과 같이 Framework [2)] 에서 언급되고 있다 .\n\n⑴ Framework 에서 자산은 ‘ 과거 사건의 결과로 기업이 통제하고\n\n있고 미래경제적효익이 기업에 유입될 것으로 기대되는 자원 ’\n\n으로 정의된다 .\n\n⑵ Framework 에서 많은 종류의 자산은 소유권을 포함한 법률적\n\n권리와 관련되어 있다고 언급하고 있으며 소유권이 필수적이\n\n2) 이 결론도출근거에서 언급하는 ‘Framework’ 는 IASB 가 2001 년에 채택하여 이 해석서가 제정되었을 당시\n\n시행 중이었던 IASC 의 ‘ 재무제표의 작성과 표시를 위한 개념체계 ’ 를 말한다 .\n\n                  - 50\n\n지는 않다고 명시하고 있다 .\n\n⑶ 권리는 종종 분리된다 . 예를 들어, 권리는 토지에 대한 분리되\n\n지 않은 지분과 같이 비례적으로, 사채에 대한 원금과 이자와\n\n같이 특정한 현금흐름에 따라, 또는 리스와 같이 시간의 흐름\n\n에 따라 나누어질 수 있다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC20",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "sentences": [
+          "BC20 IFRIC 은 민간투자사업에서 사업시행자에게 이전되는 권리의 성격",
+          "을 고려하였다 .",
+          "우선 공공서비스를 제공하는 데에 사용되는 사회",
+          "기반시설이 IAS 16 에서 사업시행자의 유형자산으로 분류될 수 있",
+          "는지 조사하였다 .",
+          "공공서비스를 제공하는 데에 사용되는 사회기반",
+          "시설은 그 사용을 통제하는 당사자의 유형자산으로 인식되어야",
+          "한다는 원칙에서 출발하였다 .",
+          "이러한 원칙은 어느 당사자가 유형",
+          "자산을 자신의 소유로 인식해야 하는지를 결정한다 .",
+          "통제는 다음",
+          "과 같이 Framework [2)] 에서 언급되고 있다 .",
+          "⑴",
+          "Framework 에서 자산은 ‘ 과거 사건의 결과로 기업이 통제하고",
+          "있고 미래경제적효익이 기업에 유입될 것으로 기대되는 자원 ’",
+          "으로 정의된다 .",
+          "⑵",
+          "Framework 에서 많은 종류의 자산은 소유권을 포함한 법률적",
+          "권리와 관련되어 있다고 언급하고 있으며 소유권이 필수적이",
+          "2) 이 결론도출근거에서 언급하는 ‘Framework’ 는 IASB 가 2001 년에 채택하여 이 해석서가 제정되었을 당시",
+          "시행 중이었던 IASC 의 ‘ 재무제표의 작성과 표시를 위한 개념체계 ’ 를 말한다 .",
+          "-",
+          "50",
+          "지는 않다고 명시하고 있다 .",
+          "⑶",
+          "권리는 종종 분리된다 .",
+          "예를 들어, 권리는 토지에 대한 분리되",
+          "지 않은 지분과 같이 비례적으로, 사채에 대한 원금과 이자와",
+          "같이 특정한 현금흐름에 따라, 또는 리스와 같이 시간의 흐름",
+          "에 따라 나누어질 수 있다 ."
+        ]
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC21",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC21 IFRIC 은 사업시행자가 건설하거나 취득하는 사회기반시설, 또는\n\n사업허가자가 사업시행자에게 민간투자사업을 위하여 운영할 수\n\n있도록 허용하는 사회기반시설에 대한 처리는 문단 5 에서 기술한\n\n방식으로 사업허가자가 통제를 하는지에 따라 결정되어야 한다고\n\n결론지었다 . 만일 그렇게 통제된다면 해석서의 적용범위에 속하는\n\n모든 사업들이 그러한 것처럼, 사업기간에 어느 당사자가 법적 소\n\n유권을 갖는지와 상관없이 그 사회기반시설은 사업시행자의 유형\n\n자산으로 인식되어서는 안 된다 . 왜냐하면 사업시행자는 사회기반\n\n시설의 사용을 통제하지 않기 때문이다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC21",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC22",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC22 이러한 결론을 내리면서 IFRIC 은 IAS 16 에 따른 인식과 IAS 17 에\n\n따라 리스의 성립을 결정하는 것은 자산을 사용하는 권리의 통제\n\n라는 점에 주목하였다 . IAS 16 에서 유형자산을 ‘ 재화나 용역의 생\n\n산이나 제공, 타인에 대한 임대 또는 관리활동에 사용할 목적으로\n\n보유하는 ’ 물리적 형태가 있는 항목으로 정의한다 . 이러한 정의에\n\n부합하는 항목들은 다른 기준서에서 다른 방식을 요구하거나 허\n\n용하지 않는다면 유형자산으로 인식되어야 한다고 규정하고 있다 .\n\n리스대상 유형자산의 인식이 위험과 보상의 이전을 근거로 평가\n\n되어야 한다는 IAS 17 의 요구사항을 다른 방식의 예로서 강조하\n\n고 있다 . 동 기준서에서는 리스를 ‘ 리스제공자가 자산의 사용권을\n\n리스이용자에게 이전하고 리스이용자는 그 대가로 사용료를 리스\n\n제공자에게 지급하는 계약 ’ 으로 정의하고 리스의 분류에 대한 요\n\n구사항을 명시하고 있다 . IFRIC 4 에서는 약정에 따라 약정대상 자\n\n산의 사용을 통제하는 권리가 이전된다면 자산의 사용권이 이전\n\n                  - 51\n\n된다고 보았다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC22",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "sentences": [
+          "BC22 이러한 결론을 내리면서 IFRIC 은 IAS 16 에 따른 인식과 IAS 17 에",
+          "따라 리스의 성립을 결정하는 것은 자산을 사용하는 권리의 통제",
+          "라는 점에 주목하였다 .",
+          "IAS 16 에서 유형자산을 ‘ 재화나 용역의 생",
+          "산이나 제공, 타인에 대한 임대 또는 관리활동에 사용할 목적으로",
+          "보유하는 ’ 물리적 형태가 있는 항목으로 정의한다 .",
+          "이러한 정의에",
+          "부합하는 항목들은 다른 기준서에서 다른 방식을 요구하거나 허",
+          "용하지 않는다면 유형자산으로 인식되어야 한다고 규정하고 있다 .",
+          "리스대상 유형자산의 인식이 위험과 보상의 이전을 근거로 평가",
+          "되어야 한다는 IAS 17 의 요구사항을 다른 방식의 예로서 강조하",
+          "고 있다 .",
+          "동 기준서에서는 리스를 ‘ 리스제공자가 자산의 사용권을",
+          "리스이용자에게 이전하고 리스이용자는 그 대가로 사용료를 리스",
+          "제공자에게 지급하는 계약 ’ 으로 정의하고 리스의 분류에 대한 요",
+          "구사항을 명시하고 있다 .",
+          "IFRIC 4 에서는 약정에 따라 약정대상 자",
+          "산의 사용을 통제하는 권리가 이전된다면 자산의 사용권이 이전",
+          "- 51",
+          "된다고 보았다 ."
+        ]
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC23",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC23 따라서 약정에 따라 약정대상 자산의 사용을 통제할 수 있는 권\n\n리가 이전되어야만 비로소 그러한 리스가 어떻게 분류되어야 하\n\n는지 결정하기 위해 IAS 17 을 참조할 수 있다 . 리스는 소유에 따\n\n른 위험과 보상의 대부분을 이전할 때에는 금융리스로 분류되고,\n\n소유에 따른 위험과 보상의 대부분을 이전하지 않을 때에는 운용\n\n리스로 분류된다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC23",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC24",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC24 IFRIC 은 IFRIC 12 의 적용범위에 포함되는 사업이 ‘ 약정대상 자산\n\n( 사회기반시설 ) 의 사용을 통제할 수 있는 권리 ’ 를 사업시행자에게\n\n이전하는지를 고려하였다 . IFRIC 은 사업이 문단 5 의 조건을 충족\n\n한다면 사업시행자는 약정대상 자산의 사용을 통제할 수 있는 권\n\n리를 가지지 못하고, 따라서 사회기반시설을 리스자산으로 인식하\n\n지 않아야 한다고 결정하였다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC24",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC25",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC25 이 해석서의 적용범위에 포함되는 사업에서 사업시행자는 서비스\n\n제공자의 역할을 한다 . 사업시행자는 공공서비스를 제공하는 사회\n\n기반시설을 건설하거나 개량한다 . 실시협약의 내용에 따라 사업시\n\n행자는 사업허가자 대신 공공서비스를 제공하기 위하여 사회기반\n\n시설을 운영할 권리를 갖는다 . 사업시행자가 인식하는 자산은 서\n\n비스를 제공함으로써 받는 대가이지 건설하거나 개량한 사회기반\n\n시설이 아니다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC25",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC26",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC26 이 해석서 공개초안에 대한 의견제출자들은 소유의 위험과 보상\n\n을 사업시행자나 사업허가자가 부담하는 정도에 대한 평가 없이\n\n사용의 통제만을 근거로 인식 여부가 결정되어야 한다는 데 동의\n\n하지 않았다 . 그들은 리스자산을 소유에 따른 실질적으로 모든 위\n\n험과 보상을 부담하는 당사자가 인식하는 IAS 17 과 제안된 방식\n\n이 어떻게 조화될 수 있는지 의문을 제기하였다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC26",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC27",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC27 이에 대해 재고하는 과정에서 IFRIC 은 만약 사업이 이 해석서 문\n\n                  - 52\n\n단 5 의 통제조건을 만족한다면 사업시행자는 약정대상 자산 ( 사회\n\n기반시설 ) 의 사용을 통제할 권리를 갖지 않고, 따라서 IAS 16 에\n\n따른 유형자산이나 IAS 17 에 따른 리스의 성립으로 인식하지 않\n\n는다는 결정을 확인하였다 . 사업허가자와 사업시행자 사이의 실시\n\n협약은 사회기반시설의 사용권을 사업시행자에게 이전하지 않을\n\n것이다 . 또한 IFRIC 은 이 해석서의 적용범위에 포함되는 사업이\n\nIAS 18 [3)] 문단 14 의 두 번째 조건을 충족시키지 못하므로 이러한\n\n회계처리가 IAS 18 과 일관된다고 결론지었다 . 문단 5 에서 기술한\n\n바와 같이 사업허가자는 사회기반시설에 대한 소유권과 결부된\n\n통상적 수준의 지속적 관리상 관여를 하고 통제한다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC27",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC28",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC28 민간투자사업에서 권리는 보통 제한된 기간 동안 이전되는데, 이\n\n는 리스와 유사하다 . 그러나 이 해석서의 적용범위에 속하는 사업\n\n의 경우, 사업시행자의 권리는 리스이용자의 권리와 다르다 . 문단\n\n5(1) 에서 기술한 바와 같이 사업허가자는 서비스의 내용, 이용자\n\n및 가격 ( 사용료 ) 을 통제하고 감독함으로써 사회기반시설의 사용에\n\n대한 통제권을 보유한다 . 또한 사업허가자는 사업기간에 사회기반\n\n시설의 잔여지분의 유의적인 부분에 대한 통제권도 보유한다 . 리\n\n스와는 달리 사업시행자는 약정대상 자산의 사용권을 갖지 않는\n\n다 . 오히려 실시협약의 내용에 따라 사업허가자 대신 공공서비스\n\n를 제공하기 위하여 사회기반시설을 운영할 수 있도록 허용된다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC28",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC29",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC29 IFRIC 은 이 해석서의 적용범위가 IFRIC 4 와 중복될 수 있는지에\n\n대해 고려하였다 . 특히 특정 민간투자사업의 계약 내용이 IFRIC 4\n\n에 따라서 리스로 간주되고 또한 IFRIC 12 의 문단 5 에 규정된 적\n\n용범위 조건도 충족하는 것으로 간주될 수 있다는 일부 의견제출\n\n자의 견해에 주목하였다 . IFRIC 은 회계처리의 선택은 적절하다고\n\n생각하지 않았다 . 왜냐하면 유사한 경제적 효과가 있는 계약에 대\n\n해 다른 회계처리를 야기할 수 있기 때문이다 . 외부의견의 관점에\n\n서 IFRIC 은 민간투자사업이 IFRIC 12 의 적용범위 조건을 만족하\n\n면 IFRIC 4 의 적용범위에 속하지 않음을 명확하게 하기위해\n\n3) 2014 년 5 월에 공표한 IFRS 15 는 IAS 18 을 대체하였다 .\n\n                  - 53\n\nIFRIC 4 의 적용범위를 개정하였다 .\n\n민간투자사업 시행대가의 인식과 측정 문단 와",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC29",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC30",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC30 건설과 서비스 계약에 대한 회계처리는 IAS 11 과 IAS 18 [4)] 에 규정\n\n되어 있다 . 동 기준서들은 수익은 계약 활동의 진행률을 기준으로\n\n인식되어야 한다고 규정하고 있다 . IAS 18 은 수익을 받았거나 받\n\n게 될 대가의 공정가치로 측정한다는 일반 원칙을 규정하고 있다 .\n\n그러나 IFRIC 은 실무상, 제공되는 건설서비스의 공정가치가 건설\n\n서비스에 대해 받았거나 받게 될 대가의 공정가치를 정하는 가장\n\n적절한 방법일 수 있다는 점에 주목하였다 . 이는 민간투자사업의\n\n경우에 해당할 수 있는데, 왜냐하면 건설 활동에 관련된 대가는\n\n종종 계약전체로서 받을 총 금액에서 배분되어야 하고, 또한 이중\n\n무형자산이 포함되어 있다면 측정이 불확실할 수 있기 때문이다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC30",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC31",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC31 IFRIC 은 IAS 18 에서 거래의 실질을 반영하기 위하여 하나의 거래\n\n를 개별적으로 식별할 수 있는 부분으로 나누어 수익인식기준을\n\n각각 적용하도록 규정하고 있음을 주목하였다 . 예를 들어, 제품의\n\n판매 가격에 후속적인 서비스에 대한 식별가능한 금액이 포함되\n\n어 있다면 이 금액은 이연되어 서비스가 수행되는 기간 동안 수\n\n익으로 인식되어야 한다 . IFRIC 은 이러한 규정이 이 해석서의 적\n\n용범위에 해당하는 민간투자사업에 적절하다고 결론지었다 . 이 해\n\n석서의 적용범위에 해당하는 사업은 두 가지 이상의 서비스, 즉\n\n건설서비스 또는 개량서비스를 제공하고 운영서비스도 제공하는\n\n사업시행자를 포함한다 . 비록 각각의 서비스에 대한 계약이 일반\n\n적으로 단일 실시협약으로 협의되더라도, 각각의 개별 단계 또는\n\n구성요소는 고유의 기술, 요건 및 위험을 가지므로 계약 조건에서\n\n는 별도의 단계 또는 구성요소를 요구한다 . IFRIC 은 이러한 상황\n\n에서 IAS 18 문단 4 와 13 에 따라 계약이 두 개의 별도 단계 또는\n\n4) 2014 년 5 월에 공표한 IFRS 15 는 IAS 11 과 IAS 18 을 대체하였다 . IFRS 15 에서는 고객에게 약속한 재화나\n\n용역을 이전하여 수행의무를 이행할 때 ( 또는 이행하는 대로 ) 수익을 인식하도록 요구한다 .\nIFRS 15 에서는 ⑴ 고객에게 약속한 재화나 용역을 이전하고 그 대가로 기업이 받을 권리를 갖게 될 것\n으로 예상하는 금액을 산정하고 ⑵ 그 금액을 수행의무에 배분하여 수익을 측정한다 .\n\n                  - 54\n\n구성 요소, 즉 IAS 11 의 적용범위에 해당하는 건설요소와 IAS 18\n\n의 적용범위에 해당하는 운영요소로 나누어져야 함에 주목하였다 .\n\n따라서 사업시행자는 각각의 단계 또는 구성요소에 대해 다른 이\n\n익률을 보고할 수도 있다 . IFRIC 은 각각의 서비스들이 종종 단일\n\n서비스로 제공되기 때문에 각각의 서비스에 대한 금액은 식별가\n\n능하다고 보았다 . IFRIC 은 또한 IAS 11 의 병합과 분할 기준은 실\n\n시협약의 건설요소에만 적용된다고 보았다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC31",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "sentences": [
+          "BC31 IFRIC 은 IAS 18 에서 거래의 실질을 반영하기 위하여 하나의 거래",
+          "를 개별적으로 식별할 수 있는 부분으로 나누어 수익인식기준을",
+          "각각 적용하도록 규정하고 있음을 주목하였다 .",
+          "예를 들어, 제품의",
+          "판매 가격에 후속적인 서비스에 대한 식별가능한 금액이 포함되",
+          "어 있다면 이 금액은 이연되어 서비스가 수행되는 기간 동안 수",
+          "익으로 인식되어야 한다 .",
+          "IFRIC 은 이러한 규정이 이 해석서의 적",
+          "용범위에 해당하는 민간투자사업에 적절하다고 결론지었다 .",
+          "이 해",
+          "석서의 적용범위에 해당하는 사업은 두 가지 이상의 서비스, 즉",
+          "건설서비스 또는 개량서비스를 제공하고 운영서비스도 제공하는",
+          "사업시행자를 포함한다 .",
+          "비록 각각의 서비스에 대한 계약이 일반",
+          "적으로 단일 실시협약으로 협의되더라도, 각각의 개별 단계 또는",
+          "구성요소는 고유의 기술, 요건 및 위험을 가지므로 계약 조건에서",
+          "는 별도의 단계 또는 구성요소를 요구한다 .",
+          "IFRIC 은 이러한 상황",
+          "에서 IAS 18 문단 4 와 13 에 따라 계약이 두 개의 별도 단계 또는",
+          "4) 2014 년 5 월에 공표한 IFRS 15 는 IAS 11 과 IAS 18 을 대체하였다 .",
+          "IFRS 15 에서는 고객에게 약속한 재화나",
+          "용역을 이전하여 수행의무를 이행할 때 ( 또는 이행하는 대로 ) 수익을 인식하도록 요구한다 .",
+          "IFRS 15 에서는 ⑴ 고객에게 약속한 재화나 용역을 이전하고 그 대가로 기업이 받을 권리를 갖게 될 것\n으로 예상하는 금액을 산정하고 ⑵ 그 금액을 수행의무에 배분하여 수익을 측정한다 .",
+          "-",
+          "54",
+          "구성 요소, 즉 IAS 11 의 적용범위에 해당하는 건설요소와 IAS 18",
+          "의 적용범위에 해당하는 운영요소로 나누어져야 함에 주목하였다 .",
+          "따라서 사업시행자는 각각의 단계 또는 구성요소에 대해 다른 이",
+          "익률을 보고할 수도 있다 .",
+          "IFRIC 은 각각의 서비스들이 종종 단일",
+          "서비스로 제공되기 때문에 각각의 서비스에 대한 금액은 식별가",
+          "능하다고 보았다 .",
+          "IFRIC 은 또한 IAS 11 의 병합과 분할 기준은 실",
+          "시협약의 건설요소에만 적용된다고 보았다 ."
+        ]
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC32",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC32 어떤 경우에는 사업허가자가 건설서비스에 대해 현금 이외의 대\n\n가를 지급하는 경우가 있다 . 즉 건설서비스를 제공한 대가로 사업\n\n시행자에게 무형자산 ( 공공서비스의 이용자에게 사용료를 부과할\n\n수 있는 권리 ) 을 제공하는 경우이다 . 그러면 사업시행자는 공공서\n\n비스의 이용자로부터 추가적인 수익을 창출하기 위하여 그 무형\n\n자산을 이용한다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC32",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC33",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC33 IAS 18 [5)] 의 문단 12 는 다음과 같이 기술하고 있다 .\n\n성격이나 가치가 상이한 재화나 용역의 교환은 수익이 발생하는 거래로 본\n\n다 . 이때 수익은 교환으로 수취한 재화나 용역의 공정가치로 측정하되 현\n\n금이나 현금성자산이 이전되면 이를 반영하여 조정한다 . 만일 수취한 재화\n\n나 용역의 공정가치를 신뢰성 있게 측정할 수 없는 경우에는, 수익은 제공\n\n한 재화나 용역의 공정가치로 측정하되 현금이나 현금성자산이 이전되면\n\n이를 반영하여 조정한다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC33",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC34",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC34 IFRIC 은 총수익이 총현금유입액과 일치하지 않음에 주목하였다 .\n\n이러한 결과의 원인은 사업시행자가 건설서비스의 대가로 무형자\n\n산을 수령할 때 하나가 아닌 두 가지의 현금유출입이 있기 때문\n\n이다 . 첫 번째의 현금유출입에는 건설서비스가 사업허가자와의 교\n\n환거래에서 무형자산과 교환된다 . 두 번째의 현금유출입에는 사업\n\n5) 2014 년 5 월에 공표한 IFRS 15 는 IAS 18 을 대체하였다 . IFRS 15 에서는 기업에 비현금 대가의 공정가치를\n\n합리적으로 추정할 수 없는 경우가 아니면 비현금대가를 공정가치로 측정하도록 요구한다 . 이러한 경우\n에 IFRS 15 에서는 그 대가와 교환하여 고객에게 약속한 재화나 용역의 개별 판매가격을 참조하여 간접\n적으로 그 대가를 측정하도록 요구한다 .\n\n                  - 55\n\n허가자로부터 받은 무형자산이 공공 서비스의 이용자로부터 현금\n\n흐름을 창출하기 위해 소진된다 . 이러한 결과는 이 해석서의 적용\n\n범위에 속하는 민간투자사업에서만 유일한 것이 아니다 . 기업이\n\n후속적으로 현금 수익을 창출하기 위해 사용되는 다른 이종 자산\n\n과의 교환으로 재화나 서비스를 제공하는 어떠한 상황도 유사한\n\n결과를 가져온다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC34",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "sentences": [
+          "BC34 IFRIC 은 총수익이 총현금유입액과 일치하지 않음에 주목하였다 .",
+          "이러한 결과의 원인은 사업시행자가 건설서비스의 대가로 무형자",
+          "산을 수령할 때 하나가 아닌 두 가지의 현금유출입이 있기 때문",
+          "이다 .",
+          "첫 번째의 현금유출입에는 건설서비스가 사업허가자와의 교",
+          "환거래에서 무형자산과 교환된다 .",
+          "두 번째의 현금유출입에는 사업",
+          "5) 2014 년 5 월에 공표한 IFRS 15 는 IAS 18 을 대체하였다 .",
+          "IFRS 15 에서는 기업에 비현금 대가의 공정가치를",
+          "합리적으로 추정할 수 없는 경우가 아니면 비현금대가를 공정가치로 측정하도록 요구한다 .",
+          "이러한 경우\n에 IFRS 15 에서는 그 대가와 교환하여 고객에게 약속한 재화나 용역의 개별 판매가격을 참조하여 간접\n적으로 그 대가를 측정하도록 요구한다 .",
+          "-",
+          "55",
+          "허가자로부터 받은 무형자산이 공공 서비스의 이용자로부터 현금",
+          "흐름을 창출하기 위해 소진된다 .",
+          "이러한 결과는 이 해석서의 적용",
+          "범위에 속하는 민간투자사업에서만 유일한 것이 아니다 .",
+          "기업이",
+          "후속적으로 현금 수익을 창출하기 위해 사용되는 다른 이종 자산",
+          "과의 교환으로 재화나 서비스를 제공하는 어떠한 상황도 유사한",
+          "결과를 가져온다 ."
+        ]
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC35",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC35 일부 IFRIC 위원은 그러한 결과를 바람직하지 않다고 생각하였고\n\n총 수익이 현금유입으로 제한되는 회계처리 방법을 선호하였다 .\n\n그러나 그들은 이것이 교환거래, 즉 이종의 재화와 용역의 교환거\n\n래에 따른 회계처리와 일관된다고 인정하였다 .\n\n사업허가자가 사업시행자에게 지급하는 대가 문단",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC35",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC36",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC36 IFRIC 은 사업시행자가 건설서비스를 제공하고 받는 계약상 권리\n\n는 다양한 형태를 취할 수 있다는 것을 알았다 . 그러한 권리는 반\n\n드시 현금 또는 기타 금융자산을 수령할 권리인 것은 아니다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC36",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC37",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC37 이 해석서 공개초안에서 사업시행자의 자산의 성격은 서비스의\n\n대가를 사업시행자에게 지급하여야 하는 주된 책임을 누가 지느\n\n냐에 따라 좌우된다고 제안하였다 . 사업허가자가 서비스의 대가를\n\n지급할 주된 책임을 지면 사업시행자는 금융자산을 인식하여야\n\n한다 . 그 밖의 모든 경우에는 무형자산을 인식하여야 한다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC37",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC38",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC38 해석서 공개초안의 의견제출자는, 누가 수요위험 ( 즉, 이용자가 서\n\n비스 대가를 지급하는 능력과 의향 ) 을 부담하는지에 상관없이, 누\n\n가 사업시행자에게 서비스 대가를 지급하는 책임을 갖는지를 조\n\n사하여 적용할 회계모형을 결정하는 것은 사업의 경제적 실질을\n\n반영하지 못하는 회계처리를 초래한다고 주장하였다 . 의견제출자\n\n                  - 56\n\n들은 제안서에 따랐을 때 근본적으로 동일한 현금흐름을 갖는 사\n\n업시행자로 하여금 서로 다른 회계 모형을 채택하도록 요구할 수\n\n있음을 우려하였다 . 이는 민간투자사업을 제공하는 데 참여한 기\n\n업에 대한 정보이용자의 이해를 저하시킬 것이다 . 일부는 사업의\n\n6)\n\n경제성 ( 수요 위험 ) 이 유사한 그림자통행료 (shadow toll) 방식 [한] [1)] 의\n\n도로와 일반적인 통행료 방식의 도로의 예를 들며, 제안서에 따랐\n\n을 때 두 사업이 다르게 회계처리될 수 있음을 지적하였다 . 제안\n\n에 대해 접수된 의견의 관점에서, IFRIC 은 사업시행자가 금융자산\n\n과 무형자산을 인식해야하는 정도를 명확히 하기로 ( 문단 15~19 참\n\n조 ) 결정하였다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC38",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "sentences": [
+          "BC38 해석서 공개초안의 의견제출자는, 누가 수요위험 ( 즉, 이용자가 서",
+          "비스 대가를 지급하는 능력과 의향 ) 을 부담하는지에 상관없이, 누",
+          "가 사업시행자에게 서비스 대가를 지급하는 책임을 갖는지를 조",
+          "사하여 적용할 회계모형을 결정하는 것은 사업의 경제적 실질을",
+          "반영하지 못하는 회계처리를 초래한다고 주장하였다 .",
+          "의견제출자",
+          "- 56",
+          "들은 제안서에 따랐을 때 근본적으로 동일한 현금흐름을 갖는 사",
+          "업시행자로 하여금 서로 다른 회계 모형을 채택하도록 요구할 수",
+          "있음을 우려하였다 .",
+          "이는 민간투자사업을 제공하는 데 참여한 기",
+          "업에 대한 정보이용자의 이해를 저하시킬 것이다 .",
+          "일부는 사업의",
+          "6)",
+          "경제성 ( 수요 위험 ) 이 유사한 그림자통행료 (shadow toll) 방식 [한] [1)] 의",
+          "도로와 일반적인 통행료 방식의 도로의 예를 들며, 제안서에 따랐",
+          "을 때 두 사업이 다르게 회계처리될 수 있음을 지적하였다 .",
+          "제안",
+          "에 대해 접수된 의견의 관점에서, IFRIC 은 사업시행자가 금융자산",
+          "과 무형자산을 인식해야하는 정도를 명확히 하기로 ( 문단 15~19 참",
+          "조 ) 결정하였다 ."
+        ]
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC39",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC39 해석서 공개초안에 대해 접수된 의견에는 제안의 영향에 대한 제\n\n한적인 정보만을 담고 있었다 . 그래서 추가적인 정보를 얻기 위\n\n해, IASB 스태프는 작성자, 감사인 및 감독자와의 토론을 준비하\n\n였다 . 토론참가자들의 결론은 지급인의 신원은 사업시행자의 현금\n\n흐름에 대한 위험에 영향을 미치지 않는다는 것이었다 . 사업시행\n\n자는 일반적으로 현금흐름에 대한 위험을 판단할 때 실시협약의\n\n내용에 의존한다 . 사업시행자의 현금흐름이 사업허가자에 의해 보\n\n장될 수 있는 경우에는 사업허가자가 수요위험을 부담하고, 사업\n\n시행자의 현금흐름이 사용정도에 따라 달라질 수 있는 경우에는\n\n사업시행자가 수요위험을 부담한다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC39",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC40",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC40 IFRIC 은 다음의 경우에 사업시행자의 현금흐름이 보장된다고 보\n\n았다 . ⑴ 공공서비스가 사용되는지에 상관없이 사업허가자가 특정\n\n한 금액 또는 결정가능한 금액을 사업시행자에게 지급할 것에 동\n\n의하는 경우 ( 종종 의무인수계약 (take-or-pay arrangements) 으로 알\n\n려짐 ) 또는 ⑵ 공공서비스의 이용자에게 사용료를 부과할 수 있는\n\n권리를 사업허가자가 사업시행자에게 허가하고 사업허가자가 문\n\n한 1) 한 6) 도로를 사용한 차량 수를 근거로 정부가 민간부문의 사업시행자에게 통행료를 지급해 주는 방식\n\n                  - 57\n\n단 16 에 기술되어 있는 부족액을 보장하는 방식으로 사업시행자\n\n의 현금흐름을 보장하는 경우 . 사업시행자가 그러한 보장을 받지\n\n못하고 서비스에 대한 공공의 사용에 비례하여 공공서비스의 이\n\n용자나 사업허가자로부터 수익을 획득 [ 예 : 도로 통행료 또는 그림\n\n자통행료 (shadow toll)] 해야 한다면 사업시행자의 현금흐름은 사\n\n용량에 따라 달라진다 .\n\n금융자산 사업허가자가 사업시행자의 현금흐름을 보장하는 경우",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC40",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "sentences": [
+          "BC40 IFRIC 은 다음의 경우에 사업시행자의 현금흐름이 보장된다고 보",
+          "았다 . ⑴",
+          "공공서비스가 사용되는지에 상관없이 사업허가자가 특정",
+          "한 금액 또는 결정가능한 금액을 사업시행자에게 지급할 것에 동",
+          "의하는 경우 ( 종종 의무인수계약 (take-or-pay arrangements) 으로 알",
+          "려짐 ) 또는 ⑵ 공공서비스의 이용자에게 사용료를 부과할 수 있는",
+          "권리를 사업허가자가 사업시행자에게 허가하고 사업허가자가 문",
+          "한 1) 한 6) 도로를 사용한 차량 수를 근거로 정부가 민간부문의 사업시행자에게 통행료를 지급해 주는 방식",
+          "- 57",
+          "단 16 에 기술되어 있는 부족액을 보장하는 방식으로 사업시행자",
+          "의 현금흐름을 보장하는 경우 .",
+          "사업시행자가 그러한 보장을 받지",
+          "못하고 서비스에 대한 공공의 사용에 비례하여 공공서비스의 이",
+          "용자나 사업허가자로부터 수익을 획득 [ 예 : 도로 통행료 또는 그림",
+          "자통행료 (shadow toll)] 해야 한다면 사업시행자의 현금흐름은 사",
+          "용량에 따라 달라진다 .",
+          "금융자산 사업허가자가 사업시행자의 현금흐름을 보장하는 경우"
+        ]
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC41",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC41 IAS 32 의 문단 11 에서 ‘ 거래상대방에게서 현금 등 금융자산을 수\n\n취할 계약상 권리 ’ 를 포함한다고 금융자산을 정의하고 있다 . 동 기\n\n준서의 문단 13 에서는 ‘ 계약상 ’ 의 의미는 ‘ 명확한 경제적 결과를\n\n가지고 있고, 법적 구속력이 있기 때문에 당사자가 그러한 경제적\n\n결과를 자의적으로 회피할 여지가 적은 둘 이상의 당사자간 합의 ’\n\n를 말하는 것이라고 명시하고 있다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC41",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC42",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC42 IFRIC 은 사업시행자가 건설서비스에 대한 대가로 사업허가자로부\n\n터 또는 사업허가자의 지시에 따라 현금을 지급받을 무조건부의\n\n현재 권리를 가지며, 실시협약이 법에 의해 강제되기 때문에 사업\n\n허가자가 대가를 지급하지 않을 재량이 거의 없는 경우, 이를 한\n\n도로 금융자산이 인식되어야 한다고 결정하였다 . 문단 16 에 기술\n\n한 방식으로 사업허가자가 계약상 사업시행자의 현금흐름을 보장\n\n한다면 사업시행자는 건설서비스에 대해 현금을 수취할 계약상\n\n권리를 갖는다 . IFRIC 은 공공서비스의 이용자로 인해 창출되는 현\n\n금흐름이 사업시행자의 투자를 회수하기에 충분하지 못한 위험 ( 수\n\n요 위험 ) 을 사업허가자가 부담하는 정도까지 사업시행자가 현금을\n\n지급받을 무조건부의 권리를 갖는다고 보았다 .\n\n                  - 58",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC42",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC43",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC43 IFRIC 은 다음의 사항을 주목하였다 .\n\n⑴ 공공서비스의 이용자로부터 받게 되는 금액이 특정 금액 또는\n\n결정가능한 금액에 미달하는 경우 그 부족액을 지급하는 계약\n\n은, 사업시행자가 사업허가자로부터 현금을 지급받을 무조건부\n\n의 계약상 권리를 갖기 때문에, IAS 39 [6)] 의 문단 9 에서의 금융\n\n보증의 정의에 부합하지 않는다 . 그리고 2005 년 8 월의 IAS 39\n\n개정 ‘ 금융보증계약 ’ 에서는 금융보증계약 보유자의 회계처리는\n\n다루지 않는다 . 이 개정의 목적은 금융보증계약의 발행자가 보\n\n증계약을 발행하면서 보증인이 인수하는 의무에 대해 부채를\n\n인식해야 함을 명시하기 위한 것이었다 .\n\n⑵ 이용자나 사업허가자가 계약상 받을 금액을 직접 사업시행자\n\n에게 지급할 수 있다 . 지급 방식은 형식적 문제에 지나지 않는\n\n다 . 두 경우 모두 사업시행자가 사업허가자에게서 또는 사업허\n\n가자의 지시에 따라 특정한 또는 결정가능한 현금흐름을 지급\n\n받을 무조건부의 계약상 현재권리를 갖는다 . 사업시행자의 자\n\n산의 성격은 단지 계약상 지급받을 금액이 공공서비스의 이용\n\n자에 의해 직접 지급될 수 있다는 이유로 변경되지 않는다 .\n\nIFRIC 은 이들 계약상 현금흐름을 IAS 32 와 IAS 39 에 따라 회\n\n계처리 하는 것이 실시협약이 사업시행자가 사회기반시설의\n\n건설을 위한 자금을 조달하는 것이라는 사업의 경제성을 충실\n\n히 반영하고 있음을 주목하였다 .\n\n사업시행자의 현금흐름이 특정 품질 또는 효율성 조건의 충족에\n\n따라 달라지는 경우",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC43",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "sentences": [
+          "BC43 IFRIC 은 다음의 사항을 주목하였다 .",
+          "⑴",
+          "공공서비스의 이용자로부터 받게 되는 금액이 특정 금액 또는",
+          "결정가능한 금액에 미달하는 경우 그 부족액을 지급하는 계약",
+          "은, 사업시행자가 사업허가자로부터 현금을 지급받을 무조건부",
+          "의 계약상 권리를 갖기 때문에, IAS 39 [6)] 의 문단 9 에서의 금융",
+          "보증의 정의에 부합하지 않는다 .",
+          "그리고 2005 년 8 월의 IAS 39",
+          "개정 ‘ 금융보증계약 ’ 에서는 금융보증계약 보유자의 회계처리는",
+          "다루지 않는다 .",
+          "이 개정의 목적은 금융보증계약의 발행자가 보",
+          "증계약을 발행하면서 보증인이 인수하는 의무에 대해 부채를",
+          "인식해야 함을 명시하기 위한 것이었다 .",
+          "⑵",
+          "이용자나 사업허가자가 계약상 받을 금액을 직접 사업시행자",
+          "에게 지급할 수 있다 .",
+          "지급 방식은 형식적 문제에 지나지 않는",
+          "다 .",
+          "두 경우 모두 사업시행자가 사업허가자에게서 또는 사업허",
+          "가자의 지시에 따라 특정한 또는 결정가능한 현금흐름을 지급",
+          "받을 무조건부의 계약상 현재권리를 갖는다 .",
+          "사업시행자의 자",
+          "산의 성격은 단지 계약상 지급받을 금액이 공공서비스의 이용",
+          "자에 의해 직접 지급될 수 있다는 이유로 변경되지 않는다 .",
+          "IFRIC 은 이들 계약상 현금흐름을 IAS 32 와 IAS 39 에 따라 회",
+          "계처리 하는 것이 실시협약이 사업시행자가 사회기반시설의",
+          "건설을 위한 자금을 조달하는 것이라는 사업의 경제성을 충실",
+          "히 반영하고 있음을 주목하였다 .",
+          "사업시행자의 현금흐름이 특정 품질 또는 효율성 조건의 충족에",
+          "따라 달라지는 경우"
+        ]
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC44",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC44 IFRIC 은 현금을 지급받을 계약상 권리가 사업시행자의 특정 품질\n\n이나 효율성 조건 또는 목표의 충족에 따라 달라지더라도 금융자\n\n산의 정의를 충족시킨다고 결론지었다 . 사업시행자가 건설서비스\n\n에 대해 사업허가자에게 지급을 요구하기 전에 사회기반시설이\n\n사업허가자에 의해 지정된 공공서비스를 창출할 능력이 있음을\n\n6) IFRS 9 는 IAS 39 를 대체하였다 . IFRS 9 는 이전에 IAS 39 의 적용범위에 포함된 모든 항목에 적용한다 .\n\n                  - 59\n\n확인해야 하거나, 특정 수준의 서비스와 수용력을 제공함을 보장\n\n하기 위해 사회기반시설이 사업허가자에 의해 지정된 운영 기준\n\n이나 효율성 목표에 도달하거나 초과했음을 확인해야 할 수 있다 .\n\n이러한 점에서 사업시행자의 입장은 재화나 용역에 대한 지급이\n\n판매된 재화나 용역의 후속적인 성과에 의존하는 다른 기업의 입\n\n장과 동일하다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC44",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC45",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC45 따라서 IFRIC 12 에서는 사업허가자가 사업시행자에게 주는 대가\n\n는, 계약상 받을 금액이 사업시행자가 성과나 효율성 목표를 충족\n\n하느냐에 따라 불확실 하더라도, 금융자산을 발생시킨 것으로 본\n\n다 . [7)]\n\n무형자산 사업시행자의 현금흐름이 사용량에 따라 달라지는 경\n\n우",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC45",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC46",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC46 IAS 38 에서 무형자산은 ‘ 물리적 실체는 없지만 식별가능한 비화폐\n\n성자산 ’ 으로 정의한다 . 그 기준서에서 라이선스를 무형자산의 예\n\n로 언급하고 있다 . 그 기준서는 계약상 권리로부터 발생되는 자산\n\n은 식별가능하다고 기술하고 있다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC46",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC47",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC47 IFRIC 은 사업시행자가 공공서비스의 이용자에게 사용료를 부과할\n\n수 있는 권리는 무형자산의 정의를 충족하며 따라서 IAS 38 에 따\n\n라 회계처리되어야 한다고 결론지었다 . 이러한 상황에서 사업시행\n\n자의 수익은 사용량에 달려있고 공공서비스의 이용자로부터 창출\n\n되는 현금흐름이 투자를 만회하기에 충분하지 못할 위험 ( 수요위\n\n험 ) 을 부담한다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC47",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC48",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC48 사업시행자가 최소한의 금액을 보장 받도록 고안된 실시협약 ( 문단\n\n7) 2014 년 5 월에 공표한 IFRS 15 는 IAS 18 을 대체하였다 . IFRS 15 에서는 기업에 현금이나 다른 금융자산을\n\n받을 무조건적 계약상 권리를 한도로 금융자산을 인식하도록 요구한다 . 이는 IFRIC 12 문단 16 에서도\n논의된다 .\n\n                  - 60",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC48",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC53",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC53 과 BC54 참조 ) 이 없다면, 사업시행자는 현금 수령의 가능성\n\n이 매우 높더라도 현금을 받을 계약상의 권리를 갖지 못한다 . 그\n\n대신, 사업시행자는 미래에 공공서비스를 사용하는 사람들에게 사\n\n용료를 부과할 기회를 갖는다 . 사업시행자는 수요위험을 부담하고\n\n따라서 상업적 이익은 공공서비스를 사용하는 이용자에 따라 결\n\n정된다 . 사업시행자의 자산은 사업면허이고, 이는 IAS 38 의 적용\n\n범위 내에서 무형자산으로 분류된다 . 그리고 IAS 32 적용지침의\n\n문단 AG10 에서는 다음과 같이 명시하고 있다 .\n\n실물자산 ( 예 : 재고자산, 유형자산 ), 리스자산 및 무형자산 ( 예 : 특허권, 상표\n\n권 ) 은 금융자산이 아니다 . 이러한 실물자산이나 무형자산에 대한 통제는\n\n현금 등 금융자산이 유입될 기회를 제공하지만, 현금 등 금융자산을 수취\n\n할 현재의 권리를 발생시키는 것은 아니다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC53",
+        "cross_refs": [
+          "AG10",
+          "BC54"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC49",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC49 IFRIC 은 이용자에게 사용료를 부과할 수 있으나 부족액에 대해서\n\n는 사업허가자로부터 전혀 보전받지 못하는 권리가 사업허가자와\n\n의 계약에서 발생된 현금을 수령할 수 있는 간접적인 권리인지에\n\n대해 고려하였다 . IFRIC 은 사업시행자의 자산이 금융자산의 특성\n\n과 유사한 점을 가질 수 있더라도 IAS 32 의 금융자산의 정의를\n\n충족시키지 않는다고 결론지었다 . 사업시행자는 대차대조표일에\n\n다른 실체로부터 현금을 수령할 계약상 권리를 갖지 않는다 . 그\n\n다른 실체 ( 즉, 이용자 ) 는 여전히 어떤 의무도 회피할 능력을 보유\n\n한다 . 사업허가자는 사업시행자에게 현금을 수령할 현재권리가 아\n\n니라, 미래에 이용자에게 사용료를 부과할 수 있는 기회를 이전한\n\n다 .\n\n사업시행자 수익의 변동성을 실질적으로 모두 제거하는 실시협약",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC49",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC50",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC50 IFRIC 은 다음의 예와 같이 사업시행자 수익의 변동성을 실질적으\n\n로 모두 제거하도록 고안된 실시협약을 포함하는 계약이 금융자\n\n산의 정의를 충족하는지 고려하였다 .\n\n⑴ 사업시행자가 실질적으로 고정된 수익을 수령할 수 있도록 고\n\n                  - 61\n\n안된 규정에 의해 사업시행자의 부과 요금이 변동된다 .\n\n⑵ 사업시행자가 투자에 대한 일정한 수익을 달성할 때까지 이용\n\n자나 사업허가자로부터 수익을 징수하도록 허용되고, 그러한\n\n수익달성 시점에 사업이 종료된다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC50",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC51",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC51 IFRIC 은 그러한 실시협약의 결과로 사업시행자의 수익이 낮은 위\n\n험을 갖는다고 보았다 . 단지 사용량이 극도로 낮을 때만 계약상의\n\n조항에도 불구하고 사업시행자에게 특정한 수익을 제공하지 못할\n\n것이다 . 사용량이 그렇게 낮을 가능성은 매우 희박하다 . 상업적으\n\n로 사업시행자의 수익은 고정되었다고 여겨질 것이며, 사업시행자\n\n의 자산이 금융자산의 많은 특성을 갖는다고 볼 수 있다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC51",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC52",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC52 그러나 IFRIC 은 사업시행자 자산의 위험성이 낮다는 사실이 그\n\n분류에는 영향을 미치지 않는다고 결론지었다 . IAS 32 에서는 금융\n\n자산을 수익에 있어서의 위험의 정도에 따라 정의하지 않는다 .\n\nIAS 32 에서는 단지 현금을 지급받을 무조건부의 계약상 권리의\n\n유무에 따라 정의한다 . 권리의 보유자에게 예측가능하고 낮은 위\n\n험의 수익을 제공하는 사업면허의 다른 예들이 있다 . 하지만 이러\n\n한 사업면허가 보유자에게 현금에 대한 계약상의 권리를 준다고\n\n간주되지 않는다 . 그리고 가격정책에 의해 사업시행자에게 실질적\n\n으로 고정된 수익을 제공하도록 고안되는 다른 산업들이 있다 . 그\n\n러나 이러한 다른 산업에서도 사업시행자의 권리는 결과적으로\n\n금융자산으로 분류되지 않는다 . 사업시행자의 자산은 변동조건의\n\n사업면허이고, 이는 IAS 38 의 적용범위 내의 무형자산으로 분류될\n\n것이다 .\n\n금융자산과 무형자산",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC52",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC53",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC53 IFRIC 은 사업시행자가 건설서비스에 대해 일부는 금융자산으로\n\n다른 일부는 무형자산으로 지급받는다면, 사업시행자의 대가의 각\n\n요소를 별도로 회계처리해야 한다고 결론지었다 . IFRIC 은 해석서\n\n                  - 62\n\n공개초안에 대해 제기된 우려에 따라, 사업시행자 대가의 각 요소\n\n[ 종종 두 요소를 가지는 실시협약 (bifurcated arrangement) 으로 알\n\n려짐 ] 를 별도로 회계처리하는 요구사항을 포함하였다 . 그 우려의\n\n내용은 일부 민간투자사업에서 계약의 두 당사자가 공공서비스의\n\n이용자에 의해 창출되는 현금흐름이 사업시행자의 투자의 회수에\n\n불충분하게 되는 위험 ( 수요위험 ) 을 공유한다는 것이다 . 원하는 수\n\n준의 위험 분담을 달성하기 위해, 종종 당사자들은 사업허가자가\n\n사업시행자에게 그 서비스에 대해, 일부는 금융자산으로 그리고\n\n다른 일부는 공공서비스의 이용자에게 사용료를 부과할 수 있는\n\n권리 ( 무형자산 ) 를 허용하는 것으로 지급하는 실시협약에 합의한다 .\n\nIFRIC 은 이러한 경우 사업시행자의 대가를, 현금이나 다른 금융자\n\n산의 보장된 금액에 대해서는 금융자산 요소로 나머지 부분은 무\n\n형자산으로 분할하는 것이 필요하다고 결론지었다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC53",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "sentences": [
+          "BC53 IFRIC 은 사업시행자가 건설서비스에 대해 일부는 금융자산으로",
+          "다른 일부는 무형자산으로 지급받는다면, 사업시행자의 대가의 각",
+          "요소를 별도로 회계처리해야 한다고 결론지었다 .",
+          "IFRIC 은 해석서",
+          "- 62",
+          "공개초안에 대해 제기된 우려에 따라, 사업시행자 대가의 각 요소",
+          "[ 종종 두 요소를 가지는 실시협약 (bifurcated arrangement) 으로 알",
+          "려짐 ] 를 별도로 회계처리하는 요구사항을 포함하였다 .",
+          "그 우려의",
+          "내용은 일부 민간투자사업에서 계약의 두 당사자가 공공서비스의",
+          "이용자에 의해 창출되는 현금흐름이 사업시행자의 투자의 회수에",
+          "불충분하게 되는 위험 ( 수요위험 ) 을 공유한다는 것이다 .",
+          "원하는 수",
+          "준의 위험 분담을 달성하기 위해, 종종 당사자들은 사업허가자가",
+          "사업시행자에게 그 서비스에 대해, 일부는 금융자산으로 그리고",
+          "다른 일부는 공공서비스의 이용자에게 사용료를 부과할 수 있는",
+          "권리 ( 무형자산 ) 를 허용하는 것으로 지급하는 실시협약에 합의한다 .",
+          "IFRIC 은 이러한 경우 사업시행자의 대가를, 현금이나 다른 금융자",
+          "산의 보장된 금액에 대해서는 금융자산 요소로 나머지 부분은 무",
+          "형자산으로 분할하는 것이 필요하다고 결론지었다 ."
+        ]
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC54",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC54 IFRIC 은 사업시행자가 사업허가자로부터 지급받는 대가의 성격은\n\n실시협약과 관련 법규 ( 존재하는 경우 ) 에 기초하여 결정되어야 한\n\n다고 결론지었다 . IFRIC 은 민간투자사업들이 동일한 경우는 거의\n\n없다고 보았다 . 분야와 국가별로 기술적 요구사항이 다양하다 . 그\n\n리고 실시협약의 내용도 특정 국가의 전반적인 법률체계의 특성\n\n에 따라 달라질 수 있다 . 민간투자사업법이 존재하는 경우에는 해\n\n당 법률이 개별적인 계약에서 반복될 필요가 없는 내용을 포함할\n\n수 있다 .\n\n사회기반시설을 특정 수준의 사용가능 상태로 복구하여야 할 계약상 의무\n\n문단",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC54",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC55",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC55 IFRIC 은 IAS 37 에서 기업이 자기 소유의 유형자산의 일부분을 대\n\n체하기 위한 충당금 설정을 금지하고 있음에 주목하였다 . IAS 16\n\n에 따라 그러한 원가는 동 기준서의 문단 7 의 인식조건을 충족하\n\n면 유형자산 항목의 장부금액에 인식해야 한다 . 유형자산을 구성\n\n하는 일부 원가가 당해 유형자산의 전체원가에 비교하여 유의적\n\n                  - 63\n\n이면, 해당 유형자산을 감가상각할 때 그 부분은 별도로 구분하여\n\n감가상각한다 . IFRIC 은 사업시행자가 사회기반시설을 자신의 유형\n\n자산으로 인식하지 않으므로 이러한 금지규정이 이 해석서의 적\n\n용범위 내의 사업에 적용되지 않을 것으로 결론지었다 . 사업시행\n\n자는 사회기반시설과 관련하여 제 3 자인 사업허가자에게 회피할\n\n수 없는 의무를 갖는다 . 사업시행자는 IAS 37 에 따라 의무를 인식\n\n하여야 한다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC55",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC56",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC56 IFRIC 은 이 해석서가 이러한 의무의 인식 시점에 대한 지침을 포\n\n함해야 할지를 고려하였다 . IFRIC 은 계약에 따라 의무의 세부적인\n\n내용과 상황이 다양하다고 보았다 . IFRIC 은 IAS 37 의 요구사항과\n\n지침이 사업시행자가 다른 의무들을 인식하는 기간을 식별하는\n\n데 충분히 명확하다고 결론지었다 .\n\n차입원가 문단",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC56",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC57",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC57 IAS 23 에 따라, 자산을 의도된 용도로 사용하거나 판매가능한 상\n\n태에 이르게 할 때까지 적격자산의 취득, 건설 또는 제조와 직접\n\n관련되는 차입원가는 당해 자산원가의 일부로 자본화된다 . [8)] 동 기\n\n준서는 적격자산을 ‘ 의도된 용도로 사용하거나 판매가능한 상태에\n\n이르게 하는 데 상당한 기간을 필요로 하는 자산 ’ 으로 정의한다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC57",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC58",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC58 이 해석서의 적용범위에 속하는 민간투자사업에 대해, IFRIC 은 무\n\n형자산 ( 즉, 사업허가자가 사업시행자에게 건설서비스의 대가로 공\n\n공서비스의 이용자에게 사용료를 부과할 수 있는 권리를 준 것 ) 이\n\n사업시행자의 적격자산 정의에 부합한다고 결정하였다 . 왜냐하면\n\n일반적으로 사회기반시설이 건설되거나 개량되어야만 사업면허가\n\n사용가능한 상태가 되기 때문이다 . 금융자산 ( 즉, 사업허가자가 사\n\n8) IAS 23 은 2007 년 3 월에 자본화에 대해 과거에 대체적 회계처리로서 허용하던 것을 강제화하도록 개정되\n\n었다 . 따라서 기업은 자산을 의도된 용도로 사용 ( 또는 판매 ) 가능한 상태에 이르게 할 때까지 적격자산의\n취득, 건설 또는 생산과 직접 관련되는 차입원가는 당해 자산원가의 일부로 자본화하여야 한다 . 이 개정\n사항은 이 결론도출근거에서 기술된 추론에 영향을 미치지 않는다 .\n\n                  - 64\n\n업시행자에게 건설서비스의 대가로 현금이나 다른 금융자산을 수\n\n령할 계약상 권리를 준 것 ) 은 사업시행자의 적격자산 정의에 부합\n\n하지 않는다 . IFRIC 은 일반적으로 금융자산의 장부금액에 이자가\n\n가산되는 점에 주목하였다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC58",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "sentences": [
+          "BC58 이 해석서의 적용범위에 속하는 민간투자사업에 대해, IFRIC 은 무",
+          "형자산 ( 즉, 사업허가자가 사업시행자에게 건설서비스의 대가로 공",
+          "공서비스의 이용자에게 사용료를 부과할 수 있는 권리를 준 것 ) 이",
+          "사업시행자의 적격자산 정의에 부합한다고 결정하였다 .",
+          "왜냐하면",
+          "일반적으로 사회기반시설이 건설되거나 개량되어야만 사업면허가",
+          "사용가능한 상태가 되기 때문이다 .",
+          "금융자산 ( 즉, 사업허가자가 사",
+          "8) IAS 23 은 2007 년 3 월에 자본화에 대해 과거에 대체적 회계처리로서 허용하던 것을 강제화하도록 개정되",
+          "었다 .",
+          "따라서 기업은 자산을 의도된 용도로 사용 ( 또는 판매 ) 가능한 상태에 이르게 할 때까지 적격자산의\n취득, 건설 또는 생산과 직접 관련되는 차입원가는 당해 자산원가의 일부로 자본화하여야 한다 .",
+          "이 개정\n사항은 이 결론도출근거에서 기술된 추론에 영향을 미치지 않는다 .",
+          "-",
+          "64",
+          "업시행자에게 건설서비스의 대가로 현금이나 다른 금융자산을 수",
+          "령할 계약상 권리를 준 것 ) 은 사업시행자의 적격자산 정의에 부합",
+          "하지 않는다 .",
+          "IFRIC 은 일반적으로 금융자산의 장부금액에 이자가",
+          "가산되는 점에 주목하였다 ."
+        ]
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC59",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC59 IFRIC 은 차입약정에 따라 사업시행자가 차입하여 기금의 일부 또\n\n는 전부가 건설서비스나 운영서비스와 관련된 지출에 사용되기\n\n전에 연관된 차입원가를 발생시킬 수 있음을 주목하였다 . 이러한\n\n경우 그 기금은 종종 일시적으로 투자된다 . 그러한 기금으로부터\n\n얻어지는 모든 투자수익은 사업시행자가 허용된 대체적 회계처리\n\n를 채택하지 않는다면 IAS 39 [9)] 에 따라 인식된다 . 대체적 회계처\n\n리를 따르면 민간투자사업의 건설단계에서 얻어진 투자수익은\n\nIAS 23 문단 16 에 따라 회계처리된다 . [10)]\n\n금융자산 문단",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC59",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC60",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC60 IAS 39 [11)] 의 문단 9 에서는 금융자산의 네 가지 범주를 식별하고\n\n정의한다 . ㈎ 당기손익인식금융자산 ㈏ 만기보유금융자산 ㈐ 대여\n\n금 및 수취채권 ㈑ 매도가능금융자산",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC60",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC61",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC61 IFRIC 12 문단 24 에서는 민간투자사업의 금융자산은 만기보유금\n\n융자산으로 분류되지 않는다고 가정한다 . IAS 39 문단 9 에서는 금\n\n융자산이 대여금이나 수취채권의 정의를 충족하면 만기보유금융\n\n자산으로 분류할 수 없다고 기술하고 있다 . 만기보유금융자산의\n\n정의를 충족하는 자산은 다음의 경우가 아니면 대여금이나 수취\n\n채권의 정의를 충족한다 .\n\n9) IFRS 9 는 IAS 39 를 대체하였다 . IFRS 9 는 이전에 IAS 39 의 적용범위에 포함된 모든 항목에 적용한다 .\n\n10) IAS 23 은 2007 년 3 월에 자본화에 대해 과거에 대체적 회계처리로서 허용하던 것을 강제화하도록 개정\n\n되었다 . 따라서 기업은 자산을 의도된 용도로 사용 ( 또는 판매 ) 가능한 상태에 이르게 할 때까지 적격자\n산의 취득, 건설 또는 생산과 직접 관련되는 차입원가는 당해 자산원가의 일부로 자본화하여야 한다 . 이\n개정사항은 이 결론도출근거에서 기술된 추론에 영향을 미치지 않는다 .\n\n11) IFRS 9 는 IAS 39 를 대체하였다 . IFRS 9 는 이전에 IAS 39 의 적용범위에 포함된 모든 항목에 적용한다 .\n\n                  - 65\n\n⑴ 활성시장에서 가격이 공시된다 .\n\n⑵ 신용악화를 제외한 다른 이유 때문에 최초 투자액의 대부분을\n\n회수하지 못할 수 있다 .\n\n민간투자사업의 금융자산이 활성시장에서 가격이 공시될 것으로\n\n생각되지는 않는다 . 따라서 ⑴ 의 경우는 발생하지 않을 것이다 . ⑵\n\n의 경우 자산은 ( 만약 최초인식시점에서 당기손익인식금융자산으\n\n로 지정되지 않는다면 ) 매도가능항목으로 분류되어야 한다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC61",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "sentences": [
+          "BC61 IFRIC 12 문단 24 에서는 민간투자사업의 금융자산은 만기보유금",
+          "융자산으로 분류되지 않는다고 가정한다 .",
+          "IAS 39 문단 9 에서는 금",
+          "융자산이 대여금이나 수취채권의 정의를 충족하면 만기보유금융",
+          "자산으로 분류할 수 없다고 기술하고 있다 .",
+          "만기보유금융자산의",
+          "정의를 충족하는 자산은 다음의 경우가 아니면 대여금이나 수취",
+          "채권의 정의를 충족한다 .",
+          "9) IFRS 9 는 IAS 39 를 대체하였다 .",
+          "IFRS 9 는 이전에 IAS 39 의 적용범위에 포함된 모든 항목에 적용한다 .",
+          "10) IAS 23 은 2007 년 3 월에 자본화에 대해 과거에 대체적 회계처리로서 허용하던 것을 강제화하도록 개정",
+          "되었다 .",
+          "따라서 기업은 자산을 의도된 용도로 사용 ( 또는 판매 ) 가능한 상태에 이르게 할 때까지 적격자\n산의 취득, 건설 또는 생산과 직접 관련되는 차입원가는 당해 자산원가의 일부로 자본화하여야 한다 .",
+          "이\n개정사항은 이 결론도출근거에서 기술된 추론에 영향을 미치지 않는다 .",
+          "11) IFRS 9 는 IAS 39 를 대체하였다 .",
+          "IFRS 9 는 이전에 IAS 39 의 적용범위에 포함된 모든 항목에 적용한다 .",
+          "-",
+          "65",
+          "⑴ 활성시장에서 가격이 공시된다 .",
+          "⑵",
+          "신용악화를 제외한 다른 이유 때문에 최초 투자액의 대부분을",
+          "회수하지 못할 수 있다 .",
+          "민간투자사업의 금융자산이 활성시장에서 가격이 공시될 것으로",
+          "생각되지는 않는다 .",
+          "따라서 ⑴ 의 경우는 발생하지 않을 것이다 . ⑵",
+          "의 경우 자산은 ( 만약 최초인식시점에서 당기손익인식금융자산으",
+          "로 지정되지 않는다면 ) 매도가능항목으로 분류되어야 한다 ."
+        ]
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC62",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC62 IFRIC 은 사업시행자가 수령할 금액이 제공되는 후속 서비스의 질\n\n이나 성과에 따라 다르거나 사업시행자가 달성해야 할 효율성 목\n\n표에 따라 달라지는 경우, 그 계약이 내재파생상품을 포함하는지\n\n고려하였다 . IFRIC 은 그렇지 않다고 결론지었다 . 그 이유는 IAS\n\n39 의 파생상품 정의에서 무엇보다도 변수가 계약의 당사자에게\n\n특정되지 아니하여야 한다고 규정하고 있기 때문이다 . 결론은 대\n\n금지급에 있어서의 변동과 관련된 계약 조항은 파생상품의 정의\n\n에 부합하지 않고, 따라서 내재파생상품과 관련된 IAS 39 의 요구\n\n사항은 적용되지 않는다는 것이다 . IFRIC 은 사업시행자가 수령할\n\n금액이 문단 BC44 에 기술된 것처럼 사회기반시설이 품질이나 성\n\n과 혹은 효율성 목표를 달성하는지에 달려있는 경우, 이러한 사항\n\n이 해당 금액이 금융자산으로 분류되는 것을 금지하지 않는다고\n\n보았다 . IFRIC 은 또한 민간투자사업의 건설단계에서 건설서비스의\n\n제공에 따라 지급받을 누적 권리를 나타내는 사업시행자의 자산\n\n은 그것이 사업허가자로부터 또는 사업허가자의 지시로 받게 되\n\n는 현금이나 다른 금융자산을 나타낼 때 금융자산으로 분류되어\n\n야 한다고 결론지었다 .\n\n무형자산 문단",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC62",
+        "cross_refs": [
+          "BC44"
+        ],
+        "has_table": false,
+        "has_example": false,
+        "sentences": [
+          "BC62 IFRIC 은 사업시행자가 수령할 금액이 제공되는 후속 서비스의 질",
+          "이나 성과에 따라 다르거나 사업시행자가 달성해야 할 효율성 목",
+          "표에 따라 달라지는 경우, 그 계약이 내재파생상품을 포함하는지",
+          "고려하였다 .",
+          "IFRIC 은 그렇지 않다고 결론지었다 .",
+          "그 이유는 IAS",
+          "39 의 파생상품 정의에서 무엇보다도 변수가 계약의 당사자에게",
+          "특정되지 아니하여야 한다고 규정하고 있기 때문이다 .",
+          "결론은 대",
+          "금지급에 있어서의 변동과 관련된 계약 조항은 파생상품의 정의",
+          "에 부합하지 않고, 따라서 내재파생상품과 관련된 IAS 39 의 요구",
+          "사항은 적용되지 않는다는 것이다 .",
+          "IFRIC 은 사업시행자가 수령할",
+          "금액이 문단 BC44 에 기술된 것처럼 사회기반시설이 품질이나 성",
+          "과 혹은 효율성 목표를 달성하는지에 달려있는 경우, 이러한 사항",
+          "이 해당 금액이 금융자산으로 분류되는 것을 금지하지 않는다고",
+          "보았다 .",
+          "IFRIC 은 또한 민간투자사업의 건설단계에서 건설서비스의",
+          "제공에 따라 지급받을 누적 권리를 나타내는 사업시행자의 자산",
+          "은 그것이 사업허가자로부터 또는 사업허가자의 지시로 받게 되",
+          "는 현금이나 다른 금융자산을 나타낼 때 금융자산으로 분류되어",
+          "야 한다고 결론지었다 .",
+          "무형자산 문단"
+        ]
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC63",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC63 이 해석서에서 사업시행자는 무형자산을 IAS 38 에 따라 회계처리\n\n하여야 한다 . 다른 요구사항 중에서도 IAS 38 은 내용연수가 유한\n\n                  - 66\n\n한 무형자산은 그 내용연수 동안 상각하도록 요구한다 . 문단 97 에\n\n서 ‘ 무형자산의 상각방법은 자산의 경제적 효익이 소비되는 형태\n\n를 반영한 방법이어야 한다 .’ 라고 기술하고 있다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC63",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC64",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC64 IFRIC 은 문단 26 에 따른 무형자산을 이자율상각법 [한] [2)], 즉 무형자산\n\n의 소비뿐만 아니라 화폐의 시간가치도 고려하여, 자산을 비화폐\n\n성자산이라기보다는 화폐성자산으로 취급하는 방식으로 상각하는\n\n것이 적절한지 고려하였다 . 그러나 IFRIC 은 이러한 무형자산들에\n\n대해 다른 무형자산에 대해 사용되는 방법과 다른 상각방식의 사\n\n용을 정당화할 특이성이 없다고 결론지었다 . IFRIC 은 IAS 38 문\n\n단 98 에서 내용연수가 유한한 무형자산에 대해 다수의 상각방법\n\n을 제시하고 있음을 주목하였다 . 이 방법들에는 정액법, 체감잔액\n\n법과 생산량 비례법이 포함된다 . 상각방법은 자산에 내재된 예상\n\n미래경제적효익의 예상되는 소비형태를 반영하여 선택하고, 미래\n\n경제적효익의 예상되는 소비형태가 달라지지 않는다면 매 회계기\n\n간에 일관성 있게 적용한다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC64",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC65",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC65 IFRIC 은 이자율상각법이 IAS 38 에서 허용되지 않음을 주목하였\n\n다 . 따라서 IFRIC 12 는 이자율상각법의 사용을 허용하는 예외를\n\n두지 않는다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC65",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC66",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC66 IFRIC 은 사업시행자가 처음으로 무형자산을 인식할 시점을 고려\n\n하였다 . IFRIC 은 건설서비스와 교환으로 수령하는 무형자산 ( 사업\n\n면허 ) 은 자산이나 서비스의 교환을 위한 계약에 적용되는 일반 원\n\n칙에 따라 인식되어야 한다고 결론지었다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC66",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC67",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC67 IFRIC 은 양 당사자에 의해 수행되지 않을 경우 ( 손실부담계약이\n\n아니라면 ) 미이행계약을 인식하지 않는 것이 현행의 실무임을 주\n\n목하였다 . IAS 37 에서 미이행계약을 ‘ 계약당사자 쌍방 모두가 계\n\n한 2) 감가상각방법의 하나로 현재가치계산을 근거로 내용연수 초기에 감가상각을 적게 계상하고 후기에 많\n\n이 계상하는 방법임 .\n\n                  - 67\n\n약상의 의무를 전혀 이행하지 아니하였거나 의무의 일부만을 동\n\n일한 정도로 이행한 계약 ’ 으로 기술하고 있다 . Framework 의 문단\n\n91 에서는 다음과 같이 기술하고 있다 .\n\n실무에서는 주문 후 아직 인도되지 않은 재고자산에 대한 부채와 같이 동\n\n일한 비율로 미이행된 계약상의 의무는 일반적으로 재무제표에 부채로 인\n\n식하지 아니한다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC67",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC68",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC68 따라서 IFRIC 은 이 해석서의 적용범위에 해당하는 계약은 미이행\n\n된 정도까지는 인식해서는 안 된다고 결론지었다 . IFRIC 은 해석서\n\n의 적용범위에 해당하는 민간투자사업은 계약이 서명되는 시점에\n\n일반적으로 미이행상태임에 주목하였다 . IFRIC 은 또한 민간투자사\n\n업의 건설단계에서 건설서비스의 제공에 따라 지급받을 누적 권\n\n리를 나타내는 사업시행자의 자산은 그것이 공공서비스의 이용자\n\n에게 사용료를 부과할 수 있는 권리 ( 사업면허 ) 를 수령할 권리 ( 무\n\n형자산 ) 를 나타내는 정도까지 무형자산으로 분류되어야 한다고 결\n\n론지었다 .\n\n사업허가자가 사업시행자에게 제공하는 재화 문단",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC68",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC69",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC69 이 해석서의 적용범위에 해당하는 민간투자사업에 대해, 사업허가\n\n자에 의해 민간투자사업을 위하여 사업시행자가 사용가능하게 된\n\n기존 사회기반시설 항목은 사업시행자의 유형자산으로 인식하지\n\n않는다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC69",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC70",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC70 그러나 사업허가자가 사업시행자에게 제공한 자산이 사업시행자\n\n의 의도대로 보관하거나 처리할 수 있다면 그 자산에 대해 다른\n\n고려가 적용되어야 한다 . 그러한 자산들은 사업시행자의 자산이고\n\n따라서 그 자산과 교환되어 부담하게 된 의무가 회계처리되듯이\n\n일반적인 인식과 측정 원칙에 따라 회계처리되어야 한다 .\n\n                  - 68",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC70",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC71",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC71 IFRIC 은 그러한 자산들이 IAS 20 의 문단 3 에서 다음과 같이 정의\n\n한 정부보조금을 나타내는지 고려하였다 .\n\n정부보조금 : 기업의 영업활동과 관련하여 과거나 미래에 일정한 조건을 충\n\n족하였거나 충족할 경우 기업에게 자원을 이전하는 형식의 정부지원 . 합리\n\n적으로 가치를 산정할 수 없는 정부지원과 기업의 정상적인 거래와 구분할\n\n수 없는 정부와의 거래는 제외한다 .\n\nIFRIC 은 그러한 자산이 사업시행자의 서비스에 대해 독립된 당사\n\n자간의 거래를 근거로 사업허가자에게 지급받을 전체 대가의 일\n\n부라면 ‘ 지원 ’ 에 해당하지 않는다고 결론지었다 . 따라서 그러한 자\n\n산은 IAS 20 의 정부보조금의 정의를 충족시키지 않으며 동 기준\n\n서가 적용되지 않는다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC71",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC72",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC72 IAS 8 에서 기업은 해석서의 최초적용으로 인한 회계정책의 변경\n\n을 그 해석서의 특정한 경과규정에 따라 회계처리해야 한다고 서\n\n술하고 있다 . 특정한 경과 규정이 없다면 IAS 8 의 일반적인 요구\n\n사항이 적용된다 . IAS 8 의 일반적인 요구사항에 따르면, 실무적\n\n으로 소급적용할 수 없는 경우를 제외하고는, 소급적으로 회계처\n\n리 되어야한다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC72",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC73",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC73 IFRIC 은 소급결정의 두 가지 측면으로 재분류와 재측정이 있음을\n\n주목하였다 . IFRIC 은 사업시행자의 대차대조표에 과거에 포함되었\n\n던 모든 금액에 대해 소급적으로 적절하게 분류하는 것은 일반적\n\n으로 가능하지만, 민간투자사업 자산의 소급적인 재측정이 항상\n\n가능하지는 않을 수 있다는 견해를 취하였다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC73",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC74",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC74 IFRIC 은 소급재작성이 가능하지 않을 때 IAS 8 에 따라 가장 이른\n\n실행가능일부터 전진적으로 적용해야 하고 이는 당기의 기초가\n\n                  - 69\n\n될 수 있음을 주목하였다 . 전진법을 적용하면 사업시행자는 유사\n\n한 거래에 대해 다른 회계모형을 적용할 수 있는데, IFRIC 은 이를\n\n적절하지 않다고 결정하였다 . IFRIC 은 올바른 회계모형이 일관되\n\n게 적용되는 것이 중요하다고 생각하였다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC74",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC76",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC76 경과규정이 IFRS 의 기존 이용자와 최초채택자 모두에게 가능함을\n\n확실히 하기 위해 IFRS 1 의 개정이 필요하다 . IFRIC 은 이 규정들\n\n을 통하여 IFRS 에 따른 자산과 부채의 인식조건에 부합하지 않는\n\n모든 항목이 대차대조표에서 제거될 것이라고 믿는다 .\n\n해석서 공개초안에 대한 변경 요약",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC76",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_BC77",
+      "parent_id": "KIFRS2112_bc_h_결론도출근거_2",
+      "content": "BC77 IFRIC 의 제안서로부터 변경된 주요 사항은 다음과 같다 .\n\n⑴ 제안서는 D12, D13 및 D14 의 세 개의 개별 해석서 공개초안\n\n으로 발행되었다 . IFRIC 12 를 완성하면서 IFRIC 은 세 건의 해\n\n석서 공개초안을 통합하였다 .\n\n⑵ IFRIC 12 와는 달리 해석서 공개초안에서는 적용범위 제한에\n\n대한 이유와 문단 5 에서 IFRIC 에 의해 채택된 통제접근법에\n\n대한 이유를 설명하지 않았다 . IFRIC 은 해석서의 적용범위에\n\n포함되지 않는 사업에 적용되는 기준에 대한 참조를 제공하고\n\n자 IFRIC 12 에 첨부자료 2 를 추가하였다 .\n\n⑶ 제안서의 적용범위에 ‘ 전체내용연수 사회기반시설 ’( 즉, 전체내\n\n용연수동안 민간투자사업에 사용되는 사회기반시설 ) 이 포함되\n\n지 않았었다 . IFRIC 12 는 그 적용범위에 ‘ 전체내용연수 사회기\n\n반시설 ’ 을 포함한다 .\n\n⑷ 제안된 접근법에서는 제공된 서비스에 대해 사업시행자에게\n\n                  - 70\n\n지급해야 할 주된 책임이 사업허가자와 이용자 중 누구에게\n\n있는지를 참조하여 적절한 회계처리모형을 기업이 결정하였다 .\n\nIFRIC 12 에서는 사업시행자가 사업허가자로부터 또는 사업허\n\n가자의 지시에 따라 현금을 지급받을 무조건부의 계약상 권리\n\n에 한하여 금융자산을 인식해야 한다고 규정하고 있다 . 사업시\n\n행자는 공공서비스의 이용자에게 사용료를 부과할 수 있는 권\n\n리를 수령하는 정도까지 무형자산을 인식하여야 한다 .\n\n⑸ IFRIC 12 와는 달리 해석서 공개초안에서는 건설서비스를 제공\n\n한 대가로 사업시행자가 인식하는 자산의 성격 ( 금융자산 또는\n\n무형자산 ) 이 사업 운영단계의 회계처리를 결정함을 암시하였\n\n다 .\n\n⑹ 해석서 공개초안에서 제안된 접근법에서는 IAS 23 의 허용된\n\n대체적 회계처리에 따라 차입원가를 자본화 할 수 있었다 .\n\nIFRIC 12 에서는 사업시행자가 무형자산 ( 공공서비스의 이용자\n\n에게 사용료를 부과할 수 있는 권리 ) 을 수령할 계약상 권리를\n\n갖지 않는다면 차입원가를 발생한 기간에 비용으로 인식해야\n\n한다고 규정하고 있다 . 무형자산을 수령할 계약상 권리를 가진\n\n다면, 민간투자사업에 귀속되는 차입원가는 IAS 23 의 허용된\n\n대체적 회계처리에 따라 자본화 될 수도 있다 . [12)]\n\n⑺ IFRIC 12 를 완성하면서 IFRIC 은 IFRIC 4 를 개정하기로 결정\n\n하였다 .\n\n12) IAS 23 은 2007 년 3 월에 자본화에 대해 과거에 대체적 회계처리를 허용하던 것을 강제화하도록 개정되\n\n었다 . 따라서 기업은 자산을 의도된 용도로 사용하거나 판매가능한 상태에 이르게 할 때 까지 적격자산\n의 취득, 건설 또는 제조와 직접 관련되는 차입원가는 당해 자산원가의 일부로 자본화하여야 한다 . 이 개\n정사항은 이 결론도출근거에서 기술된 추론에 영향을 미치지 않는다 .\n\n                  - 71",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": "BC77",
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "sentences": [
+          "BC77 IFRIC 의 제안서로부터 변경된 주요 사항은 다음과 같다 .",
+          "⑴",
+          "제안서는 D12, D13 및 D14 의 세 개의 개별 해석서 공개초안",
+          "으로 발행되었다 .",
+          "IFRIC 12 를 완성하면서 IFRIC 은 세 건의 해",
+          "석서 공개초안을 통합하였다 .",
+          "⑵",
+          "IFRIC 12 와는 달리 해석서 공개초안에서는 적용범위 제한에",
+          "대한 이유와 문단 5 에서 IFRIC 에 의해 채택된 통제접근법에",
+          "대한 이유를 설명하지 않았다 .",
+          "IFRIC 은 해석서의 적용범위에",
+          "포함되지 않는 사업에 적용되는 기준에 대한 참조를 제공하고",
+          "자 IFRIC 12 에 첨부자료 2 를 추가하였다 .",
+          "⑶",
+          "제안서의 적용범위에 ‘ 전체내용연수 사회기반시설 ’( 즉, 전체내",
+          "용연수동안 민간투자사업에 사용되는 사회기반시설 ) 이 포함되",
+          "지 않았었다 .",
+          "IFRIC 12 는 그 적용범위에 ‘ 전체내용연수 사회기",
+          "반시설 ’ 을 포함한다 .",
+          "⑷",
+          "제안된 접근법에서는 제공된 서비스에 대해 사업시행자에게",
+          "- 70",
+          "지급해야 할 주된 책임이 사업허가자와 이용자 중 누구에게",
+          "있는지를 참조하여 적절한 회계처리모형을 기업이 결정하였다 .",
+          "IFRIC 12 에서는 사업시행자가 사업허가자로부터 또는 사업허",
+          "가자의 지시에 따라 현금을 지급받을 무조건부의 계약상 권리",
+          "에 한하여 금융자산을 인식해야 한다고 규정하고 있다 .",
+          "사업시",
+          "행자는 공공서비스의 이용자에게 사용료를 부과할 수 있는 권",
+          "리를 수령하는 정도까지 무형자산을 인식하여야 한다 .",
+          "⑸",
+          "IFRIC 12 와는 달리 해석서 공개초안에서는 건설서비스를 제공",
+          "한 대가로 사업시행자가 인식하는 자산의 성격 ( 금융자산 또는",
+          "무형자산 ) 이 사업 운영단계의 회계처리를 결정함을 암시하였",
+          "다 .",
+          "⑹",
+          "해석서 공개초안에서 제안된 접근법에서는 IAS 23 의 허용된",
+          "대체적 회계처리에 따라 차입원가를 자본화 할 수 있었다 .",
+          "IFRIC 12 에서는 사업시행자가 무형자산 ( 공공서비스의 이용자",
+          "에게 사용료를 부과할 수 있는 권리 ) 을 수령할 계약상 권리를",
+          "갖지 않는다면 차입원가를 발생한 기간에 비용으로 인식해야",
+          "한다고 규정하고 있다 .",
+          "무형자산을 수령할 계약상 권리를 가진",
+          "다면, 민간투자사업에 귀속되는 차입원가는 IAS 23 의 허용된",
+          "대체적 회계처리에 따라 자본화 될 수도 있다 . [12)]",
+          "⑺",
+          "IFRIC 12 를 완성하면서 IFRIC 은 IFRIC 4 를 개정하기로 결정",
+          "하였다 .",
+          "12) IAS 23 은 2007 년 3 월에 자본화에 대해 과거에 대체적 회계처리를 허용하던 것을 강제화하도록 개정되",
+          "었다 .",
+          "따라서 기업은 자산을 의도된 용도로 사용하거나 판매가능한 상태에 이르게 할 때 까지 적격자산\n의 취득, 건설 또는 제조와 직접 관련되는 차입원가는 당해 자산원가의 일부로 자본화하여야 한다 .",
+          "이 개\n정사항은 이 결론도출근거에서 기술된 추론에 영향을 미치지 않는다 .",
+          "-",
+          "71"
+        ]
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_unk_13",
+      "parent_id": "KIFRS2112_bc_h_국제회계기준과의_관계",
+      "content": "기업회계기준해석서 제 호와 국제재무보고기준해석 제 호\n\n기업회계기준해석서 제 2112 호는 국제재무보고기준해석위원회가제정한 국제\n\n재무보고기준해석 제 12 호 (IFRIC 12) ‘ 민간투자사업 (Service Concession\n\nArrangements)' 에 대응하는 해석이다 .\n\n한국의 법률체계와 일관성을 유지하기 위하여 형식적인 부분이 제한적으로\n\n수정되었다 . 즉, 한국채택국제회계기준의 의무적용대상기업과 적용시기를 명\n\n시하기 위하여 문단 한 4.1, 한 28.1 이 추가되었으며, 적용시기 이후 최초채택\n\n기업으로서 이 기준서를 적용하게 됨에 따라 시행일과 관련된 문단 28 이 삭\n\n제되었다 . 이러한 수정을 명시적으로 표시하기 위하여 동 국제회계기준에 추\n\n가한 문단은 관련된 국제회계기준 문단번호에 ‘ 한 ’ 이라는 접두어를 붙여 구분\n\n표시하였다 . 그리고 동 국제회계기준의 문단을 삭제한 경우는 관련된 국제회\n\n계기준 문단번호 옆에 ‘[ 한국회계기준원 회계기준위원회가 삭제함 ]’ 이라고 표\n\n시하였다 .\n\n형식과 관련하여 수정된 위의 문단들을 제외하고는 기업회계기준해석서 제\n\n2112 호가 IFRIC 12 의 내용에 근거하여 제정되었기 때문에 기업회계기준해석\n\n서 제 2112 호를 준수하면 동시에 IFRIC 12 를 준수하는 것이 된다 .\n\n                  - 73",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": null,
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "sentences": [
+          "기업회계기준해석서 제 호와 국제재무보고기준해석 제 호",
+          "기업회계기준해석서 제 2112 호는 국제재무보고기준해석위원회가제정한 국제",
+          "재무보고기준해석 제 12 호 (IFRIC 12) ‘ 민간투자사업 (Service Concession",
+          "Arrangements)' 에 대응하는 해석이다 .",
+          "한국의 법률체계와 일관성을 유지하기 위하여 형식적인 부분이 제한적으로",
+          "수정되었다 .",
+          "즉, 한국채택국제회계기준의 의무적용대상기업과 적용시기를 명",
+          "시하기 위하여 문단 한 4.1, 한 28.1 이 추가되었으며, 적용시기 이후 최초채택",
+          "기업으로서 이 기준서를 적용하게 됨에 따라 시행일과 관련된 문단 28 이 삭",
+          "제되었다 .",
+          "이러한 수정을 명시적으로 표시하기 위하여 동 국제회계기준에 추",
+          "가한 문단은 관련된 국제회계기준 문단번호에 ‘ 한 ’ 이라는 접두어를 붙여 구분",
+          "표시하였다 .",
+          "그리고 동 국제회계기준의 문단을 삭제한 경우는 관련된 국제회",
+          "계기준 문단번호 옆에 ‘[ 한국회계기준원 회계기준위원회가 삭제함 ]’ 이라고 표",
+          "시하였다 .",
+          "형식과 관련하여 수정된 위의 문단들을 제외하고는 기업회계기준해석서 제",
+          "2112 호가 IFRIC 12 의 내용에 근거하여 제정되었기 때문에 기업회계기준해석",
+          "서 제 2112 호를 준수하면 동시에 IFRIC 12 를 준수하는 것이 된다 .",
+          "-",
+          "73"
+        ]
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_unk_14",
+      "parent_id": "KIFRS2112_bc_h_이_해석서의_주요_특징",
+      "content": "이 해석서는 민간투자사업의 인식과 측정을 위한 지침을 제공하기 위하여\n\n제정되었다 .\n\n적용범위\n\n이 해석서의 적용대상 활동은 우리나라의 경우 「 사회기반시설에 대한\n\n민간투자법 」 에 따른 ‘ 민간투자사업 ’ 에 해당한다 . 이 해석서는 민간투자\n\n사업에서 사업시행자의 회계처리 ( 인식과 측정 ) 를 다룬다 . 사업시행자의\n\n공시는 기업회계기준해석서 제 2029 호에서 다룬다 .\n\n회계처리방법\n\n사회기반시설에 대한 사업시행자 권리의 회계처리\n\n사회기반시설은 사업시행자의 유형자산으로 회계처리하지 아니한다 .\n\n왜냐하면 사업시행자에게 사회기반시설의 통제권이 없기 때문이다 . 사\n\n업시행자는 운영권만을 가진다 .\n\n민간투자사업 시행대가의 인식과 측정\n\n㈎ 사업시행자는 제공하는 서비스와 관련하여 기업회계기준서 제 1115\n\n호 ‘ 고객과의 계약에서 생기는 수익 ’ 에 따라 수익을 인식하고 측정\n\n한다 .\n\n㈏ 이 경우 시행대가의 회수 방식에 따라 회계처리가 달라진다 . 현금\n\n또는 다른 금융자산을 받을 무조건부 권리를 가지는 경우에는 금융\n\n자산을 인식하며, 운영기간 동안 이용자로부터 사용료를 부과할 권\n\n                  - 74\n\n리를 가지는 경우에는 무형자산을 인식한다 .\n\n사업시행자에게 제공하는 재화\n\n사업허가자인 공공부문이 사업시행자의 의도대로 보관하거나 처리할\n\n수 있는 기타항목을 제공할 수도 있다 . 만일 해당 자산들이 서비스와\n\n관련하여 공공부문이 지급할 대가의 일부에 해당한다면, 해당 자산들은\n\n정부보조금이 아니다 .\n\n                - 75",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": null,
+        "cross_refs": [],
+        "has_table": false,
+        "has_example": false,
+        "sentences": [
+          "이 해석서는 민간투자사업의 인식과 측정을 위한 지침을 제공하기 위하여",
+          "제정되었다 .",
+          "적용범위",
+          "이 해석서의 적용대상 활동은 우리나라의 경우 「 사회기반시설에 대한",
+          "민간투자법 」 에 따른 ‘ 민간투자사업 ’ 에 해당한다 .",
+          "이 해석서는 민간투자",
+          "사업에서 사업시행자의 회계처리 ( 인식과 측정 ) 를 다룬다 .",
+          "사업시행자의",
+          "공시는 기업회계기준해석서 제 2029 호에서 다룬다 .",
+          "회계처리방법",
+          "사회기반시설에 대한 사업시행자 권리의 회계처리",
+          "사회기반시설은 사업시행자의 유형자산으로 회계처리하지 아니한다 .",
+          "왜냐하면 사업시행자에게 사회기반시설의 통제권이 없기 때문이다 .",
+          "사",
+          "업시행자는 운영권만을 가진다 .",
+          "민간투자사업 시행대가의 인식과 측정",
+          "㈎ 사업시행자는 제공하는 서비스와 관련하여 기업회계기준서 제 1115",
+          "호 ‘ 고객과의 계약에서 생기는 수익 ’ 에 따라 수익을 인식하고 측정",
+          "한다 .",
+          "㈏",
+          "이 경우 시행대가의 회수 방식에 따라 회계처리가 달라진다 .",
+          "현금",
+          "또는 다른 금융자산을 받을 무조건부 권리를 가지는 경우에는 금융",
+          "자산을 인식하며, 운영기간 동안 이용자로부터 사용료를 부과할 권",
+          "- 74",
+          "리를 가지는 경우에는 무형자산을 인식한다 .",
+          "사업시행자에게 제공하는 재화",
+          "사업허가자인 공공부문이 사업시행자의 의도대로 보관하거나 처리할",
+          "수 있는 기타항목을 제공할 수도 있다 .",
+          "만일 해당 자산들이 서비스와",
+          "관련하여 공공부문이 지급할 대가의 일부에 해당한다면, 해당 자산들은",
+          "정부보조금이 아니다 .",
+          "-",
+          "75"
+        ]
+      }
+    },
+    {
+      "chunk_id": "KIFRS2112_bc_unk_15",
+      "parent_id": "KIFRS2112_bc_h_제_개정_경과",
+      "content": "한국회계기준원 회계기준위원회는 국제회계기준위원회가 제정한 국제회계기\n\n준을 채택하여 기업회계기준의 일부로 구성하기로 한 정책에 따라 이 해석\n\n서를 다음과 같이 제정하였다 .\n\n이 해석서는 다른 기준서의 제 ⋅ 개정에 따라 다음과 같이 개정되었다\n\n|제·개정일자|다른 기준서|관련되는 국제회계기준|\n|---|---|---|\n|2018.11.14. 개정|한국채택국제회계기준에<br>서 ‘개념체계의 참조에 대<br>한 개정‘|Amendments<br>to<br>the<br>References<br>to<br>Conceptual<br>Framework in IFRS Standards|\n|2017.5.22. 제정|기업회계기준서 제1116호 <br>‘리스’|<br>IFRS 16 Leases|\n|2015.11.6. 제정|기업회계기준서 제1115호 <br>‘고객과의 계약에서 생기<br>는 수익’|<br>IFRS 15 Revenue from Contracts<br>with Customers|\n|2015.9.25. 제정|기업회계기준서 제1109호 <br>‘금융상품’|<br>IFRS 9 Financial Instruments|\n|2011.11.18. 제정|기업회계기준서 제1113호 <br>‘공정가치 측정’|<br>IFRS<br>13<br>Fair<br>Value<br>Measurement|\n\n- 76",
+      "metadata": {
+        "standard_id": "K-IFRS 2112",
+        "section_type": "bc",
+        "para_number": null,
+        "cross_refs": [],
+        "has_table": true,
+        "has_example": false,
+        "sentences": [
+          "한국회계기준원 회계기준위원회는 국제회계기준위원회가 제정한 국제회계기",
+          "준을 채택하여 기업회계기준의 일부로 구성하기로 한 정책에 따라 이 해석",
+          "서를 다음과 같이 제정하였다 .",
+          "이 해석서는 다른 기준서의 제 ⋅ 개정에 따라 다음과 같이 개정되었다",
+          "|제·개정일자|다른 기준서|관련되는 국제회계기준|\n|---|---|---|\n|2018.11.14. 개정|한국채택국제회계기준에<br>서 ‘개념체계의 참조에 대<br>한 개정‘|Amendments<br>to<br>the<br>References<br>to<br>Conceptual<br>Framework in IFRS Standards|\n|2017.5.22. 제정|기업회계기준서 제1116호 <br>‘리스’|<br>IFRS 16 Leases|\n|2015.11.6. 제정|기업회계기준서 제1115호 <br>‘고객과의 계약에서 생기<br>는 수익’|<br>IFRS 15 Revenue from Contracts<br>with Customers|\n|2015.9.25. 제정|기업회계기준서 제1109호 <br>‘금융상품’|<br>IFRS 9 Financial Instruments|\n|2011.11.18. 제정|기업회계기준서 제1113호 <br>‘공정가치 측정’|<br>IFRS<br>13<br>Fair<br>Value<br>Measurement|",
+          "- 76"
+        ]
+      }
+    }
+  ]
+}
