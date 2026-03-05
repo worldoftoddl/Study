@@ -1,16 +1,16 @@
 """
 Qdrant 적재 후 검색 테스트
-- Child 검색 → Parent 조회 흐름 검증
+- Child 검색 → Parent 조회 → 형제 Child 묶기 검증
 """
+
+import os
 
 from dotenv import load_dotenv
 from langchain_upstage import UpstageEmbeddings
 from qdrant_client import QdrantClient
 
-from search.config import (
-    QDRANT_PATH, CHILD_COLLECTION, PARENT_COLLECTION, MODEL_NAME,
-    chunk_id_to_int,
-)
+from search.config import QDRANT_PATH, CHILD_COLLECTION, PARENT_COLLECTION, MODEL_NAME
+from search.retriever import search_with_parent
 
 load_dotenv()
 
@@ -18,33 +18,13 @@ TOP_K = 5
 
 QUERIES = [
     "유형자산 감가상각 방법",
-    "금융자산의 기대신용손실 측정",
-    "수행의무 식별과 거래가격 배분",
-    "사용권자산과 리스부채의 최초 측정",
-    "연결재무제표 작성 시 지배력 판단 기준",
+    "원가모형과 재평가모형의 차이",
+    "유형자산 제거 시 손익 처리",
 ]
-
-
-
-def get_parent_heading(client: QdrantClient, parent_id: str) -> str:
-    """parent_id로 Parent 컬렉션에서 heading_text 조회"""
-    pid = chunk_id_to_int(parent_id)
-    try:
-        points = client.retrieve(
-            collection_name=PARENT_COLLECTION,
-            ids=[pid],
-            with_payload=True,
-        )
-        if points:
-            return points[0].payload.get("heading_text", "(없음)")
-    except Exception:
-        pass
-    return "(조회 실패)"
 
 
 def main():
     print(f"[Model] Upstage {MODEL_NAME} 초기화 중...")
-    import os
     embeddings = UpstageEmbeddings(
         model=MODEL_NAME,
         upstage_api_key=os.getenv("UPSTAGE_API_KEY"),
@@ -60,25 +40,28 @@ def main():
         print(f"쿼리: {q}")
         print(f"{'='*60}")
 
-        q_vec = embeddings.embed_query(q)
-        results = client.query_points(
-            collection_name=CHILD_COLLECTION,
-            query=q_vec,
-            limit=TOP_K,
-            with_payload=True,
-        ).points
+        groups = search_with_parent(client, embeddings, q, top_k=TOP_K)
 
-        for i, hit in enumerate(results, 1):
-            p = hit.payload
-            parent_heading = get_parent_heading(client, p.get("parent_id", ""))
-            content_preview = p.get("content", "")[:100].replace("\n", " ")
+        for g in groups:
+            for mc in g["matched_children"]:
+                content_preview = mc["content"][:150].replace("\n", " ")
+                print(f"\n  Child Hit: 문단 {mc['para_number']} (score: {mc['score']:.4f})")
+                print(f"  Parent: {g['heading']}")
+                print(f"  Content: {content_preview}")
 
-            print(f"\n  [{i}] score={hit.score:.4f}")
-            print(f"      chunk_id: {p.get('chunk_id')}")
-            print(f"      para_number: {p.get('para_number')}")
-            print(f"      section_type: {p.get('section_type')}")
-            print(f"      parent heading: {parent_heading}")
-            print(f"      content: {content_preview}...")
+            siblings = g["siblings"]
+            matched_ids = {mc["chunk_id"] for mc in g["matched_children"]}
+            other_siblings = [s for s in siblings if s["chunk_id"] not in matched_ids]
+
+            if other_siblings:
+                print(f"  --- Siblings ({len(other_siblings)}건) ---")
+                for s in other_siblings:
+                    preview = s["content"][:80].replace("\n", " ")
+                    print(f"    문단 {s['para_number']}: {preview}")
+            else:
+                print(f"  --- Siblings: 형제 없음 (단독 문단) ---")
+
+            print(f"  ---")
 
         print()
 

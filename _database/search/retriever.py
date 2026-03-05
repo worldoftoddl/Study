@@ -6,14 +6,16 @@ Hybrid 검색 파이프라인에서 공유하는 retriever/loader/tokenizer 모�
 import json
 import glob
 import os
+import re
 
 from langchain_core.documents import Document
 from langchain_core.callbacks import CallbackManagerForRetrieverRun
 from langchain_core.retrievers import BaseRetriever
 from langchain_upstage import UpstageEmbeddings
 from qdrant_client import QdrantClient
+from qdrant_client.models import Filter, FieldCondition, MatchValue
 
-from search.config import CHILD_COLLECTION
+from search.config import CHILD_COLLECTION, PARENT_COLLECTION, chunk_id_to_int
 
 # ── kiwipiepy 토크나이저 (lazy singleton) ──────────────
 _kiwi = None
@@ -100,3 +102,105 @@ def load_child_documents(chunks_dir: str) -> list[Document]:
                 },
             ))
     return docs
+
+
+# ── 자연 정렬 키 ─────────────────────────────────────
+def _natsort_key(s: str | None) -> list:
+    """'BC16A' → ['', 16, 'A'] 형태로 분리하여 자연 정렬."""
+    if not s:
+        return []
+    return [int(t) if t.isdigit() else t for t in re.split(r'(\d+)', s)]
+
+
+# ── Parent-Child 통합 검색 ────────────────────────────
+def fetch_siblings(client: QdrantClient, parent_id: str) -> list[dict]:
+    """parent_id로 같은 Parent 아래 모든 Child를 조회 (para_number 순 정렬)."""
+    points, _ = client.scroll(
+        collection_name=CHILD_COLLECTION,
+        scroll_filter=Filter(must=[
+            FieldCondition(key="parent_id", match=MatchValue(value=parent_id))
+        ]),
+        limit=50,
+        with_payload=True,
+    )
+    siblings = [
+        {
+            "chunk_id": p.payload.get("chunk_id", ""),
+            "para_number": p.payload.get("para_number"),
+            "content": p.payload.get("content", ""),
+        }
+        for p in points
+    ]
+    siblings.sort(key=lambda x: _natsort_key(x["para_number"] or ""))
+    return siblings
+
+
+def _fetch_parent_heading(client: QdrantClient, parent_id: str) -> str:
+    """parent_id로 Parent 컬렉션에서 heading_text 조회."""
+    pid = chunk_id_to_int(parent_id)
+    try:
+        points = client.retrieve(
+            collection_name=PARENT_COLLECTION,
+            ids=[pid],
+            with_payload=True,
+        )
+        if points:
+            return points[0].payload.get("heading_text", "(없음)")
+    except Exception:
+        pass
+    return "(조회 실패)"
+
+
+def search_with_parent(
+    client: QdrantClient,
+    embeddings: UpstageEmbeddings,
+    query: str,
+    top_k: int = 5,
+) -> list[dict]:
+    """Child 검색 → Parent heading 조회 → 형제 Child 묶기.
+
+    Returns:
+        list of {
+            "parent_id", "heading",
+            "matched_children": [ { chunk_id, para_number, content, score } ],
+            "siblings": [ { chunk_id, para_number, content }, ... ]
+        }
+    """
+    q_vec = embeddings.embed_query(query)
+    results = client.query_points(
+        collection_name=CHILD_COLLECTION,
+        query=q_vec,
+        limit=top_k,
+        with_payload=True,
+    ).points
+
+    seen_parents: dict[str, dict] = {}
+    output = []
+
+    for hit in results:
+        p = hit.payload
+        parent_id = p.get("parent_id", "")
+        matched = {
+            "chunk_id": p.get("chunk_id", ""),
+            "para_number": p.get("para_number"),
+            "content": p.get("content", ""),
+            "score": hit.score,
+        }
+
+        if parent_id in seen_parents:
+            seen_parents[parent_id]["matched_children"].append(matched)
+            continue
+
+        heading = _fetch_parent_heading(client, parent_id)
+        siblings = fetch_siblings(client, parent_id)
+
+        entry = {
+            "parent_id": parent_id,
+            "heading": heading,
+            "matched_children": [matched],
+            "siblings": siblings,
+        }
+        seen_parents[parent_id] = entry
+        output.append(entry)
+
+    return output
