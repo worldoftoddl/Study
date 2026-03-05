@@ -5,28 +5,21 @@ K-IFRS 검색 테스트: Dense / BM25 / Hybrid (BM25 0.4 + Dense 0.6)
 - Hybrid: EnsembleRetriever
 """
 
-import json
-import glob
 import os
 import time
 
 from dotenv import load_dotenv
-from kiwipiepy import Kiwi
 from langchain_core.documents import Document
 from langchain_community.retrievers import BM25Retriever
 from langchain_classic.retrievers import EnsembleRetriever
-from langchain_core.callbacks import CallbackManagerForRetrieverRun
-from langchain_core.retrievers import BaseRetriever
 from langchain_upstage import UpstageEmbeddings
 from qdrant_client import QdrantClient
 
+from search.config import QDRANT_PATH, CHUNKS_DIR, CHILD_COLLECTION, MODEL_NAME
+from search.retriever import QdrantDenseRetriever, load_child_documents, kiwi_tokenize
+
 load_dotenv()
 
-# ── 설정 ──────────────────────────────────────────────
-QDRANT_PATH = "./qdrant_storage"
-CHUNKS_DIR = "./output/chunks"
-CHILD_COLLECTION = "kifrs_chunks"
-MODEL_NAME = "solar-embedding-1-large"
 TOP_K = 5
 
 QUERIES = [
@@ -36,86 +29,6 @@ QUERIES = [
     "사용권자산과 리스부채의 최초 측정",
     "연결재무제표 작성 시 지배력 판단 기준",
 ]
-
-# ── kiwipiepy 토크나이저 ──────────────────────────────
-kiwi = Kiwi()
-ALLOWED_TAGS = {"NNG", "NNP", "VV", "VA", "SN"}
-
-
-def kiwi_tokenize(text: str) -> list[str]:
-    """kiwipiepy로 형태소 분석 후 NNG, NNP, VV, VA, SN 태그만 추출"""
-    tokens = kiwi.tokenize(text)
-    return [t.form for t in tokens if t.tag in ALLOWED_TAGS]
-
-
-# ── Qdrant Dense Retriever (payload → metadata 직접 매핑) ─
-class QdrantDenseRetriever(BaseRetriever):
-    """QdrantVectorStore의 metadata 누락 문제를 우회하는 커스텀 retriever.
-    payload의 flat 구조를 그대로 Document metadata로 매핑한다."""
-
-    client: QdrantClient
-    embeddings: UpstageEmbeddings
-    collection_name: str = CHILD_COLLECTION
-    k: int = TOP_K
-
-    class Config:
-        arbitrary_types_allowed = True
-
-    def _get_relevant_documents(
-        self, query: str, *, run_manager: CallbackManagerForRetrieverRun
-    ) -> list[Document]:
-        q_vec = self.embeddings.embed_query(query)
-        results = self.client.query_points(
-            collection_name=self.collection_name,
-            query=q_vec,
-            limit=self.k,
-            with_payload=True,
-        ).points
-
-        docs = []
-        for hit in results:
-            p = hit.payload
-            docs.append(Document(
-                page_content=p.get("content", ""),
-                metadata={
-                    "chunk_id": p.get("chunk_id", ""),
-                    "parent_id": p.get("parent_id", ""),
-                    "standard_id": p.get("standard_id", ""),
-                    "section_type": p.get("section_type", ""),
-                    "para_number": p.get("para_number"),
-                    "cross_refs": p.get("cross_refs", []),
-                    "has_table": p.get("has_table", False),
-                    "has_example": p.get("has_example", False),
-                },
-            ))
-        return docs
-
-
-# ── JSON → LangChain Document 변환 ───────────────────
-def load_child_documents(chunks_dir: str) -> list[Document]:
-    """output/chunks/*.json에서 child 청크를 LangChain Document로 변환"""
-    docs = []
-    files = sorted(glob.glob(os.path.join(chunks_dir, "*.json")))
-    for fpath in files:
-        with open(fpath, "r", encoding="utf-8") as f:
-            data = json.load(f)
-        standard_id = data.get("standard_id", "")
-        for c in data.get("children", []):
-            meta = c.get("metadata", {})
-            docs.append(Document(
-                page_content=c["content"],
-                metadata={
-                    "chunk_id": c["chunk_id"],
-                    "parent_id": c.get("parent_id", ""),
-                    "standard_id": meta.get("standard_id", standard_id),
-                    "section_type": meta.get("section_type", ""),
-                    "para_number": meta.get("para_number"),
-                    "cross_refs": meta.get("cross_refs", []),
-                    "has_table": meta.get("has_table", False),
-                    "has_example": meta.get("has_example", False),
-                },
-            ))
-    return docs
 
 
 def print_result(rank: int, score, doc_or_payload, is_document=False):

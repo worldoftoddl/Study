@@ -7,12 +7,13 @@ from dotenv import load_dotenv
 from langchain_upstage import UpstageEmbeddings
 from qdrant_client import QdrantClient
 
+from search.config import (
+    QDRANT_PATH, CHILD_COLLECTION, PARENT_COLLECTION, MODEL_NAME,
+    chunk_id_to_int,
+)
+
 load_dotenv()
 
-QDRANT_PATH = "./qdrant_storage"
-CHILD_COLLECTION = "kifrs_chunks"
-PARENT_COLLECTION = "kifrs_parents"
-MODEL_NAME = "solar-embedding-1-large"
 TOP_K = 5
 
 QUERIES = [
@@ -23,11 +24,6 @@ QUERIES = [
     "연결재무제표 작성 시 지배력 판단 기준",
 ]
 
-
-def chunk_id_to_int(chunk_id: str) -> int:
-    import hashlib
-    h = hashlib.md5(chunk_id.encode("utf-8")).hexdigest()
-    return int(h[:15], 16)
 
 
 def get_parent_heading(client: QdrantClient, parent_id: str) -> str:

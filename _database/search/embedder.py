@@ -5,7 +5,6 @@ K-IFRS 청크 임베딩 + Qdrant 적재 스크립트
 """
 
 import json
-import hashlib
 import glob
 import os
 import time
@@ -19,23 +18,16 @@ from qdrant_client.models import (
 )
 from tqdm import tqdm
 
+from search.config import (
+    CHUNKS_DIR, QDRANT_PATH, CHILD_COLLECTION, PARENT_COLLECTION,
+    MODEL_NAME, VECTOR_SIZE, chunk_id_to_int,
+)
+
 load_dotenv()
 
-# ── 설정 ──────────────────────────────────────────────
-CHUNKS_DIR = "output/chunks"
-QDRANT_PATH = "./qdrant_storage"
-CHILD_COLLECTION = "kifrs_chunks"
-PARENT_COLLECTION = "kifrs_parents"
-VECTOR_SIZE = 4096
+# ── embedder 전용 설정 ────────────────────────────────
 BATCH_SIZE = 8  # API rate limit 고려
-MODEL_NAME = "solar-embedding-1-large"
 MAX_CHARS = 4000  # solar-embedding-1-large 최대 4000 토큰, 한글+테이블 고려 보수적 설정
-
-
-def chunk_id_to_int(chunk_id: str) -> int:
-    """chunk_id 문자열을 안정적인 양의 정수 ID로 변환"""
-    h = hashlib.md5(chunk_id.encode("utf-8")).hexdigest()
-    return int(h[:15], 16)  # 60-bit 정수
 
 
 def load_json_files(chunks_dir: str):
