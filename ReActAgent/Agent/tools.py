@@ -101,7 +101,7 @@ def _get_qdrant_resources():
     if _qdrant_client is None:
         from qdrant_client import QdrantClient
         from langchain_upstage import UpstageEmbeddings
-        from search.config import QDRANT_PATH, MODEL_NAME
+        from search.config import MODEL_NAME
 
         qdrant_path = os.path.join(os.path.abspath(DATABASE_DIR), "qdrant_storage")
         _qdrant_client = QdrantClient(path=qdrant_path)
