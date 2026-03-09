@@ -1,17 +1,18 @@
+import atexit
+import logging
 import os
 import sys
-import glob
 from typing import Literal
 from langchain_core.tools import tool
 from tavily import TavilyClient
 
+logger = logging.getLogger(__name__)
+
 
 tavily_client = TavilyClient()
 
-SKILLS_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "skills")
-
 # _database/search 모듈 임포트를 위한 경로 추가
-DATABASE_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "..", "_database")
+DATABASE_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "_database")
 sys.path.insert(0, os.path.abspath(DATABASE_DIR))
 
 
@@ -47,83 +48,143 @@ def calculator(expression: str) -> str:
         return f"계산 오류: {e}"
 
 
-def load_skills() -> list[dict]:
-    """skills/ 디렉토리에서 모든 SKILL.md 파일을 읽어 반환합니다."""
-    skills = []
-    pattern = os.path.join(SKILLS_DIR, "**", "SKILL.md")
-    for path in glob.glob(pattern, recursive=True):
-        skill_name = os.path.basename(os.path.dirname(path))
-        with open(path, "r", encoding="utf-8") as f:
-            content = f.read()
-        skills.append({"name": skill_name, "content": content, "path": path})
-    return skills
-
-
-@tool
-def list_skills() -> str:
-    """사용 가능한 스킬 목록을 보여줍니다."""
-    skills = load_skills()
-    if not skills:
-        return "등록된 스킬이 없습니다."
-    output = "사용 가능한 스킬:\n"
-    for s in skills:
-        # SKILL.md에서 description 라인 추출
-        lines = s["content"].split("\n")
-        desc = ""
-        for line in lines:
-            if line.startswith("description:"):
-                desc = line.split(":", 1)[1].strip()
-                break
-        output += f"- **{s['name']}**: {desc}\n"
-    return output
-
-
-@tool
-def get_skill(skill_name: str) -> str:
-    """특정 스킬의 상세 내용을 가져옵니다. 스킬의 지침에 따라 작업을 수행할 때 사용하세요."""
-    skills = load_skills()
-    for s in skills:
-        if s["name"] == skill_name:
-            return s["content"]
-    available = [s["name"] for s in skills]
-    return f"'{skill_name}' 스킬을 찾을 수 없습니다. 사용 가능: {available}"
-
-
 # ── K-IFRS Qdrant 검색 도구 ──
 
-_qdrant_client = None
-_qdrant_embeddings = None
+from qdrant_client import QdrantClient
+from langchain_upstage import UpstageEmbeddings
+from search.config import MODEL_NAME
+
+_qdrant_path = os.path.join(os.path.abspath(DATABASE_DIR), "qdrant_storage")
+qdrant_client_shared = QdrantClient(path=_qdrant_path)
+qdrant_embeddings_shared = UpstageEmbeddings(
+    model=MODEL_NAME,
+    upstage_api_key=os.getenv("UPSTAGE_API_KEY"),
+)
+atexit.register(lambda: qdrant_client_shared.close())
+
+_reranker = None
+_reranker_initialized = False
+
+RERANK_THRESHOLD = float(os.getenv("RERANK_THRESHOLD", "0.3"))
 
 
-def _get_qdrant_resources():
-    """Qdrant 클라이언트와 임베딩 모델을 lazy 초기화합니다."""
-    global _qdrant_client, _qdrant_embeddings
-    if _qdrant_client is None:
-        from qdrant_client import QdrantClient
-        from langchain_upstage import UpstageEmbeddings
-        from search.config import MODEL_NAME
+def _get_reranker():
+    """Reranker를 lazy 초기화합니다. 로딩 실패 시 None을 반환합니다."""
+    global _reranker, _reranker_initialized
+    if not _reranker_initialized:
+        _reranker_initialized = True
+        try:
+            from search.reranker import get_reranker
+            _reranker = get_reranker()
+            logger.info("Reranker 로딩 완료: %s", type(_reranker).__name__)
+        except Exception as e:
+            logger.warning("Reranker 로딩 실패, dense 검색으로 fallback: %s", e)
+            _reranker = None
+    return _reranker
 
-        qdrant_path = os.path.join(os.path.abspath(DATABASE_DIR), "qdrant_storage")
-        _qdrant_client = QdrantClient(path=qdrant_path)
-        _qdrant_embeddings = UpstageEmbeddings(
-            model=MODEL_NAME,
-            upstage_api_key=os.getenv("UPSTAGE_API_KEY"),
-        )
-    return _qdrant_client, _qdrant_embeddings
+
+def _rerank_groups(query: str, groups: list[dict], top_k: int) -> list[dict]:
+    """search_with_parent 결과를 reranker로 재정렬합니다."""
+    from langchain_core.documents import Document
+
+    reranker = _get_reranker()
+    if reranker is None:
+        return groups
+
+    # 모든 matched_children을 flat 리스트로 추출
+    all_children = []
+    for g in groups:
+        for mc in g["matched_children"]:
+            all_children.append({
+                "parent_id": g["parent_id"],
+                "heading": g["heading"],
+                "siblings": g["siblings"],
+                **mc,
+            })
+
+    if not all_children:
+        return groups
+
+    # rerank
+    docs = [Document(page_content=c["content"]) for c in all_children]
+    reranked_docs = reranker.rerank(query, docs, top_n=len(docs))
+
+    # threshold 필터링 및 parent 그룹 재구성
+    reranked_groups: dict[str, dict] = {}
+    for doc in reranked_docs:
+        rerank_score = doc.metadata.get("rerank_score", 0)
+        if rerank_score < RERANK_THRESHOLD:
+            continue
+
+        # 원본 child 찾기 (content 매칭)
+        matched = None
+        for c in all_children:
+            if c["content"] == doc.page_content:
+                matched = c
+                break
+        if matched is None:
+            continue
+
+        parent_id = matched["parent_id"]
+        child_entry = {
+            "chunk_id": matched["chunk_id"],
+            "para_number": matched["para_number"],
+            "content": matched["content"],
+            "rerank_score": rerank_score,
+        }
+
+        if parent_id in reranked_groups:
+            reranked_groups[parent_id]["matched_children"].append(child_entry)
+        else:
+            reranked_groups[parent_id] = {
+                "parent_id": parent_id,
+                "heading": matched["heading"],
+                "matched_children": [child_entry],
+                "siblings": matched["siblings"],
+            }
+
+    # 그룹 내 child 최고 rerank_score 기준 내림차순 정렬
+    result = list(reranked_groups.values())
+    result.sort(
+        key=lambda g: max(c["rerank_score"] for c in g["matched_children"]),
+        reverse=True,
+    )
+    return result[:top_k]
 
 
 @tool
-def kifrs_search(query: str, top_k: int = 5) -> str:
+def kifrs_search(query: str, top_k: int = 5, standard_id: str | None = None) -> str:
     """K-IFRS(한국채택국제회계기준) 기준서를 검색합니다.
     회계 기준, 재무제표, 자산/부채/수익/비용 관련 질문에 사용하세요.
-    Parent-Child 계층 검색으로 관련 문단과 형제 문단을 함께 반환합니다."""
+    Parent-Child 계층 검색으로 관련 문단과 형제 문단을 함께 반환합니다.
+    standard_id를 지정하면 특정 기준서만 검색합니다 (예: '1115', '1037')."""
+    from qdrant_client.models import Filter, FieldCondition, MatchValue
     from search.retriever import search_with_parent
 
-    client, embeddings = _get_qdrant_resources()
-    groups = search_with_parent(client, embeddings, query, top_k=top_k)
+    query_filter = None
+    if standard_id:
+        query_filter = Filter(must=[
+            FieldCondition(key="standard_id", match=MatchValue(value=standard_id))
+        ])
+
+    # reranker에 충분한 후보를 확보하기 위해 top_k * 3으로 검색
+    fetch_k = top_k * 3 if _get_reranker() is not None else top_k
+    groups = search_with_parent(
+        qdrant_client_shared, qdrant_embeddings_shared, query,
+        top_k=fetch_k, query_filter=query_filter,
+    )
 
     if not groups:
         return "K-IFRS 기준서에서 관련 내용을 찾지 못했습니다."
+
+    # reranker 적용 (실패 시 dense 결과로 fallback)
+    use_rerank = _get_reranker() is not None
+    if use_rerank:
+        try:
+            groups = _rerank_groups(query, groups, top_k)
+        except Exception as e:
+            logger.warning("Rerank 실패, dense 결과로 fallback: %s", e)
+            use_rerank = False
 
     output = []
     for g_idx, g in enumerate(groups, 1):
@@ -133,8 +194,12 @@ def kifrs_search(query: str, top_k: int = 5) -> str:
         # 매칭된 Child 문단
         for mc in g["matched_children"]:
             para = mc.get("para_number", "?")
-            score = mc.get("score", 0)
-            output.append(f"  (문단 {para}, score={score:.4f})")
+            if use_rerank:
+                score = mc.get("rerank_score", 0)
+                output.append(f"  (문단 {para}, rerank={score:.4f})")
+            else:
+                score = mc.get("score", 0)
+                output.append(f"  (문단 {para}, score={score:.4f})")
             output.append(f"  {mc['content']}\n")
 
         # 형제 문단 (매칭된 것 제외, 맥락 제공)
@@ -151,4 +216,4 @@ def kifrs_search(query: str, top_k: int = 5) -> str:
     return "\n".join(output)
 
 
-ALL_TOOLS = [web_search, calculator, list_skills, get_skill, kifrs_search]
+ALL_TOOLS = [web_search, calculator, kifrs_search]
