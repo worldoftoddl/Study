@@ -5,3 +5,4 @@ qdrant_storage/
 qdrant_storage.7z
 *.pkl
 bm25_cache_meta.json
+.venv/
