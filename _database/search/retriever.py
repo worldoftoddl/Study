@@ -13,9 +13,38 @@ from langchain_core.callbacks import CallbackManagerForRetrieverRun
 from langchain_core.retrievers import BaseRetriever
 from langchain_upstage import UpstageEmbeddings
 from qdrant_client import QdrantClient
-from qdrant_client.models import Filter, FieldCondition, MatchValue
+from qdrant_client.models import Filter, FieldCondition, MatchValue, MatchAny
 
 from search.config import CHILD_COLLECTION, PARENT_COLLECTION, chunk_id_to_int
+
+# ── 권위수준 필터 프리셋 ─────────────────────────────
+AUTHORITY_FILTERS = {
+    "normative": Filter(must=[
+        FieldCondition(
+            key="section_type",
+            match=MatchAny(any=["main", "ag"]),
+        )
+    ]),
+    "bc_only": Filter(must=[
+        FieldCondition(key="section_type", match=MatchValue(value="bc"))
+    ]),
+    "ie_only": Filter(must=[
+        FieldCondition(key="section_type", match=MatchValue(value="ie"))
+    ]),
+}
+
+
+def get_authority_filter(mode: str) -> Filter | None:
+    """권위수준 필터 모드에 따라 Qdrant Filter를 반환한다.
+
+    Args:
+        mode: "normative" | "full" | "bc_only" | "ie_only"
+    Returns:
+        Filter 또는 None ("full"인 경우).
+    """
+    if mode == "full":
+        return None
+    return AUTHORITY_FILTERS.get(mode)
 
 # ── kiwipiepy 토크나이저 (lazy singleton) ──────────────
 _kiwi = None
@@ -38,12 +67,17 @@ def kiwi_tokenize(text: str) -> list[str]:
 
 # ── QdrantDenseRetriever ──────────────────────────────
 class QdrantDenseRetriever(BaseRetriever):
-    """Qdrant payload의 flat 구조를 Document metadata로 직접 매핑하는 retriever."""
+    """Qdrant payload의 flat 구조를 Document metadata로 직접 매핑하는 retriever.
+
+    query_filter를 설정하면 벡터 검색 시 Qdrant 필터가 적용된다.
+    get_authority_filter()와 함께 사용하여 권위수준 기반 필터링이 가능하다.
+    """
 
     client: QdrantClient
     embeddings: UpstageEmbeddings
     collection_name: str = CHILD_COLLECTION
     k: int = 5
+    query_filter: Filter | None = None
 
     class Config:
         arbitrary_types_allowed = True
@@ -55,6 +89,7 @@ class QdrantDenseRetriever(BaseRetriever):
         results = self.client.query_points(
             collection_name=self.collection_name,
             query=q_vec,
+            query_filter=self.query_filter,
             limit=self.k,
             with_payload=True,
         ).points
@@ -156,8 +191,12 @@ def search_with_parent(
     embeddings: UpstageEmbeddings,
     query: str,
     top_k: int = 5,
+    query_filter: Filter | None = None,
 ) -> list[dict]:
     """Child 검색 → Parent heading 조회 → 형제 Child 묶기.
+
+    Args:
+        query_filter: 선택적 Qdrant 필터 (get_authority_filter()로 생성).
 
     Returns:
         list of {
@@ -170,6 +209,7 @@ def search_with_parent(
     results = client.query_points(
         collection_name=CHILD_COLLECTION,
         query=q_vec,
+        query_filter=query_filter,
         limit=top_k,
         with_payload=True,
     ).points
