@@ -141,6 +141,45 @@ def embed_and_upsert_children(client: QdrantClient, embeddings: UpstageEmbedding
     print(f"[Children] {len(points)}개 적재 완료")
 
 
+def update_payloads():
+    """벡터 변경 없이 cross_refs, referenced_standards payload만 갱신."""
+    _, children = load_json_files(CHUNKS_DIR)
+    print(f"[JSON] child 청크 {len(children)}개 로드")
+
+    client = QdrantClient(path=QDRANT_PATH)
+    child_count = client.count(CHILD_COLLECTION).count
+    print(f"[Qdrant] 기존 child 포인트: {child_count}개")
+
+    updated = 0
+    for c in tqdm(children, desc="Payload 갱신"):
+        meta = c.get("metadata", {})
+        point_id = chunk_id_to_int(c["chunk_id"])
+        client.set_payload(
+            collection_name=CHILD_COLLECTION,
+            payload={
+                "cross_refs": meta.get("cross_refs", []),
+                "referenced_standards": meta.get("referenced_standards", []),
+            },
+            points=[point_id],
+        )
+        updated += 1
+
+    print(f"\n[완료] {updated}개 포인트 payload 갱신")
+
+    # 검증: 샘플 확인
+    sample_pts, _ = client.scroll(CHILD_COLLECTION, limit=5, with_payload=True)
+    has_refs = sum(1 for pt in sample_pts if pt.payload.get("cross_refs"))
+    print(f"[검증] 샘플 5개 중 cross_refs 있는 포인트: {has_refs}개")
+
+    # 샘플 포인트 상세 출력
+    for pt in sample_pts[:2]:
+        p = pt.payload
+        print(f"  - {p.get('chunk_id')}: cross_refs={p.get('cross_refs')}, "
+              f"referenced_standards={p.get('referenced_standards')}")
+
+    client.close()
+
+
 def main():
     # 1. JSON 로드
     parents, children = load_json_files(CHUNKS_DIR)
@@ -180,4 +219,8 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    import sys
+    if "--update-payload" in sys.argv:
+        update_payloads()
+    else:
+        main()
