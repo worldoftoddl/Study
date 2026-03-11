@@ -61,22 +61,44 @@
 - 기존 21개 chunk_id 모두 불변 확인 완료
 - `search/terms_resolver.py`, `search/standards_expander.py` 변경 불필요 (스키마 동일)
 
+### 5. 파이프라인 오케스트레이션 통합 (노트북)
+- `rag_pipeline_test.ipynb`의 `run_pipeline()` 함수에 `enable_expansion` 파라미터 추가
+- Stage 7로 Standards Expansion 통합:
+  - 7a: 순방향 — `expand_referenced_standards()` (참조 기준서 용어정의 fetch, max 5)
+  - 7b: 역방향 — `reverse_lookup_chunks()` (나를 참조하는 청크, query_vector 기반 정렬, max 5)
+  - 7c: 그래프 — `graph_expand()` (1-hop 확장, max 3)
+- `plan.expand_standards` 플래그에 따라 자동 활성화/비활성화
+- import에 `expand_referenced_standards, reverse_lookup_chunks, graph_expand` 추가
+
+### 6. Qdrant payload 인덱스 CLI 추가
+- `search/embedder.py`에 `create_payload_indexes()` 함수 추가
+- `--create-index` CLI 옵션으로 실행 가능
+- `referenced_standards` 필드에 keyword 인덱스 생성 (역방향 검색 성능 최적화)
+- **상태**: 코드 작성 완료, 아직 실행하지 않음 (uncommitted)
+
+### 7. A/B 평가 프레임워크 작성
+- `rag_pipeline_test.ipynb`에 Section 11 추가: Baseline vs Standards Expansion A/B 비교
+- `run_eval_suite()` 헬퍼: 22개 테스트 케이스 일괄 실행 (enable_expansion 토글)
+- Per-case 비교 테이블 (DRM, Auth, MRR, #docs) + Summary 출력
+- **상태**: 코드 작성 완료, 아직 실행하지 않음 (uncommitted)
+
 ---
 
 ## 다음 작업
 
-### 1. 파이프라인 오케스트레이션 통합
-- 현재 각 모듈이 독립적으로 동작. 노트북/에이전트에서의 통합 호출 패턴 정리
-- `plan.expand_standards` 플래그 기반 자동 호출 로직을 단일 함수로 래핑
-- 예: `search_with_expansion(query, client, embeddings)` 편의 함수
+### 1. Qdrant payload 인덱스 실행
+- `python3 -m search.embedder --create-index` 실행하여 `referenced_standards` keyword 인덱스 생성
+- 역방향 검색(`reverse_lookup_chunks`) 성능 최적화
 
-### 2. Qdrant payload 인덱스 생성
-- `referenced_standards` 필드에 keyword 인덱스 생성 (역방향 검색 성능 최적화)
-- `client.create_payload_index(CHILD_COLLECTION, "referenced_standards", PayloadSchemaType.KEYWORD)`
+### 2. A/B 평가 벤치마크 실행
+- `rag_pipeline_test.ipynb` Section 11 셀 실행
+- Baseline vs Expansion 성능 비교 결과 확인
+- DRM/XRef Coverage/Auth Accuracy/MRR 지표 분석
 
-### 3. 평가 프레임워크 실행
-- tc21, tc22 inter-standard 테스트 케이스 추가 완료
-- 전체 22개 테스트 케이스로 파이프라인 성능 벤치마크 실행
+### 3. 파이프라인 오케스트레이션 모듈화
+- 현재 노트북 `run_pipeline()` 안에 expansion 로직이 인라인으로 작성됨
+- `search/` 패키지 내 독립 함수 (`search_with_expansion()` 등)로 추출 검토
+- 에이전트(LangGraph)에서 직접 호출 가능한 형태로 정리
 
 ---
 
@@ -92,7 +114,7 @@
 - `search/terms_resolver.py` — `inject_term_definitions()` (기준서별 용어정의 주입)
 - `search/standards_graph.py` — **NEW** NetworkX 기준서 참조 그래프 (81노드, 906엣지)
 - `search/standards_expander.py` — **NEW** 순방향/역방향/그래프 확장 검색
-- `search/embedder.py` — Qdrant 적재 + `update_payloads()`
+- `search/embedder.py` — Qdrant 적재 + `update_payloads()` + `create_payload_indexes()`
 
 ### pipeline/ — 문서 처리
 - `pipeline/kifrs_chunker.py` — 청킹 + 교차참조 추출 (`extract_cross_refs`, `extract_referenced_standards`)

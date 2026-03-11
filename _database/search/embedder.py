@@ -180,6 +180,18 @@ def update_payloads():
     client.close()
 
 
+def create_payload_indexes():
+    """referenced_standards 필드에 keyword 인덱스 생성 (역방향 검색 최적화)."""
+    client = QdrantClient(path=QDRANT_PATH)
+    client.create_payload_index(
+        collection_name=CHILD_COLLECTION,
+        field_name="referenced_standards",
+        field_schema=PayloadSchemaType.KEYWORD,
+    )
+    print("[완료] referenced_standards keyword 인덱스 생성")
+    client.close()
+
+
 def main():
     # 1. JSON 로드
     parents, children = load_json_files(CHUNKS_DIR)
@@ -222,5 +234,7 @@ if __name__ == "__main__":
     import sys
     if "--update-payload" in sys.argv:
         update_payloads()
+    elif "--create-index" in sys.argv:
+        create_payload_indexes()
     else:
         main()
