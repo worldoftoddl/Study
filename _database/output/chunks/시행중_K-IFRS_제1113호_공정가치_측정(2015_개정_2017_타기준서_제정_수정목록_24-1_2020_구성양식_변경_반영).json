@@ -435,7 +435,11 @@
         "standard_id": "K-IFRS 1113",
         "section_type": "main",
         "para_number": null,
-        "cross_refs": [],
+        "cross_refs": [
+          "개념체계",
+          "문단1~99",
+          "제1008호"
+        ],
         "has_table": false,
         "has_example": false,
         "sentences": [
@@ -463,6 +467,9 @@
           "위한 근거를 제공하고 있다 .",
           "-",
           "7"
+        ],
+        "referenced_standards": [
+          "1008"
         ]
       }
     },
@@ -476,7 +483,8 @@
         "para_number": "1",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -489,7 +497,8 @@
         "para_number": "2",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -502,7 +511,8 @@
         "para_number": "3",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -515,7 +525,8 @@
         "para_number": "4",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -528,7 +539,8 @@
         "para_number": null,
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -539,9 +551,12 @@
         "standard_id": "K-IFRS 1113",
         "section_type": "main",
         "para_number": "5",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단6"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -552,9 +567,20 @@
         "standard_id": "K-IFRS 1113",
         "section_type": "main",
         "para_number": "6",
-        "cross_refs": [],
+        "cross_refs": [
+          "제1002호",
+          "제1036호",
+          "제1102호",
+          "제1116호"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1002",
+          "1036",
+          "1102",
+          "1116"
+        ]
       }
     },
     {
@@ -565,9 +591,18 @@
         "standard_id": "K-IFRS 1113",
         "section_type": "main",
         "para_number": "7",
-        "cross_refs": [],
+        "cross_refs": [
+          "제1019호",
+          "제1026호",
+          "제1036호"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1019",
+          "1026",
+          "1036"
+        ]
       }
     },
     {
@@ -580,7 +615,8 @@
         "para_number": "8",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -593,7 +629,8 @@
         "para_number": null,
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -606,7 +643,8 @@
         "para_number": "10",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -619,7 +657,8 @@
         "para_number": "12",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -632,7 +671,8 @@
         "para_number": "13",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -645,7 +685,8 @@
         "para_number": "14",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -658,7 +699,8 @@
         "para_number": "17",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -671,7 +713,8 @@
         "para_number": "18",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -684,7 +727,8 @@
         "para_number": "19",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -697,7 +741,8 @@
         "para_number": "20",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -710,7 +755,8 @@
         "para_number": "21",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -723,7 +769,8 @@
         "para_number": "23",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -736,7 +783,8 @@
         "para_number": "25",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -749,7 +797,8 @@
         "para_number": "26",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -782,7 +831,8 @@
           "자수익을 얻기에 충분한 수익이나 현금흐름 ( 자산을 그러한 사",
           "용을 위해 전환하는 데 드는 원가를 고려 ) 을 창출할 수 있는",
           "지를 고려하는 것이다 ."
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -795,7 +845,8 @@
         "para_number": "29",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -808,7 +859,8 @@
         "para_number": "30",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -859,7 +911,8 @@
           "독립적으로 자산을 사용하는 것이라면 자산의 공정가치는 그",
           "자산을 독립적으로 사용할 시장참여자에게 그 자산을 매도하는",
           "현재의 거래에서 받게 될 가격이다 ."
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -872,7 +925,8 @@
         "para_number": "32",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -885,7 +939,8 @@
         "para_number": "33",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -898,7 +953,8 @@
         "para_number": "35",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -911,7 +967,8 @@
         "para_number": "36",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -924,7 +981,8 @@
         "para_number": "38",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -973,7 +1031,8 @@
           "보유하지 않는 경우에는 부채를 부담하거나 자본에 대한 청구권",
           "을 발행한 시장참여자의 관점에서 가치평가기법을 사용하여 부채",
           "또는 지분상품의 공정가치를 측정한다"
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -986,7 +1045,8 @@
         "para_number": "41",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -999,7 +1059,8 @@
         "para_number": "43",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1012,7 +1073,8 @@
         "para_number": "44",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1025,7 +1087,8 @@
         "para_number": "45",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1038,7 +1101,8 @@
         "para_number": "46",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1051,7 +1115,8 @@
         "para_number": "47",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1062,9 +1127,14 @@
         "standard_id": "K-IFRS 1113",
         "section_type": "main",
         "para_number": "48",
-        "cross_refs": [],
+        "cross_refs": [
+          "제1107호"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1107"
+        ]
       }
     },
     {
@@ -1075,9 +1145,15 @@
         "standard_id": "K-IFRS 1113",
         "section_type": "main",
         "para_number": "49",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단48",
+          "제1024호"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1024"
+        ]
       }
     },
     {
@@ -1088,9 +1164,13 @@
         "standard_id": "K-IFRS 1113",
         "section_type": "main",
         "para_number": "50",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단48",
+          "문단53~56"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1101,9 +1181,17 @@
         "standard_id": "K-IFRS 1113",
         "section_type": "main",
         "para_number": "51",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단48",
+          "문단53~55",
+          "문단56",
+          "제1008호"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1008"
+        ]
       }
     },
     {
@@ -1114,9 +1202,19 @@
         "standard_id": "K-IFRS 1113",
         "section_type": "main",
         "para_number": "52",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단48",
+          "문단48∼51",
+          "문단53∼56",
+          "제1039호",
+          "제1109호"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1039",
+          "1109"
+        ]
       }
     },
     {
@@ -1127,9 +1225,14 @@
         "standard_id": "K-IFRS 1113",
         "section_type": "main",
         "para_number": "1032",
-        "cross_refs": [],
+        "cross_refs": [
+          "제1109호"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1109"
+        ]
       }
     },
     {
@@ -1140,9 +1243,14 @@
         "standard_id": "K-IFRS 1113",
         "section_type": "main",
         "para_number": "1109",
-        "cross_refs": [],
+        "cross_refs": [
+          "제1039호"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1039"
+        ]
       }
     },
     {
@@ -1153,9 +1261,12 @@
         "standard_id": "K-IFRS 1113",
         "section_type": "main",
         "para_number": "53",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단70"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1166,9 +1277,12 @@
         "standard_id": "K-IFRS 1113",
         "section_type": "main",
         "para_number": "54",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단48"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1181,7 +1295,8 @@
         "para_number": "55",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1192,9 +1307,12 @@
         "standard_id": "K-IFRS 1113",
         "section_type": "main",
         "para_number": "56",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단48"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1207,7 +1325,8 @@
         "para_number": "57",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1220,7 +1339,8 @@
         "para_number": "58",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1233,7 +1353,8 @@
         "para_number": "59",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1246,7 +1367,8 @@
         "para_number": "60",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1259,7 +1381,8 @@
         "para_number": "62",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1272,7 +1395,8 @@
         "para_number": "63",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1285,7 +1409,8 @@
         "para_number": "64",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1298,7 +1423,8 @@
         "para_number": "65",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1309,9 +1435,14 @@
         "standard_id": "K-IFRS 1113",
         "section_type": "main",
         "para_number": "66",
-        "cross_refs": [],
+        "cross_refs": [
+          "제1008호"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1008"
+        ]
       }
     },
     {
@@ -1324,7 +1455,8 @@
         "para_number": "68",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1335,7 +1467,12 @@
         "standard_id": "K-IFRS 1113",
         "section_type": "main",
         "para_number": "69",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단11",
+          "문단13",
+          "문단79",
+          "문단80"
+        ],
         "has_table": false,
         "has_example": false,
         "sentences": [
@@ -1358,7 +1495,8 @@
           "밝히고 있는 경우를 제외하고 공정가치를 측정할 때 그 가격을",
           "조정하지 않고 사용한다 .",
           "매입가격과 매도 가격에 근거한 투입변수"
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -1369,9 +1507,12 @@
         "standard_id": "K-IFRS 1113",
         "section_type": "main",
         "para_number": "70",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단72~90"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1384,7 +1525,8 @@
         "para_number": "71",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1397,7 +1539,8 @@
         "para_number": "72",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1410,7 +1553,8 @@
         "para_number": "73",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1421,9 +1565,12 @@
         "standard_id": "K-IFRS 1113",
         "section_type": "main",
         "para_number": "74",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단61"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1436,7 +1583,8 @@
         "para_number": "75",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1449,7 +1597,8 @@
         "para_number": "76",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1460,9 +1609,12 @@
         "standard_id": "K-IFRS 1113",
         "section_type": "main",
         "para_number": "77",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단79"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1475,7 +1627,8 @@
         "para_number": "78",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1486,7 +1639,9 @@
         "standard_id": "K-IFRS 1113",
         "section_type": "main",
         "para_number": "79",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단39"
+        ],
         "has_table": false,
         "has_example": false,
         "sentences": [
@@ -1528,7 +1683,8 @@
           "로 분류한다 .",
           "그러나 자산의 공시가격을 조정한다면 공정가치",
           "측정치를 공정가치 서열체계 내의 더 낮은 수준으로 분류한다 ."
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -1541,7 +1697,8 @@
         "para_number": "80",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1554,7 +1711,8 @@
         "para_number": "81",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1567,7 +1725,8 @@
         "para_number": "82",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1578,9 +1737,12 @@
         "standard_id": "K-IFRS 1113",
         "section_type": "main",
         "para_number": "83",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단39"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1593,7 +1755,8 @@
         "para_number": "84",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1606,7 +1769,8 @@
         "para_number": "85",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1619,7 +1783,8 @@
         "para_number": "87",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1632,7 +1797,8 @@
         "para_number": "88",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1645,7 +1811,8 @@
         "para_number": "89",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1658,7 +1825,8 @@
         "para_number": "90",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1671,7 +1839,8 @@
         "para_number": null,
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1682,9 +1851,12 @@
         "standard_id": "K-IFRS 1113",
         "section_type": "main",
         "para_number": "92",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단91"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1695,7 +1867,12 @@
         "standard_id": "K-IFRS 1113",
         "section_type": "main",
         "para_number": "93",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단91",
+          "문단94",
+          "문단95",
+          "제1105호"
+        ],
         "has_table": false,
         "has_example": false,
         "sentences": [
@@ -1738,6 +1915,9 @@
           "경이나 추가적인 가치평가기법의 사용 ) 이 있었다면 이러한 변",
           "경사실과 그 이유 ( 들 ) 를 공시한다 .",
           "공정가치 서열체계의 수준"
+        ],
+        "referenced_standards": [
+          "1105"
         ]
       }
     },
@@ -1749,7 +1929,9 @@
         "standard_id": "K-IFRS 1113",
         "section_type": "main",
         "para_number": "3",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단95"
+        ],
         "has_table": false,
         "has_example": false,
         "sentences": [
@@ -1831,7 +2013,8 @@
           "경우에, 비금융자산의 최고 최선의 사용이 현재의 사용과 다르",
           "다면, 그러한 사실과 비금융자산을 최고 최선의 사용과 다른",
           "방식으로 사용하는 이유를 공시한다 ."
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -1844,7 +2027,8 @@
         "para_number": "94",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1855,9 +2039,12 @@
         "standard_id": "K-IFRS 1113",
         "section_type": "main",
         "para_number": "95",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단93"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1868,9 +2055,12 @@
         "standard_id": "K-IFRS 1113",
         "section_type": "main",
         "para_number": "96",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단48"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1881,9 +2071,12 @@
         "standard_id": "K-IFRS 1113",
         "section_type": "main",
         "para_number": "97",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단93"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1896,7 +2089,8 @@
         "para_number": "98",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1909,7 +2103,8 @@
         "para_number": "99",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1920,7 +2115,10 @@
         "standard_id": "K-IFRS 1113",
         "section_type": "main",
         "para_number": null,
-        "cross_refs": [],
+        "cross_refs": [
+          "제1024호",
+          "제1105호"
+        ],
         "has_table": false,
         "has_example": false,
         "sentences": [
@@ -1999,6 +2197,10 @@
           "활성시장 지속적으로 가격결정 정보를 제공하기에 충분할 정도\n의 빈도와 규모로 자산이나 부채를 거래하는 시장",
           "회계단위 자산이나 부채를 인식하기 위해 기준서에서 통합되거\n나 세분화되는 수준",
           "- 43"
+        ],
+        "referenced_standards": [
+          "1024",
+          "1105"
         ]
       }
     },
@@ -2010,9 +2212,12 @@
         "standard_id": "K-IFRS 1113",
         "section_type": "ag",
         "para_number": null,
-        "cross_refs": [],
+        "cross_refs": [
+          "문단1~99"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2025,7 +2230,8 @@
         "para_number": null,
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2095,7 +2301,8 @@
           "가치평가가 부동산과 관련이 있으며 개량된 자산 ( 자산",
           "집합 ) 의 공정가치를 ( 토지와 개량물과 같은 ) 해당 여러 항목의",
           "자산에 배분해야 하는 경우가 이에 해당할 수 있다 ."
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -2141,7 +2348,8 @@
           "러이지만, 유출 거래를 위한 주된 ( 또는 가장 유리한 ) 시장은",
           "다른 딜러들과 거래를 하는 딜러시장인 경우에는 이러한 시장",
           "은 서로 다를 수 있다 ."
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -2507,7 +2715,8 @@
           "선택은 측정하는 자산이나 부채에 특유한 사실이나 상황, 그리고",
           "충분한 자료를 구할 수 있는 정도와 판단을 적용하는 정도에 따",
           "라 결정될 것이다 ."
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -2560,7 +2769,8 @@
           "예를 들면 의무와 관련된 위험을 부담하는 데에 대한 보",
           "상을 고려하기 위하여 추정한 현금흐름을 늘린다면 그러한 위험",
           "을 반영하기 위하여 할인율을 조정해서는 안 된다 ."
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -2621,7 +2831,8 @@
           "다 .",
           "그러한 거래에 대한 정보는 공개적으로 거의 구할 수 없을",
           "것이다 ."
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -2775,7 +2986,8 @@
           "다 .",
           "다만 이 경우에 시장참여자가 다른 가정을 사용할 것임을",
           "나타내는 합리적으로 구할 수 있는 정보가 없어야 한다 ."
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -2786,7 +2998,9 @@
         "standard_id": "K-IFRS 1113",
         "section_type": "ag",
         "para_number": null,
-        "cross_refs": [],
+        "cross_refs": [
+          "문단61~66"
+        ],
         "has_table": false,
         "has_example": false,
         "sentences": [
@@ -2969,7 +3183,8 @@
           "한 공시가격에 더 많은 비중을 부여한다 .",
           "-",
           "67"
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -2980,7 +3195,11 @@
         "standard_id": "K-IFRS 1113",
         "section_type": "ag",
         "para_number": null,
-        "cross_refs": [],
+        "cross_refs": [
+          "문단52",
+          "제1109호",
+          "제1116호"
+        ],
         "has_table": false,
         "has_example": false,
         "sentences": [
@@ -3014,6 +3233,10 @@
           "적용할 때 적용한다 .",
           "-",
           "68"
+        ],
+        "referenced_standards": [
+          "1109",
+          "1116"
         ]
       }
     },
@@ -3027,7 +3250,8 @@
         "para_number": null,
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -3040,7 +3264,8 @@
         "para_number": null,
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -3055,7 +3280,8 @@
           "IE1"
         ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -3240,7 +3466,8 @@
           "음 ) 에 기초해 측정될 것이다 .",
           "-",
           "77"
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -3399,7 +3626,8 @@
           "될 수 없는 독특한 특성을 가지고 있다 .",
           "기업은 이익접근법에 따",
           "라 소프트웨어 자산의 공정가치는 15 백만원이라고 산정한다 ."
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -3454,7 +3682,8 @@
           "사용하는 가격에서 거래원가를 조정하지는 않는다 (",
           "그러나 운송원",
           "가에 대해서는 조정한다 )."
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -3469,7 +3698,9 @@
           "IE23",
           "IE24",
           "IE25",
-          "IE26"
+          "IE26",
+          "제1039호",
+          "제1109호"
         ],
         "has_table": false,
         "has_example": true,
@@ -3512,6 +3743,10 @@
           "를 최초 인식 시 손익으로 인식할 것인지를 판단하기 위해 기업",
           "회계기준서 제 1039 호 ‘ 금융상품 : 인식과 측정 ’ 또는 기업회계기준서",
           "제 1109 호 ‘ 금융상품 ’ 을 적용한다 ."
+        ],
+        "referenced_standards": [
+          "1039",
+          "1109"
         ]
       }
     },
@@ -3598,7 +3833,8 @@
           "따라서 토지의 공정가치에는 최고 최선의 사용이",
           "운동장인지 또는 주거용 개발 부지인지에 상관없이, 지역권의",
           "영향을 고려할 것이다 ."
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -3883,7 +4119,8 @@
           "C 는 결론 내린다 .",
           "또한 기업 C 는 이 부채를 이전하지 못하도록",
           "하는 제약과 관련하여 현재가치기법을 조정하지 않는다 ."
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -3905,7 +4142,8 @@
           "IE55",
           "IE56",
           "IE57",
-          "IE58"
+          "IE58",
+          "문단67"
         ],
         "has_table": false,
         "has_example": true,
@@ -4053,7 +4291,8 @@
           "영하지 않았다 .",
           "그리고 기업 A 는 그러한 가격을 개발하는 데",
           "사용한 가치평가기법이나 투입변수를 평가할 수 없었다 ."
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -4072,7 +4311,10 @@
           "IE63",
           "IE64",
           "IE65",
-          "IE66"
+          "IE66",
+          "문단92",
+          "문단93",
+          "제1105호"
         ],
         "has_table": false,
         "has_example": true,
@@ -4290,6 +4532,9 @@
           "이와 반대 방향으로 변동한다 .",
           "-",
           "105"
+        ],
+        "referenced_standards": [
+          "1105"
         ]
       }
     },
@@ -4303,7 +4548,8 @@
         "para_number": null,
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -4316,7 +4562,8 @@
         "para_number": null,
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -4329,7 +4576,8 @@
         "para_number": "BC1",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -4342,7 +4590,8 @@
         "para_number": "BC2",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -4355,7 +4604,8 @@
         "para_number": "BC3",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -4368,7 +4618,8 @@
         "para_number": "BC4",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -4381,7 +4632,8 @@
         "para_number": "BC5",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -4394,7 +4646,8 @@
         "para_number": "BC6",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -4410,7 +4663,8 @@
           "BC238"
         ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -4423,7 +4677,10 @@
         "para_number": "BC8",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1041"
+        ]
       }
     },
     {
@@ -4436,7 +4693,8 @@
         "para_number": "BC10",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -4449,7 +4707,8 @@
         "para_number": "BC11",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -4462,7 +4721,8 @@
         "para_number": "BC12",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -4475,7 +4735,8 @@
         "para_number": "BC13",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -4508,7 +4769,8 @@
           "- 115",
           "토의견을 고려하고 필요하다면 US GAAP 의 개정을 제안하는 것",
           "에 동의하였다 ."
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -4521,7 +4783,8 @@
         "para_number": "BC15",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -4558,7 +4821,8 @@
           "외부검토의견을 받았다 .",
           "-",
           "116"
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -4571,7 +4835,8 @@
         "para_number": "BC17",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -4586,7 +4851,8 @@
           "BC177"
         ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -4599,7 +4865,8 @@
         "para_number": "BC19",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -4634,6 +4901,13 @@
           "㈏ IAS 26 에 따라 공정가치로 측정한퇴직급여제도의 투자자산",
           "㈐ IAS 36 에 따라 자산의 회수가능액이 공정가치에서 처분부",
           "대원가를 뺀 금액인 자산"
+        ],
+        "referenced_standards": [
+          "1002",
+          "1019",
+          "1026",
+          "1036",
+          "1102"
         ]
       }
     },
@@ -4668,6 +4942,9 @@
           "준보상거래를 측정하는 것과 관련된 실무에 의도하지 않은 변화",
           "를 야기할 수 있다고 결론짓고 IFRS 13 의 적용범위에서 IFRS 2 를",
           "제외하기로 결정하였다 ."
+        ],
+        "referenced_standards": [
+          "1102"
         ]
       }
     },
@@ -4681,7 +4958,8 @@
         "para_number": "BC22",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -4694,7 +4972,11 @@
         "para_number": "BC23",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1019",
+          "1026"
+        ]
       }
     },
     {
@@ -4706,11 +4988,16 @@
         "section_type": "bc",
         "para_number": "BC24",
         "cross_refs": [
-          "BC218",
-          "BC221"
+          "BC218~BC221"
         ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1002",
+          "1036",
+          "1041",
+          "1105"
+        ]
       }
     },
     {
@@ -4723,7 +5010,12 @@
         "para_number": "BC25",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1039",
+          "1040",
+          "1109"
+        ]
       }
     },
     {
@@ -4738,7 +5030,11 @@
           "BC101"
         ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1039",
+          "1103"
+        ]
       }
     },
     {
@@ -4751,7 +5047,8 @@
         "para_number": "BC27",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -4764,7 +5061,10 @@
         "para_number": "BC28",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1109"
+        ]
       }
     },
     {
@@ -4777,7 +5077,8 @@
         "para_number": "BC29",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -4790,7 +5091,8 @@
         "para_number": "BC30",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -4803,7 +5105,8 @@
         "para_number": "BC31",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -4816,7 +5119,10 @@
         "para_number": "BC32",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1103"
+        ]
       }
     },
     {
@@ -4829,7 +5135,8 @@
         "para_number": "BC33",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -4841,11 +5148,11 @@
         "section_type": "bc",
         "para_number": "BC34",
         "cross_refs": [
-          "BC80",
-          "BC82"
+          "BC80~BC82"
         ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -4858,7 +5165,10 @@
         "para_number": "BC35",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1103"
+        ]
       }
     },
     {
@@ -4871,7 +5181,8 @@
         "para_number": "BC36",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -4884,7 +5195,8 @@
         "para_number": "BC37",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -4896,11 +5208,11 @@
         "section_type": "bc",
         "para_number": "BC38",
         "cross_refs": [
-          "BC41",
-          "BC45"
+          "BC41~BC45"
         ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -4913,7 +5225,8 @@
         "para_number": "BC39",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -4926,7 +5239,8 @@
         "para_number": "BC40",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -4939,7 +5253,8 @@
         "para_number": "BC41",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -4952,7 +5267,8 @@
         "para_number": "BC42",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -4965,7 +5281,8 @@
         "para_number": "BC43",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -4978,7 +5295,8 @@
         "para_number": "BC44",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -4990,11 +5308,11 @@
         "section_type": "bc",
         "para_number": "BC45",
         "cross_refs": [
-          "BC19",
-          "BC26"
+          "BC19~BC26"
         ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -5007,7 +5325,11 @@
         "para_number": "BC46",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1040",
+          "1041"
+        ]
       }
     },
     {
@@ -5020,7 +5342,12 @@
         "para_number": "BC47",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1036",
+          "1039",
+          "1109"
+        ]
       }
     },
     {
@@ -5054,6 +5381,9 @@
           "127",
           "유리한 시장이며 기업이 자산 또는 부채의 주된 시장이 가장 유",
           "리한 시장이라고 볼 수 있다는 가정을 포함하고 있었다 ."
+        ],
+        "referenced_standards": [
+          "1109"
         ]
       }
     },
@@ -5067,7 +5397,8 @@
         "para_number": "BC49",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -5080,7 +5411,8 @@
         "para_number": "BC50",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -5093,7 +5425,8 @@
         "para_number": "BC51",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -5106,7 +5439,8 @@
         "para_number": "BC52",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -5119,7 +5453,8 @@
         "para_number": "BC53",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -5131,11 +5466,11 @@
         "section_type": "bc",
         "para_number": "BC54",
         "cross_refs": [
-          "BC60",
-          "BC62"
+          "BC60~BC62"
         ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -5148,7 +5483,8 @@
         "para_number": "BC55",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -5161,7 +5497,8 @@
         "para_number": "BC56",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -5174,7 +5511,10 @@
         "para_number": "BC57",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1024"
+        ]
       }
     },
     {
@@ -5187,7 +5527,8 @@
         "para_number": "BC58",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -5200,7 +5541,8 @@
         "para_number": "BC59",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -5213,7 +5555,8 @@
         "para_number": "BC60",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -5226,7 +5569,8 @@
         "para_number": "BC61",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -5239,7 +5583,10 @@
         "para_number": "BC62",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1041"
+        ]
       }
     },
     {
@@ -5279,7 +5626,8 @@
           "는 가치평가전문가들 사이에서 개발되었다 .",
           "-",
           "132"
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -5292,7 +5640,8 @@
         "para_number": "BC64",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -5304,11 +5653,11 @@
         "section_type": "bc",
         "para_number": "BC65",
         "cross_refs": [
-          "BC108",
-          "BC131"
+          "BC108~BC131"
         ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -5321,7 +5670,8 @@
         "para_number": "BC66",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -5334,7 +5684,8 @@
         "para_number": "BC67",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -5347,7 +5698,8 @@
         "para_number": "BC68",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -5360,7 +5712,8 @@
         "para_number": "BC69",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -5394,6 +5747,9 @@
           "자산을 공정가치로 인식해야 한다고 결정하였다 .",
           "IFRS 13 은 그러",
           "한 자산의 공정가치 측정에 대한 요구사항을 정한다 ."
+        ],
+        "referenced_standards": [
+          "1103"
         ]
       }
     },
@@ -5407,7 +5763,8 @@
         "para_number": "BC71",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -5443,7 +5800,8 @@
           "이에 따라 공개초안에",
           "서는 자산 집합의 공정가치를 현재 사용에 따른 가치와 공정가치",
           "구성요소로 구분할 것을 제안하였다 ."
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -5459,7 +5817,8 @@
           "BC214"
         ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -5472,7 +5831,8 @@
         "para_number": "BC74",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -5485,7 +5845,10 @@
         "para_number": "BC75",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1036"
+        ]
       }
     },
     {
@@ -5498,7 +5861,8 @@
         "para_number": "BC76",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -5511,7 +5875,10 @@
         "para_number": "BC77",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1103"
+        ]
       }
     },
     {
@@ -5552,7 +5919,8 @@
           "있다고 가정한다 .",
           "-",
           "138"
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -5565,7 +5933,8 @@
         "para_number": "BC79",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -5577,11 +5946,11 @@
         "section_type": "bc",
         "para_number": "BC80",
         "cross_refs": [
-          "BC104",
-          "BC107"
+          "BC104~BC107"
         ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -5594,7 +5963,8 @@
         "para_number": "BC81",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -5639,7 +6009,8 @@
           "위해서는 비슷한 사고의 과정이 필요하다고 결론 내렸다 .",
           "-",
           "140"
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -5652,7 +6023,8 @@
         "para_number": "BC83",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -5665,7 +6037,8 @@
         "para_number": "BC84",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -5678,7 +6051,8 @@
         "para_number": "BC85",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -5691,7 +6065,8 @@
         "para_number": "BC86",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -5704,7 +6079,8 @@
         "para_number": "BC87",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -5717,7 +6093,8 @@
         "para_number": "BC88",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -5730,7 +6107,8 @@
         "para_number": "BC89",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -5743,7 +6121,8 @@
         "para_number": "BC90",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -5787,7 +6166,8 @@
           "의 현재가치에 위험조정치를 부가함 ( 현금흐름을 조정하는 다른 방",
           "식임 ) 으로써 가능할 수 있다 .",
           "불이행위험"
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -5830,6 +6210,10 @@
           "한다.",
           "-",
           "144"
+        ],
+        "referenced_standards": [
+          "1039",
+          "1109"
         ]
       }
     },
@@ -5843,7 +6227,8 @@
         "para_number": "BC93",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -5855,8 +6240,7 @@
         "section_type": "bc",
         "para_number": "BC94",
         "cross_refs": [
-          "BC83",
-          "BC89"
+          "BC83~BC89"
         ],
         "has_table": false,
         "has_example": false,
@@ -5883,7 +6267,8 @@
           "FASB 는 SFAS 157 과 ASU No. 2009-05 ‘ 공정가치 측정 및 공시",
           "(Topic 820): 부채의 공정가치 측정 ' 을 개발하면서 동일한 결론을",
           "내렸다 ."
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -5920,6 +6305,9 @@
           "IASB 는 그러한 우려를 IFRS 9(2010 년 10 월 발표 ) 를 개발하",
           "면서 다루었다 .",
           "제삼자의 신용보강이 포함되어 발행된 부채"
+        ],
+        "referenced_standards": [
+          "1109"
         ]
       }
     },
@@ -5933,7 +6321,8 @@
         "para_number": "BC96",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -5946,7 +6335,8 @@
         "para_number": "BC97",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -5959,7 +6349,8 @@
         "para_number": "BC98",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -5972,7 +6363,8 @@
         "para_number": "BC99",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -6004,7 +6396,8 @@
           "되면 그 밖의 모든 요소가 같을 경우, 통상 제약이 있는 자산의",
           "공정가치는 제약이 없는 자산의 공정가치보다 더 작아지게 된다 .",
           "요구불 특성을 가진 금융부채의 측정"
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -6015,7 +6408,9 @@
         "standard_id": "K-IFRS 1113",
         "section_type": "bc",
         "para_number": "BC101",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단47"
+        ],
         "has_table": false,
         "has_example": false,
         "sentences": [
@@ -6058,6 +6453,11 @@
           "만으로 인식하여 예금의 발생 즉시 이익을 발생시키는 것은 부적",
           "절하다고 보았다 .",
           "자기지분상품에 대한 적용"
+        ],
+        "referenced_standards": [
+          "1032",
+          "1039",
+          "1109"
         ]
       }
     },
@@ -6071,7 +6471,8 @@
         "para_number": "BC104",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -6084,7 +6485,10 @@
         "para_number": "BC105",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1109"
+        ]
       }
     },
     {
@@ -6097,7 +6501,12 @@
         "para_number": "BC106",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1039",
+          "1103",
+          "1109"
+        ]
       }
     },
     {
@@ -6110,7 +6519,8 @@
         "para_number": "BC107",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -6123,7 +6533,10 @@
         "para_number": "BC108",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1109"
+        ]
       }
     },
     {
@@ -6136,7 +6549,8 @@
         "para_number": "BC109",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -6149,7 +6563,11 @@
         "para_number": "BC110",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1039",
+          "1109"
+        ]
       }
     },
     {
@@ -6162,7 +6580,8 @@
         "para_number": "BC111",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -6175,7 +6594,10 @@
         "para_number": "BC112",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1039"
+        ]
       }
     },
     {
@@ -6188,7 +6610,8 @@
         "para_number": "BC113",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -6201,7 +6624,10 @@
         "para_number": "BC114",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1039"
+        ]
       }
     },
     {
@@ -6214,7 +6640,8 @@
         "para_number": "BC115",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -6229,7 +6656,10 @@
           "AG72"
         ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1039"
+        ]
       }
     },
     {
@@ -6279,6 +6709,10 @@
           "는 그러한 금융상품에 대한 시장참여자의 측정치는 시장에 근",
           "거한 측정치이며 기업의 위험에 대한 선호를 사용한 측정치는",
           "공정가치가 아닌 기업 특유의 측정치일 것이다 ."
+        ],
+        "referenced_standards": [
+          "1039",
+          "1109"
         ]
       }
     },
@@ -6292,7 +6726,8 @@
         "para_number": "BC118",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -6303,9 +6738,12 @@
         "standard_id": "K-IFRS 1113",
         "section_type": "bc",
         "para_number": "BC119",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단52"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -6316,9 +6754,17 @@
         "standard_id": "K-IFRS 1113",
         "section_type": "bc",
         "para_number": "BC119A",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단48",
+          "문단52"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1032",
+          "1039",
+          "1109"
+        ]
       }
     },
     {
@@ -6329,9 +6775,16 @@
         "standard_id": "K-IFRS 1113",
         "section_type": "bc",
         "para_number": "BC119B",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단52"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1032",
+          "1039",
+          "1109"
+        ]
       }
     },
     {
@@ -6344,7 +6797,8 @@
         "para_number": "BC120",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -6390,6 +6844,9 @@
           "트폴리오를 가치평가하는 경우에는 이를 기간별로 일관성 있게",
           "적용해야 한다 .",
           "시장위험에 대한 익스포저"
+        ],
+        "referenced_standards": [
+          "1008"
         ]
       }
     },
@@ -6403,7 +6860,8 @@
         "para_number": "BC122",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -6446,7 +6904,8 @@
           "간 ( 시장위험이 상쇄되지 않는 기간 ) 에 대해서는 시장위험에 대한",
           "총익스포저를 측정해야만 한다 .",
           "특정 거래상대방의 신용위험에 대한 익스포저"
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -6461,7 +6920,8 @@
           "BC164"
         ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -6474,7 +6934,8 @@
         "para_number": "BC125",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -6487,7 +6948,8 @@
         "para_number": "BC126",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -6500,7 +6962,8 @@
         "para_number": "BC127",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -6513,7 +6976,8 @@
         "para_number": "BC128",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -6526,7 +6990,10 @@
         "para_number": "BC129",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1032"
+        ]
       }
     },
     {
@@ -6561,7 +7028,8 @@
           "순액 또는 총액 표시하도록 요구한 것에 대해 IASB 와 FASB 가 고",
           "려한 사항은 순액 또는 총액 측정을 요구하는 것에 대해 고려한",
           "사항과는 다르다 ."
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -6574,7 +7042,8 @@
         "para_number": "BC131",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -6587,7 +7056,10 @@
         "para_number": "BC132",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1109"
+        ]
       }
     },
     {
@@ -6600,7 +7072,8 @@
         "para_number": "BC133",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -6613,7 +7086,8 @@
         "para_number": "BC134",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -6626,7 +7100,13 @@
         "para_number": "BC135",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1039",
+          "1041",
+          "1103",
+          "1109"
+        ]
       }
     },
     {
@@ -6639,7 +7119,11 @@
         "para_number": "BC136",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1039",
+          "1109"
+        ]
       }
     },
     {
@@ -6652,7 +7136,8 @@
         "para_number": "BC137",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -6665,7 +7150,11 @@
         "para_number": "BC138",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1039",
+          "1109"
+        ]
       }
     },
     {
@@ -6677,10 +7166,17 @@
         "section_type": "bc",
         "para_number": "BC138A",
         "cross_refs": [
-          "AG79"
+          "AG79",
+          "B5.4.12",
+          "문단8"
         ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1008",
+          "1039",
+          "1109"
+        ]
       }
     },
     {
@@ -6693,7 +7189,8 @@
         "para_number": "BC139",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -6706,7 +7203,8 @@
         "para_number": "BC140",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -6719,7 +7217,8 @@
         "para_number": "BC141",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -6732,7 +7231,10 @@
         "para_number": "BC142",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1041"
+        ]
       }
     },
     {
@@ -6747,7 +7249,8 @@
           "BC149"
         ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -6760,7 +7263,8 @@
         "para_number": "BC150",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -6773,7 +7277,8 @@
         "para_number": "BC144",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -6813,7 +7318,8 @@
           "여 거래 규모나 거래 빈도가 유의적으로 줄어든 경우 및 거래",
           "가격이나 공시가격이 공정가치를 나타내지 못한다고 판단한",
           "경우 )"
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -6826,7 +7332,8 @@
         "para_number": "BC146",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -6839,7 +7346,10 @@
         "para_number": "BC147",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1008"
+        ]
       }
     },
     {
@@ -6852,7 +7362,10 @@
         "para_number": "BC148",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1008"
+        ]
       }
     },
     {
@@ -6865,7 +7378,8 @@
         "para_number": "BC149",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -6878,7 +7392,8 @@
         "para_number": "BC150",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -6912,7 +7427,8 @@
           "유의적인 조정을 해야 할 것이라고 보았기 때문에, IFRS 13 은 관",
           "련된 관측할 수 있는 투입변수에 중점을 둔다 .",
           "공정가치 측정에서 할증과 할인의 적용"
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -6925,7 +7441,10 @@
         "para_number": "BC152",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1039"
+        ]
       }
     },
     {
@@ -6960,6 +7479,9 @@
           "이나 비지배지분 할인 ) 를 가격결정에 고려하는 경우, 공정가치 서",
           "열체계의 수준 2 나 수준 3 으로 분류된 공정가치 측정치에 그러한",
           "요소를 적용해야 하는지를 구체적으로 밝히지 않았다 ."
+        ],
+        "referenced_standards": [
+          "1109"
         ]
       }
     },
@@ -6973,7 +7495,8 @@
         "para_number": "BC154",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -7014,7 +7537,8 @@
           "공정가치를 측정해야 하는지를 다루기 때문에, 이러",
           "한 우려는 공정가치 측정 과제의 범위를 벗어난 것이라고 결론",
           "내렸다 ."
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -7027,7 +7551,8 @@
         "para_number": "BC156",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -7062,7 +7587,8 @@
           "정치가 분류된 공정가치 서열체계의 수준에 상관없이 그 결정이",
           "이루어진 시점에 그러한 결정의 결과를 인식해야 한다고 결론 내",
           "렸다 ."
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -7075,7 +7601,8 @@
         "para_number": "BC158",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -7088,7 +7615,8 @@
         "para_number": "BC168",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -7101,7 +7629,8 @@
         "para_number": "BC159",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -7114,7 +7643,12 @@
         "para_number": "BC160",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1036",
+          "1038",
+          "1039"
+        ]
       }
     },
     {
@@ -7129,7 +7663,8 @@
           "BC165"
         ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -7142,7 +7677,10 @@
         "para_number": "BC162",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1039"
+        ]
       }
     },
     {
@@ -7155,7 +7693,8 @@
         "para_number": "BC163",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -7167,7 +7706,7 @@
         "section_type": "bc",
         "para_number": "BC164",
         "cross_refs": [
-          "BC124"
+          "BC124~127"
         ],
         "has_table": false,
         "has_example": false,
@@ -7189,6 +7728,9 @@
           "은 그 상황에서 공정가치를 가장 잘 나타내는 매입    - 매도 스프레드",
           "내의 값을 산정하는 경우 자산이나 부채에 대한 매입    - 매도 스프레",
           "드에 무엇이 포함되는지를 검토할 필요가 있다 ."
+        ],
+        "referenced_standards": [
+          "1039"
         ]
       }
     },
@@ -7202,7 +7744,8 @@
         "para_number": "BC165",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -7215,7 +7758,8 @@
         "para_number": "BC166",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -7228,7 +7772,11 @@
         "para_number": "BC167",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1039",
+          "1109"
+        ]
       }
     },
     {
@@ -7241,7 +7789,8 @@
         "para_number": "BC168",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -7254,7 +7803,12 @@
         "para_number": "BC169",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1036",
+          "1039",
+          "1109"
+        ]
       }
     },
     {
@@ -7290,7 +7844,8 @@
           "그러나 IASB 는 이러한 특정 실무적 편",
           "의를 원가효익적인 근거로 정당화되는 것으로 본다 .",
           "수준 투입변수"
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -7303,7 +7858,8 @@
         "para_number": "BC171",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -7316,7 +7872,8 @@
         "para_number": "BC172",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -7328,8 +7885,7 @@
         "section_type": "bc",
         "para_number": "BC173",
         "cross_refs": [
-          "BC187",
-          "BC210"
+          "BC187~BC210"
         ],
         "has_table": false,
         "has_example": false,
@@ -7366,7 +7922,8 @@
           "관성에 대한 우려는 그러한 측정에 대해 향상된 공시를 요구함으",
           "로써 가장 잘 다루어진다고 결론 내렸다 ( 문단 BC187~BC210 참",
           "조 )."
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -7379,7 +7936,8 @@
         "para_number": "BC174",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -7392,7 +7950,8 @@
         "para_number": "BC175",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -7405,7 +7964,8 @@
         "para_number": "BC176",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -7418,7 +7978,8 @@
         "para_number": "BC177",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -7448,7 +8009,8 @@
           "자산이나 부채의 거래 규모나 거래 빈도가 유의적으로 줄어든",
           "경우 공정가치 측정",
           "⑵ 거래가 정상적이지 않다는 것을 나타내는 상황의 식별"
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -7461,7 +8023,8 @@
         "para_number": "BC179",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -7474,7 +8037,8 @@
         "para_number": "BC180",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -7487,7 +8051,8 @@
         "para_number": "BC181",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -7500,7 +8065,10 @@
         "para_number": "BC182",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1107"
+        ]
       }
     },
     {
@@ -7513,7 +8081,8 @@
         "para_number": "BC183",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -7526,7 +8095,10 @@
         "para_number": "BC184",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1103"
+        ]
       }
     },
     {
@@ -7539,7 +8111,8 @@
         "para_number": "BC185",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -7552,7 +8125,8 @@
         "para_number": "BC186",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -7565,7 +8139,8 @@
         "para_number": "BC187",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -7578,7 +8153,8 @@
         "para_number": "BC188",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -7591,7 +8167,8 @@
         "para_number": "BC189",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -7604,7 +8181,8 @@
         "para_number": "BC190",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -7617,7 +8195,8 @@
         "para_number": "BC191",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -7653,7 +8232,8 @@
           "또한 그러한 공시는 공정가치 서열체계의",
           "수준 3 으로 분류된 비슷한 자산과 부채를 가진 기업 간 비교를",
           "용이하게 할 수도 있을 것이다 ."
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -7666,7 +8246,8 @@
         "para_number": "BC193",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -7679,7 +8260,8 @@
         "para_number": "BC194",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -7714,7 +8296,8 @@
           "관측할 수 없는 정보를 공시하지 않더라도, 그러한 조정은 기업이",
           "양적 정보를 공시할 관측할 수 없는 투입변수일 것이다 .",
           "반복적인 공정가치 측정치에 대한 수준 의 차이조정"
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -7727,7 +8310,10 @@
         "para_number": "BC196",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1107"
+        ]
       }
     },
     {
@@ -7762,6 +8348,9 @@
           "평가하는 능력을 향상시켰다는 점을 언급하였다 .",
           "따라서 IASB 는",
           "이러한 차이조정을 제공하도록 요구하기로 결정하였다 ."
+        ],
+        "referenced_standards": [
+          "1107"
         ]
       }
     },
@@ -7794,6 +8383,9 @@
           "US GAAP 의 요구사항의 해석이 서로 다르지 않을 것이라는 것을",
           "확실히 하기 위하여, IASB 는 차이조정 공시에서 실현과 미실현",
           "용어를 사용하기로 결정하였다 ."
+        ],
+        "referenced_standards": [
+          "1107"
         ]
       }
     },
@@ -7807,7 +8399,10 @@
         "para_number": "BC199",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1105"
+        ]
       }
     },
     {
@@ -7820,7 +8415,8 @@
         "para_number": "BC200",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -7833,7 +8429,8 @@
         "para_number": "BC201",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -7846,7 +8443,10 @@
         "para_number": "BC202",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1107"
+        ]
       }
     },
     {
@@ -7859,7 +8459,8 @@
         "para_number": "BC203",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -7872,7 +8473,10 @@
         "para_number": "BC204",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1107"
+        ]
       }
     },
     {
@@ -7884,8 +8488,7 @@
         "section_type": "bc",
         "para_number": "BC205",
         "cross_refs": [
-          "BC188",
-          "BC195"
+          "BC188~BC195"
         ],
         "has_table": false,
         "has_example": false,
@@ -7907,7 +8510,8 @@
           "가치 서열체계의 수준 3 으로 분류된 공정가치 측정치의 주관성에",
           "대한 질적 검토를 IASB 와 FASB 가 요구할 것을 제안하였다 ( 문단",
           "BC188~BC195 참조 )."
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -7948,7 +8552,8 @@
           "양적 분석 공시를 차후에 요구할 것인지에 대한 결론을 내릴 목",
           "적으로, IFRS 13 을 발표한 후에 이러한 공시가 현실적인지를 계속",
           "검토할 것이다 ."
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -7961,7 +8566,8 @@
         "para_number": "BC207",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -7996,6 +8602,9 @@
           "않으며 ( 공정가치 추정치가 유의적으로 달라질 수 있는 경우에만",
           "공시가 요구됨 ) 그러한 공시를 할 때 가정 간 상호의존성을 반영",
           "하는 것이 요구되지 않는다고 보았다 ."
+        ],
+        "referenced_standards": [
+          "1107"
         ]
       }
     },
@@ -8007,7 +8616,9 @@
         "standard_id": "K-IFRS 1113",
         "section_type": "bc",
         "para_number": "BC209",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단40"
+        ],
         "has_table": false,
         "has_example": false,
         "sentences": [
@@ -8029,6 +8640,9 @@
           "분석 공시는 금융상품에만 관련되지만, (IFRS 13 의 양적민감도 분",
           "석공시와 같이 ) IFRS 13 의 민감도분석에 대한 서술적 공시는 공정",
           "가치로 측정하는 모든 자산과 부채에 관련된다 ."
+        ],
+        "referenced_standards": [
+          "1107"
         ]
       }
     },
@@ -8065,7 +8679,8 @@
           "수준 3 으로 분류된 공정가치 측정치에 사용한 관측할 수 없는",
           "투입변수에만 관련된다 .",
           "공정가치 서열체계의 수준 과 수준 사이의 이동"
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -8099,7 +8714,8 @@
           "이동에 대한 정보의 정확성에 대해 우려하였다 .",
           "-",
           "191"
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -8112,7 +8728,8 @@
         "para_number": "BC212",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -8125,7 +8742,8 @@
         "para_number": "BC213",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -8138,7 +8756,8 @@
         "para_number": "BC214",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -8151,7 +8770,10 @@
         "para_number": "BC215",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1107"
+        ]
       }
     },
     {
@@ -8164,7 +8786,8 @@
         "para_number": "BC216",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -8177,7 +8800,8 @@
         "para_number": "BC217",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -8190,7 +8814,10 @@
         "para_number": "BC218",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1036"
+        ]
       }
     },
     {
@@ -8203,7 +8830,10 @@
         "para_number": "BC219",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1036"
+        ]
       }
     },
     {
@@ -8216,7 +8846,10 @@
         "para_number": "BC220",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1036"
+        ]
       }
     },
     {
@@ -8229,7 +8862,8 @@
         "para_number": "BC221",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -8242,7 +8876,10 @@
         "para_number": "BC222",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1034"
+        ]
       }
     },
     {
@@ -8255,7 +8892,10 @@
         "para_number": "BC223",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1034"
+        ]
       }
     },
     {
@@ -8268,7 +8908,10 @@
         "para_number": "BC224",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1034"
+        ]
       }
     },
     {
@@ -8281,7 +8924,8 @@
         "para_number": "BC225",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -8294,7 +8938,8 @@
         "para_number": "BC226",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -8307,7 +8952,8 @@
         "para_number": "BC227",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -8320,7 +8966,8 @@
         "para_number": "BC228",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -8333,7 +8980,8 @@
         "para_number": "BC229",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -8346,7 +8994,8 @@
         "para_number": "BC230",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -8357,9 +9006,12 @@
         "standard_id": "K-IFRS 1113",
         "section_type": "bc",
         "para_number": "BC230A",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단52"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -8401,7 +9053,8 @@
           "⑸",
           "공정가치를 측정하는 데 ( 그리고 그에 따른 공시를 작성하는",
           "데 ) 비용이 많이 들 수 있다 ."
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -8414,7 +9067,10 @@
         "para_number": "BC232",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1109"
+        ]
       }
     },
     {
@@ -8427,7 +9083,8 @@
         "para_number": "BC233",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -8440,7 +9097,8 @@
         "para_number": "BC234",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -8453,7 +9111,8 @@
         "para_number": "BC235",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -8466,7 +9125,8 @@
         "para_number": "BC236",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -8509,6 +9169,9 @@
           "IASB 와 FASB 는 그러한 차이로 인해 실무에서 IFRS 를 적용하거나",
           "US GAAP 을 적용하는 데 해석이 일관되지 않는 일은 없을 것이",
           "라고 결론 내렸다 ."
+        ],
+        "referenced_standards": [
+          "1024"
         ]
       }
     },
@@ -8612,6 +9275,14 @@
           "for Small and Medium-Sized Entities)' 에서 공적 책임",
           "(public accountability) 이 없는 기업의 회계처리와 그러한",
           "기업의 공정가치 측정에 대한 공시를 다루고 있다 ."
+        ],
+        "referenced_standards": [
+          "1027",
+          "1039",
+          "1107",
+          "1109",
+          "1110",
+          "1112"
         ]
       }
     },
@@ -8625,7 +9296,8 @@
         "para_number": "BC239",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -8638,7 +9310,8 @@
         "para_number": "BC240",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -8651,7 +9324,8 @@
         "para_number": "BC241",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -8664,7 +9338,8 @@
         "para_number": "BC242",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -8677,7 +9352,8 @@
         "para_number": "BC243",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -8809,6 +9485,14 @@
           "사용하고 있는 이유를 공시하도록 요구할 것을 제안하였다 .",
           "-",
           "206"
+        ],
+        "referenced_standards": [
+          "1039",
+          "1102",
+          "1103",
+          "1107",
+          "1109",
+          "1117"
         ]
       }
     },
@@ -8822,7 +9506,8 @@
         "para_number": null,
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -8913,7 +9598,8 @@
           "가 사용하게 될 투입변수와 일관되어야 한다 .",
           "-",
           "211"
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -8924,7 +9610,11 @@
         "standard_id": "K-IFRS 1113",
         "section_type": "bc",
         "para_number": null,
-        "cross_refs": [],
+        "cross_refs": [
+          "제1019호",
+          "제1109호",
+          "제1116호"
+        ],
         "has_table": true,
         "has_example": false,
         "sentences": [
@@ -8935,6 +9625,11 @@
           "이 기준서는 타기준서 제 - 개정에 따라 다음과 같이 개정되었다 .",
           "|제․개정일자|타기준서|관련되는 국제회계기준|\n|---|---|---|\n|2017.05.22. 제정|기업회계기준서 제1116호 <br>리스|<br>IFRS 16 Leases|\n|2015.09.25. 제정|기업회계기준서 제1109호 <br>금융상품|<br>IFRS 9 Financial Instruments|\n|2011.11.11. 개정|기업회계기준서 제1019호 <br>종업원급여|<br>IAS 19 Employment Benefits|",
           "- 212"
+        ],
+        "referenced_standards": [
+          "1019",
+          "1109",
+          "1116"
         ]
       }
     }

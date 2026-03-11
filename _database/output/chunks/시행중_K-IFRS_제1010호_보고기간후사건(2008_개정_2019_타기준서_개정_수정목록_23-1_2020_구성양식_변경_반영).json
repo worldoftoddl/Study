@@ -228,9 +228,16 @@
         "standard_id": "K-IFRS 1010",
         "section_type": "main",
         "para_number": null,
-        "cross_refs": [],
+        "cross_refs": [
+          "개념체계",
+          "문단1~24",
+          "제1008호"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1008"
+        ]
       }
     },
     {
@@ -243,7 +250,8 @@
         "para_number": "1",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -256,7 +264,8 @@
         "para_number": null,
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -269,7 +278,8 @@
         "para_number": null,
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -282,7 +292,8 @@
         "para_number": "4",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -295,7 +306,8 @@
         "para_number": "5",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -331,7 +343,8 @@
           "표를 제출하였다 .",
           "재무제표 발행승인일은 20x2 년 3 월 18 일 ( 경영진이 감독이사회에",
           "제출하기 위하여 재무제표의 발행을 승인한 날 ) 이다 ."
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -344,7 +357,8 @@
         "para_number": "7",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -357,7 +371,8 @@
         "para_number": null,
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -368,7 +383,10 @@
         "standard_id": "K-IFRS 1010",
         "section_type": "main",
         "para_number": "9",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단16",
+          "제1037호"
+        ],
         "has_table": false,
         "has_example": false,
         "sentences": [
@@ -404,6 +422,9 @@
           "⑷ 보고기간말 이전 사건의 결과로서 보고기간말에 종업원에게 지",
           "급하여야 할 법적 의무나 의제의무가 있는 이익분배나 상여금",
           "지급 금액을 보고기간 후에 확정하는 경우 ( 기업회계기준서 제"
+        ],
+        "referenced_standards": [
+          "1037"
         ]
       }
     },
@@ -417,7 +438,8 @@
         "para_number": "1019",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -428,9 +450,12 @@
         "standard_id": "K-IFRS 1010",
         "section_type": "main",
         "para_number": "11",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단21"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -441,9 +466,14 @@
         "standard_id": "K-IFRS 1010",
         "section_type": "main",
         "para_number": "13",
-        "cross_refs": [],
+        "cross_refs": [
+          "제1001호"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1001"
+        ]
       }
     },
     {
@@ -456,7 +486,8 @@
         "para_number": null,
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -469,7 +500,8 @@
         "para_number": "15",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -480,9 +512,14 @@
         "standard_id": "K-IFRS 1010",
         "section_type": "main",
         "para_number": "16",
-        "cross_refs": [],
+        "cross_refs": [
+          "제1001호"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1001"
+        ]
       }
     },
     {
@@ -495,7 +532,8 @@
         "para_number": null,
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -508,7 +546,8 @@
         "para_number": "18",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -519,7 +558,9 @@
         "standard_id": "K-IFRS 1010",
         "section_type": "main",
         "para_number": "20",
-        "cross_refs": [],
+        "cross_refs": [
+          "제1037호"
+        ],
         "has_table": false,
         "has_example": false,
         "sentences": [
@@ -544,6 +585,9 @@
           "사건의 성격",
           "사건의 재무적 영향에 대한 추정치 그러한 추정을 할 수 없는",
           "경우에는이에 대한 설명"
+        ],
+        "referenced_standards": [
+          "1037"
         ]
       }
     },
@@ -555,9 +599,16 @@
         "standard_id": "K-IFRS 1010",
         "section_type": "main",
         "para_number": "22",
-        "cross_refs": [],
+        "cross_refs": [
+          "제1103호",
+          "제1105호"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1103",
+          "1105"
+        ]
       }
     },
     {
@@ -568,9 +619,16 @@
         "standard_id": "K-IFRS 1010",
         "section_type": "main",
         "para_number": "1037",
-        "cross_refs": [],
+        "cross_refs": [
+          "제1012호",
+          "제1033호"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1012",
+          "1033"
+        ]
       }
     },
     {
@@ -581,9 +639,23 @@
         "standard_id": "K-IFRS 1010",
         "section_type": "main",
         "para_number": null,
-        "cross_refs": [],
+        "cross_refs": [
+          "문단11",
+          "문단21",
+          "문단9",
+          "제1001호",
+          "제1008호",
+          "제1109호",
+          "제1113호"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1001",
+          "1008",
+          "1109",
+          "1113"
+        ]
       }
     },
     {
@@ -596,7 +668,8 @@
         "para_number": "2020",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -607,9 +680,16 @@
         "standard_id": "K-IFRS 1010",
         "section_type": "main",
         "para_number": "1001",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단5",
+          "문단7",
+          "제1008호"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1008"
+        ]
       }
     },
     {
@@ -622,7 +702,8 @@
         "para_number": null,
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -635,7 +716,8 @@
         "para_number": null,
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -648,7 +730,8 @@
         "para_number": null,
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -661,7 +744,8 @@
         "para_number": null,
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -674,7 +758,8 @@
         "para_number": "BC1",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -687,7 +772,8 @@
         "para_number": "BC2",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -700,7 +786,11 @@
         "para_number": "BC3",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1001",
+          "1041"
+        ]
       }
     },
     {
@@ -711,7 +801,11 @@
         "standard_id": "K-IFRS 1010",
         "section_type": "bc",
         "para_number": "BC4",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단11",
+          "문단12",
+          "문단13"
+        ],
         "has_table": false,
         "has_example": false,
         "sentences": [
@@ -734,6 +828,10 @@
           "따라서 IASB 는 2008 년 5 월에 발표된 ‘ 국제회계기준 연차개선 ’ 에서 문단 13 을 개정하여 그러한 의무\n가 존재하지 않는다고 기술하였다 .",
           "-",
           "22"
+        ],
+        "referenced_standards": [
+          "1001",
+          "1037"
         ]
       }
     },
@@ -745,7 +843,9 @@
         "standard_id": "K-IFRS 1010",
         "section_type": "bc",
         "para_number": null,
-        "cross_refs": [],
+        "cross_refs": [
+          "문단23"
+        ],
         "has_table": false,
         "has_example": false,
         "sentences": [
@@ -769,7 +869,8 @@
           "호를 준수하면 동시에 IAS 10 을 준수하는 것이 된다 .",
           "-",
           "24"
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -780,7 +881,9 @@
         "standard_id": "K-IFRS 1010",
         "section_type": "bc",
         "para_number": null,
-        "cross_refs": [],
+        "cross_refs": [
+          "제1032호"
+        ],
         "has_table": false,
         "has_example": false,
         "sentences": [
@@ -829,6 +932,9 @@
           "㈏ 사건의 재무적 영향에 대한 추정치 또는 그러한 추정을 할 수 없는",
           "경우 이에 대한 설명",
           "- 26"
+        ],
+        "referenced_standards": [
+          "1032"
         ]
       }
     },
@@ -840,7 +946,10 @@
         "standard_id": "K-IFRS 1010",
         "section_type": "bc",
         "para_number": null,
-        "cross_refs": [],
+        "cross_refs": [
+          "제1001호",
+          "제1008호"
+        ],
         "has_table": true,
         "has_example": false,
         "sentences": [
@@ -851,6 +960,12 @@
           "이 기준서는 타 기준서의 제 ⋅ 개정에 따라 다음과 같이 개정되었다 .",
           "|제․개정일자|타 기준서|관련되는 국제회계기준|\n|---|---|---|\n|2019. 4.19. 개정|‘중요성의 정의’ (기업<br>회계기준서 제1001호 <br>및 제1008호의 개정)|<br>Definition<br>of<br>Material<br>(Amendments to IAS 1 and IAS 8)|\n|2015. 9.25. 제정|기업회계기준서<br>제<br>1109호 금융상품|IFRS 9 Financial Instruments|\n|2011.11.18. 제정|기업회계기준서<br>제<br>1113호 공정가치측정|IFRS 13 Fair Value Measurement|",
           "- 27"
+        ],
+        "referenced_standards": [
+          "1001",
+          "1008",
+          "1109",
+          "1113"
         ]
       }
     }

@@ -123,6 +123,7 @@ def embed_and_upsert_children(client: QdrantClient, embeddings: UpstageEmbedding
             "section_type": meta.get("section_type", ""),
             "para_number": meta.get("para_number"),
             "cross_refs": meta.get("cross_refs", []),
+            "referenced_standards": meta.get("referenced_standards", []),
             "has_table": meta.get("has_table", False),
             "has_example": meta.get("has_example", False),
         }

@@ -13,16 +13,22 @@ from qdrant_client.models import Filter, FieldCondition, MatchValue, MatchAny
 from search.config import CHILD_COLLECTION, chunk_id_to_int
 
 # ── 교차참조 파싱 패턴 ───────────────────────────────
-# "AG12~AG15" → range
-_RANGE_RE = re.compile(r"^(AG|BC|IE)(\d+)[A-Z]?~\1(\d+)[A-Z]?$")
+# 범위 구분자: ~ (U+007E), ∼ (U+223C), - (하이픈)
+_RANGE_SEP = r"[~∼\-]"
 
-# "기준서 1109호" → standard number
-_STD_REF_RE = re.compile(r"기준서\s*(\d+)호")
-
-# "기준서 제1109호 문단 4.1.2" → standard + paragraph
-_STD_PARA_RE = re.compile(
-    r"기준서\s*제?(\d+)호.*?문단\s*([\d.]+[A-Z]?)", re.IGNORECASE
+# "AG12~AG15", "AG12~15" (축약형), "BC28∼BC31" → range
+_RANGE_RE = re.compile(
+    rf"^(AG|BC|IE)(\d+)[A-Z]?\s*{_RANGE_SEP}\s*(?:\1)?(\d+)[A-Z]?$"
 )
+
+# "제1109호" → standard number (정규화된 형태, 공백 제거 후)
+_STD_REF_RE = re.compile(r"제(\d{3,4})호")
+
+# "제1109호문단4.1.2" → standard + paragraph (정규화된 형태)
+_STD_PARA_RE = re.compile(r"제(\d{3,4})호.*?문단([\d.]+[A-Z]?)")
+
+# "문단35", "문단4.1.2" → bare paragraph ref (intra-standard)
+_BARE_PARA_RE = re.compile(r"^문단([\d.]+[A-Z]?)$")
 
 # section_type 추론: 접두사 기반
 _SECTION_PREFIX_MAP = {
@@ -71,16 +77,15 @@ def _build_chunk_ids_from_refs(
     results = []
 
     for ref in cross_refs:
+        # "개념체계" — 특정 청크로 해소 불가, skip
+        if "개념체계" in ref:
+            continue
+
         # 범위 참조 확장
         expanded = _expand_range_ref(ref)
         for single_ref in expanded:
-            # "기준서 1109호" 형태 — 기준서 간 참조 (문단 번호 없으면 skip)
-            std_match = _STD_REF_RE.match(single_ref)
-            if std_match:
-                continue  # 문단 번호 없는 기준서 참조는 범위가 너무 넓음
-
-            # "기준서 제1109호 문단 4.1.2" 형태
-            para_match = _STD_PARA_RE.match(single_ref)
+            # "제1109호문단4.1.2" — 기준서 간 + 문단 정밀 참조
+            para_match = _STD_PARA_RE.search(single_ref)
             if para_match:
                 target_std = f"KIFRS{para_match.group(1).zfill(4)}"
                 para = para_match.group(2)
@@ -89,7 +94,21 @@ def _build_chunk_ids_from_refs(
                 results.append((chunk_id, f"xref:{single_ref}"))
                 continue
 
-            # AG12, BC3, IE5 등 — 동일 기준서 내 참조
+            # "제1109호" — 기준서 간 참조 (문단 번호 없으면 skip)
+            std_match = _STD_REF_RE.match(single_ref)
+            if std_match:
+                continue  # 문단 번호 없는 기준서 참조는 범위가 너무 넓음
+
+            # "문단35", "문단4.1.2" — 동일 기준서 내 문단 참조
+            bare_match = _BARE_PARA_RE.match(single_ref)
+            if bare_match:
+                para = bare_match.group(1)
+                section = _infer_section_type(para)
+                chunk_id = f"{normalized_std}_{section}_{para}"
+                results.append((chunk_id, f"xref:{single_ref}"))
+                continue
+
+            # AG12, BC3, IE5, B4.1.7 등 — 동일 기준서 내 참조
             section = _infer_section_type(single_ref)
             chunk_id = f"{normalized_std}_{section}_{single_ref}"
             results.append((chunk_id, f"xref:{single_ref}"))

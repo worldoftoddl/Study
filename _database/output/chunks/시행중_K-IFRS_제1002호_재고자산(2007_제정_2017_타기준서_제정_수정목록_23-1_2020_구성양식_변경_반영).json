@@ -237,9 +237,16 @@
         "standard_id": "K-IFRS 1002",
         "section_type": "main",
         "para_number": null,
-        "cross_refs": [],
+        "cross_refs": [
+          "개념체계",
+          "문단1~42",
+          "제1008호"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1008"
+        ]
       }
     },
     {
@@ -252,7 +259,8 @@
         "para_number": "1",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -265,7 +273,8 @@
         "para_number": null,
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -278,7 +287,8 @@
         "para_number": null,
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -289,9 +299,12 @@
         "standard_id": "K-IFRS 1002",
         "section_type": "main",
         "para_number": "4",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단3"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -302,9 +315,12 @@
         "standard_id": "K-IFRS 1002",
         "section_type": "main",
         "para_number": "5",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단3"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -317,7 +333,8 @@
         "para_number": null,
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -330,7 +347,8 @@
         "para_number": "7",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -341,9 +359,14 @@
         "standard_id": "K-IFRS 1002",
         "section_type": "main",
         "para_number": "8",
-        "cross_refs": [],
+        "cross_refs": [
+          "제1115호"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1115"
+        ]
       }
     },
     {
@@ -356,7 +379,8 @@
         "para_number": null,
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -369,7 +393,8 @@
         "para_number": "11",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -382,7 +407,8 @@
         "para_number": "12",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -395,7 +421,8 @@
         "para_number": "13",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -408,7 +435,8 @@
         "para_number": "14",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -421,7 +449,8 @@
         "para_number": "15",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -434,7 +463,8 @@
         "para_number": "16",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -445,9 +475,14 @@
         "standard_id": "K-IFRS 1002",
         "section_type": "main",
         "para_number": "17",
-        "cross_refs": [],
+        "cross_refs": [
+          "제1023호"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1023"
+        ]
       }
     },
     {
@@ -460,7 +495,8 @@
         "para_number": "18",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -471,9 +507,14 @@
         "standard_id": "K-IFRS 1002",
         "section_type": "main",
         "para_number": "20",
-        "cross_refs": [],
+        "cross_refs": [
+          "제1041호"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1041"
+        ]
       }
     },
     {
@@ -486,7 +527,8 @@
         "para_number": "21",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -499,7 +541,8 @@
         "para_number": "22",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -512,7 +555,8 @@
         "para_number": "24",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -525,7 +569,8 @@
         "para_number": "26",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -538,7 +583,8 @@
         "para_number": "27",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -551,7 +597,8 @@
         "para_number": "28",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -564,7 +611,8 @@
         "para_number": "29",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -577,7 +625,8 @@
         "para_number": "30",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -588,9 +637,14 @@
         "standard_id": "K-IFRS 1002",
         "section_type": "main",
         "para_number": "31",
-        "cross_refs": [],
+        "cross_refs": [
+          "제1037호"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1037"
+        ]
       }
     },
     {
@@ -603,7 +657,8 @@
         "para_number": "32",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -616,7 +671,8 @@
         "para_number": "33",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -629,7 +685,8 @@
         "para_number": null,
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -642,7 +699,8 @@
         "para_number": "35",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -655,7 +713,8 @@
         "para_number": null,
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -668,7 +727,8 @@
         "para_number": "37",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -681,7 +741,8 @@
         "para_number": "38",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -694,7 +755,8 @@
         "para_number": "39",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -705,9 +767,23 @@
         "standard_id": "K-IFRS 1002",
         "section_type": "main",
         "para_number": null,
-        "cross_refs": [],
+        "cross_refs": [
+          "문단19",
+          "문단2",
+          "문단40A",
+          "문단6",
+          "문단7",
+          "제1109호",
+          "제1113호",
+          "제1115호"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1109",
+          "1113",
+          "1115"
+        ]
       }
     },
     {
@@ -718,9 +794,14 @@
         "standard_id": "K-IFRS 1002",
         "section_type": "main",
         "para_number": "1109",
-        "cross_refs": [],
+        "cross_refs": [
+          "제1116호"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1116"
+        ]
       }
     },
     {
@@ -733,7 +814,8 @@
         "para_number": null,
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -746,7 +828,8 @@
         "para_number": null,
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -759,7 +842,8 @@
         "para_number": null,
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -772,7 +856,8 @@
         "para_number": null,
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -785,7 +870,8 @@
         "para_number": "BC1",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -798,7 +884,8 @@
         "para_number": "BC2",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -811,7 +898,8 @@
         "para_number": "BC3",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -824,7 +912,8 @@
         "para_number": "BC4",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -837,7 +926,8 @@
         "para_number": "BC5",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -850,7 +940,8 @@
         "para_number": "BC6",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -863,7 +954,8 @@
         "para_number": "BC7",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -876,7 +968,8 @@
         "para_number": "BC8",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -889,7 +982,8 @@
         "para_number": "BC9",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -902,7 +996,8 @@
         "para_number": "BC10",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -915,7 +1010,8 @@
         "para_number": "BC11",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -928,7 +1024,8 @@
         "para_number": "BC12",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -941,7 +1038,8 @@
         "para_number": "BC13",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -954,7 +1052,8 @@
         "para_number": "BC14",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -967,7 +1066,8 @@
         "para_number": "BC15",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -980,7 +1080,8 @@
         "para_number": "BC16",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -993,7 +1094,8 @@
         "para_number": "BC17",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1006,7 +1108,8 @@
         "para_number": "BC18",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1019,7 +1122,8 @@
         "para_number": "BC19",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1032,7 +1136,8 @@
         "para_number": "BC20",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1045,7 +1150,8 @@
         "para_number": "BC21",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1058,7 +1164,10 @@
         "para_number": "BC22",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1001"
+        ]
       }
     },
     {
@@ -1071,7 +1180,10 @@
         "para_number": "BC23",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1001"
+        ]
       }
     },
     {
@@ -1082,7 +1194,9 @@
         "standard_id": "K-IFRS 1002",
         "section_type": "bc",
         "para_number": null,
-        "cross_refs": [],
+        "cross_refs": [
+          "문단40"
+        ],
         "has_table": false,
         "has_example": false,
         "sentences": [
@@ -1105,7 +1219,8 @@
           "를 준수하면 동시에 IAS 2 를 준수하는 것이 된다 .",
           "-",
           "31"
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -1116,7 +1231,11 @@
         "standard_id": "K-IFRS 1002",
         "section_type": "bc",
         "para_number": null,
-        "cross_refs": [],
+        "cross_refs": [
+          "제1032호",
+          "제1041호",
+          "제1109호"
+        ],
         "has_table": false,
         "has_example": false,
         "sentences": [
@@ -1187,6 +1306,11 @@
           "⑺ 재고자산 평가손실환입을 초래한 상황이나 사건",
           "⑻ 담보로 제공된 재고자산의 장부금액",
           "- 34"
+        ],
+        "referenced_standards": [
+          "1032",
+          "1041",
+          "1109"
         ]
       }
     },
@@ -1198,7 +1322,12 @@
         "standard_id": "K-IFRS 1002",
         "section_type": "bc",
         "para_number": null,
-        "cross_refs": [],
+        "cross_refs": [
+          "제1109호",
+          "제1113호",
+          "제1115호",
+          "제1116호"
+        ],
         "has_table": true,
         "has_example": false,
         "sentences": [
@@ -1208,6 +1337,12 @@
           "이 기준서는 타 기준서의 제 - 개정에 따라 다음과 같이 개정되었다 .",
           "|제․개정일자|타 기준서|관련되는 국제회계기준|\n|---|---|---|\n|2017.5.22. 제정|기업회계기준서 제1116호 <br>리스|<br>IFRS 16 Leases|\n|2015.11.6. 제정|기업회계기준서 제1115호 <br>고객과의 계약에서 생기는<br>수익|<br> <br>IFRS<br>15<br>Revenue<br>from<br>contracts with customers|\n|2015.9.25. 제정|기업회계기준서 제1109호 <br>금융상품|<br>IFRS 9 Financial Instruments|\n|2011.11.18. 제정|기업회계기준서 제1113호 <br>공정가치 측정|<br>IFRS<br>13<br>Fair<br>Value<br>Measurement|",
           "- 35"
+        ],
+        "referenced_standards": [
+          "1109",
+          "1113",
+          "1115",
+          "1116"
         ]
       }
     }

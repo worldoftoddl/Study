@@ -257,7 +257,8 @@
         "para_number": null,
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -270,7 +271,8 @@
         "para_number": null,
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -281,7 +283,23 @@
         "standard_id": "실무서 2 중요성",
         "section_type": "ag",
         "para_number": null,
-        "cross_refs": [],
+        "cross_refs": [
+          "개념체계",
+          "문단1.2",
+          "문단1.3",
+          "문단1.4",
+          "문단1.5",
+          "문단1.6",
+          "문단1.9",
+          "문단132",
+          "문단13∼23",
+          "문단17",
+          "문단2.11.",
+          "문단2.36",
+          "문단2.7",
+          "문단7",
+          "문단8"
+        ],
         "has_table": false,
         "has_example": false,
         "sentences": [
@@ -510,6 +528,11 @@
           "이 경우 사업결합의 주된 이유와 지배력 획",
           "득 방법 설명에 관한 정보가 이미 공개보고서에 포함되어 있더라도, 기",
           "업은 그 정보를 재무제표에 제공할 필요가 있다 ."
+        ],
+        "referenced_standards": [
+          "1001",
+          "1008",
+          "1036"
         ]
       }
     },
@@ -522,7 +545,8 @@
         "section_type": "ag",
         "para_number": null,
         "cross_refs": [
-          "BC30F"
+          "BC30F",
+          "문단30A"
         ],
         "has_table": false,
         "has_example": false,
@@ -555,6 +579,9 @@
           "있다 .",
           "-",
           "18"
+        ],
+        "referenced_standards": [
+          "1001"
         ]
       }
     },
@@ -566,7 +593,19 @@
         "standard_id": "실무서 2 중요성",
         "section_type": "ag",
         "para_number": null,
-        "cross_refs": [],
+        "cross_refs": [
+          "개념체계",
+          "문단1.4",
+          "문단1.8",
+          "문단10",
+          "문단2.34",
+          "문단21-23",
+          "문단29",
+          "문단30A",
+          "문단31",
+          "문단53∼55",
+          "문단7"
+        ],
         "has_table": false,
         "has_example": false,
         "sentences": [
@@ -966,6 +1005,11 @@
           "정보가 사실은 중요하지 않은 정보라고 결론을 내리고 이를 재무",
           "제표에서 제거할 수도 있다 .",
           "65 4 단계의 결과는 최종 재무제표이다 ."
+        ],
+        "referenced_standards": [
+          "1001",
+          "1024",
+          "1107"
         ]
       }
     },
@@ -978,7 +1022,37 @@
         "section_type": "ag",
         "para_number": null,
         "cross_refs": [
-          "BC30F"
+          "BC30F",
+          "문단10",
+          "문단114",
+          "문단117",
+          "문단117B",
+          "문단117C",
+          "문단117D",
+          "문단117E",
+          "문단122",
+          "문단123~126",
+          "문단15",
+          "문단15-15A",
+          "문단20",
+          "문단23",
+          "문단29∼65",
+          "문단30A",
+          "문단33",
+          "문단38",
+          "문단38A",
+          "문단38C",
+          "문단40A-40D",
+          "문단41",
+          "문단44~55",
+          "문단5",
+          "문단56~59",
+          "문단6",
+          "문단70",
+          "문단71",
+          "문단74",
+          "문단79",
+          "문단82"
         ],
         "has_table": false,
         "has_example": false,
@@ -1451,6 +1525,15 @@
           "비록 기업이 자산손상에 대한 일부 회계정책 정보를 중요하지 않다고 평가",
           "하더라도, IAS 36 의 다른 공시 요구사항에 따라 공시해야 할 중요한 정보",
           "를 제공해야 하는지를 여전히 평가한다 ."
+        ],
+        "referenced_standards": [
+          "1001",
+          "1008",
+          "1016",
+          "1034",
+          "1036",
+          "1109",
+          "1115"
         ]
       }
     },
@@ -1463,7 +1546,62 @@
         "section_type": "ag",
         "para_number": null,
         "cross_refs": [
-          "BC30F"
+          "BC30F",
+          "개념체계",
+          "문단1.10",
+          "문단1.2",
+          "문단1.3",
+          "문단1.4",
+          "문단1.5",
+          "문단1.6",
+          "문단1.8",
+          "문단1.9",
+          "문단10",
+          "문단117A",
+          "문단117B",
+          "문단117C",
+          "문단117D",
+          "문단117E",
+          "문단122",
+          "문단13",
+          "문단15",
+          "문단15A",
+          "문단17",
+          "문단18",
+          "문단19",
+          "문단2.11",
+          "문단2.34",
+          "문단2.36",
+          "문단2.7",
+          "문단20",
+          "문단21",
+          "문단23",
+          "문단25",
+          "문단28",
+          "문단29",
+          "문단30A",
+          "문단31",
+          "문단36",
+          "문단38",
+          "문단38A",
+          "문단38C",
+          "문단41",
+          "문단42~47",
+          "문단43",
+          "문단5",
+          "문단56",
+          "문단6",
+          "문단62",
+          "문단67",
+          "문단69",
+          "문단7",
+          "문단72",
+          "문단73",
+          "문단8",
+          "문단85",
+          "문단87",
+          "문단88",
+          "문단88C"
         ],
         "has_table": false,
         "has_example": false,
@@ -1853,6 +1991,10 @@
           "정을 더 많이 사용한다 .",
           "-",
           "64"
+        ],
+        "referenced_standards": [
+          "1001",
+          "1008"
         ]
       }
     },
@@ -1866,7 +2008,8 @@
         "para_number": null,
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1879,7 +2022,10 @@
         "para_number": "BC1",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1001"
+        ]
       }
     },
     {
@@ -1892,7 +2038,8 @@
         "para_number": "BC2",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1905,7 +2052,8 @@
         "para_number": "BC3",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1918,7 +2066,8 @@
         "para_number": "BC4",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1931,7 +2080,8 @@
         "para_number": "BC5",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1944,7 +2094,10 @@
         "para_number": "BC6",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1001"
+        ]
       }
     },
     {
@@ -1957,7 +2110,8 @@
         "para_number": "BC7",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1970,7 +2124,8 @@
         "para_number": "BC8",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1983,7 +2138,8 @@
         "para_number": "BC9",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1996,7 +2152,8 @@
         "para_number": "BC10",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2009,7 +2166,8 @@
         "para_number": "BC11",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2020,7 +2178,9 @@
         "standard_id": "실무서 2 중요성",
         "section_type": "bc",
         "para_number": "BC12",
-        "cross_refs": [],
+        "cross_refs": [
+          "개념체계"
+        ],
         "has_table": false,
         "has_example": false,
         "sentences": [
@@ -2047,7 +2207,8 @@
           "- 69",
           "완전한 IFRS 의 요구사항과 지침을 고려하는 것과 마찬가지로, 실",
           "무서의 지침을 참조할 수 있다 ."
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -2082,7 +2243,8 @@
           "서의 범위를 벗어난다 .",
           "더욱이, 중요성의 개념이 다르게 적용될",
           "수 있다고 언급하는 것은 혼란을 일으킬 수 있다 ."
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -2093,7 +2255,10 @@
         "standard_id": "실무서 2 중요성",
         "section_type": "bc",
         "para_number": "BC14",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단30A",
+          "문단7"
+        ],
         "has_table": false,
         "has_example": false,
         "sentences": [
@@ -2119,6 +2284,10 @@
           "그러나 IASB 는 중요성 판단",
           "에 관한 지침을 가능한 한 빨리 제공한다면 유용할 것이라고 결",
           "론을 내리고 지침 제공 요청에 응하였다 ."
+        ],
+        "referenced_standards": [
+          "1001",
+          "1008"
         ]
       }
     },
@@ -2132,7 +2301,8 @@
         "para_number": "BC15",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2145,7 +2315,8 @@
         "para_number": "BC16",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2156,7 +2327,9 @@
         "standard_id": "실무서 2 중요성",
         "section_type": "bc",
         "para_number": "BC17",
-        "cross_refs": [],
+        "cross_refs": [
+          "개념체계"
+        ],
         "has_table": false,
         "has_example": false,
         "sentences": [
@@ -2178,7 +2351,8 @@
           "따라서 실무서는 개념체계에서",
           "식별하고 있는 세 가지 범주의 주요 이용자 ( 현재 및 잠재적 투자",
           "자, 대여자 및 기타 채권자 ) 를 지칭한다 ."
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -2191,7 +2365,8 @@
         "para_number": "BC18",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2202,9 +2377,12 @@
         "standard_id": "실무서 2 중요성",
         "section_type": "bc",
         "para_number": "BC19",
-        "cross_refs": [],
+        "cross_refs": [
+          "개념체계"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2215,9 +2393,12 @@
         "standard_id": "실무서 2 중요성",
         "section_type": "bc",
         "para_number": "BC20",
-        "cross_refs": [],
+        "cross_refs": [
+          "개념체계"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2230,7 +2411,8 @@
         "para_number": "BC21",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2243,7 +2425,8 @@
         "para_number": "BC22",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2254,9 +2437,14 @@
         "standard_id": "실무서 2 중요성",
         "section_type": "bc",
         "para_number": "BC23",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단30A"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1001"
+        ]
       }
     },
     {
@@ -2269,7 +2457,8 @@
         "para_number": "BC24",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2282,7 +2471,8 @@
         "para_number": "BC25",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2295,7 +2485,8 @@
         "para_number": "BC26",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2331,7 +2522,8 @@
           "파악된 주요 이용자의 공통 정보수요에 기초하여 기업은 IFRS",
           "에 명시되지 않은 정보를 추가로 재무제표에 포함할지 고려하여",
           "야 한다 ."
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -2344,7 +2536,8 @@
         "para_number": "BC28",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2357,7 +2550,8 @@
         "para_number": "BC29",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2370,7 +2564,8 @@
         "para_number": "BC30",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2383,7 +2578,8 @@
         "para_number": "BC31",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2396,7 +2592,10 @@
         "para_number": "BC32",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1001"
+        ]
       }
     },
     {
@@ -2409,7 +2608,8 @@
         "para_number": "BC33",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2422,7 +2622,8 @@
         "para_number": "BC34",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2435,7 +2636,8 @@
         "para_number": "BC35",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2448,7 +2650,10 @@
         "para_number": "BC36",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1008"
+        ]
       }
     },
     {
@@ -2459,9 +2664,14 @@
         "standard_id": "실무서 2 중요성",
         "section_type": "bc",
         "para_number": "BC37",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단41"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1008"
+        ]
       }
     },
     {
@@ -2474,7 +2684,8 @@
         "para_number": "BC38",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2485,9 +2696,14 @@
         "standard_id": "실무서 2 중요성",
         "section_type": "bc",
         "para_number": "BC39",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단28"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1037"
+        ]
       }
     },
     {
@@ -2500,7 +2716,8 @@
         "para_number": "BC40",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2513,7 +2730,8 @@
         "para_number": "BC41",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2526,7 +2744,10 @@
         "para_number": "BC41A",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1001"
+        ]
       }
     },
     {
@@ -2539,7 +2760,10 @@
         "para_number": "BC41B",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1001"
+        ]
       }
     },
     {
@@ -2550,7 +2774,11 @@
         "standard_id": "실무서 2 중요성",
         "section_type": "bc",
         "para_number": "BC41C",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단33",
+          "문단88C",
+          "문단88C~88E"
+        ],
         "has_table": false,
         "has_example": false,
         "sentences": [
@@ -2575,6 +2803,9 @@
           "정보 ( 사례 S 참조 )",
           "㈏ IFRS 기준서의 요구사항만을 반복하거나 요약하는 회계정책",
           "정보 ( 사례 T 참조 )"
+        ],
+        "referenced_standards": [
+          "1001"
         ]
       }
     },
@@ -2588,7 +2819,12 @@
         "para_number": "BC41D",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1001",
+          "1036",
+          "1115"
+        ]
       }
     },
     {
@@ -2599,9 +2835,12 @@
         "standard_id": "실무서 2 중요성",
         "section_type": "bc",
         "para_number": "BC41E",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단88F"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2614,7 +2853,8 @@
         "para_number": "BC41F",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2627,7 +2867,8 @@
         "para_number": "BC42",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2640,7 +2881,8 @@
         "para_number": "BC43",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2653,7 +2895,8 @@
         "para_number": "BC44",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2666,7 +2909,8 @@
         "para_number": "BC45",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2677,9 +2921,12 @@
         "standard_id": "실무서 2 중요성",
         "section_type": "bc",
         "para_number": "BC46",
-        "cross_refs": [],
+        "cross_refs": [
+          "개념체계"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2690,7 +2937,11 @@
         "standard_id": "실무서 2 중요성",
         "section_type": "bc",
         "para_number": null,
-        "cross_refs": [],
+        "cross_refs": [
+          "개념체계",
+          "제1001호",
+          "제1008호"
+        ],
         "has_table": true,
         "has_example": false,
         "sentences": [
@@ -2748,6 +2999,10 @@
           "것은 아니다 .",
           "-",
           "88"
+        ],
+        "referenced_standards": [
+          "1001",
+          "1008"
         ]
       }
     }

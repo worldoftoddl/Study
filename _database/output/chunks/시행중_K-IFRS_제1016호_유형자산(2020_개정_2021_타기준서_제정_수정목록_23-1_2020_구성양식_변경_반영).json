@@ -408,9 +408,16 @@
         "standard_id": "K-IFRS 1016",
         "section_type": "main",
         "para_number": null,
-        "cross_refs": [],
+        "cross_refs": [
+          "개념체계",
+          "문단1~83",
+          "제1008호"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1008"
+        ]
       }
     },
     {
@@ -423,7 +430,8 @@
         "para_number": "1",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -436,7 +444,8 @@
         "para_number": null,
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -449,7 +458,8 @@
         "para_number": null,
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -460,9 +470,18 @@
         "standard_id": "K-IFRS 1016",
         "section_type": "main",
         "para_number": "3",
-        "cross_refs": [],
+        "cross_refs": [
+          "제1041호",
+          "제1105호",
+          "제1106호"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1041",
+          "1105",
+          "1106"
+        ]
       }
     },
     {
@@ -473,9 +492,14 @@
         "standard_id": "K-IFRS 1016",
         "section_type": "main",
         "para_number": "5",
-        "cross_refs": [],
+        "cross_refs": [
+          "제1040호"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1040"
+        ]
       }
     },
     {
@@ -525,7 +549,8 @@
           "자산 금액",
           "회수가능액 자산의 처분부대원가를 뺀 공정가치와 자산의사용가",
           "치 중 더 많은 금액"
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -538,7 +563,8 @@
         "para_number": null,
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -551,7 +577,8 @@
         "para_number": "8",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -564,7 +591,8 @@
         "para_number": "9",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -577,7 +605,8 @@
         "para_number": "10",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -588,9 +617,14 @@
         "standard_id": "K-IFRS 1016",
         "section_type": "main",
         "para_number": "11",
-        "cross_refs": [],
+        "cross_refs": [
+          "제1036호"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1036"
+        ]
       }
     },
     {
@@ -601,9 +635,12 @@
         "standard_id": "K-IFRS 1016",
         "section_type": "main",
         "para_number": "12",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단7"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -614,9 +651,13 @@
         "standard_id": "K-IFRS 1016",
         "section_type": "main",
         "para_number": "13",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단67~72",
+          "문단7"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -629,7 +670,8 @@
         "para_number": "14",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -642,7 +684,8 @@
         "para_number": null,
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -655,7 +698,8 @@
         "para_number": "16",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -666,9 +710,14 @@
         "standard_id": "K-IFRS 1016",
         "section_type": "main",
         "para_number": "17",
-        "cross_refs": [],
+        "cross_refs": [
+          "제1019호"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1019"
+        ]
       }
     },
     {
@@ -679,9 +728,14 @@
         "standard_id": "K-IFRS 1016",
         "section_type": "main",
         "para_number": "18",
-        "cross_refs": [],
+        "cross_refs": [
+          "제1002호"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1002"
+        ]
       }
     },
     {
@@ -692,9 +746,14 @@
         "standard_id": "K-IFRS 1016",
         "section_type": "main",
         "para_number": "1016",
-        "cross_refs": [],
+        "cross_refs": [
+          "제1037호"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1037"
+        ]
       }
     },
     {
@@ -707,7 +766,8 @@
         "para_number": "19",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -744,7 +804,8 @@
           "하여 얻은 매각금액과 그 재화의 원가는 적용 가능한 기준서에 따",
           "라 당기손익으로 인식한다 .",
           "그 재화의 원가는 기업회계기준서 제"
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -757,7 +818,8 @@
         "para_number": "1002",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -770,7 +832,8 @@
         "para_number": "21",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -781,7 +844,10 @@
         "standard_id": "K-IFRS 1016",
         "section_type": "main",
         "para_number": "22",
-        "cross_refs": [],
+        "cross_refs": [
+          "제1002호",
+          "제1023호"
+        ],
         "has_table": false,
         "has_example": false,
         "sentences": [
@@ -806,6 +872,10 @@
           "으로 이해하여야 한다 .",
           "원가의 측정",
           "- 16"
+        ],
+        "referenced_standards": [
+          "1002",
+          "1023"
         ]
       }
     },
@@ -817,9 +887,14 @@
         "standard_id": "K-IFRS 1016",
         "section_type": "main",
         "para_number": "23",
-        "cross_refs": [],
+        "cross_refs": [
+          "제1023호"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1023"
+        ]
       }
     },
     {
@@ -832,7 +907,8 @@
         "para_number": "24",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -845,7 +921,8 @@
         "para_number": "25",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -858,7 +935,8 @@
         "para_number": "26",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -869,9 +947,14 @@
         "standard_id": "K-IFRS 1016",
         "section_type": "main",
         "para_number": "28",
-        "cross_refs": [],
+        "cross_refs": [
+          "제1020호"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1020"
+        ]
       }
     },
     {
@@ -882,7 +965,11 @@
         "standard_id": "K-IFRS 1016",
         "section_type": "main",
         "para_number": null,
-        "cross_refs": [],
+        "cross_refs": [
+          "문단29A",
+          "제1040호",
+          "제1117호"
+        ],
         "has_table": false,
         "has_example": false,
         "sentences": [
@@ -923,6 +1010,10 @@
           "32 [ 국제회계기준위원회에 의하여 삭제됨 ]",
           "33 [ 국제회계기준위원회에 의하여 삭제됨 ]",
           "- 19"
+        ],
+        "referenced_standards": [
+          "1040",
+          "1117"
         ]
       }
     },
@@ -936,7 +1027,8 @@
         "para_number": "34",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -947,9 +1039,12 @@
         "standard_id": "K-IFRS 1016",
         "section_type": "main",
         "para_number": "35",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단39"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -962,7 +1057,8 @@
         "para_number": "37",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -975,7 +1071,8 @@
         "para_number": "38",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -988,7 +1085,8 @@
         "para_number": "41",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -999,9 +1097,14 @@
         "standard_id": "K-IFRS 1016",
         "section_type": "main",
         "para_number": "42",
-        "cross_refs": [],
+        "cross_refs": [
+          "제1012호"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1012"
+        ]
       }
     },
     {
@@ -1014,7 +1117,8 @@
         "para_number": "44",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1027,7 +1131,8 @@
         "para_number": "45",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1040,7 +1145,8 @@
         "para_number": "46",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1053,7 +1159,8 @@
         "para_number": "47",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1066,7 +1173,8 @@
         "para_number": "49",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1077,9 +1185,14 @@
         "standard_id": "K-IFRS 1016",
         "section_type": "main",
         "para_number": "1002",
-        "cross_refs": [],
+        "cross_refs": [
+          "제1038호"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1038"
+        ]
       }
     },
     {
@@ -1092,7 +1205,8 @@
         "para_number": "52",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1105,7 +1219,8 @@
         "para_number": "53",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1118,7 +1233,8 @@
         "para_number": "54",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1129,9 +1245,14 @@
         "standard_id": "K-IFRS 1016",
         "section_type": "main",
         "para_number": "55",
-        "cross_refs": [],
+        "cross_refs": [
+          "제1105호"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1105"
+        ]
       }
     },
     {
@@ -1170,7 +1291,8 @@
           "⑷",
           "리스계약의 만료일 등 자산의 사용에 대한 법적 또는 이와 유",
           "사한 제한"
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -1183,7 +1305,8 @@
         "para_number": "57",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1196,7 +1319,8 @@
         "para_number": "58",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1209,7 +1333,8 @@
         "para_number": "59",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1251,7 +1376,8 @@
           "수익의 가격 요소는 자산이 소비되는",
           "방식과 관계가 없는 인플레이션에 영향을 받을 수 있다 .",
           "손상"
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -1262,9 +1388,14 @@
         "standard_id": "K-IFRS 1016",
         "section_type": "main",
         "para_number": "1036",
-        "cross_refs": [],
+        "cross_refs": [
+          "제1036호"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1036"
+        ]
       }
     },
     {
@@ -1275,9 +1406,14 @@
         "standard_id": "K-IFRS 1016",
         "section_type": "main",
         "para_number": "66",
-        "cross_refs": [],
+        "cross_refs": [
+          "제1036호"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1036"
+        ]
       }
     },
     {
@@ -1288,9 +1424,14 @@
         "standard_id": "K-IFRS 1016",
         "section_type": "main",
         "para_number": null,
-        "cross_refs": [],
+        "cross_refs": [
+          "제1115호"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1115"
+        ]
       }
     },
     {
@@ -1301,7 +1442,11 @@
         "standard_id": "K-IFRS 1016",
         "section_type": "main",
         "para_number": "69",
-        "cross_refs": [],
+        "cross_refs": [
+          "개념체계",
+          "제1115호",
+          "제1116호"
+        ],
         "has_table": false,
         "has_example": false,
         "sentences": [
@@ -1318,6 +1463,10 @@
           "차익은 흔히 관련 비용을 차감한 금액으로 보고되므로,\n‘ 차익 (gains) 은 수익 (revenue) 으로 분류하지 않는다 ’ 는 차익을 통상적 활동에서 발생하는 경제적 효익\n의 총 유입액을 의미하는 수익으로 분류하지 않는다는 의미이다 .",
           "-",
           "28"
+        ],
+        "referenced_standards": [
+          "1115",
+          "1116"
         ]
       }
     },
@@ -1329,9 +1478,12 @@
         "standard_id": "K-IFRS 1016",
         "section_type": "main",
         "para_number": "70",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단7"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1342,9 +1494,15 @@
         "standard_id": "K-IFRS 1016",
         "section_type": "main",
         "para_number": "72",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단47~72",
+          "제1115호"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1115"
+        ]
       }
     },
     {
@@ -1394,7 +1552,8 @@
           "과 원가 그리고 그 매각금액과 원가가 포함되어 있는 포괄손익",
           "계산서의 개별 항목",
           "- 30"
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -1407,7 +1566,8 @@
         "para_number": "75",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1418,9 +1578,14 @@
         "standard_id": "K-IFRS 1016",
         "section_type": "main",
         "para_number": "76",
-        "cross_refs": [],
+        "cross_refs": [
+          "제1008호"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1008"
+        ]
       }
     },
     {
@@ -1431,9 +1596,15 @@
         "standard_id": "K-IFRS 1016",
         "section_type": "main",
         "para_number": "78",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단73",
+          "제1036호"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1036"
+        ]
       }
     },
     {
@@ -1444,9 +1615,14 @@
         "standard_id": "K-IFRS 1016",
         "section_type": "main",
         "para_number": "79",
-        "cross_refs": [],
+        "cross_refs": [
+          "제1105호"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1105"
+        ]
       }
     },
     {
@@ -1457,7 +1633,13 @@
         "standard_id": "K-IFRS 1016",
         "section_type": "main",
         "para_number": null,
-        "cross_refs": [],
+        "cross_refs": [
+          "문단17",
+          "문단20A",
+          "문단35",
+          "제1008호",
+          "제1041호"
+        ],
         "has_table": false,
         "has_example": false,
         "sentences": [
@@ -1494,6 +1676,10 @@
           "이 개정내용의 최초 적용 누적효과는 표시되",
           "는 가장 이른 기간의 시작일에 이익잉여금 ( 또는 적절하다면 자본의",
           "다른 구성요소 ) 의 기초 잔액을 조정하여 인식한다 ."
+        ],
+        "referenced_standards": [
+          "1008",
+          "1041"
         ]
       }
     },
@@ -1505,9 +1691,19 @@
         "standard_id": "K-IFRS 1016",
         "section_type": "main",
         "para_number": null,
-        "cross_refs": [],
+        "cross_refs": [
+          "문단26",
+          "문단44",
+          "문단6",
+          "제1103호",
+          "제1113호"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1103",
+          "1113"
+        ]
       }
     },
     {
@@ -1518,9 +1714,19 @@
         "standard_id": "K-IFRS 1016",
         "section_type": "main",
         "para_number": "77",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단32",
+          "문단35",
+          "문단80A",
+          "제1008호",
+          "제1113호"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1008",
+          "1113"
+        ]
       }
     },
     {
@@ -1531,7 +1737,13 @@
         "standard_id": "K-IFRS 1016",
         "section_type": "main",
         "para_number": "2014",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단56",
+          "문단62A",
+          "문단68A",
+          "제1038호",
+          "제1115호"
+        ],
         "has_table": false,
         "has_example": false,
         "sentences": [
@@ -1551,6 +1763,10 @@
           "이 개정 내용",
           "은 기업회계기준서 제 1115 호를 적용할 때 적용한다 .",
           "81K 2015 년 11 월에 공표한 ‘ 농림어업 : 생산용식물 ( 기업회계기준서 제"
+        ],
+        "referenced_standards": [
+          "1038",
+          "1115"
         ]
       }
     },
@@ -1562,9 +1778,22 @@
         "standard_id": "K-IFRS 1016",
         "section_type": "main",
         "para_number": "1016",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단3",
+          "문단4",
+          "문단80B~80C",
+          "문단80C",
+          "제1008호",
+          "제1041호",
+          "제1116호"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1008",
+          "1041",
+          "1116"
+        ]
       }
     },
     {
@@ -1575,9 +1804,20 @@
         "standard_id": "K-IFRS 1016",
         "section_type": "main",
         "para_number": "27",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단17",
+          "문단20A",
+          "문단29A",
+          "문단5",
+          "제1116호",
+          "제1117호"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1116",
+          "1117"
+        ]
       }
     },
     {
@@ -1588,9 +1828,15 @@
         "standard_id": "K-IFRS 1016",
         "section_type": "main",
         "para_number": "1117",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단29A",
+          "제1117호"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1117"
+        ]
       }
     },
     {
@@ -1603,7 +1849,8 @@
         "para_number": null,
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1616,7 +1863,8 @@
         "para_number": null,
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1629,7 +1877,8 @@
         "para_number": null,
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1642,7 +1891,8 @@
         "para_number": null,
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1655,7 +1905,8 @@
         "para_number": "BC1",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1668,7 +1919,8 @@
         "para_number": "BC2",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1680,11 +1932,13 @@
         "section_type": "bc",
         "para_number": "BC2A",
         "cross_refs": [
-          "BC117",
-          "BC38"
+          "BC38~BC117"
         ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1041"
+        ]
       }
     },
     {
@@ -1697,7 +1951,8 @@
         "para_number": "BC3",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1710,7 +1965,8 @@
         "para_number": "BC4",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1723,7 +1979,8 @@
         "para_number": "BC5",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1734,9 +1991,12 @@
         "standard_id": "K-IFRS 1016",
         "section_type": "bc",
         "para_number": "BC6",
-        "cross_refs": [],
+        "cross_refs": [
+          "개념체계"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1749,7 +2009,8 @@
         "para_number": "BC7",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1762,7 +2023,8 @@
         "para_number": "BC8",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1775,7 +2037,8 @@
         "para_number": "BC9",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1816,7 +2079,8 @@
           "부에서는 신규 유형자산의 최초 원가로 볼 수도 있는 반면에",
           "다른 일부에서는 기존 유형자산의 후속 원가로 볼 수도 있기",
           "때문이다 ."
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -1829,7 +2093,8 @@
         "para_number": "BC11",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1842,7 +2107,8 @@
         "para_number": "BC12",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1853,7 +2119,9 @@
         "standard_id": "K-IFRS 1016",
         "section_type": "bc",
         "para_number": "BC12A",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단8"
+        ],
         "has_table": false,
         "has_example": false,
         "sentences": [
@@ -1877,7 +2145,8 @@
           "항목과 연계되어 사용되는 경우에만 유형자산으로 회계처리하는",
           "규정을 삭제하였는데 이 규정이 유형자산의 정의에 비추어 볼 때",
           "과도하게 제한적이었기 때문이다 ."
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -1890,7 +2159,8 @@
         "para_number": "BC13",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1903,7 +2173,8 @@
         "para_number": "BC14",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1935,6 +2206,9 @@
           "여 생산 기간 동안 감가상각하면서, 감가상각액을 다른 자산 ( 재고",
           "자산 ) 을 생산하는 원가로 식별하여 당해 감가상각액이 그 다른 자",
           "산의 원가 중 일부를 구성하는 것과 동일한 결과에 이를 수 있다 ."
+        ],
+        "referenced_standards": [
+          "1002"
         ]
       }
     },
@@ -1948,7 +2222,8 @@
         "para_number": "BC16",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1959,9 +2234,12 @@
         "standard_id": "K-IFRS 1016",
         "section_type": "bc",
         "para_number": "BC16A",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단17"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1972,9 +2250,12 @@
         "standard_id": "K-IFRS 1016",
         "section_type": "bc",
         "para_number": "BC16B",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단17"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -1986,10 +2267,12 @@
         "section_type": "bc",
         "para_number": "BC16C",
         "cross_refs": [
-          "BC16B"
+          "BC16B",
+          "문단17"
         ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2000,9 +2283,12 @@
         "standard_id": "K-IFRS 1016",
         "section_type": "bc",
         "para_number": "BC16D",
-        "cross_refs": [],
+        "cross_refs": [
+          "개념체계"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2015,7 +2301,8 @@
         "para_number": "BC16E",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2028,7 +2315,8 @@
         "para_number": "BC16F",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2040,11 +2328,12 @@
         "section_type": "bc",
         "para_number": "BC16G",
         "cross_refs": [
-          "BC16L",
-          "BC16M"
+          "BC16L~BC16M",
+          "문단74A"
         ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2057,7 +2346,8 @@
         "para_number": "BC16H",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2070,7 +2360,10 @@
         "para_number": "BC16I",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1002"
+        ]
       }
     },
     {
@@ -2083,7 +2376,10 @@
         "para_number": "BC16J",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1002"
+        ]
       }
     },
     {
@@ -2096,7 +2392,10 @@
         "para_number": "BC16K",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1002"
+        ]
       }
     },
     {
@@ -2107,9 +2406,12 @@
         "standard_id": "K-IFRS 1016",
         "section_type": "bc",
         "para_number": "BC16L",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단74A"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2122,7 +2424,11 @@
         "para_number": "BC16M",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1002",
+          "1115"
+        ]
       }
     },
     {
@@ -2135,7 +2441,10 @@
         "para_number": "BC16N",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1001"
+        ]
       }
     },
     {
@@ -2148,7 +2457,10 @@
         "para_number": "BC16O",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1001"
+        ]
       }
     },
     {
@@ -2160,10 +2472,12 @@
         "section_type": "bc",
         "para_number": "BC16P",
         "cross_refs": [
-          "BC16B"
+          "BC16B",
+          "문단20"
         ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2176,7 +2490,8 @@
         "para_number": "BC16Q",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2187,9 +2502,12 @@
         "standard_id": "K-IFRS 1016",
         "section_type": "bc",
         "para_number": "BC16R",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단17"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2200,9 +2518,12 @@
         "standard_id": "K-IFRS 1016",
         "section_type": "bc",
         "para_number": "BC17",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단22"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2215,7 +2536,8 @@
         "para_number": "BC18",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2228,7 +2550,8 @@
         "para_number": "BC19",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2241,7 +2564,8 @@
         "para_number": "BC20",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2254,7 +2578,8 @@
         "para_number": "BC21",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2267,7 +2592,8 @@
         "para_number": "BC22",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2280,7 +2606,8 @@
         "para_number": "BC23",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2293,7 +2620,8 @@
         "para_number": "BC24",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2306,7 +2634,8 @@
         "para_number": "BC25",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2319,7 +2648,8 @@
         "para_number": "BC25A",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2330,9 +2660,12 @@
         "standard_id": "K-IFRS 1016",
         "section_type": "bc",
         "para_number": "BC25B",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단35"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2345,7 +2678,8 @@
         "para_number": "BC25C",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2356,9 +2690,14 @@
         "standard_id": "K-IFRS 1016",
         "section_type": "bc",
         "para_number": "BC25D",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단35"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1008"
+        ]
       }
     },
     {
@@ -2369,9 +2708,12 @@
         "standard_id": "K-IFRS 1016",
         "section_type": "bc",
         "para_number": "BC25E",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단6"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2386,7 +2728,8 @@
           "BC25D"
         ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2397,9 +2740,12 @@
         "standard_id": "K-IFRS 1016",
         "section_type": "bc",
         "para_number": "BC25G",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단35"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2410,9 +2756,12 @@
         "standard_id": "K-IFRS 1016",
         "section_type": "bc",
         "para_number": "BC25H",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단35"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2423,9 +2772,12 @@
         "standard_id": "K-IFRS 1016",
         "section_type": "bc",
         "para_number": "BC25I",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단35"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2436,9 +2788,16 @@
         "standard_id": "K-IFRS 1016",
         "section_type": "bc",
         "para_number": "BC25J",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단119",
+          "문단35",
+          "문단39"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1036"
+        ]
       }
     },
     {
@@ -2451,7 +2810,8 @@
         "para_number": "BC26",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2464,7 +2824,8 @@
         "para_number": "BC27",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2477,7 +2838,8 @@
         "para_number": "BC28",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2511,7 +2873,8 @@
           "나 손상의 효과 외에 잔존가치가 미래에 변동할 것이라는 예상은",
           "감가상각대상금액에 영향을 주지 않는다 .",
           "감가상각 감가상각기간"
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -2524,7 +2887,8 @@
         "para_number": "BC30",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2537,7 +2901,8 @@
         "para_number": "BC31",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2570,7 +2935,8 @@
           "IASB 는 ED4 가 확정될 때 이에 맞추어 IAS",
           "16 을 개정할 것이다 .",
           "감가상각 감가상각방법"
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -2583,7 +2949,8 @@
         "para_number": "BC33",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2594,9 +2961,14 @@
         "standard_id": "K-IFRS 1016",
         "section_type": "bc",
         "para_number": "BC33A",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단97"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1038"
+        ]
       }
     },
     {
@@ -2609,7 +2981,8 @@
         "para_number": "BC33B",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2620,9 +2993,12 @@
         "standard_id": "K-IFRS 1016",
         "section_type": "bc",
         "para_number": "BC33C",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단60"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2635,7 +3011,10 @@
         "para_number": "BC33D",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1038"
+        ]
       }
     },
     {
@@ -2646,9 +3025,12 @@
         "standard_id": "K-IFRS 1016",
         "section_type": "bc",
         "para_number": "BC33E",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단60"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2659,9 +3041,12 @@
         "standard_id": "K-IFRS 1016",
         "section_type": "bc",
         "para_number": "BC33F",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단62"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2674,7 +3059,8 @@
         "para_number": "BC33G",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2689,7 +3075,11 @@
           "BC65"
         ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1040",
+          "1117"
+        ]
       }
     },
     {
@@ -2702,7 +3092,8 @@
         "para_number": "BC34",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2713,9 +3104,12 @@
         "standard_id": "K-IFRS 1016",
         "section_type": "bc",
         "para_number": null,
-        "cross_refs": [],
+        "cross_refs": [
+          "문단69"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2728,7 +3122,8 @@
         "para_number": "BC35",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2741,7 +3136,8 @@
         "para_number": "BC35A",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2756,7 +3152,8 @@
           "BC35"
         ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2768,11 +3165,12 @@
         "section_type": "bc",
         "para_number": "BC35C",
         "cross_refs": [
-          "BC35A",
-          "BC35F"
+          "BC35A~BC35F",
+          "문단6"
         ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2785,7 +3183,10 @@
         "para_number": "BC35D",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1002"
+        ]
       }
     },
     {
@@ -2796,9 +3197,14 @@
         "standard_id": "K-IFRS 1016",
         "section_type": "bc",
         "para_number": "BC35E",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단14"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1007"
+        ]
       }
     },
     {
@@ -2811,7 +3217,10 @@
         "para_number": "BC36",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1008"
+        ]
       }
     },
     {
@@ -2822,9 +3231,12 @@
         "standard_id": "K-IFRS 1016",
         "section_type": "bc",
         "para_number": "BC36A",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단35"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2837,7 +3249,10 @@
         "para_number": "BC36B",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1008"
+        ]
       }
     },
     {
@@ -2850,7 +3265,10 @@
         "para_number": "BC36C",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1008"
+        ]
       }
     },
     {
@@ -2863,7 +3281,10 @@
         "para_number": "BC36D",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1101"
+        ]
       }
     },
     {
@@ -2913,6 +3334,14 @@
           "-",
           "71",
           "개요"
+        ],
+        "referenced_standards": [
+          "1034",
+          "1036",
+          "1037",
+          "1038",
+          "1040",
+          "1101"
         ]
       }
     },
@@ -2926,7 +3355,8 @@
         "para_number": "BC38",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2939,7 +3369,10 @@
         "para_number": "BC39",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1041"
+        ]
       }
     },
     {
@@ -2950,9 +3383,14 @@
         "standard_id": "K-IFRS 1016",
         "section_type": "bc",
         "para_number": "BC40",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단43~44"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1041"
+        ]
       }
     },
     {
@@ -2965,7 +3403,8 @@
         "para_number": "BC41",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -2980,7 +3419,10 @@
           "BC41"
         ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1041"
+        ]
       }
     },
     {
@@ -2993,7 +3435,10 @@
         "para_number": "BC43",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1041"
+        ]
       }
     },
     {
@@ -3035,7 +3480,8 @@
           "더 포괄적인 프로젝트를 진행하기 위해서는 IASB",
           "안건에 여유가 생기기를 기다려야 했을 것이고, 일단 시작되더",
           "라도 여러 해가 걸렸을 것이다 ."
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -3047,11 +3493,11 @@
         "section_type": "bc",
         "para_number": "BC45",
         "cross_refs": [
-          "BC117",
-          "BC99"
+          "BC99~BC117"
         ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -3063,14 +3509,14 @@
         "section_type": "bc",
         "para_number": "BC46",
         "cross_refs": [
-          "BC54",
-          "BC58",
-          "BC75",
-          "BC78",
-          "BC82"
+          "BC54~BC58",
+          "BC75~BC78",
+          "BC82",
+          "문단16"
         ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -3082,14 +3528,18 @@
         "section_type": "bc",
         "para_number": "BC47",
         "cross_refs": [
-          "BC117",
-          "BC48",
+          "BC48~BC117",
           "BC62",
           "BC96",
-          "BC97"
+          "BC97",
+          "문단28"
         ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1008",
+          "1041"
+        ]
       }
     },
     {
@@ -3131,6 +3581,9 @@
           "only).",
           "이것은 가축이 아닌 식물만 포함한다는 것을 제외하면",
           "대안 2 와 같다 ."
+        ],
+        "referenced_standards": [
+          "1041"
         ]
       }
     },
@@ -3144,7 +3597,10 @@
         "para_number": "BC49",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1041"
+        ]
       }
     },
     {
@@ -3157,7 +3613,10 @@
         "para_number": "BC50",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1041"
+        ]
       }
     },
     {
@@ -3190,7 +3649,8 @@
           "농장 전체일 것이다 .",
           "이러한 이유로 IASB 는 생산용 생물자산으로",
           "만 사용하는 생물자산만으로 범위를 제한하기로 결정하였다 ."
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -3205,7 +3665,10 @@
           "BC51"
         ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1041"
+        ]
       }
     },
     {
@@ -3217,11 +3680,11 @@
         "section_type": "bc",
         "para_number": "BC53",
         "cross_refs": [
-          "BC49",
-          "BC52"
+          "BC49~BC52"
         ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -3234,11 +3697,11 @@
         "para_number": "BC54",
         "cross_refs": [
           "BC41",
-          "BC63",
-          "BC68"
+          "BC63~BC68"
         ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -3251,7 +3714,10 @@
         "para_number": "BC55",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1041"
+        ]
       }
     },
     {
@@ -3266,7 +3732,8 @@
           "BC52"
         ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -3279,7 +3746,10 @@
         "para_number": "BC57",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1041"
+        ]
       }
     },
     {
@@ -3292,7 +3762,8 @@
         "para_number": "BC58",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -3305,7 +3776,8 @@
         "para_number": "BC59",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -3318,7 +3790,8 @@
         "para_number": "BC60",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -3331,7 +3804,8 @@
         "para_number": "BC61",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -3344,7 +3818,8 @@
         "para_number": "BC62",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -3357,11 +3832,11 @@
         "para_number": "BC63",
         "cross_refs": [
           "BC41",
-          "BC64",
-          "BC68"
+          "BC64~BC68"
         ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -3374,7 +3849,10 @@
         "para_number": "BC64",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1041"
+        ]
       }
     },
     {
@@ -3387,7 +3865,8 @@
         "para_number": "BC65",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -3400,7 +3879,8 @@
         "para_number": "BC66",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -3411,9 +3891,12 @@
         "standard_id": "K-IFRS 1016",
         "section_type": "bc",
         "para_number": "BC67",
-        "cross_refs": [],
+        "cross_refs": [
+          "개념체계"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -3424,7 +3907,9 @@
         "standard_id": "K-IFRS 1016",
         "section_type": "bc",
         "para_number": "BC68",
-        "cross_refs": [],
+        "cross_refs": [
+          "개념체계"
+        ],
         "has_table": false,
         "has_example": false,
         "sentences": [
@@ -3454,6 +3939,9 @@
           "⑶",
           "생산용식물의 공정가치 정보는 관련되는 토지, 토지개량, 농기",
           "계 등의 공정가치 정보가 없으면 매우 유용하지는 않다 ."
+        ],
+        "referenced_standards": [
+          "1041"
         ]
       }
     },
@@ -3466,10 +3954,8 @@
         "section_type": "bc",
         "para_number": "BC69",
         "cross_refs": [
-          "BC63",
-          "BC68",
-          "BC70",
-          "BC79"
+          "BC63~BC68",
+          "BC70~BC79"
         ],
         "has_table": false,
         "has_example": false,
@@ -3495,6 +3981,9 @@
           "IASB 의 결론을 지지하는 이유를 설명한다 .",
           "성숙 전 생산용식물의 회계처리",
           "- 82"
+        ],
+        "referenced_standards": [
+          "1041"
         ]
       }
     },
@@ -3508,7 +3997,8 @@
         "para_number": "BC70",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -3521,7 +4011,10 @@
         "para_number": "BC71",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1041"
+        ]
       }
     },
     {
@@ -3534,7 +4027,10 @@
         "para_number": "BC72",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1041"
+        ]
       }
     },
     {
@@ -3547,7 +4043,8 @@
         "para_number": "BC73",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -3560,7 +4057,8 @@
         "para_number": "BC74",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -3573,7 +4071,8 @@
         "para_number": "BC75",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -3586,7 +4085,10 @@
         "para_number": "BC76",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1041"
+        ]
       }
     },
     {
@@ -3597,9 +4099,15 @@
         "standard_id": "K-IFRS 1016",
         "section_type": "bc",
         "para_number": "BC77",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단10",
+          "문단30"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1041"
+        ]
       }
     },
     {
@@ -3612,7 +4120,10 @@
         "para_number": "BC78",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1041"
+        ]
       }
     },
     {
@@ -3625,7 +4136,8 @@
         "para_number": "BC79",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -3638,7 +4150,8 @@
         "para_number": "BC80",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -3651,7 +4164,8 @@
         "para_number": "BC81",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -3662,7 +4176,9 @@
         "standard_id": "K-IFRS 1016",
         "section_type": "bc",
         "para_number": "BC82",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단16"
+        ],
         "has_table": false,
         "has_example": false,
         "sentences": [
@@ -3686,7 +4202,8 @@
           "따라서 IASB 는 성숙 시점과 관련한 지침은 추가하지 않기로 결정",
           "하였다 .",
           "원가모형의 그 밖의 인식 및 측정 규정"
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -3698,7 +4215,9 @@
         "section_type": "bc",
         "para_number": "BC83",
         "cross_refs": [
-          "BC62"
+          "BC62",
+          "문단17",
+          "문단7"
         ],
         "has_table": false,
         "has_example": false,
@@ -3734,6 +4253,9 @@
           "IASB 는 특히 생산용식물 정의의 기준 ‘⑶’ 을 ‘ 수확물로\n\n                 - 87\n\n판매될 가능성이 희박하다 ( 부수적인 폐물로 판매하는 경우는\n\n제외한다 )’ 로 변경하기로 한 IASB 의 결정을 고려하면 생산용",
           "식물이 IAS 16 과 IAS 41 간에 재분류되는 것은 드물 것이라",
           "는 점에 주목하였다 ( 문단 BC62 참조 )."
+        ],
+        "referenced_standards": [
+          "1041"
         ]
       }
     },
@@ -3747,7 +4269,8 @@
         "para_number": "BC84",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -3760,7 +4283,12 @@
         "para_number": "BC85",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1020",
+          "1023",
+          "1036"
+        ]
       }
     },
     {
@@ -3773,7 +4301,8 @@
         "para_number": "BC86",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -3786,7 +4315,8 @@
         "para_number": "BC87",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -3799,7 +4329,8 @@
         "para_number": "BC88",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -3812,7 +4343,8 @@
         "para_number": "BC89",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -3823,7 +4355,9 @@
         "standard_id": "K-IFRS 1016",
         "section_type": "bc",
         "para_number": "BC90",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단46"
+        ],
         "has_table": false,
         "has_example": false,
         "sentences": [
@@ -3856,6 +4390,9 @@
           "따라서 IASB 는 IAS",
           "41 문단 46 의 공시 규정을 IAS 16 에 추가하지 않기로 결정하",
           "였다 ."
+        ],
+        "referenced_standards": [
+          "1041"
         ]
       }
     },
@@ -3867,9 +4404,14 @@
         "standard_id": "K-IFRS 1016",
         "section_type": "bc",
         "para_number": "BC91",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단46"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1041"
+        ]
       }
     },
     {
@@ -3882,7 +4424,8 @@
         "para_number": "BC92",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -3897,7 +4440,8 @@
           "BC103"
         ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -3910,7 +4454,8 @@
         "para_number": "BC94",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -3923,7 +4468,8 @@
         "para_number": "BC95",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -3936,7 +4482,10 @@
         "para_number": "BC96",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1041"
+        ]
       }
     },
     {
@@ -3947,9 +4496,15 @@
         "standard_id": "K-IFRS 1016",
         "section_type": "bc",
         "para_number": "BC97",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단28"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1008",
+          "1041"
+        ]
       }
     },
     {
@@ -3961,11 +4516,13 @@
         "section_type": "bc",
         "para_number": "BC98",
         "cross_refs": [
-          "BC63",
-          "BC68"
+          "BC63~BC68"
         ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1101"
+        ]
       }
     },
     {
@@ -3978,7 +4535,8 @@
         "para_number": "BC99",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -3991,7 +4549,8 @@
         "para_number": "BC100",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -4004,7 +4563,8 @@
         "para_number": "BC101",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -4016,11 +4576,11 @@
         "section_type": "bc",
         "para_number": "BC102",
         "cross_refs": [
-          "BC106",
-          "BC117"
+          "BC106~BC117"
         ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -4059,7 +4619,8 @@
           "없다면 재평가모형은 적용할 수 없을 것이다 .",
           "-",
           "94"
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -4071,11 +4632,13 @@
         "section_type": "bc",
         "para_number": "BC104",
         "cross_refs": [
-          "BC106",
-          "BC117"
+          "BC106~BC117"
         ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1041"
+        ]
       }
     },
     {
@@ -4088,7 +4651,10 @@
         "para_number": "BC105",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1041"
+        ]
       }
     },
     {
@@ -4101,7 +4667,8 @@
         "para_number": "BC106",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -4132,7 +4699,8 @@
           "원가<br>모형을 적용하면 당기손<br>익에 미치는 영향(감가상<br>각과 손상)이 더 체계적<br>일 가능성이 높다.|",
           "개정 내용이 재무제표의 비교가능성에 어떻게 영향을 미치는지",
           "기업 간 비교가능성"
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -4187,6 +4755,9 @@
           "같은 생산용식물을 IFRS 전환일에 취득한 것 ( 예 : 그 날에 농장",
           "의 일부를 매입한 것 ) 과 같은 원가 정보를 보고함을 뜻한다 .",
           "개별 기업의 보고기간 간 비교가능성"
+        ],
+        "referenced_standards": [
+          "1041"
         ]
       }
     },
@@ -4200,7 +4771,10 @@
         "para_number": "BC109",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1041"
+        ]
       }
     },
     {
@@ -4213,7 +4787,8 @@
         "para_number": "BC110",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -4226,7 +4801,10 @@
         "para_number": "BC111",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1041"
+        ]
       }
     },
     {
@@ -4239,7 +4817,8 @@
         "para_number": "BC112",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -4252,7 +4831,8 @@
         "para_number": "BC113",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -4263,9 +4843,12 @@
         "standard_id": "K-IFRS 1016",
         "section_type": "bc",
         "para_number": "BC114",
-        "cross_refs": [],
+        "cross_refs": [
+          "개념체계"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -4280,7 +4863,10 @@
           "BC68"
         ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1041"
+        ]
       }
     },
     {
@@ -4292,8 +4878,7 @@
         "section_type": "bc",
         "para_number": "BC116",
         "cross_refs": [
-          "BC73",
-          "BC79"
+          "BC73~BC79"
         ],
         "has_table": false,
         "has_example": false,
@@ -4321,6 +4906,9 @@
           "능액을 추정하여야 한다 .",
           "자산이나 현금창출단위의 회수가능액",
           "은 순공정가치와 사용가치 중 큰 금액이다 ."
+        ],
+        "referenced_standards": [
+          "1036"
         ]
       }
     },
@@ -4367,6 +4955,9 @@
           "정가치 측정은 덜 빈번해질 것으로 예상한다 .",
           "-",
           "100"
+        ],
+        "referenced_standards": [
+          "1041"
         ]
       }
     },
@@ -4405,7 +4996,8 @@
           "는지를 설명하기 위하여 추가 지침을 포함해야 한다고 본다 .",
           "-",
           "101"
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -4649,6 +5241,9 @@
           "IASB 의 기준을 충족하지 못한다 .",
           "-",
           "108"
+        ],
+        "referenced_standards": [
+          "1041"
         ]
       }
     },
@@ -4660,7 +5255,9 @@
         "standard_id": "K-IFRS 1016",
         "section_type": "bc",
         "para_number": null,
-        "cross_refs": [],
+        "cross_refs": [
+          "문단81∼81B"
+        ],
         "has_table": false,
         "has_example": false,
         "sentences": [
@@ -4685,7 +5282,8 @@
           "호를 준수하면 동시에 IAS 16 을 준수하는 것이 된다 .",
           "-",
           "110"
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -4696,7 +5294,9 @@
         "standard_id": "K-IFRS 1016",
         "section_type": "bc",
         "para_number": null,
-        "cross_refs": [],
+        "cross_refs": [
+          "제1036호"
+        ],
         "has_table": false,
         "has_example": false,
         "sentences": [
@@ -4746,6 +5346,9 @@
           "가감하여 기말장부금액으로 조정한 내용 등을 공시하여야 한다 .",
           "-",
           "112"
+        ],
+        "referenced_standards": [
+          "1036"
         ]
       }
     },
@@ -4757,7 +5360,14 @@
         "standard_id": "K-IFRS 1016",
         "section_type": "bc",
         "para_number": null,
-        "cross_refs": [],
+        "cross_refs": [
+          "개념체계",
+          "제1103호",
+          "제1113호",
+          "제1115호",
+          "제1116호",
+          "제1117호"
+        ],
         "has_table": true,
         "has_example": false,
         "sentences": [
@@ -4782,6 +5392,14 @@
           "지하고, 의도한 방식으로 사용하기 전에 생산된 재화의 매각금액과 관련",
           "원가를 당기손익으로 인식",
           "- 114"
+        ],
+        "referenced_standards": [
+          "1038",
+          "1103",
+          "1113",
+          "1115",
+          "1116",
+          "1117"
         ]
       }
     }

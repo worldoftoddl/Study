@@ -147,9 +147,13 @@
         "standard_id": "K-IFRS 2025",
         "section_type": "main",
         "para_number": null,
-        "cross_refs": [],
+        "cross_refs": [
+          "기업회계기준해석서제2025호",
+          "문단24"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -160,9 +164,18 @@
         "standard_id": "K-IFRS 2025",
         "section_type": "main",
         "para_number": null,
-        "cross_refs": [],
+        "cross_refs": [
+          "제1001호",
+          "제1008호",
+          "제1012호"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1001",
+          "1008",
+          "1012"
+        ]
       }
     },
     {
@@ -175,7 +188,8 @@
         "para_number": "한1.1",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -188,7 +202,8 @@
         "para_number": "1",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -201,7 +216,8 @@
         "para_number": "2",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -214,7 +230,8 @@
         "para_number": "4",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -227,7 +244,8 @@
         "para_number": "한4.1",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -238,9 +256,12 @@
         "standard_id": "K-IFRS 2025",
         "section_type": "main",
         "para_number": null,
-        "cross_refs": [],
+        "cross_refs": [
+          "기업회계기준해석서제2025호"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -251,9 +272,14 @@
         "standard_id": "K-IFRS 2025",
         "section_type": "bc",
         "para_number": null,
-        "cross_refs": [],
+        "cross_refs": [
+          "제1012호"
+        ],
         "has_table": true,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1012"
+        ]
       }
     },
     {
@@ -264,7 +290,14 @@
         "standard_id": "K-IFRS 2025",
         "section_type": "bc",
         "para_number": null,
-        "cross_refs": [],
+        "cross_refs": [
+          "문단58",
+          "문단61A",
+          "문단62",
+          "문단62A",
+          "문단63",
+          "문단65"
+        ],
         "has_table": false,
         "has_example": false,
         "sentences": [
@@ -316,6 +349,9 @@
           "수있다고언급하고있다.",
           "-",
           "14"
+        ],
+        "referenced_standards": [
+          "1012"
         ]
       }
     },
@@ -327,7 +363,9 @@
         "standard_id": "K-IFRS 2025",
         "section_type": "bc",
         "para_number": null,
-        "cross_refs": [],
+        "cross_refs": [
+          "기업회계기준해석서제2025호"
+        ],
         "has_table": false,
         "has_example": false,
         "sentences": [
@@ -352,7 +390,8 @@
           "2025호를준수하면동시에 SIC 25를준수하는것이된다.",
           "-",
           "16"
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -365,7 +404,8 @@
         "para_number": null,
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -378,7 +418,8 @@
         "para_number": null,
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     }
   ]

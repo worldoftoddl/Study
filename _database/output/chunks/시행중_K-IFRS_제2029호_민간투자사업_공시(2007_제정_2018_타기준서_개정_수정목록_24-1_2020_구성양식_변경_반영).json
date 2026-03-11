@@ -165,9 +165,13 @@
         "standard_id": "K-IFRS 2029",
         "section_type": "main",
         "para_number": null,
-        "cross_refs": [],
+        "cross_refs": [
+          "기업회계기준해석서제2029호",
+          "문단24"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -178,9 +182,25 @@
         "standard_id": "K-IFRS 2029",
         "section_type": "main",
         "para_number": null,
-        "cross_refs": [],
+        "cross_refs": [
+          "기업회계기준해석서제2112호",
+          "제1001호",
+          "제1016호",
+          "제1037호",
+          "제1038호",
+          "제1116호",
+          "제2112호"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1001",
+          "1016",
+          "1037",
+          "1038",
+          "1116",
+          "2112"
+        ]
       }
     },
     {
@@ -193,7 +213,8 @@
         "para_number": "한1.1",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -206,7 +227,8 @@
         "para_number": "1",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -219,7 +241,8 @@
         "para_number": "2",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -232,7 +255,8 @@
         "para_number": "3",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -245,7 +269,8 @@
         "para_number": "4",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -256,9 +281,20 @@
         "standard_id": "K-IFRS 2029",
         "section_type": "main",
         "para_number": "5",
-        "cross_refs": [],
+        "cross_refs": [
+          "제1016호",
+          "제1037호",
+          "제1038호",
+          "제1116호"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1016",
+          "1037",
+          "1038",
+          "1116"
+        ]
       }
     },
     {
@@ -294,7 +330,8 @@
           "⑸ 민간투자사업의 분류 방식",
           "6A 사업시행자는 금융자산 또는 무형자산과 교환으로 건설서비스를",
           "제공한 기간에 인식한 수익과 손익을 공시한다 ."
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -305,9 +342,12 @@
         "standard_id": "K-IFRS 2029",
         "section_type": "main",
         "para_number": "7",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단6"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -320,7 +360,8 @@
         "para_number": "한7.1",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -331,9 +372,15 @@
         "standard_id": "K-IFRS 2029",
         "section_type": "main",
         "para_number": "2017",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단5",
+          "제1116호"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1116"
+        ]
       }
     },
     {
@@ -344,9 +391,12 @@
         "standard_id": "K-IFRS 2029",
         "section_type": "main",
         "para_number": null,
-        "cross_refs": [],
+        "cross_refs": [
+          "기업회계기준해석서제2029호"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -359,7 +409,8 @@
         "para_number": null,
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -370,7 +421,13 @@
         "standard_id": "K-IFRS 2029",
         "section_type": "bc",
         "para_number": null,
-        "cross_refs": [],
+        "cross_refs": [
+          "개념체계",
+          "문단112",
+          "문단15",
+          "문단21",
+          "문단7"
+        ],
         "has_table": false,
         "has_example": false,
         "sentences": [
@@ -413,6 +470,9 @@
           "는 항목에 대한 정보를 제공한다고 밝히고 있다 .",
           "-",
           "16"
+        ],
+        "referenced_standards": [
+          "1001"
         ]
       }
     },
@@ -424,7 +484,9 @@
         "standard_id": "K-IFRS 2029",
         "section_type": "bc",
         "para_number": null,
-        "cross_refs": [],
+        "cross_refs": [
+          "기업회계기준해석서제2029호"
+        ],
         "has_table": false,
         "has_example": false,
         "sentences": [
@@ -448,7 +510,8 @@
           "제 2029 호를 준수하면 동시에 SIC 29 를 준수하는 것이 된다 .",
           "-",
           "18"
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -459,9 +522,15 @@
         "standard_id": "K-IFRS 2029",
         "section_type": "bc",
         "para_number": null,
-        "cross_refs": [],
+        "cross_refs": [
+          "기업회계기준해석서제2112호",
+          "제2112호"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "2112"
+        ]
       }
     },
     {
@@ -472,9 +541,15 @@
         "standard_id": "K-IFRS 2029",
         "section_type": "bc",
         "para_number": null,
-        "cross_refs": [],
+        "cross_refs": [
+          "개념체계",
+          "제1116호"
+        ],
         "has_table": true,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1116"
+        ]
       }
     }
   ]

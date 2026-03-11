@@ -30,13 +30,49 @@ PARA_PATTERNS = {
     "ie":   re.compile(r'^(IE\d+[A-Z]?(?:\.\d+)?)\s'),
 }
 
+# 범위 구분자: ~ (U+007E), ∼ (U+223C), - (하이픈)
+_RANGE_SEP = r'[~∼\-]'
+
 CROSS_REF_PATTERNS = [
-    re.compile(r'AG\d+[A-Z]?(?:~AG\d+[A-Z]?)?'),
-    re.compile(r'BC\d+[A-Z]?'),
-    re.compile(r'IE\d+[A-Z]?'),
-    re.compile(r'기준서\s+\d+호'),
-    re.compile(r'해석서\s+\d+호'),
+    # ── 동일 기준서 내부 참조 ──
+    # AG 단일/범위: AG12, AG12~AG15, AG12~15
+    re.compile(rf'AG\d+[A-Z]?(?:\s*{_RANGE_SEP}\s*(?:AG)?\d+[A-Z]?)?'),
+    # BC 단일/범위: BC3, BC28~BC31, BC28~31
+    re.compile(rf'BC\d+[A-Z]?(?:\s*{_RANGE_SEP}\s*(?:BC)?\d+[A-Z]?)?'),
+    # IE 단일/범위: IE5, IE74~IE123, IE74∼IE123
+    re.compile(rf'IE\d+[A-Z]?(?:\s*{_RANGE_SEP}\s*(?:IE)?\d+[A-Z]?)?'),
+    # B-prefix (IFRS 9 스타일): B4.1.7, B3.1.1~B3.1.6
+    re.compile(rf'B\d+\.\d+(?:\.\d+)*[A-Z]?(?:\s*{_RANGE_SEP}\s*B?\d+\.\d+(?:\.\d+)*[A-Z]?)?'),
+    # 문단 참조 (intra-standard): 문단 35, 문단 35~40
+    re.compile(rf'문단\s*[\d.]+[A-Z]?(?:\s*{_RANGE_SEP}\s*[\d.]+[A-Z]?)?'),
+
+    # ── 기준서 간 참조 ──
+    # "제 1109 호" (공백 유연)
+    re.compile(r'제\s*\d{3,4}\s*호'),
+    # "해석서 제 2121 호"
+    re.compile(r'(?:기업회계기준)?해석서\s*제\s*\d{3,4}\s*호'),
+    # 개념체계
+    re.compile(r'개념\s*체계'),
 ]
+
+# IAS/IFRS → K-IFRS 매핑 (BC 섹션의 영문 참조 → referenced_standards 용)
+_IFRS_MAP = {
+    "IFRS 1": "1101", "IFRS 2": "1102", "IFRS 3": "1103",
+    "IFRS 5": "1105", "IFRS 6": "1106", "IFRS 7": "1107",
+    "IFRS 8": "1108", "IFRS 9": "1109", "IFRS 10": "1110",
+    "IFRS 11": "1111", "IFRS 12": "1112", "IFRS 13": "1113",
+    "IFRS 14": "1114", "IFRS 15": "1115", "IFRS 16": "1116",
+    "IFRS 17": "1117",
+    "IAS 1": "1001", "IAS 2": "1002", "IAS 7": "1007",
+    "IAS 8": "1008", "IAS 10": "1010", "IAS 12": "1012",
+    "IAS 16": "1016", "IAS 19": "1019", "IAS 20": "1020",
+    "IAS 21": "1021", "IAS 23": "1023", "IAS 24": "1024",
+    "IAS 26": "1026", "IAS 27": "1027", "IAS 28": "1028",
+    "IAS 29": "1029", "IAS 32": "1032", "IAS 33": "1033",
+    "IAS 34": "1034", "IAS 36": "1036", "IAS 37": "1037",
+    "IAS 38": "1038", "IAS 39": "1039", "IAS 40": "1040",
+    "IAS 41": "1041",
+}
 
 HEADING_RE = re.compile(r'^(#{1,6})\s')
 
@@ -90,12 +126,12 @@ class ParserState:
 # ---------------------------------------------------------------------------
 
 def extract_standard_id(filename: str) -> tuple:
-    """파일명에서 기준서 번호 추출. 반환: (display, normalized)"""
+    """파일명에서 기준서 번호 추출. 반환: (display, normalized, number_only)"""
     match = re.search(r'제(\d+)호', filename)
     if not match:
         raise ValueError(f"기준서 번호 추출 실패: {filename}")
     number = match.group(1)
-    return f"K-IFRS {number}", f"KIFRS{number}"
+    return f"K-IFRS {number}", f"KIFRS{number}", number
 
 
 def slugify(text: str) -> str:
@@ -133,13 +169,43 @@ def extract_para_number(line: str, section_type: str) -> Optional[str]:
     return None
 
 
-def extract_cross_refs(content: str) -> list:
-    """본문에서 상호참조 패턴 추출"""
+def extract_cross_refs(content: str, own_standard_num: str = "") -> list:
+    """본문에서 상호참조 패턴 추출. own_standard_num으로 자기참조 제거."""
     refs = set()
     for pattern in CROSS_REF_PATTERNS:
         for m in pattern.finditer(content):
-            refs.add(m.group(0))
+            # 정규화: 불필요 공백 제거
+            normalized = re.sub(r'\s+', '', m.group(0))
+            refs.add(normalized)
+
+    # 자기참조 제거: "제{own}호" 단독 (combo "제1016호문단XX" 는 유지)
+    if own_standard_num:
+        self_ref = f"제{own_standard_num}호"
+        refs.discard(self_ref)
+
     return sorted(refs)
+
+
+def extract_referenced_standards(content: str, own_standard_num: str = "") -> list:
+    """본문에서 참조된 기준서 번호 목록 추출 (그래프 엣지용)."""
+    std_nums = set()
+
+    # "제 1109 호" 패턴
+    for m in re.finditer(r'제\s*(\d{3,4})\s*호', content):
+        std_nums.add(m.group(1).zfill(4))
+
+    # IFRS/IAS 영문 참조 매핑
+    for m in re.finditer(r'(IFRS|IAS)\s+(\d{1,2})\b', content):
+        key = f"{m.group(1)} {m.group(2)}"
+        mapped = _IFRS_MAP.get(key)
+        if mapped:
+            std_nums.add(mapped)
+
+    # 자기참조 제거
+    if own_standard_num:
+        std_nums.discard(own_standard_num.zfill(4))
+
+    return sorted(std_nums)
 
 
 def detect_has_table(content: str) -> bool:
@@ -182,7 +248,7 @@ def make_child_id(normalized_id: str, section_type: str,
 # ---------------------------------------------------------------------------
 
 def flush_paragraph(state: ParserState, normalized_id: str,
-                    display_id: str, kiwi) -> None:
+                    display_id: str, standard_num: str, kiwi) -> None:
     """누적된 문단을 ChildChunk로 변환하여 state.children에 추가"""
     if not state.current_para_lines:
         return
@@ -225,9 +291,12 @@ def flush_paragraph(state: ParserState, normalized_id: str,
                  if state.current_parent
                  else f"{normalized_id}_{state.section_type}_h_root")
 
-    cross_refs = extract_cross_refs(content)
+    cross_refs = extract_cross_refs(content, own_standard_num=standard_num)
+    referenced_standards = extract_referenced_standards(
+        content, own_standard_num=standard_num
+    )
 
-    # --- cross_refs 자기참조 제거 ---
+    # --- cross_refs 자기참조 제거 (문단번호 기반) ---
     if para_num and para_num in cross_refs:
         cross_refs = [r for r in cross_refs if r != para_num]
 
@@ -239,6 +308,7 @@ def flush_paragraph(state: ParserState, normalized_id: str,
         "section_type": state.section_type,
         "para_number": para_num,
         "cross_refs": cross_refs,
+        "referenced_standards": referenced_standards,
         "has_table": has_table,
         "has_example": has_example,
     }
@@ -258,7 +328,8 @@ def flush_paragraph(state: ParserState, normalized_id: str,
 
 
 def parse_markdown_to_chunks(md_text: str, display_id: str,
-                              normalized_id: str, kiwi) -> tuple:
+                              normalized_id: str, standard_num: str,
+                              kiwi) -> tuple:
     """
     Markdown 텍스트를 state machine으로 파싱하여 (parents, children) 반환.
 
@@ -286,7 +357,7 @@ def parse_markdown_to_chunks(md_text: str, display_id: str,
 
         if heading_match:
             # HEADING: 플러시 → 섹션 타입 갱신 → 새 Parent
-            flush_paragraph(state, normalized_id, display_id, kiwi)
+            flush_paragraph(state, normalized_id, display_id, standard_num, kiwi)
 
             new_section = detect_section_type(line, state.section_type)
             state.section_type = new_section
@@ -307,7 +378,7 @@ def parse_markdown_to_chunks(md_text: str, display_id: str,
 
             if para_num is not None:
                 # PARA_START: 이전 문단 플러시 → 새 문단 시작
-                flush_paragraph(state, normalized_id, display_id, kiwi)
+                flush_paragraph(state, normalized_id, display_id, standard_num, kiwi)
                 state.current_para_number = para_num
                 state.current_para_lines = [line]
             else:
@@ -319,7 +390,7 @@ def parse_markdown_to_chunks(md_text: str, display_id: str,
                     state.current_para_lines.append(line)
 
     # 마지막 남은 문단 플러시
-    flush_paragraph(state, normalized_id, display_id, kiwi)
+    flush_paragraph(state, normalized_id, display_id, standard_num, kiwi)
 
     return state.parents, state.children
 
@@ -351,14 +422,14 @@ def process_single_pdf(pdf_path: str, raw_md_dir: str,
                        chunks_dir: str, kiwi) -> dict:
     """단일 PDF 처리 → JSON 저장"""
     pdf_path = Path(pdf_path)
-    display_id, normalized_id = extract_standard_id(pdf_path.name)
+    display_id, normalized_id, standard_num = extract_standard_id(pdf_path.name)
 
     # 1. PDF → Markdown
     md_text = convert_pdf_to_markdown(str(pdf_path), raw_md_dir)
 
     # 2. Markdown → Chunks
     parents, children = parse_markdown_to_chunks(
-        md_text, display_id, normalized_id, kiwi
+        md_text, display_id, normalized_id, standard_num, kiwi
     )
 
     # 3. 직렬화

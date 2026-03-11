@@ -183,9 +183,13 @@
         "standard_id": "K-IFRS 2010",
         "section_type": "main",
         "para_number": null,
-        "cross_refs": [],
+        "cross_refs": [
+          "기업회계기준해석서제2010호",
+          "문단24"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -196,9 +200,16 @@
         "standard_id": "K-IFRS 2010",
         "section_type": "main",
         "para_number": null,
-        "cross_refs": [],
+        "cross_refs": [
+          "제1008호",
+          "제1020호"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1008",
+          "1020"
+        ]
       }
     },
     {
@@ -211,7 +222,8 @@
         "para_number": "한1.1",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -224,7 +236,8 @@
         "para_number": "1",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -235,9 +248,14 @@
         "standard_id": "K-IFRS 2010",
         "section_type": "main",
         "para_number": "2",
-        "cross_refs": [],
+        "cross_refs": [
+          "제1020호"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1020"
+        ]
       }
     },
     {
@@ -248,9 +266,14 @@
         "standard_id": "K-IFRS 2010",
         "section_type": "main",
         "para_number": "3",
-        "cross_refs": [],
+        "cross_refs": [
+          "제1020호"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1020"
+        ]
       }
     },
     {
@@ -263,7 +286,8 @@
         "para_number": "한3.1",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -274,9 +298,12 @@
         "standard_id": "K-IFRS 2010",
         "section_type": "main",
         "para_number": null,
-        "cross_refs": [],
+        "cross_refs": [
+          "기업회계기준해석서제2010호"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -289,7 +316,8 @@
         "para_number": null,
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -300,9 +328,15 @@
         "standard_id": "K-IFRS 2010",
         "section_type": "bc",
         "para_number": null,
-        "cross_refs": [],
+        "cross_refs": [
+          "문단12",
+          "문단3"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1020"
+        ]
       }
     },
     {
@@ -313,7 +347,9 @@
         "standard_id": "K-IFRS 2010",
         "section_type": "bc",
         "para_number": null,
-        "cross_refs": [],
+        "cross_refs": [
+          "기업회계기준해석서제2010호"
+        ],
         "has_table": false,
         "has_example": false,
         "sentences": [
@@ -337,7 +373,8 @@
           "제 2010 호를 준수하면 동시에 SIC 10 을 준수하는 것이 된다 .",
           "-",
           "15"
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -348,9 +385,15 @@
         "standard_id": "K-IFRS 2010",
         "section_type": "bc",
         "para_number": null,
-        "cross_refs": [],
+        "cross_refs": [
+          "문단3",
+          "제1020호"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1020"
+        ]
       }
     },
     {
@@ -363,7 +406,8 @@
         "para_number": null,
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     }
   ]

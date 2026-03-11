@@ -174,9 +174,12 @@
         "standard_id": "K-IFRS 1026",
         "section_type": "main",
         "para_number": null,
-        "cross_refs": [],
+        "cross_refs": [
+          "개념체계"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -189,7 +192,8 @@
         "para_number": "1008",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -202,7 +206,8 @@
         "para_number": null,
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -215,7 +220,8 @@
         "para_number": "2",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -228,7 +234,8 @@
         "para_number": "3",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -239,9 +246,14 @@
         "standard_id": "K-IFRS 1026",
         "section_type": "main",
         "para_number": "4",
-        "cross_refs": [],
+        "cross_refs": [
+          "제1019호"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1019"
+        ]
       }
     },
     {
@@ -254,7 +266,8 @@
         "para_number": "5",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -267,7 +280,8 @@
         "para_number": "6",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -280,7 +294,8 @@
         "para_number": "7",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -319,7 +334,8 @@
           "예상퇴직급여의 현재가치",
           "가득급여 종업원의 미래 계속 근무와 관계없이 퇴직급여제도에",
           "따라 받을 권리가 있는 급여"
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -332,7 +348,8 @@
         "para_number": "9",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -345,7 +362,8 @@
         "para_number": "10",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -358,7 +376,8 @@
         "para_number": "11",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -371,7 +390,8 @@
         "para_number": "12",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -384,7 +404,8 @@
         "para_number": null,
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -397,7 +418,8 @@
         "para_number": "14",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -410,7 +432,8 @@
         "para_number": "15",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -423,7 +446,8 @@
         "para_number": "16",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -464,7 +488,8 @@
           "확정급여제도의 재무제표에는 약정퇴직급여의 보험수리적 현재가",
           "치와 급여지급에 이용가능한 순자산 사이의 관계 그리고 약정급",
           "여를 위한 기금적립정책에 대한 설명이 있어야 한다"
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -477,7 +502,8 @@
         "para_number": "20",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -490,7 +516,8 @@
         "para_number": "21",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -503,7 +530,8 @@
         "para_number": "22",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -516,7 +544,8 @@
         "para_number": "23",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -529,7 +558,8 @@
         "para_number": "24",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -542,7 +572,8 @@
         "para_number": "25",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -555,7 +586,8 @@
         "para_number": "26",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -568,7 +600,8 @@
         "para_number": "27",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -611,7 +644,8 @@
           "보험수리적 현재가치는 별도의 보험수리보고서에 포함한다 .",
           "각 형식마다 영업보고 및 투자보고의 성격을 가지는 수탁자보고",
           "서를 첨부할 수 있다 ."
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -622,9 +656,12 @@
         "standard_id": "K-IFRS 1026",
         "section_type": "main",
         "para_number": "29",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단28"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -635,7 +672,9 @@
         "standard_id": "K-IFRS 1026",
         "section_type": "main",
         "para_number": "30",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단28"
+        ],
         "has_table": false,
         "has_example": false,
         "sentences": [
@@ -659,7 +698,8 @@
           "또 다른 관점에서는 계량화 여부와 무관하게 약정퇴직급여에 대",
           "한 정보는 적절한 설명이 제공될 수 있는 별도의 보험수리보고서",
           "에만 포함하여야 한다고 본다 ."
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -670,9 +710,12 @@
         "standard_id": "K-IFRS 1026",
         "section_type": "main",
         "para_number": "31",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단28"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -685,7 +728,8 @@
         "para_number": null,
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -724,7 +768,8 @@
           "중요한 회계정책 정보",
           "제도에 대한 설명 및 회계기간 중 제도에서 발생한 변화의 영",
           "향에 대한 설명"
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -775,7 +820,8 @@
           "⑸",
           "확정급여제도의 경우, 유의적인 보험수리적 가정과 약정퇴직급",
           "여의 보험수리적 현재가치 계산에 사용된 방법에 대한 설명"
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -788,7 +834,8 @@
         "para_number": "36",
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -799,9 +846,15 @@
         "standard_id": "K-IFRS 1026",
         "section_type": "main",
         "para_number": null,
-        "cross_refs": [],
+        "cross_refs": [
+          "문단34",
+          "제1001호"
+        ],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": [
+          "1001"
+        ]
       }
     },
     {
@@ -814,7 +867,8 @@
         "para_number": null,
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     },
     {
@@ -825,7 +879,9 @@
         "standard_id": "K-IFRS 1026",
         "section_type": "main",
         "para_number": "26",
-        "cross_refs": [],
+        "cross_refs": [
+          "문단37"
+        ],
         "has_table": false,
         "has_example": false,
         "sentences": [
@@ -848,7 +904,8 @@
           "호를 준수하면 동시에 IAS 26 를 준수하는 것이다 .",
           "-",
           "22"
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -906,7 +963,8 @@
           "㈐ 제도에 대한 설명 및 회계기간 중 제도에서 발생한 변화의 영향",
           "에 대한 설명",
           "- 24"
-        ]
+        ],
+        "referenced_standards": []
       }
     },
     {
@@ -919,7 +977,8 @@
         "para_number": null,
         "cross_refs": [],
         "has_table": false,
-        "has_example": false
+        "has_example": false,
+        "referenced_standards": []
       }
     }
   ]
