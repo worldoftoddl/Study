@@ -20,7 +20,7 @@
 | referenced_standards 있는 포인트 | 2,799 (22.7%) |
 | 기준서 간 고유 그래프 엣지 | 924 |
 
-### 3. 메타데이터 기반 검색 고도화 (NEW)
+### 3. 메타데이터 기반 검색 고도화
 
 4가지 Enhancement 모두 구현 완료:
 
@@ -47,25 +47,34 @@
 - `QueryPlan`에 `expand_standards: bool`, `detected_standards: list[str]` 필드 추가
 - COMPARATIVE는 항상 expand, NORMATIVE/INTERPRETIVE/EXAMPLE은 기준서 감지 시 expand
 
+### 4. terms_index 커버리지 확장 (21 → 40 기준서)
+- `pipeline/terms_index.py`: 2-pass 탐지 로직으로 전면 개편
+  - Pass 1: `parent_id` 기반 구조적 탐지 (`_PARENT_TERM_RE`) — 39개 매칭
+  - Pass 2: `content` 기반 fallback (`_TERM_INTRO_RE` 확장) — 1개 추가 (해석서 2123)
+- 누락 원인별 대응:
+  - 부록 형식 15개 (1102~1117): `parent_id`에 `부록_용어의_정의` 포함 → Pass 1로 해결
+  - 피동태 1개 (1020): `사용되는` → Pass 1 parent_id로 해결
+  - AG 섹션 1개 (1032): `ag_h_용어의_정의_문단` → Pass 1로 해결
+  - 개념체계 1개: `KIFRS_CF_main_h_용어의_정의` → Pass 1로 해결
+  - 해석서 1개 (2123): content fallback으로 해결
+- 1039 제외: 자체 정의 없이 1032/1109/1113 참조만 (`_XREF_ONLY_RE` 필터)
+- 기존 21개 chunk_id 모두 불변 확인 완료
+- `search/terms_resolver.py`, `search/standards_expander.py` 변경 불필요 (스키마 동일)
+
 ---
 
 ## 다음 작업
 
-### 1. terms_index 커버리지 확장
-- 현재 21개 기준서만 용어정의 인덱스에 포함
-- 1109(금융상품), 1115(수익), 1116(리스), 1117(보험계약) 등 주요 기준서 미포함
-- `pipeline/terms_index.py`의 `_TERM_INTRO_RE` 패턴 확장 또는 수동 매핑 추가
-
-### 2. 파이프라인 오케스트레이션 통합
+### 1. 파이프라인 오케스트레이션 통합
 - 현재 각 모듈이 독립적으로 동작. 노트북/에이전트에서의 통합 호출 패턴 정리
 - `plan.expand_standards` 플래그 기반 자동 호출 로직을 단일 함수로 래핑
 - 예: `search_with_expansion(query, client, embeddings)` 편의 함수
 
-### 3. Qdrant payload 인덱스 생성
+### 2. Qdrant payload 인덱스 생성
 - `referenced_standards` 필드에 keyword 인덱스 생성 (역방향 검색 성능 최적화)
 - `client.create_payload_index(CHILD_COLLECTION, "referenced_standards", PayloadSchemaType.KEYWORD)`
 
-### 4. 평가 프레임워크 실행
+### 3. 평가 프레임워크 실행
 - tc21, tc22 inter-standard 테스트 케이스 추가 완료
 - 전체 22개 테스트 케이스로 파이프라인 성능 벤치마크 실행
 
@@ -87,10 +96,11 @@
 
 ### pipeline/ — 문서 처리
 - `pipeline/kifrs_chunker.py` — 청킹 + 교차참조 추출 (`extract_cross_refs`, `extract_referenced_standards`)
+- `pipeline/terms_index.py` — 용어정의 인덱스 빌더 (2-pass: parent_id 구조 탐지 + content fallback)
 
 ### 데이터
 - `output/chunks/*.json` — 패치된 청크 데이터 (63개 기준서)
-- `output/terms_index.json` — 기준서별 용어정의 청크 매핑 (21개 기준서)
+- `output/terms_index.json` — 기준서별 용어정의 청크 매핑 (40개 기준서)
 - `qdrant_storage/` — Qdrant 로컬 벡터DB
 
 ### 평가 / 문서
