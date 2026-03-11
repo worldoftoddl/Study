@@ -33,6 +33,8 @@ class QueryPlan:
     rerank_n: int = 10
     direct_lookup_ids: list[str] = field(default_factory=list)
     authority_boost: bool = True
+    expand_standards: bool = False
+    detected_standards: list[str] = field(default_factory=list)
 
     @property
     def skip_vector_search(self) -> bool:
@@ -96,6 +98,58 @@ def _parse_citations(query: str) -> list[str]:
     return chunk_ids
 
 
+# ── IFRS/IAS 영문 → K-IFRS 번호 매핑 (기준서 감지용) ──
+_IFRS_NUM_MAP = {
+    "IFRS 1": "1101", "IFRS 2": "1102", "IFRS 3": "1103",
+    "IFRS 5": "1105", "IFRS 6": "1106", "IFRS 7": "1107",
+    "IFRS 8": "1108", "IFRS 9": "1109", "IFRS 10": "1110",
+    "IFRS 11": "1111", "IFRS 12": "1112", "IFRS 13": "1113",
+    "IFRS 14": "1114", "IFRS 15": "1115", "IFRS 16": "1116",
+    "IFRS 17": "1117",
+    "IAS 1": "1001", "IAS 2": "1002", "IAS 7": "1007",
+    "IAS 8": "1008", "IAS 10": "1010", "IAS 12": "1012",
+    "IAS 16": "1016", "IAS 19": "1019", "IAS 20": "1020",
+    "IAS 21": "1021", "IAS 23": "1023", "IAS 24": "1024",
+    "IAS 26": "1026", "IAS 27": "1027", "IAS 28": "1028",
+    "IAS 29": "1029", "IAS 32": "1032", "IAS 33": "1033",
+    "IAS 34": "1034", "IAS 36": "1036", "IAS 37": "1037",
+    "IAS 38": "1038", "IAS 39": "1039", "IAS 40": "1040",
+    "IAS 41": "1041",
+}
+
+# ── 기준서 번호 감지 패턴 ────────────────────────────
+_STD_DETECT_PATTERNS = [
+    # "제1109호", "제 1016 호"
+    re.compile(r"제\s*(\d{3,4})\s*호"),
+    # "K-IFRS 1109", "KIFRS1016"
+    re.compile(r"K?-?IFRS\s*(\d{4})", re.IGNORECASE),
+]
+# IFRS/IAS 영문 패턴은 별도 처리 (매핑 필요)
+# \b 대신 숫자 뒤 비숫자 or 문자열 끝을 lookahead (한글 앞 \b 미동작 대응)
+_IFRS_IAS_RE = re.compile(r"(IFRS|IAS)\s+(\d{1,2})(?=\D|$)", re.IGNORECASE)
+
+
+def _detect_standards(query: str) -> list[str]:
+    """쿼리에서 언급된 기준서 번호를 감지한다.
+
+    Returns:
+        기준서 번호 리스트 (중복 제거, 정렬). 예: ["1109", "1115"]
+    """
+    std_nums: set[str] = set()
+
+    for pattern in _STD_DETECT_PATTERNS:
+        for m in pattern.finditer(query):
+            std_nums.add(m.group(1).zfill(4))
+
+    for m in _IFRS_IAS_RE.finditer(query):
+        key = f"{m.group(1).upper()} {m.group(2)}"
+        mapped = _IFRS_NUM_MAP.get(key)
+        if mapped:
+            std_nums.add(mapped)
+
+    return sorted(std_nums)
+
+
 def _build_normative_filter() -> Filter:
     return Filter(must=[
         FieldCondition(key="section_type", match=MatchAny(any=["main", "ag"]))
@@ -113,7 +167,12 @@ def classify_query(query: str) -> QueryPlan:
 
     규칙 기반 분류기. LLM 호출 없이 패턴 매칭으로 빠르게 분류한다.
     모호한 경우 normative(가장 일반적)로 기본 분류한다.
+
+    detected_standards에 쿼리에서 감지된 기준서 번호가 저장된다.
+    expand_standards가 True이면 호출자가 standards_expander를 활성화해야 한다.
     """
+    detected = _detect_standards(query)
+
     # 1. Citation 체크 (가장 우선)
     direct_ids = _parse_citations(query)
     if direct_ids:
@@ -123,6 +182,7 @@ def classify_query(query: str) -> QueryPlan:
             retrieval_k=5,
             rerank_n=5,
             authority_boost=False,
+            detected_standards=detected,
         )
 
     # 2. Example 체크
@@ -133,6 +193,8 @@ def classify_query(query: str) -> QueryPlan:
             retrieval_k=20,
             rerank_n=10,
             authority_boost=False,
+            expand_standards=len(detected) >= 1,
+            detected_standards=detected,
         )
 
     # 3. Interpretive 체크
@@ -143,6 +205,8 @@ def classify_query(query: str) -> QueryPlan:
             retrieval_k=30,
             rerank_n=10,
             authority_boost=False,
+            expand_standards=len(detected) >= 1,
+            detected_standards=detected,
         )
 
     # 4. Comparative 체크
@@ -153,6 +217,8 @@ def classify_query(query: str) -> QueryPlan:
             retrieval_k=40,
             rerank_n=15,
             authority_boost=True,
+            expand_standards=True,
+            detected_standards=detected,
         )
 
     # 5. 기본값: Normative
@@ -162,6 +228,8 @@ def classify_query(query: str) -> QueryPlan:
         retrieval_k=30,
         rerank_n=10,
         authority_boost=True,
+        expand_standards=len(detected) >= 1,
+        detected_standards=detected,
     )
 
 

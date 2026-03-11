@@ -20,45 +20,54 @@
 | referenced_standards 있는 포인트 | 2,799 (22.7%) |
 | 기준서 간 고유 그래프 엣지 | 924 |
 
+### 3. 메타데이터 기반 검색 고도화 (NEW)
+
+4가지 Enhancement 모두 구현 완료:
+
+#### 3-1. `referenced_standards` 기반 순방향 확장 검색
+- `search/standards_expander.py`: `expand_referenced_standards()`
+- 검색 결과의 referenced_standards에서 고유 기준서 번호 수집 → 빈도순 → 용어정의 청크 자동 fetch
+- metadata `fetched_by_std_ref=True`로 태깅
+
+#### 3-2. Qdrant 필터 기반 역방향 검색
+- `search/standards_expander.py`: `reverse_lookup_chunks()`
+- `FieldCondition(key="referenced_standards", match=MatchAny(any=[...]))` 필터
+- query_vector 제공 시 벡터 유사도 정렬, 없으면 scroll
+- metadata `fetched_by_reverse_lookup=True`로 태깅
+
+#### 3-3. Graph 기반 multi-hop 검색
+- `search/standards_graph.py`: NetworkX DiGraph 싱글턴 (81 노드, 906 엣지)
+- `get_neighbors(std, hops=N)`: 1-hop 직접 참조, 2-hop 간접 참조 (가중치 감쇠 x0.3)
+- `search/standards_expander.py`: `graph_expand()` — 그래프 탐색 → 용어정의 fetch
+- metadata `fetched_by_graph=True`, `graph_hop=N`으로 태깅
+
+#### 3-4. query_router 개선
+- `search/query_router.py`: `_detect_standards()` 헬퍼 추가
+- 패턴: "제1109호", "K-IFRS 1109", "IFRS 9", "IAS 16" 등 감지
+- `QueryPlan`에 `expand_standards: bool`, `detected_standards: list[str]` 필드 추가
+- COMPARATIVE는 항상 expand, NORMATIVE/INTERPRETIVE/EXAMPLE은 기준서 감지 시 expand
+
 ---
 
-## 다음 작업: 메타데이터 기반 검색 고도화
+## 다음 작업
 
-Qdrant에 `cross_refs`와 `referenced_standards`가 적재되었으므로, 이 메타데이터를 **검색 단계에서 직접 활용**하는 새로운 검색 방법을 작성해야 한다.
+### 1. terms_index 커버리지 확장
+- 현재 21개 기준서만 용어정의 인덱스에 포함
+- 1109(금융상품), 1115(수익), 1116(리스), 1117(보험계약) 등 주요 기준서 미포함
+- `pipeline/terms_index.py`의 `_TERM_INTRO_RE` 패턴 확장 또는 수동 매핑 추가
 
-### 현재 검색 흐름 (search/ 모듈 구조)
-```
-query
-  → query_router.classify_query()         # 5-way 분류 → QueryPlan (규칙 기반)
-  → retriever.QdrantDenseRetriever        # 벡터 검색 (Qdrant cosine)
-  + retriever.load_child_documents → BM25  # 키워드 검색 (rank_bm25 + kiwipiepy)
-  → reranker.get_reranker().rerank()      # cross-encoder rerank (BGE/Cohere)
-  → query_router.apply_authority_boost()  # bc/ie 점수 감쇠
-  → xref_resolver.resolve_cross_refs()   # cross_refs → 문단 수준 참조 청크 fetch (post-retrieval)
-  → terms_resolver.inject_term_definitions()  # 용어정의 주입
-  → LLM 응답
-```
+### 2. 파이프라인 오케스트레이션 통합
+- 현재 각 모듈이 독립적으로 동작. 노트북/에이전트에서의 통합 호출 패턴 정리
+- `plan.expand_standards` 플래그 기반 자동 호출 로직을 단일 함수로 래핑
+- 예: `search_with_expansion(query, client, embeddings)` 편의 함수
 
-### 개선 방향
+### 3. Qdrant payload 인덱스 생성
+- `referenced_standards` 필드에 keyword 인덱스 생성 (역방향 검색 성능 최적화)
+- `client.create_payload_index(CHILD_COLLECTION, "referenced_standards", PayloadSchemaType.KEYWORD)`
 
-1. **`referenced_standards` 기반 관련 기준서 확장 검색**
-   - 검색된 청크의 `referenced_standards`를 보고, 관련 기준서의 핵심 청크(Scope, 정의)를 자동 fetch
-   - 예: IFRS 15 문단에서 `referenced_standards: ["1109"]`면 → IFRS 9의 금융상품 정의 청크를 함께 가져옴
-   - 현재 xref_resolver는 `cross_refs`의 문단 수준 참조만 해소. `referenced_standards`는 미활용
-
-2. **Qdrant 필터 기반 역방향 검색**
-   - `referenced_standards` 필드로 Qdrant 필터링: "특정 기준서를 참조하는 모든 청크" 검색
-   - 예: `FieldCondition(key="referenced_standards", match=MatchAny(any=["1109"]))`
-   - comparative 쿼리("IFRS 16과 IFRS 15의 관계")에서 두 기준서 교차점 탐색
-
-3. **Graph 기반 multi-hop 검색**
-   - `referenced_standards` 924개 엣지로 기준서 간 관계 그래프 구축 (NetworkX)
-   - 1-hop: 직접 참조, 2-hop: 간접 참조 기준서까지 확장
-   - 예: "리스 회계처리" → IFRS 16 → IFRS 15, IAS 36, IFRS 9 → 관련 문단
-
-4. **query_router 개선**
-   - 현재 규칙 기반 5-way 분류에 `referenced_standards` 활용 로직 추가
-   - inter-standard 쿼리 감지 시 graph expansion 자동 활성화
+### 4. 평가 프레임워크 실행
+- tc21, tc22 inter-standard 테스트 케이스 추가 완료
+- 전체 22개 테스트 케이스로 파이프라인 성능 벤치마크 실행
 
 ---
 
@@ -69,9 +78,11 @@ query
 - `search/config.py` — 경로, 컬렉션명, `chunk_id_to_int()`
 - `search/retriever.py` — `QdrantDenseRetriever`, `load_child_documents`, `search_with_parent`, `get_authority_filter`
 - `search/reranker.py` — `LocalReranker`(BGE), `CohereReranker`, `get_reranker()`
-- `search/query_router.py` — `classify_query()` → `QueryPlan`, `apply_authority_boost()`
+- `search/query_router.py` — `classify_query()` → `QueryPlan`, `apply_authority_boost()`, `_detect_standards()`
 - `search/xref_resolver.py` — `resolve_cross_refs()` (cross_refs → chunk_id → Qdrant fetch)
 - `search/terms_resolver.py` — `inject_term_definitions()` (기준서별 용어정의 주입)
+- `search/standards_graph.py` — **NEW** NetworkX 기준서 참조 그래프 (81노드, 906엣지)
+- `search/standards_expander.py` — **NEW** 순방향/역방향/그래프 확장 검색
 - `search/embedder.py` — Qdrant 적재 + `update_payloads()`
 
 ### pipeline/ — 문서 처리
@@ -79,15 +90,33 @@ query
 
 ### 데이터
 - `output/chunks/*.json` — 패치된 청크 데이터 (63개 기준서)
-- `output/terms_index.json` — 기준서별 용어정의 청크 매핑
+- `output/terms_index.json` — 기준서별 용어정의 청크 매핑 (21개 기준서)
 - `qdrant_storage/` — Qdrant 로컬 벡터DB
 
 ### 평가 / 문서
 - `eval/evaluator.py` — RAG 평가기 (DRM, xref coverage, authority accuracy)
-- `eval/test_cases.json` — 평가 테스트 케이스
+- `eval/test_cases.json` — 평가 테스트 케이스 (22개)
 - `docs/cross_refs.md` — 교차참조 파이프라인 상세 문서
 - `docs/search.md` — 검색 파이프라인 아키텍처 문서
 - `how_to_read_IFRS.md` — IFRS 해독법 + RAG 설계 전략 레퍼런스
+
+## 검색 파이프라인 전체 흐름
+
+```
+query
+  → query_router.classify_query()         # 5-way 분류 + 기준서 감지 → QueryPlan
+  → retriever.QdrantDenseRetriever        # 벡터 검색 (Qdrant cosine)
+  + retriever.load_child_documents → BM25  # 키워드 검색 (rank_bm25 + kiwipiepy)
+  → reranker.get_reranker().rerank()      # cross-encoder rerank (BGE/Cohere)
+  → query_router.apply_authority_boost()  # bc/ie 점수 감쇠
+  → xref_resolver.resolve_cross_refs()   # cross_refs → 문단 수준 참조 청크 fetch
+  → terms_resolver.inject_term_definitions()  # 용어정의 주입
+  → [if plan.expand_standards]
+      → standards_expander.expand_referenced_standards()  # 참조 기준서 용어정의 fetch
+      → standards_expander.reverse_lookup_chunks()        # 역방향 검색
+      → standards_expander.graph_expand()                 # 그래프 1-hop 확장
+  → LLM 응답
+```
 
 ## Qdrant payload 스키마 (child 컬렉션: kifrs_chunks)
 ```json

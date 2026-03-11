@@ -201,6 +201,26 @@
       "expected_section_types": ["main"],
       "requires_cross_refs": [],
       "answer_must_contain": ["경제적 자원", "과거사건"]
+    },
+    {
+      "id": "tc21_inter_standard_ifrs9_ifrs15",
+      "query": "IFRS 9과 IFRS 15에서 금융자산 분류가 다른 점은?",
+      "query_type": "comparative",
+      "expected_standards": ["K-IFRS 1109", "K-IFRS 1115"],
+      "expected_chunks": [],
+      "expected_section_types": ["main"],
+      "requires_cross_refs": [],
+      "answer_must_contain": ["금융자산"]
+    },
+    {
+      "id": "tc22_lease_graph_hop",
+      "query": "리스 회계처리에서 참조하는 다른 기준서의 요건은?",
+      "query_type": "normative",
+      "expected_standards": ["K-IFRS 1116"],
+      "expected_chunks": [],
+      "expected_section_types": ["main"],
+      "requires_cross_refs": [],
+      "answer_must_contain": []
     }
   ]
 }

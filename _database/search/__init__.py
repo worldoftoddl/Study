@@ -27,6 +27,12 @@ from search.query_router import (
 )
 from search.xref_resolver import resolve_cross_refs
 from search.terms_resolver import inject_term_definitions
+from search.standards_graph import (
+    get_graph, get_neighbors, get_reverse_refs, get_display_id,
+)
+from search.standards_expander import (
+    expand_referenced_standards, reverse_lookup_chunks, graph_expand,
+)
 
 __all__ = [
     "QDRANT_PATH", "CHUNKS_DIR", "CHILD_COLLECTION", "PARENT_COLLECTION",
@@ -38,4 +44,6 @@ __all__ = [
     "classify_query", "apply_authority_boost", "QueryType", "QueryPlan",
     "resolve_cross_refs",
     "inject_term_definitions",
+    "get_graph", "get_neighbors", "get_reverse_refs", "get_display_id",
+    "expand_referenced_standards", "reverse_lookup_chunks", "graph_expand",
 ]
