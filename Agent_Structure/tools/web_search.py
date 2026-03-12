@@ -7,10 +7,10 @@ Tavily는 LLM 에이전트에 최적화된 검색 API로,
 """
 from __future__ import annotations
 
-import os
 from typing import Literal
 
 from .base import register_tool
+from ..config import settings
 
 
 @register_tool(tags=["search", "web"])
@@ -34,7 +34,7 @@ def web_search(
     """
     from tavily import TavilyClient
 
-    api_key = os.getenv("TAVILY_API_KEY", "")
+    api_key = settings.tavily_api_key
     if not api_key:
         return {"error": "TAVILY_API_KEY가 설정되지 않았습니다."}
 

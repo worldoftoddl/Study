@@ -19,16 +19,16 @@ class Settings:
     """프로젝트 전역 설정. 환경변수에서 읽거나 직접 주입 가능."""
 
     # LLM API Keys
-    anthropic_api_key: str = field(
-        default_factory=lambda: os.getenv("ANTHROPIC_API_KEY", "")
+    anthropic_api_key: str | None = field(
+        default_factory=lambda: os.getenv("ANTHROPIC_API_KEY")
     )
-    openai_api_key: str = field(
-        default_factory=lambda: os.getenv("OPENAI_API_KEY", "")
+    openai_api_key: str | None = field(
+        default_factory=lambda: os.getenv("OPENAI_API_KEY")
     )
 
     # Tool API Keys
-    tavily_api_key: str = field(
-        default_factory=lambda: os.getenv("TAVILY_API_KEY", "")
+    tavily_api_key: str | None = field(
+        default_factory=lambda: os.getenv("TAVILY_API_KEY")
     )
 
     # Agent Defaults
