@@ -1,0 +1,29 @@
+Metadata-Version: 2.4
+Name: deep-research-example
+Version: 0.1.0
+Summary: Deep research agent example using deepagents package
+Requires-Python: >=3.11
+Requires-Dist: langchain-openai>=1.0.2
+Requires-Dist: langchain-anthropic>=1.0.3
+Requires-Dist: langchain_tavily>=0.2.13
+Requires-Dist: pydantic>=2.0.0
+Requires-Dist: rich>=14.0.0
+Requires-Dist: jupyter>=1.0.0
+Requires-Dist: ipykernel>=6.20.0
+Requires-Dist: tavily-python>=0.5.0
+Requires-Dist: httpx>=0.28.1
+Requires-Dist: markdownify>=1.2.0
+Requires-Dist: deepagents>=0.2.6
+Requires-Dist: python-dotenv>=1.0.0
+Requires-Dist: langgraph-cli[inmem]>=0.1.55
+Requires-Dist: langchain-google-genai>=3.1.0
+Requires-Dist: langchain-upstage>=0.3.0
+Requires-Dist: qdrant-client>=1.7.0
+Requires-Dist: kiwipiepy>=0.18.0
+Requires-Dist: FlagEmbedding>=1.2.0
+Requires-Dist: networkx>=3.0
+Requires-Dist: rank-bm25>=0.2.2
+Requires-Dist: cohere>=5.20.7
+Provides-Extra: dev
+Requires-Dist: mypy>=1.11.1; extra == "dev"
+Requires-Dist: ruff>=0.6.1; extra == "dev"

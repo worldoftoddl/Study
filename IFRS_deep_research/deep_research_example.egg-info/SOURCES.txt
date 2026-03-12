@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+deep_research_example.egg-info/PKG-INFO
+deep_research_example.egg-info/SOURCES.txt
+deep_research_example.egg-info/dependency_links.txt
+deep_research_example.egg-info/requires.txt
+deep_research_example.egg-info/top_level.txt
+research_agent/__init__.py
+research_agent/kifrs_search.py
+research_agent/prompts.py
+research_agent/tools.py
