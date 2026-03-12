@@ -33,6 +33,7 @@ from search.standards_graph import (
 from search.standards_expander import (
     expand_referenced_standards, reverse_lookup_chunks, graph_expand,
 )
+from search.tools import TOOL_SCHEMAS, dispatch_tool
 
 __all__ = [
     "QDRANT_PATH", "CHUNKS_DIR", "CHILD_COLLECTION", "PARENT_COLLECTION",
@@ -46,4 +47,5 @@ __all__ = [
     "inject_term_definitions",
     "get_graph", "get_neighbors", "get_reverse_refs", "get_display_id",
     "expand_referenced_standards", "reverse_lookup_chunks", "graph_expand",
+    "TOOL_SCHEMAS", "dispatch_tool",
 ]
