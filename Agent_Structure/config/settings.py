@@ -31,6 +31,11 @@ class Settings:
         default_factory=lambda: os.getenv("TAVILY_API_KEY")
     )
 
+    # External Data
+    database_dir: str | None = field(
+        default_factory=lambda: os.getenv("DATABASE_DIR")
+    )
+
     # Agent Defaults
     default_provider: str = field(
         default_factory=lambda: os.getenv("DEFAULT_PROVIDER", "anthropic")
