@@ -1,9 +1,10 @@
 """K-IFRS Agentic RAG Tool 정의 및 실행기.
 
-LLM이 선택적으로 호출하는 3개 tool의 스키마와 executor를 제공한다.
+LLM이 선택적으로 호출하는 4개 tool의 스키마와 executor를 제공한다.
 - fetch_paragraphs: 특정 문단을 chunk_id로 직접 조회
 - find_referencing_chunks: 특정 기준서를 참조하는 청크를 역방향 검색
 - explore_related_standards: 기준서 참조 그래프를 탐색하여 관련 기준서 발견
+- fetch_term_definitions: 기준서의 용어정의(Appendix A) 청크를 조회
 """
 
 from langchain_core.documents import Document
@@ -125,6 +126,35 @@ TOOL_SCHEMAS = [
                 },
             },
             "required": ["standard_number"],
+        },
+    },
+    {
+        "name": "fetch_term_definitions",
+        "description": (
+            "K-IFRS 기준서의 용어정의(Appendix A) 청크를 가져옵니다. "
+            "컨텍스트에 등장하는 회계 용어의 정확한 정의가 필요할 때 호출하세요. "
+            "예: '금융자산', '리스', '수행의무' 등의 정의를 확인하려면 "
+            "해당 기준서 번호를 지정하여 호출합니다. "
+            "이미 용어정의가 컨텍스트에 포함되어 있으면 호출하지 마세요."
+        ),
+        "input_schema": {
+            "type": "object",
+            "properties": {
+                "standard_numbers": {
+                    "type": "array",
+                    "items": {"type": "string"},
+                    "description": (
+                        "용어정의를 가져올 기준서 번호 리스트. "
+                        "예: ['1109', '1115']. 'K-IFRS' 접두사 없이 숫자만."
+                    ),
+                },
+                "max_definitions": {
+                    "type": "integer",
+                    "description": "최대 반환할 용어정의 수 (기본값: 3)",
+                    "default": 3,
+                },
+            },
+            "required": ["standard_numbers"],
         },
     },
 ]
@@ -290,6 +320,43 @@ def execute_explore_related_standards(
     return new_docs, "\n".join(lines)
 
 
+def execute_fetch_term_definitions(
+    args: dict,
+    client: QdrantClient,
+    fetched_ids: set[str],
+) -> tuple[list[Document], str]:
+    """fetch_term_definitions tool 실행: 기준서 용어정의 청크 조회."""
+    std_numbers = args.get("standard_numbers", [])
+    max_defs = args.get("max_definitions", 3)
+
+    if not std_numbers:
+        return [], "기준서 번호가 지정되지 않았습니다."
+
+    new_docs: list[Document] = []
+    results_text: list[str] = []
+
+    for std_num in std_numbers:
+        if len(new_docs) >= max_defs:
+            break
+
+        display_id = get_display_id(std_num)
+        defn_doc = _fetch_definition_chunk(std_num, client)
+        if defn_doc:
+            cid = defn_doc.metadata.get("chunk_id", "")
+            if cid in fetched_ids:
+                results_text.append(f"[{display_id}] 용어정의 이미 컨텍스트에 포함됨")
+                continue
+            defn_doc.metadata["fetched_by_tool"] = True
+            defn_doc.metadata["is_glossary"] = True
+            new_docs.append(defn_doc)
+            fetched_ids.add(cid)
+            results_text.append(f"[{display_id}] 용어정의 조회 성공")
+        else:
+            results_text.append(f"[{display_id}] 용어정의 없음")
+
+    return new_docs, "\n".join(results_text) or "용어정의 없음"
+
+
 # ── 통합 디스패처 ─────────────────────────────────────
 
 def dispatch_tool(
@@ -321,5 +388,8 @@ def dispatch_tool(
 
     if tool_name == "explore_related_standards":
         return execute_explore_related_standards(args, client, fetched_ids)
+
+    if tool_name == "fetch_term_definitions":
+        return execute_fetch_term_definitions(args, client, fetched_ids)
 
     return [], f"알 수 없는 tool: {tool_name}"

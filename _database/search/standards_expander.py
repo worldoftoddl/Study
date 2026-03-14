@@ -1,12 +1,8 @@
-"""K-IFRS referenced_standards 기반 관련 기준서 확장 모듈.
+"""K-IFRS 기준서 확장 백엔드 유틸리티.
 
-검색 결과의 referenced_standards 메타데이터를 분석하여:
-1. 참조된 기준서의 핵심 청크(용어정의)를 자동 fetch (순방향 확장)
-2. 특정 기준서를 참조하는 청크를 Qdrant 필터로 검색 (역방향 검색)
-3. 그래프 기반 multi-hop 확장
-
-xref_resolver가 cross_refs의 '문단 수준' 정밀 참조를 해소한다면,
-이 모듈은 referenced_standards의 '기준서 수준' 확장을 담당한다.
+Agentic tool executor의 백엔드로 사용되는 함수들을 제공한다:
+- _fetch_definition_chunk(): 용어정의 청크 조회 (fetch_term_definitions, explore_related_standards tool)
+- reverse_lookup_chunks(): 역방향 검색 (find_referencing_chunks tool)
 """
 
 import re
@@ -16,7 +12,7 @@ from qdrant_client import QdrantClient
 from qdrant_client.models import Filter, FieldCondition, MatchAny
 
 from search.config import CHILD_COLLECTION, chunk_id_to_int
-from search.standards_graph import get_graph, get_display_id, get_neighbors
+from search.standards_graph import get_display_id
 from search.terms_resolver import _load_terms_index
 
 # standard_id에서 번호 추출
@@ -73,60 +69,6 @@ def _fetch_definition_chunk(
             "source_standard": std_number,
         },
     )
-
-
-def expand_referenced_standards(
-    docs: list[Document],
-    client: QdrantClient,
-    max_expansion: int = 5,
-    index_path: str | None = None,
-) -> list[Document]:
-    """검색 결과의 referenced_standards를 분석하여 관련 기준서 핵심 청크를 추가한다.
-
-    각 검색 결과 문서의 referenced_standards에서 고유 기준서 번호를 수집하고,
-    빈도순으로 해당 기준서의 용어정의 청크(terms_index)를 fetch한다.
-
-    Args:
-        docs: rerank된 검색 결과 Document 리스트.
-        client: Qdrant 클라이언트.
-        max_expansion: 최대 추가 문서 수.
-        index_path: 용어 인덱스 JSON 경로.
-
-    Returns:
-        원본 docs + 확장된 Document 리스트.
-        확장 문서에는 metadata["fetched_by_std_ref"] = True가 설정된다.
-    """
-    if not docs:
-        return docs
-
-    existing_ids = {doc.metadata.get("chunk_id", "") for doc in docs}
-    existing_stds = set()
-    for doc in docs:
-        num = _extract_std_number(doc.metadata.get("standard_id", ""))
-        if num:
-            existing_stds.add(num)
-
-    # referenced_standards 빈도 수집
-    ref_counts: dict[str, int] = {}
-    for doc in docs:
-        for ref_std in doc.metadata.get("referenced_standards", []):
-            if ref_std not in existing_stds:
-                ref_counts[ref_std] = ref_counts.get(ref_std, 0) + 1
-
-    # 빈도순 정렬
-    sorted_refs = sorted(ref_counts.keys(), key=lambda s: -ref_counts[s])
-
-    expanded = []
-    for std_num in sorted_refs:
-        if len(expanded) >= max_expansion:
-            break
-
-        defn_doc = _fetch_definition_chunk(std_num, client, index_path)
-        if defn_doc and defn_doc.metadata.get("chunk_id") not in existing_ids:
-            expanded.append(defn_doc)
-            existing_ids.add(defn_doc.metadata["chunk_id"])
-
-    return docs + expanded
 
 
 def reverse_lookup_chunks(
@@ -195,70 +137,3 @@ def reverse_lookup_chunks(
         ))
 
     return docs
-
-
-def graph_expand(
-    docs: list[Document],
-    client: QdrantClient,
-    hops: int = 1,
-    max_expansion: int = 5,
-    index_path: str | None = None,
-) -> list[Document]:
-    """그래프 기반 multi-hop 확장: 검색 결과 → 참조 그래프 탐색 → 관련 청크 fetch.
-
-    1. 검색 결과에서 기준서 번호 추출
-    2. standards_graph.get_neighbors(hops=N)로 관련 기준서 탐색
-    3. 관련 기준서의 용어정의 청크 fetch
-
-    Args:
-        docs: 검색 결과 Document 리스트.
-        client: Qdrant 클라이언트.
-        hops: 그래프 탐색 깊이 (1=직접 참조, 2=간접 참조).
-        max_expansion: 최대 추가 문서 수.
-        index_path: 용어 인덱스 경로.
-
-    Returns:
-        원본 docs + 그래프 확장 Document 리스트.
-        확장 문서에는 metadata["fetched_by_graph"] = True, metadata["graph_hop"]이 설정된다.
-    """
-    if not docs:
-        return docs
-
-    existing_ids = {doc.metadata.get("chunk_id", "") for doc in docs}
-
-    # 검색 결과에서 기준서 번호 추출
-    source_stds: set[str] = set()
-    for doc in docs:
-        num = _extract_std_number(doc.metadata.get("standard_id", ""))
-        if num:
-            source_stds.add(num)
-
-    if not source_stds:
-        return docs
-
-    # 그래프 탐색: 모든 소스 기준서의 이웃 합산
-    all_neighbors: dict[str, float] = {}
-    for src in source_stds:
-        neighbors = get_neighbors(src, hops=hops)
-        for n, w in neighbors.items():
-            if n not in source_stds:
-                all_neighbors[n] = all_neighbors.get(n, 0) + w
-
-    # 가중치 순 정렬
-    sorted_neighbors = sorted(all_neighbors.keys(), key=lambda s: -all_neighbors[s])
-
-    expanded = []
-    for std_num in sorted_neighbors:
-        if len(expanded) >= max_expansion:
-            break
-
-        defn_doc = _fetch_definition_chunk(std_num, client, index_path)
-        if defn_doc and defn_doc.metadata.get("chunk_id") not in existing_ids:
-            # fetched_by_std_ref → fetched_by_graph로 교체
-            defn_doc.metadata["fetched_by_std_ref"] = False
-            defn_doc.metadata["fetched_by_graph"] = True
-            defn_doc.metadata["graph_hop"] = hops
-            expanded.append(defn_doc)
-            existing_ids.add(defn_doc.metadata["chunk_id"])
-
-    return docs + expanded

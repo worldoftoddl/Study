@@ -1,8 +1,8 @@
-"""K-IFRS 교차참조 자동 확장 모듈.
+"""[DEPRECATED] K-IFRS 교차참조 자동 확장 모듈.
 
-검색 결과의 cross_refs 메타데이터를 분석하여, 참조된 문단을 Qdrant에서
-자동으로 가져와 컨텍스트에 추가한다. LLM의 tool 호출에 의존하지 않고
-pre-retrieval 단계에서 교차참조를 해결한다.
+이 모듈은 더 이상 파이프라인에서 사용되지 않습니다.
+교차참조 해소는 LLM이 fetch_paragraphs tool을 통해 선택적으로 수행합니다.
+파싱 로직은 향후 참조용으로 보존합니다.
 """
 
 import re
