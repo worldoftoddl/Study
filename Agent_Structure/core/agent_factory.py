@@ -44,7 +44,7 @@ def build_agent(
     system_prompt: str | None = None,
 
     # DeepAgents 옵션
-    enable_memory: bool = False,
+    enable_memory: bool = True,
     memory_files: list[str] | None = None,
     skills_dirs: list[str] | None = None,
     backend: Any = None,
