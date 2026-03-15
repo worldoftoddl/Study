@@ -16,7 +16,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Optional
 
-import pymupdf4llm
+# pymupdf4llm: 지연 임포트 (convert_pdf_to_markdown에서만 사용)
 
 # ---------------------------------------------------------------------------
 # 상수: 정규식
@@ -25,8 +25,10 @@ import pymupdf4llm
 PARA_PATTERNS = {
     # main: 숫자/한X.X 뒤에 반드시 한글 또는 ( 이 와야 함 (영문 주소 등 오탐 방지)
     "main": re.compile(r'^(한\s*\d+(?:\.\d+)*|\d+(?:\.\d+)*)\s+(?=[가-힣(])'),
-    "ag":   re.compile(r'^(AG\d+[A-Z]?(?:\.\d+)?)\s'),
-    "bc":   re.compile(r'^(BC\d+[A-Z]?(?:\.\d+)?)\s'),
+    # ag: AG12, AG12A + B2, B4.1.1 + C3, C5A (경과규정)
+    "ag":   re.compile(r'^(AG\d+[A-Z]?(?:\.\d+)?|B\d+(?:\.\d+)*[A-Z]?|C\d+[A-Z]?(?:\.\d+)?)\s'),
+    # bc: BC3, BC28A + BCE.2 스타일 (IFRS 9 원가효익분석)
+    "bc":   re.compile(r'^(BC\d+[A-Z]?(?:\.\d+)?|BCE\.\d+[A-Z]?)\s'),
     "ie":   re.compile(r'^(IE\d+[A-Z]?(?:\.\d+)?)\s'),
 }
 
@@ -157,15 +159,23 @@ def detect_section_type(heading_text: str, current: str) -> str:
 
 
 def extract_para_number(line: str, section_type: str) -> Optional[str]:
-    """라인에서 문단 번호 추출. 테이블 행은 제외."""
+    """라인에서 문단 번호 추출. 테이블 행은 제외.
+    현재 섹션 패턴 우선, 실패 시 다른 섹션 패턴도 시도 (BC가 ag 섹션에 오는 경우 등)."""
     if line.startswith('|'):
         return None
+    # 현재 섹션 패턴 우선
     pattern = PARA_PATTERNS.get(section_type)
-    if not pattern:
-        return None
-    match = pattern.match(line)
-    if match:
-        return match.group(1).replace(' ', '')  # '한 2.1' → '한2.1' 정규화
+    if pattern:
+        match = pattern.match(line)
+        if match:
+            return match.group(1).replace(' ', '')
+    # 다른 섹션 패턴도 시도
+    for key, pat in PARA_PATTERNS.items():
+        if key == section_type:
+            continue
+        match = pat.match(line)
+        if match:
+            return match.group(1).replace(' ', '')
     return None
 
 
@@ -412,6 +422,7 @@ def convert_pdf_to_markdown(pdf_path: str, raw_md_dir: str) -> str:
         return out_file.read_text(encoding="utf-8")
 
     print(f"  [convert] {pdf_path.name} ...")
+    import pymupdf4llm
     md_text = pymupdf4llm.to_markdown(str(pdf_path), page_chunks=False)
     out_file.write_text(md_text, encoding="utf-8")
     print(f"  [saved]  {out_file.name} ({len(md_text):,} chars)")
@@ -426,6 +437,10 @@ def process_single_pdf(pdf_path: str, raw_md_dir: str,
 
     # 1. PDF → Markdown
     md_text = convert_pdf_to_markdown(str(pdf_path), raw_md_dir)
+
+    # 1.5 Markdown 정제
+    from pipeline.md_cleaner import clean_markdown
+    md_text = clean_markdown(md_text)
 
     # 2. Markdown → Chunks
     parents, children = parse_markdown_to_chunks(

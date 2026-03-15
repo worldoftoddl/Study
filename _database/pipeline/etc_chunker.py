@@ -45,6 +45,11 @@ def process_single(pdf_path: Path, raw_md_dir: str, chunks_dir: str, kiwi):
     display_id, normalized_id = match_id(pdf_path.stem)
 
     md_text = convert_pdf_to_markdown(str(pdf_path), raw_md_dir)
+
+    # Markdown 정제
+    from pipeline.md_cleaner import clean_markdown
+    md_text = clean_markdown(md_text)
+
     parents, children = parse_markdown_to_chunks(
         md_text, display_id, normalized_id, kiwi
     )

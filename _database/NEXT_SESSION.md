@@ -43,18 +43,52 @@
 - Agentic 노트북: rerank 후 용어정의 자동 주입 제거, `RERANK_TOP_N = 5`로 조정
 - `rag_pipeline_test.ipynb`: 순수 baseline 파이프라인으로 전환 (Route → Retrieve → Rerank → Boost)
 
+### 6. Raw Markdown 정제 + 재청킹 (2026-03-15)
+- **`pipeline/md_cleaner.py` 신규 생성** — pymupdf4llm 출력 후처리 모듈
+  - 5단계 순차 정제: 보일러플레이트 제거 → 페이지 번호 제거 → PDF 줄바꿈 병합 → 테이블 `<br>` 정리 → 빈줄 축소
+  - CLI: `python pipeline/md_cleaner.py` (전체 배치), `--single`, `--dry-run`, `--fix-spacing` 옵션
+  - 출력: `output/clean_md/` (원본 `output/raw_md/` 보존)
+- **`pipeline/kifrs_chunker.py` 수정**
+  - `pymupdf4llm` 지연 임포트 (모듈 레벨 → `convert_pdf_to_markdown()` 내부)
+  - `process_single_pdf()`에 `clean_markdown()` 호출 삽입
+  - `PARA_PATTERNS` 확장: B-prefix (`B2`, `B4.1.1`), C-series (`C3`, `C5A`), BCE (`BCE.2`) 추가
+  - `extract_para_number()`: 현재 섹션 패턴 실패 시 다른 섹션 패턴도 시도 (cross-section 매칭)
+- **`pipeline/etc_chunker.py` 수정** — `clean_markdown()` 호출 삽입
+- **정제 결과**:
+
+| 지표 | Raw MD | Clean MD | 변화 |
+|------|--------|----------|------|
+| 총 라인 수 | 523,513 | 118,185 | **-77.4%** |
+| 보일러플레이트 | 있음 | 제거됨 | |
+| 페이지 번호 아티팩트 | 있음 | 제거됨 | |
+| PDF 줄바꿈 | 문장 중간 끊김 | 논리적 문단 병합 | |
+
+- **청크 재생성 결과**:
+
+| 지표 | 이전 (raw MD 기반) | 현재 (clean MD 기반) | 변화 |
+|------|-------------------|---------------------|------|
+| 총 child 청크 | 12,457 | **15,839** | +27% |
+| 빈 청크 / 50자 미만 | 존재 | **0개** | |
+| 5K+ unk 청크 | 다수 (최대 81K) | **8개** (최대 15K) | |
+| 3K+ 청크 | 미측정 | **84개** (0.5%) | |
+| 평균 청크 길이 | 미측정 | 359자 (중앙값 257자) | |
+
+- 3K+ 대형 청크 84개 분석 완료:
+  - 64개: 문단번호 있음 — 원문 자체가 긴 문단 (분할 불가)
+  - 20개: unk — 테이블/서술형 BC 산문 (분할 불가)
+
 ---
 
 ## 다음 작업
 
-### 1. Qdrant payload 인덱스 실행
-- `python3 -m search.embedder --create-index` 실행하여 `referenced_standards` keyword 인덱스 생성
-- 역방향 검색(`reverse_lookup_chunks`) 성능 최적화
+### 1. 벡터DB 전환 (Qdrant → PostgreSQL)
+- 새 청크 데이터(15,839개)를 PostgreSQL + pgvector로 재임베딩
+- 기존 Qdrant 기반 search/ 모듈 전환 필요 (10개 파일 47개 터치포인트)
+- `search/retriever.py`, `search/embedder.py`, `search/tools.py` 등 전면 수정
 
 ### 2. Agentic 파이프라인 통합 테스트
 - `kifrs_rag_agentic.ipynb` 실행하여 4개 tool 동작 검증
 - LLM이 `fetch_term_definitions`를 적절히 호출하는지 확인
-- K=3 설정에서 tool 호출 빈도/패턴 분석
 
 ### 3. Agentic vs Baseline 평가
 - 동일 22개 테스트 케이스로 Agentic(tool calling) vs Baseline(retrieve+rerank only) 비교
@@ -63,6 +97,12 @@
 ---
 
 ## 핵심 파일 위치
+
+### pipeline/ — 문서 처리
+- `pipeline/md_cleaner.py` — **[신규]** raw MD 후처리 (5단계 정제 + CLI)
+- `pipeline/kifrs_chunker.py` — 청킹 + 교차참조 추출 (B/C/BCE 패턴 확장됨)
+- `pipeline/etc_chunker.py` — 비표준 문서 청킹 (개념체계, 실무서)
+- `pipeline/terms_index.py` — 용어정의 인덱스 빌더
 
 ### search/ — 검색 엔진 모듈
 - `search/__init__.py` — 패키지 exports
@@ -81,14 +121,12 @@
 - `search/xref_resolver.py` — [DEPRECATED] 교차참조 파싱 로직 보존
 - `search/embedder.py` — Qdrant 적재 + `update_payloads()` + `create_payload_indexes()`
 
-### pipeline/ — 문서 처리
-- `pipeline/kifrs_chunker.py` — 청킹 + 교차참조 추출
-- `pipeline/terms_index.py` — 용어정의 인덱스 빌더
-
 ### 데이터
-- `output/chunks/*.json` — 패치된 청크 데이터 (63개 기준서)
+- `output/raw_md/*.md` — pymupdf4llm 원본 마크다운 (63개, 보존용)
+- `output/clean_md/*.md` — **[신규]** 정제된 마크다운 (63개)
+- `output/chunks/*.json` — **재생성된** 청크 데이터 (63개 기준서, 15,839 children)
 - `output/terms_index.json` — 기준서별 용어정의 청크 매핑 (40개 기준서)
-- `qdrant_storage/` — Qdrant 로컬 벡터DB
+- `qdrant_storage/` — Qdrant 로컬 벡터DB (**주의: 이전 청크 기준, 재임베딩 필요**)
 
 ### 평가 / 문서
 - `eval/evaluator.py` — RAG 평가기 (DRM, xref coverage, authority accuracy)

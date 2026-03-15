@@ -1,46 +1,10 @@
 {
   "standard_id": "K-IFRS 2010",
-  "processed_at": "2026-03-04T11:02:19.395693+00:00",
+  "processed_at": "2026-03-15T12:39:22.724478+00:00",
   "parents": [
     {
       "chunk_id": "KIFRS2010_main_h_root",
       "heading_text": "root",
-      "section_type": "main",
-      "metadata": {
-        "standard_id": "K-IFRS 2010",
-        "section_type": "main"
-      }
-    },
-    {
-      "chunk_id": "KIFRS2010_main_h_기업회계기준해석서_제_호",
-      "heading_text": "기업회계기준해석서 제 호",
-      "section_type": "main",
-      "metadata": {
-        "standard_id": "K-IFRS 2010",
-        "section_type": "main"
-      }
-    },
-    {
-      "chunk_id": "KIFRS2010_main_h_정부지원_영업활동과_특정한_관련이_없는_경우",
-      "heading_text": "정부지원 영업활동과 특정한 관련이 없는 경우",
-      "section_type": "main",
-      "metadata": {
-        "standard_id": "K-IFRS 2010",
-        "section_type": "main"
-      }
-    },
-    {
-      "chunk_id": "KIFRS2010_main_h_한국회계기준원_회계기준위원회_의결_20071123",
-      "heading_text": "한국회계기준원 회계기준위원회 의결 2007.11.23.",
-      "section_type": "main",
-      "metadata": {
-        "standard_id": "K-IFRS 2010",
-        "section_type": "main"
-      }
-    },
-    {
-      "chunk_id": "KIFRS2010_main_h_본_문",
-      "heading_text": "본 문",
       "section_type": "main",
       "metadata": {
         "standard_id": "K-IFRS 2010",
@@ -177,8 +141,8 @@
   "children": [
     {
       "chunk_id": "KIFRS2010_main_unk_1",
-      "parent_id": "KIFRS2010_main_h_본_문",
-      "content": "- 4\n\n않으나 해석서를 적용하는 데 편의를 제공하기 위해 제시된다\n\n                  - 5\n\n기업회계기준해석서 제 2010 호 ‘ 정부지원 : 영업활동과 특정한 관련이 없는 경\n\n우 ’ 는 문단 한 1.1~ 한 3.1 로 구성되어 있으며, 결론도출근거가 첨부되어 있다 .\n\n해석서의 적용범위와 효력은 ‘ 기업회계기준 전문 ’ 의 문단 24 와 25 에서 규정한\n\n다 .\n\n                 - 6",
+      "parent_id": "KIFRS2010_main_h_root",
+      "content": "않으나 해석서를 적용하는 데 편의를 제공하기 위해 제시된다 기업회계기준해석서 제 2010 호 ‘ 정부지원 : 영업활동과 특정한 관련이 없는 경 우 ’ 는 문단 한 1.1~ 한 3.1 로 구성되어 있으며, 결론도출근거가 첨부되어 있다 .\n\n해석서의 적용범위와 효력은 ‘ 기업회계기준 전문 ’ 의 문단 24 와 25 에서 규정한 다 .",
       "metadata": {
         "standard_id": "K-IFRS 2010",
         "section_type": "main",
@@ -187,9 +151,9 @@
           "기업회계기준해석서제2010호",
           "문단24"
         ],
+        "referenced_standards": [],
         "has_table": false,
-        "has_example": false,
-        "referenced_standards": []
+        "has_example": false
       }
     },
     {
@@ -204,46 +168,46 @@
           "제1008호",
           "제1020호"
         ],
-        "has_table": false,
-        "has_example": false,
         "referenced_standards": [
           "1008",
           "1020"
-        ]
+        ],
+        "has_table": false,
+        "has_example": false
       }
     },
     {
       "chunk_id": "KIFRS2010_main_한1.1",
       "parent_id": "KIFRS2010_main_h_적용",
-      "content": "한 1.1 이 해석서는 ‘ 주식회사 등의 외부감사에 관한 법률 ’ 에서 정하는 한국채\n\n택국제회계기준 의무적용대상 주식회사의 회계처리에 적용한다 . 또한\n\n이 해석서는 재무제표의 작성과 표시를 위해 한국채택국제회계기준의\n\n적용을 선택하거나 다른 법령 등에서 적용을 요구하는 기업의 회계처\n\n리에도 적용한다 .",
+      "content": "한 1.1 이 해석서는 ‘ 주식회사 등의 외부감사에 관한 법률 ’ 에서 정하는 한국채 택국제회계기준 의무적용대상 주식회사의 회계처리에 적용한다 . 또한 이 해석서는 재무제표의 작성과 표시를 위해 한국채택국제회계기준의 적용을 선택하거나 다른 법령 등에서 적용을 요구하는 기업의 회계처 리에도 적용한다 .",
       "metadata": {
         "standard_id": "K-IFRS 2010",
         "section_type": "main",
         "para_number": "한1.1",
         "cross_refs": [],
+        "referenced_standards": [],
         "has_table": false,
-        "has_example": false,
-        "referenced_standards": []
+        "has_example": false
       }
     },
     {
       "chunk_id": "KIFRS2010_main_1",
       "parent_id": "KIFRS2010_main_h_회계논제",
-      "content": "1 일부 국가에서 기업에 대한 정부지원은 특정 지역이나 산업영역에서의\n\n사업활동을 장려하거나 장기적으로 지원하는 것을 목적으로 한다 . 이러\n\n한 지원을 받기 위한 조건은 기업의 영업활동과 특별히 관련되지 않을\n\n수 있다 . 이러한 지원의 예로는 다음과 같은 기업에 정부가 자원을 이\n\n전하는 것을 들 수 있다 .\n\n⑴ 특정산업에서 영업하는 기업\n\n⑵ 최근 민영화된 산업에서 계속 영업하는 기업\n\n⑶ 저개발 지역에서 사업활동을 시작하거나 계속 하는 기업",
+      "content": "1 일부 국가에서 기업에 대한 정부지원은 특정 지역이나 산업영역에서의 사업활동을 장려하거나 장기적으로 지원하는 것을 목적으로 한다 . 이러 한 지원을 받기 위한 조건은 기업의 영업활동과 특별히 관련되지 않을 수 있다 . 이러한 지원의 예로는 다음과 같은 기업에 정부가 자원을 이 전하는 것을 들 수 있다 .\n\n⑴ 특정산업에서 영업하는 기업\n\n⑵ 최근 민영화된 산업에서 계속 영업하는 기업\n\n⑶ 저개발 지역에서 사업활동을 시작하거나 계속 하는 기업",
       "metadata": {
         "standard_id": "K-IFRS 2010",
         "section_type": "main",
         "para_number": "1",
         "cross_refs": [],
+        "referenced_standards": [],
         "has_table": false,
-        "has_example": false,
-        "referenced_standards": []
+        "has_example": false
       }
     },
     {
       "chunk_id": "KIFRS2010_main_2",
       "parent_id": "KIFRS2010_main_h_회계논제",
-      "content": "2 이 해석서의 회계논제는 이러한 정부지원이 기업회계기준서 제 1020 호\n\n의 적용범위에 해당하는 정부보조금인지의 여부와 동 기준서에 따라\n\n회계처리해야 하는지의 여부이다 .\n\n                  - 7",
+      "content": "2 이 해석서의 회계논제는 이러한 정부지원이 기업회계기준서 제 1020 호 의 적용범위에 해당하는 정부보조금인지의 여부와 동 기준서에 따라 회계처리해야 하는지의 여부이다 .",
       "metadata": {
         "standard_id": "K-IFRS 2010",
         "section_type": "main",
@@ -251,17 +215,17 @@
         "cross_refs": [
           "제1020호"
         ],
-        "has_table": false,
-        "has_example": false,
         "referenced_standards": [
           "1020"
-        ]
+        ],
+        "has_table": false,
+        "has_example": false
       }
     },
     {
       "chunk_id": "KIFRS2010_main_3",
       "parent_id": "KIFRS2010_main_h_결론",
-      "content": "3 특정 지역이나 산업영역에서 영업하는 요건 이외에 기업의 영업활동\n\n과 특별히 관련된 조건이 없더라도 기업에 대한 정부지원은 기업회계\n\n기준서 제 1020 호 정부보조금의 정의를 충족한다 . 따라서 이러한 보조\n\n금은 주주지분으로 직접 인식하지 아니한다 .",
+      "content": "3 특정 지역이나 산업영역에서 영업하는 요건 이외에 기업의 영업활동 과 특별히 관련된 조건이 없더라도 기업에 대한 정부지원은 기업회계 기준서 제 1020 호 정부보조금의 정의를 충족한다 . 따라서 이러한 보조 금은 주주지분으로 직접 인식하지 아니한다 .",
       "metadata": {
         "standard_id": "K-IFRS 2010",
         "section_type": "main",
@@ -269,31 +233,31 @@
         "cross_refs": [
           "제1020호"
         ],
-        "has_table": false,
-        "has_example": false,
         "referenced_standards": [
           "1020"
-        ]
+        ],
+        "has_table": false,
+        "has_example": false
       }
     },
     {
       "chunk_id": "KIFRS2010_main_한3.1",
       "parent_id": "KIFRS2010_main_h_시행일",
-      "content": "한 3.1 이 해석서는 2011 년 1 월 1 일 이후 최초로 개시하는 회계연도부터 적\n\n용한다 . 다만, 2009 년 1 월 1 일 이후 개시하는 회계연도부터 적용할 수\n\n있다 .\n\n                  - 8",
+      "content": "한 3.1 이 해석서는 2011 년 1 월 1 일 이후 최초로 개시하는 회계연도부터 적 용한다 . 다만, 2009 년 1 월 1 일 이후 개시하는 회계연도부터 적용할 수 있다 .",
       "metadata": {
         "standard_id": "K-IFRS 2010",
         "section_type": "main",
         "para_number": "한3.1",
         "cross_refs": [],
+        "referenced_standards": [],
         "has_table": false,
-        "has_example": false,
-        "referenced_standards": []
+        "has_example": false
       }
     },
     {
       "chunk_id": "KIFRS2010_main_unk_3",
       "parent_id": "KIFRS2010_main_h_기업회계기준해석서_제_호의_제_개정_등에_대한_회계기준위원회의_의결",
-      "content": "기업회계기준해석서 제 2010 호 ‘ 정부지원 : 영업활동과 특정한 관련이 없는 경\n\n우 ’ 의 제정 (2007.11.23.) 은 회계기준위원회 위원 7 인 전원의 찬성으로 의결하\n\n였다 .\n\n회계기준위원회 위원 :\n\n이효익 ( 위원장 ), 서정우 ( 상임위원 ), 김성남, 윤순석, 최상태, 황성식, 황인태\n\n                  - 9",
+      "content": "기업회계기준해석서 제 2010 호 ‘ 정부지원 : 영업활동과 특정한 관련이 없는 경 우 ’ 의 제정 (2007.11.23.) 은 회계기준위원회 위원 7 인 전원의 찬성으로 의결하 였다 .\n\n회계기준위원회 위원 : 이효익 ( 위원장 ), 서정우 ( 상임위원 ), 김성남, 윤순석, 최상태, 황성식, 황인태",
       "metadata": {
         "standard_id": "K-IFRS 2010",
         "section_type": "main",
@@ -301,29 +265,29 @@
         "cross_refs": [
           "기업회계기준해석서제2010호"
         ],
+        "referenced_standards": [],
         "has_table": false,
-        "has_example": false,
-        "referenced_standards": []
+        "has_example": false
       }
     },
     {
       "chunk_id": "KIFRS2010_bc_unk_4",
       "parent_id": "KIFRS2010_bc_h_결론도출근거",
-      "content": "- 10\n\n한국회계기준원은 한국채택국제회계기준 제정시 기준서를 제정한 과정 등을\n\n기술하여 결론도출근거로 제공하고자 하였다 그러나 한국채택국제회계기준\n\n준 제정시 제시한 결론도출근거를 반영하여 제공함으로써 이를 갈음하고자\n\n한다\n\n다만 한국회계기준원이 한국채택국제회계기준이나 국제회계기준의 제 개정\n\n절차에 참여한 경우 이와 관련된 내용을 국제회계기준의 결론도출근거와 구\n\n분하여 한국채택국제회계기준의 결론도출근거로 별도 제시한다\n\n                  - 11\n\n- 12",
+      "content": "한국회계기준원은 한국채택국제회계기준 제정시 기준서를 제정한 과정 등을 기술하여 결론도출근거로 제공하고자 하였다 그러나 한국채택국제회계기준 준 제정시 제시한 결론도출근거를 반영하여 제공함으로써 이를 갈음하고자 한다 다만 한국회계기준원이 한국채택국제회계기준이나 국제회계기준의 제 개정 절차에 참여한 경우 이와 관련된 내용을 국제회계기준의 결론도출근거와 구 분하여 한국채택국제회계기준의 결론도출근거로 별도 제시한다",
       "metadata": {
         "standard_id": "K-IFRS 2010",
         "section_type": "bc",
         "para_number": null,
         "cross_refs": [],
+        "referenced_standards": [],
         "has_table": false,
-        "has_example": false,
-        "referenced_standards": []
+        "has_example": false
       }
     },
     {
       "chunk_id": "KIFRS2010_bc_unk_5",
       "parent_id": "KIFRS2010_bc_h_결론도출근거_2",
-      "content": "이 결론도출근거는 SIC10 에 첨부되지만, 이 해석서의 일부를 구성하는 것은\n\n아니다 .\n\n4 IAS 20 문단 3 에서는 정부보조금을 기업의 영업활동과 관련하여 과\n\n거나 미래에 일정한 조건을 충족하였거나 충족할 경우 기업에게 자원\n\n을 이전하는 형식의 정부지원으로 정의하고 있다 . 정부지원을 얻기\n\n위해 특정 지역이나 산업영역에서 영업해야하는 일반적인 요건은\n\nIAS 20 의 문단 3 에 따른 조건을 구성한다 . 따라서 그러한 지원은 정\n\n부보조금의 정의에 부합하고 IAS 20, 특히 수익의 인식 시점을 다룬\n\n문단 12 와 20 이 적용된다 .\n\n                  - 13",
+      "content": "이 결론도출근거는 SIC10 에 첨부되지만, 이 해석서의 일부를 구성하는 것은 아니다 .\n\n4 IAS 20 문단 3 에서는 정부보조금을 기업의 영업활동과 관련하여 과 거나 미래에 일정한 조건을 충족하였거나 충족할 경우 기업에게 자원 을 이전하는 형식의 정부지원으로 정의하고 있다 . 정부지원을 얻기 위해 특정 지역이나 산업영역에서 영업해야하는 일반적인 요건은 IAS 20 의 문단 3 에 따른 조건을 구성한다 . 따라서 그러한 지원은 정 부보조금의 정의에 부합하고 IAS 20, 특히 수익의 인식 시점을 다룬 문단 12 와 20 이 적용된다 .",
       "metadata": {
         "standard_id": "K-IFRS 2010",
         "section_type": "bc",
@@ -332,17 +296,17 @@
           "문단12",
           "문단3"
         ],
-        "has_table": false,
-        "has_example": false,
         "referenced_standards": [
           "1020"
-        ]
+        ],
+        "has_table": false,
+        "has_example": false
       }
     },
     {
       "chunk_id": "KIFRS2010_bc_unk_6",
       "parent_id": "KIFRS2010_bc_h_국제회계기준과의_관계",
-      "content": "기업회계기준해석서 제 2010 호는 상설해석위원회가제정한 국제회계기준해석\n\n제 10 호 (SIC 10) ‘ 정부지원 : 영업활동과 특정한 관련이 없는 경우 (Government\n\nAssistance-No Specific Relation to Operating Activities)' 에 대응하는 해석이다 .\n\n한국의 법률체계와 일관성을 유지하기 위하여 형식적인 부분이 제한적으로\n\n수정되었다 . 즉, 한국채택국제회계기준의 의무적용대상기업과 적용시기를 명\n\n시하기 위하여 문단 한 1.1, 한 3.1 이 추가되었으며, 적용시기 이후 최초채택기\n\n업으로서 이 기준서를 적용하게 됨에 따라 시행일과 관련된 문단이 삭제되\n\n었다 . 이러한 수정을 명시적으로 표시하기 위하여 동 국제회계기준에 추가한\n\n문단은 관련된 국제회계기준 문단번호에 ‘ 한 ’ 이라는 접두어를 붙여 구분 표시\n\n하였다 . 그리고 동 국제회계기준의 문단을 삭제한 경우는 관련된 국제회계기\n\n준 문단번호 옆에 ‘[ 한국회계기준원 회계기준위원회가 삭제함 ]’ 이라고 표시하\n\n였다 .\n\n형식과 관련하여 수정된 위의 문단들을 제외하고는 기업회계기준해석서 제\n\n2010 호가 SIC 10 의 내용에 근거하여 제정되었기 때문에 기업회계기준해석서\n\n제 2010 호를 준수하면 동시에 SIC 10 을 준수하는 것이 된다 .\n\n                  - 15",
+      "content": "기업회계기준해석서 제 2010 호는 상설해석위원회가제정한 국제회계기준해석 제 10 호 (SIC 10) ‘ 정부지원 : 영업활동과 특정한 관련이 없는 경우 (Government Assistance-No Specific Relation to Operating Activities)' 에 대응하는 해석이다 .\n\n한국의 법률체계와 일관성을 유지하기 위하여 형식적인 부분이 제한적으로 수정되었다 . 즉, 한국채택국제회계기준의 의무적용대상기업과 적용시기를 명 시하기 위하여 문단 한 1.1, 한 3.1 이 추가되었으며, 적용시기 이후 최초채택기 업으로서 이 기준서를 적용하게 됨에 따라 시행일과 관련된 문단이 삭제되 었다 . 이러한 수정을 명시적으로 표시하기 위하여 동 국제회계기준에 추가한 문단은 관련된 국제회계기준 문단번호에 ‘ 한 ’ 이라는 접두어를 붙여 구분 표시 하였다 . 그리고 동 국제회계기준의 문단을 삭제한 경우는 관련된 국제회계기 준 문단번호 옆에 ‘[ 한국회계기준원 회계기준위원회가 삭제함 ]’ 이라고 표시하 였다 .\n\n형식과 관련하여 수정된 위의 문단들을 제외하고는 기업회계기준해석서 제",
       "metadata": {
         "standard_id": "K-IFRS 2010",
         "section_type": "bc",
@@ -350,37 +314,31 @@
         "cross_refs": [
           "기업회계기준해석서제2010호"
         ],
+        "referenced_standards": [],
         "has_table": false,
-        "has_example": false,
-        "sentences": [
-          "기업회계기준해석서 제 2010 호는 상설해석위원회가제정한 국제회계기준해석",
-          "제 10 호 (SIC 10) ‘ 정부지원 : 영업활동과 특정한 관련이 없는 경우 (Government",
-          "Assistance-No Specific Relation to Operating Activities)' 에 대응하는 해석이다 .",
-          "한국의 법률체계와 일관성을 유지하기 위하여 형식적인 부분이 제한적으로",
-          "수정되었다 .",
-          "즉, 한국채택국제회계기준의 의무적용대상기업과 적용시기를 명",
-          "시하기 위하여 문단 한 1.1, 한 3.1 이 추가되었으며, 적용시기 이후 최초채택기",
-          "업으로서 이 기준서를 적용하게 됨에 따라 시행일과 관련된 문단이 삭제되",
-          "었다 .",
-          "이러한 수정을 명시적으로 표시하기 위하여 동 국제회계기준에 추가한",
-          "문단은 관련된 국제회계기준 문단번호에 ‘ 한 ’ 이라는 접두어를 붙여 구분 표시",
-          "하였다 .",
-          "그리고 동 국제회계기준의 문단을 삭제한 경우는 관련된 국제회계기",
-          "준 문단번호 옆에 ‘[ 한국회계기준원 회계기준위원회가 삭제함 ]’ 이라고 표시하",
-          "였다 .",
-          "형식과 관련하여 수정된 위의 문단들을 제외하고는 기업회계기준해석서 제",
-          "2010 호가 SIC 10 의 내용에 근거하여 제정되었기 때문에 기업회계기준해석서",
-          "제 2010 호를 준수하면 동시에 SIC 10 을 준수하는 것이 된다 .",
-          "-",
-          "15"
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2010_bc_2010",
+      "parent_id": "KIFRS2010_bc_h_국제회계기준과의_관계",
+      "content": "2010 호가 SIC 10 의 내용에 근거하여 제정되었기 때문에 기업회계기준해석서 제 2010 호를 준수하면 동시에 SIC 10 을 준수하는 것이 된다 .",
+      "metadata": {
+        "standard_id": "K-IFRS 2010",
+        "section_type": "bc",
+        "para_number": "2010",
+        "cross_refs": [
+          "기업회계기준해석서제2010호"
         ],
-        "referenced_standards": []
+        "referenced_standards": [],
+        "has_table": false,
+        "has_example": false
       }
     },
     {
       "chunk_id": "KIFRS2010_bc_unk_7",
       "parent_id": "KIFRS2010_bc_h_이_해석서의_주요_특징",
-      "content": "이 해석서는 영업활동과 특정한 관련이 없는 정부지원에 대한 해석을 제공\n\n하기 위하여 제정되었다 .\n\n주요 요구사항\n\n기업의 영업활동과 특정한 관련이 없는 정부지원이라도 특정 지역이나 산\n\n업에서 영업하는 일반적인 요건은 정부지원의 요건을 충족하기 위해 기업\n\n회계기준서 제 1020 호 문단 3 에 따른 조건을 구성한다 . 따라서 이러한 지원\n\n은 정부보조금에 해당하고 기업회계기준서 제 1020 호를 적용한다 .\n\n                  - 16",
+      "content": "이 해석서는 영업활동과 특정한 관련이 없는 정부지원에 대한 해석을 제공 하기 위하여 제정되었다 .\n\n주요 요구사항 기업의 영업활동과 특정한 관련이 없는 정부지원이라도 특정 지역이나 산 업에서 영업하는 일반적인 요건은 정부지원의 요건을 충족하기 위해 기업 회계기준서 제 1020 호 문단 3 에 따른 조건을 구성한다 . 따라서 이러한 지원 은 정부보조금에 해당하고 기업회계기준서 제 1020 호를 적용한다 .",
       "metadata": {
         "standard_id": "K-IFRS 2010",
         "section_type": "bc",
@@ -389,25 +347,25 @@
           "문단3",
           "제1020호"
         ],
-        "has_table": false,
-        "has_example": false,
         "referenced_standards": [
           "1020"
-        ]
+        ],
+        "has_table": false,
+        "has_example": false
       }
     },
     {
       "chunk_id": "KIFRS2010_bc_unk_8",
       "parent_id": "KIFRS2010_bc_h_제_개정_경과",
-      "content": "한국회계기준원 회계기준위원회는 국제회계기준위원회가 제정한 국제회계기\n\n준을 채택하여 기업회계기준의 일부로 구성하기로 한 정책에 따라 이 해석\n\n서를 다음과 같이 제 ․ 개정하였다 .\n\n        - 17",
+      "content": "한국회계기준원 회계기준위원회는 국제회계기준위원회가 제정한 국제회계기 준을 채택하여 기업회계기준의 일부로 구성하기로 한 정책에 따라 이 해석 서를 다음과 같이 제 ․ 개정하였다 .",
       "metadata": {
         "standard_id": "K-IFRS 2010",
         "section_type": "bc",
         "para_number": null,
         "cross_refs": [],
+        "referenced_standards": [],
         "has_table": false,
-        "has_example": false,
-        "referenced_standards": []
+        "has_example": false
       }
     }
   ]
