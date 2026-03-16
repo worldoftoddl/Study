@@ -77,6 +77,15 @@
   - 64개: 문단번호 있음 — 원문 자체가 긴 문단 (분할 불가)
   - 20개: unk — 테이블/서술형 BC 산문 (분할 불가)
 
+### 7. 저가치 BC 청크 정리 (2026-03-16)
+- **`pipeline/bc_chunk_cleaner.py` 신규 생성** — BC 보일러플레이트 청크 제거 스크립트
+  - 6개 규칙: unk_5k_bc(4), meta_disclaimer(17), admin_intro(49), amendment(62), dissenting(49), ias_relation(73)
+  - `prune_orphaned_parents()`: 자식 없어진 parent 자동 정리 (446개)
+  - CLI: `--dry-run`, `--single FILE.json`, `--out-dir DIR` (미지정 시 in-place)
+  - 멱등성 보장: 2회 실행 시 제거 0개
+- **결과**: 15,838 → 15,587 children (-251개, 1.6%)
+- **안전성 검증**: K-IFRS 1113 공정가치 BC 261개 등 실질 BC 청크 전량 보존 확인
+
 ---
 
 ## 다음 작업
@@ -102,6 +111,7 @@
 - `pipeline/md_cleaner.py` — **[신규]** raw MD 후처리 (5단계 정제 + CLI)
 - `pipeline/kifrs_chunker.py` — 청킹 + 교차참조 추출 (B/C/BCE 패턴 확장됨)
 - `pipeline/etc_chunker.py` — 비표준 문서 청킹 (개념체계, 실무서)
+- `pipeline/bc_chunk_cleaner.py` — **[신규]** 저가치 BC 청크 제거 (6개 규칙 + CLI)
 - `pipeline/terms_index.py` — 용어정의 인덱스 빌더
 
 ### search/ — 검색 엔진 모듈
@@ -124,7 +134,7 @@
 ### 데이터
 - `output/raw_md/*.md` — pymupdf4llm 원본 마크다운 (63개, 보존용)
 - `output/clean_md/*.md` — **[신규]** 정제된 마크다운 (63개)
-- `output/chunks/*.json` — **재생성된** 청크 데이터 (63개 기준서, 15,839 children)
+- `output/chunks/*.json` — **재생성된** 청크 데이터 (63개 기준서, 15,587 children — BC 정리 후)
 - `output/terms_index.json` — 기준서별 용어정의 청크 매핑 (40개 기준서)
 - `qdrant_storage/` — Qdrant 로컬 벡터DB (**주의: 이전 청크 기준, 재임베딩 필요**)
 
