@@ -2,10 +2,11 @@
 
 import atexit
 
+from psycopg.conninfo import make_conninfo
 from psycopg_pool import ConnectionPool
 from pgvector.psycopg import register_vector
 
-from search.config import DATABASE_URL
+from search.config import PG_HOST, PG_PORT, PG_DATABASE, PG_USER, PG_PASSWORD
 
 _pool: ConnectionPool | None = None
 
@@ -14,8 +15,12 @@ def get_pool() -> ConnectionPool:
     """싱글톤 커넥션 풀을 반환한다."""
     global _pool
     if _pool is None:
+        conninfo = make_conninfo(
+            host=PG_HOST, port=PG_PORT,
+            dbname=PG_DATABASE, user=PG_USER, password=PG_PASSWORD,
+        )
         _pool = ConnectionPool(
-            DATABASE_URL,
+            conninfo,
             min_size=2,
             max_size=5,
             configure=_configure_conn,

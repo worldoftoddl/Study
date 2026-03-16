@@ -92,24 +92,17 @@
   - `search_test_hybrid.py` — pgvector 기반으로 전환
   - `requirements.txt` — `qdrant-client` → `psycopg[binary]`, `psycopg-pool`, `pgvector`
 - **import 검증 완료**: 모든 모듈 Qdrant 참조 0건, import 정상
-- **상태: PostgreSQL 설치 + DB 생성 + 임베딩 적재 미완료**
+- **PostgreSQL 16 + pgvector 0.6.0 설치 완료**, DB `kifrs_rag` 생성 완료, `.env` 설정 완료
+- **상태: 3K+ 대형 청크 재청킹 후 임베딩 적재 필요**
 
 ---
 
 ## 다음 작업
 
-### 1. PostgreSQL 설치 + 임베딩 적재
-- PostgreSQL + pgvector 설치 (WSL2):
-  ```bash
-  sudo apt install -y postgresql postgresql-contrib postgresql-16-pgvector
-  sudo systemctl enable --now postgresql
-  sudo -u postgres psql -c "CREATE USER shin WITH PASSWORD '...';"
-  sudo -u postgres psql -c "CREATE DATABASE kifrs_rag OWNER shin;"
-  sudo -u postgres psql -d kifrs_rag -c "CREATE EXTENSION vector;"
-  ```
-- `.env`에 `PG_HOST`, `PG_PORT`, `PG_DATABASE`, `PG_USER`, `PG_PASSWORD` 설정 완료
-- `python -m search.embedder` 실행 → 15,587개 청크 Upstage Solar 임베딩 + PostgreSQL 적재
-- 예상 소요: ~30분 (Upstage API rate limit이 병목)
+### 1. 3K+ 대형 청크 재청킹
+- 현재 3,000자 초과 청크 84개 존재 (64개 문단번호 있음, 20개 unk)
+- 재청킹하여 3,000자 이하로 분할
+- 재청킹 후 `python -m search.embedder` 실행 → PostgreSQL 적재
 
 ### 2. Agentic 파이프라인 통합 테스트
 - `kifrs_rag_agentic.ipynb` 실행하여 4개 tool 동작 검증

@@ -2,6 +2,9 @@
 
 import os
 
+from dotenv import load_dotenv
+load_dotenv()
+
 # ── 경로 ──
 CHUNKS_DIR = "./output/chunks"
 
