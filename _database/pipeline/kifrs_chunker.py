@@ -92,6 +92,84 @@ COPYRIGHT_KEYWORDS = [
 HAN_PARA_RE = re.compile(r'^한\s*(\d+(?:\.\d+)*)')
 
 # ---------------------------------------------------------------------------
+# 대형 청크 분할
+# ---------------------------------------------------------------------------
+
+MAX_CHUNK_CHARS = 2500
+
+# 의미 경계 패턴: 사례 헤딩, 하위 번호 항목 (⑴⑵⑶, ㈎㈏㈐)
+SEMANTIC_BREAK_RE = re.compile(
+    r'(?=^(?:사례\s|[⑴⑵⑶⑷⑸⑹⑺⑻⑼⑽㈎㈏㈐㈑㈒]))',
+    re.MULTILINE,
+)
+
+
+def _greedy_merge(segments: list[str], max_chars: int) -> list[str]:
+    """소단락 리스트를 max_chars 이하로 그리디 병합."""
+    groups: list[str] = []
+    parts: list[str] = []
+    length = 0
+    for seg in segments:
+        if length + len(seg) + 2 > max_chars and parts:
+            groups.append('\n\n'.join(parts))
+            parts = []
+            length = 0
+        parts.append(seg)
+        length += len(seg) + 2
+    if parts:
+        groups.append('\n\n'.join(parts))
+    return groups
+
+
+def split_large_content(content: str, max_chars: int = MAX_CHUNK_CHARS) -> list[str]:
+    """3K+ content를 의미 구조 우선 → 빈줄 그리디 폴백으로 분할."""
+    if len(content) <= max_chars:
+        return [content]
+
+    # 1단계: 의미 경계로 분할 시도
+    segments = SEMANTIC_BREAK_RE.split(content)
+    segments = [s.strip() for s in segments if s.strip()]
+
+    # 의미 경계가 1개뿐이면 → 빈줄 기반으로 전환
+    if len(segments) <= 1:
+        segments = [p.strip() for p in re.split(r'\n\s*\n', content) if p.strip()]
+
+    # 2단계: 그리디 병합
+    groups = _greedy_merge(segments, max_chars)
+
+    # 3단계: 여전히 큰 그룹은 빈줄 기반 재분할 → 그래도 크면 문장(". ") 분할
+    final: list[str] = []
+    for group in groups:
+        if len(group) <= max_chars:
+            final.append(group)
+        else:
+            paras = [p.strip() for p in re.split(r'\n\s*\n', group) if p.strip()]
+            sub = _greedy_merge(paras, max_chars)
+            # 빈줄 분할로도 안 쪼개지는 단일 블록 → ". " 기준 문장 분할
+            for s in sub:
+                if len(s) > max_chars:
+                    sents = re.split(r'(?<=\. )', s)
+                    final.extend(_greedy_merge(
+                        [t.strip() for t in sents if t.strip()], max_chars
+                    ))
+                else:
+                    final.append(s)
+
+    # 50자 미만 조각은 인접 그룹에 병합 (앞→뒤 순서)
+    merged: list[str] = []
+    for piece in final:
+        if len(piece) < 50 and merged:
+            merged[-1] = merged[-1] + '\n\n' + piece
+        else:
+            merged.append(piece)
+    # 첫 조각이 50자 미만이면 다음에 병합
+    if len(merged) > 1 and len(merged[0]) < 50:
+        merged[1] = merged[0] + '\n\n' + merged[1]
+        merged.pop(0)
+
+    return merged if merged else [content]
+
+# ---------------------------------------------------------------------------
 # 데이터 클래스
 # ---------------------------------------------------------------------------
 
@@ -301,37 +379,40 @@ def flush_paragraph(state: ParserState, normalized_id: str,
                  if state.current_parent
                  else f"{normalized_id}_{state.section_type}_h_root")
 
-    cross_refs = extract_cross_refs(content, own_standard_num=standard_num)
-    referenced_standards = extract_referenced_standards(
-        content, own_standard_num=standard_num
-    )
+    # --- 대형 청크 분할 ---
+    sub_contents = split_large_content(content)
 
-    # --- cross_refs 자기참조 제거 (문단번호 기반) ---
-    if para_num and para_num in cross_refs:
-        cross_refs = [r for r in cross_refs if r != para_num]
+    for idx, sub_content in enumerate(sub_contents):
+        suffix = f"_s{idx + 1}" if len(sub_contents) > 1 else ""
+        sub_child_id = child_id + suffix
 
-    has_table = detect_has_table(content)
-    has_example = detect_has_example(content)
+        sub_cross_refs = extract_cross_refs(sub_content, own_standard_num=standard_num)
+        sub_ref_stds = extract_referenced_standards(
+            sub_content, own_standard_num=standard_num
+        )
 
-    metadata = {
-        "standard_id": display_id,
-        "section_type": state.section_type,
-        "para_number": para_num,
-        "cross_refs": cross_refs,
-        "referenced_standards": referenced_standards,
-        "has_table": has_table,
-        "has_example": has_example,
-    }
+        if para_num and para_num in sub_cross_refs:
+            sub_cross_refs = [r for r in sub_cross_refs if r != para_num]
 
-    if kiwi and len(content) > 500:
-        metadata["sentences"] = split_into_sentences(content, kiwi)
+        sub_metadata = {
+            "standard_id": display_id,
+            "section_type": state.section_type,
+            "para_number": para_num,
+            "cross_refs": sub_cross_refs,
+            "referenced_standards": sub_ref_stds,
+            "has_table": detect_has_table(sub_content),
+            "has_example": detect_has_example(sub_content),
+        }
 
-    state.children.append(ChildChunk(
-        chunk_id=child_id,
-        parent_id=parent_id,
-        content=content,
-        metadata=metadata,
-    ))
+        if kiwi and len(sub_content) > 500:
+            sub_metadata["sentences"] = split_into_sentences(sub_content, kiwi)
+
+        state.children.append(ChildChunk(
+            chunk_id=sub_child_id,
+            parent_id=parent_id,
+            content=sub_content,
+            metadata=sub_metadata,
+        ))
 
     state.current_para_lines = []
     state.current_para_number = None

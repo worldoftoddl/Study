@@ -63,7 +63,7 @@
 | 총 child 청크 | 12,457 | **15,839** | +27% |
 | 빈 청크 / 50자 미만 | 존재 | **0개** | |
 | 5K+ unk 청크 | 다수 (최대 81K) | **8개** (최대 15K) | |
-| 3K+ 청크 | 미측정 | **84개** (0.5%) | |
+| 3K+ 청크 | 미측정 | **84개** (0.5%) → 재청킹 후 **0개** | |
 | 평균 청크 길이 | 미측정 | 359자 (중앙값 257자) | |
 
 ### 6. 저가치 BC 청크 정리 (2026-03-16)
@@ -93,16 +93,25 @@
   - `requirements.txt` — `qdrant-client` → `psycopg[binary]`, `psycopg-pool`, `pgvector`
 - **import 검증 완료**: 모든 모듈 Qdrant 참조 0건, import 정상
 - **PostgreSQL 16 + pgvector 0.6.0 설치 완료**, DB `kifrs_rag` 생성 완료, `.env` 설정 완료
-- **상태: 3K+ 대형 청크 재청킹 후 임베딩 적재 필요**
+- **상태: 임베딩 적재 필요**
+
+### 8. 3K+ 대형 청크 재청킹 (2026-03-16)
+- **`pipeline/kifrs_chunker.py` 수정** — `split_large_content()` 함수 추가
+  - 3단계 분할: 의미 경계(사례 헤딩, ⑴⑵⑶ 하위 번호) → 빈줄 그리디 병합 → 문장(". ") 분할
+  - `flush_paragraph()` 내부에서 `MAX_CHUNK_CHARS=2500` 초과 시 자동 분할
+  - 서브청크 ID: `원본_s1`, `원본_s2` ... (메타데이터 서브청크별 재계산)
+  - 50자 미만 소조각 인접 병합 처리
+- **결과**: 15,587 → **16,052** children (+465)
+  - 3K+ 청크: 83 → **0** (최대 2,983자)
+  - 50자 미만: 0 유지
+  - 116개 대형 청크 분할 (29개 기준서 JSON 업데이트)
 
 ---
 
 ## 다음 작업
 
-### 1. 3K+ 대형 청크 재청킹
-- 현재 3,000자 초과 청크 84개 존재 (64개 문단번호 있음, 20개 unk)
-- 재청킹하여 3,000자 이하로 분할
-- 재청킹 후 `python -m search.embedder` 실행 → PostgreSQL 적재
+### 1. 임베딩 적재
+- `python -m search.embedder` 실행 → PostgreSQL 적재
 
 ### 2. Agentic 파이프라인 통합 테스트
 - `kifrs_rag_agentic.ipynb` 실행하여 4개 tool 동작 검증
@@ -144,7 +153,7 @@
 ### 데이터
 - `output/raw_md/*.md` — pymupdf4llm 원본 마크다운 (63개, 보존용)
 - `output/clean_md/*.md` — 정제된 마크다운 (63개)
-- `output/chunks/*.json` — 재생성된 청크 데이터 (63개 기준서, 15,587 children — BC 정리 후)
+- `output/chunks/*.json` — 재생성된 청크 데이터 (63개 기준서, 16,052 children — 대형 청크 재분할 후)
 - `output/terms_index.json` — 기준서별 용어정의 청크 매핑 (40개 기준서)
 - `qdrant_storage/` — **[DEPRECATED]** 이전 Qdrant 로컬 벡터DB (삭제 가능)
 
