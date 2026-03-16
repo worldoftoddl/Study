@@ -83,7 +83,6 @@ def kifrs_fetch_paragraph(
         para_number: 문단 번호 (예: '26', 'AG12', 'BC3')
         section_type: 본문=main, 적용지침=ag, 결론근거=bc, 사례=ie (기본 main)
     """
-    res = get_resources()
     from search.tools import execute_fetch_paragraphs
 
     args = {
@@ -93,7 +92,7 @@ def kifrs_fetch_paragraph(
             "section_type": section_type,
         }]
     }
-    new_docs, result_text = execute_fetch_paragraphs(args, res.client, set())
+    new_docs, result_text = execute_fetch_paragraphs(args, set())
     if new_docs:
         return _format_docs(new_docs)
     return result_text
@@ -114,11 +113,10 @@ def kifrs_find_referencing(
         standard_numbers: 기준서 번호 리스트 (예: ['1109', '1115']). 'K-IFRS' 접두사 없이 숫자만.
         max_results: 최대 반환 문서 수 (기본 5)
     """
-    res = get_resources()
     from search.tools import execute_find_referencing_chunks
 
     args = {"standard_numbers": standard_numbers, "max_results": max_results}
-    new_docs, result_text = execute_find_referencing_chunks(args, res.client, set())
+    new_docs, result_text = execute_find_referencing_chunks(args, set())
     if new_docs:
         return f"{result_text}\n\n{_format_docs(new_docs)}"
     return result_text
@@ -141,7 +139,6 @@ def kifrs_explore_related(
         hops: 탐색 깊이 — 1=직접 참조, 2=간접 참조까지 (기본 1)
         max_results: 최대 반환 기준서 수 (기본 3)
     """
-    res = get_resources()
     from search.tools import execute_explore_related_standards
 
     args = {
@@ -149,9 +146,7 @@ def kifrs_explore_related(
         "hops": hops,
         "max_results": max_results,
     }
-    new_docs, result_text = execute_explore_related_standards(
-        args, res.client, set(),
-    )
+    new_docs, result_text = execute_explore_related_standards(args, set())
     if new_docs:
         return f"{result_text}\n\n{_format_docs(new_docs)}"
     return result_text
@@ -172,16 +167,13 @@ def kifrs_term_definitions(
         standard_numbers: 기준서 번호 리스트 (예: ['1109', '1115']). 'K-IFRS' 접두사 없이 숫자만.
         max_definitions: 최대 반환할 용어정의 수 (기본 3)
     """
-    res = get_resources()
     from search.tools import execute_fetch_term_definitions
 
     args = {
         "standard_numbers": standard_numbers,
         "max_definitions": max_definitions,
     }
-    new_docs, result_text = execute_fetch_term_definitions(
-        args, res.client, set(),
-    )
+    new_docs, result_text = execute_fetch_term_definitions(args, set())
     if new_docs:
         return f"{result_text}\n\n{_format_docs(new_docs)}"
     return result_text

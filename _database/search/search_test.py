@@ -1,5 +1,5 @@
 """
-Qdrant 적재 후 검색 테스트
+PostgreSQL(pgvector) 적재 후 검색 테스트
 - Child 검색 → Parent 조회 → 형제 Child 묶기 검증
 """
 
@@ -7,9 +7,9 @@ import os
 
 from dotenv import load_dotenv
 from langchain_upstage import UpstageEmbeddings
-from qdrant_client import QdrantClient
 
-from search.config import QDRANT_PATH, CHILD_COLLECTION, PARENT_COLLECTION, MODEL_NAME
+from search.config import CHILDREN_TABLE, PARENTS_TABLE, MODEL_NAME
+from search.db import get_connection
 from search.retriever import search_with_parent
 
 load_dotenv()
@@ -29,10 +29,13 @@ def main():
         model=MODEL_NAME,
         upstage_api_key=os.getenv("UPSTAGE_API_KEY"),
     )
-    client = QdrantClient(path=QDRANT_PATH)
 
-    child_count = client.count(CHILD_COLLECTION).count
-    parent_count = client.count(PARENT_COLLECTION).count
+    with get_connection() as conn:
+        with conn.cursor() as cur:
+            cur.execute(f"SELECT COUNT(*) FROM {CHILDREN_TABLE}")
+            child_count = cur.fetchone()[0]
+            cur.execute(f"SELECT COUNT(*) FROM {PARENTS_TABLE}")
+            parent_count = cur.fetchone()[0]
     print(f"[DB] Child: {child_count}, Parent: {parent_count}\n")
 
     for q in QUERIES:
@@ -40,7 +43,7 @@ def main():
         print(f"쿼리: {q}")
         print(f"{'='*60}")
 
-        groups = search_with_parent(client, embeddings, q, top_k=TOP_K)
+        groups = search_with_parent(embeddings, q, top_k=TOP_K)
 
         for g in groups:
             for mc in g["matched_children"]:
@@ -64,8 +67,6 @@ def main():
             print(f"  ---")
 
         print()
-
-    client.close()
 
 
 if __name__ == "__main__":

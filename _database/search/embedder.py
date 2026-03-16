@@ -1,7 +1,7 @@
 """
-K-IFRS 청크 임베딩 + Qdrant 적재 스크립트
+K-IFRS 청크 임베딩 + PostgreSQL(pgvector) 적재 스크립트
 - 모델: Upstage Solar Embedding (solar-embedding-1-large, 4096차원)
-- 벡터 DB: Qdrant 로컬 파일 모드
+- 벡터 DB: PostgreSQL + pgvector
 """
 
 import json
@@ -10,18 +10,16 @@ import os
 import time
 from pathlib import Path
 
+import numpy as np
 from dotenv import load_dotenv
 from langchain_upstage import UpstageEmbeddings
-from qdrant_client import QdrantClient
-from qdrant_client.models import (
-    VectorParams, Distance, PointStruct, PayloadSchemaType
-)
 from tqdm import tqdm
 
 from search.config import (
-    CHUNKS_DIR, QDRANT_PATH, CHILD_COLLECTION, PARENT_COLLECTION,
-    MODEL_NAME, VECTOR_SIZE, chunk_id_to_int,
+    CHUNKS_DIR, CHILDREN_TABLE, PARENTS_TABLE,
+    MODEL_NAME, VECTOR_SIZE,
 )
+from search.db import get_connection
 
 load_dotenv()
 
@@ -55,48 +53,86 @@ def load_json_files(chunks_dir: str):
     return all_parents, all_children
 
 
-def init_qdrant(client: QdrantClient):
-    """컬렉션 생성 (이미 있으면 삭제 후 재생성)"""
-    # Child 컬렉션 (벡터 있음)
-    if client.collection_exists(CHILD_COLLECTION):
-        client.delete_collection(CHILD_COLLECTION)
-    client.create_collection(
-        collection_name=CHILD_COLLECTION,
-        vectors_config=VectorParams(size=VECTOR_SIZE, distance=Distance.COSINE),
-    )
+def init_db(conn):
+    """테이블 생성 (이미 있으면 삭제 후 재생성)"""
+    with conn.cursor() as cur:
+        cur.execute("CREATE EXTENSION IF NOT EXISTS vector")
 
-    # Parent 컬렉션 (벡터 없음, payload only)
-    if client.collection_exists(PARENT_COLLECTION):
-        client.delete_collection(PARENT_COLLECTION)
-    client.create_collection(
-        collection_name=PARENT_COLLECTION,
-        vectors_config={},  # 벡터 없음
-    )
+        cur.execute(f"DROP TABLE IF EXISTS {CHILDREN_TABLE} CASCADE")
+        cur.execute(f"DROP TABLE IF EXISTS {PARENTS_TABLE} CASCADE")
+
+        cur.execute(f"""
+            CREATE TABLE {PARENTS_TABLE} (
+                chunk_id        TEXT PRIMARY KEY,
+                heading_text    TEXT NOT NULL DEFAULT '',
+                section_type    TEXT NOT NULL DEFAULT '',
+                standard_id     TEXT NOT NULL DEFAULT ''
+            )
+        """)
+
+        cur.execute(f"""
+            CREATE TABLE {CHILDREN_TABLE} (
+                chunk_id                TEXT PRIMARY KEY,
+                parent_id               TEXT NOT NULL DEFAULT '',
+                content                 TEXT NOT NULL DEFAULT '',
+                standard_id             TEXT NOT NULL DEFAULT '',
+                section_type            TEXT NOT NULL DEFAULT '',
+                para_number             TEXT,
+                cross_refs              TEXT[] NOT NULL DEFAULT '{{}}'::text[],
+                referenced_standards    TEXT[] NOT NULL DEFAULT '{{}}'::text[],
+                has_table               BOOLEAN NOT NULL DEFAULT FALSE,
+                has_example             BOOLEAN NOT NULL DEFAULT FALSE,
+                embedding               vector({VECTOR_SIZE})
+            )
+        """)
+
+        # btree 인덱스
+        cur.execute(f"CREATE INDEX idx_children_parent_id ON {CHILDREN_TABLE} (parent_id)")
+        cur.execute(f"CREATE INDEX idx_children_standard_id ON {CHILDREN_TABLE} (standard_id)")
+        cur.execute(f"CREATE INDEX idx_children_section_type ON {CHILDREN_TABLE} (section_type)")
+        cur.execute(f"CREATE INDEX idx_parents_standard_id ON {PARENTS_TABLE} (standard_id)")
+
+        # GIN 인덱스 (배열 검색)
+        cur.execute(f"CREATE INDEX idx_children_referenced_standards ON {CHILDREN_TABLE} USING GIN (referenced_standards)")
+        cur.execute(f"CREATE INDEX idx_children_cross_refs ON {CHILDREN_TABLE} USING GIN (cross_refs)")
+
+    conn.commit()
+    print("[DB] 테이블 생성 완료")
 
 
-def upsert_parents(client: QdrantClient, parents: list):
-    """Parent를 Qdrant에 payload only로 저장"""
-    points = []
-    for p in parents:
-        pid = chunk_id_to_int(p["chunk_id"])
-        payload = {
-            "chunk_id": p["chunk_id"],
-            "heading_text": p.get("heading_text", ""),
-            "section_type": p.get("section_type", ""),
-            "standard_id": p.get("_standard_id", p.get("metadata", {}).get("standard_id", "")),
-        }
-        points.append(PointStruct(id=pid, vector={}, payload=payload))
-
-    # 배치 upsert
-    for i in range(0, len(points), 100):
-        batch = points[i : i + 100]
-        client.upsert(collection_name=PARENT_COLLECTION, points=batch)
-
-    print(f"[Parents] {len(points)}개 적재 완료")
+def create_vector_index(conn):
+    """HNSW 벡터 인덱스 생성 (데이터 적재 후 호출)"""
+    with conn.cursor() as cur:
+        cur.execute(f"""
+            CREATE INDEX idx_children_embedding_hnsw ON {CHILDREN_TABLE}
+            USING hnsw (embedding vector_cosine_ops)
+            WITH (m = 16, ef_construction = 128)
+        """)
+    conn.commit()
+    print("[DB] HNSW 벡터 인덱스 생성 완료")
 
 
-def embed_and_upsert_children(client: QdrantClient, embeddings: UpstageEmbeddings, children: list):
-    """Child 청크를 임베딩하고 Qdrant에 적재"""
+def insert_parents(conn, parents: list):
+    """Parent를 PostgreSQL에 저장"""
+    with conn.cursor() as cur:
+        for p in parents:
+            cur.execute(
+                f"""INSERT INTO {PARENTS_TABLE} (chunk_id, heading_text, section_type, standard_id)
+                    VALUES (%(chunk_id)s, %(heading_text)s, %(section_type)s, %(standard_id)s)
+                    ON CONFLICT (chunk_id) DO NOTHING""",
+                {
+                    "chunk_id": p["chunk_id"],
+                    "heading_text": p.get("heading_text", ""),
+                    "section_type": p.get("section_type", ""),
+                    "standard_id": p.get("_standard_id", p.get("metadata", {}).get("standard_id", "")),
+                },
+            )
+    conn.commit()
+    print(f"[Parents] {len(parents)}개 적재 완료")
+
+
+def embed_and_insert_children(conn, embeddings: UpstageEmbeddings, children: list):
+    """Child 청크를 임베딩하고 PostgreSQL에 적재"""
     contents = [c["content"][:MAX_CHARS] for c in children]
     truncated = sum(1 for c in children if len(c["content"]) > MAX_CHARS)
     if truncated:
@@ -111,34 +147,40 @@ def embed_and_upsert_children(client: QdrantClient, embeddings: UpstageEmbedding
         all_vectors.extend(vecs)
         time.sleep(0.1)  # API rate limit 방지
 
-    # Qdrant 포인트 구성
-    points = []
-    for idx, c in enumerate(children):
-        meta = c.get("metadata", {})
-        payload = {
-            "chunk_id": c["chunk_id"],
-            "parent_id": c.get("parent_id", ""),
-            "content": c["content"],
-            "standard_id": meta.get("standard_id", c.get("_standard_id", "")),
-            "section_type": meta.get("section_type", ""),
-            "para_number": meta.get("para_number"),
-            "cross_refs": meta.get("cross_refs", []),
-            "referenced_standards": meta.get("referenced_standards", []),
-            "has_table": meta.get("has_table", False),
-            "has_example": meta.get("has_example", False),
-        }
-        points.append(PointStruct(
-            id=chunk_id_to_int(c["chunk_id"]),
-            vector=all_vectors[idx],
-            payload=payload,
-        ))
-
-    # 배치 upsert
-    for i in tqdm(range(0, len(points), 100), desc="Upserting"):
-        batch = points[i : i + 100]
-        client.upsert(collection_name=CHILD_COLLECTION, points=batch)
-
-    print(f"[Children] {len(points)}개 적재 완료")
+    # PostgreSQL INSERT
+    print(f"[DB] {len(children)}개 child 청크 적재 중...")
+    with conn.cursor() as cur:
+        for idx, c in enumerate(tqdm(children, desc="Inserting")):
+            meta = c.get("metadata", {})
+            vec = np.array(all_vectors[idx], dtype=np.float32)
+            cur.execute(
+                f"""INSERT INTO {CHILDREN_TABLE}
+                    (chunk_id, parent_id, content, standard_id, section_type,
+                     para_number, cross_refs, referenced_standards,
+                     has_table, has_example, embedding)
+                    VALUES (%(chunk_id)s, %(parent_id)s, %(content)s, %(standard_id)s,
+                            %(section_type)s, %(para_number)s, %(cross_refs)s,
+                            %(referenced_standards)s, %(has_table)s, %(has_example)s,
+                            %(embedding)s)
+                    ON CONFLICT (chunk_id) DO UPDATE SET
+                        content = EXCLUDED.content,
+                        embedding = EXCLUDED.embedding""",
+                {
+                    "chunk_id": c["chunk_id"],
+                    "parent_id": c.get("parent_id", ""),
+                    "content": c["content"],
+                    "standard_id": meta.get("standard_id", c.get("_standard_id", "")),
+                    "section_type": meta.get("section_type", ""),
+                    "para_number": meta.get("para_number"),
+                    "cross_refs": meta.get("cross_refs", []),
+                    "referenced_standards": meta.get("referenced_standards", []),
+                    "has_table": meta.get("has_table", False),
+                    "has_example": meta.get("has_example", False),
+                    "embedding": vec,
+                },
+            )
+    conn.commit()
+    print(f"[Children] {len(children)}개 적재 완료")
 
 
 def update_payloads():
@@ -146,50 +188,36 @@ def update_payloads():
     _, children = load_json_files(CHUNKS_DIR)
     print(f"[JSON] child 청크 {len(children)}개 로드")
 
-    client = QdrantClient(path=QDRANT_PATH)
-    child_count = client.count(CHILD_COLLECTION).count
-    print(f"[Qdrant] 기존 child 포인트: {child_count}개")
+    with get_connection() as conn:
+        with conn.cursor() as cur:
+            cur.execute(f"SELECT COUNT(*) FROM {CHILDREN_TABLE}")
+            count = cur.fetchone()[0]
+            print(f"[DB] 기존 child 행: {count}개")
 
-    updated = 0
-    for c in tqdm(children, desc="Payload 갱신"):
-        meta = c.get("metadata", {})
-        point_id = chunk_id_to_int(c["chunk_id"])
-        client.set_payload(
-            collection_name=CHILD_COLLECTION,
-            payload={
-                "cross_refs": meta.get("cross_refs", []),
-                "referenced_standards": meta.get("referenced_standards", []),
-            },
-            points=[point_id],
-        )
-        updated += 1
+            updated = 0
+            for c in tqdm(children, desc="Payload 갱신"):
+                meta = c.get("metadata", {})
+                cur.execute(
+                    f"""UPDATE {CHILDREN_TABLE}
+                        SET cross_refs = %(cross_refs)s,
+                            referenced_standards = %(referenced_standards)s
+                        WHERE chunk_id = %(chunk_id)s""",
+                    {
+                        "chunk_id": c["chunk_id"],
+                        "cross_refs": meta.get("cross_refs", []),
+                        "referenced_standards": meta.get("referenced_standards", []),
+                    },
+                )
+                updated += 1
 
-    print(f"\n[완료] {updated}개 포인트 payload 갱신")
+        conn.commit()
+        print(f"\n[완료] {updated}개 행 payload 갱신")
 
-    # 검증: 샘플 확인
-    sample_pts, _ = client.scroll(CHILD_COLLECTION, limit=5, with_payload=True)
-    has_refs = sum(1 for pt in sample_pts if pt.payload.get("cross_refs"))
-    print(f"[검증] 샘플 5개 중 cross_refs 있는 포인트: {has_refs}개")
-
-    # 샘플 포인트 상세 출력
-    for pt in sample_pts[:2]:
-        p = pt.payload
-        print(f"  - {p.get('chunk_id')}: cross_refs={p.get('cross_refs')}, "
-              f"referenced_standards={p.get('referenced_standards')}")
-
-    client.close()
-
-
-def create_payload_indexes():
-    """referenced_standards 필드에 keyword 인덱스 생성 (역방향 검색 최적화)."""
-    client = QdrantClient(path=QDRANT_PATH)
-    client.create_payload_index(
-        collection_name=CHILD_COLLECTION,
-        field_name="referenced_standards",
-        field_schema=PayloadSchemaType.KEYWORD,
-    )
-    print("[완료] referenced_standards keyword 인덱스 생성")
-    client.close()
+        # 검증: 샘플 확인
+        with conn.cursor() as cur:
+            cur.execute(f"SELECT chunk_id, cross_refs, referenced_standards FROM {CHILDREN_TABLE} LIMIT 2")
+            for row in cur.fetchall():
+                print(f"  - {row[0]}: cross_refs={row[1]}, referenced_standards={row[2]}")
 
 
 def main():
@@ -209,32 +237,34 @@ def main():
     )
     print(f"[Model] 초기화 완료 (vector dim: {VECTOR_SIZE})")
 
-    # 3. Qdrant 초기화
-    client = QdrantClient(path=QDRANT_PATH)
-    init_qdrant(client)
+    # 3. DB 초기화
+    with get_connection() as conn:
+        init_db(conn)
 
-    # 4. Parent 적재
-    upsert_parents(client, parents)
+        # 4. Parent 적재
+        insert_parents(conn, parents)
 
-    # 5. Child 임베딩 + 적재
-    embed_and_upsert_children(client, embeddings, children)
+        # 5. Child 임베딩 + 적재
+        embed_and_insert_children(conn, embeddings, children)
 
-    # 6. 결과 확인
-    child_count = client.count(CHILD_COLLECTION).count
-    parent_count = client.count(PARENT_COLLECTION).count
-    print(f"\n=== 적재 완료 ===")
-    print(f"  Child 포인트: {child_count}")
-    print(f"  Parent 포인트: {parent_count}")
-    print(f"  저장 경로: {QDRANT_PATH}")
+        # 6. HNSW 벡터 인덱스 생성 (데이터 적재 후)
+        create_vector_index(conn)
 
-    client.close()
+        # 7. 결과 확인
+        with conn.cursor() as cur:
+            cur.execute(f"SELECT COUNT(*) FROM {CHILDREN_TABLE}")
+            child_count = cur.fetchone()[0]
+            cur.execute(f"SELECT COUNT(*) FROM {PARENTS_TABLE}")
+            parent_count = cur.fetchone()[0]
+
+        print(f"\n=== 적재 완료 ===")
+        print(f"  Child 행: {child_count}")
+        print(f"  Parent 행: {parent_count}")
 
 
 if __name__ == "__main__":
     import sys
     if "--update-payload" in sys.argv:
         update_payloads()
-    elif "--create-index" in sys.argv:
-        create_payload_indexes()
     else:
         main()

@@ -5,7 +5,7 @@ import 시 부작용:
     2. search.config의 상대경로를 절대경로로 패치
     3. Study/.env 로드
 
-리소스(Qdrant, 임베딩, BM25, 하이브리드 리트리버, 리랭커)는
+리소스(임베딩, BM25, 하이브리드 리트리버, 리랭커)는
 get_resources() 첫 호출 시 lazy 초기화됩니다.
 """
 
@@ -29,7 +29,6 @@ if str(DATABASE_DIR) not in sys.path:
 # search.config 상대경로 → 절대경로 패치 (다른 search 모듈 import 전에)
 import search.config as _cfg  # noqa: E402
 
-_cfg.QDRANT_PATH = str(DATABASE_DIR / "qdrant_storage")
 _cfg.CHUNKS_DIR = str(DATABASE_DIR / "output" / "chunks")
 
 # .env 로드 (Study/.env)
@@ -48,7 +47,6 @@ except ImportError:
 class KifrsResources:
     """초기화된 K-IFRS 검색 리소스."""
 
-    client: object  # QdrantClient
     embeddings: object  # UpstageEmbeddings
     hybrid_retriever: object  # EnsembleRetriever
     reranker: object  # BaseReranker
@@ -73,7 +71,6 @@ def get_resources() -> KifrsResources:
 
     초기화 항목:
         - UpstageEmbeddings (solar-embedding-1-large)
-        - QdrantClient (qdrant_storage/)
         - BM25Retriever (캐시 사용)
         - EnsembleRetriever (BM25 0.4 + Dense 0.6)
         - Reranker (RERANKER_TYPE 환경변수 참조)
@@ -83,13 +80,12 @@ def get_resources() -> KifrsResources:
         return _resources
 
     from langchain_upstage import UpstageEmbeddings
-    from qdrant_client import QdrantClient
     from langchain_community.retrievers import BM25Retriever
     from langchain_classic.retrievers import EnsembleRetriever
 
-    from search.config import QDRANT_PATH, CHUNKS_DIR, MODEL_NAME, CHILD_COLLECTION
+    from search.config import CHUNKS_DIR, MODEL_NAME
     from search.retriever import (
-        QdrantDenseRetriever,
+        PgVectorRetriever,
         load_child_documents,
         kiwi_tokenize,
     )
@@ -101,10 +97,7 @@ def get_resources() -> KifrsResources:
         upstage_api_key=os.getenv("UPSTAGE_API_KEY"),
     )
 
-    # 2. Qdrant
-    client = QdrantClient(path=QDRANT_PATH)
-
-    # 3. BM25 (캐시 활용)
+    # 2. BM25 (캐시 활용)
     docs = load_child_documents(CHUNKS_DIR)
     bm25_cache = DATABASE_DIR / "bm25_retriever.pkl"
     bm25_meta = DATABASE_DIR / "bm25_cache_meta.json"
@@ -133,11 +126,9 @@ def get_resources() -> KifrsResources:
             encoding="utf-8",
         )
 
-    # 4. Hybrid retriever (BM25 0.4 + Dense 0.6)
-    dense_retriever = QdrantDenseRetriever(
-        client=client,
+    # 3. Hybrid retriever (BM25 0.4 + Dense 0.6)
+    dense_retriever = PgVectorRetriever(
         embeddings=embeddings,
-        collection_name=CHILD_COLLECTION,
         k=_RETRIEVAL_K,
     )
     hybrid_retriever = EnsembleRetriever(
@@ -145,11 +136,10 @@ def get_resources() -> KifrsResources:
         weights=[0.4, 0.6],
     )
 
-    # 5. Reranker
+    # 4. Reranker
     reranker = get_reranker()
 
     _resources = KifrsResources(
-        client=client,
         embeddings=embeddings,
         hybrid_retriever=hybrid_retriever,
         reranker=reranker,

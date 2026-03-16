@@ -8,12 +8,17 @@ LLM이 선택적으로 호출하는 4개 tool의 스키마와 executor를 제공
 """
 
 from langchain_core.documents import Document
-from qdrant_client import QdrantClient
-from qdrant_client.models import Filter, FieldCondition, MatchValue
 
-from search.config import CHILD_COLLECTION, chunk_id_to_int
+from search.config import CHILDREN_TABLE
+from search.db import get_connection
 from search.standards_expander import reverse_lookup_chunks, _fetch_definition_chunk
 from search.standards_graph import get_neighbors, get_display_id
+
+_CHILD_COLUMNS = [
+    "chunk_id", "parent_id", "content", "standard_id", "section_type",
+    "para_number", "cross_refs", "referenced_standards", "has_table", "has_example",
+]
+_CHILD_SELECT = ", ".join(_CHILD_COLUMNS)
 
 # ── Tool 스키마 (Anthropic tool_use 형식) ─────────────
 
@@ -172,10 +177,9 @@ def _build_chunk_id(
 
 def execute_fetch_paragraphs(
     args: dict,
-    client: QdrantClient,
     fetched_ids: set[str],
 ) -> tuple[list[Document], str]:
-    """fetch_paragraphs tool 실행: 지정된 문단을 Qdrant에서 직접 조회."""
+    """fetch_paragraphs tool 실행: 지정된 문단을 PostgreSQL에서 직접 조회."""
     refs = args.get("references", [])
     new_docs: list[Document] = []
     results_text: list[str] = []
@@ -190,29 +194,27 @@ def execute_fetch_paragraphs(
             continue
 
         try:
-            points, _ = client.scroll(
-                collection_name=CHILD_COLLECTION,
-                scroll_filter=Filter(must=[
-                    FieldCondition(
-                        key="chunk_id", match=MatchValue(value=chunk_id),
+            with get_connection() as conn:
+                with conn.cursor() as cur:
+                    cur.execute(
+                        f"SELECT {_CHILD_SELECT} FROM {CHILDREN_TABLE} WHERE chunk_id = %s",
+                        (chunk_id,),
                     )
-                ]),
-                limit=1,
-                with_payload=True,
-            )
-            if points:
-                p = points[0].payload
+                    row = cur.fetchone()
+
+            if row:
+                r = dict(zip(_CHILD_COLUMNS, row))
                 new_docs.append(Document(
-                    page_content=p.get("content", ""),
+                    page_content=r.get("content", ""),
                     metadata={
-                        "chunk_id": p.get("chunk_id", ""),
-                        "parent_id": p.get("parent_id", ""),
-                        "standard_id": p.get("standard_id", ""),
-                        "section_type": p.get("section_type", ""),
-                        "para_number": p.get("para_number"),
-                        "cross_refs": p.get("cross_refs", []),
-                        "has_table": p.get("has_table", False),
-                        "has_example": p.get("has_example", False),
+                        "chunk_id": r.get("chunk_id", ""),
+                        "parent_id": r.get("parent_id", ""),
+                        "standard_id": r.get("standard_id", ""),
+                        "section_type": r.get("section_type", ""),
+                        "para_number": r.get("para_number"),
+                        "cross_refs": r.get("cross_refs", []),
+                        "has_table": r.get("has_table", False),
+                        "has_example": r.get("has_example", False),
                         "fetched_by_tool": True,
                     },
                 ))
@@ -228,7 +230,6 @@ def execute_fetch_paragraphs(
 
 def execute_find_referencing_chunks(
     args: dict,
-    client: QdrantClient,
     fetched_ids: set[str],
     query_vector: list[float] | None = None,
 ) -> tuple[list[Document], str]:
@@ -241,7 +242,6 @@ def execute_find_referencing_chunks(
 
     docs = reverse_lookup_chunks(
         standard_numbers=std_numbers,
-        client=client,
         query_vector=query_vector,
         max_results=max_results,
     )
@@ -271,7 +271,6 @@ def execute_find_referencing_chunks(
 
 def execute_explore_related_standards(
     args: dict,
-    client: QdrantClient,
     fetched_ids: set[str],
 ) -> tuple[list[Document], str]:
     """explore_related_standards tool 실행: 그래프 탐색 + 용어정의 fetch."""
@@ -301,7 +300,7 @@ def execute_explore_related_standards(
         weight = neighbors[nbr]
         neighbor_info.append(f"  - {display_id} (연결 강도: {weight:.1f})")
 
-        defn_doc = _fetch_definition_chunk(nbr, client)
+        defn_doc = _fetch_definition_chunk(nbr)
         if defn_doc:
             cid = defn_doc.metadata.get("chunk_id", "")
             if cid not in fetched_ids:
@@ -322,7 +321,6 @@ def execute_explore_related_standards(
 
 def execute_fetch_term_definitions(
     args: dict,
-    client: QdrantClient,
     fetched_ids: set[str],
 ) -> tuple[list[Document], str]:
     """fetch_term_definitions tool 실행: 기준서 용어정의 청크 조회."""
@@ -340,7 +338,7 @@ def execute_fetch_term_definitions(
             break
 
         display_id = get_display_id(std_num)
-        defn_doc = _fetch_definition_chunk(std_num, client)
+        defn_doc = _fetch_definition_chunk(std_num)
         if defn_doc:
             cid = defn_doc.metadata.get("chunk_id", "")
             if cid in fetched_ids:
@@ -362,7 +360,6 @@ def execute_fetch_term_definitions(
 def dispatch_tool(
     tool_name: str,
     args: dict,
-    client: QdrantClient,
     fetched_ids: set[str],
     query_vector: list[float] | None = None,
 ) -> tuple[list[Document], str]:
@@ -371,7 +368,6 @@ def dispatch_tool(
     Args:
         tool_name: LLM이 호출한 tool 이름.
         args: tool 인자 dict.
-        client: Qdrant 클라이언트.
         fetched_ids: 이미 fetch된 chunk_id 집합 (중복 방지, in-place 갱신).
         query_vector: 역방향 검색에서 벡터 유사도 정렬에 사용할 쿼리 벡터.
 
@@ -379,17 +375,17 @@ def dispatch_tool(
         (new_docs, result_text) 튜플.
     """
     if tool_name == "fetch_paragraphs":
-        return execute_fetch_paragraphs(args, client, fetched_ids)
+        return execute_fetch_paragraphs(args, fetched_ids)
 
     if tool_name == "find_referencing_chunks":
         return execute_find_referencing_chunks(
-            args, client, fetched_ids, query_vector,
+            args, fetched_ids, query_vector,
         )
 
     if tool_name == "explore_related_standards":
-        return execute_explore_related_standards(args, client, fetched_ids)
+        return execute_explore_related_standards(args, fetched_ids)
 
     if tool_name == "fetch_term_definitions":
-        return execute_fetch_term_definitions(args, client, fetched_ids)
+        return execute_fetch_term_definitions(args, fetched_ids)
 
     return [], f"알 수 없는 tool: {tool_name}"

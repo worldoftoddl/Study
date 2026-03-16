@@ -12,8 +12,6 @@ import re
 from dataclasses import dataclass, field
 from enum import Enum
 
-from qdrant_client.models import Filter, FieldCondition, MatchValue, MatchAny
-
 
 class QueryType(str, Enum):
     NORMATIVE = "normative"
@@ -28,7 +26,7 @@ class QueryPlan:
     """쿼리 분류 결과 및 검색 전략."""
 
     query_type: QueryType
-    query_filter: Filter | None = None
+    query_filter: dict | None = None
     retrieval_k: int = 30
     rerank_n: int = 10
     direct_lookup_ids: list[str] = field(default_factory=list)
@@ -150,16 +148,12 @@ def _detect_standards(query: str) -> list[str]:
     return sorted(std_nums)
 
 
-def _build_normative_filter() -> Filter:
-    return Filter(must=[
-        FieldCondition(key="section_type", match=MatchAny(any=["main", "ag"]))
-    ])
+def _build_normative_filter() -> dict:
+    return {"section_type__in": ["main", "ag"]}
 
 
-def _build_ie_priority_filter() -> Filter:
-    return Filter(must=[
-        FieldCondition(key="section_type", match=MatchValue(value="ie"))
-    ])
+def _build_ie_priority_filter() -> dict:
+    return {"section_type": "ie"}
 
 
 def classify_query(query: str) -> QueryPlan:

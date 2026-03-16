@@ -1,4 +1,4 @@
-"""QdrantDenseRetriever, load_child_documents, kiwi_tokenize.
+"""PgVectorRetriever, load_child_documents, kiwi_tokenize.
 
 Hybrid 검색 파이프라인에서 공유하는 retriever/loader/tokenizer 모듈.
 """
@@ -8,39 +8,30 @@ import glob
 import os
 import re
 
+import numpy as np
 from langchain_core.documents import Document
 from langchain_core.callbacks import CallbackManagerForRetrieverRun
 from langchain_core.retrievers import BaseRetriever
 from langchain_upstage import UpstageEmbeddings
-from qdrant_client import QdrantClient
-from qdrant_client.models import Filter, FieldCondition, MatchValue, MatchAny
 
-from search.config import CHILD_COLLECTION, PARENT_COLLECTION, chunk_id_to_int
+from search.config import CHILDREN_TABLE, PARENTS_TABLE
+from search.db import get_connection, build_where_clause
 
 # ── 권위수준 필터 프리셋 ─────────────────────────────
 AUTHORITY_FILTERS = {
-    "normative": Filter(must=[
-        FieldCondition(
-            key="section_type",
-            match=MatchAny(any=["main", "ag"]),
-        )
-    ]),
-    "bc_only": Filter(must=[
-        FieldCondition(key="section_type", match=MatchValue(value="bc"))
-    ]),
-    "ie_only": Filter(must=[
-        FieldCondition(key="section_type", match=MatchValue(value="ie"))
-    ]),
+    "normative": {"section_type__in": ["main", "ag"]},
+    "bc_only": {"section_type": "bc"},
+    "ie_only": {"section_type": "ie"},
 }
 
 
-def get_authority_filter(mode: str) -> Filter | None:
-    """권위수준 필터 모드에 따라 Qdrant Filter를 반환한다.
+def get_authority_filter(mode: str) -> dict | None:
+    """권위수준 필터 모드에 따라 필터 dict를 반환한다.
 
     Args:
         mode: "normative" | "full" | "bc_only" | "ie_only"
     Returns:
-        Filter 또는 None ("full"인 경우).
+        dict 또는 None ("full"인 경우).
     """
     if mode == "full":
         return None
@@ -65,19 +56,43 @@ def kiwi_tokenize(text: str) -> list[str]:
     return [t.form for t in tokens if t.tag in ALLOWED_TAGS]
 
 
-# ── QdrantDenseRetriever ──────────────────────────────
-class QdrantDenseRetriever(BaseRetriever):
-    """Qdrant payload의 flat 구조를 Document metadata로 직접 매핑하는 retriever.
+def _row_to_doc(row: tuple, columns: list[str]) -> Document:
+    """DB 행을 LangChain Document로 변환한다."""
+    r = dict(zip(columns, row))
+    return Document(
+        page_content=r.get("content", ""),
+        metadata={
+            "chunk_id": r.get("chunk_id", ""),
+            "parent_id": r.get("parent_id", ""),
+            "standard_id": r.get("standard_id", ""),
+            "section_type": r.get("section_type", ""),
+            "para_number": r.get("para_number"),
+            "cross_refs": r.get("cross_refs", []),
+            "referenced_standards": r.get("referenced_standards", []),
+            "has_table": r.get("has_table", False),
+            "has_example": r.get("has_example", False),
+        },
+    )
 
-    query_filter를 설정하면 벡터 검색 시 Qdrant 필터가 적용된다.
+
+_CHILD_COLUMNS = [
+    "chunk_id", "parent_id", "content", "standard_id", "section_type",
+    "para_number", "cross_refs", "referenced_standards", "has_table", "has_example",
+]
+_CHILD_SELECT = ", ".join(_CHILD_COLUMNS)
+
+
+# ── PgVectorRetriever ──────────────────────────────
+class PgVectorRetriever(BaseRetriever):
+    """PostgreSQL + pgvector 기반 dense retriever.
+
+    query_filter를 설정하면 벡터 검색 시 WHERE 필터가 적용된다.
     get_authority_filter()와 함께 사용하여 권위수준 기반 필터링이 가능하다.
     """
 
-    client: QdrantClient
     embeddings: UpstageEmbeddings
-    collection_name: str = CHILD_COLLECTION
     k: int = 5
-    query_filter: Filter | None = None
+    query_filter: dict | None = None
 
     class Config:
         arbitrary_types_allowed = True
@@ -85,33 +100,25 @@ class QdrantDenseRetriever(BaseRetriever):
     def _get_relevant_documents(
         self, query: str, *, run_manager: CallbackManagerForRetrieverRun
     ) -> list[Document]:
-        q_vec = self.embeddings.embed_query(query)
-        results = self.client.query_points(
-            collection_name=self.collection_name,
-            query=q_vec,
-            query_filter=self.query_filter,
-            limit=self.k,
-            with_payload=True,
-        ).points
+        q_vec = np.array(self.embeddings.embed_query(query), dtype=np.float32)
+        where_clause, params = build_where_clause(self.query_filter)
 
-        docs = []
-        for hit in results:
-            p = hit.payload
-            docs.append(Document(
-                page_content=p.get("content", ""),
-                metadata={
-                    "chunk_id": p.get("chunk_id", ""),
-                    "parent_id": p.get("parent_id", ""),
-                    "standard_id": p.get("standard_id", ""),
-                    "section_type": p.get("section_type", ""),
-                    "para_number": p.get("para_number"),
-                    "cross_refs": p.get("cross_refs", []),
-                    "referenced_standards": p.get("referenced_standards", []),
-                    "has_table": p.get("has_table", False),
-                    "has_example": p.get("has_example", False),
-                },
-            ))
-        return docs
+        sql = f"""
+            SELECT {_CHILD_SELECT}
+            FROM {CHILDREN_TABLE}
+            WHERE embedding IS NOT NULL {where_clause}
+            ORDER BY embedding <=> %(query_vec)s
+            LIMIT %(limit)s
+        """
+        params["query_vec"] = q_vec
+        params["limit"] = self.k
+
+        with get_connection() as conn:
+            with conn.cursor() as cur:
+                cur.execute(sql, params)
+                rows = cur.fetchall()
+
+        return [_row_to_doc(row, _CHILD_COLUMNS) for row in rows]
 
 
 # ── Document 로더 ─────────────────────────────────────
@@ -150,55 +157,51 @@ def _natsort_key(s: str | None) -> list:
 
 
 # ── Parent-Child 통합 검색 ────────────────────────────
-def fetch_siblings(client: QdrantClient, parent_id: str) -> list[dict]:
+def fetch_siblings(parent_id: str) -> list[dict]:
     """parent_id로 같은 Parent 아래 모든 Child를 조회 (para_number 순 정렬)."""
-    points, _ = client.scroll(
-        collection_name=CHILD_COLLECTION,
-        scroll_filter=Filter(must=[
-            FieldCondition(key="parent_id", match=MatchValue(value=parent_id))
-        ]),
-        limit=50,
-        with_payload=True,
-    )
+    with get_connection() as conn:
+        with conn.cursor() as cur:
+            cur.execute(
+                f"SELECT chunk_id, para_number, content FROM {CHILDREN_TABLE} WHERE parent_id = %s LIMIT 50",
+                (parent_id,),
+            )
+            rows = cur.fetchall()
+
     siblings = [
-        {
-            "chunk_id": p.payload.get("chunk_id", ""),
-            "para_number": p.payload.get("para_number"),
-            "content": p.payload.get("content", ""),
-        }
-        for p in points
+        {"chunk_id": r[0], "para_number": r[1], "content": r[2]}
+        for r in rows
     ]
     siblings.sort(key=lambda x: _natsort_key(x["para_number"] or ""))
     return siblings
 
 
-def _fetch_parent_heading(client: QdrantClient, parent_id: str) -> str:
-    """parent_id로 Parent 컬렉션에서 heading_text 조회."""
-    pid = chunk_id_to_int(parent_id)
+def _fetch_parent_heading(parent_id: str) -> str:
+    """parent_id로 Parent 테이블에서 heading_text 조회."""
     try:
-        points = client.retrieve(
-            collection_name=PARENT_COLLECTION,
-            ids=[pid],
-            with_payload=True,
-        )
-        if points:
-            return points[0].payload.get("heading_text", "(없음)")
+        with get_connection() as conn:
+            with conn.cursor() as cur:
+                cur.execute(
+                    f"SELECT heading_text FROM {PARENTS_TABLE} WHERE chunk_id = %s",
+                    (parent_id,),
+                )
+                row = cur.fetchone()
+                if row:
+                    return row[0] or "(없음)"
     except Exception:
         pass
     return "(조회 실패)"
 
 
 def search_with_parent(
-    client: QdrantClient,
     embeddings: UpstageEmbeddings,
     query: str,
     top_k: int = 5,
-    query_filter: Filter | None = None,
+    query_filter: dict | None = None,
 ) -> list[dict]:
     """Child 검색 → Parent heading 조회 → 형제 Child 묶기.
 
     Args:
-        query_filter: 선택적 Qdrant 필터 (get_authority_filter()로 생성).
+        query_filter: 선택적 필터 dict (get_authority_filter()로 생성).
 
     Returns:
         list of {
@@ -207,34 +210,44 @@ def search_with_parent(
             "siblings": [ { chunk_id, para_number, content }, ... ]
         }
     """
-    q_vec = embeddings.embed_query(query)
-    results = client.query_points(
-        collection_name=CHILD_COLLECTION,
-        query=q_vec,
-        query_filter=query_filter,
-        limit=top_k,
-        with_payload=True,
-    ).points
+    q_vec = np.array(embeddings.embed_query(query), dtype=np.float32)
+    where_clause, params = build_where_clause(query_filter)
+
+    sql = f"""
+        SELECT {_CHILD_SELECT}, embedding <=> %(query_vec)s AS distance
+        FROM {CHILDREN_TABLE}
+        WHERE embedding IS NOT NULL {where_clause}
+        ORDER BY embedding <=> %(query_vec)s
+        LIMIT %(limit)s
+    """
+    params["query_vec"] = q_vec
+    params["limit"] = top_k
+
+    with get_connection() as conn:
+        with conn.cursor() as cur:
+            cur.execute(sql, params)
+            results = cur.fetchall()
 
     seen_parents: dict[str, dict] = {}
     output = []
 
-    for hit in results:
-        p = hit.payload
-        parent_id = p.get("parent_id", "")
+    for row in results:
+        r = dict(zip(_CHILD_COLUMNS + ["distance"], row))
+        parent_id = r.get("parent_id", "")
+        score = 1.0 - r.get("distance", 1.0)  # cosine distance → similarity
         matched = {
-            "chunk_id": p.get("chunk_id", ""),
-            "para_number": p.get("para_number"),
-            "content": p.get("content", ""),
-            "score": hit.score,
+            "chunk_id": r.get("chunk_id", ""),
+            "para_number": r.get("para_number"),
+            "content": r.get("content", ""),
+            "score": score,
         }
 
         if parent_id in seen_parents:
             seen_parents[parent_id]["matched_children"].append(matched)
             continue
 
-        heading = _fetch_parent_heading(client, parent_id)
-        siblings = fetch_siblings(client, parent_id)
+        heading = _fetch_parent_heading(parent_id)
+        siblings = fetch_siblings(parent_id)
 
         entry = {
             "parent_id": parent_id,

@@ -8,14 +8,12 @@
 - `search/embedder.py`, `search/retriever.py`: `referenced_standards` 필드 관통 전달
 - 청크 JSON 63개 전체 패치 완료
 
-### 2. Qdrant payload 적재 완료
-- `search/embedder.py`에 `update_payloads()` 함수 추가 (`--update-payload` CLI)
-- 벡터 변경 없이 `cross_refs`, `referenced_standards` 메타데이터만 갱신
-- 적재 결과:
+### 2. Qdrant payload 적재 완료 (이전 — PostgreSQL로 전환됨)
+- 적재 결과 (이전 Qdrant 기준):
 
 | 지표 | 수치 |
 |------|------|
-| 총 Qdrant child 포인트 | 12,313 |
+| 총 child 포인트 | 12,313 |
 | cross_refs 있는 포인트 | 5,743 (46.6%) |
 | referenced_standards 있는 포인트 | 2,799 (22.7%) |
 | 기준서 간 고유 그래프 엣지 | 924 |
@@ -24,12 +22,7 @@
 - `pipeline/terms_index.py`: 2-pass 탐지 로직으로 전면 개편
 - 1039 제외: 자체 정의 없이 1032/1109/1113 참조만
 
-### 4. Qdrant payload 인덱스 CLI 추가
-- `search/embedder.py`에 `create_payload_indexes()` 함수 추가
-- `--create-index` CLI 옵션으로 실행 가능
-- **상태**: 코드 작성 완료, 아직 실행하지 않음
-
-### 5. Agentic Tool 완전 전환
+### 4. Agentic Tool 완전 전환
 - **자동 확장 → LLM 주도 tool calling으로 전환 완료**
 - 삭제된 자동 오케스트레이션 함수:
   - `xref_resolver.resolve_cross_refs()` — deprecated (파싱 로직은 보존)
@@ -43,7 +36,7 @@
 - Agentic 노트북: rerank 후 용어정의 자동 주입 제거, `RERANK_TOP_N = 5`로 조정
 - `rag_pipeline_test.ipynb`: 순수 baseline 파이프라인으로 전환 (Route → Retrieve → Rerank → Boost)
 
-### 6. Raw Markdown 정제 + 재청킹 (2026-03-15)
+### 5. Raw Markdown 정제 + 재청킹 (2026-03-15)
 - **`pipeline/md_cleaner.py` 신규 생성** — pymupdf4llm 출력 후처리 모듈
   - 5단계 순차 정제: 보일러플레이트 제거 → 페이지 번호 제거 → PDF 줄바꿈 병합 → 테이블 `<br>` 정리 → 빈줄 축소
   - CLI: `python pipeline/md_cleaner.py` (전체 배치), `--single`, `--dry-run`, `--fix-spacing` 옵션
@@ -73,11 +66,7 @@
 | 3K+ 청크 | 미측정 | **84개** (0.5%) | |
 | 평균 청크 길이 | 미측정 | 359자 (중앙값 257자) | |
 
-- 3K+ 대형 청크 84개 분석 완료:
-  - 64개: 문단번호 있음 — 원문 자체가 긴 문단 (분할 불가)
-  - 20개: unk — 테이블/서술형 BC 산문 (분할 불가)
-
-### 7. 저가치 BC 청크 정리 (2026-03-16)
+### 6. 저가치 BC 청크 정리 (2026-03-16)
 - **`pipeline/bc_chunk_cleaner.py` 신규 생성** — BC 보일러플레이트 청크 제거 스크립트
   - 6개 규칙: unk_5k_bc(4), meta_disclaimer(17), admin_intro(49), amendment(62), dissenting(49), ias_relation(73)
   - `prune_orphaned_parents()`: 자식 없어진 parent 자동 정리 (446개)
@@ -86,14 +75,41 @@
 - **결과**: 15,838 → 15,587 children (-251개, 1.6%)
 - **안전성 검증**: K-IFRS 1113 공정가치 BC 261개 등 실질 BC 청크 전량 보존 확인
 
+### 7. 벡터DB 전환: Qdrant → PostgreSQL + pgvector (2026-03-16)
+- **코드 전환 완료** — search/ 모듈 전체를 Qdrant에서 PostgreSQL + pgvector로 마이그레이션
+- 수정된 파일 13개:
+  - `search/config.py` — `QDRANT_PATH` → `DATABASE_URL`, `chunk_id_to_int()` 제거
+  - `search/db.py` — **[신규]** `psycopg_pool` 커넥션 풀 + `build_where_clause()` 필터 빌더
+  - `search/embedder.py` — Qdrant upsert → PostgreSQL DDL + INSERT (HNSW 벡터 인덱스 포함)
+  - `search/query_router.py` — Qdrant `Filter` 객체 → dict 기반 필터
+  - `search/retriever.py` — `QdrantDenseRetriever` → `PgVectorRetriever` (pgvector `<=>` cosine)
+  - `search/standards_expander.py` — `client: QdrantClient` 제거, SQL 직접 쿼리
+  - `search/tools.py` — 4개 executor 모두 client 파라미터 제거, SQL 조회
+  - `search/xref_resolver.py` — DEPRECATED 모듈 최소 수정
+  - `search/__init__.py` — exports 업데이트
+  - `tools_for_agent/_resources.py` — `QdrantClient` 제거, `KifrsResources.client` 필드 제거
+  - `tools_for_agent/tools.py` — `res.client` 참조 제거
+  - `search_test_hybrid.py` — pgvector 기반으로 전환
+  - `requirements.txt` — `qdrant-client` → `psycopg[binary]`, `psycopg-pool`, `pgvector`
+- **import 검증 완료**: 모든 모듈 Qdrant 참조 0건, import 정상
+- **상태: PostgreSQL 설치 + DB 생성 + 임베딩 적재 미완료**
+
 ---
 
 ## 다음 작업
 
-### 1. 벡터DB 전환 (Qdrant → PostgreSQL)
-- 새 청크 데이터(15,839개)를 PostgreSQL + pgvector로 재임베딩
-- 기존 Qdrant 기반 search/ 모듈 전환 필요 (10개 파일 47개 터치포인트)
-- `search/retriever.py`, `search/embedder.py`, `search/tools.py` 등 전면 수정
+### 1. PostgreSQL 설치 + 임베딩 적재
+- PostgreSQL + pgvector 설치 (WSL2):
+  ```bash
+  sudo apt install -y postgresql postgresql-contrib postgresql-16-pgvector
+  sudo systemctl enable --now postgresql
+  sudo -u postgres psql -c "CREATE USER shin WITH PASSWORD '...';"
+  sudo -u postgres psql -c "CREATE DATABASE kifrs_rag OWNER shin;"
+  sudo -u postgres psql -d kifrs_rag -c "CREATE EXTENSION vector;"
+  ```
+- `.env`에 `PG_HOST`, `PG_PORT`, `PG_DATABASE`, `PG_USER`, `PG_PASSWORD` 설정 완료
+- `python -m search.embedder` 실행 → 15,587개 청크 Upstage Solar 임베딩 + PostgreSQL 적재
+- 예상 소요: ~30분 (Upstage API rate limit이 병목)
 
 ### 2. Agentic 파이프라인 통합 테스트
 - `kifrs_rag_agentic.ipynb` 실행하여 4개 tool 동작 검증
@@ -108,16 +124,17 @@
 ## 핵심 파일 위치
 
 ### pipeline/ — 문서 처리
-- `pipeline/md_cleaner.py` — **[신규]** raw MD 후처리 (5단계 정제 + CLI)
+- `pipeline/md_cleaner.py` — raw MD 후처리 (5단계 정제 + CLI)
 - `pipeline/kifrs_chunker.py` — 청킹 + 교차참조 추출 (B/C/BCE 패턴 확장됨)
 - `pipeline/etc_chunker.py` — 비표준 문서 청킹 (개념체계, 실무서)
-- `pipeline/bc_chunk_cleaner.py` — **[신규]** 저가치 BC 청크 제거 (6개 규칙 + CLI)
+- `pipeline/bc_chunk_cleaner.py` — 저가치 BC 청크 제거 (6개 규칙 + CLI)
 - `pipeline/terms_index.py` — 용어정의 인덱스 빌더
 
-### search/ — 검색 엔진 모듈
+### search/ — 검색 엔진 모듈 (PostgreSQL + pgvector)
 - `search/__init__.py` — 패키지 exports
-- `search/config.py` — 경로, 컬렉션명, `chunk_id_to_int()`
-- `search/retriever.py` — `QdrantDenseRetriever`, `load_child_documents`, `search_with_parent`
+- `search/config.py` — `DATABASE_URL`, 테이블명, 임베딩 모델 설정
+- `search/db.py` — **[신규]** `psycopg_pool` 커넥션 풀, `build_where_clause()` 필터 빌더
+- `search/retriever.py` — `PgVectorRetriever`, `load_child_documents`, `search_with_parent`
 - `search/reranker.py` — `LocalReranker`(BGE), `CohereReranker`, `get_reranker()`
 - `search/query_router.py` — `classify_query()` → `QueryPlan`, `apply_authority_boost()`
 - `search/tools.py` — **4개 Agentic tool** 스키마 + executor + `dispatch_tool()`
@@ -129,14 +146,14 @@
 - `search/standards_expander.py` — tool 백엔드 (`reverse_lookup_chunks`, `_fetch_definition_chunk`)
 - `search/terms_resolver.py` — 용어 인덱스 로더 (`_load_terms_index`)
 - `search/xref_resolver.py` — [DEPRECATED] 교차참조 파싱 로직 보존
-- `search/embedder.py` — Qdrant 적재 + `update_payloads()` + `create_payload_indexes()`
+- `search/embedder.py` — PostgreSQL 적재 + Upstage Solar 임베딩 + HNSW 인덱스
 
 ### 데이터
 - `output/raw_md/*.md` — pymupdf4llm 원본 마크다운 (63개, 보존용)
-- `output/clean_md/*.md` — **[신규]** 정제된 마크다운 (63개)
-- `output/chunks/*.json` — **재생성된** 청크 데이터 (63개 기준서, 15,587 children — BC 정리 후)
+- `output/clean_md/*.md` — 정제된 마크다운 (63개)
+- `output/chunks/*.json` — 재생성된 청크 데이터 (63개 기준서, 15,587 children — BC 정리 후)
 - `output/terms_index.json` — 기준서별 용어정의 청크 매핑 (40개 기준서)
-- `qdrant_storage/` — Qdrant 로컬 벡터DB (**주의: 이전 청크 기준, 재임베딩 필요**)
+- `qdrant_storage/` — **[DEPRECATED]** 이전 Qdrant 로컬 벡터DB (삭제 가능)
 
 ### 평가 / 문서
 - `eval/evaluator.py` — RAG 평가기 (DRM, xref coverage, authority accuracy)
@@ -148,7 +165,7 @@
 ### Agentic 파이프라인 (주력: `kifrs_rag_agentic.ipynb`)
 ```
 query
-  → Hybrid Retrieval (Dense + BM25, K=30)
+  → Hybrid Retrieval (Dense pgvector + BM25, K=30)
   → Reranker (Top-5)
   → LLM Generate ⇄ Tool Loop (최대 3회)
       ├─ fetch_paragraphs: 교차참조 문단 조회
@@ -162,31 +179,35 @@ query
 ```
 query
   → query_router.classify_query()         # 5-way 분류 → QueryPlan
-  → retriever.QdrantDenseRetriever        # 벡터 검색 (Qdrant cosine)
+  → retriever.PgVectorRetriever           # 벡터 검색 (pgvector cosine)
   → reranker.get_reranker().rerank()      # cross-encoder rerank
   → query_router.apply_authority_boost()  # bc/ie 점수 감쇠
   → 최종 문서 리스트
 ```
 
-## Qdrant payload 스키마 (child 컬렉션: kifrs_chunks)
-```json
-{
-  "chunk_id": "KIFRS1016_main_62",
-  "parent_id": "KIFRS1016_main_sec_후속측정",
-  "content": "문단 본문 텍스트...",
-  "standard_id": "K-IFRS 1016",
-  "section_type": "main | ag | bc | ie",
-  "para_number": "62",
-  "cross_refs": ["문단31~40", "제1036호", "AG12~AG15"],
-  "referenced_standards": ["1036", "1038"],
-  "has_table": false,
-  "has_example": false
-}
+## PostgreSQL 스키마 (kifrs_children 테이블)
+```sql
+CREATE TABLE kifrs_children (
+    chunk_id                TEXT PRIMARY KEY,
+    parent_id               TEXT NOT NULL DEFAULT '',
+    content                 TEXT NOT NULL DEFAULT '',
+    standard_id             TEXT NOT NULL DEFAULT '',
+    section_type            TEXT NOT NULL DEFAULT '',
+    para_number             TEXT,
+    cross_refs              TEXT[] NOT NULL DEFAULT '{}',
+    referenced_standards    TEXT[] NOT NULL DEFAULT '{}',
+    has_table               BOOLEAN NOT NULL DEFAULT FALSE,
+    has_example             BOOLEAN NOT NULL DEFAULT FALSE,
+    embedding               vector(4096)
+);
+-- 인덱스: parent_id, standard_id, section_type (btree)
+--         referenced_standards, cross_refs (GIN)
+--         embedding (HNSW vector_cosine_ops, m=16, ef_construction=128)
 ```
 
 ## 환경
 - Python 3.12.3, `.venv` 가상환경 (`python3`만 사용, `python` 없음)
-- Qdrant 로컬 파일 모드 (`./qdrant_storage`)
+- PostgreSQL + pgvector (`kifrs_rag` 데이터베이스)
 - 임베딩: Upstage Solar (`solar-embedding-1-large`, 4096차원)
 - Reranker: `dragonkue/bge-reranker-v2-m3-ko` (로컬) 또는 Cohere API
 - WSL2 (Linux 6.6)

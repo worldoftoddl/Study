@@ -7,10 +7,9 @@
 
 import re
 from langchain_core.documents import Document
-from qdrant_client import QdrantClient
-from qdrant_client.models import Filter, FieldCondition, MatchValue, MatchAny
 
-from search.config import CHILD_COLLECTION, chunk_id_to_int
+from search.config import CHILDREN_TABLE
+from search.db import get_connection
 
 # ── 교차참조 파싱 패턴 ───────────────────────────────
 # 범위 구분자: ~ (U+007E), ∼ (U+223C), - (하이픈)
@@ -116,9 +115,15 @@ def _build_chunk_ids_from_refs(
     return results
 
 
+_CHILD_COLUMNS = [
+    "chunk_id", "parent_id", "content", "standard_id", "section_type",
+    "para_number", "cross_refs", "referenced_standards", "has_table", "has_example",
+]
+_CHILD_SELECT = ", ".join(_CHILD_COLUMNS)
+
+
 def resolve_cross_refs(
     docs: list[Document],
-    client: QdrantClient,
     max_expansion: int = 10,
     authority_filter: list[str] | None = None,
 ) -> list[Document]:
@@ -126,7 +131,6 @@ def resolve_cross_refs(
 
     Args:
         docs: rerank된 검색 결과 Document 리스트.
-        client: Qdrant 클라이언트.
         max_expansion: 최대 추가 문서 수.
         authority_filter: 허용할 section_type 목록 (예: ["main", "ag"]).
             None이면 모든 section_type 허용.
@@ -161,43 +165,44 @@ def resolve_cross_refs(
     # max_expansion으로 제한
     candidates = candidates[:max_expansion]
 
-    # Qdrant에서 batch fetch
+    # PostgreSQL에서 batch fetch
     expanded_docs = []
-    for chunk_id, xref_info in candidates:
-        point_id = chunk_id_to_int(chunk_id)
-        try:
-            points = client.retrieve(
-                collection_name=CHILD_COLLECTION,
-                ids=[point_id],
-                with_payload=True,
-            )
-        except Exception:
-            continue
+    with get_connection() as conn:
+        with conn.cursor() as cur:
+            for chunk_id, xref_info in candidates:
+                try:
+                    cur.execute(
+                        f"SELECT {_CHILD_SELECT} FROM {CHILDREN_TABLE} WHERE chunk_id = %s",
+                        (chunk_id,),
+                    )
+                    row = cur.fetchone()
+                except Exception:
+                    continue
 
-        if not points:
-            continue
+                if not row:
+                    continue
 
-        p = points[0].payload
-        section_type = p.get("section_type", "")
+                r = dict(zip(_CHILD_COLUMNS, row))
+                section_type = r.get("section_type", "")
 
-        # authority_filter 적용
-        if authority_filter and section_type not in authority_filter:
-            continue
+                # authority_filter 적용
+                if authority_filter and section_type not in authority_filter:
+                    continue
 
-        expanded_docs.append(Document(
-            page_content=p.get("content", ""),
-            metadata={
-                "chunk_id": p.get("chunk_id", chunk_id),
-                "parent_id": p.get("parent_id", ""),
-                "standard_id": p.get("standard_id", ""),
-                "section_type": section_type,
-                "para_number": p.get("para_number"),
-                "cross_refs": p.get("cross_refs", []),
-                "has_table": p.get("has_table", False),
-                "has_example": p.get("has_example", False),
-                "fetched_by_xref": True,
-                "xref_source": xref_info,
-            },
-        ))
+                expanded_docs.append(Document(
+                    page_content=r.get("content", ""),
+                    metadata={
+                        "chunk_id": r.get("chunk_id", chunk_id),
+                        "parent_id": r.get("parent_id", ""),
+                        "standard_id": r.get("standard_id", ""),
+                        "section_type": section_type,
+                        "para_number": r.get("para_number"),
+                        "cross_refs": r.get("cross_refs", []),
+                        "has_table": r.get("has_table", False),
+                        "has_example": r.get("has_example", False),
+                        "fetched_by_xref": True,
+                        "xref_source": xref_info,
+                    },
+                ))
 
     return docs + expanded_docs

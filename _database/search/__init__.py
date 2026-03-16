@@ -1,16 +1,16 @@
 """search/ — K-IFRS 검색 파이프라인 컴포넌트."""
 
 from search.config import (
-    QDRANT_PATH,
     CHUNKS_DIR,
-    CHILD_COLLECTION,
-    PARENT_COLLECTION,
+    CHILDREN_TABLE,
+    PARENTS_TABLE,
     MODEL_NAME,
     VECTOR_SIZE,
-    chunk_id_to_int,
+    DATABASE_URL,
 )
+from search.db import get_connection, close_pool
 from search.retriever import (
-    QdrantDenseRetriever,
+    PgVectorRetriever,
     load_child_documents,
     kiwi_tokenize,
     fetch_siblings,
@@ -32,9 +32,10 @@ from search.standards_expander import reverse_lookup_chunks
 from search.tools import TOOL_SCHEMAS, dispatch_tool
 
 __all__ = [
-    "QDRANT_PATH", "CHUNKS_DIR", "CHILD_COLLECTION", "PARENT_COLLECTION",
-    "MODEL_NAME", "VECTOR_SIZE", "chunk_id_to_int",
-    "QdrantDenseRetriever", "load_child_documents", "kiwi_tokenize",
+    "CHUNKS_DIR", "CHILDREN_TABLE", "PARENTS_TABLE",
+    "MODEL_NAME", "VECTOR_SIZE", "DATABASE_URL",
+    "get_connection", "close_pool",
+    "PgVectorRetriever", "load_child_documents", "kiwi_tokenize",
     "fetch_siblings", "search_with_parent",
     "get_authority_filter", "AUTHORITY_FILTERS",
     "get_reranker", "BaseReranker",
