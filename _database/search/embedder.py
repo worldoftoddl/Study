@@ -101,15 +101,22 @@ def init_db(conn):
 
 
 def create_vector_index(conn):
-    """HNSW 벡터 인덱스 생성 (데이터 적재 후 호출)"""
-    with conn.cursor() as cur:
-        cur.execute(f"""
-            CREATE INDEX idx_children_embedding_hnsw ON {CHILDREN_TABLE}
-            USING hnsw (embedding vector_cosine_ops)
-            WITH (m = 16, ef_construction = 128)
-        """)
-    conn.commit()
-    print("[DB] HNSW 벡터 인덱스 생성 완료")
+    """HNSW 벡터 인덱스 생성 (데이터 적재 후 호출).
+    pgvector HNSW는 최대 4000차원까지만 지원하므로,
+    4096차원 등 초과 시 경고만 출력하고 순차 스캔으로 대체한다.
+    """
+    try:
+        with conn.cursor() as cur:
+            cur.execute(f"""
+                CREATE INDEX idx_children_embedding_hnsw ON {CHILDREN_TABLE}
+                USING hnsw (embedding vector_cosine_ops)
+                WITH (m = 16, ef_construction = 128)
+            """)
+        conn.commit()
+        print("[DB] HNSW 벡터 인덱스 생성 완료")
+    except Exception as e:
+        conn.rollback()
+        print(f"[DB] HNSW 인덱스 생성 스킵 (순차 스캔 사용): {e}")
 
 
 def insert_parents(conn, parents: list):

@@ -259,3 +259,110 @@ def search_with_parent(
         output.append(entry)
 
     return output
+
+
+# ── Parent 그룹핑 + Sibling 확장 ─────────────────────
+def expand_to_parents(
+    reranked_docs: list[Document],
+    max_context_chars: int = 12000,
+    max_parents: int = 7,
+) -> list[dict]:
+    """Reranked children을 parent 단위로 묶고 siblings를 확장한다.
+
+    Args:
+        reranked_docs: rerank 완료된 Document 리스트 (metadata에 rerank_score 포함).
+        max_context_chars: 컨텍스트 총 문자 수 예산.
+        max_parents: 최대 parent 그룹 수.
+
+    Returns:
+        list of {
+            "parent_id", "heading", "standard_id", "section_type",
+            "best_score", "children": [
+                {"chunk_id", "para_number", "content", "is_matched"}
+            ]
+        }
+    """
+    # 1) parent_id별 그룹핑 + best_score 계산
+    parent_map: dict[str, dict] = {}
+    for doc in reranked_docs:
+        m = doc.metadata
+        pid = m.get("parent_id", "")
+        score = m.get("rerank_score", 0.0)
+        cid = m.get("chunk_id", "")
+
+        if pid not in parent_map:
+            parent_map[pid] = {
+                "parent_id": pid,
+                "standard_id": m.get("standard_id", ""),
+                "section_type": m.get("section_type", ""),
+                "best_score": score,
+                "matched_ids": {cid},
+            }
+        else:
+            parent_map[pid]["best_score"] = max(parent_map[pid]["best_score"], score)
+            parent_map[pid]["matched_ids"].add(cid)
+
+    # 2) best_score 내림차순 정렬
+    sorted_parents = sorted(parent_map.values(), key=lambda p: -p["best_score"])
+
+    # 3) 상위 parent부터 siblings 확장, 예산 내에서
+    result = []
+    total_chars = 0
+
+    for pinfo in sorted_parents:
+        if len(result) >= max_parents:
+            break
+
+        pid = pinfo["parent_id"]
+        heading = _fetch_parent_heading(pid)
+        siblings = fetch_siblings(pid)
+
+        # parent 전체 길이 계산
+        parent_len = sum(len(s["content"]) for s in siblings)
+        if total_chars + parent_len > max_context_chars and result:
+            break  # 첫 parent는 항상 포함
+
+        matched_ids = pinfo["matched_ids"]
+        children = [
+            {
+                "chunk_id": s["chunk_id"],
+                "para_number": s["para_number"],
+                "content": s["content"],
+                "is_matched": s["chunk_id"] in matched_ids,
+            }
+            for s in siblings
+        ]
+
+        result.append({
+            "parent_id": pid,
+            "heading": heading,
+            "standard_id": pinfo["standard_id"],
+            "section_type": pinfo["section_type"],
+            "best_score": pinfo["best_score"],
+            "children": children,
+        })
+        total_chars += parent_len
+
+    return result
+
+
+def format_parent_context(parent_groups: list[dict]) -> str:
+    """Parent-grouped 검색 결과를 LLM 컨텍스트 문자열로 포맷한다."""
+    section_labels = {
+        "main": "본문", "ag": "적용지침",
+        "bc": "결론도출근거", "ie": "사례",
+    }
+    parts = []
+    for i, pg in enumerate(parent_groups, 1):
+        section = section_labels.get(pg["section_type"], pg["section_type"])
+        header = f"[{i}] {pg['standard_id']} | {section} | {pg['heading']} (relevance={pg['best_score']:.4f})"
+
+        child_lines = []
+        for c in pg["children"]:
+            para = c["para_number"] or "?"
+            marker = "  ★ " if c["is_matched"] else "  "
+            child_lines.append(f"{marker}문단 {para}: {c['content']}")
+
+        parts.append(header + "\n" + "\n".join(child_lines))
+
+    return "\n\n---\n\n".join(parts)

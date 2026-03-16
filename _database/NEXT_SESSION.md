@@ -33,7 +33,6 @@
   - `standards_expander.reverse_lookup_chunks()` — `find_referencing_chunks` tool
   - `standards_expander._fetch_definition_chunk()` — `fetch_term_definitions`, `explore_related_standards` tool
 - 새 tool 추가: `fetch_term_definitions` (기준서 용어정의 Appendix A 조회)
-- Agentic 노트북: rerank 후 용어정의 자동 주입 제거, `RERANK_TOP_N = 5`로 조정
 - `rag_pipeline_test.ipynb`: 순수 baseline 파이프라인으로 전환 (Route → Retrieve → Rerank → Boost)
 
 ### 5. Raw Markdown 정제 + 재청킹 (2026-03-15)
@@ -77,49 +76,74 @@
 
 ### 7. 벡터DB 전환: Qdrant → PostgreSQL + pgvector (2026-03-16)
 - **코드 전환 완료** — search/ 모듈 전체를 Qdrant에서 PostgreSQL + pgvector로 마이그레이션
-- 수정된 파일 13개:
-  - `search/config.py` — `QDRANT_PATH` → `DATABASE_URL`, `chunk_id_to_int()` 제거
-  - `search/db.py` — **[신규]** `psycopg_pool` 커넥션 풀 + `build_where_clause()` 필터 빌더
-  - `search/embedder.py` — Qdrant upsert → PostgreSQL DDL + INSERT (HNSW 벡터 인덱스 포함)
-  - `search/query_router.py` — Qdrant `Filter` 객체 → dict 기반 필터
-  - `search/retriever.py` — `QdrantDenseRetriever` → `PgVectorRetriever` (pgvector `<=>` cosine)
-  - `search/standards_expander.py` — `client: QdrantClient` 제거, SQL 직접 쿼리
-  - `search/tools.py` — 4개 executor 모두 client 파라미터 제거, SQL 조회
-  - `search/xref_resolver.py` — DEPRECATED 모듈 최소 수정
-  - `search/__init__.py` — exports 업데이트
-  - `tools_for_agent/_resources.py` — `QdrantClient` 제거, `KifrsResources.client` 필드 제거
-  - `tools_for_agent/tools.py` — `res.client` 참조 제거
-  - `search_test_hybrid.py` — pgvector 기반으로 전환
-  - `requirements.txt` — `qdrant-client` → `psycopg[binary]`, `psycopg-pool`, `pgvector`
+- 수정된 파일 13개 (상세 내역 생략)
 - **import 검증 완료**: 모든 모듈 Qdrant 참조 0건, import 정상
-- **PostgreSQL 16 + pgvector 0.6.0 설치 완료**, DB `kifrs_rag` 생성 완료, `.env` 설정 완료
-- **상태: 임베딩 적재 필요**
 
 ### 8. 3K+ 대형 청크 재청킹 (2026-03-16)
 - **`pipeline/kifrs_chunker.py` 수정** — `split_large_content()` 함수 추가
-  - 3단계 분할: 의미 경계(사례 헤딩, ⑴⑵⑶ 하위 번호) → 빈줄 그리디 병합 → 문장(". ") 분할
-  - `flush_paragraph()` 내부에서 `MAX_CHUNK_CHARS=2500` 초과 시 자동 분할
-  - 서브청크 ID: `원본_s1`, `원본_s2` ... (메타데이터 서브청크별 재계산)
-  - 50자 미만 소조각 인접 병합 처리
 - **결과**: 15,587 → **16,052** children (+465)
   - 3K+ 청크: 83 → **0** (최대 2,983자)
-  - 50자 미만: 0 유지
-  - 116개 대형 청크 분할 (29개 기준서 JSON 업데이트)
+
+### 9. PostgreSQL 임베딩 적재 + pgvector 업그레이드 (2026-03-16)
+- `python -m search.embedder` 실행 완료
+- **적재 결과**: Children 15,550 (고유 chunk_id 기준), Parents 2,004
+  - JSON 내 16,052 children 중 268개 중복 chunk_id → ON CONFLICT 처리
+- pgvector 0.6.0 → **0.8.0** 소스 빌드 업그레이드
+- **HNSW 인덱스 미생성**: pgvector HNSW 최대 4,000차원 < Solar 4,096차원
+  - 15,550행 소규모 → 순차 스캔(brute-force cosine)으로 충분
+  - `embedder.py`에 graceful fallback 추가 (인덱스 실패 시 경고만 출력)
+
+### 10. Agentic 파이프라인 재설계: Parent-Grouped Retrieval (2026-03-16)
+- **문제**: 청크가 평균 349자로 세분화 → 기존 top-5 리랭크로는 ~1,750자 컨텍스트만 확보 → 불충분
+- **해결**: child 검색 → parent 그룹핑 → sibling 확장으로 ~6,000~15,000자 컨텍스트 확보
+- **새 체인 구조**:
+  ```
+  query
+    → classify_query()                        # 5-way 분류 → QueryPlan (필터/boost 결정)
+    → Hybrid Retrieval (Dense + BM25, K=30)   # query_filter 적용 (normative→main+ag)
+    → Rerank (top-15) + Authority Boost       # bc/ie 점수 0.85 감쇠
+    → ★ expand_parents                        # parent 그룹핑 + sibling 확장
+        - reranked children을 parent_id로 그룹핑
+        - best_score 순 상위 parent 선택
+        - fetch_siblings()로 형제 children 전체 로드
+        - MAX_CONTEXT_CHARS(12,000) 예산 내에서 추가
+    → Parent-Grouped Context 포맷팅           # ★ 매칭 문단 표시 + heading 포함
+    → LLM Generate ⇄ Tool Loop (최대 3회)
+    → 최종 응답
+  ```
+- **수정 파일**:
+  - `search/retriever.py` — `expand_to_parents()`, `format_parent_context()` 추가
+  - `search/__init__.py` — 새 함수 export
+  - `kifrs_rag_agentic.ipynb` — Qdrant→pgvector 전환 + 체인 전면 재설계
+- **검증 결과**:
+
+| 쿼리 | Parent 그룹 | 총 컨텍스트 |
+|------|------------|------------|
+| 수익인식 5단계 | 1개 (1115 main 인식 35건) | 11,751자 |
+| 기대신용손실 측정 | 1개 (1109 ag 측정 50건) | 15,839자 |
+| 유형자산 감가상각 | 3개 (1016 main + 공시 + 1038) | 11,463자 |
+| 지배력 판단 | 3개 (1110 + 1114 + 1028) | 6,708자 |
 
 ---
 
 ## 다음 작업
 
-### 1. 임베딩 적재
-- `python -m search.embedder` 실행 → PostgreSQL 적재
+### 1. Agentic 파이프라인 LLM 응답 품질 검증
+- `kifrs_rag_agentic.ipynb` 전체 실행 (5개 테스트 쿼리)
+- tool calling 동작 확인 (교차참조 해소, 용어정의 조회)
 
-### 2. Agentic 파이프라인 통합 테스트
-- `kifrs_rag_agentic.ipynb` 실행하여 4개 tool 동작 검증
-- LLM이 `fetch_term_definitions`를 적절히 호출하는지 확인
+### 2. 중복 chunk_id 정리
+- JSON 내 268개 중복 chunk_id 조사 (다른 기준서 간 동일 ID 충돌 가능성)
+- 필요 시 chunker 수정으로 chunk_id 유일성 보장
 
 ### 3. Agentic vs Baseline 평가
 - 동일 22개 테스트 케이스로 Agentic(tool calling) vs Baseline(retrieve+rerank only) 비교
 - DRM/Auth Accuracy/MRR 지표 분석
+
+### 4. BM25 query_filter 미적용 이슈
+- 현재 BM25Retriever는 query_filter를 지원하지 않음 (전체 16,052문서 대상 검색)
+- Dense에만 필터 적용 중 → Hybrid 결과에 bc/ie 문서가 BM25 경유로 유입 가능
+- 해결 방안: BM25 인덱스를 section_type별로 분리 빌드, 또는 ensemble 후 필터링
 
 ---
 
@@ -135,8 +159,8 @@
 ### search/ — 검색 엔진 모듈 (PostgreSQL + pgvector)
 - `search/__init__.py` — 패키지 exports
 - `search/config.py` — `DATABASE_URL`, 테이블명, 임베딩 모델 설정
-- `search/db.py` — **[신규]** `psycopg_pool` 커넥션 풀, `build_where_clause()` 필터 빌더
-- `search/retriever.py` — `PgVectorRetriever`, `load_child_documents`, `search_with_parent`
+- `search/db.py` — `psycopg_pool` 커넥션 풀, `build_where_clause()` 필터 빌더
+- `search/retriever.py` — `PgVectorRetriever`, `expand_to_parents`, `format_parent_context`, `load_child_documents`, `search_with_parent`
 - `search/reranker.py` — `LocalReranker`(BGE), `CohereReranker`, `get_reranker()`
 - `search/query_router.py` — `classify_query()` → `QueryPlan`, `apply_authority_boost()`
 - `search/tools.py` — **4개 Agentic tool** 스키마 + executor + `dispatch_tool()`
@@ -148,12 +172,12 @@
 - `search/standards_expander.py` — tool 백엔드 (`reverse_lookup_chunks`, `_fetch_definition_chunk`)
 - `search/terms_resolver.py` — 용어 인덱스 로더 (`_load_terms_index`)
 - `search/xref_resolver.py` — [DEPRECATED] 교차참조 파싱 로직 보존
-- `search/embedder.py` — PostgreSQL 적재 + Upstage Solar 임베딩 + HNSW 인덱스
+- `search/embedder.py` — PostgreSQL 적재 + Upstage Solar 임베딩 (HNSW graceful fallback)
 
 ### 데이터
 - `output/raw_md/*.md` — pymupdf4llm 원본 마크다운 (63개, 보존용)
 - `output/clean_md/*.md` — 정제된 마크다운 (63개)
-- `output/chunks/*.json` — 재생성된 청크 데이터 (63개 기준서, 16,052 children — 대형 청크 재분할 후)
+- `output/chunks/*.json` — 재생성된 청크 데이터 (63개 기준서, 16,052 children)
 - `output/terms_index.json` — 기준서별 용어정의 청크 매핑 (40개 기준서)
 - `qdrant_storage/` — **[DEPRECATED]** 이전 Qdrant 로컬 벡터DB (삭제 가능)
 
@@ -167,8 +191,10 @@
 ### Agentic 파이프라인 (주력: `kifrs_rag_agentic.ipynb`)
 ```
 query
-  → Hybrid Retrieval (Dense pgvector + BM25, K=30)
-  → Reranker (Top-5)
+  → classify_query()                          # 5-way 분류 → QueryPlan
+  → Hybrid Retrieval (Dense pgvector + BM25, K=30, query_filter 적용)
+  → Reranker (Top-15) + Authority Boost       # bc/ie 0.85 감쇠
+  → expand_parents                            # parent 그룹핑 + sibling 확장 (~12K자)
   → LLM Generate ⇄ Tool Loop (최대 3회)
       ├─ fetch_paragraphs: 교차참조 문단 조회
       ├─ find_referencing_chunks: 역방향 검색
@@ -204,12 +230,12 @@ CREATE TABLE kifrs_children (
 );
 -- 인덱스: parent_id, standard_id, section_type (btree)
 --         referenced_standards, cross_refs (GIN)
---         embedding (HNSW vector_cosine_ops, m=16, ef_construction=128)
+--         벡터 인덱스 없음 (pgvector HNSW 4000차원 제한 > Solar 4096차원, 순차 스캔 사용)
 ```
 
 ## 환경
-- Python 3.12.3, `.venv` 가상환경 (`python3`만 사용, `python` 없음)
-- PostgreSQL + pgvector (`kifrs_rag` 데이터베이스)
+- Python 3.12.3, `.venv` 가상환경
+- PostgreSQL 16 + pgvector 0.8.0 (`kifrs_rag` 데이터베이스)
 - 임베딩: Upstage Solar (`solar-embedding-1-large`, 4096차원)
 - Reranker: `dragonkue/bge-reranker-v2-m3-ko` (로컬) 또는 Cohere API
 - WSL2 (Linux 6.6)

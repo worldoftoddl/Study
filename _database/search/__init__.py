@@ -15,6 +15,8 @@ from search.retriever import (
     kiwi_tokenize,
     fetch_siblings,
     search_with_parent,
+    expand_to_parents,
+    format_parent_context,
     get_authority_filter,
     AUTHORITY_FILTERS,
 )
@@ -37,6 +39,7 @@ __all__ = [
     "get_connection", "close_pool",
     "PgVectorRetriever", "load_child_documents", "kiwi_tokenize",
     "fetch_siblings", "search_with_parent",
+    "expand_to_parents", "format_parent_context",
     "get_authority_filter", "AUTHORITY_FILTERS",
     "get_reranker", "BaseReranker",
     "classify_query", "apply_authority_boost", "QueryType", "QueryPlan",
