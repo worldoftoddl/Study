@@ -124,6 +124,41 @@
 | 유형자산 감가상각 | 3개 (1016 main + 공시 + 1038) | 11,463자 |
 | 지배력 판단 | 3개 (1110 + 1114 + 1028) | 6,708자 |
 
+### 11. DOCX 기반 청킹 파이프라인 v2 (Step 0-3) (2026-03-17)
+- **동기**: PDF→MD 변환(pymupdf4llm) 한계 — unk 문자 5.9%, 표 구조 손실, 줄바꿈 아티팩트
+- **해결**: DOCX 원본 직접 파싱으로 전환
+- **신규 파일**:
+  - `pipeline/docx_parser.py` — python-docx 기반 DOCX→MD 변환 (표 구조 보존)
+  - `pipeline/docx_chunker.py` — DOCX MD 전용 청커
+  - `pipeline/docx_pipeline.py` — 전체 배치 파이프라인 (parse → chunk → validate)
+- **결과**: 63/63 파일 성공, `output/chunks_v2/`에 **15,060 children** 생성
+
+| 지표 | v1 (PDF 기반) | v2 (DOCX 기반) | 변화 |
+|------|--------------|---------------|------|
+| unk 문자 비율 | 5.9% | 3.2% | -46% |
+| <100자 청크 | 1,396 | 76 | -95% |
+| >5000자 청크 | 0 | 0 | 유지 |
+| 교차참조 추출 | 41.5% | 48.9% | +18% |
+| 최대 청크 | - | 4,998자 | target_max_chars=5,000 이내 |
+
+### 12. KURE-v1 토큰 수 검증 (Step 4) (2026-03-17)
+- **목적**: target_max_chars=5,000이 KURE-v1(8192 토큰) 한도 내인지 실측 검증
+- **`verify_tokens.py` 신규 생성** — 전체 children 토큰화 + 통계 출력
+- **결과: PASS — 8192 초과 0건, target_max_chars=5,000 유지**
+
+| 지표 | 값 |
+|------|-----|
+| 8192 초과 | **0건** |
+| Max 토큰 | 3,193 (한도의 39%) |
+| P99 | 1,498 |
+| P95 | 433 |
+| Mean | 196.5 |
+| chars/token 비율 | **1.873** (가정 1.5 대비 높음 → 안전 마진 ↑) |
+| has_table 평균 | 738 (일반 180 대비 4x, 그래도 한도 내) |
+
+- **핵심 발견**: chars/token 실측치 1.873 → `5,000 / 1.873 ≈ 2,669` 토큰 최대 → 8,192 대비 67% 여유
+- 분포의 96%가 500 토큰 미만
+
 ---
 
 ## 다음 작업
@@ -140,7 +175,13 @@
 - 동일 22개 테스트 케이스로 Agentic(tool calling) vs Baseline(retrieve+rerank only) 비교
 - DRM/Auth Accuracy/MRR 지표 분석
 
-### 4. BM25 query_filter 미적용 이슈
+### 4. 적용사례(IE) few-shot 분리
+- 적용사례는 벡터스토어 청킹과 궁합이 안 맞음 (표/분개/계산 과정이 청킹되면 맥락 끊김, 숫자 위주 데이터는 임베딩 유사도 검색에 약함)
+- **벡터스토어**: 본문 문단 + 부록 적용지침(AG) + 결론도출근거(BC) → "규정이 뭔지" 검색용
+- **few-shot bank**: 적용사례(IE) + 사례별 표/분개 → "어떻게 적용하는지" 예시 주입용
+- 적용사례를 기준서별로 별도 파일/DB 테이블로 분리 관리, 질문 의도가 "계산/적용 방법"일 때 관련 사례를 선택적으로 context에 주입
+
+### 5. BM25 query_filter 미적용 이슈
 - 현재 BM25Retriever는 query_filter를 지원하지 않음 (전체 16,052문서 대상 검색)
 - Dense에만 필터 적용 중 → Hybrid 결과에 bc/ie 문서가 BM25 경유로 유입 가능
 - 해결 방안: BM25 인덱스를 section_type별로 분리 빌드, 또는 ensemble 후 필터링
@@ -177,7 +218,9 @@
 ### 데이터
 - `output/raw_md/*.md` — pymupdf4llm 원본 마크다운 (63개, 보존용)
 - `output/clean_md/*.md` — 정제된 마크다운 (63개)
-- `output/chunks/*.json` — 재생성된 청크 데이터 (63개 기준서, 16,052 children)
+- `output/chunks/*.json` — v1 청크 (PDF 기반, 16,052 children) — **DEPRECATED**
+- `output/chunks_v2/*.json` — **v2 청크 (DOCX 기반, 15,060 children)** ← 현재 사용
+- `output/docx_md/*.md` — DOCX→MD 변환 결과 (63개)
 - `output/terms_index.json` — 기준서별 용어정의 청크 매핑 (40개 기준서)
 - `qdrant_storage/` — **[DEPRECATED]** 이전 Qdrant 로컬 벡터DB (삭제 가능)
 
