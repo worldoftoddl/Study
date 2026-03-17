@@ -1,0 +1,245 @@
+{
+  "standard_id": "K-IFRS 2010",
+  "processed_at": "2026-03-17T09:57:06.952748+00:00",
+  "source": "docx",
+  "parents": [
+    {
+      "chunk_id": "KIFRS2010_main_h_root",
+      "heading_text": "root",
+      "section_type": "main",
+      "metadata": {
+        "standard_id": "K-IFRS 2010",
+        "section_type": "main"
+      }
+    },
+    {
+      "chunk_id": "KIFRS2010_main_h_본_문",
+      "heading_text": "본 문",
+      "section_type": "main",
+      "metadata": {
+        "standard_id": "K-IFRS 2010",
+        "section_type": "main"
+      }
+    },
+    {
+      "chunk_id": "KIFRS2010_main_h_참조",
+      "heading_text": "참조",
+      "section_type": "main",
+      "metadata": {
+        "standard_id": "K-IFRS 2010",
+        "section_type": "main"
+      }
+    },
+    {
+      "chunk_id": "KIFRS2010_main_h_적용",
+      "heading_text": "적용",
+      "section_type": "main",
+      "metadata": {
+        "standard_id": "K-IFRS 2010",
+        "section_type": "main"
+      }
+    },
+    {
+      "chunk_id": "KIFRS2010_main_h_회계논제",
+      "heading_text": "회계논제",
+      "section_type": "main",
+      "metadata": {
+        "standard_id": "K-IFRS 2010",
+        "section_type": "main"
+      }
+    },
+    {
+      "chunk_id": "KIFRS2010_main_h_결론",
+      "heading_text": "결론",
+      "section_type": "main",
+      "metadata": {
+        "standard_id": "K-IFRS 2010",
+        "section_type": "main"
+      }
+    },
+    {
+      "chunk_id": "KIFRS2010_main_h_시행일",
+      "heading_text": "시행일",
+      "section_type": "main",
+      "metadata": {
+        "standard_id": "K-IFRS 2010",
+        "section_type": "main"
+      }
+    },
+    {
+      "chunk_id": "KIFRS2010_bc_h_결론도출근거",
+      "heading_text": "결론도출근거",
+      "section_type": "bc",
+      "metadata": {
+        "standard_id": "K-IFRS 2010",
+        "section_type": "bc"
+      }
+    },
+    {
+      "chunk_id": "KIFRS2010_bc_h_기타_참고사항",
+      "heading_text": "기타 참고사항",
+      "section_type": "bc",
+      "metadata": {
+        "standard_id": "K-IFRS 2010",
+        "section_type": "bc"
+      }
+    }
+  ],
+  "children": [
+    {
+      "chunk_id": "KIFRS2010_main_unk_1",
+      "parent_id": "KIFRS2010_main_h_root",
+      "content": "저작권\n\n국제회계기준(IFRSs) 및 부속 출판물은 국제회계기준위원회(International Accounting Standards Board: IASB)가 발표한 것입니다. 국제회계기준위원회 연락처는 다음과 같습니다.\n\nTel: +44 (0)20 7246 6410 Fax: +44 (0)20 7246 6411\n\n국제회계기준(IAS) 및 해석서(Interpretations)를 포함하는 국제회계기준(IFRSs)은 국제회계기준재단에 저작권이 있습니다. 국제회계기준(IFRSs)의 정본은 IASB가 발표한 영문판입니다. 사본은 국제회계기준재단에서 얻을 수 있습니다. 출판 및 저작권에 대해서는 아래 연락처로 질의하시기 바랍니다.\n\nTel: +44 (0)20 7332 2730 Fax: +44 (0)20 7332 2749\n\n한국회계기준원 회계기준위원회는 국제회계기준재단의 동의 하에 국제회계기준과 이 출판물에 포함된 관련 문서들의 한국어 번역을 승인했습니다. 한국어 번역판에 대한 저작권은 국제회계기준재단에게 있습니다. 한국어 번역판은 국제회계기준재단이나 한국회계기준원에서 얻을 수 있습니다. 한국회계기준원의 연락처는 다음과 같습니다.\n\n서울특별시 중구 세종대로 39, 대한상공회의소빌딩 3층, 04513, 전화: +82 (0)2 6050-0150, 팩스: +82 (0)2 6050-0170, 이메일: webmaster@kasb.or.kr, 홈페이지: www.kasb.or.kr\n\n국제회계기준재단은 정부의 동의를 얻어 한국 내에서 사용하는 경우와 한국 내에 소재하는 기업의 해외 종속기업, 공동기업, 관계기업 또는 지점의 한국 이외 지역에서의 사용과 관련하여, 한국어로 구성된 일부 저작물에 대한 저작권을 주장할 권리를 포기했습니다. 이러한 저작물은 국제회계기준위원회가 제정 또는 채택한 번호가 매겨진 모든 국제회계기준(IAS) 및 국제재무보고기준(IFRS)의 본문, 또는 국제회계기준해석위원회(IFRS IC)나 상설해석위원회(SIC)가 발표한 해석서의 본문(이하 ‘기준서 본문’)으로 구성됩니다.\n\n한국 내에서 사용하는 경우와 한국 내에 소재하는 기업의 해외 종속기업, 공동기업, 관계기업 또는 지점이 한국 이외의 지역에서 사용하는 경우에는 기준서 본문을 한국어로 재출간할 수 있습니다.\n\n국제회계기준재단은 한국 이외 지역에서의 모든 권리와 한국 내에 소재하는 기업의 해외 종속기업, 공동기업, 관계기업 또는 지점이 한국 이외의 지역에서 한국어로 구성된 기준서 본문을 사용하는 경우를 제외한 모든 권리를 보유합니다.\n\nTel: +44 (0)20 7246 6410 Fax: +44 (0)20 7246 6411\n\nTel: +44 (0)20 7332 2730 Fax: +44 (0)20 7332 2749\n\nTel: +82 (0)2 6050 0150\n\nFax: +82 (0)2 6050 0170\n\nEmail: webmaster@kasb.or.kr\n\nWeb: www.kasb.or.kr\n\nReproduction of the integral part of the standards in the Korean language is permitted for any use within the Republic of Korea and by any foreign subsidiary, joint venture, associate or branch of a corporation, which resides in the Republic of Korea.",
+      "metadata": {
+        "standard_id": "K-IFRS 2010",
+        "section_type": "main",
+        "para_number": null,
+        "cross_refs": [],
+        "referenced_standards": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2010_main_unk_2",
+      "parent_id": "KIFRS2010_main_h_본_문",
+      "content": "※ 결론도출근거, 기타 참고사항은 기업회계기준해석서 제2010호를 구성하지는 않으나 해석서를 적용하는 데 편의를 제공하기 위해 제시된다.\n\n기업회계기준해석서 제2010호\n\n정부지원: 영업활동과 특정한 관련이 없는 경우",
+      "metadata": {
+        "standard_id": "K-IFRS 2010",
+        "section_type": "main",
+        "para_number": null,
+        "cross_refs": [
+          "기업회계기준해석서제2010호"
+        ],
+        "referenced_standards": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2010_main_unk_3",
+      "parent_id": "KIFRS2010_main_h_참조",
+      "content": "기업회계기준서 제1008호 ‘회계정책, 회계추정치 변경과 오류’\n\n기업회계기준서 제1020호 ‘정부보조금의 회계처리와 정부지원의 공시’",
+      "metadata": {
+        "standard_id": "K-IFRS 2010",
+        "section_type": "main",
+        "para_number": null,
+        "cross_refs": [
+          "제1008호",
+          "제1020호"
+        ],
+        "referenced_standards": [
+          "1008",
+          "1020"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2010_main_한1.1",
+      "parent_id": "KIFRS2010_main_h_적용",
+      "content": "한1.1\t이 해석서는 ‘주식회사 등의 외부감사에 관한 법률’에서 정하는 한국채택국제회계기준 의무적용대상 주식회사의 회계처리에 적용한다. 또한 이 해석서는 재무제표의 작성과 표시를 위해 한국채택국제회계기준의 적용을 선택하거나 다른 법령 등에서 적용을 요구하는 기업의 회계처리에도 적용한다.",
+      "metadata": {
+        "standard_id": "K-IFRS 2010",
+        "section_type": "main",
+        "para_number": "한1.1",
+        "cross_refs": [],
+        "referenced_standards": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2010_main_1",
+      "parent_id": "KIFRS2010_main_h_회계논제",
+      "content": "1\t일부 국가에서 기업에 대한 정부지원은 특정 지역이나 산업영역에서의 사업활동을 장려하거나 장기적으로 지원하는 것을 목적으로 한다. 이러한 지원을 받기 위한 조건은 기업의 영업활동과 특별히 관련되지 않을 수 있다. 이러한 지원의 예로는 다음과 같은 기업에 정부가 자원을 이전하는 것을 들 수 있다.\n⑴\t특정산업에서 영업하는 기업\n⑵\t최근 민영화된 산업에서 계속 영업하는 기업\n⑶\t저개발 지역에서 사업활동을 시작하거나 계속 하는 기업\n\n2\t이 해석서의 회계논제는 이러한 정부지원이 기업회계기준서 제1020호의 적용범위에 해당하는 정부보조금인지의 여부와 동 기준서에 따라 회계처리해야 하는지의 여부이다.",
+      "metadata": {
+        "standard_id": "K-IFRS 2010",
+        "section_type": "main",
+        "para_number": "1",
+        "cross_refs": [
+          "제1020호"
+        ],
+        "referenced_standards": [
+          "1020"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2010_main_3",
+      "parent_id": "KIFRS2010_main_h_결론",
+      "content": "3\t특정 지역이나 산업영역에서 영업하는 요건 이외에 기업의 영업활동과 특별히 관련된 조건이 없더라도 기업에 대한 정부지원은 기업회계기준서 제1020호 정부보조금의 정의를 충족한다. 따라서 이러한 보조금은 주주지분으로 직접 인식하지 아니한다.",
+      "metadata": {
+        "standard_id": "K-IFRS 2010",
+        "section_type": "main",
+        "para_number": "3",
+        "cross_refs": [
+          "제1020호"
+        ],
+        "referenced_standards": [
+          "1020"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2010_main_한3.1",
+      "parent_id": "KIFRS2010_main_h_시행일",
+      "content": "[한국회계기준원 한국회계기준위원회가 삭제함]\n\n한3.1\t이 해석서는 2011년 1월 1일 이후 최초로 개시하는 회계연도부터 적용한다. 다만, 2009년 1월 1일 이후 개시하는 회계연도부터 적용할 수 있다.\n\n기업회계기준해석서 제2010호의 제정에 대한 회계기준위원회의 의결(2007년)\n\n기업회계기준해석서 제2010호 ‘정부지원: 영업활동과 특정한 관련이 없는 경우’의 제정(2007.11.23.)은 회계기준위원회 위원 7인 전원의 찬성으로 의결하였다.\n\n회계기준위원회 위원:\n\n이효익(위원장), 서정우(상임위원), 김성남, 윤순석, 최상태, 황성식, 황인태",
+      "metadata": {
+        "standard_id": "K-IFRS 2010",
+        "section_type": "main",
+        "para_number": "한3.1",
+        "cross_refs": [
+          "기업회계기준해석서제2010호"
+        ],
+        "referenced_standards": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2010_bc_4",
+      "parent_id": "KIFRS2010_bc_h_결론도출근거",
+      "content": "4\tIAS 20 문단 3에서는 정부보조금을 기업의 영업활동과 관련하여 과거나 미래에 일정한 조건을 충족하였거나 충족할 경우 기업에게 자원을 이전하는 형식의 정부지원으로 정의하고 있다. 정부지원을 얻기 위해 특정 지역이나 산업영역에서 영업해야하는 일반적인 요건은 IAS 20의 문단 3에 따른 조건을 구성한다. 따라서 그러한 지원은 정부보조금의 정의에 부합하고 IAS 20, 특히 수익의 인식 시점을 다룬 문단 12와 20이 적용된다.",
+      "metadata": {
+        "standard_id": "K-IFRS 2010",
+        "section_type": "bc",
+        "para_number": "4",
+        "cross_refs": [
+          "문단12",
+          "문단3"
+        ],
+        "referenced_standards": [
+          "1020"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2010_bc_unk_4",
+      "parent_id": "KIFRS2010_bc_h_기타_참고사항",
+      "content": "국제회계기준과의 관계\n\n기업회계기준해석서 제2010호와 국제회계기준해석 제10호(SIC 10)\n\n기업회계기준해석서 제2010호는 상설해석위원회가 제정한 국제회계기준해석 제10호(SIC 10) ‘정부지원: 영업활동과 특정한 관련이 없는 경우(Government Assistance-No Specific Relation to Operating Activities)'에 대응하는 해석이다.\n\n한국의 법률체계와 일관성을 유지하기 위하여 형식적인 부분이 제한적으로 수정되었다. 즉, 한국채택국제회계기준의 의무적용대상기업과 적용시기를 명시하기 위하여 문단 한1.1, 한3.1이 추가되었으며, 적용시기 이후 최초채택기업으로서 이 기준서를 적용하게 됨에 따라 시행일과 관련된 문단이 삭제되었다. 이러한 수정을 명시적으로 표시하기 위하여 동 국제회계기준에 추가한 문단은 관련된 국제회계기준 문단번호에 ‘한’이라는 접두어를 붙여 구분 표시하였다. 그리고 동 국제회계기준의 문단을 삭제한 경우는 관련된 국제회계기준 문단번호 옆에 ‘[한국회계기준원 회계기준위원회가 삭제함]’이라고 표시하였다.\n\n국제회계기준해석 제10호(SIC 10)의 준수\n\n형식과 관련하여 수정된 위의 문단들을 제외하고는 기업회계기준해석서 제2010호가 SIC 10의 내용에 근거하여 제정되었기 때문에 기업회계기준해석서 제2010호를 준수하면 동시에 SIC 10을 준수하는 것이 된다.\n\n이 해석서의 주요 특징\n\n이 해석서는 영업활동과 특정한 관련이 없는 정부지원에 대한 해석을 제공하기 위하여 제정되었다.\n\n1.\t주요 요구사항\n\n기업의 영업활동과 특정한 관련이 없는 정부지원이라도 특정 지역이나 산업에서 영업하는 일반적인 요건은 정부지원의 요건을 충족하기 위해 기업회계기준서 제1020호 문단 3에 따른 조건을 구성한다. 따라서 이러한 지원은 정부보조금에 해당하고 기업회계기준서 제1020호를 적용한다.\n\n제·개정 경과\n\n한국회계기준원 회계기준위원회는 국제회계기준위원회가 제정한 국제회계기준을 채택하여 기업회계기준의 일부로 구성하기로 한 정책에 따라 이 해석서를 다음과 같이  제·개정하였다.",
+      "metadata": {
+        "standard_id": "K-IFRS 2010",
+        "section_type": "bc",
+        "para_number": null,
+        "cross_refs": [
+          "기업회계기준해석서제2010호",
+          "문단3",
+          "제1020호"
+        ],
+        "referenced_standards": [
+          "1020"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    }
+  ]
+}

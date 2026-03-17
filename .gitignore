@@ -8,3 +8,4 @@ qdrant_storage/
 *.pkl
 bm25_cache_meta.json
 .vscode/
+CLAUDE.md

@@ -1,0 +1,321 @@
+{
+  "standard_id": "K-IFRS 2025",
+  "processed_at": "2026-03-17T09:57:07.020703+00:00",
+  "source": "docx",
+  "parents": [
+    {
+      "chunk_id": "KIFRS2025_main_h_root",
+      "heading_text": "root",
+      "section_type": "main",
+      "metadata": {
+        "standard_id": "K-IFRS 2025",
+        "section_type": "main"
+      }
+    },
+    {
+      "chunk_id": "KIFRS2025_main_h_본_문",
+      "heading_text": "본 문",
+      "section_type": "main",
+      "metadata": {
+        "standard_id": "K-IFRS 2025",
+        "section_type": "main"
+      }
+    },
+    {
+      "chunk_id": "KIFRS2025_main_h_참조",
+      "heading_text": "참조",
+      "section_type": "main",
+      "metadata": {
+        "standard_id": "K-IFRS 2025",
+        "section_type": "main"
+      }
+    },
+    {
+      "chunk_id": "KIFRS2025_main_h_적용",
+      "heading_text": "적용",
+      "section_type": "main",
+      "metadata": {
+        "standard_id": "K-IFRS 2025",
+        "section_type": "main"
+      }
+    },
+    {
+      "chunk_id": "KIFRS2025_main_h_회계논제",
+      "heading_text": "회계논제",
+      "section_type": "main",
+      "metadata": {
+        "standard_id": "K-IFRS 2025",
+        "section_type": "main"
+      }
+    },
+    {
+      "chunk_id": "KIFRS2025_main_h_결론",
+      "heading_text": "결론",
+      "section_type": "main",
+      "metadata": {
+        "standard_id": "K-IFRS 2025",
+        "section_type": "main"
+      }
+    },
+    {
+      "chunk_id": "KIFRS2025_main_h_시행일",
+      "heading_text": "시행일",
+      "section_type": "main",
+      "metadata": {
+        "standard_id": "K-IFRS 2025",
+        "section_type": "main"
+      }
+    },
+    {
+      "chunk_id": "KIFRS2025_bc_h_결론도출근거",
+      "heading_text": "결론도출근거",
+      "section_type": "bc",
+      "metadata": {
+        "standard_id": "K-IFRS 2025",
+        "section_type": "bc"
+      }
+    },
+    {
+      "chunk_id": "KIFRS2025_bc_h_기타_참고사항",
+      "heading_text": "기타 참고사항",
+      "section_type": "bc",
+      "metadata": {
+        "standard_id": "K-IFRS 2025",
+        "section_type": "bc"
+      }
+    }
+  ],
+  "children": [
+    {
+      "chunk_id": "KIFRS2025_main_unk_1",
+      "parent_id": "KIFRS2025_main_h_root",
+      "content": "저작권\n\n국제회계기준(IFRSs) 및 부속 출판물은 국제회계기준위원회(International Accounting Standards Board: IASB)가 발표한 것입니다. 국제회계기준위원회 연락처는 다음과 같습니다.\n\nTel: +44 (0)20 7246 6410 Fax: +44 (0)20 7246 6411\n\n국제회계기준(IAS) 및 해석서(Interpretations)를 포함하는 국제회계기준(IFRSs)은 국제회계기준재단에 저작권이 있습니다. 국제회계기준(IFRSs)의 정본은 IASB가 발표한 영문판입니다. 사본은 국제회계기준재단에서 얻을 수 있습니다. 출판 및 저작권에 대해서는 아래 연락처로 질의하시기 바랍니다.\n\nTel: +44 (0)20 7332 2730 Fax: +44 (0)20 7332 2749\n\n한국회계기준원 회계기준위원회는 국제회계기준재단의 동의 하에 국제회계기준과 이 출판물에 포함된 관련 문서들의 한국어 번역을 승인했습니다. 한국어 번역판에 대한 저작권은 국제회계기준재단에게 있습니다. 한국어 번역판은 국제회계기준재단이나 한국회계기준원에서 얻을 수 있습니다. 한국회계기준원의 연락처는 다음과 같습니다.\n\n서울특별시 중구 세종대로 39, 대한상공회의소빌딩 3층, 04513, 전화: +82 (0)2 6050-0150, 팩스: +82 (0)2 6050-0170, 이메일: webmaster@kasb.or.kr, 홈페이지: www.kasb.or.kr\n\n국제회계기준재단은 정부의 동의를 얻어 한국 내에서 사용하는 경우와 한국 내에 소재하는 기업의 해외 종속기업, 공동기업, 관계기업 또는 지점의 한국 이외 지역에서의 사용과 관련하여, 한국어로 구성된 일부 저작물에 대한 저작권을 주장할 권리를 포기했습니다. 이러한 저작물은 국제회계기준위원회가 제정 또는 채택한 번호가 매겨진 모든 국제회계기준(IAS) 및 국제재무보고기준(IFRS)의 본문, 또는 국제회계기준해석위원회(IFRS IC)나 상설해석위원회(SIC)가 발표한 해석서의 본문(이하 ‘기준서 본문’)으로 구성됩니다.\n\n한국 내에서 사용하는 경우와 한국 내에 소재하는 기업의 해외 종속기업, 공동기업, 관계기업 또는 지점이 한국 이외의 지역에서 사용하는 경우에는 기준서 본문을 한국어로 재출간할 수 있습니다.\n\n국제회계기준재단은 한국 이외 지역에서의 모든 권리와 한국 내에 소재하는 기업의 해외 종속기업, 공동기업, 관계기업 또는 지점이 한국 이외의 지역에서 한국어로 구성된 기준서 본문을 사용하는 경우를 제외한 모든 권리를 보유합니다.\n\nTel: +44 (0)20 7246 6410 Fax: +44 (0)20 7246 6411\n\nTel: +44 (0)20 7332 2730 Fax: +44 (0)20 7332 2749\n\nTel: +82 (0)2 6050 0150\n\nFax: +82 (0)2 6050 0170\n\nEmail: webmaster@kasb.or.kr\n\nWeb: www.kasb.or.kr\n\nReproduction of the integral part of the standards in the Korean language is permitted for any use within the Republic of Korea and by any foreign subsidiary, joint venture, associate or branch of a corporation, which resides in the Republic of Korea.",
+      "metadata": {
+        "standard_id": "K-IFRS 2025",
+        "section_type": "main",
+        "para_number": null,
+        "cross_refs": [],
+        "referenced_standards": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2025_main_unk_2",
+      "parent_id": "KIFRS2025_main_h_본_문",
+      "content": "※ 결론도출근거, 기타 참고사항은 기업회계기준해석서 제2025호를 구성하지는 않으나 해석서를 적용하는 데 편의를 제공하기 위해 제시된다.\n\n기업회계기준해석서 제2025호\n\n법인세: 기업이나 주주의 납세지위 변동",
+      "metadata": {
+        "standard_id": "K-IFRS 2025",
+        "section_type": "main",
+        "para_number": null,
+        "cross_refs": [
+          "기업회계기준해석서제2025호"
+        ],
+        "referenced_standards": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2025_main_unk_3",
+      "parent_id": "KIFRS2025_main_h_참조",
+      "content": "기업회계기준서 제1001호 ‘재무제표 표시’\n\n기업회계기준서 제1008호 ‘회계정책, 회계추정치 변경과 오류’\n\n기업회계기준서 제1012호 ‘법인세’",
+      "metadata": {
+        "standard_id": "K-IFRS 2025",
+        "section_type": "main",
+        "para_number": null,
+        "cross_refs": [
+          "제1001호",
+          "제1008호",
+          "제1012호"
+        ],
+        "referenced_standards": [
+          "1001",
+          "1008",
+          "1012"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2025_main_한1.1",
+      "parent_id": "KIFRS2025_main_h_적용",
+      "content": "한1.1\t이 해석서는 ‘주식회사 등의 외부감사에 관한 법률’에서 정하는 한국채택국제회계기준 의무적용대상 주식회사의 회계처리에 적용한다. 또한 이 해석서는 재무제표의 작성과 표시를 위해 한국채택국제회계기준의 적용을 선택하거나 다른 법령 등에서 적용을 요구하는 기업의 회계처리에도 적용한다.",
+      "metadata": {
+        "standard_id": "K-IFRS 2025",
+        "section_type": "main",
+        "para_number": "한1.1",
+        "cross_refs": [],
+        "referenced_standards": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2025_main_1",
+      "parent_id": "KIFRS2025_main_h_회계논제",
+      "content": "1\t기업이나 주주의 납세지위가 변동하는 경우 당해 기업의 법인세 부채나 자산이 증가되거나 감소되기도 한다. 이러한 예는 기업의 지분상품이 상장되거나 자본이 재조정되는 경우에 발생할 수 있다. 또한 지배주주가 외국으로 이전한 경우에도 발생할 수 있다. 그러한 사건의 결과로 기업은 다르게 과세될 수 있다. 예를 들어 미래에 과세혜택을 받거나 잃을 수 있고 적용될 세율이 달라질 수도 있다.",
+      "metadata": {
+        "standard_id": "K-IFRS 2025",
+        "section_type": "main",
+        "para_number": "1",
+        "cross_refs": [],
+        "referenced_standards": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2025_main_2",
+      "parent_id": "KIFRS2025_main_h_회계논제",
+      "content": "2\t기업이나 주주의 납세지위 변동은 기업의 당기법인세 부채나 자산에 즉시 영향을 주기도 한다. 또한 납세지위의 변동이 자산과 부채의 장부금액을 회수하거나 결제함으로 인해 발생할 세효과에 미치는 영향에 따라, 기업이 인식한 이연법인세 부채와 자산은 증가되거나 감소될 수도 있다.\n\n3\t회계논제는 기업이나 주주의 납세지위가 변동됨에 따른 세효과를 어떻게 회계처리 하는가에 대한 것이다.",
+      "metadata": {
+        "standard_id": "K-IFRS 2025",
+        "section_type": "main",
+        "para_number": "2",
+        "cross_refs": [],
+        "referenced_standards": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2025_main_4",
+      "parent_id": "KIFRS2025_main_h_결론",
+      "content": "4\t기업이나 주주의 납세지위 변동은 당기손익 이외의 항목으로 인식한 금액을 증가시키거나 감소시키지 아니한다. 납세지위 변동에 따른 당기법인세 및 이연법인세 효과는 당기손익에 포함되어야 한다. 다만, 거래 및 사건과 관련된 당해 세효과가 동일 기간 또는 다른 기간에 자본으로 인식된 금액에 직접 가감되는 경우나 기타포괄손익으로 인식되는 금액은 제외한다. 동일 기간 또는 다른 기간에 자본으로 인식된 금액(손익에 포함되지 않은 금액)의 변동과 관련된 당해 세효과는 자본에서 직접 가감하여야 한다. 기타포괄손익으로 인식되는 금액과 관련된 세효과는 기타포괄손익으로 인식하여야 한다.",
+      "metadata": {
+        "standard_id": "K-IFRS 2025",
+        "section_type": "main",
+        "para_number": "4",
+        "cross_refs": [],
+        "referenced_standards": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2025_main_한4.1",
+      "parent_id": "KIFRS2025_main_h_시행일",
+      "content": "[한국회계기준원 회계기준위원회가 삭제함]\n\n한4.1\t이 해석서는 2011년 1월 1일 이후 최초로 개시하는 회계연도부터 적용한다. 다만, 2009년 1월 1일 이후 개시하는 회계연도부터 적용할 수 있다.\n\n기업회계기준해석서 제2025호의 제정에 대한 회계기준위원회의 의결(2007년)\n\n기업회계기준해석서 제2025호 ‘법인세: 기업이나 주주의 납세지위 변동’의 제정(2007.11.23.)은 회계기준위원회 위원 7인 전원의 찬성으로 의결하였다.\n\n회계기준위원회 위원:\n\n이효익(위원장), 서정우(상임위원), 김성남, 윤순석, 최상태, 황성식, 황인태",
+      "metadata": {
+        "standard_id": "K-IFRS 2025",
+        "section_type": "main",
+        "para_number": "한4.1",
+        "cross_refs": [
+          "기업회계기준해석서제2025호"
+        ],
+        "referenced_standards": [],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2025_bc_5",
+      "parent_id": "KIFRS2025_bc_h_결론도출근거",
+      "content": "5\tIAS 12 문단 58은 동일 회계기간 또는 다른 회계기간에 순당기손익 이외의 항목으로 기타포괄손익이나 자본에 직접 인식되는 거래나 사건으로부터 발생하는 세액(또는 취득인 사업결합에서 발생하는 세액)을 제외하고, 당기법인세와 이연법인세를 당기손익에 포함하도록 규정하고 있다. 또한 동 기준서의 문단 61A는 동일 회계기간 또는 다른 회계기간에 당기손익 이외로 자본에 직접 가감된 인식되는 항목과 관련된 당기법인세와 이연법인세를 자본에 직접 가감하도록 당기손익 이외의 항목으로 인식하도록 요구하고 있다.",
+      "metadata": {
+        "standard_id": "K-IFRS 2025",
+        "section_type": "bc",
+        "para_number": "5",
+        "cross_refs": [
+          "문단58",
+          "문단61A"
+        ],
+        "referenced_standards": [
+          "1012"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2025_bc_5A",
+      "parent_id": "KIFRS2025_bc_h_결론도출근거",
+      "content": "5A\tIAS 12 문단 62는 다른 IFRS에서 기타포괄손익으로 인식할 것을 허용하거나 요구하고 있는 거래나 사건이 발생하는 상황의 예를 들고 있다. 이러한 모든 상황에서는 기타포괄손익을 인식함으로써 인식된 자본 금액이 변동한다.",
+      "metadata": {
+        "standard_id": "K-IFRS 2025",
+        "section_type": "bc",
+        "para_number": "5A",
+        "cross_refs": [
+          "문단62"
+        ],
+        "referenced_standards": [
+          "1012"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2025_bc_6",
+      "parent_id": "KIFRS2025_bc_h_결론도출근거",
+      "content": "6\tIAS 12 문단 62A는 다른 IFRS에서 자본에 직접 인식하도록 요구하거나 허용하는 거래나 사건이 발생하는 상황의 예를 들고 있다. 이러한 모든 상황에서는 자본에 직접 가감하여 인식함으로써 인식된 자본 금액이 변동한다.",
+      "metadata": {
+        "standard_id": "K-IFRS 2025",
+        "section_type": "bc",
+        "para_number": "6",
+        "cross_refs": [
+          "문단62A"
+        ],
+        "referenced_standards": [
+          "1012"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2025_bc_7",
+      "parent_id": "KIFRS2025_bc_h_결론도출근거",
+      "content": "7\tIAS 12 문단 65는 재평가된 자산의 세무기준액이 변동된다면, 이와 관련하여 회계상 재평가금액을 자본에 직접 기타포괄손익(재평가잉여금)으로 인식했거나 인식할 것으로 예상되는 범위까지만 그 세효과를 자본으로 기타포괄손익으로 인식하도록 설명하고 있다.",
+      "metadata": {
+        "standard_id": "K-IFRS 2025",
+        "section_type": "bc",
+        "para_number": "7",
+        "cross_refs": [
+          "문단65"
+        ],
+        "referenced_standards": [
+          "1012"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2025_bc_8",
+      "parent_id": "KIFRS2025_bc_h_결론도출근거",
+      "content": "8\t당기손익 이외의 항목으로 기타포괄손익이나 자본에 직접 인식한 세효과는 동일 회계기간 또는 다른 회계기간에 자본에 직접 당기손익 이외의 항목으로 인식된 거래나 사건과 반드시 관련이 있으므로, 자본에 직접 가감된 당기손익 이외의 항목으로 인식된 누적 과세금액은 과거에 새로운 납세지위가 적용되었더라면 자본에 직접 가감될 항목의 당기손익 이외의 항목으로 인식되었을 금액과 동일할 것으로 예상할 수 있다. IAS 12 문단 63⑵에 따르면 세율이나 기타 세법상의 변화가 이연법인세 자산이나 부채에 영향을 미치고 과거 자본에서 가감한 항목 당기손익 이외의 항목과 관련된 경우 이로 인한 세효과를 결정하는 것이 어려울 수 있음을 인정하고 있다. IAS 12 문단 63에서는 이러한 이유로 배분이 필요할 수 있다고 언급하고 있다.",
+      "metadata": {
+        "standard_id": "K-IFRS 2025",
+        "section_type": "bc",
+        "para_number": "8",
+        "cross_refs": [
+          "문단63"
+        ],
+        "referenced_standards": [
+          "1012"
+        ],
+        "has_table": false,
+        "has_example": false
+      }
+    },
+    {
+      "chunk_id": "KIFRS2025_bc_unk_4",
+      "parent_id": "KIFRS2025_bc_h_기타_참고사항",
+      "content": "국제회계기준과의 관계\n\n기업회계기준해석서 제2025호와 국제회계기준해석 제25호(SIC 25)\n\n기업회계기준해석서 제2025호는 상설해석위원회가 제정한 국제회계기준해석 제25호(SIC 25) ‘법인세: 기업이나 주주의 납세지위 변동(Income Taxes -Changes in the Tax Status of an Entity or its Shareholders)'에 대응하는 해석이다.\n\n한국의 법률체계와 일관성을 유지하기 위하여 형식적인 부분이 제한적으로 수정되었다. 즉, 한국채택국제회계기준의 의무적용대상기업과 적용시기를 명시하기 위하여 문단 한1.1과 한4.1이 추가되었으며, 적용시기 이후 최초채택기업으로서 이 기준서를 적용하게 됨에 따라 시행일과 관련된 문단이 삭제되었다. 이러한 수정을 명시적으로 표시하기 위하여 동 국제회계기준에 추가한 문단은 관련된 국제회계기준 문단번호에 ‘한’이라는 접두어를 붙여 구분 표시하였다. 그리고 동 국제회계기준의 문단을 삭제한 경우는 관련된 국제회계기준 문단번호 옆에 ‘[한국회계기준원 회계기준위원회가 삭제함]’이라고 표시하였다.\n\n국제회계기준해석 제25호(SIC 25)의 준수\n\n형식과 관련하여 수정된 위의 문단들을 제외하고는 기업회계기준해석서 제2025호가 SIC 25의 내용에 근거하여 제정되었기 때문에 기업회계기준서 제2025호를 준수하면 동시에 SIC 25를 준수하는 것이 된다.\n\n이 해석서의 주요 특징\n\n이 해석서는 ‘법인세: 기업이나 주주의 납세지위 변동’에 대한 사항을 정하고 있다.\n\n1.\t주요 요구사항\n\n기업이나 주주의 납세지위 변동은 당기손익 이외의 항목으로 인식한 금액을 증가시키거나 감소시키지 아니한다. 납세지위 변동에 따른 당기법인세 및 이연법인세 효과는 당기손익에 포함되어야 한다. 다만, 거래 및 사건과 관련된 당해 세효과가 동일 기간 또는 다른 기간에 자본으로 인식된 금액에 직접 가감되는 경우나 기타포괄손익으로 인식되는 금액은 제외한다. 동일 기간 또는 다른 기간에 자본으로 인식된 금액(손익에 포함되지 않은 금액)의 변동과 관련된 당해 세효과는 자본에서 직접 가감하여야 한다. 기타포괄손익으로 인식되는 금액과 관련된 세효과는 기타포괄손익으로 인식하여야 한다.\n\n제·개정 경과\n\n한국회계기준원 회계기준위원회는 국제회계기준위원회가 제정한 국제회계기준을 채택하여 기업회계기준의 일부로 구성하기로 한 정책에 따라 이 해석서를 다음과 같이 제·개정하였다.",
+      "metadata": {
+        "standard_id": "K-IFRS 2025",
+        "section_type": "bc",
+        "para_number": null,
+        "cross_refs": [
+          "기업회계기준해석서제2025호"
+        ],
+        "referenced_standards": [],
+        "has_table": false,
+        "has_example": false
+      }
+    }
+  ]
+}
