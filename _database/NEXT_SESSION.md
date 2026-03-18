@@ -159,6 +159,21 @@
 - **핵심 발견**: chars/token 실측치 1.873 → `5,000 / 1.873 ≈ 2,669` 토큰 최대 → 8,192 대비 67% 여유
 - 분포의 96%가 500 토큰 미만
 
+### 13. DOCX MD 검수 + 보일러플레이트 정제 (2026-03-18)
+- **저작권 섹션 일괄 삭제**: 63개 파일 전체에서 65개 저작권 보일러플레이트 블록 제거
+  - 시작 마커: `^저작권법?$`, 끝 마커: `Reproduction of the integral part...`
+  - 제1027호, 제1033호: 중복 블록 2개씩 삭제
+  - 제2101호: `저작권법` 변형 마커 대응
+  - 본문 속 회계 용어("저작권, 특허권" 등)는 보존 확인
+- **목차 테이블 삭제 + 별도 저장**: 3개 파일에서 10개 목차 테이블 제거
+  - `_TOC_경영진설명서_...md`, `_TOC_실무서_2_...md`, `_TOC_개념체계_...md` 생성
+  - 개념체계 목차: 원본 DOCX에서 XML 파싱으로 8개 장 구조 + 문단번호 복원
+- **빈 테이블 복원**: 실무서 2 "그림 2— 회계정책 정보가 중요한지를 판단함"
+  - 원본 DOCX에서 플로차트형 판단 다이어그램 추출 → 3열 표 구조로 복원
+- **authority boost 삭제**: `apply_authority_boost()` 함수 및 `QueryPlan.authority_boost` 필드 제거
+  - MD 검수 후 재청킹 예정이므로 점수 감쇠 임시방편 불필요
+  - `AUTHORITY_FILTERS` / `get_authority_filter()`는 검색 필터 용도로 유지
+
 ---
 
 ## 다음 작업
@@ -203,7 +218,7 @@
 - `search/db.py` — `psycopg_pool` 커넥션 풀, `build_where_clause()` 필터 빌더
 - `search/retriever.py` — `PgVectorRetriever`, `expand_to_parents`, `format_parent_context`, `load_child_documents`, `search_with_parent`
 - `search/reranker.py` — `LocalReranker`(BGE), `CohereReranker`, `get_reranker()`
-- `search/query_router.py` — `classify_query()` → `QueryPlan`, `apply_authority_boost()`
+- `search/query_router.py` — `classify_query()` → `QueryPlan`
 - `search/tools.py` — **4개 Agentic tool** 스키마 + executor + `dispatch_tool()`
   - `fetch_paragraphs`: 특정 문단 직접 조회
   - `find_referencing_chunks`: 역방향 검색
@@ -220,7 +235,8 @@
 - `output/clean_md/*.md` — 정제된 마크다운 (63개)
 - `output/chunks/*.json` — v1 청크 (PDF 기반, 16,052 children) — **DEPRECATED**
 - `output/chunks_v2/*.json` — **v2 청크 (DOCX 기반, 15,060 children)** ← 현재 사용
-- `output/docx_md/*.md` — DOCX→MD 변환 결과 (63개)
+- `output/docx_md/*.md` — DOCX→MD 변환 결과 (63개, 저작권/목차 정제 완료)
+- `output/docx_md/_TOC_*.md` — 목차 별도 저장 (3개)
 - `output/terms_index.json` — 기준서별 용어정의 청크 매핑 (40개 기준서)
 - `qdrant_storage/` — **[DEPRECATED]** 이전 Qdrant 로컬 벡터DB (삭제 가능)
 
@@ -236,7 +252,7 @@
 query
   → classify_query()                          # 5-way 분류 → QueryPlan
   → Hybrid Retrieval (Dense pgvector + BM25, K=30, query_filter 적용)
-  → Reranker (Top-15) + Authority Boost       # bc/ie 0.85 감쇠
+  → Reranker (Top-15)
   → expand_parents                            # parent 그룹핑 + sibling 확장 (~12K자)
   → LLM Generate ⇄ Tool Loop (최대 3회)
       ├─ fetch_paragraphs: 교차참조 문단 조회
@@ -252,7 +268,6 @@ query
   → query_router.classify_query()         # 5-way 분류 → QueryPlan
   → retriever.PgVectorRetriever           # 벡터 검색 (pgvector cosine)
   → reranker.get_reranker().rerank()      # cross-encoder rerank
-  → query_router.apply_authority_boost()  # bc/ie 점수 감쇠
   → 최종 문서 리스트
 ```
 

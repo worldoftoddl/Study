@@ -30,7 +30,6 @@ class QueryPlan:
     retrieval_k: int = 30
     rerank_n: int = 10
     direct_lookup_ids: list[str] = field(default_factory=list)
-    authority_boost: bool = True
     expand_standards: bool = False
     detected_standards: list[str] = field(default_factory=list)
 
@@ -175,7 +174,7 @@ def classify_query(query: str) -> QueryPlan:
             direct_lookup_ids=direct_ids,
             retrieval_k=5,
             rerank_n=5,
-            authority_boost=False,
+
             detected_standards=detected,
         )
 
@@ -186,7 +185,7 @@ def classify_query(query: str) -> QueryPlan:
             query_filter=_build_ie_priority_filter(),
             retrieval_k=20,
             rerank_n=10,
-            authority_boost=False,
+
             expand_standards=len(detected) >= 1,
             detected_standards=detected,
         )
@@ -198,7 +197,7 @@ def classify_query(query: str) -> QueryPlan:
             query_filter=None,  # full search
             retrieval_k=30,
             rerank_n=10,
-            authority_boost=False,
+
             expand_standards=len(detected) >= 1,
             detected_standards=detected,
         )
@@ -210,7 +209,7 @@ def classify_query(query: str) -> QueryPlan:
             query_filter=None,
             retrieval_k=40,
             rerank_n=15,
-            authority_boost=True,
+
             expand_standards=True,
             detected_standards=detected,
         )
@@ -227,31 +226,3 @@ def classify_query(query: str) -> QueryPlan:
     )
 
 
-def apply_authority_boost(
-    documents: list, boost_factor: float = 0.85
-) -> list:
-    """Rerank 후 비규범적 문서(bc/ie)의 점수를 낮춘다.
-
-    Args:
-        documents: rerank_score가 metadata에 있는 Document 리스트.
-        boost_factor: bc/ie 문서에 곱할 계수 (0~1). 기본 0.85.
-
-    Returns:
-        authority boost 적용 후 재정렬된 Document 리스트.
-    """
-    from langchain_core.documents import Document
-
-    boosted = []
-    for doc in documents:
-        score = doc.metadata.get("rerank_score", 0.0)
-        section = doc.metadata.get("section_type", "")
-        if section in ("bc", "ie"):
-            score *= boost_factor
-        new_doc = Document(
-            page_content=doc.page_content,
-            metadata={**doc.metadata, "rerank_score": round(score, 6)},
-        )
-        boosted.append(new_doc)
-
-    boosted.sort(key=lambda d: d.metadata["rerank_score"], reverse=True)
-    return boosted

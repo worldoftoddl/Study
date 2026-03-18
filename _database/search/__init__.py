@@ -23,7 +23,6 @@ from search.retriever import (
 from search.reranker import get_reranker, BaseReranker
 from search.query_router import (
     classify_query,
-    apply_authority_boost,
     QueryType,
     QueryPlan,
 )
@@ -42,7 +41,7 @@ __all__ = [
     "expand_to_parents", "format_parent_context",
     "get_authority_filter", "AUTHORITY_FILTERS",
     "get_reranker", "BaseReranker",
-    "classify_query", "apply_authority_boost", "QueryType", "QueryPlan",
+    "classify_query", "QueryType", "QueryPlan",
     "get_graph", "get_neighbors", "get_reverse_refs", "get_display_id",
     "reverse_lookup_chunks",
     "TOOL_SCHEMAS", "dispatch_tool",
