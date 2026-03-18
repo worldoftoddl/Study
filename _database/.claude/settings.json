@@ -1,0 +1,39 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(source .venv/bin/activate)",
+      "Bash(python3:*)",
+      "Bash(python -m pipeline.terms_index --verbose)",
+      "Bash(python -c \"from search.terms_resolver import inject_term_definitions; print\\(''terms_resolver OK''\\)\")",
+      "Bash(python -m eval.evaluator)",
+      "Read(//home/shin/.claude/**)",
+      "Read(//tmp/**)",
+      "Bash(ls -lt /tmp/*claude*)",
+      "Bash(find /tmp/ -name *claude* -type f)",
+      "Bash(find ~/.claude -name *.log -o -name *.jsonl)",
+      "Bash(ls -lt ~/.claude/projects/-home-shin-Study--database/*.jsonl)",
+      "Bash(journalctl --user -n 50 --since '2026-03-10 13:00')",
+      "Bash(dmesg -T)",
+      "Bash(head -c 500 /home/shin/Study/_database/output/chunks/시행중_K-IFRS_제1109호_금융상품\\\\\\(2025_개정_2021_타기준서_제정_수정목록_23-1_2020_구성양식_변경_반영\\\\\\).json)",
+      "Bash(jq '.chunks[] | select\\(.chunk_id == \"\"KIFRS1109_main_h_부록_용어의_정의\"\"\\) | {chunk_id, heading_text, content: .content[0:200]}' /home/shin/Study/_database/output/chunks/시행중_K-IFRS_제1109호_금융상품\\\\\\(2025_개정_2021_타기준서_제정_수정목록_23-1_2020_구성양식_변경_반영\\\\\\).json)",
+      "Bash(grep -l \"부록_용어의_정의\\\\|ag_h_용어의_정의\" /home/shin/Study/_database/output/chunks/*.json)",
+      "Bash(grep -B2 -A15 parent_id.*부록_용어의_정의 /home/shin/Study/_database/output/chunks/시행중_K-IFRS_제1109호_금융상품*.json)",
+      "Bash(grep -B2 -A8 parent_id.*ag_h_용어의_정의 /home/shin/Study/_database/output/chunks/시행중_K-IFRS_제1032호_금융상품*.json)",
+      "Bash(grep -E \"\\\\.\\(json|yaml|txt\\)$\")",
+      "Bash(.venv/bin/python -m search.embedder --create-index)",
+      "Bash(xargs -I {} ls -lh {})",
+      "Bash(.venv/bin/python3 -c \"from search.tools import TOOL_SCHEMAS, dispatch_tool; print\\(f''TOOL_SCHEMAS: {len\\(TOOL_SCHEMAS\\)}개''\\); print\\([t[''name''] for t in TOOL_SCHEMAS]\\)\")",
+      "Bash(git check-ignore:*)",
+      "Bash(ls -lh /home/shin/Study/_database/*.ipynb)",
+      "Bash(wc -l /home/shin/Study/_database/search/*.py /home/shin/Study/_database/pipeline/*.py)",
+      "Bash(du -sh /home/shin/Study/_database/qdrant_storage/*)",
+      "Bash(du -sh /home/shin/Study/_database/output/*)",
+      "Bash(git -C /home/shin/Study/_database log --oneline)",
+      "Read(//home/shin/Study/Agent_Structure/**)",
+      "Bash(grep -r \"create_deep_agent\\\\|from deepagents\" /home/shin/Study/Agent_Structure --include=\"*.py\" ! -path \"*/.venv/*\" -A 3 -B 1)"
+    ],
+    "additionalDirectories": [
+      "/home/shin/Study/Agent_Structure/tools"
+    ]
+  }
+}

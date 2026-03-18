@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(python3 -m venv /home/shin/Study/Agent_Structure/.venv)",
+      "Bash(/home/shin/Study/Agent_Structure/.venv/bin/pip install:*)",
+      "Bash(gh pr:*)",
+      "Read(//home/shin/Study/**)",
+      "Bash(/home/shin/Study/Agent_Structure/.venv/bin/python -c \"from Agent_Structure.config import settings; print\\(''settings OK:'', settings\\)\")",
+      "Bash(/home/shin/Study/Agent_Structure/.venv/bin/python -c \"from Agent_Structure.tools import tool_registry; print\\(''tools OK:'', tool_registry.list_names\\(\\)\\)\")",
+      "Bash(ls -la /home/shin/Study/Agent_Structure/.env*)",
+      "Bash(python -m json.tool tutorial.ipynb)",
+      "Bash(python3 -m json.tool /home/shin/Study/Agent_Structure/tutorial.ipynb)",
+      "Bash(grep -E '\\\\.\\(py|ipynb|md|txt|json|yaml|yml\\)$')",
+      "Bash(git status:*)",
+      "Bash(grep -v \"^\\\\.$\")",
+      "Read(//home/shin/**)",
+      "Bash(python3 -c \"from langchain.agents import create_agent; import inspect; print\\(inspect.signature\\(create_agent\\)\\)\")",
+      "Bash(python3:*)",
+      "Bash(find /home/shin/Study/Agent_Structure -type f ! -path */.venv/* ! -path */__pycache__/* ! -path *.pyc)",
+      "Bash(python -c \":*)",
+      "Bash(/home/shin/Study/Agent_Structure/.venv/bin/python -c \"import langchain_upstage; print\\(''OK''\\)\")",
+      "Bash(.venv/bin/python -c \":*)"
+    ]
+  }
+}
