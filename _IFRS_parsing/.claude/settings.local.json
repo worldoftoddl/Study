@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(source /home/shin/Study/_database/.venv/bin/activate && echo \"Virtual environment activated successfully\" && which python)",
+      "Bash(source /home/shin/Study/_database/.venv/bin/activate && pip list 2>/dev/null | grep -i -E \"chroma|langchain-chroma|qdrant\")",
+      "Bash(cd \"/home/shin/Study/LangChain/2. AI Agent 개발\" && source /home/shin/Study/_database/.venv/bin/activate && python main.py --help 2>&1)",
+      "Bash(head -500 /home/shin/Study/_database/output/chunks/시행중_K-IFRS_제1001호_재무제표_표시\\\\\\(2023_개정_2021_타기준서_제정_수정목록_25-1_2020_구성양식_변경_반영\\\\\\).json)",
+      "Bash(wc -l /home/shin/Study/_database/output/chunks/시행중_K-IFRS_제1001호_재무제표_표시\\\\\\(2023_개정_2021_타기준서_제정_수정목록_25-1_2020_구성양식_변경_반영\\\\\\).json)",
+      "Bash(find /home/shin/Study/_database -name *.sql -o -name *schema* -o -name *migration*)"
+    ]
+  }
+}
