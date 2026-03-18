@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git status:*)",
+      "Read(//home/shin/Study/**)",
+      "Bash(python3 -c \"import json; json.load\\(open\\(''/home/shin/Study/deep_research/research_agent.ipynb''\\)\\)\")",
+      "Bash(xargs ls:*)",
+      "Bash(grep -r \"import\" /home/shin/Study/deep_research/_database/search/*.py)",
+      "Bash(python3 -c \":*)",
+      "Bash(.venv/bin/jupyter nbconvert:*)",
+      "Bash(grep -l \"rerank\\\\|FlagReranker\\\\|CrossEncoder\" /home/shin/Study/deep_research/*.ipynb)",
+      "Bash(.venv/bin/pip install:*)",
+      "Bash(ls /home/shin/Study/deep_research/.venv/bin/python*)",
+      "Bash(/home/shin/Study/deep_research/.venv/bin/python -m pip install cohere)",
+      "Bash(uv add:*)",
+      "WebFetch(domain:docs.mindlogic.ai)"
+    ]
+  }
+}
