@@ -174,6 +174,19 @@
   - MD 검수 후 재청킹 예정이므로 점수 감쇠 임시방편 불필요
   - `AUTHORITY_FILTERS` / `get_authority_filter()`는 검색 필터 용도로 유지
 
+### 14. DOCX MD 시행일·의결문·메타 섹션 일괄 삭제 (2026-03-18)
+- **`pipeline/md_section_cleaner.py` 신규 생성** — MD 보일러플레이트 섹션 삭제 스크립트
+- **삭제 대상 4종**:
+  - `## 시행일*` 섹션 (개정이력: "XXXX년에 문단 XX가 개정되었다" 등 변경 로그)
+  - 의결문 블록 (166건, "회계기준위원회의 의결" + 위원 명단)
+  - `### 기타 참고사항` 섹션 (국제기준 대응 관계, 준수 설명 등)
+  - `제·개정 경과` 섹션
+- **보존 대상**:
+  - `### 경과 규정` (12개 파일) — 전환 방법 등 실질 회계 지침
+  - `정의된 용어들` / `부록` 등 본문 콘텐츠
+- **결과**: 63개 파일, **12,244줄 삭제** (77,791 → 65,423줄, -15.9%)
+  - 멱등성: 2회 실행 시 삭제 0줄
+
 ---
 
 ## 다음 작업
@@ -210,6 +223,7 @@
 - `pipeline/kifrs_chunker.py` — 청킹 + 교차참조 추출 (B/C/BCE 패턴 확장됨)
 - `pipeline/etc_chunker.py` — 비표준 문서 청킹 (개념체계, 실무서)
 - `pipeline/bc_chunk_cleaner.py` — 저가치 BC 청크 제거 (6개 규칙 + CLI)
+- `pipeline/md_section_cleaner.py` — 시행일/의결문/기타참고사항 섹션 삭제 (경과규정 보존)
 - `pipeline/terms_index.py` — 용어정의 인덱스 빌더
 
 ### search/ — 검색 엔진 모듈 (PostgreSQL + pgvector)
@@ -235,7 +249,7 @@
 - `output/clean_md/*.md` — 정제된 마크다운 (63개)
 - `output/chunks/*.json` — v1 청크 (PDF 기반, 16,052 children) — **DEPRECATED**
 - `output/chunks_v2/*.json` — **v2 청크 (DOCX 기반, 15,060 children)** ← 현재 사용
-- `output/docx_md/*.md` — DOCX→MD 변환 결과 (63개, 저작권/목차 정제 완료)
+- `output/docx_md/*.md` — DOCX→MD 변환 결과 (63개, 저작권/목차/시행일/의결문 정제 완료, 65,423줄)
 - `output/docx_md/_TOC_*.md` — 목차 별도 저장 (3개)
 - `output/terms_index.json` — 기준서별 용어정의 청크 매핑 (40개 기준서)
 - `qdrant_storage/` — **[DEPRECATED]** 이전 Qdrant 로컬 벡터DB (삭제 가능)
