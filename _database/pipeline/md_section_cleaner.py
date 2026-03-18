@@ -39,8 +39,17 @@ def remove_sections(lines: list[str]) -> list[str]:
                 # 다음 ## 레벨 헤더가 나오면 시행일 섹션 끝
                 if re.match(r'^## [^#]', s):
                     break
-                # "부록" 단독 라인도 시행일 섹션 종료 (경영진설명서 등)
-                if s == '부록':
+                # "부록" 으로 시작하는 줄이면 시행일 섹션 종료 (부록 A, B 등 보호)
+                if s.startswith('부록'):
+                    break
+                # 부록 문단 시작 (A1, B1, C1, D1, E1 등) → 시행일 섹션 종료
+                if re.match(r'^[A-E]\d', s):
+                    break
+                # "정의된 용어" → 부록 A 시작 마커
+                if s.startswith('정의된 용어'):
+                    break
+                # BC문단 (결론도출근거) 보호
+                if re.match(r'^BC[A-Z]?\d', s):
                     break
                 # ### 경과 규정 발견 → 보존 블록 시작
                 if re.match(r'^### 경과\s*규정', s):
@@ -93,19 +102,15 @@ def remove_sections(lines: list[str]) -> list[str]:
             continue
 
         # 3) ### 기타 참고사항 섹션
+        #    기타 참고사항 아래 하위 블록(국제회계기준과의 관계, 기준서 주요 특징 등)도 삭제
+        #    단, 다른 ## 또는 ### 섹션에서는 중단
         if re.match(r'^### 기타 참고사항', stripped):
             j = i + 1
             while j < n:
                 s = lines[j].strip()
+                # ## 또는 ### 헤더가 나오면 중단
                 if re.match(r'^#{2,3} [^#]', s):
-                    # 기타 참고사항 내부의 하위 내용은 삭제, ## 레벨에서 중단
-                    if s.startswith('## '):
-                        break
-                    # ### 레벨이 "기타 참고사항" 내부 하위인지 다른 섹션인지 판단
-                    # 기타 참고사항 아래에는 국제회계기준과의 관계, 기준서 주요 특징 등이 있음
-                    # 안전하게: 제·개정 경과 이후 끝나므로 ## 에서만 중단
-                    if s.startswith('## '):
-                        break
+                    break
                 j += 1
             i = j
             continue
